@@ -1,0 +1,16 @@
+sc_node_not_relation->concept_canteen;;
+concept_canteen=>nrel_main_idtf:
+[ОСП "Комбинат питания"](*<-lang_ru;;*);
+[OSB "Canteen"](*<-lang_en;;*);; 
+concept_canteen->canteen_bsuir;;
+concept_canteen<- rrel_key_sc_element:
+	... 
+	(*<-sc_definition;;
+     =>nrel_main_idtf:[Опр.(ОСП «Комбинат питания»)](*<-lang_ru;;*);;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Опр.(ОСП «Комбинат питания» - это государственное предприятие, предоставляющее услуги общепита.](* <- lang_ru;; *);;
+		*);;
+	*);;

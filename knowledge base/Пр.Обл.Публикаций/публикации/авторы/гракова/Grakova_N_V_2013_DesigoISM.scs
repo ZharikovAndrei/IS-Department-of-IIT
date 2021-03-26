@@ -1,0 +1,29 @@
+publication_Grakova_N_V_2013_DesigoISM=> nrel_main_idtf:
+[Гракова Н.В. 2013 - УправПИС]
+	(*
+	<- lang_ru;;
+	*);
+	[Grakova_N_V_2013_DesigoISM] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Grakova_N_V_2013_DesigoISM => nrel_name_publication:[Управление проектированием интеллектуальных систем](*
+	<- lang_ru;;
+	*);;
+
+publication_Grakova_N_V_2013_DesigoISM <= nrel_author:
+Grakova_N_V;Zhukov_I_I;;
+
+publication_Grakova_N_V_2013_DesigoISM <- article;;
+
+publication_Grakova_N_V_2013_DesigoISM => nrel_reference_standard: [Гракова, Н.В. Управление проектированием интеллектуальных систем / Н.В. Гракова, И.И. Жуков // Интеллектуальный анализ информации: сб. тр. междунар. науч. конф. им. Т.А.Таран ИАИ-2013, Киев, 15–17 мая 2013г. / Министерство образования и науки Украины, Российская ассоциация искусственного интеллекта, Национальный технический университет Украины "КПИ", Факультет прикладной математики, Институт прикладного системного анализа, Издательство "Просвіта"; редкол.: Ю.Р .Валькман и др. – Киев, 2013. – С. 137-141    ];;
+
+publication_Grakova_N_V_2013_DesigoISM => nrel_year_publication: 2013;;
+
+publication_Grakova_N_V_2013_DesigoISM => nrel_information_publication: International_Scientific_Conference_named_TA_Taran_Intelligent_analysis_of_information_2013;;
+
+publication_Grakova_N_V_2013_DesigoISM => nrel_number_page: ..2013_DesigoISM(*
+-> rrel_from : 137;;
+-> rrel_by : 141;;
+*);;

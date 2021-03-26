@@ -1,0 +1,14 @@
+Fedotova_Alyona_Valerievna
+=>nrel_main_idtf:
+[Федотова Алёна Валериевна](*<-lang_ru;;*);
+ <-person;
+<-concept_assistant_professor;
+=>nrel_main_idtf:
+[Fedotova Alyona Valerievna](*<-lang_en;;*);;
+Fedotova_Alyona_Valerievna -> rrel_email:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [aluon@mail.ru](*<-lang_en;;*)
+   ;;*)
+   ;;*)
+   ;; 

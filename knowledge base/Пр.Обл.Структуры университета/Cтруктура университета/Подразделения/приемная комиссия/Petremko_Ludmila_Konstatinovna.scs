@@ -1,0 +1,30 @@
+Petremko_Ludmila_Konstatinovna=>nrel_main_idtf:
+[Петренко Людмила Константиновна](*<-lang_ru;;*);
+[Petrenko Ludmila Konstantinovna](*<-lang_en;;*);;
+Petremko_Ludmila_Konstatinovna -> rrel_email:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+ [no_one ](*<-lang_en;;*)
+   ;;*)
+   ;;*)
+   ;;
+
+Petremko_Ludmila_Konstatinovna -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+ [+375 17 293-88-15];;*)
+   ;;*)
+   ;;
+
+Petremko_Ludmila_Konstatinovna -> rrel_work_place: aud_310_2;;
+Petremko_Ludmila_Konstatinovna <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example:
+                       "file://Petrenko.jpg";;
+               *);;
+        *);;

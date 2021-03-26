@@ -1,0 +1,9 @@
+sc_node_not_relation->concept_department_of_shift_service;;
+
+concept_department_of_shift_service=>nrel_main_idtf:
+[отдел вахтовой службы](*<-lang_ru;;*);
+[concept department of shift service](*<-lang_en;;*);; 
+
+concept_department_of_shift_service=> nrel_inclusion:watch_of_the_1_corp; watch_of_the_2_corp; 
+
+watch_of_the_3_corp; watch_of_the_4_corp; watch_of_the_5_corp;watch_of_the_6_corp;;

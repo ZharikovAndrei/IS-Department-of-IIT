@@ -1,0 +1,24 @@
+Proceedings_of_the_5th_Belarussian_cosmic_congress_2_volume => nrel_main_idtf:
+[Пятый Белорусский космический конгресс: материалы конгресса. Том II]
+	(*
+	<- lang_ru;;
+	*);
+	[Proceedings of the 5th Belarussian cosmic congress 2 volume]
+	(*
+	<- lang_en;;
+	*);;
+Proceedings_of_the_5th_Belarussian_cosmic_congress_2_volume => nrel_publishing:
+OIPI;;
+
+Proceedings_of_the_5th_Belarussian_cosmic_congress_2_volume => nrel_place_publication:
+minsk;;
+
+OIPI => nrel_main_idtf:
+[ОИПИ]
+	(*
+	<- lang_ru;;
+	*);
+	[OIPI]
+	(*
+	<- lang_en;;
+	*);;

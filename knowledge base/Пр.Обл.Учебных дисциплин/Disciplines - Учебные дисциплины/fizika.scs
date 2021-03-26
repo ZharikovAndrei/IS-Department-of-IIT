@@ -1,0 +1,14 @@
+physics
+=>nrel_main_idtf: [Физика] (*<-lang_ru;;*);
+=>nrel_main_idtf: [Physics] (*<-lang_en;;*);
+<=nrel_trains: the_department_of_physics;
+<=nrel_class_number: 1(* <-positive_number;;*);
+<=nrel_class_number: 2(* <-positive_number;;*);
+<=nrel_semester_number: 2(* <-positive_number;;*);
+<=nrel_semester_number: 3(* <-positive_number;;*);
+<=nrel_semester_number: 4(* <-positive_number;;*);
+<=nrel_lecture_hours: 118(*<-positive_number;;*);
+<=nrel_labs_hours: 54(*<-positive_number;;*);
+<=nrel_practice_hours: 50(*<-positive_number;;*);
+<=nrel_component: concept_mandatory_component;
+<=nrel_cycle: concept_tsikl_estesstvenno_nauchnykh_distsiplin;;

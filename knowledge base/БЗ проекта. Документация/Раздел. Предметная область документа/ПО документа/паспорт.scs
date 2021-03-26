@@ -1,0 +1,13 @@
+sc_node_not_relation -> pasport;;
+
+pasport => nrel_main_idtf:
+[паспорт]
+	(*
+	<- lang_ru;;
+	*);
+	[pasport] 
+	(*
+	<- lang_en;;
+	*);;
+
+personal_record -> pasport;;

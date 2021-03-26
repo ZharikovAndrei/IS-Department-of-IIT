@@ -1,0 +1,15 @@
+number=>nrel_main_idtf:
+[число](*<-lang_ru;;*);
+[number](*<-lang_en;;*);;
+
+number <- rrel_key_sc_element:
+	...
+	(*<-sc_definition;;
+     =>nrel_main_idtf:[Опр.(число)](*<-lang_ru;;*);;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: 
+			[Число — основное понятие математики, используемое для количественной характеристики, сравнения, нумерации объектов и их частей.](* <- lang_ru;; *);;
+		*);;
+	*);;

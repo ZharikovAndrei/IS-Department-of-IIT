@@ -1,0 +1,10 @@
+smart_internet_technologies
+=>nrel_main_idtf: [Интеллектуальные Интернет-технологии] (*<-lang_ru;;*);
+=>nrel_main_idtf: [Smart internet technologies]  (*<-lang_en;;*);
+<=nrel_trains: the_department_of_intelligent_informational_technologies;
+<=nrel_class_number: 2(* <-positive_number;;*);
+<=nrel_semester_number: 4(* <-positive_number;;*);
+<=nrel_lecture_hours: 18(*<-positive_number;;*);
+<=nrel_labs_hours: 16(*<-positive_number;;*);
+<=nrel_component: concept_optionally_component;
+<=nrel_cycle: concept_tsikl_obshcheprofessionalnykh_i_spetsialnykh_distsiplin;;

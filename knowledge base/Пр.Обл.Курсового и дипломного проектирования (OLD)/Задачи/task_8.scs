@@ -1,0 +1,7 @@
+task_8
+	=> nrel_main_idtf:[Классификация студенческих проектов](*<-lang_ru;;*);
+	<- project_task;
+	<- basic_project_task;
+	<- important_project_task;
+	<- executable_project_task;
+	=> nrel_executor: Trunts_Vitaliy_Vladislavovich;;

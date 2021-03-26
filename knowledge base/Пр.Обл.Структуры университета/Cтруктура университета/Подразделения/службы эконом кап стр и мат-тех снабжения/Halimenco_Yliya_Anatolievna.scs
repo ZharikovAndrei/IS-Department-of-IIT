@@ -1,0 +1,20 @@
+Halimenco_Yliya_Anatolievna=>nrel_main_idtf:
+[Халименко Юлия Анатольевна](*<-lang_ru;;*);
+[Halimenco Yliya Anatolievna](*<-lang_en;;*);;
+
+Halimenco_Yliya_Anatolievna -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+[+375 17 293-80-69];;*)
+   ;;*)
+   ;; 
+Halimenco_Yliya_Anatolievna -> rrel_fax:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+[+375 17 293-21-04];;*)
+   ;;*)
+   ;; 
+
+Halimenco_Yliya_Anatolievna-> rrel_work_place: aud_409_2;;
+
+

@@ -1,0 +1,12 @@
+Intelligent_technology_in_geographic_information_systems=> nrel_main_idtf:
+[Интеллектуальные технологии в геоинформационных системах: учеб. пособ.]
+	(*
+	<- lang_ru;;
+	*);
+[Intelligent technology in geographic information systems: tutorial.]
+	(*
+	<- lang_en;;
+	*);;
+Intelligent_technology_in_geographic_information_systems => nrel_publishing: bsuir;;
+
+Intelligent_technology_in_geographic_information_systems => nrel_place_publication: minsk;;

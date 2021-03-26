@@ -1,0 +1,209 @@
+//
+agent_of_finding_count_publication_of_author
+// Множество идентификаторов
+	=> nrel_main_idtf:
+	[агентная scp-программа подсчета количества публикаций у автора] (* <- lang_ru;;
+										*);
+[agent scp-program of finding count publication of author] (* <- lang_en;; *);
+<- agent_scp_program;;
+// Указываем, что операция поиска агента является scp-программой
+scp_program -> agent_of_finding_count_publication_of_author
+(*
+// Множество параметров агентной операции
+-> rrel_params: .agent_of_finding_count_publication_of_author
+	(*
+	-> rrel_1: rrel_in: _event;;
+	-> rrel_2: rrel_in: _input_arc;;
+	*);;
+// Множество операторов агентной операции
+-> rrel_operators: .agent_of_finding_count_publication_of_author_operator_set
+(*
+// Первый исполняемый оператор операции
+	-> rrel_init: .agent_of_finding_count_publication_of_author_operator1A
+	(*
+	<- searchElStr3;;
+	-> rrel_1: rrel_assign: rrel_scp_var: _temp;;
+	-> rrel_2: rrel_fixed: rrel_scp_var: _input_arc;;
+	-> rrel_3: rrel_assign: rrel_scp_var: _quest;;
+	=> nrel_goto: .agent_of_finding_count_publication_of_author_operator1B;;
+	*);;
+// В rrel_1 устанавливаем имя придуманного нами вопроса
+// Агент будет просыпаться, когда обнаружит наш вопрос.
+-> .agent_of_finding_count_publication_of_author_operator1B
+	(*
+	<- searchElStr3;;
+	-> rrel_1: rrel_fixed: rrel_scp_const: question_of_finding_count_pulication;;
+	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc;;
+	-> rrel_3: rrel_fixed: rrel_scp_var: _quest;;
+	=> nrel_then: .agent_of_finding_count_publication_of_author_operator1C;;
+	=> nrel_else: .agent_of_finding_count_publication_of_author_operator_return;;
+	*);;
+// Найдём параметры операции – их подал на вход сам пользователь
+-> .agent_of_finding_count_publication_of_author_operator1C
+	(*
+	<- searchElStr3;;
+	-> rrel_1: rrel_fixed: rrel_scp_var: _quest;;
+	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc;;
+	-> rrel_3: rrel_assign: rrel_scp_var: _param;;
+
+	=> nrel_then: .agent_of_finding_count_publication_of_author_operator1D;;
+	=> nrel_else: .agent_of_finding_count_publication_of_author_operator_return;;
+	*);;
+// Сгенерировать узел, в который мы поместим конструкцию ответа var fixer : [значение]
+-> .agent_of_finding_count_publication_of_author_operator1D
+	(*
+		<- genEl;;
+		-> rrel_1: rrel_assign: rrel_const: rrel_node: rrel_scp_var: _answer;;
+		=> nrel_goto: .agent_of_finding_count_publication_of_author_operator1E;;
+		*);;
+
+
+-> .agent_of_finding_count_publication_of_author_operator1E
+	(*
+		<- searchSetStr5;;
+		-> rrel_1: rrel_fixed: rrel_scp_var: _param;;
+		-> rrel_2: rrel_assign: rrel_const: rrel_common: rrel_scp_var: _arc_author_1;;
+		-> rrel_3: rrel_assign: rrel_scp_var: _publication;;
+		-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc_author_2;;
+		-> rrel_5: rrel_fixed: rrel_scp_const: nrel_author;;
+		-> rrel_set_3: rrel_assign: rrel_scp_var: _set_of_publication;;
+		=> nrel_then: .agent_of_finding_count_publication_of_author_operator1FF;;
+		=> nrel_else: .agent_of_finding_count_publication_of_author_operator_gen_answer;;
+	*);;
+
+
+
+-> .agent_of_finding_count_publication_of_author_operator1FF
+	(*
+		<- printEl;;
+		-> rrel_1: rrel_fixed: rrel_scp_var: _set_of_publication;;
+		=> nrel_goto: .agent_of_finding_count_publication_of_author_operator1F;;
+		*);;
+
+
+
+-> .agent_of_finding_count_publication_of_author_operator1F
+	(*
+		<- contAssign;;
+		-> rrel_1: rrel_assign: rrel_scp_var: _increment;;
+		-> rrel_2: rrel_fixed: rrel_scp_const: [0];;
+		=> nrel_goto: .agent_of_finding_count_publication_of_author_operator2F;;
+		*);;
+
+-> .agent_of_finding_count_publication_of_author_operator2F
+	(*
+		<- searchElStr3;;
+		-> rrel_1: rrel_fixed: rrel_scp_var: _set_of_publication;;
+		-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc_set_publication;;
+		-> rrel_3: rrel_assign: rrel_scp_var: _delete_publication;;
+		=> nrel_then: .agent_of_finding_count_publication_of_author_operator1H;;
+		=> nrel_else: .agent_of_finding_count_publication_of_author_operator1K;;
+	*);;
+
+-> .agent_of_finding_count_publication_of_author_operator1H
+	(*
+		<- eraseEl;;
+		-> rrel_1: rrel_fixed: rrel_erase: rrel_pos_const_perm: rrel_scp_var: _arc_set_publication;;
+		=> nrel_goto: .agent_of_finding_count_publication_of_author_operator1J;;
+	*);;
+
+
+-> .agent_of_finding_count_publication_of_author_operator1J
+	(*
+		<- contAdd;;
+		-> rrel_1: rrel_fixed: rrel_scp_var: _increment;;
+		-> rrel_2: rrel_fixed: rrel_scp_var: _increment;;
+		-> rrel_3: rrel_fixed: rrel_scp_const: [1];;
+		=> nrel_goto: .agent_of_finding_count_publication_of_author_operator2F;;
+	*);;
+
+
+-> .agent_of_finding_count_publication_of_author_operator1K
+	(*
+		<- genElStr5;;
+		-> rrel_1: rrel_fixed: rrel_scp_var: _param;;
+		-> rrel_2: rrel_assign: rrel_const: rrel_common: rrel_scp_var: _arc1;;
+		-> rrel_3: rrel_fixed: rrel_scp_var: _increment;;
+		-> rrel_4: rrel_assign: rrel_scp_var: rrel_pos_const_perm: _arc2;;
+		-> rrel_5: rrel_fixed: rrel_scp_const: nrel_count_publication;;
+
+		=> nrel_goto: .agent_of_finding_count_publication_of_author_operator3A;;
+
+		
+	*);;
+
+-> .agent_of_finding_count_publication_of_author_operator3A
+	(*
+		<- searchSetStr5;;
+		-> rrel_1: rrel_fixed: rrel_scp_var: _param;;
+		-> rrel_2: rrel_assign: rrel_common: rrel_scp_var: _arc1;;
+		-> rrel_3: rrel_fixed: rrel_scp_var: _increment;;
+		-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+		-> rrel_5: rrel_fixed: rrel_scp_const: nrel_count_publication;;
+
+		-> rrel_set_2: rrel_fixed: rrel_scp_var: _answer;;
+		-> rrel_set_4: rrel_fixed: rrel_scp_var: _answer;;
+
+		=> nrel_goto: .agent_of_finding_count_publication_of_author_operator3B;;
+		
+	*);;
+
+
+
+
+-> .agent_of_finding_count_publication_of_author_operator3B
+	(*
+		<- genElStr3;;
+		-> rrel_1: rrel_fixed: rrel_scp_var: _answer;;
+		-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
+		-> rrel_3: rrel_fixed: rrel_scp_var: _param;;
+		=> nrel_goto: .agent_of_finding_count_publication_of_author_operator3C;;
+	*);;
+
+-> .agent_of_finding_count_publication_of_author_operator3C
+	(*
+		<- genElStr3;;
+		-> rrel_1: rrel_fixed: rrel_scp_var: _answer;;
+		-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
+		-> rrel_3: rrel_fixed: rrel_scp_var: _increment;;
+		=> nrel_goto: .agent_of_finding_count_publication_of_author_operator3D;;
+	*);;
+
+-> .agent_of_finding_count_publication_of_author_operator3D
+	(*
+		<- genElStr3;;
+		-> rrel_1: rrel_fixed: rrel_scp_var: _answer;;
+		-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
+		-> rrel_3: rrel_fixed: rrel_scp_const: nrel_count_publication;;
+
+		=> nrel_goto: .agent_of_finding_count_publication_of_author_operator_gen_answerB;;
+	*);;
+
+
+
+-> .agent_of_finding_count_publication_of_author_operator_gen_answerB
+	(*
+		<- printEl;;
+		-> rrel_1: rrel_fixed: rrel_scp_var: _answer;;
+
+		=> nrel_goto: .agent_of_finding_count_publication_of_author_operator_gen_answer;;
+	*);;
+
+// Добавляем узел с конструкцией ответа
+-> .agent_of_finding_count_publication_of_author_operator_gen_answer
+	(*
+		<- genElStr5;;
+		-> rrel_1: rrel_fixed: rrel_scp_var: _quest;;
+		-> rrel_2: rrel_assign: rrel_const: rrel_common: rrel_scp_var: _arc;;
+		-> rrel_3: rrel_fixed: rrel_scp_var: _answer;;
+		-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+		-> rrel_5: rrel_fixed: rrel_scp_const: nrel_answer;;
+		=> nrel_goto: .agent_of_finding_illustrations_operator_return;;
+	*);;
+// Оператор завершения агентной операции
+-> .agent_of_finding_illustrations_operator_return
+	(*
+		<- return;;
+	*);;
+*);;
+*);;

@@ -1,0 +1,29 @@
+sc_node_not_relation -> materail_conference;;
+
+materail_conference => nrel_main_idtf:
+[материалы конференции]
+	(*
+	<- lang_ru;;
+	*);
+	[materail conference] 
+	(*
+	<- lang_en;;
+	*);;
+
+materail_conference <- rrel_key_sc_element: 
+        ...
+	(*
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[материалы конференции – сборник, содержащий итоги конференции в виде докладов, рекомендаций, решений]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;
+
+collection -> materail_conference;;
+
+unperiodical_collection -> materail_conference;;
+

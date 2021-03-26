@@ -1,0 +1,39 @@
+Uvarov_K_A
+=>nrel_main_idtf:
+[Уваров К.А.](*<-lang_ru;;*);
+<-person;
+=>nrel_idtf:
+[Uvarov Konstantin](*<-lang_en;;*);
+[Уваров Константин Александрович](*<-lang_ru;;*);
+
+<- rrel_key_sc_element:
+        ...
+        (*
+        <-illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example:
+                       "file://photos/Uvarov_Konstantin_Aleksandrovich.jpg";;
+               *);;
+        *);;
+Uvarov_K_A -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+ [+375 17 293-89-23];;*)
+   ;;*)
+   ;;
+Uvarov_K_A -> rrel_work_place: aud_610_5;;
+Uvarov_K_A -> rrel_email:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+ [uka@bsuir.by](*<-lang_en;;*)
+   ;;*)
+   ;;*)
+   ;;
+
+Uvarov_K_A=>nrel_fields_of_scientific_research:
+	[Интеллектуальные help-системы, интеллектуальные решатели задач];;
+Uvarov_K_A=>nrel_rate:1;;
+Uvarov_K_A=>nrel_load:0;;
+0<=nrel_sum_of_numbers:...;;

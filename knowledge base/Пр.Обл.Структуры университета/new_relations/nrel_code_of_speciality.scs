@@ -1,0 +1,26 @@
+sc_node_norole_relation-> nrel_code_of_speciality;;
+nrel_code_of_speciality=>nrel_main_idtf:
+[код специальности*](*<-lang_ru;;*);
+[code of speciality*](*<-lang_en;;*);; 
+
+
+nrel_code_of_speciality <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [Опр.(код специальности*)] (* <- lang_ru;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Отношение, связывающее специальность и код этой специальности.](* <- lang_ru;; *);;
+		*);;
+	*);;
+
+
+nrel_code_of_speciality=>nrel_second_domain:code;;
+nrel_code_of_speciality=>nrel_first_domain:speciality;;
+nrel_code_of_speciality=>nrel_definitional_domain:...(* <=nrel_combination:...(*->speciality;; ->code;;*) ;;
+				*);;
+
+

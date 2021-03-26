@@ -1,0 +1,5 @@
+aois_section_1_evolyutsiya_evm
+<- concept_section; 
+<= nrel_index_number: 1; 
+=> nrel_main_idtf: [Раздел 1: Эволюция ЭВМ] (* <- lang_ru;; *);;
+

@@ -1,0 +1,5 @@
+sc_node_not_relation->concept_department_of_economy;;
+concept_department_of_economy=>nrel_main_idtf:
+[хозяйственный отдел](*<-lang_ru;;*);
+[department of economy](*<-lang_en;;*);; 
+concept_department_of_economy->department_of_economy_bsuir;;

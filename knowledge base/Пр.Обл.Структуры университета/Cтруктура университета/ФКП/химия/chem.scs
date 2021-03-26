@@ -1,0 +1,71 @@
+the_department_of_chamistry=>nrel_main_idtf:
+[Кафедра химии](*<-lang_ru;;*);
+[the department of chamistry](*<-lang_en;;*);; 
+
+
+
+the_department_of_chamistry=>nrel_idtf:[ХИМ](*<-lang_ru;;*);;
+the_department_of_chamistry=>nrel_idtf:[CHAM](*<-lang_en;;*);;
+
+
+
+pers_comp_cham -> rrel_head_of_department: header_of_cham;;
+
+the_department_of_chamistry => nrel_info: cham_info;;
+
+the_department_of_chamistry => nrel_pers_comp: pers_comp_cham;;
+
+
+
+
+header_of_cham=>nrel_main_idtf:
+[Павлюковец Сергей Анатольевич ](*<-lang_ru;;*);
+[Pavlukovec Sergey Anatol'evich](*<-lang_en;;*);;
+
+
+
+cham_info=>nrel_main_idtf:
+[информация о кафедре ХИМ](*<-lang_ru;;*);
+[the information about the department of CHAM](*<-lang_en;;*);; 
+
+
+pers_comp_cham=>nrel_main_idtf:
+[Персональный состав кафедры ХИМ](*<-lang_ru;;*);
+[personal composition of the CHAM](*<-lang_en;;*);; 
+
+
+header_of_cham <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://../../../image/chem1.jpg";;
+               *);;
+        *);;
+
+
+
+
+
+
+cham_info <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [О кафедре] (* <- lang_ru;; *);;
+	<- sc_task;;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Кафедра обеспечивает базовую подготовку студентов по дисциплинам: «Химия», «Прикладная химия», «Физическая химия», «Коллоидная химия», «Общая и неорганическая химия», «Органическая химия и химия полимеров», «Физико-химические процессы», «Физико-химические основы радиоэлектроники» и спецкурс «Методы получения наночастиц».  ](* <- lang_ru;; *);;
+		*);;
+	*);;
+
+
+
+
+
+

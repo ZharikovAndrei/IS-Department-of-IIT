@@ -1,0 +1,18 @@
+teacher
+=>nrel_main_idtf:
+	[преподаватель] (* <-lang_ru;; *);
+->rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> [Преподаватель — физическое лицо,занимающееся преподавание учебной дисциплины.] (* <-lang_ru;; *);; 
+		*);;
+	*);
+
+=>nrel_inclusion:staff_employee;
+	hourly_work_employee;
+	moonlighter;;
+	

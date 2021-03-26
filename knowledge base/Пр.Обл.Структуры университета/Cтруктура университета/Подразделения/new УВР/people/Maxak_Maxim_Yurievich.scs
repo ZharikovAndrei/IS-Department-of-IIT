@@ -1,0 +1,33 @@
+Maxak_Maxim_Yurievich=>nrel_main_idtf:
+[Максак Максим Юрьевич](*<-lang_ru;;*);
+[Maxak Maxim Yurievich](*<-lang_en;;*);;
+
+Maxak_Maxim_Yurievich -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [+375 17 293-88-92];;*)
+   ;;*)
+   ;; 
+
+Maxak_Maxim_Yurievich -> rrel_work_place: aud_501_2;;
+
+Maxak_Maxim_Yurievich -> rrel_email:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [svat@bsuir.by](*<-lang_ru;;*)
+   ;;*)
+   ;;*)
+   ;; 
+
+
+Maxak_Maxim_Yurievich <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://Maxak.jpg";;
+               *);;
+        *);;

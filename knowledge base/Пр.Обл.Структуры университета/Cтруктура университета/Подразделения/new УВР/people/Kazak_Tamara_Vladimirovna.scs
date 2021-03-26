@@ -1,0 +1,33 @@
+Kazak_Tamara_Vladimirovna=>nrel_main_idtf:
+[Казак Тамара Владимировна](*<-lang_ru;;*);
+[Kazak Tamara Vladimirovna](*<-lang_en;;*);;
+
+Kazak_Tamara_Vladimirovna -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [+375 17 293-85-77];;*)
+   ;;*)
+   ;; 
+
+Kazak_Tamara_Vladimirovna -> rrel_work_place: aud_324_4;;
+
+Kazak_Tamara_Vladimirovna -> rrel_email:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [kazak@bsuir.by](*<-lang_ru;;*)
+   ;;*)
+   ;;*)
+   ;; 
+
+
+Kazak_Tamara_Vladimirovna <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://Kazak.jpg";;
+               *);;
+        *);;

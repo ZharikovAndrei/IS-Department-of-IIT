@@ -1,0 +1,8 @@
+foundations_of_information_science_asp=>nrel_main_idtf:[Специальность 05.13.17  Теоретические основы информатики] (* <-lang_ru;; *);;
+foundations_of_information_science_asp=>nrel_main_idtf:[Speciality 05.13.17  Foundations of information science] (* <-lang_en;; *);;
+
+foundations_of_information_science_asp=>nrel_idtf:[Специальность ТОЭ (аспирантура)] (* <-lang_ru;; *);;
+foundations_of_information_science_asp=>nrel_idtf:[Speciality FIS (graduate school)] (* <-lang_en;; *);;
+
+
+foundations_of_information_science_asp => nrel_code_of_speciality: code_of_the_speciality_foundations_of_information_science_asp;;

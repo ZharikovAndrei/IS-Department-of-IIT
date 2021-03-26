@@ -1,0 +1,13 @@
+applicant=>nrel_main_idtf:
+	[абитуриент] (* <-lang_ru;; *);
+
+->rrel_key_sc_element:
+	...
+	(*
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> [Абитуриент-физическое лицо,поступающее в данное учебное заведение.] (* <-lang_ru;; *);;
+		*);;
+	*);;

@@ -1,0 +1,28 @@
+sc_node_not_relation -> manuscripts;;
+
+manuscripts => nrel_main_idtf:
+[рукописный документ]
+	(*
+	<- lang_ru;;
+	*);
+	[manuscripts] 
+	(*
+	<- lang_en;;
+	*);;
+
+manuscripts <- rrel_key_sc_element: 
+        ...
+	(*
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[рукописный документ – письменный документ, созданный посредством нанесения знаков письма от руки]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;
+
+document -> manuscripts;;
+
+manuscripts <- written_document;;

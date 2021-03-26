@@ -1,0 +1,18 @@
+Mchedlidze_Tamazi_Ilich=>nrel_main_idtf:
+[Мчедлидзе Тамази Ильич](*<-lang_ru;;*);
+[Mchedlidze Tamazi Ilich](*<-lang_en;;*);;
+Mchedlidze_Tamazi_Ilich -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [+375 17 331-83-98];
+ [+375 17 293-21-37];;*)
+   ;;*)
+   ;; 
+Mchedlidze_Tamazi_Ilich -> rrel_work_place:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [ул. Я.Колоса, 28, столовая N 92];;*)
+   ;;*)
+   ;; 
+
+Mchedlidze_Tamazi_Ilich <- person;;

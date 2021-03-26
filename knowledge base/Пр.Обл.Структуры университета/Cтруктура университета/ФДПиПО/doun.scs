@@ -1,0 +1,128 @@
+the_faculty_of_preuniversity_training_and_vocational_guidance=>nrel_main_idtf:
+[Факультет доуниверситетской подготовки и профессиональной ориентации ](*<-lang_ru;;*);
+[the faculty of pre-university training and vocational guidance](*<-lang_en;;*);;
+
+
+the_faculty_of_preuniversity_training_and_vocational_guidance=>nrel_idtf:[ФДПиПО](*<-lang_ru;;*);;
+the_faculty_of_preuniversity_training_and_vocational_guidance=>nrel_idtf:[PTVG](*<-lang_en;;*);;
+
+dean_ptvg=>nrel_main_idtf:
+[Русин Виталий Геннадьевич](*<-lang_ru;;*);
+[Rusin Vitaliy Gennad'evich](*<-lang_en;;*);;
+
+
+logotipe_ptvg=>nrel_main_idtf:
+[логотип ФДПиПО](*<-lang_ru;;*);
+[the logotipe of PTVG](*<-lang_en;;*);;
+
+ptvg_info=>nrel_main_idtf:
+[информация о ФДПиПО](*<-lang_ru;;*);
+[the information about PTVG](*<-lang_en;;*);;
+
+
+task_ptvg=>nrel_main_idtf:
+[задачи ФДПиПО](*<-lang_ru;;*);
+[tasks of the PTVG](*<-lang_en;;*);;
+
+pers_comp_ptvg=>nrel_main_idtf:
+[Персональный состав ФДПиПО](*<-lang_ru;;*);
+[the personal composition of the PTVG](*<-lang_en;;*);;
+
+
+pers_comp_ptvg -> rrel_dean: dean_ptvg;;
+
+
+the_faculty_of_preuniversity_training_and_vocational_guidance => nrel_logotipe: logotipe_ptvg;;
+
+the_faculty_of_preuniversity_training_and_vocational_guidance => nrel_info: ptvg_info;;
+
+the_faculty_of_preuniversity_training_and_vocational_guidance => nrel_task: task_ptvg;;
+
+
+
+the_faculty_of_preuniversity_training_and_vocational_guidance <= nrel_decomposition:
+{
+the_department_of_general_studies
+};;
+
+
+
+
+
+
+
+
+
+
+ptvg_info <- rrel_key_sc_element:
+	...
+	(*
+	=> nrel_main_idtf: [О факультете] (* <- lang_ru;; *);;
+	<- sc_task;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Факультет доуниверситетской подготовки и профессиональной ориентации является важным звеном в единой системе беспрерывного интегрированного образования. Непосредственное участие факультета в отборе будущих абитуриентов еще на пороге школы является важным условием не только их профессиональной ориентации, но в первую очередь качественной подготовки к возможному обучению в высшей школе. ](* <- lang_ru;; *);;
+		*);;
+	*);;
+
+
+
+dean_ptvg <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example:
+                       "file://../../image/doun1.jpg";;
+               *);;
+        *);;
+
+
+
+logotipe_ptvg <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example:
+                       "file://../../image/doun2.jpg";;
+               *);;
+        *);;
+
+
+
+
+
+task_ptvg <- rrel_key_sc_element:
+	...
+	(*
+	=> nrel_main_idtf: [Основные задачи факультета] (* <- lang_ru;; *);;
+	<- sc_task;;
+	<= nrel_sc_text_translation:
+         ...
+		(*
+		-> rrel_example:
+			[обновление и закрепление знаний абитуриентов ](* <- lang_ru;; *);;
+		*);
+		 ...
+		(*
+		-> rrel_example:
+			[углубленное и расширенное образование и самообразование и персонализация учебного процесса ](* <- lang_ru;; *);;
+		*);
+		 ...
+		(*
+		-> rrel_example:
+			[объединение на единой научно-методической основе существующих и новых прогрессивных форм подготовки молодёжи для поступления в вуз через централизованное тестирование ](* <- lang_ru;; *);;
+		*);
+		 ...
+		(*
+		-> rrel_example:
+			[профориентационная деятельность] (* <- lang_ru;; *);;
+		*);;
+	*);;

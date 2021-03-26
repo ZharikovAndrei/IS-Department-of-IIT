@@ -1,0 +1,31 @@
+//sc_node_not_relation -> publication_Golenkov_V_V_2013_OpenePCoToKPIS;;
+
+
+publication_Golenkov_V_V_2013_OpenePCoToKPIS => nrel_main_idtf:
+[Голенков В.В.2013 - ОткрыПНнСТКПИС]
+	(* 
+	<- lang_ru;;
+	*);
+	[Golenkov_V_V_2013_OpenePCoToKPIS]
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Golenkov_V_V_2013_OpenePCoToKPIS => nrel_name_publication:[Открытый проект, направленный на создание технологии компонентного проектирования интеллектуальных систем](*
+	<- lang_ru;;
+	*);;
+
+publication_Golenkov_V_V_2013_OpenePCoToKPIS <= nrel_author:
+Golenkov_V_V; Gulyakina_N_A;;
+
+publication_Golenkov_V_V_2013_OpenePCoToKPIS <- article;;
+
+publication_Golenkov_V_V_2013_OpenePCoToKPIS => nrel_reference_standard: [Голенков В.В., Гулякина Н.А. Открытый проект, направленный на создание технологии компонентного проектирования интеллектуальных систем. В сб.: Открытые семантические технологии проектирования интеллектуальных систем (OSTIS-2013): материалы III междунар. науч.-техн.конф. Минск, 21-23 февраля 2013 г. Минск: БГУИР, 2013 С. 55-78];;
+
+publication_Golenkov_V_V_2013_OpenePCoToKPIS => nrel_year_publication: 2013;;
+
+publication_Golenkov_V_V_2013_OpenePCoToKPIS => nrel_information_publication: Materials_of_the_International_Scientific_and_Technical_Conference_OSTIS_2013;;
+publication_Golenkov_V_V_2013_OpenePCoToKPIS => nrel_number_page: ..2013_OpenePCoToKPIS(*
+-> rrel_from : 55;;
+-> rrel_by : 78;;
+*);;

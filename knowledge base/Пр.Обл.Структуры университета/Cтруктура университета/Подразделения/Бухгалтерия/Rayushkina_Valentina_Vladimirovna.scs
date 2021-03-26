@@ -1,0 +1,26 @@
+Rayushkina_Valentina_Vladimirovna=>nrel_main_idtf:
+[Раюшкина Валентина Владимировна](*<-lang_ru;;*);
+[Rayushkina Valentina Vladimirovna](*<-lang_en;;*);;
+
+Rayushkina_Valentina_Vladimirovna -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [+375 17 293-86-21];;*)
+   ;;*)
+   ;; 
+
+Rayushkina_Valentina_Vladimirovna-> rrel_work_place: aud_207_2;;
+
+Rayushkina_Valentina_Vladimirovna<- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://Rayushkina.jpg";;
+               *);;
+        *);;
+
+

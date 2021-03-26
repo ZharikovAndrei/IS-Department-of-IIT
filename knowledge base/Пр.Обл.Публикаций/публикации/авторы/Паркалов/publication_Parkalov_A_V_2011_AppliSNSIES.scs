@@ -1,0 +1,29 @@
+publication_Parkalov_A_V_2011_AppliSNSIES => nrel_main_idtf:
+[Паркалов А.В.2012 - ПримеССпСИЗП]
+	(*
+	<- lang_ru;;
+	*);
+	[Parkalov_A_V_2011_ AppliSNSIES] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Parkalov_A_V_2011_AppliSNSIES => nrel_name_publication:[Применение семантических сетей при сегментации изображений земной поверхности](*
+	<- lang_ru;;
+	*);;
+
+publication_Parkalov_A_V_2011_AppliSNSIES <= nrel_author:
+Parkalov_A_V;;
+
+publication_Parkalov_A_V_2011_AppliSNSIES <- article;;
+
+publication_Parkalov_A_V_2011_AppliSNSIES => nrel_reference_standard: [ Паркалов А.В.Применение семантических сетей при сегментации изображений земной поверхности / Дистанционное обучение - образовательная среда XXI века: Материалы VII Междунар. науч.-метод. конференции, Минск: БГУИР, 2011. С.284-285];;
+
+publication_Parkalov_A_V_2011_AppliSNSIES => nrel_year_publication: 2011;;
+
+publication_Parkalov_A_V_2011_AppliSNSIES => nrel_information_publication: Proceedings_of_the_7th_international_scientific_conference_Distance_Learning_Educational_Environment_of_the_XXI_century;;
+
+publication_Parkalov_A_V_2011_AppliSNSIES => nrel_number_page: ..2011_AppliSNSIES(*
+-> rrel_from : 284;;
+-> rrel_by : 285;;
+*);;

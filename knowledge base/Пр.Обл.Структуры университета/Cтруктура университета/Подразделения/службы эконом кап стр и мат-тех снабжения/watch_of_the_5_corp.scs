@@ -1,0 +1,12 @@
+watch_of_the_5_corp=>nrel_main_idtf:
+[вахта 5-го корпуса](*<-lang_ru;;*);
+[watch of the 5 corp](*<-lang_en;;*);;
+
+watch_of_the_5_corp -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ 
+ [+375 17 293-89-65];;*)
+   ;;*)
+   ;; 
+

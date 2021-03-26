@@ -1,0 +1,17 @@
+//Сборник материалов "Международная научно-техническая конференция OSTIS-2014"
+
+//sc_node_not_relation -> Materials_of_the_International_Scientific_and_Technical_Conference_OSTIS_2014;;
+
+
+ Materials_of_the_International_Scientific_and_Technical_Conference_OSTIS_2014 => nrel_main_idtf:
+[Сборник материалов "Международная научно-техническая конференция OSTIS-2014"]
+	(*
+	<- lang_ru;;
+	*);
+	[ Materials_of_the_International_Scientific_and_Technical_Conference_OSTIS_2014]
+	(*
+	<- lang_en;;
+	*);;
+ Materials_of_the_International_Scientific_and_Technical_Conference_OSTIS_2014 => nrel_place_publication: minsk;;
+
+ Materials_of_the_International_Scientific_and_Technical_Conference_OSTIS_2014 => nrel_publishing: bsuir;;

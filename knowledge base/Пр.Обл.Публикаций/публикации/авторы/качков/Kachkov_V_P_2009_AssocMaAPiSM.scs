@@ -1,0 +1,29 @@
+//sc_node_not_relation -> publication_Kachkov_V_P_2006_EvaluCEoSSKIFM;;
+
+
+publication_Kachkov_V_P_2009_AssocMaAPiSM=> nrel_main_idtf:
+[Качков В.П.2009 - АссоцПиАПвИК]
+	(*
+	<- lang_ru;;
+	*);
+	[Kachkov_V_P_2009_AssocMaAPiSM] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Kachkov_V_P_2009_AssocMaAPiSM=> nrel_name_publication:[Ассоциативная память и ассоциативные процессоры в интеллектуальных компьютерах] (*
+	<- lang_ru;;
+	*);;
+
+publication_Kachkov_V_P_2009_AssocMaAPiSM <= nrel_author:
+Kachkov_V_P; Domoradov_I_A; Serdukov_R_E;;
+
+publication_Kachkov_V_P_2009_AssocMaAPiSM <- book;;
+
+publication_Kachkov_V_P_2009_AssocMaAPiSM=> nrel_reference_standard: [Ассоциативная память и ассоциативные процессоры в интеллектуальных компьютерах: Учебно-методическое пособие/Качков В.П., Доморадов И.Я., Сердюков Р.Е.. под науч. ред. проф. Голенкова В.В.-- Мн., БГУИР, 2009];;
+
+publication_Kachkov_V_P_2009_AssocMaAPiSM=> nrel_year_publication: 2009;;
+
+publication_Kachkov_V_P_2009_AssocMaAPiSM=> nrel_information_publication:  textbook_associative_memory_and_associative_processors_in_smart_machines;;
+
+

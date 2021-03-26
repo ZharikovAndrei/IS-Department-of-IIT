@@ -1,0 +1,16 @@
+sc_node_not_relation->concept_writing;;
+concept_writing=>nrel_main_idtf:
+[произведение](*<-lang_ru;;*);
+[writing](*<-lang_en;;*);;
+
+concept_writing<- rrel_key_sc_element:
+	... 
+	(*<-sc_definition;;
+     =>nrel_main_idtf:[Опр.(произведение)](*<-lang_ru;;*);;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Произведение - cоздание, продукт труда, творчества.](* <- lang_ru;; *);;
+		*);;
+	*);;

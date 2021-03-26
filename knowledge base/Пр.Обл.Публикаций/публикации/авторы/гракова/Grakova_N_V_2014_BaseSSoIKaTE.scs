@@ -1,0 +1,29 @@
+publication_Grakova_N_V_2014_BaseSSoIKaTE=> nrel_main_idtf:
+[Гракова Н.В. 2014 - БазаЗИСППиПМ]
+	(*
+	<- lang_ru;;
+	*);
+	[Grakova_N_V_2014_BaseSSoIKaTE] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Grakova_N_V_2014_BaseSSoIKaTE => nrel_name_publication:[База знаний интеллектуальной системы поддержки подготовки и проведения мероприятий](*
+	<- lang_ru;;
+	*);;
+
+publication_Grakova_N_V_2014_BaseSSoIKaTE <= nrel_author:
+Grakova_N_V;Davydenko_I_T;Hubarevich_A_V;;
+
+publication_Grakova_N_V_2014_BaseSSoIKaTE <- article;;
+
+publication_Grakova_N_V_2014_BaseSSoIKaTE => nrel_reference_standard: [Гракова, Н.В. База знаний интеллектуальной системы поддержки подготовки и проведения мероприятий /Н.В. Гракова, И.Т. Давыденко, А.В. Губаревич // Материалы Всероссийской научно-практической конференции «Информационные технологии в профессиональной деятельности и научной работе», Йошкар-Ола, 2014. – с.9 ];;
+
+publication_Grakova_N_V_2014_BaseSSoIKaTE => nrel_year_publication: 2014;;
+
+publication_Grakova_N_V_2014_BaseSSoIKaTE => nrel_information_publication: Materials_of_All_Russian_scientific_practical_conference_Information_technologies_in_professional_and_scientific_work;;
+
+publication_Grakova_N_V_2014_BaseSSoIKaTE => nrel_number_page: ..2014_BaseSSoIKaTE(*
+-> rrel_from : 9;;
+-> rrel_by : 9;;
+*);;

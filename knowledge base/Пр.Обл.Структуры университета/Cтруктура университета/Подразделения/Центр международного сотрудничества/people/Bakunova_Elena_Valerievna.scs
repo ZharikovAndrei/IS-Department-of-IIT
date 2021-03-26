@@ -1,0 +1,33 @@
+Bakunova_Elena_Valerievna=>nrel_main_idtf:
+[Бакунова Елена Валерьевна](*<-lang_ru;;*);
+[Bakunova Elena Valerievna](*<-lang_en;;*);;
+
+Bakunova_Elena_Valerievna -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [+375 17 293-89-17];;*)
+   ;;*)
+   ;; 
+
+Bakunova_Elena_Valerievna -> rrel_work_place: aud_116_1;;
+
+Bakunova_Elena_Valerievna -> rrel_email:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [oms@bsuir.by](*<-lang_ru;;*)
+   ;;*)
+   ;;*)
+   ;; 
+
+
+Bakunova_Elena_Valerievna <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://Bakunova.jpg";;
+               *);;
+        *);;

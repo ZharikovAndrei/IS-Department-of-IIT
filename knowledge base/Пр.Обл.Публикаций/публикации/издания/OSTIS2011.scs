@@ -1,0 +1,30 @@
+//OSTIS2011
+
+//sc_node_not_relation -> OSTIS2011; minsk; bsuir;;
+
+OSTIS2011 
+=> nrel_main_idtf:
+[Сборник материалов "Международная научно-техническая конференция OSTIS-2011"]
+	(*
+	<- lang_ru;;
+	*);
+	[Materials of the International Scientific and Technical Conference OSTIS-2011]
+	(*
+	<- lang_en;;
+	*);;
+
+OSTIS2011 => nrel_place_publication: minsk;;
+
+OSTIS2011 => nrel_publishing: bsuir;;
+
+minsk 
+=> nrel_main_idtf:
+[Минск]
+	(*
+	<- lang_ru;;
+	*);
+	[Minsk]
+	(*
+	<- lang_en;;
+	*);;
+

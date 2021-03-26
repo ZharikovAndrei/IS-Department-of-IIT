@@ -1,0 +1,29 @@
+//sc_node_not_relation -> publication_Golenkov_V_V_2012_GraphDMoPAP;;
+
+
+publication_Golenkov_V_V_2012_GraphDMoPAP => nrel_main_idtf:
+[Голенков В.В.2012- ГрафМПАО]
+	(* 
+	<- lang_ru;;
+	*);
+	[Golenkov_V_V_2012_GraphDMoPAP]
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Golenkov_V_V_2012_GraphDMoPAP => nrel_name_publication:[Графодинамические модели параллельной асинхронной обработки](*
+	<- lang_ru;;
+	*);;
+
+publication_Golenkov_V_V_2012_GraphDMoPAP <= nrel_author:
+Golenkov_V_V; Gulyakina_N_A;;
+
+publication_Golenkov_V_V_2012_GraphDMoPAP <- article;;
+
+publication_Golenkov_V_V_2012_GraphDMoPAP => nrel_reference_standard: [Голенков В.В., Гулякина Н.А.Графодинамические модели параллельной асинхронной обработки. Журнал «Речевые технологии» М.:2012 №1,№3 ];;
+
+publication_Golenkov_V_V_2012_GraphDMoPAP => nrel_year_publication: 2012;;
+
+publication_Golenkov_V_V_2012_GraphDMoPAP => nrel_information_publication: magazine_Voice_Technology_1_3;;
+
+

@@ -1,0 +1,33 @@
+//sc_node_not_relation -> publication_Golenkov_V_V_2011_PrinCoMSTCoDIS;;
+
+
+publication_Golenkov_V_V_2011_PrinCoMSTCoDIS => nrel_main_idtf:
+[Голенков В.В.2011 - ПринПМСТКПИС]
+	(*
+	<- lang_ru;;
+	*);
+	[Golenkov_V_V_2011_PrinCoMSTCoDIS]
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Golenkov_V_V_2011_PrinCoMSTCoDIS => nrel_name_publication:[Принципы построения массовой семантической технологии компонентного проектирования интеллектуальных систем](*
+	<- lang_ru;;
+	*);;
+
+publication_Golenkov_V_V_2011_PrinCoMSTCoDIS <= nrel_author:
+Golenkov_V_V; Gulyakina_N_A;;
+
+publication_Golenkov_V_V_2011_PrinCoMSTCoDIS <- article;;
+
+publication_Golenkov_V_V_2011_PrinCoMSTCoDIS => nrel_reference_standard: [Голенков В.В., Гулякина Н.А. Принципы построения массовой семантической технологии компонентного проектирования интеллектуальных систем. В сб.: Открытые семантические технологии проектирования интеллектуальных систем (OSTIS-2011): материалы Междунар.научн.-техн.конф. Минск, 10-12 февраля 2011 г.) – Минск: БГУИР, 2011. С. 21-58.];;
+
+publication_Golenkov_V_V_2011_PrinCoMSTCoDIS => nrel_year_publication: 2011;;
+
+publication_Golenkov_V_V_2011_PrinCoMSTCoDIS => nrel_information_publication: OSTIS2011;;
+
+publication_Golenkov_V_V_2011_PrinCoMSTCoDIS => nrel_number_page: ..2011_PrinCoMSTCoDIS(*
+-> rrel_from : 21;;
+-> rrel_by : 58;;
+*);;
+

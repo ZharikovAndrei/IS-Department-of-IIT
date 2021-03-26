@@ -1,0 +1,33 @@
+Ivanova_Natalia_Alexeevna=>nrel_main_idtf:
+[Иванова Наталья Алексеевна](*<-lang_ru;;*);
+[Ivanova Natalia Alexeevna](*<-lang_en;;*);;
+
+Ivanova_Natalia_Alexeevna -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [+375 17 293-23-23];;*)
+   ;;*)
+   ;; 
+
+Ivanova_Natalia_Alexeevna -> rrel_work_place: aud_118_1;;
+
+Ivanova_Natalia_Alexeevna -> rrel_email:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [oop@bsuir.by](*<-lang_ru;;*)
+   ;;*)
+   ;;*)
+   ;; 
+
+
+Ivanova_Natalia_Alexeevna <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://Ivanova.jpg";;
+               *);;
+        *);;

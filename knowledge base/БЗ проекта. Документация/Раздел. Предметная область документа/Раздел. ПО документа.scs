@@ -1,0 +1,23 @@
+sc_node_not_relation -> Section_Specialization_of_document;;
+
+
+Section_Specialization_of_document => nrel_main_idtf:
+[Раздел. Предметная область документа]
+	(*
+	<- lang_ru;;
+	*);
+	[Section. Specialization of document] 
+	(*
+	<- lang_en;;
+	*);;
+
+
+
+Section_Specialization_of_document <= nrel_section_decomposition: 
+	{
+		Section_Specialization_of_publication;
+		Section_Specialization_of_edition
+	};;
+
+
+Section_Specialization_of_document -> rrel_key_sc_element_of_subject_domain:  specialization_of_document;;

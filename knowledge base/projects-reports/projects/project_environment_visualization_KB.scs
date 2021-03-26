@@ -1,0 +1,16 @@
+project_environment_visualization_KB
+      => nrel_main_idtf:[Универсальная среда визуализации баз знаний] (* <-lang_ru;; *);
+      => nrel_main_idtf:[Universal Wednesday visualization of knowledge bases] (* <-lang_en;; *);
+      => nrel_synonymy:[23e/визБЗ];;
+
+project_environment_visualization_KB => nrel_project_leader: Zhukov_I_I;;
+project_environment_visualization_KB => nrel_performers: Boriskin_A_S; Sadovskii_M_E; Bobkov_A_V; Vinokur_A_E; Bruckii_D_S; Minkin_R_V;;
+project_environment_visualization_KB => nrel_consult_project: Boriskin_A_S;;
+project_environment_visualization_KB -> rrel_responsible_executor: Bobkov_A_V;;
+project_environment_visualization_KB <- student_project;;
+project_environment_visualization_KB => nrel_reports: report_model_translator;;
+
+//project_environment_visualization_KB => nrel_main_students: ;;
+//project_environment_visualization_KB => nrel_sections_KB_IMS: ;;
+//project_environment_visualization_KB => nrel_reports_OSTIS2017: ;;
+//project_environment_visualization_KB => nrel_related_projects: ;;

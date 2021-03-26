@@ -1,0 +1,41 @@
+professor_and_teaching_staff
+=>nrel_main_idtf:
+	[профессорско-преподавательский состав кафедры ИИТ] (* <-lang_ru;; *);
+
+->rrel_key_sc_element:
+	...
+	(*
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> [Профессорско-преподавательский состав — Педагогические работники, педагогическая деятельность которых направлена на реализацию содержания образовательных программ высшего образования, образовательных программ дополнительного образования взрослых, руководство образовательной деятельностью учреждения высшего образования, академии последипломного образования, института повышения квалификации и переподготовки, института развития образования, субъекты учебной деятельности.] (* <-lang_ru;; *);;
+		*);;
+	*);
+
+
+
+
+
+->rrel_associate_professor:Gulyakina_N_A; Kachkov_V_P; Kolb_D_G;
+           		 Stepanova_M_D;Zakharov_V_V; Romanov_V_I ;
+
+->rrel_senior_lecturer: Samodumkin_S_A;
+
+->rrel_assistant:Grakova_N_V; Davydenko_I_T; Ivashenko_V_P;
+ 			Shunkevich_D_V; Koronchik_D_N;  Uvarov_K_A; Lucina_Tatyana_Leonidovna;
+  			Zhukov_I_I; Parkalov_A_V; Rusetsky_K_V ;;
+
+sc_node_role_relation->rrel_head_of_department;rrel_associate_professor;rrel_senior_lecturer;rrel_assistant;;
+
+rrel_associate_professor
+=>nrel_main_idtf:
+	[доцент'] (* <-lang_ru;; *);;
+
+rrel_assistant
+=>nrel_main_idtf:
+	[ассистент'] (* <-lang_ru;; *);;
+
+rrel_senior_lecturer
+=>nrel_main_idtf:
+	[старший преподаватель'] (* <-lang_ru;; *);;

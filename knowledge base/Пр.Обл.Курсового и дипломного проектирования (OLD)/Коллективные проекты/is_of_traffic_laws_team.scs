@@ -1,0 +1,6 @@
+is_of_traffic_laws_team
+ <- team;
+ => nrel_main_idtf: [Команда интеллектуальной справочной системы по правилам дорожного движения] (* <- lang_ru;; *);
+ -> rrel_scintific_consultant: Lebedinskii_Roman_Alexandrovich;
+ -> rrel_technical_consultant: Koronchik_D_N;
+ -> Nischeretov_Pavel_Alexandrovich; Shabatko_Vitalii_Borisovich; Novak_Pavel_Sergeevich; Scherbakov_Nikita_Valerievich; Mashkin_Artem_Sergeevich; Tyrtsevich_Andrei_Mihailovich; Bajin_Alexei_Sergeevich; Stankevich_Dmitrii_Viktorovich;;

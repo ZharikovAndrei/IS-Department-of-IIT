@@ -1,0 +1,13 @@
+Hayduk_Tatyana_Nikolaevna=>nrel_main_idtf:
+[Гайдук Татьяна Николаевна](*<-lang_ru;;*);
+[Hayduk Tatyana Nikolaevna](*<-lang_en;;*);;
+
+Hayduk_Tatyana_Nikolaevna -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [+375 17 293-23-73];;*)
+   ;;*)
+   ;; 
+
+Hayduk_Tatyana_Nikolaevna -> rrel_work_place: aud_204_2;;
+Hayduk_Tatyana_Nikolaevna <- person;;

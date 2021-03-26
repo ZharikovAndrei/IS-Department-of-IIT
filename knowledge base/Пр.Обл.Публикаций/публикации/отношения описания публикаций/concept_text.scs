@@ -1,0 +1,16 @@
+sc_node_not_relation->concept_text;;
+concept_text=>nrel_main_idtf:
+[текст](*<-lang_ru;;*);
+[text](*<-lang_en;;*);;
+
+concept_text<- rrel_key_sc_element:
+	... 
+	(*<-sc_definition;;
+     =>nrel_main_idtf:[Опр.(текст)](*<-lang_ru;;*);;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Текст - письменная или звучащая речь, которая внутренне организована и относительно закончена.](* <- lang_ru;; *);;
+		*);;
+	*);;

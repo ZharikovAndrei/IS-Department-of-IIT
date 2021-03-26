@@ -1,0 +1,36 @@
+Niculshin_Boris_Victorovich=>nrel_main_idtf:
+[Никульшин Борис Викторович](*<-lang_ru;;*);
+[Niculshin Boris Victorovich](*<-lang_en;;*);;
+
+
+Niculshin_Boris_Victorovich -> rrel_email:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [nik@bsuir.by](*<-lang_en;;*)
+   ;;*)
+   ;;*)
+   ;; 
+
+Niculshin_Boris_Victorovich -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [+375 17 292-34-85];
+ [+375 17 293-21-12];;*)
+   ;;*)
+   ;; 
+
+Niculshin_Boris_Victorovich -> rrel_work_place: aud_221_1;;
+
+Niculshin_Boris_Victorovich <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://Nickulshin.jpg";;
+               *);;
+        *);;
+
+

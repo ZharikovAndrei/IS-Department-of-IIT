@@ -1,0 +1,28 @@
+sc_node_not_relation -> photographic_document;;
+
+photographic_document => nrel_main_idtf:
+[фотодокумент]
+	(*
+	<- lang_ru;;
+	*);
+	[photographic document] 
+	(*
+	<- lang_en;;
+	*);;
+
+photographic_document <- rrel_key_sc_element: 
+        ...
+	(*
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[фонодокумент – изобразительный документ, созданный фотографическим способом]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;
+
+document -> photographic_document;;
+
+iconic_document -> photographic_document;;

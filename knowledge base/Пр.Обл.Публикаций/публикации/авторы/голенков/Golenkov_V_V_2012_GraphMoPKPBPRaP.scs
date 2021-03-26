@@ -1,0 +1,33 @@
+//sc_node_not_relation -> publication_Golenkov_V_V_2012_GraphMoPKPBPRaP;;
+
+
+publication_Golenkov_V_V_2012_GraphMoPKPBPRaP => nrel_main_idtf:
+[Голенков В.В.2012 - ГрафоМПОЗППРиП]
+	(* 
+	<- lang_ru;;
+	*);
+	[Golenkov_V_V_2012_GraphMoPKPBPRaP]
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Golenkov_V_V_2012_GraphMoPKPBPRaP => nrel_name_publication:[Графодинамические модели параллельной обработки знаний: принципы построения, реализации и проектирования](*
+	<- lang_ru;;
+	*);;
+
+publication_Golenkov_V_V_2012_GraphMoPKPBPRaP <= nrel_author:
+Golenkov_V_V; Gulyakina_N_A;;
+
+publication_Golenkov_V_V_2012_GraphMoPKPBPRaP <- article;;
+
+publication_Golenkov_V_V_2012_GraphMoPKPBPRaP => nrel_reference_standard: [Голенков В.В., Гулякина Н.А. Графодинамические модели параллельной обработки знаний: принципы построения, реализации и проектирования. В сб.: Открытые семантические технологии проектирования интеллектуальных систем (OSTIS-2012): материалы Междунар. научн.-техн.конф. Минск, 16-18 февраля. Минск: БГУИР, 2012 С. 23-52];;
+
+publication_Golenkov_V_V_2012_GraphMoPKPBPRaP => nrel_year_publication: 2012;;
+
+publication_Golenkov_V_V_2012_GraphMoPKPBPRaP => nrel_information_publication: OSTIS2012;;
+publication_Golenkov_V_V_2012_GraphMoPKPBPRaP => nrel_number_page: ..2012_GraphMoPKPBPRaP(*
+-> rrel_from : 23;;
+-> rrel_by : 52;;
+*);;
+
+

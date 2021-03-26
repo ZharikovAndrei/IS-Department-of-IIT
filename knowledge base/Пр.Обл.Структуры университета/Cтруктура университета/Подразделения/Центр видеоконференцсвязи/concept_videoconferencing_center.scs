@@ -1,0 +1,19 @@
+sc_node_not_relation->concept_videoconferencing_center;;
+
+concept_videoconferencing_center=>nrel_main_idtf:
+[центр видеоконференцсвязи](*<-lang_ru;;*);
+[videoconferencing center](*<-lang_en;;*);; 
+
+concept_videoconferencing_center<-rrel_key_sc_element:
+...
+(*
+=>nrel_main_idtf:[Опр.(центр видеоконференцсвязи)](*<-lang_ru;;*);;
+<-sc_definition;;
+<=nrel_sc_text_translation:
+...
+(*
+->rrel_example:
+[Центр видеоконференцсвязи занимается обеспечением надежного и бесперебойного функционирования, а также совершенствования и развития
+ комплекса средств видеоконференцсвязи, телефонной связи и звонковой сигнализации университета .](*<-lang_ru;;*);;
+*);;
+*);;

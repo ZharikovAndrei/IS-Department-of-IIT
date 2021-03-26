@@ -1,0 +1,4 @@
+sc_node_not_relation->concept_institution;;
+concept_institution=>nrel_main_idtf:
+[учреждение](*<-lang_ru;;*);
+[institution](*<-land_en;;*);;

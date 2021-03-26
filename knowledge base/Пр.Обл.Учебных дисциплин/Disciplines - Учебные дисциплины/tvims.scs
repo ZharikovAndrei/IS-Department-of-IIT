@@ -1,0 +1,11 @@
+tvims
+=>nrel_main_idtf: [Теория вероятностии и математическая статистика] (*<-lang_ru;;*);
+=>nrel_main_idtf: [Theory of probability and mathematical statistics] (*<-lang_en;;*);
+<=nrel_trains: the_department_of_numerical_methods_and_programming;
+<=nrel_class_number: 3(* <-positive_number;;*);
+<=nrel_semester_number: 5(* <-positive_number;;*);
+<=nrel_lecture_hours: 34(*<-positive_number;;*);
+<=nrel_practice_hours: 34(*<-positive_number;;*);
+<=nrel_component: concept_mandatory_component;
+<=nrel_cycle: concept_tsikl_estesstvenno_nauchnykh_distsiplin;;
+

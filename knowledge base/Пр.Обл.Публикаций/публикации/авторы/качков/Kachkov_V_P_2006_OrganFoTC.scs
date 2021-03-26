@@ -1,0 +1,29 @@
+//sc_node_not_relation -> publication_Kachkov_V_P_2006_EvaluCEoSSKIFM;;
+
+
+publication_Kachkov_V_P_2006_OrganFoTC=> nrel_main_idtf:
+[Качков В.П.2006 - ОрганФТК]
+	(*
+	<- lang_ru;;
+	*);
+	[Kachkov_V_P_2006_OrganFoTC]
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Kachkov_V_P_2006_OrganFoTC=> nrel_name_publication:[Организация и функционирование традиционных компьютеров] (*
+	<- lang_ru;;
+	*);;
+
+publication_Kachkov_V_P_2006_OrganFoTC <= nrel_author:
+Kachkov_V_P; Domoradov_I_A;;
+
+publication_Kachkov_V_P_2006_OrganFoTC <- book;;
+
+publication_Kachkov_V_P_2006_OrganFoTC=> nrel_reference_standard: [Организация и функционирование традиционных компьютеров : Учебное пособие/Качков В.П., Доморадов И.Я. под науч. ред. Голенкова В.В. -- Мн.:БГУИР, 2006];;
+
+publication_Kachkov_V_P_2006_OrganFoTC=> nrel_year_publication: 2006;;
+
+publication_Kachkov_V_P_2006_OrganFoTC=> nrel_information_publication:  textbook_organization_and_functioning_of_traditional_computers;;
+
+

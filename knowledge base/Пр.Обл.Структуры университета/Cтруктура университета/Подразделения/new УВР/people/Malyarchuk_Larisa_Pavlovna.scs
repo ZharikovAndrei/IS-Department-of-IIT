@@ -1,0 +1,25 @@
+Malyarchuk_Larisa_Pavlovna=>nrel_main_idtf:
+[Малярчук Лариса Павловна](*<-lang_ru;;*);
+[Malyarchuk Larisa Pavlovna](*<-lang_en;;*);;
+
+Malyarchuk_Larisa_Pavlovna -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [+375 17 293-88-01];;*)
+   ;;*)
+   ;; 
+
+Malyarchuk_Larisa_Pavlovna -> rrel_work_place: aud_210_2;;
+
+
+Malyarchuk_Larisa_Pavlovna <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://Malyarchuk.jpg";;
+               *);;
+        *);;

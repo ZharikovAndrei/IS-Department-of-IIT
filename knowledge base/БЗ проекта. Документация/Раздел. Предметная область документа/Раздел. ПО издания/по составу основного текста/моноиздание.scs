@@ -1,0 +1,26 @@
+sc_node_not_relation -> monoedition;;
+
+monoedition => nrel_main_idtf:
+[моноиздание]
+	(*
+	<- lang_ru;;
+	*);
+	[monoedition] 
+	(*
+	<- lang_en;;
+	*);;
+
+monoedition <- rrel_key_sc_element: 
+        ...
+	(*
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[моноиздание – издание, содержащее одно произведение]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;
+
+edition -> monoedition;;

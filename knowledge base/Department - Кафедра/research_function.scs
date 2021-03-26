@@ -1,0 +1,19 @@
+research_function
+
+=>nrel_main_idtf:
+	[научно-исследовательская функция кафедры ] (* <-lang_ru;; *);
+
+=>nrel_idtf:
+	[research function of department] (* <-lang_en;; *);
+
+->rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> [научно-исследовательская функция кафедры-функция направленная на обеспечение научной работой,исследование новых областей знаний
+ ] (* <-lang_ru;; *);; 
+		*);;
+	*);;

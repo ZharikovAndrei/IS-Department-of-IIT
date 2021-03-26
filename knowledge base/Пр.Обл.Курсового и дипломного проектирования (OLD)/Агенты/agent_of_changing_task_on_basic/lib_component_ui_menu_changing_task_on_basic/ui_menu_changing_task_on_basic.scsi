@@ -1,0 +1,25 @@
+ui_menu_changing_task_on_basic <- ui_user_command_class_atom; ui_user_command_class_view_kb;;
+
+ui_menu_changing_task_on_basic => nrel_main_idtf: [Изменение данной задачи на основную] (* <- lang_ru;; *);;
+
+ui_menu_changing_task_on_basic => nrel_main_idtf: [Changing task state on basic] (* <- lang_en;; *);;
+
+ui_menu_changing_task_on_basic => ui_nrel_command_template:
+	[*
+		question_changing_task_on_basic _-> ._question_instance
+			(*
+                        //Place your arguments here.
+			//_-> rrel_1:: ui_arg_1;;
+                         _-> rrel_1:: ui_arg_1;; 
+
+			*);;
+		._question_instance _<- question;;
+	*];;
+
+ui_menu_changing_task_on_basic => ui_nrel_command_lang_template: 
+	[Изменение данной задачи на основную] 
+	(* <- lang_ru;; *);;
+
+ui_menu_changing_task_on_basic => ui_nrel_command_lang_template: 
+	[Changing task state on basic] 
+	(* <- lang_en;; *);;

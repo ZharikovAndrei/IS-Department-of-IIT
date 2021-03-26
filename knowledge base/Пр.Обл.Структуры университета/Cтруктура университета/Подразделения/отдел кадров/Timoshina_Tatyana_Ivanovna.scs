@@ -1,0 +1,13 @@
+Timoshina_Tatyana_Ivanovna=>nrel_main_idtf:
+[Тимошина Татьяна Ивановна](*<-lang_ru;;*);
+[Timoshina Tatyana Ivanovna](*<-lang_en;;*);;
+
+Timoshina_Tatyana_Ivanovna-> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+[+375 17 293-80-05];;*)
+   ;;*)
+   ;; 
+
+Timoshina_Tatyana_Ivanovna-> rrel_work_place: aud_305_2;;
+

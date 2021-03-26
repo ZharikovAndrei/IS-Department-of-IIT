@@ -1,0 +1,27 @@
+sc_node_not_relation -> jotting;;
+
+jotting => nrel_main_idtf:
+[памятка]
+	(*
+	<- lang_ru;;
+	*);
+	[jotting] 
+	(*
+	<- lang_en;;
+	*);;
+
+jotting <- rrel_key_sc_element: 
+        ...
+	(*
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[памятка – производственно-практическое издание, имеющее небольшой объем, содержащее практические сведения, полезные в производственной деятельности или повседневной жизни]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;
+
+edition -> jotting;;
+jotting <- trade_edition;;

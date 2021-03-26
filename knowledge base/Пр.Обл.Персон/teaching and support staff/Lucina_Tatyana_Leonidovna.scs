@@ -1,0 +1,43 @@
+Lucina_Tatyana_Leonidovna
+=>nrel_main_idtf:
+[Лучина Т.Л.](*<-lang_ru;;*);
+<-person;
+=>nrel_idtf:
+[Lucina Tatyana](*<-lang_en;;*);
+[Лучина Татьяна Леонидовна](*<-lang_ru;;*);
+
+<- rrel_key_sc_element:
+        ...
+        (*
+        <-illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example:
+                       "file://photos/Lucina_Tatyana_Leonidovna.jpg";;
+               *);;
+        *);;
+
+Lucina_Tatyana_Leonidovna -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+ [+375 17 293-80-92];;*)
+   ;;*)
+   ;;
+Lucina_Tatyana_Leonidovna -> rrel_work_place: aud_606_5;;
+Lucina_Tatyana_Leonidovna -> rrel_email:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+ [luchina@bsuir.by](*<-lang_en;;*)
+   ;;*)
+   ;;*)
+   ;;
+Lucina_Tatyana_Leonidovna=>nrel_rate:1;;
+
+//<-rrel_teacher:
+//	...
+//	(*
+//		->rrel_realisation_of_learning_activity:  consultation;;
+  // 		 <-taught_subject;;
+//		->nrel_taught_subject: manufacturing_practice;;
+//	*);;

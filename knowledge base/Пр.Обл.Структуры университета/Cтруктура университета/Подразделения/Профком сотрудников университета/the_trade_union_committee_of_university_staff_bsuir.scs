@@ -1,0 +1,6 @@
+the_trade_union_committee_of_university_staff_bsuir=> nrel_main_idtf:[профсоюзный комитет сотрудников университета БГУИРа] (* <-lang_ru;; *);;
+the_trade_union_committee_of_university_staff_bsuir=> nrel_main_idtf:[the trade union committee of university staff BSUIR] (* <-lang_en;; *);;
+the_trade_union_committee_of_university_staff_bsuir=> nrel_idtf:[профком сотрудников университета БГУИРа] (* <-lang_ru;; *);;
+the_trade_union_committee_of_university_staff_bsuir=>nrel_pers_comp:personal_composition_of_the_trade_union_committee_of_university_staff_bsuir;;
+personal_composition_of_the_trade_union_committee_of_university_staff_bsuir->rrel_chairman:Krakasevich_Sergey_Victorovich;;
+personal_composition_of_the_trade_union_committee_of_university_staff_bsuir->rrel_vice_chairman:Mayorova_Galina_Victorovna;;

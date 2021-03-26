@@ -1,0 +1,5 @@
+fleet_bsuir=>nrel_main_idtf:
+[автохозяйство БГУИРа](*<-lang_ru;;*);
+[fleet bsuir](*<-lang_en;;*);; 
+fleet_bsuir=>nrel_pers_comp:personal_composition_of_fleet_bsuir;;
+personal_composition_of_fleet_bsuir->rrel_engineer:Vostik_Viktor_Petrovich;;

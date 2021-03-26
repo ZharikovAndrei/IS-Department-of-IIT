@@ -1,0 +1,22 @@
+teaching_and_support_staff
+=>nrel_main_idtf:
+	[учебно-вспомогательный персонал кафедры ИИТ] (* <-lang_ru;; *);
+		
+->rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> [Учебно-вспомогательный персонал — коллектив людей, обеспечивающий образовательную и научную деятельность кафедры.] (* <-lang_ru;; *);; 
+		*);;
+	*);
+
+
+->rrel_engineer:Lucina_Tatyana_Leonidovna;
+->rrel_head_of_the_learning_lab:Paller_Boris_Yakovlevich;
+->rrel_tester:Hubarevich_A_V;
+->rrel_software_engineer:Rusetsky_K_V;;
+
+sc_node_role_relation->rrel_engineer;rrel_head_of_the_learning_lab;rrel_tester;rrel_software_engineer;;

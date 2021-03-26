@@ -1,0 +1,11 @@
+//sc_node_not_relation -> Paramonov_N_N;;
+
+Paramonov_N_N => nrel_main_idtf:
+[Парамонов Н.Н.]
+	(*
+	<- lang_ru;;
+	*);
+	[Paramonov N.N.]
+	(*
+	<- lang_en;;
+	*);;

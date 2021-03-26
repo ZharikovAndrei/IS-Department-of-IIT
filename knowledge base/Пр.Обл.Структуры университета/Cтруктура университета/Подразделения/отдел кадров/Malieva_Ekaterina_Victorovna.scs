@@ -1,0 +1,12 @@
+Malieva_Ekaterina_Victorovna=>nrel_main_idtf:
+[Малиева Екатерина Викторовна](*<-lang_ru;;*);
+[Malieva Ekaterina Victorovna](*<-lang_en;;*);;
+
+Malieva_Ekaterina_Victorovna-> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+[+375 17 293-88-99];;*)
+   ;;*)
+   ;;
+
+Malieva_Ekaterina_Victorovna-> rrel_work_place: aud_315_2;;

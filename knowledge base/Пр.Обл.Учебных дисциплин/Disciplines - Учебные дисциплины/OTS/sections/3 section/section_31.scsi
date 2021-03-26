@@ -1,0 +1,860 @@
+subject_domain_of_system_classification
+=> nrel_main_idtf:[Предметная область классификаций систем]
+	(* <- lang_ru;; *);
+	
+<- subject_domain;
+-> rrel_maximum_studied_object_class: 
+        system;
+-> rrel_not_maximum_studied_object_class:
+		dedication_system;
+		artificial_system;
+		bad_organized_system;
+		big_system;
+		central_system;
+		close_system;
+		deterministic_system;
+		dynamic_system;
+		hard_system;
+		isolated_system;
+		natural_system;
+		open_system;
+		probabilistic_system;
+		purposefull_system;
+		quntitative;
+		simple_system;
+		static_system;
+		system_with_qualitative_variables;
+		uncentral_system;
+		virtual_system;
+		well_organized_system;;
+
+dedication_system
+
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[целеустремлённая система]
+	(* <- lang_ru;; *);
+	[dedication system]
+	(* <- lang_en;; *);
+
+<- rrel_key_sc_element:
+		...
+		(*
+			<- sc_definition;;
+			=> nrel_main_idtf:
+				[Определение: целеустремлённая система]
+				(* <- lang_ru;; *);;
+			<= nrel_sc_text_translation:
+				...
+				(*
+					-> 
+						[Целеустремлённая система - система, продолжающая преследовать одну и ту же цель, 
+							изменяя свое поведение при изменении внешних условий.]
+						(* <- lang_ru;; *);;
+				*);;
+		*);
+
+<-rrel_key_sc_element:
+		...
+		(*
+			=> nrel_main_idtf:
+				[утв.(Системы, задачи, способы и средства реализации)]
+				(* <- lang_ru;; *);;
+			<- sc_statement;;
+			<= nrel_sc_text_translation:
+				...
+				(*
+					->[Системы этого класса могут изменять свои задачи, они выбирают как сами задачи, так и 
+						способы и средства их реализации.]
+					(* <- lang_ru;; *);;
+				*);;
+		*);;
+
+artificial_system
+
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[искусственная система]
+	(* <- lang_ru;; *);
+	[artificial system]
+	(* <- lang_en;; *);
+
+<- rrel_key_sc_element:
+		...
+		(*
+			<- sc_definition;;
+			=> nrel_main_idtf:
+				[Определение: искусственная система]
+				(* <- lang_ru;; *);;
+			<= nrel_sc_text_translation:
+				...
+				(*
+					-> 
+						[Искусственные системы - системы, которые создаются человечеством для своих нужд или образуются
+							в результате целенаправленных усилий.]
+						(* <- lang_ru;; *);;
+				*);;
+		*);
+
+<-rrel_key_sc_element:
+		...
+		(*
+			=> nrel_main_idtf:
+				[утв.(технические, социальные)]
+				(* <- lang_ru;; *);;
+			<- sc_statement;;
+			<= nrel_sc_text_translation:
+				...
+				(*
+					->[Искусственные делятся на технические  и социальные.]
+					(* <- lang_ru;; *);;
+				*);;
+		*);;
+
+bad_organized_system
+
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[плохо организованная система]
+	(* <- lang_ru;; *);
+	[bad organized system]
+	(* <- lang_en;; *);
+
+<- rrel_key_sc_element:
+		...
+		(*
+			<- sc_definition;;
+			=> nrel_main_idtf:
+				[Определение: плохо организованная система]
+				(* <- lang_ru;; *);;
+			<= nrel_sc_text_translation:
+				...
+				(*
+					-> 
+						[При представлении объекта в виде «плохо организованной или диффузной системы» не ставится 
+                            задача определить все учитываемые компоненты, их свойства и связи между ними и целями 
+                                системы.]
+
+						(* <- lang_ru;; *);;
+				*);;
+		*);
+
+<-rrel_key_sc_element:
+		...
+		(*
+			=> nrel_main_idtf:
+				[утв.(макропараметр, закономерности, основа исследования, объект)]
+				(* <- lang_ru;; *);;
+			<- sc_statement;;
+			<= nrel_sc_text_translation:
+				...
+				(*
+					->[Плохо организованная система характеризуется некоторым набором макропараметров и закономерностями, 
+                        которые находятся на основе исследования не всего объекта.]
+					(* <- lang_ru;; *);;
+				*);;
+		*);;
+	
+big_system
+
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[большая система]
+	(* <- lang_ru;; *);
+	[big system]
+	(* <- lang_en;; *);
+
+<- rrel_key_sc_element:
+		...
+		(*
+			<- sc_definition;;
+			=> nrel_main_idtf:
+				[Определение: большая система]
+				(* <- lang_ru;; *);;
+			<= nrel_sc_text_translation:
+				...
+				(*
+					-> 
+						[Большая система — управляемая система, рассматриваемая как совокупность взаимосвязанных 
+							управляемых подсистем, объединенных общей целью функционирования.]
+						(* <- lang_ru;; *);;
+				*);;
+		*);
+
+<-rrel_key_sc_element:
+		...
+		(*
+			=> nrel_main_idtf:
+				[утв.(выделяемая часть, связь, часть системы)]
+				(* <- lang_ru;; *);;
+			<- sc_statement;;
+			<= nrel_sc_text_translation:
+				...
+				(*
+					->[Характерные особенности больших систем: наличие выделяемых частей, 
+						участие в системе людей, машин и природной среды, наличие  связей между частями систем.]
+					(* <- lang_ru;; *);;
+				*);;
+		*);;        
+
+central_system
+
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[централизованная система]
+	(* <- lang_ru;; *);
+	[central system]
+	(* <- lang_en;; *);
+
+<- rrel_key_sc_element:
+		...
+		(*
+			<- sc_definition;;
+			=> nrel_main_idtf:
+				[Определение: централизованная система]
+				(* <- lang_ru;; *);;
+			<= nrel_sc_text_translation:
+				...
+				(*
+					-> 
+						[Централизованная система – система, в которой некоторый элемент (подсистема) 
+							играет доминирующую роль.]
+						(* <- lang_ru;; *);;
+				*);;
+		*);
+
+<-rrel_key_sc_element:
+		...
+		(*
+			=> nrel_main_idtf:
+				[утв.(главный элемент, ведущая часть, центр)]
+				(* <- lang_ru;; *);;
+			<- sc_statement;;
+			<= nrel_sc_text_translation:
+				...
+				(*
+					->[Главный элемент централизованной системы называется ведущей частью системы или ее центром.]
+					(* <- lang_ru;; *);;
+				*);;
+		*);;	
+
+close_system
+
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[закрытая система]
+	(* <- lang_ru;; *);
+	[close system]
+	(* <- lang_en;; *);
+
+<- rrel_key_sc_element:
+		...
+		(*
+			<- sc_definition;;
+			=> nrel_main_idtf:
+				[Определение: закрытая система]
+				(* <- lang_ru;; *);;
+			<= nrel_sc_text_translation:
+				...
+				(*
+					-> 
+						[Закрытая система - отграничена от окружающего мира. Взаимодействие происходит только 
+							внутри системы между ее структурными компонентами.]
+						(* <- lang_ru;; *);;
+				*);;
+		*);
+
+<-rrel_key_sc_element:
+		...
+		(*
+			=> nrel_main_idtf:
+				[утв.(стабильна*, изменение*, окружение)]
+				(* <- lang_ru;; *);;
+			<- sc_statement;;
+			<= nrel_sc_text_translation:
+				...
+				(*
+					->[Закрытая система более стабильна, так как не подвержена изменениям при взаимодействии с окружением.]
+					(* <- lang_ru;; *);;
+				*);;
+		*);;
+
+deterministic_system
+
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[детерминированная система]
+	(* <- lang_ru;; *);
+	[deterministic system]
+	(* <- lang_en;; *);
+
+<- rrel_key_sc_element:
+		...
+		(*
+			<- sc_definition;;
+			=> nrel_main_idtf:
+				[Определение: детерминированная система]
+				(* <- lang_ru;; *);;
+			<= nrel_sc_text_translation:
+				...
+				(*
+					-> 
+						[Детерминированная система — система, выходы которой 
+                             однозначно определяются оказанными на нее управляющими воздействиями.]
+						(* <- lang_ru;; *);;
+				*);;
+		*);
+
+<-rrel_key_sc_element:
+		...
+		(*
+			=> nrel_main_idtf:
+				[утв.(соотношение, соответствие, входнйо сигнал, выходной сигнал)]
+				(* <- lang_ru;; *);;
+			<- sc_statement;;
+			<= nrel_sc_text_translation:
+				...
+				(*
+					->
+                    [Детерминированная система характеризуется соотношениями, определяющими однозначное соответствие 
+                        между реализациями входного и выходного сигналов.]
+					(* <- lang_ru;; *);;
+				*);;
+		*);;
+
+dynamic_system
+
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[динамичная система]
+	(* <- lang_ru;; *);
+	[dynamic system]
+	(* <- lang_en;; *);
+
+<- rrel_key_sc_element:
+		...
+		(*
+			<- sc_definition;;
+			=> nrel_main_idtf:
+				[Определение: динамичная система]
+				(* <- lang_ru;; *);;
+			<= nrel_sc_text_translation:
+				...
+				(*
+					-> 
+						[Динамичная система — множество элементов, для которого задана функциональная зависимость 
+							между временем и положением в фазовом пространстве каждого элемента системы.]
+						(* <- lang_ru;; *);;
+				*);;
+		*);
+
+<-rrel_key_sc_element:
+		...
+		(*
+			=> nrel_main_idtf:
+				[утв.(момент времени, множество, вещественное число, точка, пространство состояний)]
+				(* <- lang_ru;; *);;
+			<- sc_statement;;
+			<= nrel_sc_text_translation:
+				...
+				(*
+					->[Состояние динамичной системы в любой момент времени описывается множеством вещественных 
+						чисел, соответствующим определённой точке в пространстве состояний.]
+					(* <- lang_ru;; *);;
+				*);;
+		*);;
+
+hard_system
+
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[сложная система]
+	(* <- lang_ru;; *);
+	[hard system]
+	(* <- lang_en;; *);
+
+<- rrel_key_sc_element:
+		...
+		(*
+			<- sc_definition;;
+			=> nrel_main_idtf:
+				[Определение: сложная система]
+				(* <- lang_ru;; *);;
+			<= nrel_sc_text_translation:
+				...
+				(*
+					-> 
+						[Сложная система — система, состоящая из множества взаимодействующих составляющих 
+							(подсистем), вследствие чего сложная система приобретает новые свойства, которые 
+								отсутствуют на подсистемном уровне и не могут быть сведены к свойствам 
+									подсистемного уровня.]
+						(* <- lang_ru;; *);;
+				*);;
+		*);
+
+<-rrel_key_sc_element:
+		...
+		(*
+			=> nrel_main_idtf:
+				[утв.(математическое описание, алгоритм)]
+				(* <- lang_ru;; *);;
+			<- sc_statement;;
+			<= nrel_sc_text_translation:
+				...
+				(*
+					->[Для сложной системы характерно отсутствие математического описания или алгоритма.]
+					(* <- lang_ru;; *);;
+				*);;
+		*);;
+
+isolated_system
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[изолированная система]
+	(* <- lang_ru;; *);
+	[isolated system]
+	(* <- lang_en;; *);
+
+<- rrel_key_sc_element:
+		...
+		(*
+			<- sc_definition;;
+			=> nrel_main_idtf:
+				[Определение: изолированная система]
+				(* <- lang_ru;; *);;
+			<= nrel_sc_text_translation:
+				...
+				(*
+					-> 
+						[Изолированная система (замкнутая система) — термодинамическая система, которая не 
+							обменивается с окружающей средой ни веществом, ни энергией.]
+						(* <- lang_ru;; *);;
+				*);;
+		*);
+
+<-rrel_key_sc_element:
+		...
+		(*
+			=> nrel_main_idtf:
+				[утв.(состояние*, равновесие, водопадная модель)]
+				(* <- lang_ru;; *);;
+			<- sc_statement;;
+			<= nrel_sc_text_translation:
+				...
+				(*
+					->[Изолированная система постепенно приходит в состояние  равновесия
+						 из которого самопроизвольно выйти не может.]
+					(* <- lang_ru;; *);;
+				*);;
+		*);;
+
+natural_system
+
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[естественная система]
+	(* <- lang_ru;; *);
+	[natural system]
+	(* <- lang_en;; *);
+
+<- rrel_key_sc_element:
+		...
+		(*
+			<- sc_definition;;
+			=> nrel_main_idtf:
+				[Определение: естественная система]
+				(* <- lang_ru;; *);;
+			<= nrel_sc_text_translation:
+				...
+				(*
+					-> 
+						[Естественные системы — это системы, объективно существующие в действительности. 
+							в живой и неживой природе и обществе.]
+						(* <- lang_ru;; *);;
+				*);;
+		*);
+
+<-rrel_key_sc_element:
+		...
+		(*
+			=> nrel_main_idtf:
+				[утв.(системы, человек)]
+				(* <- lang_ru;; *);;
+			<- sc_statement;;
+			<= nrel_sc_text_translation:
+				...
+				(*
+					->[Естественные системы возникли без участия человека.]
+					(* <- lang_ru;; *);;
+				*);;
+		*);;
+
+open_system
+
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[открытая система]
+	(* <- lang_ru;; *);
+	[open system]
+	(* <- lang_en;; *);
+
+<- rrel_key_sc_element:
+		...
+		(*
+			<- sc_definition;;
+			=> nrel_main_idtf:
+				[Определение: открытая система]
+				(* <- lang_ru;; *);;
+			<= nrel_sc_text_translation:
+				...
+				(*
+					-> 
+						[Открытая система - система, которая функционирует благодаря взаимодействию с окружающим миром.]
+						(* <- lang_ru;; *);;
+				*);;
+		*);
+
+<-rrel_key_sc_element:
+		...
+		(*
+			=> nrel_main_idtf:
+				[утв.(процесс, обемен*, окружение)]
+				(* <- lang_ru;; *);;
+			<- sc_statement;;
+			<= nrel_sc_text_translation:
+				...
+				(*
+					->[Открытая система существует не за счет стабилизации процессов, а за счет постоянного обмена 
+						со своим окружением.]
+					(* <- lang_ru;; *);;
+				*);;
+		*);;
+
+probabilistic_system
+
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[вероятностная система]
+	(* <- lang_ru;; *);
+	[probabilistic system]
+	(* <- lang_en;; *);
+
+<- rrel_key_sc_element:
+		...
+		(*
+			<- sc_definition;;
+			=> nrel_main_idtf:
+				[Определение: вероятностная система]
+				(* <- lang_ru;; *);;
+			<= nrel_sc_text_translation:
+				...
+				(*
+					-> 
+						[Вероятностная система  — система, выходы которой случайным образом, а не 
+                            однозначно зависят от входов.]
+						(* <- lang_ru;; *);;
+				*);;
+		*);
+
+<-rrel_key_sc_element:
+		...
+		(*
+			=> nrel_main_idtf:
+				[утв.(описание*, аппарат случайных процессов)]
+				(* <- lang_ru;; *);;
+			<- sc_statement;;
+			<= nrel_sc_text_translation:
+				...
+				(*
+					->[Для описания вероятностных систем используется аппарат случайных процессов.]
+					(* <- lang_ru;; *);;
+				*);;
+		*);;
+
+purposefull_system	
+
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[целенаправленная система]
+	(* <- lang_ru;; *);
+	[purposefull system]
+	(* <- lang_en;; *);
+
+<- rrel_key_sc_element:
+		...
+		(*
+			<- sc_definition;;
+			=> nrel_main_idtf:
+				[Определение: Целенаправленная система]
+				(* <- lang_ru;; *);;
+			<= nrel_sc_text_translation:
+				...
+				(*
+					-> 
+						[Целенаправленная система —  система, функционирование которой подчинено достижению 
+							определенной цели.]
+						(* <- lang_ru;; *);;
+				*);;
+		*);
+
+<-rrel_key_sc_element:
+		...
+		(*
+			=> nrel_main_idtf:
+				[утв.(основная часть, управляемая, управляющая)]
+				(* <- lang_ru;; *);;
+			<- sc_statement;;
+			<= nrel_sc_text_translation:
+				...
+				(*
+					->[Выделяют две основные части целенаправленной системы: управляемая, управляющая.]
+					(* <- lang_ru;; *);;
+				*);;
+		*);;
+
+quntitative
+
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[система с количественными переменными]
+	(* <- lang_ru;; *);
+	[quntitative]
+	(* <- lang_en;; *);
+
+<- rrel_key_sc_element:
+		...
+		(*
+			<- sc_definition;;
+			=> nrel_main_idtf:
+				[Определение: система с количественными переменными]
+				(* <- lang_ru;; *);;
+			<= nrel_sc_text_translation:
+				...
+				(*
+					-> 
+						[Система с количественными переменными - система, имеющая дискретно или непрерывно описываемые 
+							количественным образом переменные.]
+						(* <- lang_ru;; *);;
+				*);;
+		*);;
+
+simple_system	
+
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[простая система]
+	(* <- lang_ru;; *);
+	[simple system]
+	(* <- lang_en;; *);
+
+<- rrel_key_sc_element:
+		...
+		(*
+			<- sc_definition;;
+			=> nrel_main_idtf:
+				[Определение: простая система]
+				(* <- lang_ru;; *);;
+			<= nrel_sc_text_translation:
+				...
+				(*
+					-> 
+						[Простая система – это система, которая состоит из небольшого числа элементов, не имеющая 
+							разветвленной структуры (нельзя выделить иерархические уровни).]
+						(* <- lang_ru;; *);;
+				*);;
+		*);
+
+<-rrel_key_sc_element:
+		...
+		(*
+			=> nrel_main_idtf:
+				[утв.(связь, отношение, элемент, окружающая среда, целстность)]
+				(* <- lang_ru;; *);;
+			<- sc_statement;;
+			<= nrel_sc_text_translation:
+				...
+				(*
+					->[Простая система характеризуется не только наличием связей и отношений между образующими её элементами, 
+						но и неразрывным единством с окружающей средой, во взаимодействии с которой система проявляет свою 
+							целостность.]
+					(* <- lang_ru;; *);;
+				*);;
+		*);;
+
+static_system
+
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[статичная система]
+	(* <- lang_ru;; *);
+	[static system]
+	(* <- lang_en;; *);
+
+<- rrel_key_sc_element:
+		...
+		(*
+			<- sc_definition;;
+			=> nrel_main_idtf:
+				[Определение: статичная_система]
+				(* <- lang_ru;; *);;
+			<= nrel_sc_text_translation:
+				...
+				(*
+					-> 
+						[Статическая система — это такая система автоматического регулирования, в которой ошибка регулирования 
+							стремится к постоянному значению при входном воздействии, стремящемся к некоторому постоянному значению. 
+								Иными словами статическая система не может обеспечить постоянства управляемого параметра при переменной 
+									нагрузке.]
+						(* <- lang_ru;; *);;
+				*);;
+		*);;
+
+system_with_qualitative_variables
+
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[система с качественными переменными]
+	(* <- lang_ru;; *);
+	[system with qualitative variables]
+	(* <- lang_en;; *);
+
+<- rrel_key_sc_element:
+		...
+		(*
+			<- sc_definition;;
+			=> nrel_main_idtf:
+				[Определение: система с качественными переменными]
+				(* <- lang_ru;; *);;
+			<= nrel_sc_text_translation:
+				...
+				(*
+					-> 
+						[Система с качественными переменными - система, имеющая только лишь содержательное описание.]
+						(* <- lang_ru;; *);;
+				*);;
+		*);;
+
+uncentral_system
+
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[децентрализованная система]
+	(* <- lang_ru;; *);
+	[uncentral system]
+	(* <- lang_en;; *);
+
+<- rrel_key_sc_element:
+		...
+		(*
+			<- sc_definition;;
+			=> nrel_main_idtf:
+				[Определение: децентрализованная система]
+				(* <- lang_ru;; *);;
+			<= nrel_sc_text_translation:
+				...
+				(*
+					-> 
+						[Децентрализованная система – система, в которой нет доминирующей подсистемы.]
+						(* <- lang_ru;; *);;
+				*);;
+		*);
+
+<-rrel_key_sc_element:
+		...
+		(*
+			=> nrel_main_idtf:
+				[утв.(элементы, последовательно, параллельно)]
+				(* <- lang_ru;; *);;
+			<- sc_statement;;
+			<= nrel_sc_text_translation:
+				...
+				(*
+					->[Элементы децентрализованной системы соединены между собой последовательно или параллельно.]
+					(* <- lang_ru;; *);;
+				*);;
+		*);;
+
+virtual_system
+
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[виртуальная система]
+	(* <- lang_ru;; *);
+	[virtual system]
+	(* <- lang_en;; *);
+
+<- rrel_key_sc_element:
+		...
+		(*
+			<- sc_definition;;
+			=> nrel_main_idtf:
+				[Определение: виртуальная система]
+				(* <- lang_ru;; *);;
+			<= nrel_sc_text_translation:
+				...
+				(*
+					-> 
+						[Виртуальная система - программная и/или аппаратная система, эмулирующая аппаратное 
+							обеспечение некоторой платформы.]
+						(* <- lang_ru;; *);;
+				*);;
+		*);
+
+<-rrel_key_sc_element:
+		...
+		(*
+			=> nrel_main_idtf:
+				[утв.(каскадная модель, спиральная модель, водопадная модель)]
+				(* <- lang_ru;; *);;
+			<- sc_statement;;
+			<= nrel_sc_text_translation:
+				...
+				(*
+					->[Виртуальная система может эмулировать работу как отдельных компонентов аппаратного обеспечения, так и 
+						целого реального компьютера.]
+					(* <- lang_ru;; *);;
+				*);;
+		*);;
+
+well_organized_system
+
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[хорошо организованная система]
+	(* <- lang_ru;; *);
+	[well organized system]
+	(* <- lang_en;; *);
+
+<- rrel_key_sc_element:
+		...
+		(*
+			<- sc_definition;;
+			=> nrel_main_idtf:
+				[Определение: хорошо организованная система]
+				(* <- lang_ru;; *);;
+			<= nrel_sc_text_translation:
+				...
+				(*
+					-> 
+						[Представить анализируемый объект или процесс в виде «хорошо организованной системы» 
+                            означает определить элементы системы, их взаимосвязь, правила объединения в более 
+                                крупные компоненты.]
+						(* <- lang_ru;; *);;
+				*);;
+		*);
+
+<-rrel_key_sc_element:
+		...
+		(*
+			=> nrel_main_idtf:
+				[утв.(решение, задача, аналитический метод, формальное представление)]
+				(* <- lang_ru;; *);;
+			<- sc_statement;;
+			<= nrel_sc_text_translation:
+				...
+				(*
+					->[Решение задачи при представлении ее в виде хорошо организованной системы осуществляется 
+                        аналитическими методами формализованного представления системы.]
+					(* <- lang_ru;; *);;
+				*);;
+		*);;						

@@ -1,0 +1,25 @@
+schedule_exams
+=>nrel_main_idtf:
+[расписание экзаменов](*<-lang_ru;;*);
+->rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> [расписание экзаменов -документ который обеспечивает выполнение учебного плана в полном объемечерез проведение экзаменов. ] (* <-lang_ru;; *);; 
+		*);;
+	*);
+=>nrel_inclusion:schedule_exam_by_teacher;schedule_exam_by_group;schedule_exam_by_student;;
+
+
+schedule_exam_by_teacher
+=>nrel_main_idtf:
+	[расписание экзаменов преподавателя] (* <-lang_ru;; *);;
+schedule_exam_by_group
+=>nrel_main_idtf:
+	[расписание экзаменов учебной группы] (* <-lang_ru;; *);;
+schedule_exam_by_student
+=>nrel_main_idtf:
+	[расписание экзаменов обучающегося] (* <-lang_ru;; *);;

@@ -1,0 +1,37 @@
+cuznecov=>nrel_main_idtf:[Кузнецов Александр Петрович](*<-lang_ru;;*);;
+curaev=>nrel_main_idtf:[Кураев Александр Александрович](*<-lang_ru;;*);;
+borisenko=>nrel_main_idtf:[Борисенко Виктор Евгеньевич](*<-lang_ru;;*);;
+cegelnik=>nrel_main_idtf:[Цегельник Владимир Владимирович](*<-lang_ru;;*);;
+karpovich=>nrel_main_idtf:[Карпович Святослав Евгеньевич](*<-lang_ru;;*);;
+karpuk=>nrel_main_idtf:[Карпук Андрей Андреевич](*<-lang_ru;;*);;
+lipnitskiy=>nrel_main_idtf:[Липницкий Валерий Антонович](*<-lang_ru;;*);;
+cherkas=>nrel_main_idtf:[Черкас Леонид Антонович](*<-lang_ru;;*);;
+
+
+cuznecov<-concept_professor;;
+curaev<-concept_professor;;
+borisenko<-concept_professor;;
+cegelnik<-concept_professor;;
+karpovich<-concept_professor;;
+karpuk<-concept_professor;;
+lipnitskiy<-concept_professor;;
+cherkas<-concept_professor;;
+
+
+
+lobatyi=>nrel_main_idtf:[Лобатый Александр Александрович](*<-lang_ru;;*);;
+kyrenev=>nrel_main_idtf:[Куренев Вячеслав Александрович](*<-lang_ru;;*);;
+medvedev=>nrel_main_idtf:[Медведев Сергей Викторович](*<-lang_ru;;*);;
+mihalev=>nrel_main_idtf:[Михалев Александр Сергеевич](*<-lang_ru;;*);;
+pashkevich=>nrel_main_idtf:[Пашкевич Анатолий Павлович](*<-lang_ru;;*);;
+cheremisiniva=>nrel_main_idtf:[Черемисинова Людмила Дмитриевна](*<-lang_ru;;*);;
+
+
+
+cuznecov<-concept_doctor_of_technical_sciences;;
+lobatyi<-concept_doctor_of_technical_sciences;;
+kyrenev<-concept_doctor_of_technical_sciences;;
+medvedev<-concept_doctor_of_technical_sciences;;
+mihalev<-concept_doctor_of_technical_sciences;;
+pashkevich<-concept_doctor_of_technical_sciences;;
+cheremisiniva<-concept_doctor_of_technical_sciences;;

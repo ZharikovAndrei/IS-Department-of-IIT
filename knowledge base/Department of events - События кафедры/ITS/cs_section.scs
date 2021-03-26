@@ -1,0 +1,20 @@
+cs_section=> nrel_main_idtf:
+[Секция «Системы управления» международной научной конференции "Информационные технологии и системы" ] (* <-lang_ru;; *);
+[Section "Control Systems" of international scientific conference "Information Technologies and Systems" ] (* <-lang_en;; *);
+=>nrel_idtf:
+[Секция  «Системы управления» международной научной конференции ITS ] (* <-lang_ru;; *);
+[Section  "Control Systems"  of international scientific conference ITS ] (* <-lang_en;; *);;
+
+cs_section<- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://cs_section.html";;
+               *);;
+        *);;
+
+

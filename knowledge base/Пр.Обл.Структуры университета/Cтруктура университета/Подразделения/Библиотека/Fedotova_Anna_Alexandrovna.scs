@@ -1,0 +1,39 @@
+Fedotova_Anna_Alexandrovna=>nrel_main_idtf:
+[Федотова Анна Александровна](*<-lang_ru;;*);
+[Fedotova Anna Alexandrovna](*<-lang_en;;*);;
+
+Fedotova_Anna_Alexandrovna -> rrel_email:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [a.mikhailova@bsuir.by](*<-lang_ru;;*)
+   ;;*)
+   ;;*)
+   ;; 
+Fedotova_Anna_Alexandrovna -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [+375 17 293-89-69];
+ [+375 17 293-89-69];;*)
+   ;;*)
+   ;; 
+
+Fedotova_Anna_Alexandrovna-> rrel_work_address:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [103-2];;*)
+   ;;*)
+   ;; 
+
+/*Fedotova_Anna_Alexandrovna<- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://Fedotova_Anna_Alexandrovna.JPG";;
+               *);;
+        *);;*/
+
+

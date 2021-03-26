@@ -1,0 +1,14 @@
+rrel_day
+<-sc_node_role_relation;
+=>nrel_main_idtf:
+	[день недели'] (* <-lang_ru;; *);
+->rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> [день недели - часть суток от восхода до заката солнца,от утра до вечера.] (* <-lang_ru;; *);; 
+		*);;
+	*);;

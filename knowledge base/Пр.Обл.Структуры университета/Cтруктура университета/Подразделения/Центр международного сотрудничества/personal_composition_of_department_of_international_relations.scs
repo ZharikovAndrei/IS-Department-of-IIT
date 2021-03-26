@@ -1,0 +1,14 @@
+personal_composition_of_department_of_international_relations=>nrel_main_idtf:
+	[персональный состав отдела международных связей] (*<-lang_ru;;*);
+	[personal composition of department of international relations](*<-lang_en;;*);; 
+
+personal_composition_of_department_of_international_relations=>nrel_idtf:
+	[персональный состав ОМС] (*<-lang_ru;;*);
+	[personal composition of DIR](*<-lang_en;;*);; 
+
+
+
+personal_composition_of_department_of_international_relations->rrel_department_head: Bakunova_Elena_Valerievna;
+rrel_translator: Denisova_Elena_Sergeevna;
+rrel_specialist_in_intercultural_communications: Gricik_Kristina_Vasilievna;;
+

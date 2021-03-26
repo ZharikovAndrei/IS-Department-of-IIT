@@ -1,0 +1,16 @@
+smallspring2016G321StatOiv_wednesdaysecond_pair = [*^"file://smallspring2016G321StatOiv_wednesdaysecond_pair.scsi"*];; 
+smallspring2016G321StatOiv_wednesdaysecond_pair<-study_session;; 
+smallspring2016G321StatOiv_wednesdaysecond_pair => nrel_time_situation: ...
+ (*->...(*
+<-time_point;;
+->rrel_number_of_pair:second_pair ;;
+->rrel_day:wednesday;;
+->rrel_week:2 ;;
+*);;
+->...(*
+<-time_point;;
+->rrel_number_of_pair:second_pair ;;
+->rrel_day:wednesday;;
+->rrel_week:4 ;;
+*);;
+*);;

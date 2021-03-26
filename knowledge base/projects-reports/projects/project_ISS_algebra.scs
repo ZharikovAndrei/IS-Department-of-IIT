@@ -1,0 +1,14 @@
+project_ISS_algebra
+      => nrel_main_idtf:[Интеллектуальная справочная система по числовым моделям] (* <-lang_ru;; *);
+      => nrel_main_idtf:[Intelligent information system by numerical models] (* <-lang_en;; *);
+      => nrel_synonymy:[16e/числ] (* <-lang_ru;; *);;
+
+project_ISS_algebra => nrel_project_leader: Shunkevich_D_V;;
+project_ISS_algebra => nrel_performers: Derzhanovich_R_P; Brancevich_E_M; Xilko_A_A; Koslovich_P_G; Ladutenko_A_D; Kusin_A_V; Shalik_E_V; Jankovskii_A_V; Melentsevich_M_D; Rodko_A_D; Tsvikevich_M_N; Poznyak_A_V; Sulik_O_A; Ermakovich_V_A; Batovkin_N_A; Shokal_I_D; Karbanovich_I_M; Gonchar_D_D; Borisevich_M_R;;
+project_ISS_algebra -> rrel_responsible_executor: Derzhanovich_R_P;;
+project_ISS_algebra => nrel_reports: report_ISS; report_IS_individual_learning;;
+ 
+//  project_ISS_algebra => nrel_main_students: ;;
+//  project_ISS_algebra=> nrel_sections_KB_IMS: ;;
+//  project_ISS_algebra=> nrel_reports_OSTIS2017: ;;
+//  project_ISS_algebra=> nrel_related_projects: ;;

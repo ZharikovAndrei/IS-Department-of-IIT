@@ -1,0 +1,22 @@
+monday
+=>nrel_main_idtf:
+	[понедельник] (* <-lang_ru;; *);;
+tuesday
+
+=>nrel_main_idtf:
+	[вторник] (* <-lang_ru;; *);;
+wednesday
+=>nrel_main_idtf:
+	[среда] (* <-lang_ru;; *);;
+thursday
+=>nrel_main_idtf:
+	[четверг] (* <-lang_ru;; *);;
+friday
+=>nrel_main_idtf:
+	[пятница] (* <-lang_ru;; *);;
+saturday
+=>nrel_main_idtf:
+	[суббота] (* <-lang_ru;; *);;
+sunday
+=>nrel_main_idtf:
+	[воскресенье] (* <-lang_ru;; *);;

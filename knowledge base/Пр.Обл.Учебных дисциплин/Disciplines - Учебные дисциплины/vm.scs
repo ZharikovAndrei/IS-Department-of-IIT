@@ -1,0 +1,14 @@
+higher_mathematics
+=>nrel_main_idtf: [Высшая математика] (*<-lang_ru;;*);
+=>nrel_main_idtf: [Higher mathematics] (*<-lang_en;;*);
+<=nrel_trains: the_department_of_higher_mathematics;
+<=nrel_class_number: 1(* <-positive_number;;*);
+<=nrel_class_number: 2(* <-positive_number;;*);
+<=nrel_semester_number: 1(* <-positive_number;;*);
+<=nrel_semester_number: 2(* <-positive_number;;*);
+<=nrel_semester_number: 3(* <-positive_number;;*);
+<=nrel_lecture_hours: 170(*<-positive_number;;*);
+<=nrel_practice_hours: 204(*<-positive_number;;*);
+<=nrel_component: concept_mandatory_component;
+<=nrel_cycle: concept_tsikl_estesstvenno_nauchnykh_distsiplin;;
+

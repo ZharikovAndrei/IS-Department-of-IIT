@@ -1,0 +1,15 @@
+sc_node_not_relation -> concept_educational_and_methodical_management;; 
+concept_educational_and_methodical_management=> nrel_main_idtf:[Учебно-методическое управление] (* <-lang_ru;; *);;
+concept_educational_and_methodical_management=> nrel_main_idtf:[Educational Department] (* <-lang_en;; *);;
+concept_educational_and_methodical_management<- rrel_key_sc_element:
+	... 
+	(*<-sc_definition;;
+     =>nrel_main_idtf:[Опр.(Учебно-методическое управление)](*<-lang_ru;;*);;
+     <=nrel_using_constants:...(*->nrel_university;; *);;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[  Учебно-методическое управление - одно из структурных подразделений университета, основной целью которого является повышение качества учебного процесса в ВУЗе, а также руководство, координация и контроль за деятельностью учебных подразделений ВУЗа.](* <- lang_ru;; *);;
+		*);;
+	*);;

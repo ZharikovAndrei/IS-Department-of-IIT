@@ -1,0 +1,30 @@
+projects => nrel_main_idtf:[проекты] (* <-lang_ru;; *);;
+projects => nrel_main_idtf:[projects] (* <-lang_en;; *);;
+
+projects ->
+project_cartographic_UI;
+project_core_UI;
+project_discrete_math;
+project_drawing_UI;
+project_environment_design_management;
+project_environment_KB;
+project_environment_neural_network;
+project_environment_SCP;
+project_environment_visualization_KB;
+project_IMS;
+project_integrator;
+project_IS_conference;
+project_IS_department;
+project_IS_energetics;
+project_IS_Minsk;
+project_IS_museum;
+project_ISS_algebra;
+project_ISS_chemistry;
+project_ISS_geography;
+project_ISS_geometry;
+project_ISS_historical_persons;
+project_ISS_history;
+project_ISS_music;
+project_offenses;
+project_smart_House;
+project_savushkin_product;;

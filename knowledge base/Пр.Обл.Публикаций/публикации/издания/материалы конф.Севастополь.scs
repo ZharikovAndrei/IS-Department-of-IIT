@@ -1,0 +1,25 @@
+//Практикум.учебно-методическое пособие для студентов специальности « Искусственный интеллект»
+
+//sc_node_not_relation -> materials_konf_Sevastopol; sevastopol;;
+
+sevastopol=> nrel_main_idtf:
+[Севастополь]
+	(*
+	<- lang_ru;;
+	*);
+	[Sevastopol]
+	(*
+	<- lang_en;;
+	*);;
+
+materials_konf_Sevastopol => nrel_main_idtf:
+[материалы конф.Севастополь]
+	(*
+	<- lang_ru;;
+	*);
+	[materials konf.Sevastopol]
+	(*
+	<- lang_en;;
+	*);;
+materials_konf_Sevastopol => nrel_place_publication: sevastopol;;
+

@@ -1,0 +1,31 @@
+Pristrom_Irina_Eduardovna=>nrel_main_idtf:
+[Пристром Ирина Эдуардовна](*<-lang_ru;;*);
+[Pristrom Irina Eduardovna](*<-lang_en;;*);;
+
+Pristrom_Irina_Eduardovna -> rrel_email:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+ [pristrom@bsuir.by  ](*<-lang_en;;*)
+   ;;*)
+   ;;*)
+   ;;
+
+Pristrom_Irina_Eduardovna -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+ [+375 17 293-88-34 ];;*)
+   ;;*)
+   ;;
+
+Pristrom_Irina_Eduardovna -> rrel_work_place: aud_233_1;;
+Pristrom_Irina_Eduardovna <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example:
+                       "file://Pristrom.jpg";;
+               *);;
+        *);;

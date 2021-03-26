@@ -1,0 +1,11 @@
+sc_node_not_relation -> collection_of_scientific_papers_collective;;
+
+collection_of_scientific_papers_collective => nrel_main_idtf:
+[авторский сборник научных коллективный]
+	(*
+	<- lang_ru;;
+	*);
+	[collection of scientific papers collective] 
+	(*
+	<- lang_en;;
+	*);;

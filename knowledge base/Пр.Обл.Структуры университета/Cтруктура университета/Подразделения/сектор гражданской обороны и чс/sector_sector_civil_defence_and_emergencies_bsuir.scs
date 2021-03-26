@@ -1,0 +1,9 @@
+sector_civil_defence_and_emergencies_bsuir=>nrel_main_idtf:
+[сектор гражданской обороны и чс БГУИР](*<-lang_ru;;*);
+[sector civil defence and emergencies bsuir](*<-lang_en;;*);;
+
+sector_civil_defence_and_emergencies_bsuir<-concept_sector_civil_defence_and_emergencies;;
+
+
+sector_civil_defence_and_emergencies_bsuir=>nrel_pers_comp:pers_comp_of_sector_civil_defence_and_emergencies_bsuir;;
+

@@ -1,0 +1,34 @@
+//sc_node_not_relation -> publication_Kolb_D_G_2014_PrincICSiPOSTIS;;
+
+
+publication_Kolb_D_G_2014_PrincICSiPOSTIS => nrel_main_idtf:
+[Колб Д.Г.2014 - ПринцИСХвПOSTIS] 
+	(*
+	<- lang_ru;;
+	*);
+	[Kolb_D_G_2014_PrincICSiPOSTIS]
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Kolb_D_G_2014_PrincICSiPOSTIS => nrel_name_publication:[Принципы интеграции содержимого RDF-хранилищ в проекте Ostis](*
+	<- lang_ru;;
+	*);;
+
+publication_Kolb_D_G_2014_PrincICSiPOSTIS <= nrel_author:
+Kolb_D_G; Moshenko_D_G;;
+
+publication_Kolb_D_G_2014_PrincICSiPOSTIS <- article;;
+
+publication_Kolb_D_G_2014_PrincICSiPOSTIS => nrel_reference_standard: [Каешко А.И., Колб Д.Г. Принципы интеграции содержимого RDF-хранилищ в проекте Ostis. Открытые семантические технологии интеллектуальных систем (Ostis-2014): Материалы IV международной науч.-тех. конф (Минск, 20-22 февраля 2014г.) Минск: БГУИР,2014. – с.447-452];;
+
+publication_Kolb_D_G_2014_PrincICSiPOSTIS => nrel_year_publication: 2014;;
+
+publication_Kolb_D_G_2014_PrincICSiPOSTIS => nrel_information_publication:  Materials_of_the_International_Scientific_and_Technical_Conference_OSTIS_2014;;
+
+publication_Kolb_D_G_2014_PrincICSiPOSTIS => nrel_number_page: ..2014_PrincICSiPOSTIS(*
+-> rrel_from : 447;;
+-> rrel_by : 452;;
+*);;
+
+

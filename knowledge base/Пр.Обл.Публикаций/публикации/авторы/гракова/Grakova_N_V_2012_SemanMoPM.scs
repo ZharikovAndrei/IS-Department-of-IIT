@@ -1,0 +1,29 @@
+publication_Grakova_N_V_2012_SemanMoPM=> nrel_main_idtf:
+[Гракова Н.В. 2012 - СеманМУП]
+	(*
+	<- lang_ru;;
+	*);
+	[Grakova_N_V_2012_SemanMoPM] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Grakova_N_V_2012_SemanMoPM => nrel_name_publication:[Семантическая модель управления проектами](*
+	<- lang_ru;;
+	*);;
+
+publication_Grakova_N_V_2012_SemanMoPM <= nrel_author:
+Grakova_N_V;;
+
+publication_Grakova_N_V_2012_SemanMoPM <- article;;
+
+publication_Grakova_N_V_2012_SemanMoPM => nrel_reference_standard: [	Гракова, Н.В. Семантическая модель управления проектами / Н.В. Гракова // Информационные технологии в профессиональной деятельности и научной работе: сборник материалов Всероссийской научно-практической конференции с международным участием: в 2 ч. – Йошкар-Ола: Марийский государственный технический университет, 27-28 апреля 2012 г. / Марийский государственный технический университет; редкол.: В.А. Иванов и др. - Йошкар-Ола, 2012. – С. 113-118, Ч.1 ];;
+
+publication_Grakova_N_V_2012_SemanMoPM => nrel_year_publication: 2012;;
+
+publication_Grakova_N_V_2012_SemanMoPM => nrel_information_publication:Materials_of_All_Russian_scientific_practical_conference_Information_technologies_in_professional_and_scientific_work_2012;;
+
+publication_Grakova_N_V_2012_SemanMoPM => nrel_number_page: ..2012_SemanMoPM(*
+-> rrel_from : 113;;
+-> rrel_by : 118;;
+*);;

@@ -1,0 +1,7 @@
+intelligent_support_system_of_preparing_and_holding_OSTIS_conference
+=> nrel_main_idtf:[Интеллектуальная система поддержки подготовки и проведения конференции OSTIS](*<-lang_ru;;*);
+       [Intelligent support system of preparing and holding OSTIS conference](*<-lang_en;;*);
+<-student_project;
+-> rrel_scientific_consultant:Zhukov_I_I;
+-> rrel_technical_consultant:Kolb_D_G;
+=> nrel_executor: intelligent_support_system_of_preparing_and_holding_OSTIS_conference_team;;

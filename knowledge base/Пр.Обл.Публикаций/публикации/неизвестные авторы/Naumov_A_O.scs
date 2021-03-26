@@ -1,0 +1,9 @@
+Naumov_A_O => nrel_main_idtf:
+[Наумов А.О.]
+	(*
+	<- lang_ru;;
+	*);
+	[Naumov A.O.]
+	(*
+	<- lang_en;;
+	*);;

@@ -1,0 +1,10 @@
+sc_node_not_relation -> specialization_of_edition;;
+
+
+
+subject_domain -> specialization_of_edition;;
+specialization_of_document -> specialization_of_edition;;
+
+specialization_of_edition = [*^"file://ПО издания.scsi"*];;
+
+

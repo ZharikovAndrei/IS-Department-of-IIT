@@ -1,0 +1,29 @@
+sc_node_not_relation -> concept_the_trade_union_committee_of_university_staff;;
+concept_the_trade_union_committee_of_university_staff->the_trade_union_committee_of_university_staff_bsuir;;
+concept_the_trade_union_committee_of_university_staff=> nrel_main_idtf:[профсоюзный комитет сотрудников университета] (* <-lang_ru;; *);;
+concept_the_trade_union_committee_of_university_staff=> nrel_main_idtf:[the trade union committee of university staff] (* <-lang_en;; *);;
+concept_the_trade_union_committee_of_university_staff=> nrel_idtf:[профком сотрудников университета] (* <-lang_ru;; *);;
+concept_the_trade_union_committee_of_university_staff<- rrel_key_sc_element:
+	... 
+	(*<-sc_definition;;
+     =>nrel_main_idtf:[Опр.(профсоюзный комитет сотрудников университета)](*<-lang_ru;;*);;
+     <=nrel_using_constants:...
+ (*->concept_structure;;->concept_union;;->worker;;->concept_education;;*);;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Профсоюзный коммитет сотрудников университета - это организационная структура Белорусского профессионального союза работников образования и науки (БПРОН) с правами районной профсоюзной организации и правом юридического лица.](* <- lang_ru;; *);;
+		*);;
+	*);;
+concept_the_trade_union_committee_of_university_staff<- rrel_key_sc_element:
+	... 
+	(*<-sc_statement;;
+     =>nrel_main_idtf:[Утв.(профсоюзный коммитет,цель,БГУИР,работник)](*<-lang_ru;;*);;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Цель деятельности первичной профсоюзной организации работников БГУИР - защита профессиональных, трудовых, социально-экономических прав и законных интересов своих членов. ](* <- lang_ru;; *);;
+		*);;
+	*);;

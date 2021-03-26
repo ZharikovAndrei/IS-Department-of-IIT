@@ -1,0 +1,18 @@
+sc_node_norole_relation -> nrel_information_publication;;
+
+specialization_of_document -> nrel_information_publication;;
+
+
+
+nrel_information_publication <- rrel_key_sc_element: 
+        ...
+	(*
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[библиографическое описание – совокупность библиографических сведенийо документе, приведенный по определенным правилам, устанавливающим порядок следования областей и элементов, предназначенных для идентификации и общей характеристики документа]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;

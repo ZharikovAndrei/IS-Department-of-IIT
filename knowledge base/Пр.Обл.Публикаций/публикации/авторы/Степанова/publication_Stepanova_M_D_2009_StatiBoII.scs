@@ -1,0 +1,29 @@
+//Голенков В. В., Степанова М. Д., Самодумкин С.А., Н. А. Гулякина Н. А. Статистические основы индуктивного вывода: учеб. пособ.– Мн.: БГУИР, 2009. –203 с. 
+
+publication_Stepanova_M_D_2009_StatiBoII=> nrel_main_idtf:
+[Степанова М.Д. 2009 - СтатиОИВ]
+	(*
+	<- lang_ru;;
+	*);
+	[Stepanova M.D. 2009 - StatiBoII] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Stepanova_M_D_2009_StatiBoII => nrel_name_publication:[Статистические основы индуктивного вывода.](*
+	<- lang_ru;;
+	*);;
+
+publication_Stepanova_M_D_2009_StatiBoII <= nrel_author:
+Golenkov_V_V; Stepanova_M_D; Samodumkin_S_A; Gulyakina_N_A;;
+
+publication_Stepanova_M_D_2009_StatiBoII <- book;;
+
+publication_Stepanova_M_D_2009_StatiBoII => nrel_reference_standard: [Голенков В. В., Степанова М. Д., Самодумкин С.А., Н. А. Гулякина Н. А. Статистические основы индуктивного вывода: учеб. пособ.– Мн.: БГУИР, 2009. –203 с. ];;
+
+publication_Stepanova_M_D_2009_StatiBoII => nrel_year_publication: 2009;;
+
+publication_Stepanova_M_D_2009_StatiBoII => nrel_information_publication: Statistical_bases_of_inductive_inference;;
+
+publication_Stepanova_M_D_2009_StatiBoII => nrel_count_page: 203;;
+

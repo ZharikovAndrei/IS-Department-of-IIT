@@ -1,0 +1,29 @@
+sc_node_not_relation -> training_program;;
+training_program => nrel_main_idtf:
+[учебная программа]
+	(*
+	<- lang_ru;;
+	*);
+	[training program] 
+	(*
+	<- lang_en;;
+	*);;
+
+training_program <- rrel_key_sc_element: 
+        ...
+	(*
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[учебная программа – учебное издание, определяющее содержание, объем, а также порядок изучения и преподавания учебной дисциплины (ее раздела, части)]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;
+
+
+training_program <- educational_edition;;
+
+training_program <- edition;;
+

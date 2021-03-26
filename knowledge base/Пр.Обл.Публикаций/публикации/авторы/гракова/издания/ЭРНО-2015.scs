@@ -1,0 +1,24 @@
+ Proceedings_of_the_IV_International_scientific_methodical_workshop_ERNO_2015 => nrel_main_idtf:
+[Электронные ресурсы в непрерывном образовании («ЭРНО-2015»): Труды IV Международного научно-методического симпозиума]
+	(*
+	<- lang_ru;;
+	*);
+	[Electronic resources in continuing education ("Erno-2015"): Proceedings of the IV International scientific-methodical workshop]
+	(*
+	<- lang_en;;
+	*);;
+Proceedings_of_the_IV_International_scientific_methodical_workshop_ERNO_2015 => nrel_publishing:
+SFEDU;;
+
+Proceedings_of_the_IV_International_scientific_methodical_workshop_ERNO_2015 => nrel_place_publication:
+Rostov_na_Donu;;
+
+Proceedings_of_the_IV_International_scientific_methodical_workshop_ERNO_2015 <- rrel_key_sc_element: ... (* <- sc_explanation;; <= nrel_sc_text_translation: ... (* -> rrel_example: "file://материалы/erno2015.pdf";; *);; *);;
+
+SFEDU=>nrel_main_idtf:
+[Южный федеральный университет](*<-lang_ru;;*);
+[South Federal University](*<-lang_en;;*);;
+
+Rostov_na_Donu=>nrel_main_idtf:
+[Ростов-на-Дону](*<-lang_ru;;*);
+[Rostov-na-Donu](*<-lang_en;;*);;

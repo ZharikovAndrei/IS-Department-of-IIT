@@ -1,0 +1,36 @@
+sc_node_not_relation -> educational_edition;;
+
+educational_edition => nrel_main_idtf:
+[учебное издание]
+	(*
+	<- lang_ru;;
+	*);
+	[educational edition] 
+	(*
+	<- lang_en;;
+	*);;
+
+educational_edition <- rrel_key_sc_element: 
+        ...
+	(*
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[учебное издание – издание, содержащее систематизированные сведения научного или прикладного характера, изложенные в форме, удобной для изучения и преподавания, и рассчитанное на учащихся раного возраста и ступени обучения]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;
+
+edition -> educational_edition;;
+non_periodical_edition -> educational_edition;;
+
+educational_edition <= nrel_subdividing: 
+					{	textbook;
+						practical_work;
+						tutorial;
+						training_package;
+						training_program
+
+					};;

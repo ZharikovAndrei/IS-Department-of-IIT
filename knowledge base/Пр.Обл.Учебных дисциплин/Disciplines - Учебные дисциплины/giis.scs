@@ -1,0 +1,52 @@
+giis
+=>nrel_main_idtf:
+	[Графический интерфейс интеллектуальных систем] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[Graphical interfaces of intelligent systems] (* <-lang_en;; *);
+=>nrel_abbreviation:[ГИИС];
+
+<-special_subject;
+
+<-multiplicity_of_subjects_taught_in_the_7_term_specialty_artificial_intelligence_4_year_education;
+<-multiplicity_of_subjects_taught_in_the_7_term_specialty_artificial_intelligence_5_year_education;
+
+<=nrel_realisation_of_learning_activity:
+
+	lectures_on_giis
+			(*=>nrel_main_idtf:
+	[Графический интерфейс интеллектуальных систем.лекции] (* <-lang_ru;; *);;
+	=>nrel_planned_hours:48;;
+			=>nrel_realisation_of_intermediate_control:
+				control_work;;
+				<-lecture;;
+			*);
+	laboratory_work_on_giis
+			(*=>nrel_main_idtf:
+	[Графический интерфейс интеллектуальных систем.лабораторный практикум] (* <-lang_ru;; *);;
+	=>nrel_planned_hours:32;;
+			=>nrel_realisation_of_intermediate_control:
+				protection_of_laboratory_work;;
+			<-laboratory_work	;;
+			*);
+	practical_lesson_on_giis
+			(*=>nrel_main_idtf:
+	[Графический интерфейс интеллектуальных систем.практические занятия] (* <-lang_ru;; *);;
+	=>nrel_planned_hours:16;;
+			=>nrel_realisation_of_intermediate_control:
+				 protection_of_practical_work;;
+			*);
+=>nrel_realisation_of_final_certification: exam;
+<-rrel_subject:
+			...
+			(*
+				->rrel_realisation_of_learning_activity: lecture; laboratory_work; practical_lesson;;
+				<-nrel_taught_subject;;
+				->rrel_teacher: Samodumkin_S_A;;
+			*);
+=>nrel_term: 7;
+
+<=nrel_trains: the_department_of_intelligent_informational_technologies;
+<=nrel_class_number: 4(* <-positive_number;;*);
+<=nrel_semester_number: 7(* <-positive_number;;*);
+<=nrel_component: concept_mandatory_component;
+<=nrel_cycle: concept_tsikl_obshcheprofessionalnykh_i_spetsialnykh_distsiplin;;

@@ -1,0 +1,123 @@
+the_faculty_of_informational_technologis_and_control=>nrel_main_idtf:
+[Факультет информационных технологий и управления](*<-lang_ru;;*);
+[the faculty of informational technologis and control](*<-lang_en;;*);; 
+
+the_faculty_of_informational_technologis_and_control=>nrel_idtf:[ФИТУ](*<-lang_ru;;*);;
+the_faculty_of_informational_technologis_and_control=>nrel_idtf:[FITC](*<-lang_en;;*);;
+
+
+
+pers_comp_fitc -> rrel_dean: dean_fitc;;
+
+the_faculty_of_informational_technologis_and_control => nrel_logotipe: logotipe_fitc;;
+
+the_faculty_of_informational_technologis_and_control => nrel_spezialization: specializations_fitc;;
+
+the_faculty_of_informational_technologis_and_control => nrel_pers_comp: pers_comp_fitc;;
+
+
+
+dean_fitc=>nrel_main_idtf:
+[Шилин Леонид Юрьевич](*<-lang_ru;;*);
+[Shilin Leonid Yurievich](*<-lang_en;;*);;
+
+
+logotipe_fitc=>nrel_main_idtf:
+[логотип ФИТУ](*<-lang_ru;;*);
+[the logotipe of FITC](*<-lang_en;;*);; 
+
+
+specializations_fitc=>nrel_main_idtf:
+[специальности ФИТУ](*<-lang_ru;;*);
+[the spezializations of FITC](*<-lang_en;;*);; 
+
+ 
+pers_comp_fitc=>nrel_main_idtf:
+[Персональный состав ФИТУ](*<-lang_ru;;*);
+[personal composition of the FITC](*<-lang_en;;*);; 
+
+
+the_faculty_of_informational_technologis_and_control <= nrel_decomposition:
+{
+the_department_of_intelligent_informational_technologies;
+the_department_of_information_technology_of_automated_systems;
+the_department_of_management_systems;
+the_department_of_theory_of_electrical_engineering;
+the_department_of_humanities;
+the_department_of_numerical_methods_and_programming
+};;
+
+
+
+
+specializations_fitc <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [Специальности] (* <- lang_ru;; *);;
+	<- sc_task;;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[«Информационные технологии и управление в технических системах» (квалификация - инженер по информационным технологиям и управлению). ](* <- lang_ru;; *);;
+		*);
+                ...
+		(*
+		-> rrel_example: 
+			[«Автоматизированные системы обработки информации» (квалификация - инженер по информационным технологиям). ](* <- lang_ru;; *);;
+		*);
+                ...
+		(*
+		-> rrel_example: 
+			[«Искусственный интеллект» (квалификация - инженер-системотехник). ](* <- lang_ru;; *);;
+		*);
+                ...
+		(*
+		-> rrel_example: 
+			[«Промышленная электроника» (квалификация - инженер по радиоэлектронике). ](* <- lang_ru;; *);;
+		*);;
+	*);;
+
+
+the_faculty_of_informational_technologis_and_control <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [Информация о ФИТУ] (* <- lang_ru;; *);;
+	<- sc_explanation;;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Факультет является ровесником университета. Сегодня - это крупный учебный и научный центр, в котором обучается более 1700 студентов, есть свои научные школы, функционирует магистратура, аспирантура и докторантура. Обучение ведется по четырем перспективным специальностям: "Автоматизированные системы обработки информации", "Искусственный интеллект", "Информационные технологии и управление в технических системах", "Промышленная электроника".
+На ФИТУ готовят специалистов широкого профиля по IТ-технологиям, которые без труда займут достойное место на рынке труда. ](* <- lang_ru;; *);;
+		*);;
+	*);;
+
+
+
+dean_fitc <- rrel_key_sc_element:
+        ...
+        (*
+        <-illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://../../image/fitc1.jpg" (*<-image;;*);;
+               *);;
+        *);;
+
+
+
+logotipe_fitc <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://../../image/fitc2.jpg" (*<-image;;*);;
+               *);;
+        *);;
+

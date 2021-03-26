@@ -1,0 +1,38 @@
+Kuchinskaya_Natalia_Leonidovna=>nrel_main_idtf:
+[Кучинская Наталья Леонидовна](*<-lang_ru;;*);
+[Kuchinskaya Natalia Leonidovna](*<-lang_en;;*);;
+
+Kuchinskaya_Natalia_Leonidovna -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [+375 17 392-99-41];;*)
+   ;;*)
+   ;; 
+
+Kuchinskaya_Natalia_Leonidovna -> rrel_work_place:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [Общежитие №4, к. 114];;*)
+   ;;*)
+   ;; 
+
+Kuchinskaya_Natalia_Leonidovna -> rrel_email:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [kuchinskaya@bsuir.by](*<-lang_ru;;*)
+   ;;*)
+   ;;*)
+   ;; 
+
+
+Kuchinskaya_Natalia_Leonidovna <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://Kuchinskaya.jpg";;
+               *);;
+        *);;

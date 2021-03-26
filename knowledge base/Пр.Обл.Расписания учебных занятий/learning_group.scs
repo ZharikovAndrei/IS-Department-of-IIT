@@ -1,0 +1,17 @@
+learning_group
+=>nrel_main_idtf:
+	[учебная группа] (* <-lang_ru;; *);
+->rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> [Учебная группа- объединение обучающихся для общего участия в учебной дейтельности, основанное на общности их целей, мотивов, перспектив. ] (* <-lang_ru;; *);; 
+		*);;
+	*);
+
+->student;
+->group_321703;group_321701;group_321702;
+<=nrel_inclusion:concept_the_department_of_intelligent_informational_technologies;;

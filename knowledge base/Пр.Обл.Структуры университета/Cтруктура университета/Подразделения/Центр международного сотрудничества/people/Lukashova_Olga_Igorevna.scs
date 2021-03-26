@@ -1,0 +1,33 @@
+Lukashova_Olga_Igorevna=>nrel_main_idtf:
+[Лукашова Ольга Игоревна](*<-lang_ru;;*);
+[Lukashova Olga Igorevna](*<-lang_en;;*);;
+
+Lukashova_Olga_Igorevna -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [+375 17 293-84-82];;*)
+   ;;*)
+   ;; 
+
+Lukashova_Olga_Igorevna -> rrel_work_place: aud_118_1;;
+
+Lukashova_Olga_Igorevna -> rrel_email:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [lukashova@bsuir.by](*<-lang_ru;;*)
+   ;;*)
+   ;;*)
+   ;; 
+
+
+Lukashova_Olga_Igorevna <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://Lukashova.jpg";;
+               *);;
+        *);;

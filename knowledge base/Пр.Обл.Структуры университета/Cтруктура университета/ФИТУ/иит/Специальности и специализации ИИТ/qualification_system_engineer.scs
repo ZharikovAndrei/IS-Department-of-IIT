@@ -1,0 +1,6 @@
+qualification_system_engineer=>nrel_main_idtf:[Квалификация Инженер-системотехник] (* <-lang_ru;; *);;
+qualification_system_engineer=>nrel_main_idtf:[Qualification System engineer] (* <-lang_en;; *);;
+
+
+qualification -> qualification_system_engineer;;
+

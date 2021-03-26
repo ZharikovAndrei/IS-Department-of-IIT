@@ -1,0 +1,4 @@
+sc_node_not_relation->concept_union;;
+concept_union=>nrel_main_idtf:
+[профсоюз](*<-lang_ru;;*);
+[union](*<-land_en;;*);;

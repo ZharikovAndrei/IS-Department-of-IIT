@@ -1,0 +1,26 @@
+Kuchuk_Tatiana_Gennadievna=>nrel_main_idtf:
+[Кучук Татьяна Геннадьевна](*<-lang_ru;;*);
+[Kuchuk Tatiana Gennadievna](*<-lang_en;;*);;
+
+Kuchuk_Tatiana_Gennadievna -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [+375 17 293-21-54];;*)
+   ;;*)
+   ;; 
+
+Kuchuk_Tatiana_Gennadievna-> rrel_work_place: aud_208_2;;
+
+Kuchuk_Tatiana_Gennadievna<- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://Kuchuk.jpg";;
+               *);;
+        *);;
+
+

@@ -1,0 +1,39 @@
+braslav_seminar_1999=> nrel_main_idtf:
+[Браславская Международная школа-семинар 1999 ] (* <-lang_ru;; *);
+[Braslav International seminar school 1999] (* <-lang_en;; *);
+=>nrel_idtf:
+[Вторая международная летняя школа-семинар по искусственному интеллекту для студентов и аспирантов] (* <-lang_ru;; *);
+[The second International Summer Seminar School on Artificial Intelligence for undergraduate and graduate students] (* <-lang_en;; *);
+<-temporary_entity;;
+braslav_seminar_1999<-
+...
+(*<-exact_value;;
+ <-begin;;
+  =>nrel_translation_in_the_Gregorian_calendar:...
+  (*
+    ->number_of_year:1999;;
+   *);;
+  *);;
+braslav_seminar_1999<-
+...
+(*<-exact_value;;
+ <-completion;;
+  =>nrel_translation_in_the_Gregorian_calendar:...
+  (*
+    ->number_of_year:1999;;
+   *);;
+  *);;
+braslav_seminar_1999=>nrel_address:
+[Республика Беларусь, Браславские озера](*<-lang_ru;;*);;
+
+braslav_seminar_1999 <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://braslav.jpg";;
+               *);;
+        *);;

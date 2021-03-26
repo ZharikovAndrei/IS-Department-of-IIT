@@ -1,0 +1,52 @@
+sc_node_not_relation -> scientific_edition;;
+
+scientific_edition => nrel_main_idtf:
+[научное издание]
+	(*
+	<- lang_ru;;
+	*);
+	[scientific edition] 
+	(*
+	<- lang_en;;
+	*);;
+
+scientific_edition <- rrel_key_sc_element: 
+        ...
+	(*
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[научное издание – издание, содержащее результаты теоретических и (или) экспериментальных исследований, а также научно подготовленные к публикации памятники культуры и исторические документы]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;
+
+edition -> scientific_edition;;
+non_periodical_edition -> scientific_edition;;
+
+
+sc_node_not_relation ->  scientific_edition_nature_information;; 
+
+scientific_edition_nature_information => nrel_main_idtf:
+[по характеру информации]
+	(*
+	<- lang_ru;;
+	*);
+	[nature information] 
+	(*
+	<- lang_en;;
+	*);;
+
+scientific_edition <= nrel_subdividing: scientific_edition_nature_information
+
+(*
+<- abstract_of_the_thesis;;
+<- collection;;
+<- monograph;;
+*);;
+
+
+
+

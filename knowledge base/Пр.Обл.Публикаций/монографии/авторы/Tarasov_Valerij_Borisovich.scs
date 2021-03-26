@@ -1,0 +1,23 @@
+Tarasov_Valerij_Borisovich
+=>nrel_main_idtf:
+[Тарасов Валерий Борисович](*<-lang_ru;;*);
+[Tarasov Valerij Borisovich](*<-lang_en;;*);;
+Tarasov_Valerij_Borisovich -> rrel_email:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [vbulbov@yahoo.com](*<-lang_en;;*)
+   ;;*)
+   ;;*)
+   ;; 
+Tarasov_Valerij_Borisovich <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://tarasov.png";;
+               *);;
+        *);;
+ Tarasov_Valerij_Borisovich<-person;;

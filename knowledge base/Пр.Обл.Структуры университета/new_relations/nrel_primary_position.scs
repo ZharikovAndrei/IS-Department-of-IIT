@@ -1,0 +1,24 @@
+sc_node_norole_relation-> nrel_primary_position;;
+nrel_primary_position=>nrel_main_idtf:
+[первичная должность*](*<-lang_ru;;*);
+[primary position*](*<-lang_en;;*);; 
+
+
+nrel_primary_position <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [Опр.(первичная должность*)] (* <- lang_ru;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Отношение, связывающее специальность и первичную должность.](* <- lang_ru;; *);;
+		*);;
+	*);;
+
+
+nrel_primary_position=>nrel_second_domain:primary_position;;
+nrel_primary_position=>nrel_first_domain:speciality;;
+nrel_primary_position=>nrel_definitional_domain:...(* <=nrel_combination:...(*->speciality;; ->primary_position;;*) ;;
+				*);;

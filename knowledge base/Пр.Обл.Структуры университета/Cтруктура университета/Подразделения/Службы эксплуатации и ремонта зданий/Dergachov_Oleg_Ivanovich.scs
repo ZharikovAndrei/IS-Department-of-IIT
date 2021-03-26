@@ -1,0 +1,13 @@
+Dergachov_Oleg_Ivanovich=>nrel_main_idtf:
+[Дергачев Олег Иванович](*<-lang_ru;;*);
+[Dergachov Oleg Ivanovich](*<-lang_en;;*);;
+
+Dergachov_Oleg_Ivanovich -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [+375 17 293-88-42];;*)
+   ;;*)
+   ;; 
+
+Dergachov_Oleg_Ivanovich -> rrel_work_place: aud_308_4;;
+Dergachov_Oleg_Ivanovich <- person;;

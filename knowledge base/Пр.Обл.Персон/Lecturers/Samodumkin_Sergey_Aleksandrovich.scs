@@ -1,0 +1,33 @@
+ Samodumkin_S_A
+=>nrel_main_idtf:
+[Самодумкин С.А.](*<-lang_ru;;*);
+
+=>nrel_idtf:
+[Samodumkin Sergey](*<-lang_en;;*);
+[Самодумкин Сергей Александрович](*<-lang_ru;;*);
+
+<-person;;
+Samodumkin_S_A -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+ [+375 17 293-89-34];;*)
+   ;;*)
+   ;;
+Samodumkin_S_A -> rrel_work_place: aud_612b_5;;
+Samodumkin_S_A -> rrel_email:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+ [samodumkin@bsuir.by](*<-lang_en;;*)
+   ;;*)
+   ;;*)
+   ;;
+
+Samodumkin_S_A=>nrel_fields_of_scientific_research:
+	[Информационные системы в области медицины и инструментальные средства для их разработки];;
+Samodumkin_S_A=>nrel_rate:1;;
+Samodumkin_S_A=>nrel_can_teach_subject:giis;;
+Samodumkin_S_A<=nrel_educational_work:lectures_on_giis;
+                           laboratory_work_on_giis;
+                           practical_lesson_on_giis;;
+                           Samodumkin_S_A<-teacher;;Samodumkin_S_A=>nrel_load:0;;
+0<=nrel_sum_of_numbers:...;;

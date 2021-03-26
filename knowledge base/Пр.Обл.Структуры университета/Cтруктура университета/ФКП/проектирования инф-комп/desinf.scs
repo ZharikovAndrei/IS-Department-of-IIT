@@ -1,0 +1,97 @@
+the_department_of_design_information_and_computer_systems=>nrel_main_idtf:
+[Кафедра проектирования информационно-компьютерных систем](*<-lang_ru;;*);
+[the department of design information and computer systems](*<-lang_en;;*);; 
+
+the_department_of_design_information_and_computer_systems=>nrel_idtf:[ПИКС](*<-lang_ru;;*);;
+the_department_of_design_information_and_computer_systems=>nrel_idtf:[DICS](*<-lang_en;;*);;
+
+
+
+pers_comp_dics -> rrel_head_of_department: header_of_dics;;
+
+the_department_of_design_information_and_computer_systems => nrel_info: dics_info;;
+
+the_department_of_design_information_and_computer_systems => nrel_logotipe: logotipe_dics;;
+
+the_department_of_design_information_and_computer_systems => nrel_pers_comp: pers_comp_dics;;
+
+
+
+header_of_dics=>nrel_main_idtf:
+[Цырельчук Игорь Николаевич](*<-lang_ru;;*);
+[Cyrel'chyk Igor Nikolaevich](*<-lang_en;;*);;
+
+
+
+dics_info=>nrel_main_idtf:
+[информация о кафедре ПИКС](*<-lang_ru;;*);
+[the information about the department of DICS](*<-lang_en;;*);; 
+ 
+
+
+logotipe_dics=>nrel_main_idtf:
+[логотип ПИКС](*<-lang_ru;;*);
+[the logotipe of DICS](*<-lang_en;;*);; 
+
+
+pers_comp_dics=>nrel_main_idtf:
+[Персональный состав кафедры ПИКС](*<-lang_ru;;*);
+[personal composition of the DICS](*<-lang_en;;*);; 
+
+
+header_of_dics <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://../../../image/desinf1.jpg";;
+               *);;
+        *);;
+
+
+
+
+logotipe_dics <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://../../../image/desinf2.png";;
+               *);;
+        *);;
+
+
+
+
+dics_info <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [О кафедре] (* <- lang_ru;; *);;
+	<- sc_task;;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Кафедра ПИКС является профилирующей кафедрой факультета компьютерного проектирования.
+На кафедре работают 6 профессоров, 10 доцентов, 2 старших преподавателя (из них один магистр технических наук), 17 ассистентов (из них восемь магистров технических наук).
+Кафедра обеспечивает все виды учебных занятий и осуществляет подготовку специалистов:
+-по первой ступени высшего образования по трем специальностям: «Моделирование и компьютерное проектирование РЭС», «Техническое обеспечение безопасности», «Электронные системы безопасности»;
+-по второй ступени высшего образования по двум специальностям: «Технология приборостроения» (научное направление) и «Компьютерные технологии проектирования электронных систем».
+
+Для проведения всех видов учебных занятий кафедра оснащена новейшим оборудованием: компьютерами, контрольно-измерительными средствами, мультимедийной техникой. ](* <- lang_ru;; *);;
+		*);;
+	*);;
+
+
+
+
+
+
+
+

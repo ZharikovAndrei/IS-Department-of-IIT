@@ -1,0 +1,29 @@
+//Харин Ю. С., Степанова М. Д. Практикум на ЭВМ по математической статистике: Для математических специальностей университетов. Мн.: Изд-во «Университетское», 1987. – 304 с.  
+
+publication_Stepanova_M_D_1987_PractoCiMS=> nrel_main_idtf:
+[Степанова М.Д. 1987 - ПрактнЭВМпМС]
+	(*
+	<- lang_ru;;
+	*);
+	[Stepanova M.D. 1987 - PractoCiMS] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Stepanova_M_D_1987_PractoCiMS => nrel_name_publication:[Практикум на ЭВМ по математической статистике.](*
+	<- lang_ru;;
+	*);;
+
+publication_Stepanova_M_D_1987_PractoCiMS <= nrel_author:
+Stepanova_M_D; Harin_Y_S;;
+
+publication_Stepanova_M_D_1987_PractoCiMS <- book;;
+
+publication_Stepanova_M_D_1987_PractoCiMS => nrel_reference_standard: [Харин Ю. С., Степанова М. Д. Практикум на ЭВМ по математической статистике: Для математических специальностей университетов. Мн.: Изд-во «Университетское», 1987. – 304 с. ];;
+
+publication_Stepanova_M_D_1987_PractoCiMS => nrel_year_publication: 1987;;
+
+publication_Stepanova_M_D_1987_PractoCiMS => nrel_information_publication: Practicum_on_computers_in_mathematical_statistics;;
+
+publication_Stepanova_M_D_1987_PractoCiMS => nrel_count_page: 304;;
+

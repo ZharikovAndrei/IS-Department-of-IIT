@@ -1,0 +1,6 @@
+cultural_work_center=>nrel_main_idtf:
+[центр культурно-массовой работы БГУИРа](*<-lang_ru;;*);
+[BSUIR cultural work center](*<-lang_en;;*);;
+
+cultural_work_center => nrel_pers_comp: personal_composition_of_cultural_work_center;; 
+cultural_work_center<-concept_cultural_work_center;;

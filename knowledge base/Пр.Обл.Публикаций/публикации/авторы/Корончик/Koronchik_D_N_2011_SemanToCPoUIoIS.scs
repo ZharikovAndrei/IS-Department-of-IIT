@@ -1,0 +1,29 @@
+publication_Koronchik_D_N_2011_SemanToCPoUIoIS=> nrel_main_idtf:
+[Корончик Д.Н.2011 - СеманТКППИИС]
+	(*
+	<- lang_ru;;
+	*);
+	[Koronchik D. N. 2011 SemanToCPoUIoIS] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Koronchik_D_N_2011_SemanToCPoUIoIS => nrel_name_publication:[Семантическая технология компонентного проектирования пользовательских интефейсов интеллектуальных систем.](*
+	<- lang_ru;;
+	*);;
+
+publication_Koronchik_D_N_2011_SemanToCPoUIoIS <= nrel_author:
+Koronchik_D_N;;
+
+publication_Koronchik_D_N_2011_SemanToCPoUIoIS <- article;;
+
+publication_Koronchik_D_N_2011_SemanToCPoUIoIS => nrel_reference_standard: [Корончик Д.Н.Семантическая технология компонентного проектирования пользовательских интефейсов интеллектуальных систем. .( OSTIS-2011):материалы Междунар. научн.-техн. конф. (Минск, 10-12 февраля 2011 г.) – Минск: БГУИР, 2011.С 293-304];;
+
+publication_Koronchik_D_N_2011_SemanToCPoUIoIS => nrel_year_publication: 2011;;
+
+publication_Koronchik_D_N_2011_SemanToCPoUIoIS => nrel_information_publication: OSTIS2011;;
+
+publication_Koronchik_D_N_2011_SemanToCPoUIoIS => nrel_number_page: ..2011_SemanToCPoUIoIS (*
+-> rrel_from : 293;;
+-> rrel_by : 304;;
+*);;

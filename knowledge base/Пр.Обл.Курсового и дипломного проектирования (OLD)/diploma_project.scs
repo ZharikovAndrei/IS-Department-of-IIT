@@ -1,0 +1,14 @@
+diploma_project
+<-sc_node_not_relation;
+	=> nrel_main_idtf:[дипломный проект](*<-lang_ru;;*);
+	=> nrel_main_idtf:[diploma project](*<-lang_en;;*);
+->rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> [Дипломный проект — самостоятельная творческая работа студентов, выполняемая ими на выпускном курсе. ] (* <-lang_ru;; *);; 
+		*);;
+	*);;

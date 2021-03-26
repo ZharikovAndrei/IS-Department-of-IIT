@@ -1,0 +1,35 @@
+Tkachev_Nikolay_Michaylovich=>nrel_main_idtf:
+[Ткачев Николай Михайлович](*<-lang_ru;;*);
+[Tkachev Nikolay Michaylovich](*<-lang_en;;*);;
+
+Tkachev_Nikolay_Michaylovich -> rrel_email:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [tkachev@bsuir.by ](*<-lang_en;;*)
+   ;;*)
+   ;;*)
+   ;; 
+
+Tkachev_Nikolay_Michaylovich -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [+375 17 293-89-54];;*)
+   ;;*)
+   ;; 
+
+Tkachev_Nikolay_Michaylovich -> rrel_work_place: aud_221_1;;
+
+Tkachev_Nikolay_Michaylovich <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://Tkachev.jpg";;
+               *);;
+        *);;
+
+
+

@@ -1,0 +1,8 @@
+task_31
+	=> nrel_main_idtf:[Описание публикаций](* <- lang_ru;;*);
+	<- project_task;
+	<- basic_project_task;
+	<- important_project_task;
+	<- executable_project_task;
+	=> nrel_executor: Shaplyko_Ilya_Mihailovich;;
+

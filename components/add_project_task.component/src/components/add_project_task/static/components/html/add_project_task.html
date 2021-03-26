@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="static/components/css/toastr.min.css">
+    <!-- <link rel="stylesheet" href="static/components/css/style.css"> -->
+    <script src="static/components/js/toastr.min.js"></script>
+  </head>
+  <body>
+    <div class="row">
+      <form class="form-horizontal">
+        <fieldset>
+          <!-- Form Name -->
+          <div class="form-group">
+            <label class="col-md-4 control-label" for="textinput">Проект</label>
+            <div class="dropdown col-md-4">
+              <button class="btn btn-default dropdown-toggle" type="button" id="projects" data-toggle="dropdown">
+              Выбор проекта
+              <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu">
+
+              </ul>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-md-4 control-label" for="textinput">Исполнитель</label>
+            <div class="dropdown col-md-4">
+              
+              <button class="btn btn-default dropdown-toggle" type="button" id="performers" data-toggle="dropdown">
+              Выбор исполнителя
+              <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu">
+
+              </ul>
+            </div>
+          </div>
+          <!-- Text input-->
+          <div class="form-group">
+            <!-- Название таска -->
+            <label class="col-md-4 control-label" for="task_title">Название</label>  
+            <div class="col-md-4">
+              <input id="task_title" name="textinput" placeholder="название" class="form-control input-md" required="" type="text">
+            </div>
+          </div>
+          <!-- Button Drop Down -->
+          <div class="form-group">
+            <label class="col-md-4 control-label" for="buttondropdown">Тип задачи</label>
+            <div class="dropdown col-md-2">
+              <button class="btn btn-default dropdown-toggle" type="button" id="task_types" data-toggle="dropdown">
+              Выберите тип задачи
+              <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu">
+
+              </ul>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-md-4 control-label" for="buttondropdown">Приоритет задачи</label>
+            <div class="dropdown col-md-2">
+              <button class="btn btn-default dropdown-toggle" type="button" id="priorities" data-toggle="dropdown">
+              Выберите приоритет задачи
+              <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu">
+
+              </ul>
+            </div>
+          </div>
+          <!-- Textarea -->
+          <div class="form-group">
+            <label class="col-md-4 control-label" for="task_description">Описание</label>
+            <div class="col-md-4">                     
+              <textarea class="form-control" id="task_description" name="textarea" style="width: 626px; height: 175px;">Описание задачи</textarea>
+            </div>
+          </div>
+        </fieldset>
+      </form>
+      <button class="btn btn-success" id="add_project_task" style="margin-left: 650px;">Сохранить</button>
+    </div>
+  </body>
+</html>

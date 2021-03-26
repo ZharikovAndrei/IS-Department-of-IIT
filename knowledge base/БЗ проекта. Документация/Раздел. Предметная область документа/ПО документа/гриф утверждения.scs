@@ -1,0 +1,18 @@
+sc_node_not_relation -> stamp_approval;;
+
+specialization_of_document -> stamp_approval;;
+
+
+
+stamp_approval <- rrel_key_sc_element: 
+        ...
+	(*
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[гриф утверждения – надпись, утверждающая издание в качестве нормативного или учебного и помещаемая на титульном листе перед заглавием или после него]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;

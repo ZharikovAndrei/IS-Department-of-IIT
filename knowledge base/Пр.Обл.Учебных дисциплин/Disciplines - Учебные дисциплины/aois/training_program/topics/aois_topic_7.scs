@@ -1,0 +1,6 @@
+aois_topic_7_osnovnye_tendentsii_i_napravleniya_razvitiya_struktury_evm
+<- concept_topic; 
+<= nrel_index_number: 7; 
+<= nrel_content: [Основные тенденции и направления развития структуры ЭВМ и  основных их подсистем: обрабатывающей, памяти, ввода-вывода и подсистемы управления и обслуживания.] (* <- lang_ru;; *);
+=> nrel_main_idtf: [Раздел 7: Основные тенденции и направления развития структуры ЭВМ] (* <- lang_ru;; *);;
+

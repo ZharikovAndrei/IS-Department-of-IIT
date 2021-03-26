@@ -1,0 +1,26 @@
+sc_node_not_relation -> book_edition;;
+
+book_edition => nrel_main_idtf:
+[книжное издание]
+	(*
+	<- lang_ru;;
+	*);
+	[book edition] 
+	(*
+	<- lang_en;;
+	*);;
+
+book_edition <- rrel_key_sc_element: 
+        ...
+	(*
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[книжное издание — издание в виде блока скрепленных в корешке листов печатного материала любого формата в обложке или переплете]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;
+
+book_edition <- edition;;

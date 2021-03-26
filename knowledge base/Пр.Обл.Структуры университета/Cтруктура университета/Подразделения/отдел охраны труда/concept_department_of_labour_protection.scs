@@ -1,0 +1,20 @@
+sc_node_not_relation->concept_department_of_labour_protection;;
+
+concept_department_of_labour_protection=>nrel_main_idtf:
+[отдел охраны труда](*<-lang_ru;;*);
+[department of labour protection](*<-lang_en;;*);;
+
+
+concept_department_of_labour_protection<-rrel_key_sc_element:
+...
+(*
+=>nrel_idtf:[Опр.(отдел охраны труда)](*<-lang_ru;;*);;
+<-sc_definition;;
+<=nrel_sc_text_translation:
+...
+(*
+->rrel_example:
+[Отдел охраны труда - отдел, обеспечивающий безопасность жизни и здоровья работников в процессе трудовой деятельности, включающая правовые, социально­экономические, организационные, технические, психофизиологические, санитарно­гигиенические, лечебно­про­филактические, реабилитационные и иные мероприятия и средства.](*<-lang_ru;;*);;
+*);;
+*);;
+

@@ -1,0 +1,30 @@
+  //поиск публикаций по автору
+  ui_menu_file_for_finding_second_teacher <- ui_user_command_class_atom; ui_user_command_class_view_kb;;
+
+  // Указываем русский идентификатор нашей операции в меню
+
+  ui_menu_file_for_finding_second_teacher => nrel_main_idtf:
+  	[Поиск второго преподавателя]
+  		(* <- lang_ru;; *);;
+  // Указываем английский идентификатор нашей операции в меню
+  ui_menu_file_for_finding_second_teacher => nrel_main_idtf:
+  	[Search for the second teacher]
+  		(* <- lang_en;; *);;
+  // Указываем шаблон нашей команды
+  ui_menu_file_for_finding_second_teacher => ui_nrel_command_template:
+  	[*
+  		question_of_finding_second_teacher _-> ._question_of_finding_second_teacher_instance
+  			(*
+          _-> rrel_n111::ui_arg_1;;
+    			_-> rrel_n222::ui_arg_2;;
+  			*);;
+  		._question_of_finding_second_teacher_instance _<- question;;
+  	*];;
+  // Указываем текстовый шаблон команды на русском языке
+  ui_menu_file_for_finding_second_teacher => ui_nrel_command_lang_template:
+  	[Поиск второго преподавателя: $ui_arg_1 $ui_arg_2]
+  	(* <- lang_ru;; *);;
+  // Указываем текстовый шаблон команды на английском языке
+  	ui_menu_file_for_finding_second_teacher => ui_nrel_command_lang_template:
+  		[Search for the second teacher: $ui_arg_1 $ui_arg_2]
+  		(* <- lang_en;; *);;

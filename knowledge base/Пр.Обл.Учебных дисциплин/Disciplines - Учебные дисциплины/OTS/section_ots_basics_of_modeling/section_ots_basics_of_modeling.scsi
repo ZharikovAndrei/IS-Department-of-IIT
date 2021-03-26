@@ -1,0 +1,1490 @@
+subject_domain_of_section
+
+
+
+=> nrel_main_idtf:
+	[Предметная область основ моделирования]
+	(* <- lang_ru;; *);
+	[Subject domain of basics of modeling]
+	(* <- lang_en;; *);
+
+
+<- subject_domain;
+-> rrel_maximum_studied_object_class: basics_of_modeling;
+-> rrel_not_maximum_studied_object_class:
+	nrel_modeling;
+	nrel_building_a_model;
+	network_model;
+	mathematical_model;
+	problems_of_model_construction;
+	nrel_choice_of_model_structure;
+	nrel_evaluation_of_the_coefficient_vector;
+	nrel_choice_of_quality_assessment_criteria;
+	classification_of_models;
+	nrel_building;
+	nrel_creature;
+	basic_properties_of_models;;
+
+	
+
+problems_of_model_construction
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[проблемы построения модели]
+	(* <- lang_ru;; *);
+	[problems of model construction]
+	(* <- lang_en;; *);
+
+=> nrel_idtf:
+	[трудности разработки модели]
+	(* <- lang_ru;; *);
+
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+[Выбирая структуру модели, надо оценивать ее качество, а чтобы оценить качество
+модели, необходимо предварительно найти ее коэффициенты.Основными проблемами построения моделей являются 
+выбор критерия оценки качества, оценивание вектора коэффициентов и выбор структуры модели.]
+			(*
+			<- lang_ru;;
+			*);;
+			<= nrel_subdividing: 
+	{  
+	nrel_choice_of_model_structure;
+	nrel_evaluation_of_the_coefficient_vector;
+	nrel_choice_of_quality_assessment_criteria
+	};;
+		*);;
+	*);;
+
+
+
+classification_of_models
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[классификация моделей]
+	(* <- lang_ru;; *);
+	[classification of models]
+	(* <- lang_en;; *);
+
+=> nrel_idtf:
+	[разделение моделей]
+	(* <- lang_ru;; *);
+
+	<= nrel_subdividing: 
+	{  
+	cognitive_model;
+	pragmatic_model;
+	instrumental_model;
+	static_model;
+	dynamic_model;
+	discrete_model;
+	continuous_model;
+	simulation_model;
+	deterministic_model;
+	functional_model;
+	set_theoretic_model;
+	logical_model;
+	game_model;
+	algorithmic_model;
+	structural_model;
+	hierarchical_model;
+	network_model;
+	linguistic_model;
+	visual_model;
+	full_scale_model;
+	geometric_model;
+	mathematical_model;
+	cellular_automata_model;
+	fractal_model
+	};
+ 
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+[Модели, если отвлечься от областей, сфер их применения, бывают трех типов: познавательные,
+прагматические и инструментальные.Кроме того, познавательные и прагматические модели
+можно классифицировать по характеру выполняемых функций,
+форме, зависимости объекта моделирования от времени.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);;*);;
+
+
+
+	
+concept_model
+=> nrel_main_idtf:
+	[модель]
+	(* <- lang_ru;; *);
+	[model]
+	(* <- lang_en;; *);
+
+=> nrel_idtf:
+	[форма]
+	(* <- lang_ru;; *);
+
+=>basic_properties_of_models:
+focus;
+limb;
+simplicity;
+approximation;
+adequacy;
+informative;
+completeness;
+sustainability;
+integrity;
+isolation;
+adaptabiity;
+controllability;
+evoluability;;
+...
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+[Модель - объект или описание объекта, системы для замещения (при определенных условиях
+предложениях, гипотезах) одной системы (т.е. оригинала) другой системой для лучшего изучения
+оригинала или воспроизведения каких-либо его свойств. Модель - результат отображения одной
+структуры (изученной) на другую (малоизученную). Отображая физическую систему (объект) на
+математическую систему (например, математический аппарат уравнений), получим физико-
+математическую модель системы или математическую модель физической системы. Любая модель
+строится и исследуется при определенных допущениях, гипотезах.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);;
+	*);;
+
+
+
+
+nrel_modeling
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[моделирование*]
+	(* <- lang_ru;; *);
+	[modeling*]
+	(* <- lang_en;; *);
+=> nrel_idtf:
+	[формирование*]
+	(* <- lang_ru;; *);
+<= nrel_first_domain:
+		concept_model;
+<= nrel_second_domain:
+		nrel_creature;
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				[Моделирование связано с выяснением или воспроизведением
+свойств какого-либо реального или создаваемого объекта, процесса
+или явления с помощью другого объекта, процесса или явления.
+Моделирование — это построение, совершенствование,
+изучение и применение моделей реально существующих или
+проектируемых объектов (процессов и явлений).Наука моделирования состоит в разделении процесса моделирования (системы, модели) на этапы
+(подсистемы, подмодели), детальном изучении каждого этапа, взаимоотношений, связей, отношений
+между ними и затем эффективного описания их с максимально возможной степенью формализации и
+адекватности. В случае нарушения этих правил получаем не модель системы, а модель "собственных и
+неполных знаний".]
+			(*
+			<- lang_ru;;
+			*);;
+		*);;
+	*);;
+	
+
+
+
+
+
+
+nrel_building_a_model
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[построение модели*]
+	(* <- lang_ru;; *);
+	[building a model*]
+	(* <- lang_en;; *);
+=> nrel_idtf:
+	[формирование объекта*]
+	(* <- lang_ru;; *);
+<= nrel_first_domain:
+		concept_model;
+<= nrel_second_domain:
+		nrel_building;
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				[Построение модели - системная задача, требующая анализа и синтеза исходных данных, гипотез,
+				теорий, знаний специалистов. Системный подход позволяет не только построить модель реальной
+				системы, но и использовать эту модель для оценки (например, эффективности управления,
+				функционирования) системы.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);;
+	*);;
+	
+
+	basics_of_modeling
+
+=> nrel_main_idtf:
+	[основы моделирования]
+	(* <- lang_ru;; *);
+	[basics of modeling]
+	(* <- lang_en;; *);
+
+ => nrel_idtf:
+	[принципы разработки модели]
+	(* <- lang_ru;; *);
+
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				[Модель и моделирование - универсальные понятия, атрибуты одного из наиболее мощных методов
+познания в любой профессиональной области, познания системы, процесса, явления.
+модели и моделирование объединяют специалистов различных областей, работающих над
+решением межпредметных проблем, независимо от того, где эта модель и результаты моделирования
+будут применены. вид модели и методы ее исследования больше зависят от информационно-логических
+связей элементов и подсистем моделируемой системы, ресурсов, связей с окружением, используемых
+при моделировании, а не от конкретной природы, конкретного наполнения системы.]
+			(*
+			<- lang_ru;;
+			*);;
+	*);;	*);;
+	
+	concept_structure
+
+=> nrel_main_idtf:
+	[структура]
+	(* <- lang_ru;; *);
+	[structure]
+	(* <- lang_en;; *);
+
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				[Под структурой системы понимается устойчивое множество отношений, которое сохраняется длительное время неизменным, по крайней мере в течение интервала наблюдения. Структура системы опережает определенный уровень сложности по составу отношений на множестве элементов системы или что эквивалентно, уровень разнообразий проявлений объекта.]
+			(*
+			<- lang_ru;;
+			*);;
+	*);;	*);;
+	
+	
+	algorithmic_model
+
+=> nrel_main_idtf:
+	[алгоритмическая модель]
+	(* <- lang_ru;; *);
+	[algorithmic model]
+	(* <- lang_en;; *);
+
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				[Модель алгоритмическая, если она описана некоторым алгоритмом или комплексом алгоритмов,
+определяющим ее функционирование, развитие. Введение такого, на первый взгляд, непривычного типа
+моделей (действительно, кажется, что любая модель может быть представлена алгоритмом её
+исследования), на наш взгляд, вполне обосновано, так как не все модели могут быть исследованы или
+реализованы алгоритмически.]
+			(*
+			<- lang_ru;;
+			*);;
+	*);;	*);;
+	
+cellular_automata_model
+
+=> nrel_main_idtf:
+	[клеточно-автоматная модель]
+	(* <- lang_ru;; *);
+	[cellular automata model]
+	(* <- lang_en;; *);
+
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				[Модель клеточно-автоматная, если она представляет систему с помощью клеточного автомата
+или системы клеточных автоматов. Клеточный автомат - дискретная динамическая система, аналог
+физического (непрерывного) поля. Клеточно-автоматная геометрия - аналог евклидовой геометрии.
+Неделимый элемент евклидовой геометрии - точка, на основе ее строятся отрезки, прямые, плоскости и
+т.д. Неделимый элемент клеточно-автоматного поля - клетка, на основе её строятся кластеры клеток и
+различные конфигурации клеточных структур.]
+			(*
+			<- lang_ru;;
+			*);;
+	*);;	*);;
+	
+	cognitive_model
+
+=> nrel_main_idtf:
+	[познавательная модель]
+	(* <- lang_ru;; *);
+	[cognitive model]
+	(* <- lang_en;; *);
+
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				[Познавательная модель - форма организации и представления знаний, средство соединения
+новых и старых знаний. Познавательная модель, как правило, подгоняется под реальность и является
+теоретической моделью.]
+			(*
+			<- lang_ru;;
+			*);;
+	*);;	*);;
+	
+	
+	continuous_model
+
+=> nrel_main_idtf:
+	[непрерывная модель]
+	(* <- lang_ru;; *);
+	[continuous model]
+	(* <- lang_en;; *);
+
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				[Модель непрерывная, если она описывает поведение системы для всех моментов времени из
+некоторого промежутка времени.]
+			(*
+			<- lang_ru;;
+			*);;
+	*);;	*);;
+	
+	
+	
+	deterministic_model
+
+=> nrel_main_idtf:
+	[детерминированная модель]
+	(* <- lang_ru;; *);
+	[deterministic model]
+	(* <- lang_en;; *);
+
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				[Модель детерминированная, если каждому входному набору параметров соответствует вполне
+определенный и однозначно определяемый набор выходных параметров; в противном случае - модель
+недетерминированная, стохастическая (вероятностная).]
+			(*
+			<- lang_ru;;
+			*);;
+	*);;	*);;
+	
+	
+	discrete_model
+
+=> nrel_main_idtf:
+	[дискретная модель]
+	(* <- lang_ru;; *);
+	[discrete model]
+	(* <- lang_en;; *);
+
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				[Модель дискретная, если она описывает поведение системы только в дискретные моменты
+времени.]
+			(*
+			<- lang_ru;;
+			*);;
+	*);;	*);;
+	
+	
+	
+	dynamic_model
+
+=> nrel_main_idtf:
+	[динамическая модель]
+	(* <- lang_ru;; *);
+	[dynamic model]
+	(* <- lang_en;; *);
+
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				[Модель динамическая, если среди ее параметров есть временной параметр, т.е. она отображает
+систему (процессы в системе) во времени.]
+			(*
+			<- lang_ru;;
+			*);;
+	*);;	*);;
+	
+	
+	
+	fractal_model
+
+=> nrel_main_idtf:
+	[фрактальная модель]
+	(* <- lang_ru;; *);
+	[fractal model]
+	(* <- lang_en;; *);
+
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				[Модель фрактальная, если она описывает эволюцию моделируемой системы эволюцией
+фрактальных объектов.]
+			(*
+			<- lang_ru;;
+			*);;
+	*);;	*);;
+	
+	
+	
+	full_scale_model
+
+=> nrel_main_idtf:
+	[натурная модель]
+	(* <- lang_ru;; *);
+	[full scale model]
+	(* <- lang_en;; *);
+
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				[Модель натурная, если она есть материальная копия объекта моделирования.]
+			(*
+			<- lang_ru;;
+			*);;
+	*);;	*);;
+	
+	
+	
+	
+	functional_model
+
+=> nrel_main_idtf:
+	[функциональная модель]
+	(* <- lang_ru;; *);
+	[functional model]
+	(* <- lang_en;; *);
+
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				[Модель функциональная, если она представима в виде системы каких- либо функциональных
+соотношений.]
+			(*
+			<- lang_ru;;
+			*);;
+	*);;	*);;
+	
+	
+	
+	
+	
+	game_model
+
+=> nrel_main_idtf:
+	[игровая модель]
+	(* <- lang_ru;; *);
+	[game model]
+	(* <- lang_en;; *);
+
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				[Модель игровая, если она описывает, реализует некоторую игровую ситуацию между
+участниками игры (лицами, коалициями).]
+			(*
+			<- lang_ru;;
+			*);;
+	*);;	*);;
+	
+	
+	
+	geometric_model
+
+=> nrel_main_idtf:
+	[геометрическая модель]
+	(* <- lang_ru;; *);
+	[geometric model]
+	(* <- lang_en;; *);
+
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				[Модель геометрическая, графическая, если она представима геометрическими образами и
+объектами.]
+			(*
+			<- lang_ru;;
+			*);;
+	*);;	*);;
+	
+	
+	
+	
+	hierarchical_model
+
+=> nrel_main_idtf:
+	[иерархическая модель]
+	(* <- lang_ru;; *);
+	[hierarchical model]
+	(* <- lang_en;; *);
+
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				[Модель иерархическая (древовидная), если представима некоторой иерархической структурой
+(деревом).]
+			(*
+			<- lang_ru;;
+			*);;
+	*);;	*);;
+	
+	
+	
+	
+	
+	
+	instrumental_model
+
+=> nrel_main_idtf:
+	[инструментальная модель]
+	(* <- lang_ru;; *);
+	[instrumental model]
+	(* <- lang_en;; *);
+
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				[Инструментальная модель - средство построения, исследования и/или использования
+прагматических и/или познавательных моделей.]
+			(*
+			<- lang_ru;;
+			*);;
+	*);;	*);;
+	
+	
+	
+	
+	linguistic_model
+
+=> nrel_main_idtf:
+	[лингвистическая модель]
+	(* <- lang_ru;; *);
+	[linguistic model]
+	(* <- lang_en;; *);
+
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				[Модель языковая, лингвистическая, если она представлена некоторым лингвистическим
+объектом, формализованной языковой системой или структурой. Иногда такие модели называют
+вербальными, синтаксическими и т.п.]
+			(*
+			<- lang_ru;;
+			*);;
+	*);;	*);;
+	
+	
+	
+	
+	logical_model
+
+=> nrel_main_idtf:
+	[логическая модель]
+	(* <- lang_ru;; *);
+	[logical model]
+	(* <- lang_en;; *);
+
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				[Модель логическая, если она представима предикатами, логическими функциями.]
+			(*
+			<- lang_ru;;
+			*);;
+	*);;	*);;
+	
+	
+	
+	
+	mathematical_model
+
+=> nrel_main_idtf:
+	[математическая модель]
+	(* <- lang_ru;; *);
+	[mathematical model]
+	(* <- lang_en;; *);
+
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				[Математическая модель (или математическое описание) - это
+система математических соотношений, описывающих изучаемый
+процесс или явление.]
+			(*
+			<- lang_ru;;
+			*);;
+	*);;	*);;
+	
+	
+	
+	
+	network_model
+
+=> nrel_main_idtf:
+	[сетевая модель]
+	(* <- lang_ru;; *);
+	[network model]
+	(* <- lang_en;; *);
+
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				[Модель сетевая, если она представима некоторой сетевой структурой.]
+			(*
+			<- lang_ru;;
+			*);;
+	*);;	*);;
+	
+	
+	
+	
+	
+	pragmatic_model
+
+=> nrel_main_idtf:
+	[прагматическая модель]
+	(* <- lang_ru;; *);
+	[pragmatic model]
+	(* <- lang_en;; *);
+
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				[Прагматическая модель - средство организации практических действий, рабочего представления
+целей системы для ее управления. Реальность в них подгоняется под некоторую прагматическую модель.
+Это, как правило, прикладные модели.]
+			(*
+			<- lang_ru;;
+			*);;
+	*);;	*);;
+	
+	
+	
+	
+	
+	set_theoretic_model
+
+=> nrel_main_idtf:
+	[теоретико-множественная модель]
+	(* <- lang_ru;; *);
+	[set and theoretic model]
+	(* <- lang_en;; *);
+
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				[Модель теоретико-множественная, если она представима с помощью некоторых множеств и
+отношений принадлежности им и между ними.]
+			(*
+			<- lang_ru;;
+			*);;
+	*);;	*);;
+	
+	
+	
+	
+	simulation_model
+
+=> nrel_main_idtf:
+	[имитационная модель]
+	(* <- lang_ru;; *);
+	[simulation model]
+	(* <- lang_en;; *);
+
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				[Модель имитационная, если она предназначена для испытания или изучения возможных путей
+развития и поведения объекта путем варьирования некоторых или всех параметров модели.]
+			(*
+			<- lang_ru;;
+			*);;
+	*);;	*);;
+	
+	
+	
+	
+	
+	static_model
+
+=> nrel_main_idtf:
+	[статическая модель]
+	(* <- lang_ru;; *);
+	[static model]
+	(* <- lang_en;; *);
+
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				[Модель называется статической, если среди параметров, участвующих в ее описании, нет
+временного параметра. Статическая модель в каждый момент времени дает лишь "фотографию"
+системы, ее срез.]
+			(*
+			<- lang_ru;;
+			*);;
+	*);;	*);;
+	
+	
+	
+	
+	
+	structural_model
+
+=> nrel_main_idtf:
+	[структурная модель]
+	(* <- lang_ru;; *);
+	[structural model]
+	(* <- lang_en;; *);
+
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				[Модель структурная, если она представима структурой данных или структурами данных и
+отношениями между ними.]
+			(*
+			<- lang_ru;;
+			*);;
+	*);;	*);;
+	
+	
+	
+	
+	visual_model
+
+=> nrel_main_idtf:
+	[визуальная модель]
+	(* <- lang_ru;; *);
+	[visual model]
+	(* <- lang_en;; *);
+
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				[Модель визуальная, если она позволяет визуализировать отношения и связи моделируемой
+системы, особенно в динамике.]
+			(*
+			<- lang_ru;;
+			*);;
+	*);;	*);;
+
+
+	nrel_building
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[построение*]
+	(* <- lang_ru;; *);
+	[building*]
+	(* <- lang_en;; *);
+=> nrel_idtf:
+	[формирование*]
+	(* <- lang_ru;; *);
+<= nrel_first_domain:
+		impact;
+<= nrel_second_domain:
+		nrel_affecting_entity;
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				[Построение - создание, то, что создано, с дальнейшим использованием для оценки.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);;
+	*);;
+
+
+	nrel_creature
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[создание*]
+	(* <- lang_ru;; *);
+	[creature*]
+	(* <- lang_en;; *);
+=> nrel_idtf:
+	[cотворение*]
+	(* <- lang_ru;; *);
+<= nrel_first_domain:
+		impact;
+<= nrel_second_domain:
+		nrel_affecting_entity;
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				[Создание - результат такого действия; то, что создано.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);;
+	*);;
+	
+	
+	nrel_choice_of_model_structure
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[выбор структуры модели*]
+	(* <- lang_ru;; *);
+	[сhoice of model structure*]
+	(* <- lang_en;; *);
+=> nrel_idtf:
+	[отбор конструкций моделей*]
+	(* <- lang_ru;; *);
+<= nrel_first_domain:
+		concept_structure;
+<= nrel_second_domain:
+		concept_model;
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				[Уточним постановку задачи структурной идентификации. Будем
+считать, что нам ничего не известно о структуре истинной
+зависимости F. Тогда при т входных переменных теоретически может
+существовать бесконечное количество структур F (X, A)  f.
+Поскольку нам не известна структура Fº, то, если даже мы найдем
+такую F, которая равна Fº, мы не узнаем об этом. Таким образом,
+задача напоминает поиск иголки в стоге сена, только… наш «стог
+сена» бесконечен по размерам и мы не знаем в лицо «иголку».
+Решение любой задачи выбора состоит из двух подзадач:
+«генерация» альтернатив и фор-мирование критерия выбора
+наилучшей из них. В отношении структуры модели эти подзадачи
+можно сформулировать как необходимость:
+1) разработать алгоритм «генерации» (перебора) структур;
+2) сформировать критерий оценки качества структуры (качества
+модели).]
+			(*
+			<- lang_ru;;
+			*);;
+		*);;
+	*);;
+
+
+	nrel_choice_of_quality_assessment_criteria
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[выбор критерия оценки качества*]
+	(* <- lang_ru;; *);
+	[choice of quality assessment criteria*]
+	(* <- lang_en;; *);
+=> nrel_idtf:
+	[отбор критерия определения качества*]
+	(* <- lang_ru;; *);
+<= nrel_first_domain:
+		concept_structure;
+<= nrel_second_domain:
+		concept_model;
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				[Различные алгоритмы порождают необходимость определиться с
+множеством различных критериев. В частности, необходимо выбрать
+критерий включения переменных в модель и их исключения,
+критерий останова алгоритма и критерий оценки окончательной
+модели.
+Не вдаваясь в проблемы отдельных алгоритмов, рассмотрим
+вопрос останова шаговых процедур (все описанные выше методы
+имеют шаговую технологию). Общий принцип останова шаговых
+алгоритмов структурной идентификации следующий: расчеты надо
+прекращать, когда дальнейшая работа алгоритма не приводит к
+улучшению качества модели. Отсюда следует общность критериев
+останова и качества модели. 
+Как известно, критерий оценки качества модели зависит от ее
+назначения. Например, если предполагается использовать модель для
+управления или прогнозирования, то необходима высокая
+прогностическая способность модели — на одни и те же входные
+воздействия модель и объект должны давать близкие результаты на
+выходе. Если модель используется в системе измерений, то целью
+является минимум максимального отклонения значений модели и
+объекта. Если необходимо построить распознающую систему, то в
+качестве критерия берут ошибку распознавания — отношение
+правильных ответов к общему их числу. 
+Все критерии останова, алгоритмов структурной
+идентификации (они же критерии качества модели), за исключением 
+критерия достижения заданного числа входных переменных в модели
+и ему подобных, можно разбить на две группы: внутренние и
+внешние. Внутренние критерии вычисляются на основании данных,
+участвующих в построении модели, а внешние — на основании
+дополнительных данных.
+К внутренним критериям, в первую очередь, следует отнести
+остаточную ошибку модели — сумму отклонений (абсолютных или
+квадратов разностей) значений выходных переменных объекта и
+модели.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);;
+	*);;
+
+
+
+
+	nrel_evaluation_of_the_coefficient_vector
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[оценивание вектора коэффициентов*]
+	(* <- lang_ru;; *);
+	[evaluation of the coefficient vector*]
+	(* <- lang_en;; *);
+=> nrel_idtf:
+	[определение параметров коэффициентов*]
+	(* <- lang_ru;; *);
+<= nrel_first_domain:
+		concept_structure;
+<= nrel_second_domain:
+		concept_model;
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+(*<-sc_statement;;
+				<=nrel_sc_text_translation:...
+								(*-> "file://2.png";;*);;
+	*);;
+			-> rrel_example:
+				[Будем считать, что нам известна структура модели (оператора
+F), но не известны коэффициенты (параметры) этой модели. Какой бы
+точной ни была структура модели, практически всегда имеются
+параметры, которые необходимо найти или уточнить. Задача
+оценивания параметров модели ставится как задача оптимизации:
+необходимо найти такой вектор параметров А из области допустимых значений Ω, чтобы минимизировать некоторую функцию отклонения
+значений выхода модели от выхода объекта при одних и тех
+же значениях входных переменных.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);;
+	
+	adaptabiity
+
+=> nrel_main_idtf:
+	[адаптивность]
+	(* <- lang_ru;; *);
+	[adaptabiity]
+	(* <- lang_en;; *);
+
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				[Адаптивность - модель может быть приспособлена к различным входным параметрам,
+воздействиям окружения.]
+			(*
+			<- lang_ru;;
+			*);;
+	*);;	*);;
+	
+	
+	adequacy
+
+=> nrel_main_idtf:
+	[адекватность]
+	(* <- lang_ru;; *);
+	[adequacy]
+	(* <- lang_en;; *);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				[Адекватность - модель должна успешно описывать моделируемую систему.]
+			(*
+			<- lang_ru;;
+			*);;
+	*);;	*);;
+	
+	approximation
+
+=> nrel_main_idtf:
+	[приблизительность]
+	(* <- lang_ru;; *);
+	[approximation]
+	(* <- lang_en;; *);
+
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				[Приблизительность - действительность отображается моделью грубо или приблизительно.]
+			(*
+			<- lang_ru;;
+			*);;
+	*);;	*);;
+	
+	
+	basic_properties_of_models
+
+=> nrel_main_idtf:
+	[основные свойства моделей]
+	(* <- lang_ru;; *);
+	[basic properties of models]
+	(* <- lang_en;; *);;
+	
+	completeness
+
+=> nrel_main_idtf:
+	[полнота]
+	(* <- lang_ru;; *);
+	[completeness]
+	(* <- lang_en;; *);
+
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				[Полнота - в модели должны быть учтены все основные связи и отношения, необходимые
+для обеспечения цели моделирования.]
+			(*
+			<- lang_ru;;
+			*);;
+	*);;	*);;
+	
+	controllability
+
+=> nrel_main_idtf:
+	[управляемость]
+	(* <- lang_ru;; *);
+	[controllability]
+	(* <- lang_en;; *);
+
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				[Управляемость (имитационность) - модель должна иметь хотя бы один параметр,
+изменениями которого можно имитировать поведение моделируемой системы в различных
+условиях.]
+			(*
+			<- lang_ru;;
+			*);;
+	*);;	*);;
+	
+	
+	evoluability
+
+=> nrel_main_idtf:
+	[эволюционирумость]
+	(* <- lang_ru;; *);
+	[evoluability]
+	(* <- lang_en;; *);
+
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				[Эволюционируемость - возможность развития моделей (предыдущего уровня).]
+			(*
+			<- lang_ru;;
+			*);;
+	*);;	*);;
+	
+	focus
+
+=> nrel_main_idtf:
+	[целенаправленность]
+	(* <- lang_ru;; *);
+	[focus]
+	(* <- lang_en;; *);
+
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				[Целенаправленность - модель всегда отображает некоторую систему, т.е. имеет цель.]
+			(*
+			<- lang_ru;;
+			*);;
+	*);;	*);;
+	
+	informative
+
+=> nrel_main_idtf:
+	[информативность]
+	(* <- lang_ru;; *);
+	[informative]
+	(* <- lang_en;; *);
+
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				[Информативность - модель должна содержать достаточную информацию о системе (в
+рамках гипотез, принятых при построении модели) и должна давать возможность получить
+новую информацию.]
+			(*
+			<- lang_ru;;
+			*);;
+	*);;	*);;
+	
+	
+	integrity
+
+=> nrel_main_idtf:
+	[целостность]
+	(* <- lang_ru;; *);
+	[integrity]
+	(* <- lang_en;; *);
+
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				[Целостность - модель реализует некоторую систему (т.е. целое).]
+			(*
+			<- lang_ru;;
+			*);;
+	*);;	*);;
+	
+	
+	isolation
+
+=> nrel_main_idtf:
+	[замкнутость]
+	(* <- lang_ru;; *);
+	[isolation]
+	(* <- lang_en;; *);
+
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				[Замкнутость - модель учитывает и отображает замкнутую систему необходимых основных
+гипотез, связей и отношений.]
+			(*
+			<- lang_ru;;
+			*);;
+	*);;	*);;
+	
+	
+	limb
+
+=> nrel_main_idtf:
+	[конечность]
+	(* <- lang_ru;; *);
+	[limb]
+	(* <- lang_en;; *);
+
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				[Конечность - модель отображает оригинал лишь в конечном числе его отношений и, кроме
+того, ресурсы моделирования конечны.]
+			(*
+			<- lang_ru;;
+			*);;
+	*);;	*);;
+	
+	simplicity
+
+=> nrel_main_idtf:
+	[упрощенность]
+	(* <- lang_ru;; *);
+	[simplicity]
+	(* <- lang_en;; *);
+
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				[Упрощенность - модель отображает только существенные стороны объекта и, кроме того,
+должна быть проста для исследования или воспроизведения.]
+			(*
+			<- lang_ru;;
+			*);;
+	*);;	*);;
+	
+	
+	sustainability
+
+=> nrel_main_idtf:
+	[устойчивость]
+	(* <- lang_ru;; *);
+	[sustainability]
+	(* <- lang_en;; *);
+
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				[Устойчивость - модель должна описывать и обеспечивать устойчивое поведение системы,
+если даже она вначале является неустойчивой.]
+			(*
+			<- lang_ru;;
+			*);;
+	*);;	*);;

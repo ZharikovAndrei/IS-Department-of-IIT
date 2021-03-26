@@ -1,0 +1,27 @@
+Radnyonok_Mihail_Leonidovich=>nrel_main_idtf:
+[Раднёнок Михаил Леонидович](*<-lang_ru;;*);
+[Radnyonok Mihail Leonidovich](*<-lang_en;;*);;
+
+Radnyonok_Mihail_Leonidovich -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ 
+ [+375 17 293-22-35];;*)
+   ;;*)
+   ;; 
+
+Radnyonok_Mihail_Leonidovich-> rrel_work_place: aud_241_1;;
+
+Radnyonok_Mihail_Leonidovich<- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://photos/Radnyonok_Mihail_Leonidovich.jpg";;
+               *);;
+        *);;
+
+

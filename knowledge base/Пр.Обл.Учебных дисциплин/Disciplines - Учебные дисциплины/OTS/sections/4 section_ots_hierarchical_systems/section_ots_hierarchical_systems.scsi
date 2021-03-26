@@ -1,0 +1,591 @@
+multilevel_hierarchical_structure
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[многоуровневая иерархическая структура](* <- lang_ru;; *);
+	[multilevel hierarchical structure](* <-lang_en;; *);
+
+<= nrel_subdividing: 
+	{  
+	 vertical_subordination;
+	 right_of_intervention;
+	 interaction_of_actions
+	};
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				[Многоуровневая иерархическая структура — форма организации объектов со строгой соотнесенностью объектов нижнего уровня определенному объекту верхнего уровня.](* <- lang_ru;; *);;
+		*);;
+	*);;
+
+
+
+
+
+
+vertical_subordination
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[вертикальная соподчиненность](* <- lang_ru;; *);
+	[vertical subordination](* <-lang_en;; *);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				[Вертикальная соподчиненность — совокупность последовательно расположенных вертикально взаимодействующих подсистем, составляющих систему.](* <- lang_ru;; *);;
+		*);;
+	*);
+
+<- rrel_key_sc_element: 
+	...
+	(*
+ 		=>nrel_idtf:[утв.(иерархическая система, взаимозависимость действий)](*<-lang_ru;;*);;
+ 		<-statement;;
+ 		<=nrel_sc_text_translation:
+ 		...
+ 		(*
+  		->[Любая иерархическая система представляет собой семейство взаимодействующих подсистем, при этом взаимодействие между уровнями не обязательно происходит только между каждыми двумя близлежащими уровнями.](*<-lang_ru;;*);;
+ 		*);;
+	*);;
+
+
+
+
+
+
+right_of_intervention
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[право вмешательства](* <- lang_ru;; *);
+	[right of intervention](* <-lang_en;; *);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				[Право вмешательства — воздействие вышестоящей подсистемы на нижестоящие (обычно ближайшие по уровню).](* <- lang_ru;; *);;
+		*);;
+	*);
+
+<- rrel_key_sc_element: 
+	...
+	(*
+ 		=>nrel_idtf:[утв.(нижестоящий уровень, приоритет*, вышестоящий уровень)](*<-lang_ru;;*);;
+ 		<-statement;;
+ 		<=nrel_sc_text_translation:
+ 		...
+ 		(*
+  		->[Вмешательство носит для нижестоящих уровней обязательный характер и в нем находит свое выражение приоритет действий и целей более высоких уровней.]
+			(*<-lang_ru;;*);;
+ 		*);;
+	*);;
+
+
+
+
+
+intervention_before_decision_making
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[вмешательство до принятия решения](* <- lang_ru;; *);
+	[intervention before decision making](* <-lang_en;; *);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				[Вмешательство до принятия решения — действие, при котором вышестоящий элемент может попытаться скоординировать действия нижестоящих элементов до того, как они примут свои решения.](* <- lang_ru;; *);;
+		*);;
+	*);;
+
+
+
+
+
+
+intervention_after_decision_making
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[вмешательство после принятия решения](* <- lang_ru;; *);
+	[intervention after decision making](* <-lang_en;; *);
+=> nrel_idtf:
+	[корректирующее вмешательство](* <- lang_ru;; *);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				[Вмешательство после принятия решения — действия координирующего элемента, при котором вышестоящий элемент должен исправить посланные ранее элементам нижестоящего уровня инструкции, если окажется, что допущения, на основе которых эти инструкции были выработаны, стали неверными. Более того, в конце периода принятия решения вышестоящий элемент должен либо подтвердить, либо изменить сообщенные им в ходе вмешательства до принятия решения планы распределения ролей подсистем в обеспечении успеха всей системы.](* <- lang_ru;; *);;
+		*);;
+	*);;
+
+
+
+
+
+
+
+choice_of_method_of_coordination
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[выбор способа координации](* <- lang_ru;; *);
+	[choice of method of coordination](* <-lang_en;; *);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				[Выбор способа координации включает в себя выбор алгоритмов и правил поведения в разнообразных предполагаемых обстоятельствах.](* <- lang_ru;; *);;
+		*);;
+	*);;
+
+
+
+
+
+
+coordination
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[координация](* <- lang_ru;; *);
+	[coordination](* <-lang_en;; *);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				[Координация (в широком смысле) включает способы и правила “регулирования”, целью которых является улучшение качества деятельности, выбор координационной переменной или переменной реального вмешательства.](* <- lang_ru;; *);;
+		*);;
+	*);;
+
+
+
+
+
+
+modification
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[модификация](* <- lang_ru;; *);
+	[modification](* <-lang_en;; *);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				[Модификация — изменения функций и взаимосвязей, используемых в процессе координации.](* <- lang_ru;; *);;
+		*);;
+	*);;
+
+
+
+
+
+
+interaction_of_actions
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[взаимозависимость действий](* <- lang_ru;; *);
+	[interaction of actions](* <-lang_en;; *);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				[Взаимозависимость действий — состояния, при котором качество работы системы в целом обеспечивается обратной связью, то есть реакциями на вмешательство, информация о которых направляется снизу вверх.](* <- lang_ru;; *);;
+		*);;
+	*);;
+
+
+
+
+
+
+main_types_of_hierarchies
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[основные виды иерархий](* <- lang_ru;; *);
+	[main types of hierarchies](* <-lang_en;; *);
+
+<= nrel_subdividing: 
+	{  
+	 levels_of_description;
+	 levels_of_difficulty_make_decisions;
+	 organizational_hierarchies
+	};;
+
+
+
+
+
+
+levels_of_description
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[уровни описания, или абстрагирования](* <- lang_ru;; *);
+	[levels of description](* <-lang_en;; *);
+
+<= nrel_inclusion:   
+	stratified_description;
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				[Уровни абстрагирования, включающие стратифицированное описание, называются стратами.](* <- lang_ru;; *);;
+		*);;
+	*);
+
+<- rrel_key_sc_element: 
+	...
+	(*
+ 		=>nrel_idtf:[утв.(страта)](*<-lang_ru;;*);;
+ 		<-statement;;
+ 		<=nrel_sc_text_translation:
+ 		...
+ 		(*
+  		->[На каждой страте в иерархии структур имеется свой собственный набор переменных, которые позволяют в значительной степени ограничить изучение только одной стратой.](*<-lang_ru;;*);;
+ 		*);;
+	*);
+
+<- rrel_key_sc_element: 
+	...
+	(*
+ 		=>nrel_idtf:[утв.(стратифицированная система)](*<-lang_ru;;*);;
+ 		<-statement;;
+ 		<=nrel_sc_text_translation:
+ 		...
+ 		(*
+  		->[Пример стратифицированной системы, созданной человеком,— автоматизированный промышленный комплекс. 
+	Полностью автоматизированный промышленный комплекс обычно моделируют на трех стратах:
+	а) физические процессы обработки материалов и преобразования энергии, 
+	б) управление и обработка информации, 
+	в) экономика производства с точки зрения его производительности и прибыльности.]
+			(*<-lang_ru;;*);;
+ 		*);;
+	*);;
+
+
+
+
+
+
+stratified_description
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[стратифицированное описание](* <- lang_ru;; *);
+	[stratified description](* <-lang_en;; *);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				[Стратифицированное описание — описание, в котором система задается семейством моделей, каждая из которых описывает поведение системы с точки зрения различных уровней абстрагирования.](* <- lang_ru;; *);;
+		*);;
+	*);;
+
+
+
+
+
+
+levels_of_difficulty_make_decisions
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[уровни сложности принимаемого решения](* <- lang_ru;; *);
+	[levels of difficulty make decisions](* <-lang_en;; *);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				[Уровни сложности принимаемого решения называются слоями.](* <- lang_ru;; *);;
+		*);;
+	*);
+
+<- rrel_key_sc_element: 
+	...
+	(*
+ 		=>nrel_idtf:[утв.(процесс принятия решений)](*<-lang_ru;;*);;
+ 		<-statement;;
+ 		<=nrel_sc_text_translation:
+ 		...
+ 		(*
+  		->[Это понятие иерархии относится к процессам принятия сложных решений. В любой реальной ситуации принятия решения существуют две особенности:
+1) когда приходит время принимать решение, принятие и выполнение решения желательно ускорить;
+2) прежде чем принять решение, следует хорошо оценить создавшуюся ситуацию.
+
+При принятии решения в сложных ситуациях разрешение этой дилеммы ищут в иерархическом подходе: определяют семейство проблем, которые пытаются разрешить последовательным путем в том смысле, что решение любой проблемы из этой последовательности определяет и фиксирует какие-то параметры в следующей проблеме так, что последняя становится полностью определенной, и можно приступить к ее решению.](*<-lang_ru;;*);;
+ 		*);;
+	*);;
+
+
+
+
+
+
+functional_multi_layered_decision_hierarchy
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[функциональная многослойная иерархия решений](* <- lang_ru;; *);
+	[functional multi layered decision hierarchy](* <-lang_en;; *);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				[Функциональная иерархия состоит из трех слоев:
+1. Слой выбора.
+	Задача этого слоя — выбор способа действий т. Принимающий решение элемент на этом слое получает внешние данные (информацию) и, применяя тот или иной алгоритм (определяемый на верхних слоях), находит нужный способ действий. 
+2. Слой обучения, или адаптации. 
+	Задача этого слоя — конкретизация множества неопределенностей U, с которым имеет дело слой выбора. Назначение второго слоя — сужение множества неопределенностей U и таким образом упростить работу слоя выбора. Если система и окружающая среда стационарны, то множество неопределенностей может быть предельно сужено (до единственного элемента).
+3. Слой самоорганизации.
+	Этот слой должен выбирать структуру, функции и стратегии, используемые на нижележащих слоях, таким образом, чтобы по возможности приблизиться к глобальной цели (обычно определяемой в терминах, которые трудно сделать операционными). Если общая цель не достигается, этот слой может изменить функции  Р и G на первом слое или стратегию обучения на втором слое в случае неудовлетворительности оценки неопределенности.](* <- lang_ru;; *);;
+		*);;
+	*);
+
+<- rrel_key_sc_element: 
+	...
+	(*
+ 		=>nrel_idtf:[утв.(функциональная многослойная иерархия решений)](*<-lang_ru;;*);;
+ 		<-statement;;
+ 		<=nrel_sc_text_translation:
+ 		...
+ 		(*
+  		->[Функциональная многослойная иерархия решений возникает естественным образом в связи с тремя основными аспектами проблемы
+принятия решения в условиях полной неопределенности:
+1) выбором стратегии, которая должна быть использована в процессе решения;
+2) уменьшением или устранением неопределенности;
+3) поиском предпочтительного или допустимого способа действий, удовлетворяющего заданным ограничениям. 
+.](*<-lang_ru;;*);;
+ 		*);;
+	*);;
+
+
+
+
+
+
+organizational_hierarchies
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[организационные иерархии](* <- lang_ru;; *);
+	[organizational hierarchies](* <-lang_en;; *);
+=> nrel_idtf:
+	[многоэшелонная система](* <- lang_ru;; *);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				[Это понятие иерархии подразумевает, что:
+1) система состоит из семейства четко выделенных взаимодействующих подсистем;
+2) некоторые из подсистем являются принимающими решения (решающими) элементами;
+3) принимающие решения элементы из 1) располагаются иерархически в том смысле, что некоторые из них находятся под
+влиянием или управляются другими решающими элементами.
+.](* <- lang_ru;; *);;
+		*);;
+	*);;
+
+
+
+
+
+
+designing_multi_echelon_system
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[проектирование многоэшелонной системы](* <- lang_ru;; *);
+	[designing multi echelon system](* <-lang_en;; *);
+
+<- rrel_key_sc_element: 
+	...
+	(*
+ 		=>nrel_idtf:[утв. (координация, взаимозависимость действий)](*<-lang_ru;;*);;
+ 		<-statement;;
+ 		<=nrel_sc_text_translation:
+ 		...
+ 		(*
+  		->rrel_example: [Проектирование многоэшелонной системы начинают с заданного процесса и управления на нижнем уровне с таким расчетом, чтобы координация взаимодействующих подсистем содействовала достижению целей более высокого уровня, охватывающих все более и более обширные части системы.](*<-lang_ru;;*);;
+ 		*);;
+	*);;
+
+
+
+
+
+
+classification_of_decision_making_systems
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[классификация систем принятия решений](* <- lang_ru;; *);
+	[сlassification of decision-making systems](* <-lang_en;; *);
+
+<= nrel_subdividing: 
+	{  
+	 single_level_single_purpose_systems;
+	 single_level_multi_purpose_systems;
+	 multi_level_multi_purpose_systems
+	};;
+
+
+
+
+
+
+single_level_single_purpose_systems
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[одноуровневые одноцелевые системы](* <- lang_ru;; *);
+	[single-level single-purpose systems](* <-lang_en;; *);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				[Цель определяется для всей системы и все переменные выбираются так, чтобы обеспечить достижение этой цели. 
+	Основные достоинства:
+• концептуальная простота одноуровневых одноцелевых систем,
+• отсутствие конфликтов внутри таких систем.](* <- lang_ru;; *);;
+		*);;
+	*);;
+
+
+
+
+single_level_multi_purpose_systems
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[одноуровневые многоцелевые системы](* <- lang_ru;; *);
+	[single-level multi-purpose systems](* <-lang_en;; *);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				[Состоит из принимающих решения элементов, имеющих свои собственные цели.
+   Эти цели не обязательно конфликтны. Конфликт между принимающими решения элементами может, однако, произойти; тогда он может быть разрешен только путем вмешательства более высокого уровня многоуровневые многоцелевые системы. Некоторые из элементов, обладающих правом принятия решений, могут образовывать коалиции.](* <- lang_ru;; *);;
+		*);;
+	*);;
+
+
+
+
+
+
+multi_level_multi_purpose_systems
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[многоуровневые многоцелевые системы](* <- lang_ru;; *);
+	[multi-level multi-purpose systems](* <-lang_en;; *);
+ 
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				[Характеризуется наличием иерархических отношений между принимающими решения элементами этой системы. 
+	Принципиальная отличительная особенность - существование какого-то высшего командного элемента; проблема принятия решений на уровне этого элемента является основной проблемой в теории многоуровневых систем.](* <- lang_ru;; *);;
+		*);;
+	*);;
+
+
+
+
+
+
+subject_domain_of_section
+=> nrel_main_idtf:
+	[Предметная область иерархических систем](* <- lang_ru;; *);
+	[Subject domain of hierarchical systems](* <-lang_en;; *);
+=> nrel_idtf:
+	[Предметная область, объектами исследования которой являются иерархические системы](* <- lang_ru;; *);
+
+<- subject_domain;
+-> rrel_maximum_studied_object_class: multilevel_hierarchical_structure;
+-> rrel_not_maximum_studied_object_class:
+	multilevel_hierarchical_structure;
+	vertical_subordination;
+	right_of_intervention;
+	intervention_before_decision_making;
+	intervention_after_decision_making;
+	choice_of_method_of_coordination;
+	coordination;
+	modification;
+	interaction_of_actions;
+	main_types_of_hierarchies;
+	levels_of_description;
+	levels_of_difficulty_make_decisions;
+	functional_multi_layered_decision_hierarchy;
+	organizational_hierarchies;
+	designing_multi_echelon_system;
+	classification_of_decision_making_systems;;

@@ -1,0 +1,9 @@
+is_of_enterprise_management
+=> nrel_main_idtf:[Интеллектуальная система управления предприятием](*<-lang_ru;;*);
+       [Intelligent system of enterprise managment](*<-lang_en;;*);
+<-student_project;
+-> rrel_scientific_consultant:Grakova_N_V;
+-> rrel_technical_consultant:Bychko_Andrey;
+=> nrel_customer:Bordushko_Valeriy_Nikolaevich;
+-> nrel_expert:Bordushko_Valeriy_Nikolaevich;
+=> nrel_executor: is_of_enterprise_management_team;;

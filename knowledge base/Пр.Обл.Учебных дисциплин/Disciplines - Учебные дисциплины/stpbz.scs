@@ -1,0 +1,37 @@
+stpbz
+=>nrel_main_idtf:
+	[Семантическая технология проектирования баз знаний] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[Semantic technology knowledge bases design] (* <-lang_en;; *);
+=>nrel_abbreviation:[СТПБЗ];
+<-multiplicity_of_subjects_taught_in_the_1_term_magistracy_specialty_teoretical_foundations_of_computer_science;
+
+<-special_subject;
+
+<=nrel_realisation_of_learning_activity:
+	practical_lesson_on_stpbz
+(*=>nrel_main_idtf:
+[Семантическая технология проектирования баз знаний.практические занятия] (* <-lang_ru;; *);;=>nrel_planned_hours:34;;
+	=>nrel_realisation_of_intermediate_control:
+		protection_of_practical_work;;
+	<-practical_lesson;;
+	*);
+
+lectures_on_stpb
+	(*=>nrel_main_idtf:
+[Семантическая технология проектирования баз знаний.лекции] (* <-lang_ru;; *);;=>nrel_planned_hours:34;;
+	=>nrel_realisation_of_intermediate_control:
+		control_work;;
+		<-lecture;;
+	*);
+=>nrel_realisation_of_final_certification: test;
+<-rrel_subject:
+	...
+	(*
+	->rrel_realisation_of_learning_activity: practical_lesson; lecture;;
+	<-nrel_taught_subject;;
+	->rrel_teacher: Golenkov_V_V;;
+	*);
+=>nrel_term: 1;;
+Golenkov_V_V=>nrel_can_teach_subject:stpbz;stpbz_z;;
+Golenkov_V_V<=nrel_educational_work:practical_lesson_on_stpbz;practical_lesson_on_stpbz_z;lectures_on_stpb;lectures_on_stpb_z;;

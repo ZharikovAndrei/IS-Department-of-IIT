@@ -1,0 +1,27 @@
+sc_node_not_relation -> popular_political_edition;;
+
+popular_political_edition => nrel_main_idtf:
+[массово-политическое издание]
+	(*
+	<- lang_ru;;
+	*);
+	[popular political edition] 
+	(*
+	<- lang_en;;
+	*);;
+
+popular_political_edition <- rrel_key_sc_element: 
+        ...
+	(*
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[массово-политическое издание – издание, содержащее произведение общественно-политической тематики, агитационно-пропагандистского характера и предназначенное широкому кругу читателей]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;
+
+edition -> popular_political_edition;;
+non_periodical_edition -> popular_political_edition;;

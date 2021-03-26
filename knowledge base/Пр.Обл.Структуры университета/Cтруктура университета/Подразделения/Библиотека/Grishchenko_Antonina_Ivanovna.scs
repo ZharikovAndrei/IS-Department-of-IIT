@@ -1,0 +1,32 @@
+Grishchenko_Antonina_Ivanovna=>nrel_main_idtf:
+[Грищенко Антонина Ивановна](*<-lang_ru;;*);
+[Grishchenko Antonina Ivanovna](*<-lang_en;;*);;
+
+Grishchenko_Antonina_Ivanovna -> rrel_email:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+ [gricshenko@bsuir.by](*<-lang_ru;;*)
+   ;;*)
+   ;;*)
+   ;;
+Grishchenko_Antonina_Ivanovna -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+ [+375 17 293-89-52];
+ [+375 17 293-89-52];;*)
+   ;;*)
+   ;;
+
+Grishchenko_Antonina_Ivanovna-> rrel_work_place: aud_107_2;;
+
+/*Grishchenko_Antonina_Ivanovna<- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example:
+                       "file://Grishchenko_Antonina_Ivanovna.JPG";;
+               *);;
+        *);;*/

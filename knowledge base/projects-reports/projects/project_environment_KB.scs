@@ -1,0 +1,16 @@
+project_environment_KB
+      => nrel_main_idtf:[Среда коллективного проектирования баз знаний] (* <-lang_ru;; *);
+      => nrel_main_idtf:[Environment collective design knowledge bases] (* <-lang_en;; *);
+      => nrel_synonymy:[5e/БЗ];;
+
+project_environment_KB <- student_project;;
+project_environment_KB => nrel_project_leader: Davydenko_I_T;;
+project_environment_KB => nrel_performers: Zverugo_A_V; Dzhim_V_E; Dubina_E_A; Trunc_V_V; Shalev_A_G; Shalev_Andr_G; Shulga_A_U;;
+project_environment_KB -> rrel_responsible_executor: Zverugo_A_V;;
+project_environment_KB => nrel_reports: report_ontology_KB;;
+
+
+//project_environment_KB => nrel_main_students: ;;
+//project_environment_KB => nrel_sections_KB_IMS: ;;
+//project_environment_KB => nrel_reports_OSTIS2017: ;;
+//project_environment_KB => nrel_related_projects: ;;

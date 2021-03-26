@@ -1,0 +1,28 @@
+project_discrete_math
+      => nrel_main_idtf:[Интеллектуальная справочная система по дискретной математике] (* <-lang_ru;; *);
+      => nrel_main_idtf:[Intellectual help system for discrete mathematics] (* <-lang_en;; *);
+      => nrel_synonymy:[15e/дискр];;
+	  
+project_discrete_math => nrel_inclusion: project_ISS_graphs_theory; project_ISS_set_theory;;
+project_discrete_math => nrel_reports: report_ISS; report_IS_individual_learning;;
+project_discrete_math => nrel_project_leader: Gulyakina_N_A;;
+
+project_ISS_graphs_theory
+      => nrel_main_idtf:[Интеллектуальная справочная система по теории графов] (* <-lang_ru;; *);
+      => nrel_main_idtf:[Intelligent help system on graph theory] (* <-lang_en;; *);;
+
+project_ISS_graphs_theory => nrel_project_leader: Shunkevich_D_V;;
+project_ISS_graphs_theory=> nrel_performers: Kovalev_M_V; Kozel_A_L; Bobkov_A_V; Rodionova_O_S; Mixluk_K_U; Zhuk_A_A; Kalenchuk_E_O; Kirjanova_A_A; Kuzmenko_E_I;
+Pivovarevich_L_N; Jakimcov_I_D;  Anishchik_A_S; Yasyukevich_D_S; Kniga_V_I; Kozel_S_M; Vasilyeva_A_G; Shusterman_V_A; Horovets_A_S;;
+project_ISS_graphs_theory-> rrel_responsible_executor:Kovalev_M_V;;
+
+project_ISS_set_theory
+      => nrel_main_idtf:[Интеллектуальная справочная система по теории множеств] (* <-lang_ru;; *);
+      => nrel_main_idtf:[Intelligent help system for set theory] (* <-lang_en;; *);;
+
+project_ISS_set_theory => nrel_project_leader: Gulyakina_N_A;;
+project_ISS_set_theory=> nrel_performers: Karpach_B_N; Chernych_O_P; Vinokur_A_E; Kovalchuk_V_V; Krasova_D_V; Sevko_A_A; Talax_B_U; Gavriluk_M_I; Shindrik_A_S; 
+Yuzvenko_P_A; Shmat_A_A; Biryuchev_I_G; Lavrinovich_Y_G; Perepechina_K_S; Ryzhevich_S_O;;
+project_ISS_set_theory-> rrel_responsible_executor:Karpach_B_N;;
+
+

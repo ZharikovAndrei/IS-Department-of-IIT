@@ -1,0 +1,17 @@
+//Материалы 4-й Всероссийской мультиконференции
+
+//sc_node_not_relation -> Proceedings_of_the_4th_All_Russian_multiconference;;
+
+
+ Proceedings_of_the_4th_All_Russian_multiconference => nrel_main_idtf:
+[Материалы 4-й Всероссийской мультиконференции]
+	(*
+	<- lang_ru;;
+	*);
+	[Proceedings_of_the_4th_All_Russian_multiconference]
+	(*
+	<- lang_en;;
+	*);;
+ Proceedings_of_the_4th_All_Russian_multiconference => nrel_place_publication: taganrog;;
+
+ Proceedings_of_the_4th_All_Russian_multiconference => nrel_publishing: tti_ufu;;

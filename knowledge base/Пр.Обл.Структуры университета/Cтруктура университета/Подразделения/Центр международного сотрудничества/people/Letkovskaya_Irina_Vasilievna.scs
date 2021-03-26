@@ -1,0 +1,33 @@
+Letkovskaya_Irina_Vasilievna=>nrel_main_idtf:
+[Летковская Ирина Васильевна](*<-lang_ru;;*);
+[Letkovskaya Irina Vasilievna](*<-lang_en;;*);;
+
+Letkovskaya_Irina_Vasilievna -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [+375 17 293-89-67];;*)
+   ;;*)
+   ;; 
+
+Letkovskaya_Irina_Vasilievna -> rrel_work_place: aud_124_1;;
+
+Letkovskaya_Irina_Vasilievna -> rrel_email:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [shuam@bsuir.by](*<-lang_ru;;*)
+   ;;*)
+   ;;*)
+   ;; 
+
+
+Letkovskaya_Irina_Vasilievna <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://Letkovskaya.jpg";;
+               *);;
+        *);;

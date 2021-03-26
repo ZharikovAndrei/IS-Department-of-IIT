@@ -1,0 +1,9 @@
+department_of_labour_protection_bsuir=>nrel_main_idtf:
+[отдел охраны труда БГУИР](*<-lang_ru;;*);
+[department of labour protection of bsuir](*<-lang_en;;*);;
+
+department_of_labour_protection_bsuir<-concept_department_of_labour_protection;;
+
+
+department_of_labour_protection_bsuir=>nrel_pers_comp:pers_comp_of_department_of_labour_protection_bsuir;;
+

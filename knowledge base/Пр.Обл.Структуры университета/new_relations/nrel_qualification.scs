@@ -1,0 +1,26 @@
+sc_node_norole_relation-> nrel_qualification;;
+nrel_qualification=>nrel_main_idtf:
+[квалификация*](*<-lang_ru;;*);
+[qualification*](*<-lang_en;;*);; 
+
+
+nrel_qualification <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [Опр.(квалификация*)] (* <- lang_ru;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Отношение, связывающее специальность и конкретную квалификацию.](* <- lang_ru;; *);;
+		*);;
+	*);;
+
+
+nrel_qualification=>nrel_second_domain:qualification;;
+nrel_qualification=>nrel_first_domain:speciality;;
+nrel_qualification=>nrel_definitional_domain:...(* <=nrel_combination:...(*->speciality;; ->qualification;;*) ;;
+				*);;
+
+

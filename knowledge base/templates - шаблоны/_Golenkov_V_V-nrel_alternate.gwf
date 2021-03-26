@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GWF version="2.0">
+    <staticSector>
+        <node type="node/const/general_node" idtf="Golenkov_V_V" shapeColor="0" id="156309888" parent="154795840" left="0" top="0" right="208.938" bottom="25" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="154.002" y="163.036" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/var/general_node" idtf="" shapeColor="0" id="159057176" parent="154795840" x="139.002" y="285.036" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/relation" idtf="nrel_alternate" shapeColor="0" id="156323912" parent="154795840" left="0" top="0" right="100.703" bottom="25" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="256.002" y="220.036" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <arc type="arc/var/pos" idtf="" shapeColor="0" id="154792040" parent="154795840" id_b="156323912" id_e="154794464" b_x="256.002" b_y="220.036" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.59866">
+            <points/>
+        </arc>
+        <pair type="pair/var/orient" idtf="" shapeColor="0" id="154794464" parent="154795840" id_b="156309888" id_e="159057176" b_x="154.002" b_y="163.036" e_x="139.002" e_y="285.036" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <contour type="" idtf="_Golenkov_V_V-nrel_alternate" shapeColor="0" id="154795840" parent="0" left="0" top="0" right="202" bottom="25" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10">
+            <points>
+                <point x="64.0021" y="140.036"/>
+                <point x="41.0021" y="429.036"/>
+                <point x="443.002" y="452.036"/>
+                <point x="410.002" y="132.036"/>
+            </points>
+        </contour>
+        <node type="node/const/general_node" idtf="" shapeColor="193" id="159059296" parent="0" x="588.002" y="295.036" haveBus="false" idtf_pos="0">
+            <content type="1" mime_type="content/term" content_visibility="true" file_name=""><![CDATA[Кто заместитель Голенкова В.В.?]]></content>
+        </node>
+        <node type="node/const/general_node" idtf="question_to_system" shapeColor="0" id="157100672" parent="0" left="0" top="0" right="138" bottom="25" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="405.5" y="40.5" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="lang_ru" shapeColor="0" id="154778616" parent="0" left="0" top="0" right="56.5" bottom="25" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="776.002" y="274.036" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/relation" idtf="nrel_main_idtf" shapeColor="0" id="159062384" parent="0" left="0" top="0" right="103.109" bottom="25" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="489.002" y="164.036" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="158906784" parent="0" id_b="157100672" id_e="154795840" b_x="405.5" b_y="40.5" e_x="242.002" e_y="292.036" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <pair type="pair/const/orient" idtf="" shapeColor="0" id="154795096" parent="0" id_b="154795840" id_e="159059296" b_x="242.002" b_y="292.036" e_x="588.002" e_y="295.036" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="154793832" parent="0" id_b="159062384" id_e="154795096" b_x="489.002" b_y="164.036" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.430044">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="154792816" parent="0" id_b="154778616" id_e="159059296" b_x="776.002" b_y="274.036" e_x="588.002" e_y="295.036" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+    </staticSector>
+</GWF>

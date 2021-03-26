@@ -1,0 +1,8 @@
+foundations_of_information_science_mag=>nrel_main_idtf:[Специальность 1-31 80 10 Теоретические основы информатики] (* <-lang_ru;; *);;
+foundations_of_information_science_mag=>nrel_main_idtf:[Speciality 1-31 80 10 Foundations of information science] (* <-lang_en;; *);;
+
+foundations_of_information_science_mag=>nrel_idtf:[Специальность ТОЭ (магистратура)] (* <-lang_ru;; *);;
+foundations_of_information_science_mag=>nrel_idtf:[Speciality FIS (magistracy)] (* <-lang_en;; *);;
+
+foundations_of_information_science_mag => nrel_code_of_speciality: code_of_the_speciality_foundations_of_information_science_mag;;
+

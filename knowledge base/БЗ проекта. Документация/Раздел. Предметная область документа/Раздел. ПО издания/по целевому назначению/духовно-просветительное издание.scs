@@ -1,0 +1,27 @@
+sc_node_not_relation -> spiritual_educational_edition;;
+
+spiritual_educational_edition => nrel_main_idtf:
+[духовно-просветительное издание]
+	(*
+	<- lang_ru;;
+	*);
+	[spiritual and educational edition] 
+	(*
+	<- lang_en;;
+	*);;
+
+spiritual_educational_edition <- rrel_key_sc_element: 
+        ...
+	(*
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[духовно-просветительное издание – издание религиозного содержания, разъясняющее постулаты мировоззрения, основанного на вере в существование высших божественных сил]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;
+
+edition -> spiritual_educational_edition;;
+non_periodical_edition -> spiritual_educational_edition;;

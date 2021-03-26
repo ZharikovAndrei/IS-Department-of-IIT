@@ -1,0 +1,27 @@
+sc_node_not_relation -> reference_edition;;
+
+reference_edition => nrel_main_idtf:
+[справочное издание]
+	(*
+	<- lang_ru;;
+	*);
+	[reference edition] 
+	(*
+	<- lang_en;;
+	*);;
+
+reference_edition <- rrel_key_sc_element: 
+        ...
+	(*
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[справочное издание – издание, содержащее краткие сведения научного или прикладного характера, расположенные в порядке, удобном для их быстрого отыскания, не предназначенное для сплошного чтения]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;
+
+edition -> reference_edition;;
+non_periodical_edition -> reference_edition;;

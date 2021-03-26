@@ -1,0 +1,31 @@
+Smirnov_Vyacheslav_Leonidovuch=>nrel_main_idtf:
+[Смирнов Вячеслав Леонидович](*<-lang_ru;;*);
+[Smirnov Vyacheslav Leonidovuch](*<-lang_en;;*);;
+
+Smirnov_Vyacheslav_Leonidovuch -> rrel_email:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+ [pom_rektora@bsuir.by ](*<-lang_en;;*)
+   ;;*)
+   ;;*)
+   ;;
+
+Smirnov_Vyacheslav_Leonidovuch -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+ [+375 17 293-84-48];;*)
+   ;;*)
+   ;;
+
+Smirnov_Vyacheslav_Leonidovuch -> rrel_work_place: aud_223_1;;
+Smirnov_Vyacheslav_Leonidovuch <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example:
+                       "file://Smirnov.jpg";;
+               *);;
+        *);;

@@ -1,0 +1,31 @@
+publication_Grakova_N_V_2014_EducaDO=> nrel_main_idtf:
+[Гракова Н.В. 2014 - ОнтолУД]
+	(*
+	<- lang_ru;;
+	*);
+	[Grakova_N_V_2014_EducaDO] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Grakova_N_V_2014_EducaDO => nrel_name_publication:[Онтология учебной дисциплины](*
+	<- lang_ru;;
+	*);;
+
+publication_Grakova_N_V_2014_EducaDO <= nrel_author:
+Grakova_N_V;Hubarevich_A_V;;
+
+publication_Grakova_N_V_2014_EducaDO <- article;;
+
+publication_Grakova_N_V_2014_EducaDO => nrel_reference_standard: [Гракова, Н.В. Онтология учебной дисциплины. / Н.В. Гракова, А.В. Губаревич // Информационные технологии и системы 2014 (ИТС 2014): материалы международной научной конференции, БГУИР, Минск, Беларусь, 29 октября 2014 г. = Information Technologies and Systems 2014 (ITS 2014) : Proceeding of The International Conference, BSUIR, Minsk, 29th October 2014 / редкол. : Л. Ю. Шилин и др. – Минск : БГУИР, 2014. – С. 168-169 ];;
+
+publication_Grakova_N_V_2014_EducaDO => nrel_year_publication: 2014;;
+
+publication_Grakova_N_V_2014_EducaDO => nrel_information_publication: Proceedings_of_the_international_scientific_conference_ITS_14;;
+
+publication_Grakova_N_V_2014_EducaDO => nrel_number_page: ..2014_EducaDO(*
+-> rrel_from : 168;;
+-> rrel_by : 169;;
+*);;
+publication_Grakova_N_V_2014_EducaDO <- rrel_key_sc_element: ... (* <- sc_explanation;; <= nrel_sc_text_translation: ... (* -> rrel_example: "file://содержимое публикаций/Гракова_Н.В._ОнтолУД.pdf";; *);; *);;
+

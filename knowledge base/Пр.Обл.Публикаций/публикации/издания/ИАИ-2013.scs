@@ -1,0 +1,15 @@
+//Сборник материалов "13 международная конференция Интеллектуальный анализ информации"
+
+//sc_node_not_relation -> Materials_of_13th_International_Conference_Intelligent_analysis_of_information;;
+
+
+ Materials_of_13th_International_Conference_Intelligent_analysis_of_information => nrel_main_idtf:
+[Сборник материалов "13 международная конференция Интеллектуальный анализ информации"]
+	(*
+	<- lang_ru;;
+	*);
+	[ Materials_of_13th_International_Conference_Intelligent_analysis_of_information]
+	(*
+	<- lang_en;;
+	*);;
+ Materials_of_13th_International_Conference_Intelligent_analysis_of_information => nrel_place_publication: minsk;;

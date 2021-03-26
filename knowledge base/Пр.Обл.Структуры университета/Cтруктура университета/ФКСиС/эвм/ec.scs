@@ -1,0 +1,81 @@
+the_department_of_electronic_computers=>nrel_main_idtf:
+[Кафедра электронных вычислительных машин](*<-lang_ru;;*);
+[the department of electronic computers](*<-lang_en;;*);; 
+
+
+
+
+the_department_of_electronic_computers=>nrel_idtf:[ЭВМ](*<-lang_ru;;*);;
+the_department_of_electronic_computers=>nrel_idtf:[EC](*<-lang_en;;*);;
+
+
+
+pers_comp_evm -> rrel_head_of_department: header_of_evm;;
+
+the_department_of_electronic_computers => nrel_info: evm_info;;
+
+the_department_of_electronic_computers => nrel_pers_comp: pers_comp_evm;;
+
+
+
+header_of_evm=>nrel_main_idtf:
+[Самаль Дмитрий Иванович](*<-lang_ru;;*);
+[Samal' Dmitry Ivanovich](*<-lang_en;;*);;
+
+
+
+evm_info=>nrel_main_idtf:
+[информация о кафедре ЭВМ](*<-lang_ru;;*);
+[the information about the department of EC](*<-lang_en;;*);; 
+
+
+
+pers_comp_evm=>nrel_main_idtf:
+[Персональный состав кафедры ЭВМ](*<-lang_ru;;*);
+[personal composition of the EC](*<-lang_en;;*);; 
+
+
+
+
+header_of_evm <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://../../../image/ec1.jpg";;
+               *);;
+        *);;
+
+
+
+
+
+
+
+
+
+
+evm_info <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [О кафедре] (* <- lang_ru;; *);;
+	<- sc_task;;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Кафедра является выпускающей по специальности 40 02 01 "Вычислительные машины, системы и сети" и готовит инженеров-системотехников в области информационных технологий и вычислительной техники. Кафедра создана в 1964 г. под названием кафедра "Математические и счетно-решающие приборы и устройства". В 1970 г. переименована в кафедру "Электронные вычислительные машины".
+В 1976 г. часть учебных дисциплин была передана на кафедру "Вычислительные методы и программирование", а в 1978 г. из состава кафедры была выделена кафедра "Вычислительные системы". С 2000г. ведется подготовка магистрантов по специальности 40 02 01 "Вычислительные машины, системы и сети". Студенты кафедры получают фундаментальные знания в области специальных математических дисциплин, теории вычислительной техники, принципов построения многомашинных и многопроцессорных систем, вычислительных комплексов и сетей, методов и средств автоматизации и проектирования программного обеспечения. ](* <- lang_ru;; *);;
+		*);;
+	*);;
+
+
+
+
+
+
+
+

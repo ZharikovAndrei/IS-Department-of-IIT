@@ -1,0 +1,23 @@
+sc_node_norole_relation -> nrel_reviewer;; 
+
+nrel_reviewer => nrel_main_idtf:[рецензент*] (* <-lang_ru;; *);;
+
+nrel_reviewer => nrel_main_idtf:[reviewer*] (* <-lang_en;; *);;
+
+nrel_reviewer=>nrel_first_domain:concept_review;;
+
+nrel_reviewer=>nrel_second_domain:person;;
+
+nrel_reviewer=>nrel_definitional_domain:...(* <=nrel_combination:...(*->concept_review;; ->person;;*) ;; *);;
+
+nrel_reviewer<- rrel_key_sc_element:
+	... 
+	(*<-sc_definition;;
+     =>nrel_main_idtf:[Опр.(рецензент*)](*<-lang_ru;;*);;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Рецензент - автор рецензии.](* <- lang_ru;; *);;
+		*);;
+	*);;

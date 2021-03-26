@@ -1,0 +1,26 @@
+Kameneckaya_Svetlana_Sergeevna=>nrel_main_idtf:
+[Каменецкая Светлана Сергеевна](*<-lang_ru;;*);
+[Kameneckaya Svetlana Sergeevna](*<-lang_en;;*);;
+
+Kameneckaya_Svetlana_Sergeevna -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [+375 17 293-22-21];;*)
+   ;;*)
+   ;; 
+
+Kameneckaya_Svetlana_Sergeevna-> rrel_work_place: aud_213_2;;
+
+Kameneckaya_Svetlana_Sergeevna<- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://Kameneckaya.jpg";;
+               *);;
+        *);;
+
+

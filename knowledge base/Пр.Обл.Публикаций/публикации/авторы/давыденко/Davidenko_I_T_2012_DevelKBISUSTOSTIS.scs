@@ -1,0 +1,29 @@
+//sc_node_not_relation -> publication_Davidenko_I_T_2012_DevelKBISUSTOSTIS;;
+
+
+publication_Davidenko_I_T_2012_DevelKBISUSTOSTIS => nrel_main_idtf:
+[Давыденко И.Т.2012 - РазрабБЗИСсИСТOSTIS]
+	(*
+	<- lang_ru;;
+	*);
+	[Davidenko_I_T_2012_DevelKBISUSTOSTIS]
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Davidenko_I_T_2012_DevelKBISUSTOSTIS => nrel_name_publication:[Разработка баз знаний интеллектуальных систем с использованием семантической технологии OSTIS](*
+	<- lang_ru;;
+	*);;
+
+publication_Davidenko_I_T_2012_DevelKBISUSTOSTIS <= nrel_author:
+Davydenko_I_T; Gulyakina_N_A;;
+
+publication_Davidenko_I_T_2012_DevelKBISUSTOSTIS <- article;;
+
+publication_Davidenko_I_T_2012_DevelKBISUSTOSTIS => nrel_reference_standard: [Гулякина Н.А., Давыденко И.Т. Разработка баз знаний интеллектуальных систем с использованием семантической технологии OSTIS. Материалы международной научной конференции ITS’12, Минск, 2012];;
+
+publication_Davidenko_I_T_2012_DevelKBISUSTOSTIS => nrel_year_publication: 2012;;
+
+publication_Davidenko_I_T_2012_DevelKBISUSTOSTIS => nrel_information_publication: Proceedings_of_the_international_scientific_conference_ITS_12;;
+
+

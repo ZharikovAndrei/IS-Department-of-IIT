@@ -1,0 +1,29 @@
+publication_Shunkevich_D_V_2013_CompoPMPKISBSN => nrel_main_idtf:
+[Шункевич Д.В. 2013 - КомпоПМОЗвИСнОСС]
+	(*
+	<- lang_ru;;
+	*);
+	[Shunkevich_D_V_2013_CompoPMPKISBSN] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Shunkevich_D_V_2013_CompoPMPKISBSN => nrel_name_publication:[Компонентное проектирование машин обработки знаний в интеллектуальных системах на основе семантических сетей](*
+	<- lang_ru;;
+	*);;
+
+publication_Shunkevich_D_V_2013_CompoPMPKISBSN <= nrel_author:
+Shunkevich_D_V;;
+
+publication_Shunkevich_D_V_2013_CompoPMPKISBSN <- article;;
+
+publication_Shunkevich_D_V_2013_CompoPMPKISBSN => nrel_reference_standard: [Шункевич Д.В. Компонентное проектирование машин обработки знаний в интеллектуальных системах на основе семантических сетей. Международная научная конференция имени Т.А. Таран «Интеллектуальный анализ информации» ИАИ-2013, Киев, 15-17 мая 2013г.: сб.тр.- К.: Просвіта,2013. – с.162-167 ];;
+
+publication_Shunkevich_D_V_2013_CompoPMPKISBSN => nrel_year_publication: 2013;;
+
+publication_Shunkevich_D_V_2013_CompoPMPKISBSN => nrel_information_publication:International_Scientific_Conference_named_TA_Taran_Intelligent_analysis_of_information_2013;;
+
+publication_Shunkevich_D_V_2013_CompoPMPKISBSN => nrel_number_page: ..2013_CompoPMPKISBSN (*
+-> rrel_from : 162;;
+-> rrel_by :167 ;;
+*);;

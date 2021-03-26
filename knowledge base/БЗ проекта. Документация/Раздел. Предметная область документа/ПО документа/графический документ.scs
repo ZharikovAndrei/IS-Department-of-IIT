@@ -1,0 +1,31 @@
+//
+sc_node_not_relation -> graphic_document;;
+
+//specialization_of_document -> graphic_document;;
+
+graphic_document => nrel_main_idtf:
+[графический документ]
+	(*
+	<- lang_ru;;
+	*);
+	[graphic document] 
+	(*
+	<- lang_en;;
+	*);;
+
+graphic_document <- rrel_key_sc_element: 
+        ...
+	(*
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[графический документ – изобразительный документ, в котором изображение объекта получено посредством линий, штрихов, светотени]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;
+
+document -> graphic_document;;
+
+iconic_document -> graphic_document;;

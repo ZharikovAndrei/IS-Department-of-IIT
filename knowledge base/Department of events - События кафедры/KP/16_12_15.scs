@@ -1,0 +1,40 @@
+16_12_15=> nrel_main_idtf:
+[Защита КП в виде презентации 10 декабря 2015 года] (* <-lang_ru;; *);
+[Protection of KP in the form of presentation of 10th December 2015] (* <-lang_en;; *);
+<-event;
+<-temporary_entity;;
+16_12_15<-
+...
+(*<-exact_value;;
+ <-begin;;
+  =>nrel_translation_in_the_Gregorian_calendar:...
+  (*
+    ->number_of_year:2015;;
+    ->number_of_month_in_year:12;;
+    ->number_of_day_in_month:16;;
+    ->number_of_hour_in_day:18;;
+    ->number_of_minute_in_hour:45;;
+   *);;
+  *);;
+16_12_15<-
+...
+(*<-exact_value;;
+ <-completion;;
+  =>nrel_translation_in_the_Gregorian_calendar:...
+  (*
+    ->number_of_year:2015;;
+    ->number_of_month_in_year:12;;
+    ->number_of_day_in_month:16;;
+    ->number_of_hour_in_day:20;;
+    ->number_of_minute_in_hour:20;;
+   *);;
+  *);;
+16_12_15=>nrel_address:
+[г.Минск, БГУИР, улица Гикало 9 (4-ой корпус), аудитория 209](*<-lang_ru;;*);;
+
+16_12_15=>nrel_participant_course_project:
+is_of_traffic_laws;
+is_of_enterprise_management;
+is_of_department_of_iit;
+is_administrative_assistant;
+is_scp_text;;

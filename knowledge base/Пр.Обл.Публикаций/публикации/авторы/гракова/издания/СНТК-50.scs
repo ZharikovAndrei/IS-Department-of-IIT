@@ -1,0 +1,13 @@
+
+ Materials_50_scientific_conference_of_post_graduate_students_undergraduates_and_students => nrel_main_idtf:
+[Материалы 50-научной конференции аспирантов, магистрантов и студентов]
+	(*
+	<- lang_ru;;
+	*);
+	[Materials 50 scientific conference of post-graduate students, undergraduates and students]
+	(*
+	<- lang_en;;
+	*);;
+ Materials_50_scientific_conference_of_post_graduate_students_undergraduates_and_students => nrel_place_publication: minsk;;
+
+ Materials_50_scientific_conference_of_post_graduate_students_undergraduates_and_students => nrel_publishing: bsuir;;

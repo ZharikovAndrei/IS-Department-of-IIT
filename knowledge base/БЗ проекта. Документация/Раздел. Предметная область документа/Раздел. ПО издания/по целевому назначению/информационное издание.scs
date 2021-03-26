@@ -1,0 +1,27 @@
+sc_node_not_relation -> information_edition;;
+
+information_edition => nrel_main_idtf:
+[информационное издание]
+	(*
+	<- lang_ru;;
+	*);
+	[information edition] 
+	(*
+	<- lang_en;;
+	*);;
+
+information_edition <- rrel_key_sc_element: 
+        ...
+	(*
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[информационное издание – издание, содержащее систематизированные сведения о документах либо результат анализа и обобщения сведений, представленных в первоисточниках, выпускаемое организацией, осуществляющей научно-информационную деятельность]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;
+
+edition -> information_edition;;
+non_periodical_edition -> information_edition;;

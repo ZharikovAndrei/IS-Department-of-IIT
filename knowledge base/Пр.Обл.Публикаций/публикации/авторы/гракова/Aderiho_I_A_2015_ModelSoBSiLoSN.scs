@@ -1,0 +1,32 @@
+
+
+publication_Aderiho_I_A_2015_ModelSoBSiLoSN => nrel_main_idtf:
+[Адерихо И.А. 2015 - МоделСОБИПнЯСС]
+	(*
+	<- lang_ru;;
+	*);
+	[Aderiho_I_A_2015_ModelSoBSiLoSN] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Aderiho_I_A_2015_ModelSoBSiLoSN => nrel_name_publication:[Модель структуры описания библиографического источника, представленная на языке семантических сетей](*
+	<- lang_ru;;
+	*);;
+
+publication_Aderiho_I_A_2015_ModelSoBSiLoSN <= nrel_author:
+Grakova_N_V; Aderiho_Ilya_Anatolevich; Chernikov_Ivan_Andreevich;;
+
+publication_Aderiho_I_A_2015_ModelSoBSiLoSN <- article;;
+
+publication_Aderiho_I_A_2015_ModelSoBSiLoSN => nrel_reference_standard: [Адерихо И. А., Гракова Н. В., Черников И. А.
+"Модель структуры описания библиографического источника, представленная на языке семантических сетей", Дистанционное обучение - образовательная среда XXI века: Материалы IX Междунар. науч.-метод. конференции 2015];;
+
+publication_Aderiho_I_A_2015_ModelSoBSiLoSN => nrel_year_publication: 2015;;
+
+publication_Aderiho_I_A_2015_ModelSoBSiLoSN => nrel_information_publication:  Proceedings_of_the_7th_international_scientific_conference_Distance_Learning_Educational_Environment_of_the_IX_century_2015;;
+
+publication_Aderiho_I_A_2015_ModelSoBSiLoSN => nrel_number_page: ..2015_ModelSoBSiLoSN(*
+-> rrel_from : 148;;
+-> rrel_by : 150;;
+*);;

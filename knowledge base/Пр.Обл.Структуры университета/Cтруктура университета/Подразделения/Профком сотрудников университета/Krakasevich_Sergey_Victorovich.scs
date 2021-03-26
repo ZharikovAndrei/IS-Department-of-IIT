@@ -1,0 +1,28 @@
+Krakasevich_Sergey_Victorovich=>nrel_main_idtf:
+[Кракасевич Сергей Викторович](*<-lang_ru;;*);
+[Krakasevich Sergey Victorovich](*<-lang_en;;*);;
+
+Krakasevich_Sergey_Victorovich -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [+375 17 293-23-09];
+ [+375 17 293-80-41 ];;*)
+   ;;*)
+   ;; 
+
+Krakasevich_Sergey_Victorovich -> rrel_work_place: aud_308_2;;
+   ;; 
+
+Krakasevich_Sergey_Victorovich <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://Krakasevich.jpg";;
+               *);;
+        *);;
+
+Krakasevich_Sergey_Victorovich <- person;;

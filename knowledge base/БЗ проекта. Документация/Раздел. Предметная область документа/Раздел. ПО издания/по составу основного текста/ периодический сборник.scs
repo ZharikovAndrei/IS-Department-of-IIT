@@ -1,0 +1,11 @@
+sc_node_not_relation -> periodical_collection;;
+
+periodical_collection => nrel_main_idtf:
+[периодический сборник]
+	(*
+	<- lang_ru;;
+	*);
+	[periodical collection] 
+	(*
+	<- lang_en;;
+	*);;

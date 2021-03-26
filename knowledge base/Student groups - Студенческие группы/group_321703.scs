@@ -1,0 +1,21 @@
+group_321703
+=>nrel_main_idtf:
+	[группа 321703] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[group 321703] (* <-lang_en;; *);
+->rrel_head_group:Chernyh_Olga_Pavlovna;
+
+->Aderiho_Ilya_Anatolevich;
+->Semenov_Vladislav_Sergeevich;;
+
+
+Chernyh_Olga_Pavlovna=>nrel_main_idtf:
+[Черных Ольга Павловна](*<-lang_ru;;*);;
+
+Chernyh_Olga_Pavlovna=>nrel_main_idtf:
+[Chernyh Olga Pavlovna](*<-lang_en;;*);;
+
+
+person->Aderiho_Ilya_Anatolevich;;
+
+person->Semenov_Vladislav_Sergeevich;;

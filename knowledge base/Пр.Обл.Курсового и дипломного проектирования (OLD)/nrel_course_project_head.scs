@@ -1,0 +1,18 @@
+nrel_course_project_head
+<-sc_node_norole_relation;
+=>nrel_main_idtf:
+[руководитель КП*](*<-lang_ru;;*);
+[course project head*](*<-lang_en;;*);
+=>nrel_first_domain:course_project;
+=>nrel_second_domain:person;
+=>nrel_definitional_domain:...(* <=nrel_combination:...(*->course_project;; ->person;;*) ;; *);
+->rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> [Руководитель курсового проекта — преподаватель кафедры,контролирующий ход курсового проектирования.] (* <-lang_ru;; *);; 
+		*);;
+	*);;

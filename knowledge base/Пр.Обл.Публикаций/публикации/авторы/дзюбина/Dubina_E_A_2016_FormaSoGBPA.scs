@@ -1,0 +1,31 @@
+publication_Dubina_E_A_2016_FormaSoGBPA=> nrel_main_idtf:
+[Дзюбина Е.А. 2016 - ФОрмаСПОГТ]
+	(*
+	<- lang_ru;;
+	*);
+	[Dubina_E_A_2016_FormaSoGBPA] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Dubina_E_A_2016_FormaSoGBPA => nrel_name_publication:[Формальная структура предметной области геометрических тел](*
+	<- lang_ru;;
+	*);;
+
+publication_Dubina_E_A_2016_FormaSoGBPA <= nrel_author:
+Dubina_Elena_Alexandrova;;
+
+publication_Dubina_E_A_2016_FormaSoGBPA <- article;;
+
+publication_Dubina_E_A_2016_FormaSoGBPA => nrel_reference_standard: [Е. А. Дзюбина "Формальная структура предметной области геометрических тел", ITS 2016];;
+
+publication_Dubina_E_A_2016_FormaSoGBPA => nrel_year_publication: 2016;;
+
+publication_Dubina_E_A_2016_FormaSoGBPA => nrel_information_publication: Proceedings_of_the_international_scientific_conference_ITS_16;;
+publication_Dubina_E_A_2016_FormaSoGBPA => nrel_number_page: ..2016_FormaSoGBPA (*
+-> rrel_from :152;;
+-> rrel_by :153;;
+*);;
+
+
+

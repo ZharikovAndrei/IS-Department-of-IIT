@@ -1,0 +1,31 @@
+publication_Ivashenko_V_P_2016_ModelIOiISPoST=> nrel_main_idtf:
+[Ивашенко В.П. 2016 - МоделОИвИСОнСТ]
+	(*
+	<- lang_ru;;
+	*);
+	[Ivashenko_V_P_2016_ModelIOiISPoST] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Ivashenko_V_P_2016_ModelIOiISPoST => nrel_name_publication:[Модели обработки информации в интеллектуальных системах, основанных на семантических технологиях](*
+	<- lang_ru;;
+	*);;
+
+publication_Ivashenko_V_P_2016_ModelIOiISPoST <= nrel_author:
+Ivashenko_V_P;Belchikov_Anatoliy_Sergeevich;Eremeev_A_P;;
+
+publication_Ivashenko_V_P_2016_ModelIOiISPoST <- article;;
+
+publication_Ivashenko_V_P_2016_ModelIOiISPoST => nrel_reference_standard: [В. П. Ивашенко, А. С. Бельчиков, А. П. Еремеев "Модели обработки информации в интеллектуальных системах, основанных на семантических технологиях", ITS 2016];;
+
+publication_Ivashenko_V_P_2016_ModelIOiISPoST => nrel_year_publication: 2016;;
+
+publication_Ivashenko_V_P_2016_ModelIOiISPoST => nrel_information_publication: Proceedings_of_the_international_scientific_conference_ITS_16;;
+publication_Ivashenko_V_P_2016_ModelIOiISPoST => nrel_number_page: ..2016_ModelIOiISPoST (*
+-> rrel_from :106;;
+-> rrel_by :107;;
+*);;
+
+
+

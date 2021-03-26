@@ -1,0 +1,23 @@
+sc_node_norole_relation -> nrel_place_publication;; 
+
+nrel_place_publication => nrel_main_idtf:[место издания*] (* <-lang_ru;; *);;
+
+nrel_place_publication => nrel_main_idtf:[place of publication*] (* <-lang_en;; *);;
+
+nrel_place_publication=>nrel_first_domain:concept_publication;;
+
+nrel_place_publication=>nrel_second_domain:concept_city;;
+
+nrel_place_publication=>nrel_definitional_domain:...(* <=nrel_combination:...(*->concept_writing;; ->concept_city;;*) ;; *);;
+
+nrel_place_publication<- rrel_key_sc_element:
+	... 
+	(*<-sc_definition;;
+     =>nrel_main_idtf:[Опр.(место издания*)](*<-lang_ru;;*);;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Место издания - город, где находится издательство](* <- lang_ru;; *);;
+		*);;
+	*);;

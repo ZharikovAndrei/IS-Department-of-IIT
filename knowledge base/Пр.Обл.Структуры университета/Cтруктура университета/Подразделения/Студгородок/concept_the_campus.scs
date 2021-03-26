@@ -1,0 +1,21 @@
+sc_node_not_relation->concept_the_campus;;
+
+concept_the_campus=>nrel_main_idtf:
+[студенческий городок](*<-lang_ru;;*);
+[campus](*<-lang_en;;*);; 
+concept_the_campus=>nrel_idtf:
+[cтудгородок](*<-lang_ru;;*);;
+
+concept_the_campus<-rrel_key_sc_element:
+...
+(*
+=>nrel_main_idtf:[Опр.(студенческий городок)](*<-lang_ru;;*);;
+<-sc_definition;;
+<=nrel_sc_text_translation:
+...
+(*
+->rrel_example:
+[Студенческий городок - университетский городок, включающий, как правило, учебные помещения, 
+научно-исследовательские институты, жилые помещения для студентов, библиотеки, аудитории, столовые и т. д.](*<-lang_ru;;*);;
+*);;
+*);;

@@ -1,0 +1,5 @@
+department_of_chief_mechanic_bsuir=>nrel_main_idtf:
+[отдел главного механика БГУИРа](*<-lang_ru;;*);
+[department of chief mechanic bsuir](*<-lang_en;;*);; 
+department_of_chief_mechanic_bsuir=>nrel_pers_comp:personal_composition_of_department_of_chief_mechanic_bsuir;;
+personal_composition_of_department_of_chief_mechanic_bsuir->rrel_chief_mechanic:Kopitov_Nicholay_Grigorievich;;

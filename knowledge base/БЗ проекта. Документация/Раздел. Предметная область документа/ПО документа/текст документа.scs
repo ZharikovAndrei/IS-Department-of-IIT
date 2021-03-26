@@ -1,0 +1,18 @@
+sc_node_not_relation -> text_of_document;;
+
+specialization_of_document -> text_of_document;;
+
+
+
+text_of_document <- rrel_key_sc_element: 
+        ...
+	(*
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[текст документа – информация, зафиксированная любым типом письма или любой системой звукозаписи, заключающая в себе всю или основную часть речевой информации документа]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;

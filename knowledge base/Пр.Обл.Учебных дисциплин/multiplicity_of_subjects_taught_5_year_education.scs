@@ -1,0 +1,45 @@
+multiplicity_of_subjects_taught_5_year_education
+=>nrel_main_idtf:
+	[дисциплины по 5-летней программе обучения] (* <-lang_ru;; *);
+=>nrel_subdividing:
+multiplicity_of_subjects_taught_in_the_1_term_specialty_artificial_intelligence_5_year_education;
+multiplicity_of_subjects_taught_in_the_2_term_specialty_artificial_intelligence_5_year_education;
+multiplicity_of_subjects_taught_in_the_3_term_specialty_artificial_intelligence_5_year_education;
+multiplicity_of_subjects_taught_in_the_4_term_specialty_artificial_intelligence_5_year_education;
+multiplicity_of_subjects_taught_in_the_5_term_specialty_artificial_intelligence_5_year_education;
+multiplicity_of_subjects_taught_in_the_6_term_specialty_artificial_intelligence_5_year_education;
+multiplicity_of_subjects_taught_in_the_7_term_specialty_artificial_intelligence_5_year_education;
+multiplicity_of_subjects_taught_in_the_8_term_specialty_artificial_intelligence_5_year_education;
+multiplicity_of_subjects_taught_in_the_9_term_specialty_artificial_intelligence_5_year_education;
+multiplicity_of_subjects_taught_in_the_10_term_specialty_artificial_intelligence_5_year_education;;
+
+multiplicity_of_subjects_taught_in_the_1_term_specialty_artificial_intelligence_5_year_education
+=>nrel_main_idtf:
+[дисциплины в 1 семестре по 5-летней программе обучения.] (* <-lang_ru;; *);;
+multiplicity_of_subjects_taught_in_the_2_term_specialty_artificial_intelligence_5_year_education
+=>nrel_main_idtf:
+[дисциплины во 2 семестре по 5-летней программе обучения.] (* <-lang_ru;; *);;
+multiplicity_of_subjects_taught_in_the_3_term_specialty_artificial_intelligence_5_year_education
+=>nrel_main_idtf:
+[дисциплины в 3 семестре по 5-летней программе обучения.] (* <-lang_ru;; *);;
+multiplicity_of_subjects_taught_in_the_4_term_specialty_artificial_intelligence_5_year_education
+=>nrel_main_idtf:
+[дисциплины в 4 семестре по 5-летней программе обучения.] (* <-lang_ru;; *);;
+multiplicity_of_subjects_taught_in_the_5_term_specialty_artificial_intelligence_5_year_education
+=>nrel_main_idtf:
+[дисциплины в 5 семестре по 5-летней программе обучения.] (* <-lang_ru;; *);;
+multiplicity_of_subjects_taught_in_the_6_term_specialty_artificial_intelligence_5_year_education
+=>nrel_main_idtf:
+[дисциплины в 6 семестре по 5-летней программе обучения.] (* <-lang_ru;; *);;
+multiplicity_of_subjects_taught_in_the_7_term_specialty_artificial_intelligence_5_year_education
+=>nrel_main_idtf:
+[дисциплины в 7 семестре по 5-летней программе обучения.] (* <-lang_ru;; *);;
+multiplicity_of_subjects_taught_in_the_8_term_specialty_artificial_intelligence_5_year_education
+=>nrel_main_idtf:
+[дисциплины в 8 семестре по 5-летней программе обучения.] (* <-lang_ru;; *);;
+multiplicity_of_subjects_taught_in_the_9_term_specialty_artificial_intelligence_5_year_education
+=>nrel_main_idtf:
+[дисциплины в 9 семестре по 5-летней программе обучения.] (* <-lang_ru;; *);;
+multiplicity_of_subjects_taught_in_the_10_term_specialty_artificial_intelligence_5_year_education
+=>nrel_main_idtf:
+[дисциплины в 10 семестре по 5-летней программе обучения.] (* <-lang_ru;; *);;

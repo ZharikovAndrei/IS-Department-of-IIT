@@ -1,0 +1,36 @@
+Gulyakina_N_A
+=>nrel_main_idtf:
+[Гулякина Н.А.](*<-lang_ru;;*);
+=>nrel_idtf:
+[Гулякина Наталья Анатольевна](*<-lang_ru;;*);
+ <-person;
+=>nrel_idtf:
+[Gulyakina Natalia](*<-lang_en;;*);
+
+<-concept_assistant_professor;;
+Gulyakina_N_A -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+ [+375 17 293-80-50];;*)
+   ;;*)
+   ;;
+Gulyakina_N_A -> rrel_work_place: aud_608_5;;
+Gulyakina_N_A -> rrel_email:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+ [guliakina@bsuir.by](*<-lang_en;;*)
+   ;;*)
+   ;;*)
+   ;;
+
+Gulyakina_N_A=>nrel_fields_of_scientific_research:
+	[Модели представления и переработки знаний, семантические сети, параллельные языки программирования, системы автоматизации делопроизводства и документооборота, прикладные интеллектуальные системы различного назначения];;
+
+Gulyakina_N_A <- teacher;
+=>nrel_can_teach_subject: ots;odm;;
+Gulyakina_N_A=>nrel_rate:1;;
+
+
+Gulyakina_N_A<=nrel_educational_work:lectures_on_ots_4_year;;
+Gulyakina_N_A=>nrel_load:0;;
+0<=nrel_sum_of_numbers:...;;

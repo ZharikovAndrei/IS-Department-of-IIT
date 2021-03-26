@@ -1,0 +1,154 @@
+the_faculty_of_radio_engineering_and_electronics=>nrel_main_idtf:
+[Факультет радиотехники и электроники ](*<-lang_ru;;*);
+[the faculty of radio engineering and electronics](*<-lang_en;;*);; 
+
+
+the_faculty_of_radio_engineering_and_electronics=>nrel_idtf:[ФРЭ](*<-lang_ru;;*);;
+the_faculty_of_radio_engineering_and_electronics=>nrel_idtf:[FRE](*<-lang_en;;*);;
+
+
+dean_fre=>nrel_main_idtf:
+[Короткевич Александр Васильевич](*<-lang_ru;;*);
+[Korotkevich Alexandr Vasil'evich](*<-lang_en;;*);;
+
+
+logotipe_fre=>nrel_main_idtf:
+[логотип ФРЭ](*<-lang_ru;;*);
+[the logotipe of FRE](*<-lang_en;;*);; 
+
+
+fre_info=>nrel_main_idtf:
+[информация о ФРЭ](*<-lang_ru;;*);
+[the information about FRE](*<-lang_en;;*);;
+
+
+pers_comp_of_fre=>nrel_main_idtf:
+[персональный состав ФРЭ](*<-lang_ru;;*);
+[the personal composition of FRE](*<-lang_en;;*);;
+
+
+pers_comp_of_fre -> rrel_dean: dean_fre;;
+
+the_faculty_of_radio_engineering_and_electronics => nrel_logotipe: logotipe_fre;;
+
+the_faculty_of_radio_engineering_and_electronics => nrel_info: fre_info;;  
+
+the_faculty_of_radio_engineering_and_electronics => nrel_spezialization: specializations_fre;;  
+
+the_faculty_of_radio_engineering_and_electronics => nrel_pers_comp: pers_comp_of_fre;;
+
+
+the_faculty_of_radio_engineering_and_electronics <= nrel_decomposition:
+{
+the_department_of_electronics;
+the_department_of_radio_systems;
+the_department_of_information_radio_technologies;
+the_department_of_micro_and_nanoelectronics
+};;
+
+
+
+
+
+
+specializations_fre <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [Специальности] (* <- lang_ru;; *);;
+	<- sc_task;;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[«Радиотехника(программируемые радиоэлектронные средства)» ](* <- lang_ru;; *);;
+		*);
+                ...
+		(*
+		-> rrel_example: 
+			[«Радиотехника (техника цифровой связи)» ](* <- lang_ru;; *);;
+		*);
+                ...
+		(*
+		-> rrel_example: 
+			[«Радиоинформатика» ](* <- lang_ru;; *);;
+		*);
+                ...
+		(*
+		-> rrel_example: 
+			[«Радиоэлектронные системы» ](* <- lang_ru;; *);;
+		*);
+		         ...
+		(*
+		-> rrel_example: 
+			[«Радиоэлектронная защита информации» ](* <- lang_ru;; *);;
+		*);
+		         ...
+		(*
+		-> rrel_example: 
+			[«Микро- и наноэлектронные технологии и системы» ](* <- lang_ru;; *);;
+		*);
+		         ...
+		(*
+		-> rrel_example: 
+			[«Квантовые информационные системы» ](* <- lang_ru;; *);;
+		*);
+		         ...
+		(*
+		-> rrel_example: 
+			[«Нанотехнологии и наноматериалы в электронике» ](* <- lang_ru;; *);;
+		*);
+		         ...
+		(*
+		-> rrel_example: 
+			[«Электронные и информационно-управляющие системы физических установок» ](* <- lang_ru;; *);;
+		*);;
+	*);;
+
+
+
+fre_info <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [О факультете] (* <- lang_ru;; *);;
+	<- sc_task;;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Имеет богатую историю, был образован в 1964 г., когда создавался Минский радиотехнический институт
+Современная радиоинформационная система предназначена для извлечения, формирования, приема, передачи и обработки информации. Для решения названных задач необходимы специалисты, всесторонне подготовленные для работы с современными микро - и наноэлектронными устройствами, способные применить свои знания и талант для создания принципиально новых поколений информационных систем. ](* <- lang_ru;; *);;
+		*);;
+	*);;
+
+
+
+dean_fre <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://../../image/fre1.jpg";;
+               *);;
+        *);;
+
+
+
+logotipe_fre <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://../../image/fre2.jpg";;
+               *);;
+        *);;
+
+
+
+
+

@@ -1,0 +1,33 @@
+Dobroneckiy_Vyacheslav_Bronislavovich=>nrel_main_idtf:
+[Добронецкий Вячеслав Брониславович](*<-lang_ru;;*);
+[Dobroneckiy Vyacheslav Bronislavovich](*<-lang_en;;*);;
+Dobroneckiy_Vyacheslav_Bronislavovich -> rrel_email:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [shtabgo@bsuir.by](*<-lang_en;;*)
+   ;;*)
+   ;;*)
+   ;; 
+Dobroneckiy_Vyacheslav_Bronislavovich->rrel_work_phone:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [+375 17 293-80-32];
+ [+375 17 293-80-32];;*)
+   ;;*)
+   ;; 
+
+Dobroneckiy_Vyacheslav_Bronislavovich->rrel_work_place: aud_109_1;;
+
+Dobroneckiy_Vyacheslav_Bronislavovich<-rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://photos/Dobroneckiy_Vyacheslav_Bronislavovich.JPG";;
+               *);;
+        *);;
+
+

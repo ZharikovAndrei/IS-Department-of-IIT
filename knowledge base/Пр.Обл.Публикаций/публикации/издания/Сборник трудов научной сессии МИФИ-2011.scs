@@ -1,0 +1,23 @@
+Proceedings_of_the_scientific_session_of_the_MiFi_2011_vol3=> nrel_main_idtf:
+[Сборник трудов научной сессии МИФИ-2011, т.3]
+	(*
+	<- lang_ru;;
+	*);
+	[Proceedings of the scientific session of the MiFi 2011, vol.3]
+	(*
+	<- lang_en;;
+	*);;
+ Proceedings_of_the_scientific_session_of_the_MiFi_2011_vol3 => nrel_place_publication: moscow;;
+
+Proceedings_of_the_scientific_session_of_the_MiFi_2011_vol3 => nrel_publishing:
+MIFI;;
+
+MIFI => nrel_main_idtf:
+[МИФИ]
+	(*
+	<- lang_ru;;
+	*);
+	[MEPhI]
+	(*
+	<- lang_en;;
+	*);;

@@ -1,0 +1,17 @@
+Medvedeva_Irina_Leonidovna=>nrel_main_idtf:
+[Медведева Ирина Леонидовна](*<-lang_ru;;*);
+[Medvedeva Irina Leonidovna](*<-lang_en;;*);;
+
+Medvedeva_Irina_Leonidovna -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [+375 17 290-99-26];;*)
+   ;;*)
+   ;; 
+
+Medvedeva_Irina_Leonidovna -> rrel_work_place:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [ул. Л. Беды, 2б; общежитие N3, ком.40];;*)
+   ;;*)
+   ;; 

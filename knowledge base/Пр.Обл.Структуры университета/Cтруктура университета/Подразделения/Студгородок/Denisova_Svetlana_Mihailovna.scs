@@ -1,0 +1,17 @@
+Denisova_Svetlana_Mihailovna=>nrel_main_idtf:
+[Денисова Светлана Михайловна](*<-lang_ru;;*);
+[Denisova Svetlana Mihailovna](*<-lang_en;;*);;
+
+Denisova_Svetlana_Mihailovna -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [+375 17 277-27-63];;*)
+   ;;*)
+   ;; 
+
+Denisova_Svetlana_Mihailovna -> rrel_work_place:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [пр. Дзержинского, 95; общежитие N4, ком.211];;*)
+   ;;*)
+   ;; 

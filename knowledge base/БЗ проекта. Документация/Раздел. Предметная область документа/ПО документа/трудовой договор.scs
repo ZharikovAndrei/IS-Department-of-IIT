@@ -1,0 +1,13 @@
+sc_node_not_relation -> emplotment_contract;;
+
+emplotment_contract => nrel_main_idtf:
+[трудовой договор]
+	(*
+	<- lang_ru;;
+	*);
+	[emplotment contract] 
+	(*
+	<- lang_en;;
+	*);;
+
+records_on_the_personnel -> emplotment_contract;;

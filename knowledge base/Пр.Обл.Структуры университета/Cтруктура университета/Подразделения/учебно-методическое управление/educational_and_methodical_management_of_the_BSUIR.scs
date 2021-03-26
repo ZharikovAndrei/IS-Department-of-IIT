@@ -1,0 +1,9 @@
+educational_and_methodical_management_of_the_BSUIR => nrel_main_idtf:[Учебно-методическое управление БГУИРа ] (* <-lang_ru;; *);;
+educational_and_methodical_management_of_the_BSUIR=> nrel_main_idtf:[Educational Department of the BSUIR] (* <-lang_en;; *);;
+educational_and_methodical_management_of_the_BSUIR=> nrel_pers_comp:personal_composition_of_Educational_Department_of_the_bsuir;;
+personal_composition_of_Educational_Department_of_the_bsuir->rrel_Head_of_Educational_Department:Smirnov_Vyacheslav_Leonidovuch;;
+
+personal_composition_of_Educational_Department_of_the_bsuir=>nrel_main_idtf:
+[персональный состав учебно-методического управления БГУИРа](*<-lang_ru;;*);
+[personal composition of the Educational and methodical management of the BSUIR](*<-lang_en;;*);; 
+educational_and_methodical_management_of_the_BSUIR<-concept_educational_and_methodical_management;;

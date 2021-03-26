@@ -1,0 +1,4 @@
+sc_node_not_relation -> concept_education;;
+concept_education=> nrel_main_idtf:
+[образование] (* <-lang_ru;; *);
+[education] (* <-lang_en;; *);;

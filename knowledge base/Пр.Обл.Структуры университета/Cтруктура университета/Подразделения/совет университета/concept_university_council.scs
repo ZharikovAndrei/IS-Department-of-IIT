@@ -1,0 +1,26 @@
+sc_node_not_relation -> concept_university_council;; 
+concept_university_council=> nrel_main_idtf:[Совет университета] (* <-lang_ru;; *);;
+concept_university_council=> nrel_main_idtf:[Universuty council] (* <-lang_en;; *);;
+concept_university_council<- rrel_key_sc_element:
+	... 
+	(*<-sc_definition;;
+     =>nrel_main_idtf:[Опр.(совет университета)](*<-lang_ru;;*);;
+     <=nrel_using_constants:...(*->nrel_university;; *);;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[ Совет университета - основной орган самоуправления университета, созданный в целях решения основных вопросов, связанных с различными сферами деятельности университета.](* <- lang_ru;; *);;
+		*);;
+	*);;
+concept_university_council <- rrel_key_sc_element:
+	... 
+	(*<-sc_statement;;
+     =>nrel_main_idtf:[Утв.(университет, состав*)](*<-lang_ru;;*);;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Главной задачей совета университета является совершенствование подготовки специалистов с высшим образованием и кадров высшей научной квалификации посредством объединения усилий коллектива университета.](* <- lang_ru;; *);;
+		*);;
+	*);;

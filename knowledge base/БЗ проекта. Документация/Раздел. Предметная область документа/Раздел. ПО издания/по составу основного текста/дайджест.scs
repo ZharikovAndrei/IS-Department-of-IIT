@@ -1,0 +1,28 @@
+sc_node_not_relation -> digest;;
+
+digest => nrel_main_idtf:
+[дайджест]
+	(*
+	<- lang_ru;;
+	*);
+	[digest] 
+	(*
+	<- lang_en;;
+	*);;
+
+digest <- rrel_key_sc_element: 
+        ...
+	(*
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[дайджест – сборник, содержащий наиболее интересные материалы, перепечатанные из других изданий]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;
+
+digest <- collection;;
+
+digest <- edition;;

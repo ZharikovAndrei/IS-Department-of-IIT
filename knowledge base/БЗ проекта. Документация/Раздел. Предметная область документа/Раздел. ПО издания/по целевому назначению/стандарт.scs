@@ -1,0 +1,27 @@
+sc_node_not_relation -> standard;;
+
+standard => nrel_main_idtf:
+[стандарт]
+	(*
+	<- lang_ru;;
+	*);
+	[standard] 
+	(*
+	<- lang_en;;
+	*);;
+
+standard <- rrel_key_sc_element: 
+        ...
+	(*
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[стандарт – официальное издание, содержащее комплекс норм, правил, требований к объекту стандартизации, которые устанавливают на основе достижений науки, техники и передового опыта и утверждают в соответствии с действующим законодательством]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;
+
+edition -> standard;;
+standard <- official_edition;;

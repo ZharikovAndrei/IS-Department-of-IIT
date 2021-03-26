@@ -1,0 +1,30 @@
+publication_Grakova_N_V_2013_SysteoPMfIS=> nrel_main_idtf:
+[Гракова Н.В. 2013 - СистеУПИС]
+	(*
+	<- lang_ru;;
+	*);
+	[Grakova_N_V_2013_SysteoPMfIS] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Grakova_N_V_2013_SysteoPMfIS => nrel_name_publication:[Система управления проектированием интеллектуальных систем](*
+	<- lang_ru;;
+	*);;
+
+publication_Grakova_N_V_2013_SysteoPMfIS <= nrel_author:
+Grakova_N_V;Zhukov_I_I;;
+
+publication_Grakova_N_V_2013_SysteoPMfIS <- article;;
+
+publication_Grakova_N_V_2013_SysteoPMfIS => nrel_reference_standard: [Гракова, Н.В. Система управления проектированием интеллектуальных систем / Н.В. Гракова, И.И. Жуков // Открытые семантические технологии проектирования интеллектуальных систем = Open Semantic Technologies for Intelligent Systems (OSTIS-2013): материалы III Междунар. научн.-техн. конф. (Минск, 21-23 февраля 2013г.) / редкол. : В. В. Голенков (отв. ред.) и др. – Минск : БГУИР, 2013. – С. 453-456   ];;
+
+publication_Grakova_N_V_2013_SysteoPMfIS => nrel_year_publication: 2013;;
+
+publication_Grakova_N_V_2013_SysteoPMfIS => nrel_information_publication: OSTIS2013;;
+
+publication_Grakova_N_V_2013_SysteoPMfIS => nrel_number_page: ..2013_SysteoPMfIS(*
+-> rrel_from : 453;;
+-> rrel_by : 456;;
+*);;
+publication_Grakova_N_V_2013_SysteoPMfIS <- rrel_key_sc_element: ... (* <- sc_explanation;; <= nrel_sc_text_translation: ... (* -> rrel_example: "file://содержимое публикаций/Гракова_Н.В._СистеУПИС.pdf";; *);; *);;

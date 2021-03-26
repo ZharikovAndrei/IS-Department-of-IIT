@@ -1,0 +1,41 @@
+scb_conference_2001=> nrel_main_idtf:
+[20-ая международная конференция “Школьная информатика и проблемы устойчивого развития” ] (* <-lang_ru;; *);
+[The 20th international conference "School informatics and problems of sustainable development "] (* <-lang_en;; *);
+=>nrel_idtf:
+[Конференция «Школьная информатика и проблемы устойчивого развития» 2001 ] (* <-lang_ru;; *);
+[Conference "School informatics and problems of sustainable development " 2001] (* <-lang_en;; *);
+<-concept_conference;
+<-temporary_entity;;
+scb_conference_2001<-
+...
+(*<-exact_value;;
+ <-begin;;
+  =>nrel_translation_in_the_Gregorian_calendar:...
+  (*
+    ->number_of_year:2001;;
+    ->number_of_month_in_year:4;;
+   *);;
+  *);;
+scb_conference_2001<-
+...
+(*<-exact_value;;
+ <-completion;;
+  =>nrel_translation_in_the_Gregorian_calendar:...
+  (*
+    ->number_of_year:2001;;
+    ->number_of_month_in_year:4;;
+   *);;
+  *);;
+scb_conference_2001=>nrel_address:
+[Россия, Санкт-Петербург](*<-lang_ru;;*);;
+
+scb_conference_2001<-rrel_key_sc_element:
+...
+(*
+<= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       [Кафедра ИИТ награждена дипломом за активное участие в ее работе студентов кафедры.](* <-lang_ru;; *);;
+               *);;
+*);;

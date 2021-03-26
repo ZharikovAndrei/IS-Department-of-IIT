@@ -1,0 +1,20 @@
+sc_node_not_relation->concept_military_accounting_sector;;
+concept_military_accounting_sector=>nrel_main_idtf: 
+[военно-учетный сектор](*<-lang_ru;;*);
+[military accounting sector](*<-lang_en;;*);; 
+
+
+
+concept_military_accounting_sector<-rrel_key_sc_element:
+...
+(*
+=>nrel_idtf:[Опр.(военно-учетный сектор)](*<-lang_ru;;*);;
+<-sc_definition;;
+<=nrel_sc_text_translation:
+...
+(*
+->rrel_example:
+[Военно-учетный сектор - это сектор, обеспечивающий воинский учет работников, осуществляющий работы по мобилизационной подготовке и обеспечивающий ведение документации и составление отчетности по формам установленного образца.](*<-lang_ru;;*);;
+*);;
+*);;
+

@@ -1,0 +1,16 @@
+sc_node_not_relation->concept_city;;
+concept_city=>nrel_main_idtf:
+[город](*<-lang_ru;;*);
+[city](*<-lang_en;;*);;
+
+concept_city<- rrel_key_sc_element:
+	... 
+	(*<-sc_definition;;
+     =>nrel_main_idtf:[Опр.(город)](*<-lang_ru;;*);;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Город - крупный населённый пункт, административный, торговый и промышленный центр.](* <- lang_ru;; *);;
+		*);;
+	*);;

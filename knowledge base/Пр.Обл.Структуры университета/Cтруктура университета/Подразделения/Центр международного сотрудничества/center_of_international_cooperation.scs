@@ -1,0 +1,8 @@
+center_of_international_cooperation=>nrel_main_idtf:
+[центр международного сотрудничества БГУИРа](*<-lang_ru;;*);
+[BSUIR center of international cooperation](*<-lang_en;;*);;
+
+center_of_international_cooperation => nrel_pers_comp: personal_composition_of_center_of_international_cooperation;; 
+center_of_international_cooperation<-concept_center_of_international_cooperation;;
+
+center_of_international_cooperation => nrel_inclusion: department_of_international_relations; educational_programs_department;;

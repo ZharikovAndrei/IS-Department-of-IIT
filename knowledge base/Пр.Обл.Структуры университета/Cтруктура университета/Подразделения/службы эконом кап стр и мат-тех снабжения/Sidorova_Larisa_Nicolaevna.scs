@@ -1,0 +1,16 @@
+Sidorova_Larisa_Nicolaevna=>nrel_main_idtf:
+[Сидорова Лариса Николаевна](*<-lang_ru;;*);
+[Sidorova Larisa Nicolaevna](*<-lang_en;;*);;
+
+Sidorova_Larisa_Nicolaevna -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ 
+ [+375 17 293-84-41];;*)
+   ;;*)
+   ;; 
+
+Sidorova_Larisa_Nicolaevna-> rrel_work_place: aud_416_2;;
+
+
+

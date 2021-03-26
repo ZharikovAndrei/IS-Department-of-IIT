@@ -1,0 +1,11 @@
+sc_node_role_relation -> rrel_from;;
+
+rrel_from => nrel_main_idtf:
+	[с']
+	(*
+	<- lang_ru;;
+	*);
+	[from']
+	(*
+	<- lang_en;;
+	*);;

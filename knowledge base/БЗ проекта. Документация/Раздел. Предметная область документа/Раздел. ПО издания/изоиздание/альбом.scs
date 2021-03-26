@@ -1,0 +1,12 @@
+sc_node_not_relation -> album;;
+
+
+album => nrel_main_idtf:
+[альбом]
+	(*
+	<- lang_ru;;
+	*);
+	[album] 
+	(*
+	<- lang_en;;
+	*);;

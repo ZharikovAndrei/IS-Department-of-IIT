@@ -1,0 +1,67 @@
+iit_foundation=> nrel_main_idtf:
+[Создание кафедры ИИТ] (* <-lang_ru;; *);
+[IIT foundation] (* <-lang_en;; *);
+<-temporary_entity;;
+iit_foundation<-
+...
+(*<-exact_value;;
+ <-begin;;
+  =>nrel_translation_in_the_Gregorian_calendar:...
+  (*
+    ->number_of_year:1995;;
+    ->number_of_month_in_year:1;;
+    ->number_of_day_in_month:10;;
+   *);;
+  *);;
+iit_foundation<-
+...
+(*<-exact_value;;
+ <-completion;;
+  =>nrel_translation_in_the_Gregorian_calendar:...
+  (*
+    ->number_of_year:1995;;
+    ->number_of_month_in_year:1;;
+    ->number_of_day_in_month:10;;
+   *);;
+  *);;
+iit_foundation<- rrel_key_sc_element:
+	... (*
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Кафедра “Интеллектуальных систем ” (ИС) для подготовки студентов по специальности  "Искусственный интеллект" была создана по решению Совета БГУИР №4 29.12.1994г.](* <- lang_ru;; *);;
+		*);;
+	*);;
+
+iit_foundation<- rrel_key_sc_element:
+	... (*
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[В 1998 году кафедра получила название кафедры интеллектуальных информационных технологий (ИИТ).](* <- lang_ru;; *);;
+		*);;
+	*);;
+
+iit_foundation<- rrel_key_sc_element:
+	... (*
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Заведующим кафедры ИИТ с момента ее основания является Голенков В.В., д.т.н., профессор.](* <- lang_ru;; *);;
+		*);;
+	*);;
+
+iit_foundation <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://iit_foundation.jpg";;
+               *);;
+        *);;

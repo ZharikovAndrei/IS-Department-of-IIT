@@ -1,0 +1,17 @@
+//Практикум.учебно-методическое пособие для студентов специальности « Искусственный интеллект»
+
+//sc_node_not_relation -> uchebno_handbook_for_students_Hardware_and_software_networks_and_bases_of_information_protection;;
+
+
+uchebno_handbook_for_students_Hardware_and_software_networks_and_bases_of_information_protection => nrel_main_idtf:
+[Учеб.-метод. пособие «Аппаратное и программное обеспечение сетей и основы защиты информации»]
+	(*
+	<- lang_ru;;
+	*);
+	[uchebno_handbook_for_students_Hardware_and_software_networks_and_bases_of_information_protection]
+	(*
+	<- lang_en;;
+	*);;
+uchebno_handbook_for_students_Hardware_and_software_networks_and_bases_of_information_protection => nrel_place_publication: minsk;;
+
+uchebno_handbook_for_students_Hardware_and_software_networks_and_bases_of_information_protection => nrel_publishing: bsuir;;

@@ -1,0 +1,50 @@
+Golovko_V_A <- person; <-ui_user;;
+Golovko_V_A => nrel_main_idtf:[Головко Владимир Адамович] (* <-lang_ru;; *);;
+
+Ivanyuk_D <- person; <-ui_user;;
+Ivanyuk_D => nrel_main_idtf:[Иванюк Дмитрий] (* <-lang_ru;; *);;
+
+Massel_A_G <- person; <-ui_user;;
+Massel_A_G => nrel_main_idtf:[Массель Алексей Геннадьевич] (* <-lang_ru;; *);;
+
+Vagin_V_N <- person; <-ui_user;;
+Vagin_V_N => nrel_main_idtf:[Вагин Вадим Николаевич] (* <-lang_ru;; *);;
+
+Boyko_I <- person; <-ui_user;;
+Boyko_I => nrel_main_idtf:[Бойко Игорь] (* <-lang_ru;; *);;
+
+Soloviev_S_Yu <- person; <-ui_user;;
+Soloviev_S_Yu => nrel_main_idtf:[Соловьев Сергей Юрьевич] (* <-lang_ru;; *);;
+
+Gordey_A_N <- person; <-ui_user;;
+Gordey_A_N => nrel_main_idtf:[Гордей Александр Николаевич] (* <-lang_ru;; *);;
+
+Robert_I_V <- person; <-ui_user;;
+Robert_I_V => nrel_main_idtf:[Роберт Ирэна Веньяминовна] (* <-lang_ru;; *);;
+
+Kozlov_O_A <- person; <-ui_user;;
+Kozlov_O_A => nrel_main_idtf:[Козлов Олег Александрович] (* <-lang_ru;; *);;
+
+Kurbatov_S_S <- person; <-ui_user;;
+Kurbatov_S_S => nrel_main_idtf:[Курбатов Сергей Сергеевич] (* <-lang_ru;; *);;
+
+Hahalin_G_K <- person; <-ui_user;;
+Hahalin_G_K => nrel_main_idtf:[Хахалин Геннадий Константинович] (* <-lang_ru;; *);;
+
+Vityaz_S_P <- person; <-ui_user;;
+Vityaz_S_P => nrel_main_idtf:[Витязь Сергей Петрович] (* <-lang_ru;; *);;
+
+Kaeshko_A_I <- person; <-ui_user;;
+Kaeshko_A_I => nrel_main_idtf:[Каешко Алексей Игоревич] (* <-lang_ru;; *);;
+
+Kobrinskij_B_A <- person; <-ui_user;;
+Kobrinskij_B_A => nrel_main_idtf:[Кобринский Борис Аркадьевич] (* <-lang_ru;; *);;
+
+Rostovtsev_V_N <- person; <-ui_user;;
+Rostovtsev_V_N => nrel_main_idtf:[Ростовцев Владимир Николаевич}] (* <-lang_ru;; *);;
+
+Titenkov_P_V <- person; <-ui_user;;
+Titenkov_P_V => nrel_main_idtf:[Титенков Павел Валерьевич] (* <-lang_ru;; *);;
+
+Lebedinsky_R_A <- person; <-ui_user;;
+Lebedinsky_R_A => nrel_main_idtf:[Лебединский Роман Александрович] (* <-lang_ru;; *);;

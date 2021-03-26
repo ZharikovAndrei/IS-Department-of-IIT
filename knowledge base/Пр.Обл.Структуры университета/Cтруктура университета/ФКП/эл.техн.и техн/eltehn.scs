@@ -1,0 +1,107 @@
+the_department_of_electronic_engineering_and_technology=>nrel_main_idtf:
+[Кафедра электронной техники и технологии](*<-lang_ru;;*);
+[the department of electronic engineering and technology](*<-lang_en;;*);; 
+
+
+the_department_of_electronic_engineering_and_technology=>nrel_idtf:[ЭТТ](*<-lang_ru;;*);;
+the_department_of_electronic_engineering_and_technology=>nrel_idtf:[EET](*<-lang_en;;*);;
+
+
+
+pers_comp_eet -> rrel_head_of_department: header_of_eet;;
+
+the_department_of_electronic_engineering_and_technology => nrel_info: eet_info;;
+
+the_department_of_electronic_engineering_and_technology => nrel_pers_comp: pers_comp_eet;;
+
+the_department_of_electronic_engineering_and_technology => nrel_logotipe: logotipe_eet;;
+
+
+
+header_of_eet=>nrel_main_idtf:
+[Достанко Анатолий Павлович](*<-lang_ru;;*);
+[Dostanko Anatoliy Pavlovich](*<-lang_en;;*);;
+
+
+
+eet_info=>nrel_main_idtf:
+[информация о кафедре ЭТТ](*<-lang_ru;;*);
+[the information about the department of EET](*<-lang_en;;*);; 
+
+
+
+logotipe_eet=>nrel_main_idtf:
+[логотип ЭТТ](*<-lang_ru;;*);
+[the logotipe of EET](*<-lang_en;;*);; 
+
+
+
+pers_comp_eet=>nrel_main_idtf:
+[Персональный состав кафедры ЭТТ](*<-lang_ru;;*);
+[personal composition of the EET](*<-lang_en;;*);; 
+
+
+header_of_eet <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://../../../image/eltehn2.jpg";;
+               *);;
+        *);;
+
+
+
+pers_comp_eet <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://../../../image/eltehn1.jpg";;
+               *);;
+        *);;
+
+
+
+
+logotipe_eet <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://../../../image/eltehn3.jpg";;
+               *);;
+        *);;
+
+
+
+
+eet_info <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [О кафедре] (* <- lang_ru;; *);;
+	<- sc_task;;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[В 1974 году в БГУИР создана кафедра электронной техники и технологии. С первого дня ее основания и по настоящее время кафедрой руководит Достанко А.П., ныне академик НАН Беларуси, д.т.н., профессор, Заслуженный деятель науки и техники БССР, Заслуженный изобретатель СССР, лауреат премии Академии наук СССР по микроэлектронике, лауреат Государственной премии БССР в области науки и техники, лауреат Почетной грамоты Верховного Совета БССР, лауреат премии Совета Министров БССР, лауреат Государственной премии Республики Беларусь, лауреат премии Национальной академии наук Беларуси, Почетный профессор Сианьского электронного университета и Сианьского технологического института, Китай, Таганрогского радиотехнического университета, Почетный гражданин г. Любани. Кафедра электронной техники и технологии ведет подготовку инженеров по современным и очень востребованным специальностям "Программно-управляемые электронно-оптические системы", "Проектирование и производство программно-управляемых электронных средств" и "Медицинская электроника". ](* <- lang_ru;; *);;
+		*);;
+	*);;
+
+
+
+
+
+
+
+

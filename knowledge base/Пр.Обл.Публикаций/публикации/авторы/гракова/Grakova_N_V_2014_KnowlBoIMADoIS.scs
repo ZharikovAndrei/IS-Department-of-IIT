@@ -1,0 +1,33 @@
+//sc_node_not_relation -> publication_Grakova_N_V_2014_KnowlBoIMADoIS;;
+
+
+publication_Grakova_N_V_2014_KnowlBoIMADoIS => nrel_main_idtf:
+[Гракова Н.В. 2014 - БазаЗИМППИС]
+	(*
+	<- lang_ru;;
+	*);
+	[Grakova_N_V_2014_KnowlBoIMADoIS]
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Grakova_N_V_2014_KnowlBoIMADoIS => nrel_name_publication:[База знаний интеллектуальной метасистемы поддержки проектирования интеллектуальных систем](*
+	<- lang_ru;;
+	*);;
+
+publication_Grakova_N_V_2014_KnowlBoIMADoIS <= nrel_author:
+Grakova_N_V; Davydenko_I_T; Rusetsky_K_V;;
+
+publication_Grakova_N_V_2014_KnowlBoIMADoIS <- article;;
+
+publication_Grakova_N_V_2014_KnowlBoIMADoIS => nrel_reference_standard: [Гракова Н.В., Давыденко И.Т., Русецкий К.В. База знаний интеллектуальной метасистемы поддержки проектирования интеллектуальных систем. Открытые семантические технологии интеллектуальных систем (Ostis-2014): Материалы IV международной науч.-тех. конф (Минск, 20-22 февраля 2014г.) Минск: БГУИР,2014. – с.83-92];;
+
+publication_Grakova_N_V_2014_KnowlBoIMADoIS => nrel_year_publication: 2014;;
+
+publication_Grakova_N_V_2014_KnowlBoIMADoIS => nrel_information_publication:  Materials_of_the_International_Scientific_and_Technical_Conference_OSTIS_2014;;
+
+publication_Grakova_N_V_2014_KnowlBoIMADoIS => nrel_number_page: ..2014_KnowlBoIMADoIS(*
+-> rrel_from : 83;;
+-> rrel_by : 92;;
+*);;
+

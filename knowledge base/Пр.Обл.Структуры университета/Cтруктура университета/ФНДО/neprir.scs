@@ -1,0 +1,85 @@
+the_faculty_of_continuing_and_distance_learning=>nrel_main_idtf:
+[Факультет непрерывного и дистанционного обучения](*<-lang_ru;;*);
+[the faculty of continuing and distance learning](*<-lang_en;;*);; 
+
+the_faculty_of_continuing_and_distance_learning=>nrel_idtf:[ФНДО](*<-lang_ru;;*);;
+the_faculty_of_continuing_and_distance_learning=>nrel_idtf:[FCDL](*<-lang_en;;*);;
+
+
+
+
+pers_comp_of_fcdl -> rrel_dean: dean_fcdl;;
+
+the_faculty_of_continuing_and_distance_learning => nrel_logotipe: logotipe_fcdl;;
+
+the_faculty_of_continuing_and_distance_learning => nrel_info: fcdl_info;;
+
+the_faculty_of_continuing_and_distance_learning => nrel_pers_comp: pers_comp_of_fcdl;;
+
+
+dean_fcdl=>nrel_main_idtf:
+[Бондарик Василий Михайлович](*<-lang_ru;;*);
+[Bondarik Vasiliy Mihailovich](*<-lang_en;;*);;
+
+
+pers_comp_of_fcdl=>nrel_main_idtf:
+[персональный состав ФНДО](*<-lang_ru;;*);
+[the personal composition of FCDL](*<-lang_en;;*);;
+
+
+logotipe_fcdl=>nrel_main_idtf:
+[логотип ФНДО](*<-lang_ru;;*);
+[the logotipe of FCDL](*<-lang_en;;*);; 
+
+
+fcdl_info=>nrel_main_idtf:
+[информация о ФНДО](*<-lang_ru;;*);
+[the information about FCDL](*<-lang_en;;*);; 
+
+
+
+
+fcdl_info <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [О факультете] (* <- lang_ru;; *);;
+	<- sc_task;;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Был образован 27 июля 2009 на основе Центра дистанционного обучения ФЗиДО.
+Дистанционная форма обучения позволяет, используя новые информационно-коммуникационные технологии и Интернет, получить высшее образование и диплом государственного образца без отрыва от места работы и места проживания.
+Система дистанционного обучения создает обучаемому условия для свободного выбора образовательных дисциплин, обеспечивает диалог с преподавателем по электронной почте. ](* <- lang_ru;; *);;
+		*);;
+	*);;
+
+
+
+dean_fcdl <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://../../image/neprir1.jpg";;
+               *);;
+        *);;
+
+
+
+logotipe_fcdl <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://../../image/neprir2.jpg";;
+               *);;
+        *);;
+
+

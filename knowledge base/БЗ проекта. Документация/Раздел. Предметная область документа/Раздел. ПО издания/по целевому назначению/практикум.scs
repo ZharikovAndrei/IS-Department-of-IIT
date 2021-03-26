@@ -1,0 +1,28 @@
+sc_node_not_relation -> practical_work;;
+practical_work => nrel_main_idtf:
+[практикум]
+	(*
+	<- lang_ru;;
+	*);
+	[practical work] 
+	(*
+	<- lang_en;;
+	*);;
+practical_work <- educational_edition;;
+
+practical_work <- edition;;
+
+
+ practical_work <- rrel_key_sc_element: 
+        ...
+	(*
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[практикум – учебное издание, содержащее практические задания и упражнения, способствующие усвоению пройденного]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;
+

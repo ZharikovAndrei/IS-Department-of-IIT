@@ -1,0 +1,6 @@
+press_office=>nrel_main_idtf:
+[пресс-служба УВРМ](*<-lang_ru;;*);
+[MEWWYP press office ](*<-lang_en;;*);; 
+
+press_office<-concept_press_office;;
+press_office => nrel_pers_comp: personal_composition_of_press_office;; 

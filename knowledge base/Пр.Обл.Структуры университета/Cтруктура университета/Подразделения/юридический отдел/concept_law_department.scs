@@ -1,0 +1,20 @@
+sc_node_not_relation->concept_law_department;;
+
+concept_law_department=>nrel_main_idtf:
+[юридический отдел](*<-lang_ru;;*);
+[law department](*<-lang_en;;*);; 
+
+
+concept_law_department<-rrel_key_sc_element:
+...
+(*
+=>nrel_idtf:[Опр.(юридический отдел)](*<-lang_ru;;*);;
+<-sc_definition;;
+<=nrel_sc_text_translation:
+...
+(*
+->rrel_example:
+[Юридический отдел-отдел, являющийся самостоятельным подразделением предприятия, который обеспечивает соблюдение законности на предприятии, юридическую защиту интересов предприятия, консультирование руководителей структурных подразделений и работников предприятия по юридическим вопросам.](*<-lang_ru;;*);;
+*);;
+*);;
+

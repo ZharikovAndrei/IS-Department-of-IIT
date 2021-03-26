@@ -1,0 +1,18 @@
+Rutkovskaya_Olga_Stanislavovna=>nrel_main_idtf:
+[Рутковская Ольга Станиславовна](*<-lang_ru;;*);
+[Rutkovskaya Olga Stanislavovna](*<-lang_en;;*);;
+
+Rutkovskaya_Olga_Stanislavovna -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [+375 17 293-21-31];
+ [+375 17 293-14-02];;*)
+   ;;*)
+   ;; 
+
+Rutkovskaya_Olga_Stanislavovna -> rrel_work_place:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [ул. Я. Колоса, 28; общежитие N1, ком.101];;*)
+   ;;*)
+   ;; 

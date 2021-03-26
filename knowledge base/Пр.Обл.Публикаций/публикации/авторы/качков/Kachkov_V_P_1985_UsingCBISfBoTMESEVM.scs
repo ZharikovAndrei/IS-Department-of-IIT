@@ -1,0 +1,29 @@
+//sc_node_not_relation -> publication_Kachkov_V_P_1985_UsingCBISfBoTMESEVM;;
+
+
+publication_Kachkov_V_P_1985_UsingCBISfBoTMESEVM => nrel_main_idtf:
+[Качков В.П.1975 - ИсполКБИСдПТСЕСЭВМ]
+	(*
+	<- lang_ru;;
+	*);
+	[Kachkov_V_P_1985_UsingCBISfBoTMESEVM]
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Kachkov_V_P_1985_UsingCBISfBoTMESEVM => nrel_name_publication:[Использование комплекта БИС для построения технических средств ЕС ЭВМ] (*
+	<- lang_ru;;
+	*);;
+
+publication_Kachkov_V_P_1985_UsingCBISfBoTMESEVM <= nrel_author:
+Kachkov_V_P; Abraitis_V_B;;
+
+publication_Kachkov_V_P_1985_UsingCBISfBoTMESEVM <- article;;
+
+publication_Kachkov_V_P_1985_UsingCBISfBoTMESEVM => nrel_reference_standard: [Абрайтис В.Б., Качков В.П. и др. Использование комплекта БИС для построения технических средств ЕС ЭВМ. Сб. "Вопросы радиоэлектроники", серия ЭВТ, вып.14. Мн., 1985];;
+
+publication_Kachkov_V_P_1985_UsingCBISfBoTMESEVM => nrel_year_publication: 1985;;
+
+publication_Kachkov_V_P_1985_UsingCBISfBoTMESEVM => nrel_information_publication:  collection_of_questions_electronics_1990;;
+
+

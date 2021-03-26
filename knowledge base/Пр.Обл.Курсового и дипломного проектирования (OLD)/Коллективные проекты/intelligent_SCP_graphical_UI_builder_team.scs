@@ -1,0 +1,13 @@
+intelligent_SCP_graphical_user_interface_builder_team
+=>nrel_main_idtf:
+[Команда разработчиков проекта "Интеллектуальная среда визуального программирования на языке SCP"](*<-lang_ru;;*);
+[The development team of project "Intelligent SCP graphical user interface builder"](*<-lang_en;;*);
+<-team;
+->rrel_project_head:
+Shunkevich_D_V;
+->Galerik_Alexandr_Yurievich;
+->Gerasimchuk_Artyom_Alexandrovich;
+->Strokachuk_Oleg_Yurievich;
+->Abramov_Pavel_Andreevich;
+->Djililov_Alexandr_Sergeevich;
+->Belchikov_Anatoliy_Sergeevich;;

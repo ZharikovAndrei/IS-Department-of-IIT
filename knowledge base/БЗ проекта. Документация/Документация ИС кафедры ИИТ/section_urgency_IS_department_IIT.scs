@@ -1,0 +1,16 @@
+section_relevance_IS_department_IIT => nrel_main_idtf: [Раздел. Актуальность Интеллектуальной системы поддержки деятельности кафедры ИИТ]
+(* <- lang_ru;; *);;
+section_relevance_IS_department_IIT => nrel_main_idtf: [Section. The urgency of intellectual system of support for the activities of the department of IIT]
+(* <- lang_en;; *);;
+	
+section_relevance_IS_department_IIT <- rrel_key_sc_element:
+...
+(*
+<- sc_explanation;;
+<= nrel_sc_text_translation:
+...
+(*
+-> rrel_example:
+"file://section_topicality_IS_department_IIT.pdf";;
+*);;
+*);;

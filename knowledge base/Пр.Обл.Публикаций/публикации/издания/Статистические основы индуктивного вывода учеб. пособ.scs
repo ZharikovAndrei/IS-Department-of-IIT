@@ -1,0 +1,12 @@
+Statistical_bases_of_inductive_inference=> nrel_main_idtf:
+[Статистические основы индуктивного вывода: учеб. пособ.]
+	(*
+	<- lang_ru;;
+	*);
+[Statistical bases of inductive inference: tutorial.]
+	(*
+	<- lang_en;;
+	*);;
+Statistical_bases_of_inductive_inference => nrel_publishing: bsuir;;
+
+Statistical_bases_of_inductive_inference => nrel_place_publication: minsk;;

@@ -1,0 +1,12 @@
+sc_node_not_relation -> engraving;;
+
+
+engraving => nrel_main_idtf:
+[гравюра]
+	(*
+	<- lang_ru;;
+	*);
+	[engraving] 
+	(*
+	<- lang_en;;
+	*);;

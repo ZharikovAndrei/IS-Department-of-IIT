@@ -1,0 +1,48 @@
+Davydov_Maxim_Viktorovich=>nrel_main_idtf:
+[Давыдов Максим Викторович](*<-lang_ru;;*);
+[Davydov Maxim Viktorovich](*<-lang_en;;*);;
+
+Davydov_Maxim_Viktorovich -> rrel_email:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [davydov-mv@bsuir.by ](*<-lang_en;;*)
+   ;;*)
+   ;;*)
+   ;; 
+
+Davydov_Maxim_Viktorovich -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [+375 17 293-85-40];;*)
+   ;;*)
+   ;; 
+
+Davydov_Maxim_Viktorovich -> rrel_work_place: aud_43_1;;
+
+Davydov_Maxim_Viktorovich <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://davydov.JPG";;
+               *);;
+        *);;
+
+
+
+Davydov_Maxim_Viktorovich<- rrel_key_sc_element:
+	... 
+	(*<-sc_statement;;
+     =>nrel_main_idtf:[Утв.(доцент',куратор')](*<-lang_ru;;*);;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Доцент кафедры электронной техники и технологии, доцент; канд. техн. наук, куратор специальности 39.02.03 Медицинская электроника .](* <- lang_ru;; *);;
+		*);;
+	*);;
+
+Davydov_Maxim_Viktorovich <- person;;

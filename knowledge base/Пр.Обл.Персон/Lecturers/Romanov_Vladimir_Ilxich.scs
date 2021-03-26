@@ -1,0 +1,41 @@
+Romanov_V_I
+=>nrel_main_idtf:
+[Романов В.И.](*<-lang_ru;;*);
+=>nrel_idtf:
+[Романов Владимир Ильич](*<-lang_ru;;*);
+=>nrel_idtf:
+[Romanov Vladimir](*<-lang_en;;*);
+<-person;
+
+<- rrel_key_sc_element:
+        ...
+        (*
+        <-illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example:
+                       "file://photos/Romanov_Vladimir_Ilxich.jpg";;
+               *);;
+        *);;
+
+Romanov_V_I -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+ [+375 17 293-85-33];;*)
+   ;;*)
+   ;;
+Romanov_V_I -> rrel_work_place: aud_609_5;;
+Romanov_V_I -> rrel_email:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+ [rom1954@tut.by](*<-lang_en;;*)
+   ;;*)
+   ;;*)
+   ;;
+
+Romanov_V_I => nrel_can_teach_subject:ppvis;;
+Romanov_V_I <- teacher;;
+Romanov_V_I=>nrel_rate:1;;
+Romanov_V_I=>nrel_load:0;;
+0<=nrel_sum_of_numbers:...;;

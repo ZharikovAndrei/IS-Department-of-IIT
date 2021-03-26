@@ -1,0 +1,33 @@
+//Шункевич Д.В. Принципы проектирования и интерпретации программ, ориентированных на обработку семантических сетей. Информационные технологии и системы 2013(ИТС 2013): материалы международной научной конференции, БГУИР, Минск,Беларусь,23 октября 2013/ редкол.: Шилин Л.Ю. – Минск: БГУИР,2013. – с.116-117 
+//Design principles and interpretation of the programs for the processing of semantic networks
+publication_Shunkevich_D_V_2013_DesigPaIotPftPoSN => nrel_main_idtf:
+[Шункевич Д.В. 2013 - ПринцПиИПОнОСС]
+	(*
+	<- lang_ru;;
+	*);
+	[Shunkevich_D_V_2013_DesigPaIotPftPoSN] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Shunkevich_D_V_2013_DesigPaIotPftPoSN => nrel_name_publication:[Принципы проектирования и интерпретации программ, ориентированных на обработку семантических сетей.](*
+	<- lang_ru;;
+	*);;
+
+publication_Shunkevich_D_V_2013_DesigPaIotPftPoSN <= nrel_author:
+Shunkevich_D_V;;
+
+publication_Shunkevich_D_V_2013_DesigPaIotPftPoSN <- article;;
+
+publication_Shunkevich_D_V_2013_DesigPaIotPftPoSN => nrel_reference_standard: [Шункевич Д.В. Принципы проектирования и интерпретации программ, ориентированных на обработку семантических сетей. Информационные технологии и системы 2013(ИТС 2013): материалы международной научной конференции, БГУИР, Минск,Беларусь,23 октября 2013/ редкол.: Шилин Л.Ю. – Минск: БГУИР,2013. – с.116-117 ];;
+
+publication_Shunkevich_D_V_2013_DesigPaIotPftPoSN => nrel_year_publication: 2013;;
+
+publication_Shunkevich_D_V_2013_DesigPaIotPftPoSN => nrel_information_publication:Proceedings_of_the_international_scientific_conference_ITS_13;;
+
+publication_Shunkevich_D_V_2013_DesigPaIotPftPoSN => nrel_number_page: ..2013_DesigPaIotPftPoSN  (*
+-> rrel_from : 116;;
+-> rrel_by : 117;;
+*);;
+
+publication_Shunkevich_D_V_2013_DesigPaIotPftPoSN <- rrel_key_sc_element: ... (* <- sc_explanation;; <= nrel_sc_text_translation: ... (* -> rrel_example: "file://содержимое публикаций/Принципы проектирования и интерпретации.pdf";; *);; *);;

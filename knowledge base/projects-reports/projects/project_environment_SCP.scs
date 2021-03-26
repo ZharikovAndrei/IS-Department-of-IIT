@@ -1,0 +1,15 @@
+project_environment_SCP
+      => nrel_main_idtf:[Среда визуального проектирования программ обработки знаний, представленных семантическими сетями] (* <-lang_ru;; *);
+      => nrel_main_idtf:[The visual design environment for knowledge management programs represented by semantic networks] (* <-lang_en;; *);
+      => nrel_synonymy:[10e/SCP];;
+
+project_environment_SCP => nrel_project_leader:Shunkevich_D_V ;;
+project_environment_SCP => nrel_performers: Danilov_M_O; Belchikov_A_S; Titova_P_L; Roschinskii_M_V; Zubel_R_M; Verenich_M_S;;
+project_environment_SCP <- student_project;;
+project_environment_SCP => nrel_reports: report_ontology_KPM;;
+project_environment_SCP-> rrel_responsible_executor:Danilov_M_O;;
+
+//  project_environment_SCP => nrel_main_students: ;;
+//  project_environment_SCP=> nrel_sections_KB_IMS: ;;
+//  project_environment_SCP=> nrel_reports_OSTIS2017: ;;
+//  project_environment_SCP=> nrel_related_projects: ;;

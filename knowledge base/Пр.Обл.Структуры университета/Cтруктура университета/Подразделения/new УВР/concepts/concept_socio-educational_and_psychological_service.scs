@@ -1,0 +1,23 @@
+sc_node_not_relation->concept_socio_educational_and_psychological_service;;
+
+concept_socio_educational_and_psychological_service=>nrel_main_idtf:
+[cоциально-педагогическая и психологическая служба](*<-lang_ru;;*);
+[socio-educational and psychological service](*<-lang_en;;*);; 
+concept_socio_educational_and_psychological_service=>nrel_idtf:
+[СППС](*<-lang_ru;;*);
+[SEPS](*<-lang_en;;*);;
+
+
+concept_socio_educational_and_psychological_service<-rrel_key_sc_element:
+...
+(*
+=>nrel_main_idtf:[Опр.(cоциально-педагогическая и психологическая служба)](*<-lang_ru;;*);;
+<-sc_definition;;
+<=nrel_sc_text_translation:
+...	
+(*
+->rrel_example:
+[Cоциально-педагогическая и психологическая служба занимается обеспечением социально-педагогической поддержки студентов
+и оказанием им психологической помощи для успешного обучения и развития.](*<-lang_ru;;*);;
+*);;
+*);;

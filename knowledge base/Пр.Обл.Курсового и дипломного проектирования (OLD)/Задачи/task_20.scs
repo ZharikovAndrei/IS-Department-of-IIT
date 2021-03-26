@@ -1,0 +1,8 @@
+task_20
+	=> nrel_main_idtf:[Popup регистрация нового пользователя](* <- lang_ru;;*);
+	<- project_task;
+	<- basic_project_task;
+	<- important_project_task;
+	<- executable_project_task;
+	=> nrel_executor: Iluschenya_Dmitry_Igorevich;;
+

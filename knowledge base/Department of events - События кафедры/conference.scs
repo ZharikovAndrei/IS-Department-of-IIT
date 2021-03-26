@@ -1,0 +1,33 @@
+concept_conference => nrel_main_idtf:
+	[конференция]
+	(*
+	<- lang_ru;;
+	*);
+	[conference]
+	(*
+	<- lang_en;;
+	*);;
+
+concept_conference <- rrel_key_sc_element: 
+        ...
+	(*
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Конференция - собрание организаций и лиц для обсуждения, решения и представления некоторых вопросов.]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;
+
+concept_conference <= nrel_subdividing:
+			{
+			scientific_conference;
+			press_conference;
+			video_conference;
+			web_conference;
+			region_conference;
+			international_conference 
+
+			};;

@@ -1,0 +1,17 @@
+sc_node_not_relation->book;;
+book=>nrel_main_idtf:
+[книга](*<-lang_ru;;*);
+[book](*<-lang_en;;*);;
+
+book <- rrel_key_sc_element:
+	...
+	(*<-sc_definition;;
+     =>nrel_main_idtf:[Опр.(книга)](*<-lang_ru;;*);;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example: 
+			[Книга — один из видов печатной продукции, литературное или научное произведение,
+       предназначенное для печати в виде отдельного сброшюрованного издания.](* <- lang_ru;; *);;
+		*);;
+	*);;

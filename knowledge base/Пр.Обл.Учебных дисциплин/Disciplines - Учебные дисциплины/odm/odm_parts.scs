@@ -1,0 +1,158 @@
+odm
+	<=nrel_educational_subject_content:{
+	odm_part1
+		(*
+		=>nrel_section_base_order:
+		odm_part2;;
+		*);
+	odm_part2
+	(*
+		=>nrel_section_base_order:
+		odm_part3;;
+	*);
+	odm_part3
+	(*
+		=>nrel_section_base_order:
+		odm_part4;;
+	*);
+	odm_part4
+	(*
+		=>nrel_section_base_order:
+		odm_part5;;
+	*);
+	odm_part5
+	(*
+		=>nrel_section_base_order:
+		odm_part6;;
+	*);
+	odm_part6
+	(*
+		=>nrel_section_base_order:
+		odm_part7;;
+	*);
+	odm_part7
+	(*
+		=>nrel_section_base_order:
+		odm_part8;;
+	*);
+	odm_part8
+	(*
+		=>nrel_section_base_order:
+		odm_part9;;
+	*);
+	odm_part9
+	(*
+		=>nrel_section_base_order:
+		odm_part10;;
+	*);
+	odm_part10
+	(*
+		=>nrel_section_base_order:
+		odm_part11;;
+	*);
+	odm_part11
+	(*
+		=>nrel_section_base_order:
+		odm_part12;;
+	*);
+	odm_part12
+	(*
+		=>nrel_section_base_order:
+		odm_part13;;
+	*);
+	odm_part13
+	(*
+		=>nrel_section_base_order:
+		odm_part14;;
+	*);
+	odm_part14
+	};;
+	
+	
+odm_part1 => nrel_main_idtf:[множества и подмножества] (* <-lang_ru;; *);;
+odm_part2 => nrel_main_idtf:[операции над множествами] (* <-lang_ru;; *);;
+odm_part3 => nrel_main_idtf:[упорядоченные множества] (* <-lang_ru;; *);;
+odm_part4 => nrel_main_idtf:[отношения на множествах] (* <-lang_ru;; *);;
+odm_part5 => nrel_main_idtf:[соответствия и функции] (* <-lang_ru;; *);;
+odm_part6 => nrel_main_idtf:[мультимножества] (* <-lang_ru;; *);;
+odm_part7 => nrel_main_idtf:[нечеткие множества] (* <-lang_ru;; *);;
+odm_part8 => nrel_main_idtf:[основные понятия теории графов] (* <-lang_ru;; *);;
+odm_part9 => nrel_main_idtf:[графы] (* <-lang_ru;; *);;
+odm_part10 => nrel_main_idtf:[орграфы] (* <-lang_ru;; *);;
+odm_part11 => nrel_main_idtf:[ориентированные ациклические графы и деревья] (* <-lang_ru;; *);;
+odm_part12 => nrel_main_idtf:[планарность и двойственность] (* <-lang_ru;; *);;
+odm_part13 => nrel_main_idtf:[агоритм нахождения кратчайших по стоимости маршрутов] (* <-lang_ru;; *);;
+odm_part14 => nrel_main_idtf:[специальные циклы и метрика графов] (* <-lang_ru;; *);;
+
+odm_part1
+	=>nrel_source:[<a href ="http://set-theory.net">Проект по теории множеств</a>]
+	(*
+		=>nrel_format:format_html;;
+	*);;
+odm_part2
+	=>nrel_source:[<a href ="http://set-theory.net">Проект по теории множеств</a>]
+	(*
+		=>nrel_format:format_html;;
+	*);;
+odm_part3
+	=>nrel_source:[<a href ="http://set-theory.net">Проект по теории множеств</a>]
+	(*
+		=>nrel_format:format_html;;
+	*);;
+odm_part4
+	=>nrel_source:[<a href ="http://set-theory.net">Проект по теории множеств</a>]
+	(*
+		=>nrel_format:format_html;;
+	*);;
+odm_part5
+	=>nrel_source:[<a href ="http://set-theory.net">Проект по теории множеств</a>]
+	(*
+		=>nrel_format:format_html;;
+	*);;
+odm_part6
+	=>nrel_source:[<a href ="http://set-theory.net">Проект по теории множеств</a>]
+	(*
+		=>nrel_format:format_html;;
+	*);;
+odm_part7
+	=>nrel_source:[<a href ="http://set-theory.net">Проект по теории множеств</a>]
+	(*
+		=>nrel_format:format_html;;
+	*);;
+odm_part8
+	=>nrel_source:[<a href ="http://set-theory.net">Проект по теории множеств</a>]
+	(*
+		=>nrel_format:format_html;;
+	*);;
+odm_part9
+	=>nrel_source:[<a href ="http://set-theory.net">Проект по теории множеств</a>]
+	(*
+		=>nrel_format:format_html;;
+	*);;
+odm_part10
+	=>nrel_source:[<a href ="http://set-theory.net">Проект по теории множеств</a>]
+	(*
+		=>nrel_format:format_html;;
+	*);;
+odm_part11
+	=>nrel_source:[<a href ="http://set-theory.net">Проект по теории множеств</a>]
+	(*
+		=>nrel_format:format_html;;
+	*);;
+odm_part12
+	=>nrel_source:[<a href ="http://set-theory.net">Проект по теории множеств</a>]
+	(*
+		=>nrel_format:format_html;;
+	*);;
+odm_part13
+	=>nrel_source:[<a href ="http://set-theory.net">Проект по теории множеств</a>]
+	(*
+		=>nrel_format:format_html;;
+	*);;
+odm_part14
+	=>nrel_source:[<a href ="http://set-theory.net">Проект по теории множеств</a>]
+	(*
+		=>nrel_format:format_html;;
+	*);;
+
+odm => program:"file://odm.pdf";;

@@ -1,0 +1,7 @@
+project_IS_museum
+      => nrel_main_idtf:[Интеллектуальная система-экскурсовод по музею (например, художественному)] (* <-lang_ru;; *);
+      => nrel_main_idtf:[Intellectual system-guide on the museum (for example, artistic)] (* <-lang_en;; *);
+      => nrel_synonymy:[43e/музей];;
+
+project_IS_museum => nrel_project_leader: Hubarevich_A_V;;
+project_IS_museum => nrel_reports: report_ontology_IS_history;;

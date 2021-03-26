@@ -1,0 +1,29 @@
+sc_node_norole_relation -> nrel_count_page;;
+
+nrel_count_page => nrel_main_idtf:
+	[количество страниц*]
+	(*
+	<- lang_ru;;
+	*);
+	[number of pages*]
+	(*
+	<- lang_en;;
+	*);;
+
+nrel_count_page => nrel_first_domain:  book;;
+nrel_count_page => nrel_second_domain: number;;
+nrel_count_page => nrel_definitional_domain:...(*<=nrel_combination:...(*->book;;->number;;*);;
+*);;
+
+nrel_count_page <- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:[Опр.(Количество страниц*)](*<-lang_ru;;*);;
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+	...
+	(*
+		-> rrel_example:
+			[Количество страниц в книге.](* <- lang_ru;; *);;
+		*);;
+	*);;

@@ -1,0 +1,33 @@
+//К.А. Уваров Семантическая модель интеллектуальных решателей задач. //Информационные системы и технологии (IST’2009): материалы V Междунар. конф.-форума в 2-х ч. Ч.2 – Минск: А.Н.Вараксин, 2009.- с.185-188.
+
+publication_Uvarov_K_A_2009_SemanMoIPS=> nrel_main_idtf:
+[Уваров К.А. 2009 - СеманМИРЗ]
+	(*
+	<- lang_ru;;
+	*);
+	[Uvarov_K_A_2009_SemanMoIPS]
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Uvarov_K_A_2009_SemanMoIPS => nrel_name_publication:[Семантическая модель интеллектуальных решателей задач.](*
+	<- lang_ru;;
+	*);;
+
+publication_Uvarov_K_A_2009_SemanMoIPS <= nrel_author:
+Uvarov_K_A;;
+
+publication_Uvarov_K_A_2009_SemanMoIPS <- article;;
+
+publication_Uvarov_K_A_2009_SemanMoIPS => nrel_reference_standard: [К.А. Уваров Семантическая модель интеллектуальных решателей задач. //Информационные системы и технологии (IST’2009): материалы V Междунар. конф.-форума в 2-х ч. Ч.2 – Минск: А.Н.Вараксин, 2009.- с.185-188. ];;
+
+publication_Uvarov_K_A_2009_SemanMoIPS => nrel_year_publication: 2009;;
+
+publication_Uvarov_K_A_2009_SemanMoIPS => nrel_information_publication: Proceedings_of_the_international_conference_forum_IST_2009_2_parts_second_part;;
+
+publication_Uvarov_K_A_2009_SemanMoIPS => nrel_number_page: ..2009_SemanMoIPS(*
+-> rrel_from : 185;;
+-> rrel_by: 188;;
+*);;
+
+publication_Uvarov_K_A_2009_SemanMoIPS <- rrel_key_sc_element: ... (* <- sc_explanation;; <= nrel_sc_text_translation: ... (* -> rrel_example: "file://содержимое публикаций/60.pdf";; *);; *);;

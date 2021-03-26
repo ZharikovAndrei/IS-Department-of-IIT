@@ -1,0 +1,16 @@
+smallspring2016G321japis_mondaythird_pair = [*^"file://smallspring2016G321japis_mondaythird_pair.scsi"*];; 
+smallspring2016G321japis_mondaythird_pair<-study_session;; 
+smallspring2016G321japis_mondaythird_pair => nrel_time_situation: ...
+ (*->...(*
+<-time_point;;
+->rrel_number_of_pair:third_pair ;;
+->rrel_day:monday;;
+->rrel_week:2 ;;
+*);;
+->...(*
+<-time_point;;
+->rrel_number_of_pair:third_pair ;;
+->rrel_day:monday;;
+->rrel_week:4 ;;
+*);;
+*);;

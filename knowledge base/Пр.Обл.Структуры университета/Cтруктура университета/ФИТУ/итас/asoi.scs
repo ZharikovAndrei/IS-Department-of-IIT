@@ -1,0 +1,106 @@
+the_department_of_information_technology_of_automated_systems=>nrel_main_idtf:
+[Кафедра информационных технологий автоматизированных систем](*<-lang_ru;;*);
+[the department of information technology of automated systems](*<-lang_en;;*);; 
+
+the_department_of_information_technology_of_automated_systems=>nrel_idtf:[ИТАС](*<-lang_ru;;*);;
+the_department_of_information_technology_of_automated_systems=>nrel_idtf:[ITAS](*<-lang_en;;*);;
+
+
+
+
+pers_comp_itas -> rrel_head_of_department: header_of_itas;;
+
+the_department_of_information_technology_of_automated_systems => nrel_logotipe: logotipe_itas;;
+
+the_department_of_information_technology_of_automated_systems => nrel_pers_comp: pers_comp_itas;;
+
+
+
+header_of_itas=>nrel_main_idtf:
+[Навроцкий Анатолий Александрович](*<-lang_ru;;*);
+[Navrotskiy Anayoliy Alexandrovich](*<-lang_en;;*);;
+
+
+
+logotipe_itas=>nrel_main_idtf:
+[логотип ИТАС](*<-lang_ru;;*);
+[the logotipe of ITAS](*<-lang_en;;*);; 
+
+
+pers_comp_itas=>nrel_main_idtf:
+[Персональный состав кафедры ИТАС](*<-lang_ru;;*);
+[personal composition of the ITAS](*<-lang_en;;*);; 
+
+
+header_of_itas <- rrel_key_sc_element:
+        ...
+        (*
+        <-illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://../../../image/asoi2.jpg" (*<-image;;*);;
+               *);;
+        *);;
+
+
+
+pers_comp_itas <- rrel_key_sc_element:
+        ...
+        (*
+        <-illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://../../../image/asoi1.jpg" (*<-image;;*);;
+               *);;
+        *);;
+
+
+
+
+logotipe_itas <- rrel_key_sc_element:
+        ...
+        (*
+        <-illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://../../../image/asoi3.jpg" (*<-image;;*);;
+               *);;
+        *);;
+
+
+
+
+the_department_of_information_technology_of_automated_systems <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [Информация о кафедре ИТАС] (* <- lang_ru;; *);;
+	<- sc_task;;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Кафедра имеет 50-летний опыт подготовки высококвалифицированных специалистов в области информационных технологий и управления, проведения научных исследований и опытно-конструкторских работ. Свою деятельность кафедра начинала в 1964 г. под названием кафедра систем автоматического управления. В 1981 г. кафедра САУ была переименована в кафедру автоматизированных систем управления, а в 1994 г. - в кафедру информационных технологий автоматизированных систем.  ](* <- lang_ru;; *);;
+		*);;
+	*);;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

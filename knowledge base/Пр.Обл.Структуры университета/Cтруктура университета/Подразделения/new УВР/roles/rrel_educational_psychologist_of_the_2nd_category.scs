@@ -1,0 +1,9 @@
+sc_node_role_relation -> rrel_educational_psychologist_of_the_2nd_category;; 
+rrel_educational_psychologist_of_the_2nd_category=>nrel_main_idtf:
+[педагог-психолог 2 категории '](*<-lang_ru;;*);
+[educational psychologist of the 2nd category'](*<-lang_en;;*);;
+
+rrel_educational_psychologist_of_the_2nd_category=>nrel_first_domain:concept_division;;
+rrel_educational_psychologist_of_the_2nd_category=>nrel_second_domain:person;;
+rrel_educational_psychologist_of_the_2nd_category=>nrel_definitional_domain:...(*<=nrel_combination:...(*->person;;->concept_division;;*);;
+*);;

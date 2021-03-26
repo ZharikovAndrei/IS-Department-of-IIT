@@ -1,0 +1,28 @@
+sc_node_not_relation -> printed_document;;
+
+printed_document => nrel_main_idtf:
+[машинописный документ]
+	(*
+	<- lang_ru;;
+	*);
+	[printed document] 
+	(*
+	<- lang_en;;
+	*);;
+
+printed_document <- rrel_key_sc_element: 
+        ...
+	(*
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[машинописный документ – письменный документ, созданный посредством нанесения знаков письма техническими средствами]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;
+
+document -> printed_document;;
+
+written_document -> printed_document;;

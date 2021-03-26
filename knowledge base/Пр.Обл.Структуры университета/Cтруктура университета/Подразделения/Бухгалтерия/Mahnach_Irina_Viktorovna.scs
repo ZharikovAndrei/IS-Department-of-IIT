@@ -1,0 +1,27 @@
+Mahnach_Irina_Viktorovna=>nrel_main_idtf:
+[Махнач Ирина Викторовна](*<-lang_ru;;*);
+[Mahnach Irina Viktorovna](*<-lang_en;;*);;
+
+Mahnach_Irina_Viktorovna -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [+375 17 292-12-24];
+ [+375 17 293-23-50];;*)
+   ;;*)
+   ;; 
+
+Mahnach_Irina_Viktorovna-> rrel_work_place: aud_209_2;;
+
+Mahnach_Irina_Viktorovna<- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://Mahnach.jpg";;
+               *);;
+        *);;
+
+

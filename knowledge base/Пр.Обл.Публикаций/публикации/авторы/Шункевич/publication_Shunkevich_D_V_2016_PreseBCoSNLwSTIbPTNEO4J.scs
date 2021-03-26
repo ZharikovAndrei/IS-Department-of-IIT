@@ -1,0 +1,31 @@
+publication_Shunkevich_D_V_2016_PreseBCoSNLwSTIBPTNEO4J=> nrel_main_idtf:
+[Шункевич Д.В. 2016 - ПредсБКЯССсТМИСПNEO4J]
+	(*
+	<- lang_ru;;
+	*);
+	[Shunkevich_D_V_2016_PreseBCoSNLwSTIBPTNEO4J] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Shunkevich_D_V_2016_PreseBCoSNLwSTIBPTNEO4J => nrel_name_publication:[Представление базовых конструкций языка семантических сетей с теоретико-множественной интерпретацией средствами платформы NEO4J](*
+	<- lang_ru;;
+	*);;
+
+publication_Shunkevich_D_V_2016_PreseBCoSNLwSTIBPTNEO4J <= nrel_author:
+Shunkevich_D_V;Rodionova_Oksana_Sergeevna;;
+
+publication_Shunkevich_D_V_2016_PreseBCoSNLwSTIBPTNEO4J <- article;;
+
+publication_Shunkevich_D_V_2016_PreseBCoSNLwSTIBPTNEO4J => nrel_reference_standard: [Д. В. Шункевич, О. C. Родионова "Представление базовых конструкций языка семантических сетей с теоретико-множественной интерпретацией средствами платформы NEO4J", ITS 2016];;
+
+publication_Shunkevich_D_V_2016_PreseBCoSNLwSTIBPTNEO4J => nrel_year_publication: 2016;;
+
+publication_Shunkevich_D_V_2016_PreseBCoSNLwSTIBPTNEO4J => nrel_information_publication: Proceedings_of_the_international_scientific_conference_ITS_16;;
+publication_Shunkevich_D_V_2016_PreseBCoSNLwSTIBPTNEO4J => nrel_number_page: ..2016_PreseBCoSNLwSTIBPTNEO4J (*
+-> rrel_from :174;;
+-> rrel_by :175;;
+*);;
+
+
+

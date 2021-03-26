@@ -1,0 +1,13 @@
+sc_node_not_relation -> enterprise_standard;;
+
+enterprise_standard => nrel_main_idtf:
+[стандарт предприятия]
+	(*
+	<- lang_ru;;
+	*);
+	[enterprise standard] 
+	(*
+	<- lang_en;;
+	*);;
+
+enterprise_standard <- standard;;

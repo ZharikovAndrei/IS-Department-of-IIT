@@ -1,0 +1,11 @@
+{
+     "sources": [
+        
+        "src/extend-implementation.js",
+        "src/main.js"
+    ],
+
+    "component": "src/component-drawer.js",
+
+    "target": "static/components/js/teachers_load/build.js"
+}

@@ -1,0 +1,102 @@
+the_department_of_management_systems=>nrel_main_idtf:
+[Кафедра систем управления](*<-lang_ru;;*);
+[the department of management systems](*<-lang_en;;*);; 
+
+the_department_of_management_systems=>nrel_idtf:[СУ](*<-lang_ru;;*);;
+the_department_of_management_systems=>nrel_idtf:[MS](*<-lang_en;;*);;
+
+
+pers_comp_ms -> rrel_head_of_department: header_of_ms;;
+
+the_department_of_management_systems => nrel_info: ms_info;;
+
+the_department_of_management_systems => nrel_logotipe: logotipe_ms;;
+
+the_department_of_management_systems => nrel_pers_comp: pers_comp_ms;;
+
+
+header_of_ms=>nrel_main_idtf:
+[Марков Александр Владимирович](*<-lang_ru;;*);
+[Markov Alexandr Vladimirovich](*<-lang_en;;*);;
+
+
+
+ms_info=>nrel_main_idtf:
+[информация о кафедре СУ](*<-lang_ru;;*);
+[the information about the department of MS](*<-lang_en;;*);; 
+
+
+
+logotipe_ms=>nrel_main_idtf:
+[логотип СУ](*<-lang_ru;;*);
+[the logotipe of MS](*<-lang_en;;*);; 
+
+
+pers_comp_ms=>nrel_main_idtf:
+[Персональный состав кафедры СУ](*<-lang_ru;;*);
+[personal composition of the MS](*<-lang_en;;*);; 
+
+
+header_of_ms <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://../../../image/sisupr2.png";;
+               *);;
+        *);;
+
+
+
+
+logotipe_ms <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://../../../image/sisupr1.png";;
+               *);;
+        *);;
+
+
+
+
+ms_info <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [О кафедре] (* <- lang_ru;; *);;
+	<- sc_task;;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Кафедра систем управления , первоначально "Кафедра следящих систем, приборов и устройств автоматики". Была организована в марте 1961 года на базе радиотехнического факультета Белорусского политехнического института. Переведена под крыло Минского радиотехнического института в момент его открытия в 1964 году, а затем переименована в кафедру "Aвтоматики и телемеханики". Является одной из старейших кафедр университета. ](* <- lang_ru;; *);;
+		*);;
+	*);;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,15 @@
+format_change_user_role_json
+<- sc_node_not_relation;
+<- format;
+=> nrel_main_idtf: 
+	[формат компонента смены роли пользователя (json)] 
+	(* 
+	<- lang_ru;;
+	 *);
+=> nrel_main_idtf: 
+	[format of changing user role UI component (json)] 
+	(* 
+	<- lang_en;;
+	*);
+=> nrel_mimetype:
+	[application/json];;

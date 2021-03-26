@@ -1,0 +1,70 @@
+sc_node_not_relation -> collection;;
+
+collection => nrel_main_idtf:
+[сборник]
+	(*
+	<- lang_ru;;
+	*);
+	[collection] 
+	(*
+	<- lang_en;;
+	*);;
+
+collection <- rrel_key_sc_element: 
+        ...
+	(*
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[сборник – издание, содержащее ряд произведений]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;
+
+edition -> collection;;
+
+
+sc_node_not_relation ->  collection_kind_information; collection_kind_periodical;;
+
+collection_kind_periodical => nrel_main_idtf:
+[по периодичности]
+	(*
+	<- lang_ru;;
+	*);
+	[kind periodical] 
+	(*
+	<- lang_en;;
+	*);;
+
+collection_kind_information  => nrel_main_idtf:
+[по типу информации]
+	(*
+	<- lang_ru;;
+	*);
+	[kind information] 
+	(*
+	<- lang_en;;
+	*);;
+
+collection <= nrel_subdividing:  collection_kind_information
+		(*
+			-> materail_conference;
+			collection_of_scientific_papers;
+			abstracts_papers_of_scientific_papers;;	
+		*);;
+
+collection <= nrel_subdividing:  collection_kind_periodical
+		(*
+			-> unperiodical_collection;
+			periodical_collection;
+			continued_collection;;	
+		*);;
+
+
+
+
+
+
+

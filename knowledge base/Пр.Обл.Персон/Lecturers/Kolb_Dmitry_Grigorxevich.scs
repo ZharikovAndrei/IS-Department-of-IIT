@@ -1,0 +1,48 @@
+Kolb_D_G
+=>nrel_main_idtf:
+[Колб Д.Г.](*<-lang_ru;;*);
+ <-person;
+=>nrel_idtf:
+[Kolb Dmitry](*<-lang_en;;*);
+[Колб Дмитрий Георгиевич](*<-lang_ru;;*);
+<- rrel_key_sc_element:
+        ...
+        (*
+        <-illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example:
+                       "file://photos/Kolb_Dmitry_Grigorxevich.jpg";;
+               *);;
+        *);;
+
+Kolb_D_G -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+ [+375 17 293-89-34];;*)
+   ;;*)
+   ;;
+Kolb_D_G -> rrel_work_place: aud_612b_5;;
+Kolb_D_G -> rrel_email:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+ [kolb@bsuir.by](*<-lang_en;;*)
+   ;;*)
+   ;;*)
+   ;;
+
+Kolb_D_G=>nrel_fields_of_scientific_research:
+	...
+	(*
+		->[Графодинамические ассоциативные машины];;
+		->[Интеллектуальный пользовательский интерфейс];;
+	*);;
+Kolb_D_G => nrel_can_teach_subject:operating_systems;apoczi;iips;iips_z;;
+Kolb_D_G <- teacher;;
+Kolb_D_G=>nrel_rate:1;;
+
+
+Kolb_D_G<=nrel_educational_work:laboratory_work_on_os_4_year;lectures_on_iips;laboratory_work_on_iips;lectures_on_iips_z;laboratory_work_on_iips_z;;
+Kolb_D_G=>nrel_load:0;;
+0<=nrel_sum_of_numbers:...;;

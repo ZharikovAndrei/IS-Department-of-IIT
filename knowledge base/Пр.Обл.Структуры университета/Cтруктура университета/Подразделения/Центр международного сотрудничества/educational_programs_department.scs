@@ -1,0 +1,6 @@
+educational_programs_department=>nrel_main_idtf:
+[отдел образовательных программ БГУИРа](*<-lang_ru;;*);
+[educational programs department of BSUIR](*<-lang_en;;*);;
+
+educational_programs_department => nrel_pers_comp: personal_composition_of_educational_programs_department;; 
+educational_programs_department<-concept_educational_programs_department;;

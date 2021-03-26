@@ -1,0 +1,125 @@
+ppvis
+=>nrel_main_idtf:
+	[Проектирование программ в интеллектуальных системах] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[Program design in intelligent systems] (* <-lang_en;; *);
+=>nrel_abbreviation:[ППвИС];
+
+<-special_subject;
+=>nrel_subdividing:
+		ppvis_4_year_1
+			(*
+			<-multiplicity_of_subjects_taught_in_the_3_term_specialty_artificial_intelligence_4_year_education;;
+			<=nrel_realisation_of_learning_activity:
+
+				lectures_on_ppvis_4_year_1
+					(*=>nrel_main_idtf:
+	[Проектирование программ в интеллектуальных системах.часть 1.лекции] (* <-lang_ru;; *);;
+	=>nrel_planned_hours:102;;
+					=>nrel_realisation_of_intermediate_control:
+						control_work;;
+						<-lecture;;
+					*);
+				laboratory_work_on_ppvis_4_year_1
+					(*=>nrel_main_idtf:
+	[Проектирование программ в интеллектуальных системах.часть 1.лабораторный практикум] (* <-lang_ru;; *);;
+	=>nrel_planned_hours:36;;
+					=>nrel_realisation_of_intermediate_control:
+						protection_of_laboratory_work;;
+					<-laboratory_work	;;
+					*);
+				practical_lesson_on_ppvis_4_year_1
+					(*=>nrel_main_idtf:
+	[Проектирование программ в интеллектуальных системах.часть 1.практические занятия] (* <-lang_ru;; *);;
+	=>nrel_planned_hours:34;;
+					=>nrel_realisation_of_intermediate_control:
+						protection_of_practical_work;;
+					<-practical_lesson;;
+					*);;
+
+			=>nrel_realisation_of_final_certification:
+				exam;;
+			=>nrel_term: 3;;
+			=>nrel_realisation_of_intermediate_control: course_project_on_ppvis_4_year_education;;
+			*);
+		ppvis_4_year_2
+		(*
+			<-multiplicity_of_subjects_taught_in_the_4_term_specialty_artificial_intelligence_4_year_education;;
+			<=nrel_realisation_of_learning_activity:
+
+				lectures_on_ppvis_4_year_2
+					(*=>nrel_main_idtf:
+	[Проектирование программ в интеллектуальных системах.часть 2.лекции] (* <-lang_ru;; *);;
+	=>nrel_planned_hours:102;;
+					=>nrel_realisation_of_intermediate_control:
+						control_work;;
+					*);
+				laboratory_work_on_ppvis_4_year_2
+					(*=>nrel_main_idtf:
+	[Проектирование программ в интеллектуальных системах.часть 2.лабораторный практикум] (* <-lang_ru;; *);;
+	=>nrel_planned_hours:34;;
+					=>nrel_realisation_of_intermediate_control:
+						protection_of_laboratory_work;;
+					*);;
+
+			=>nrel_realisation_of_final_certification:
+				exam;;
+			=>nrel_term: 4;;
+			*);
+		ppvis_4_year_3
+		(*
+			<-multiplicity_of_subjects_taught_in_the_5_term_specialty_artificial_intelligence_4_year_education;;
+			<=nrel_realisation_of_learning_activity:
+
+				lectures_on_ppvis_4_year_3
+					(*=>nrel_main_idtf:
+	[Проектирование программ в интеллектуальных системах.часть 3.лекции] (* <-lang_ru;; *);;
+	=>nrel_planned_hours:102;;
+					=>nrel_realisation_of_intermediate_control:
+						control_work;;
+					*);
+				laboratory_work_on_ppvis_4_year_3
+					(*=>nrel_main_idtf:
+	[Проектирование программ в интеллектуальных системах.часть 3.лабораторный практикум] (* <-lang_ru;; *);;
+	=>nrel_planned_hours:34;;
+					=>nrel_realisation_of_intermediate_control:
+						protection_of_laboratory_work;;
+					*);;
+				=>nrel_realisation_of_final_certification:
+					exam;;
+				=>nrel_term: 5;;
+			*);
+
+<=nrel_trains: the_department_of_intelligent_informational_technologies;
+<=nrel_class_number: 2(* <-positive_number;;*);
+<=nrel_class_number: 3(* <-positive_number;;*);
+<=nrel_semester_number: 3(* <-positive_number;;*);
+<=nrel_semester_number: 4(* <-positive_number;;*);
+<=nrel_semester_number: 5(* <-positive_number;;*);
+<=nrel_course_work_hours: 16(*<-positive_number;;*);
+<=nrel_component: concept_mandatory_component;
+<=nrel_cycle: concept_tsikl_obshcheprofessionalnykh_i_spetsialnykh_distsiplin;;
+
+ppvis_4_year_education
+=>nrel_main_idtf:
+	[Проектирование программ в интеллектуальных системах по 4-летней программе] (* <-lang_ru;; *);;
+ppvis_5_year_education
+=>nrel_main_idtf:
+	[Проектирование программ в интеллектуальных системах по 5-летней программе] (* <-lang_ru;; *);;
+
+ppvis_4_year_1
+=>nrel_main_idtf:
+	[Проектирование программ в интеллектуальных системах.часть 1.] (* <-lang_ru;; *);;
+ppvis_4_year_2
+=>nrel_main_idtf:
+	[Проектирование программ в интеллектуальных системах.часть 2.] (* <-lang_ru;; *);;
+ppvis_4_year_3
+=>nrel_main_idtf:
+	[Проектирование программ в интеллектуальных системах.часть 3.] (* <-lang_ru;; *);;
+course_project_on_ppvis_4_year_education
+=>nrel_main_idtf:
+	[Курсовой проект по ППВиС] (* <-lang_ru;; *);;
+
+Romanov_V_I<=nrel_educational_work:lectures_on_ppvis_4_year_1;lectures_on_ppvis_4_year_2;;
+Shunkevich_D_V<=nrel_educational_work:laboratory_work_on_ppvis_4_year_1;practical_lesson_on_ppvis_4_year_1;;
+Zhukov_I_I<=nrel_educational_work:laboratory_work_on_ppvis_4_year_2;lectures_on_ppvis_4_year_3;laboratory_work_on_ppvis_4_year_3;;

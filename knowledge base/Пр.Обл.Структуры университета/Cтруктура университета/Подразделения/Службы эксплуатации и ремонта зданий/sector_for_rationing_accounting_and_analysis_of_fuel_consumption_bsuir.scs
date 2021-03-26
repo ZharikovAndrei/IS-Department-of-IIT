@@ -1,0 +1,5 @@
+sector_for_rationing_accounting_and_analysis_of_fuel_consumption_bsuir=>nrel_main_idtf:
+[сектор по нормированию, учёту и анализу потребления ТЭР БГУИРа](*<-lang_ru;;*);
+[sector for rationing accounting and analysis of fuel consumption bsuir](*<-lang_en;;*);; 
+sector_for_rationing_accounting_and_analysis_of_fuel_consumption_bsuir=>nrel_pers_comp:personal_composition_of_sector_for_rationing_accounting_and_analysis_of_fuel_consumption_bsuir;;
+personal_composition_of_sector_for_rationing_accounting_and_analysis_of_fuel_consumption_bsuir->rrel_head_of_sector:Head_of_sector;;

@@ -1,0 +1,35 @@
+Migalevich_Sergei_Alexandrovich=>nrel_main_idtf:
+[Мигалевич Сергей Александрович](*<-lang_ru;;*);
+[Migalevich Sergei Aleksandrovich](*<-lang_en;;*);;
+
+Migalevich_Sergei_Alexandrovich -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [+375 17 293-23-20];
+ [331-04-04];;*)
+   ;;*)
+   ;; 
+
+Migalevich_Sergei_Alexandrovich -> rrel_work_place: aud_302c_5;;
+
+Migalevich_Sergei_Alexandrovich -> rrel_email:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [migalevich@bsuir.by](*<-lang_ru;;*)
+   ;;*)
+   ;;*)
+   ;; 
+
+
+Migalevich_Sergei_Alexandrovich <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://Migalevich.jpg";;
+               *);;
+        *);;
+

@@ -1,0 +1,8 @@
+artificial_intelligence_mag=>nrel_main_idtf:[Специальность 1-40 81 03 Искусственный интеллект] (* <-lang_ru;; *);;
+artificial_intelligence_mag=>nrel_main_idtf:[Speciality 1-40 81 03 Artificial intelligence] (* <-lang_en;; *);;
+
+artificial_intelligence_mag=>nrel_idtf:[Специальность ИИ (магистратура)] (* <-lang_ru;; *);;
+artificial_intelligence_mag=>nrel_idtf:[Speciality AI (magistracy)] (* <-lang_en;; *);;
+
+
+artificial_intelligence_mag => nrel_code_of_speciality: code_of_the_speciality_artificial_intelligence_mag;;

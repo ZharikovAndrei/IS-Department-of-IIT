@@ -1,0 +1,33 @@
+Babich_Vitaly_Vladimirovich=>nrel_main_idtf:
+[Бабич Виталий Владимирович](*<-lang_ru;;*);
+[Babich Vitaly Vladimirovich](*<-lang_en;;*);;
+
+Babich_Vitaly_Vladimirovich -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [+375 17 293-89-61];;*)
+   ;;*)
+   ;; 
+
+Babich_Vitaly_Vladimirovich -> rrel_work_place: aud_406_2;;
+
+Babich_Vitaly_Vladimirovich -> rrel_email:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [impulse@bsuir.by](*<-lang_ru;;*)
+   ;;*)
+   ;;*)
+   ;; 
+
+
+Babich_Vitaly_Vladimirovich <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://Babich.jpg";;
+               *);;
+        *);;

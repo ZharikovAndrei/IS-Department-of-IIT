@@ -1,0 +1,15 @@
+honorary_rector_of_the_BSUIR => nrel_main_idtf:[почетный ректор БГУИРа] (* <-lang_ru;; *);;
+honorary_rector_of_the_BSUIR => nrel_main_idtf:[honorary rector of the BSUIR] (* <-lang_en;; *);;
+honorary_rector_of_the_BSUIR <- rrel_key_sc_element:
+	... 
+	(*<-sc_definition;;
+     =>nrel_main_idtf:[Опр.(почетный ректор университета)](*<-lang_ru;;*);;
+     <=nrel_using_constants:...(*->concept_rector;;->nrel_BSUIR;;->concept_honor ;;*);;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Почетный ректор университета - это Ректор, пользующийся особым уважением и отношением, оказываемым студентами и обществом.](* <- lang_ru;; *);;*)
+;;*)
+;;
+

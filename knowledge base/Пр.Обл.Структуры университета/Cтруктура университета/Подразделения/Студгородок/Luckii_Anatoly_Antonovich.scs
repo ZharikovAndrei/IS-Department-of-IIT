@@ -1,0 +1,31 @@
+Luckii_Anatoly_Antonovich=>nrel_main_idtf:
+[Луцкий Анатолий Антонович](*<-lang_ru;;*);
+[Luckii Anatoly Antonovich](*<-lang_en;;*);;
+
+Luckii_Anatoly_Antonovich -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [+375 17 293-21-32];
+ [+375 17 292-86-91];;*)
+   ;;*)
+   ;; 
+
+Luckii_Anatoly_Antonovich -> rrel_work_place:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [ул. Я. Колоса, 28; общежитие N1, ком.102];;*)
+   ;;*)
+   ;; 
+
+
+Luckii_Anatoly_Antonovich <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://Luckii.jpg";;
+               *);;
+        *);;

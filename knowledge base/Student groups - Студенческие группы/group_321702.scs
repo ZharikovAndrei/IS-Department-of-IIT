@@ -1,0 +1,6 @@
+group_321702
+=>nrel_main_idtf:
+	[группа 321702] (* <-lang_ru;; *);
+->rrel_head_group:shalesniy;
+=>nrel_subdividing : podgruppa321702_1;podgruppa321702_2;;
+

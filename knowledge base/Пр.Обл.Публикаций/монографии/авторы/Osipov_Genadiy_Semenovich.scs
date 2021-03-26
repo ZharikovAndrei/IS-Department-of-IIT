@@ -1,0 +1,23 @@
+Osipov_Genadiy_Semenovich
+=>nrel_main_idtf:
+[Осипов Геннадий Семенович](*<-lang_ru;;*);
+[Osipov Genadiy Semenovich](*<-lang_en;;*);;
+Osipov_Genadiy_Semenovich -> rrel_email:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [gos@isa.ru](*<-lang_en;;*)
+   ;;*)
+   ;;*)
+   ;; 
+Osipov_Genadiy_Semenovich <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://osipov_gs.png";;
+               *);;
+        *);;
+ Osipov_Genadiy_Semenovich<-person;;

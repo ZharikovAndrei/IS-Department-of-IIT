@@ -1,0 +1,31 @@
+publication_Shunkevich_D_V_2016_UnifioSMoPPoMOS=> nrel_main_idtf:
+[Шункевич Д.В. 2016 - УнифиСМППМОЗ]
+	(*
+	<- lang_ru;;
+	*);
+	[Shunkevich_D_V_2016_UnifioSMoPPoMOS] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Shunkevich_D_V_2016_UnifioSMoPPoMOS => nrel_name_publication:[Унифицированная семантическая модель процесс проектирования машин обработки знаний](*
+	<- lang_ru;;
+	*);;
+
+publication_Shunkevich_D_V_2016_UnifioSMoPPoMOS <= nrel_author:
+Shunkevich_D_V;Fominih_I_B;Morosin_O_L;;
+
+publication_Shunkevich_D_V_2016_UnifioSMoPPoMOS <- article;;
+
+publication_Shunkevich_D_V_2016_UnifioSMoPPoMOS => nrel_reference_standard: [Д. В. Шункевич, И. Б. Фоминых, О. Л. Моросин "Унифицированная семантическая модель процесс проектирования машин обработки знаний", ITS 2016];;
+
+publication_Shunkevich_D_V_2016_UnifioSMoPPoMOS => nrel_year_publication: 2016;;
+
+publication_Shunkevich_D_V_2016_UnifioSMoPPoMOS => nrel_information_publication: Proceedings_of_the_international_scientific_conference_ITS_16;;
+publication_Shunkevich_D_V_2016_UnifioSMoPPoMOS => nrel_number_page: ..2016_UnifioSMoPPoMOS (*
+-> rrel_from :172;;
+-> rrel_by :173;;
+*);;
+
+
+

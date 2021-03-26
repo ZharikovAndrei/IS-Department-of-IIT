@@ -1,0 +1,26 @@
+sc_node_not_relation -> complete_edition;;
+
+complete_edition => nrel_main_idtf:
+[комплексное издание]
+	(*
+	<- lang_ru;;
+	*);
+	[complete edition] 
+	(*
+	<- lang_en;;
+	*);;
+
+complete_edition <- rrel_key_sc_element: 
+        ...
+	(*
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[комплексное издание — ежегодное издание, представляющее комплексный анализ положения дел]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;
+
+complete_edition <- edition;;

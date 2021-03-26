@@ -1,0 +1,11 @@
+//sc_node_not_relation -> Gavrilova_T_A;;
+
+Gavrilova_T_A => nrel_main_idtf:
+[Гаврилова Т.А.]
+	(*
+	<- lang_ru;;
+	*);
+	[Gavrilova T.A.]
+	(*
+	<- lang_en;;
+	*);;

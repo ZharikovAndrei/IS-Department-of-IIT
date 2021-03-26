@@ -1,0 +1,12 @@
+Lisovskaya_Elena_Leonidovna=>nrel_main_idtf:
+[Лисовская Елена Леонидовна](*<-lang_ru;;*);
+[Lisovskaya Elena Leonidovna](*<-lang_en;;*);;
+
+Lisovskaya_Elena_Leonidovna-> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+[+375 17 293-80-04];;*)
+   ;;*)
+   ;;
+
+Lisovskaya_Elena_Leonidovna-> rrel_work_place: aud_305_2;;

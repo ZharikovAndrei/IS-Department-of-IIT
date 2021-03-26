@@ -1,0 +1,41 @@
+11_12_15=> nrel_main_idtf:
+[Защита КП в виде презентации 11 декабря 2015 года] (* <-lang_ru;; *);
+[Protection of KP in the form of presentation of 11th December 2015] (* <-lang_en;; *);
+<-event;
+<-temporary_entity;;
+11_12_15<-
+...
+(*<-exact_value;;
+ <-begin;;
+  =>nrel_translation_in_the_Gregorian_calendar:...
+  (*
+    ->number_of_year:2015;;
+    ->number_of_month_in_year:12;;
+    ->number_of_day_in_month:11;;
+    ->number_of_hour_in_day:17;;
+    ->number_of_minute_in_hour:5;;
+   *);;
+  *);;
+11_12_15<-
+...
+(*<-exact_value;;
+ <-completion;;
+  =>nrel_translation_in_the_Gregorian_calendar:...
+  (*
+    ->number_of_year:2015;;
+    ->number_of_month_in_year:12;;
+    ->number_of_day_in_month:11;;
+    ->number_of_hour_in_day:18;;
+    ->number_of_minute_in_hour:40;;
+   *);;
+  *);;
+
+11_12_15=>nrel_address:
+[г.Минск, БГУИР, улица Гикало 9 (4-ой корпус), аудитория 209](*<-lang_ru;;*);;
+
+11_12_15=>nrel_participant_course_project:
+is_of_set_theory;
+is_of_graph_theory;
+is_of_history_of_city_Minsk;
+is_of_geometry;
+is_of_algebra;;

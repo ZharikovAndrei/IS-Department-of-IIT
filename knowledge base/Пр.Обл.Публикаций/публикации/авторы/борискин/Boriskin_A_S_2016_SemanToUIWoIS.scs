@@ -1,0 +1,31 @@
+publication_Boriskin_A_S_2016_SemanToUIWoIS=> nrel_main_idtf:
+[Борискин А.С. 2016 - СеманТОПИИС]
+	(*
+	<- lang_ru;;
+	*);
+	[Boriskin_A_S_2016_SemanToUIWoIS] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Boriskin_A_S_2016_SemanToUIWoIS => nrel_name_publication:[Семантическая типология окон пользовательских интерфейсов интеллектуальных систем](*
+	<- lang_ru;;
+	*);;
+
+publication_Boriskin_A_S_2016_SemanToUIWoIS <= nrel_author:
+Boriskin_Alexander_Sergeevich;Sinelnikov_P_M;Sadowski_Mikhail_Yefimovich;;
+
+publication_Boriskin_A_S_2016_SemanToUIWoIS <- article;;
+
+publication_Boriskin_A_S_2016_SemanToUIWoIS => nrel_reference_standard: [А. С. Борискин, П. М. Синельников, М. Е. Садовский "Семантическая типология окон пользовательских интерфейсов интеллектуальных систем", ITS 2016];;
+
+publication_Boriskin_A_S_2016_SemanToUIWoIS => nrel_year_publication: 2016;;
+
+publication_Boriskin_A_S_2016_SemanToUIWoIS => nrel_information_publication: Proceedings_of_the_international_scientific_conference_ITS_16;;
+publication_Boriskin_A_S_2016_SemanToUIWoIS => nrel_number_page: ..2016_SemanToUIWoIS (*
+-> rrel_from :144;;
+-> rrel_by :145;;
+*);;
+
+
+

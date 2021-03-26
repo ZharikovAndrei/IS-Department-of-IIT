@@ -1,0 +1,10 @@
+accounting_bsuir=>nrel_main_idtf:
+[бухгалтерия БГУИРа](*<-lang_ru;;*);
+[BSUIR accounting](*<-lang_en;;*);;
+
+accounting_bsuir => nrel_pers_comp: personal_composition_of_accounting_bsuir;; 
+
+accounting_bsuir<-concept_accounting;;
+
+
+

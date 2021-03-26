@@ -1,0 +1,25 @@
+Skvorcova_Elena_Alexandrovna=>nrel_main_idtf:
+[Скворцова Елена Александровна](*<-lang_ru;;*);
+[Skvorcova Elena Alexandrovna](*<-lang_en;;*);;
+
+Skvorcova_Elena_Alexandrovna -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [+375 17 293-85-75];;*)
+   ;;*)
+   ;; 
+
+Skvorcova_Elena_Alexandrovna -> rrel_work_place: aud_324b_4;;
+
+
+Skvorcova_Elena_Alexandrovna <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://Skvorcova.jpg";;
+               *);;
+        *);;

@@ -1,0 +1,12 @@
+ITS_program_committee => nrel_main_idtf:
+[Программный комитет ITS](*<- lang_ru;;*);
+[ITS program committee](*<- lang_en;;*);;
+
+ITS_program_committee ->Golenkov_V_V;
+Golovko_V_A;
+Ivanyk_A_A;
+header_of_nmp;
+header_of_ms;
+header_of_itas;
+header_of_tee;
+Sinytsin_A_K;;

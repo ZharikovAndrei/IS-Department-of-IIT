@@ -1,0 +1,27 @@
+nrel_priority
+<-sc_node_norole_relation;
+
+=>nrel_main_idtf:
+[приоритет*](*<-lang_ru;;*);
+[priority*](*<-lang_en;;*);
+
+=>nrel_idtf:
+[приоритет проектной задачи*](*<-lang_ru;;*);
+
+<-rrel_key_sc_element_of_subject_domain:
+section_subject_domain_of_desingning_management;
+
+=>nrel_first_domain:project_task;
+=>nrel_second_domain:project_task_priority;
+=>nrel_definitional_domain:...(* <=nrel_combination:...(*->project_task;; ->project_task_priority;;*) ;; *);
+
+<-rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [приоритет* – это отношение, показывающее важность, первенство или значимость определённого процесса, объекта или явления. Приоритет действий определяет порядок их выполнения](* <-lang_ru;; *);; 
+		*);;
+	*);;

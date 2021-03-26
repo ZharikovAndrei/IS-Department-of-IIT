@@ -1,0 +1,11 @@
+sc_node_not_relation -> collection_of_scientific_papers_anniversary;;
+
+collection_of_scientific_papers_anniversary => nrel_main_idtf:
+[юбилейный сборник научных трудов]
+	(*
+	<- lang_ru;;
+	*);
+	[collection of scientific papers anniversary] 
+	(*
+	<- lang_en;;
+	*);;

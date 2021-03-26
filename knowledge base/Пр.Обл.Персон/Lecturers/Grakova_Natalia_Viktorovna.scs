@@ -1,0 +1,47 @@
+Grakova_N_V
+=>nrel_main_idtf:
+[Гракова Н.В.](*<-lang_ru;;*);
+=>nrel_idtf:
+[Гракова Наталья Викторовна](*<-lang_ru;;*);
+ <-person;
+ <-ui_user;
+=>nrel_idtf:
+[Grakova Natalia](*<-lang_en;;*);
+
+<- rrel_key_sc_element:
+        ...
+        (*
+        <-illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example:
+                       "file://photos/Grakova_Natalia_Viktorovna.jpg";;
+               *);;
+        *);;
+
+Grakova_N_V -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+ [+375 17 293-85-33];;*)
+   ;;*)
+   ;;
+Grakova_N_V -> rrel_work_place: aud_609_5;;
+Grakova_N_V -> rrel_email:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+ [grakova@bsuir.by](*<-lang_en;;*)
+   ;;*)
+   ;;*)
+   ;;
+Grakova_N_V=>nrel_fields_of_scientific_research:
+	[Управление коллективным проектированием интеллектуальных систем];;
+
+nrel_can_teach_subject <- sc_node_norole_relation;
+=>nrel_main_idtf:
+[может преподавать*](*<-lang_ru;;*);;
+
+Grakova_N_V=>nrel_can_teach_subject:ots;;
+Grakova_N_V=>nrel_rate:1;;
+
+Grakova_N_V<-teacher;;

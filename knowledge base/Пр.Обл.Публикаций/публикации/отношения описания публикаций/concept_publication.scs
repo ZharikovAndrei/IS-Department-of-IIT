@@ -1,0 +1,16 @@
+sc_node_not_relation->concept_publication;;
+concept_publication=>nrel_main_idtf:
+[публикация](*<-lang_ru;;*);
+[publication](*<-lang_en;;*);;
+
+concept_publication<- rrel_key_sc_element:
+	... 
+	(*<-sc_definition;;
+     =>nrel_main_idtf:[Опр.(публикация)](*<-lang_ru;;*);;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Публикация - совокупность письменных трудов, которые созданы в результате исследований, теоретических обобщений, сделанных в рамках научного метода.](* <- lang_ru;; *);;
+		*);;
+	*);;

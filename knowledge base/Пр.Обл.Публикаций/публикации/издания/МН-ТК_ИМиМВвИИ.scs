@@ -1,0 +1,26 @@
+//Collection_of_scientific_papers_XII_International_Scientific_ConferenceIntegrated_models_and_soft_computing_in_Artificial_Intelligence
+
+/*sc_node_not_relation -> Collection_of_scientific_papers_XII_International_Scientific_ConferenceIntegrated_models_and_soft_computing_in_Artificial_Intelligence; kolomna;;*/
+
+
+Collection_of_scientific_papers_XII_International_Scientific_ConferenceIntegrated_models_and_soft_computing_in_Artificial_Intelligence => nrel_main_idtf:
+[Сборник научных трудов YI-й Международной научно-технической конференции "Интегрированные модели и мягкие вычисления в искусственном интеллекте"]
+	(*
+	<- lang_ru;;
+	*);
+	[Collection_of_scientific_papers_XII_International_Scientific_ConferenceIntegrated_models_and_soft_computing_in_Artificial_Intelligence]
+	(*
+	<- lang_en;;
+	*);;
+
+kolomna => nrel_main_idtf:
+[Коломна]
+	(*
+	<- lang_ru;;
+	*);
+	[Kolomna]
+	(*
+	<- lang_en;;
+	*);;
+
+Collection_of_scientific_papers_XII_International_Scientific_ConferenceIntegrated_models_and_soft_computing_in_Artificial_Intelligence => nrel_place_publication: kolomna;;

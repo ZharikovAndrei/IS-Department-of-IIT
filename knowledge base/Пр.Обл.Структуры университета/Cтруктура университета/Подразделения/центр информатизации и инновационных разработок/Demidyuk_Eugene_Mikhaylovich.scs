@@ -1,0 +1,33 @@
+Demidyuk_Eugene_Mikhaylovich=>nrel_main_idtf:
+[Демидюк Евгений Михайлович](*<-lang_ru;;*);
+[Demidyuk Eugene Mikhaylovich](*<-lang_en;;*);;
+
+Demidyuk_Eugene_Mikhaylovich -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [+375 17 293-80-98];;*)
+   ;;*)
+   ;; 
+
+Demidyuk_Eugene_Mikhaylovich -> rrel_work_place: aud_201b_5;;
+
+Demidyuk_Eugene_Mikhaylovich -> rrel_email:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [demem@bsuir.by](*<-lang_ru;;*)
+   ;;*)
+   ;;*)
+   ;; 
+
+
+Demidyuk_Eugene_Mikhaylovich <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://Demem.jpg";;
+               *);;
+        *);;

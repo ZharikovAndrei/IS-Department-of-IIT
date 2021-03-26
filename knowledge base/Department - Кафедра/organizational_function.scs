@@ -1,0 +1,18 @@
+organizational_function
+
+=>nrel_main_idtf:
+	[организационная функция кафедры ] (* <-lang_ru;; *);
+
+=>nrel_idtf:
+	[organizational function of department] (* <-lang_en;; *);
+
+->rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> [организационная функция кафедры-функция направленная на распределение работы,обязанностей ] (* <-lang_ru;; *);; 
+		*);;
+	*);;

@@ -1,0 +1,21 @@
+moonlighter
+=>nrel_main_idtf:
+	[преподаватель совместитель] (* <-lang_ru;; *);
+<-person;
+->rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> [Преподаватель совместитель — физическое лицо,работающее по совместительству.] (* <-lang_ru;; *);; 
+		*);;
+	*);
+
+=>nrel_inclusion:
+	...
+	(*
+	->external_moonlighter;
+	internal_moonlighter;;
+	*);;

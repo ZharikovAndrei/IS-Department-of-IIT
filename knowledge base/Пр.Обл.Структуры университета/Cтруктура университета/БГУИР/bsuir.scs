@@ -1,0 +1,117 @@
+the_belorussian_state_university_of_informatics_and_radioelectronics=>nrel_main_idtf:
+[Белорусский государственный университет информатики и радиоэлектроники](*<-lang_ru;;*);
+[Belarusian State University of Informatics and Radioelectronics](*<-lang_en;;*);; 
+
+the_belorussian_state_university_of_informatics_and_radioelectronics=>nrel_idtf:[БГУИР](*<-lang_ru;;*);;
+the_belorussian_state_university_of_informatics_and_radioelectronics=>nrel_idtf:[BSUIR](*<-lang_en;;*);;
+
+
+the_belorussian_state_university_of_informatics_and_radioelectronics <= nrel_decomposition:
+{
+
+the_faculty_of_informational_technologis_and_control;
+the_military_faculty;
+bsuir_symbols;
+the_faculty_of_computer_systems_and_networks;
+the_faculty_of_computeraided_design;
+the_faculty_of_preuniversity_training_and_vocational_guidance;
+the_faculty_of_distancing_learning;
+the_engineering_and_economics_faculty;
+the_faculty_of_radio_engineering_and_electronics;
+the_faculty_of_telecommunications;
+the_institute_of_information_technology;
+rectorate_of_the_bsuir;
+honorary_rector_of_the_BSUIR;
+assistant_rector_of_the_bsuir;
+university_council_of_the_bsuir;
+selection_committee_of_the_bsuir;
+educational_and_methodical_management_of_the_BSUIR;
+management_training_of_scientific_personnel_of_higher_qualification_of_the_bsuir;
+management_of_educational_work_with_young_people_bsuir;
+center_of_international_cooperation;
+center_of_information_and_innovations;
+videoconferencing_center_bsuir;
+library_bsuir;
+campus_bsuir;
+accounting_bsuir;
+human_resources_department_bsuir;
+department_of_documentary_maintenance_bsuir;
+law_department_bsuir;
+secrecy_department_bsuir;
+department_of_labour_protection_bsuir;
+sector_civil_defence_and_emergencies_bsuir;
+service_economy_capital_construction_and_logistics_bsuir;
+service_maintenance_and_repair_of_buildings_bsuir;
+fitness_center_bsuir;
+canteen_bsuir;
+youth_center_bsuir;
+the_trade_union_committee_of_university_staff_bsuir;
+student_union_committee_bsuir;
+presidium_meeting_professors_bsuir;
+veterans_council_bsuir;
+the_faculty_of_continuing_and_distance_learning 
+};;
+
+
+concept_facultys->the_faculty_of_informational_technologis_and_control;;
+concept_facultys->the_military_faculty;;
+concept_facultys->the_faculty_of_computer_systems_and_networks;;
+concept_facultys->the_faculty_of_computeraided_design;;
+concept_facultys->the_faculty_of_preuniversity_training_and_vocational_guidance;;
+concept_facultys->the_faculty_of_distancing_learning;;
+concept_facultys->the_engineering_and_economics_faculty;;
+concept_facultys->the_faculty_of_radio_engineering_and_electronics;;
+concept_facultys->the_faculty_of_telecommunications;;
+concept_facultys->the_faculty_of_continuing_and_distance_learning;;
+
+
+the_belorussian_state_university_of_informatics_and_radioelectronics->bsuir_symbols;;
+
+
+
+sc_node_not_relation->concept_facultys;;
+concept_facultys=>nrel_main_idtf:
+[факультеты БГУИРа](*<-lang_ru;;*);
+[the facultys of BSUIR](*<-lang_en;;*);; 
+
+
+
+
+
+the_belorussian_state_university_of_informatics_and_radioelectronics <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [Информация о БГУИРе] (* <- lang_ru;; *);;
+	<- sc_task;;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+[БГУИР - это крупный учебно-научно-инновационный комплекс.
+В его структуру входят:
+    10 факультетов
+    37 кафедр
+    научно-исследовательская часть, в составе которой 31 научно-исследовательских лабораторий, 10 исследовательских групп, 11 центров
+    Институт информационных технологий в составе которого 2 факультета и 4 кафедры
+    3 обособленных структурных подразделения: Комбинат питания, Молодежный центр, Учебно-вычислительный центр БГУИР.
+Университет осуществляет подготовку специалистов:
+    на первой ступени высшего образования – по 38 специальностям;
+    на военном факультете – по 2 специальностям;
+    на второй ступени (магистратура) – по 37 специальностям;
+    подготовка аспирантов – по 29 научным специальностям, докторантов – по 9;
+    подготовка иностранных и белорусских студентов на английском языке (на первой и второй ступени высшего образования) – по 4 специальностям.
+
+    В университете обучаются около 17 тысяч студентов, магистрантов, аспирантов и докторантов, в том числе более 500 – из зарубежных стран.
+
+    Общая численность работающих в университете – 2200 человек. Численность профессорско-преподавательского состава – более 850 человек, из них 2 академика НАН Беларуси, 2 члена-корреспондента НАН Беларуси, 62 доктора наук и 273 кандидата наук, 90 магистров технических наук. В научно-исследовательской части работают на постоянной основе 250 человек, в том числе 6 докторов и 42 кандидата наук.
+
+    На балансе университета здания и сооружения общей площадью 120 тыс. кв. м, в т.ч. 7 учебно-лабораторных корпусов и 4 общежития.
+
+    Общая площадь спортивных сооружений БГУИР составляет 10,5 тыс. кв. м, в том числе стадион и плавательный бассейн. ](* <- lang_ru;; *);;
+		*);;
+	*);;
+
+
+
+
+

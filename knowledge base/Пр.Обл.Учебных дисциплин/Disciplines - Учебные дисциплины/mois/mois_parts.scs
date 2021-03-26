@@ -1,0 +1,103 @@
+mois
+	<=nrel_educational_subject_content:{
+	mois_part1
+		(*
+		=>nrel_section_base_order:
+		mois_part2;;
+		*);
+	mois_part2
+	(*
+		=>nrel_section_base_order:
+		mois_part3;;
+	*);
+	mois_part3
+	(*
+		=>nrel_section_base_order:
+		mois_part4;;
+	*);
+	mois_part4
+	(*
+		=>nrel_section_base_order:
+		mois_part5;;
+	*);
+	mois_part5
+	(*
+		=>nrel_section_base_order:
+		mois_part6;;
+	*);
+	mois_part6
+	(*
+		=>nrel_section_base_order:
+		mois_part7;;
+	*);
+	mois_part7
+	(*
+		=>nrel_section_base_order:
+		mois_part8;;
+	*);
+	mois_part8
+	(*
+		=>nrel_section_base_order:
+		mois_part9;;
+	*);
+	mois_part9
+	};;
+
+
+mois_part1 => nrel_main_idtf:[Элементы теории множеств] (* <-lang_ru;; *);;
+mois_part2 => nrel_main_idtf:[Элементы теории отношений] (* <-lang_ru;; *);;
+mois_part3 => nrel_main_idtf:[Элементы теории трафов] (* <-lang_ru;; *);;
+mois_part4 => nrel_main_idtf:[Основы семантического языка описания множеств] (* <-lang_ru;; *);;
+mois_part5 => nrel_main_idtf:[Элементы математической логики] (* <-lang_ru;; *);;
+mois_part6 => nrel_main_idtf:[Формальное описание динамических систем в базе знанний] (* <-lang_ru;; *);;
+mois_part7 => nrel_main_idtf:[Формальное описание задач в базе знаний] (* <-lang_ru;; *);;
+mois_part8 => nrel_main_idtf:[Формальное описание языковых средств в базе знаний] (* <-lang_ru;; *);;
+mois_part9 => nrel_main_idtf:[Абстрактные информационные машины] (* <-lang_ru;; *);;
+
+mois_part1
+	=>nrel_source:[<a href ="http://set-theory.net">Проект по теории множеств</a>]
+	(*
+		=>nrel_format:format_html;;
+	*);;
+mois_part2
+	=>nrel_source:[<a href ="http://set-theory.net">Проект по теории множеств</a>]
+	(*
+		=>nrel_format:format_html;;
+	*);;
+mois_part3
+	=>nrel_source:[<a href ="http://set-theory.net">Проект по теории множеств</a>]
+	(*
+		=>nrel_format:format_html;;
+	*);;
+mois_part4
+	=>nrel_source:[<a href ="http://set-theory.net">Проект по теории множеств</a>]
+	(*
+		=>nrel_format:format_html;;
+	*);;
+mois_part5
+	=>nrel_source:[<a href ="http://set-theory.net">Проект по теории множеств</a>]
+	(*
+		=>nrel_format:format_html;;
+	*);;
+mois_part6
+	=>nrel_source:[<a href ="http://set-theory.net">Проект по теории множеств</a>]
+	(*
+		=>nrel_format:format_html;;
+	*);;
+mois_part7
+	=>nrel_source:[<a href ="http://set-theory.net">Проект по теории множеств</a>]
+	(*
+		=>nrel_format:format_html;;
+	*);;
+mois_part8
+	=>nrel_source:[<a href ="http://set-theory.net">Проект по теории множеств</a>]
+	(*
+		=>nrel_format:format_html;;
+	*);;
+mois_part9
+	=>nrel_source:[<a href ="http://set-theory.net">Проект по теории множеств</a>]
+	(*
+		=>nrel_format:format_html;;
+	*);;
+
+mois => program:"file://mois.pdf";;

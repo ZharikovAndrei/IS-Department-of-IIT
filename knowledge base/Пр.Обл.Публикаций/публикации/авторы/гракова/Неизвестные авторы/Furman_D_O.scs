@@ -1,0 +1,11 @@
+Furman_D_O=> nrel_main_idtf:
+[Фурман Д.О.](*<- lang_ru;;*);
+[Furman D.O.] (*<- lang_en;;*);
+<-person;;
+Furman_D_O -> rrel_email:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [olga.sharpio@gmail.com](*<-lang_en;;*)
+   ;;*)
+   ;;*)
+   ;; 

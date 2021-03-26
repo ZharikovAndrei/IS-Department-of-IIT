@@ -1,0 +1,33 @@
+Jivitskaya_Elena_Nickolaevna=>nrel_main_idtf:
+[Живицкая Елена Николаевна](*<-lang_ru;;*);
+[Jivitskaya Elena Nickolaevna](*<-lang_en;;*);;
+
+Jivitskaya_Elena_Nickolaevna -> rrel_email:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+ [Jivitskaya@bsuir.by](*<-lang_en;;*)
+   ;;*)
+   ;;*)
+   ;;
+
+Jivitskaya_Elena_Nickolaevna -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+ [+375 17 292-45-11];
+ [+375 17 293-85-11];;*)
+   ;;*)
+   ;;
+
+Jivitskaya_Elena_Nickolaevna -> rrel_work_place: aud_225_1;;
+Jivitskaya_Elena_Nickolaevna <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example:
+                       "file://Jivitskaya.jpg";;
+               *);;
+        *);;
+		Jivitskaya_Elena_Nickolaevna<-person;;

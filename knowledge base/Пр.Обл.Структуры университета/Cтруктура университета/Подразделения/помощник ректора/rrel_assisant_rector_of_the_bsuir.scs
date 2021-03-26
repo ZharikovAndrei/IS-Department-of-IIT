@@ -1,0 +1,17 @@
+sc_node_role_relation ->rrel_assisant_rector_of_the_bsuir;; 
+rrel_assisant_rector_of_the_bsuir=> nrel_main_idtf:[помощник ректора'] (* <-lang_ru;; *);;
+rrel_assisant_rector_of_the_bsuir=> nrel_main_idtf:[assistant rector'] (* <-lang_en;; *);;
+rrel_assisant_rector_of_the_bsuir=>nrel_first_domain:concept_division;;
+rrel_assisant_rector_of_the_bsuir=>nrel_second_domain:person;;
+rrel_assisant_rector_of_the_bsuir=>nrel_definitional_domain:...(* <=nrel_combination:...(*->concept_university;; ->concept_person;;*) ;; *);;
+rrel_assisant_rector_of_the_bsuir<- rrel_key_sc_element:
+	... 
+	(*<-sc_definition;;
+     =>nrel_idtf:[Опр.(assistant rector)](*<-lang_ru;;*);;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Помощник ректора - должностное лицо, обеспечивающее помощь ректору в исполнении его обязанностей, во взаимодействии с другими физическими и юридическими лицами. ](* <- lang_ru;; *);;
+		*);;
+	*);;

@@ -1,0 +1,9 @@
+task_22
+	=> nrel_main_idtf:[Создание меню и ссылок](*<-lang_ru;;*);
+	<- project_task;
+	<- basic_project_task;
+	<- important_project_task;
+	<- executable_project_task;
+	=> nrel_executor: Konoval_Darya_Igorevna;;
+
+	

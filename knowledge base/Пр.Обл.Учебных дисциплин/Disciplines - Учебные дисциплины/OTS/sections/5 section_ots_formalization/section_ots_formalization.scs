@@ -1,0 +1,28 @@
+section_ots_formalization
+=> nrel_main_idtf:
+		[Раздел. ОТС. Формализация](* <- lang_ru;; *);
+		[Section. GTS. Formalization](* <-lang_en;; *);
+
+=>nrel_idtf:
+	[Раздел базы знаний общей теории систем, описывающий формализацию](* <- lang_ru;; *);;
+
+section_ots_formalization = [*^"file://section_ots_formalization.scsi"*];;
+
+section_ots_formalization
+->rrel_key_sc_element:
+	subject_domain_of_section;
+	formal_definition_of_the_system;
+	necessity_of_formalization_of_multilevel_systems;
+	main_stages_of_the_formulation_and_analysis_of_tasks;
+	system_described_by_a_difference_equation;
+	optimal_solutions;
+	satisfactory_solutions;
+	decision_making_system;
+	formal_description_of_stratified_systems;
+	fully_stratified_system;
+	stable_stratification;
+	formal_description_of_the_multi_layer_hierarchy;
+	formal_description_of_organizational_hierarchy;;
+
+
+section_ots_formalization=> nrel_section_base_order:section_ots_information_systems;;

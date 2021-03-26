@@ -1,0 +1,30 @@
+sc_node_not_relation -> filmdocument;;
+
+filmdocument => nrel_main_idtf:
+[кинодокумент документ]
+	(*
+	<- lang_ru;;
+	*);
+	[filmdocument] 
+	(*
+	<- lang_en;;
+	*);;
+
+filmdocument <- rrel_key_sc_element: 
+        ...
+	(*
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[кинодокумент документ – документ, созданный кинематографическим способом]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;
+
+document -> filmdocument;;
+
+filmdocument <- iconic_document;;
+
+audio_visual_document -> filmdocument;;

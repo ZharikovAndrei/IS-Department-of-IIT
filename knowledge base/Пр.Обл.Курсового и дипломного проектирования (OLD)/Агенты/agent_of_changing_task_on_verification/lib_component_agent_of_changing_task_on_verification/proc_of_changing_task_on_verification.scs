@@ -1,0 +1,93 @@
+scp_program -> proc_of_changing_task_on_verification (*
+  -> rrel_params: ... (*
+    //Place your params here
+    //-> rrel_1: rrel_scp_var: rrel_fixed: rrel_in: _parameter;;
+     -> rrel_1: rrel_in: _task;; 
+ -> rrel_2: rrel_out: _answer;; 
+
+  *);;
+  -> rrel_operators: ... (*
+    ->  rrel_init: .proc_of_changing_task_state_on_verification_operator1A1 
+	(*
+		<- searchElStr3;;
+		-> rrel_1: rrel_fixed: rrel_scp_const: project_task_optimization;;
+		-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
+		-> rrel_3: rrel_fixed: rrel_scp_var: _task;;
+		=> nrel_then: .proc_of_changing_task_state_on_verification_operator1A2;;
+		=> nrel_else: .proc_of_changing_task_state_on_verification_operator1B1;;
+	*);;
+	-> .proc_of_changing_task_state_on_verification_operator1A2
+	(*
+		<- eraseEl;;
+		-> rrel_1: rrel_fixed: rrel_scp_var: rrel_erase: _arc1;;
+		=> nrel_goto: .proc_of_changing_task_state_on_verification_operator1B1;;
+	*);;
+	->  .proc_of_changing_task_state_on_verification_operator1B1 
+	(*
+		<- searchElStr3;;
+		-> rrel_1: rrel_fixed: rrel_scp_const: project_verification_task;;
+		-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
+		-> rrel_3: rrel_fixed: rrel_scp_var: _task;;
+		=> nrel_then: .proc_of_changing_task_state_on_verification_operator_return;;
+		=> nrel_else: .proc_of_changing_task_state_on_verification_operator1C1;;
+	*);;
+	->  .proc_of_changing_task_state_on_verification_operator1C1 
+	(*
+		<- searchElStr3;;
+		-> rrel_1: rrel_fixed: rrel_scp_const: innovation_project_task;;
+		-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
+		-> rrel_3: rrel_fixed: rrel_scp_var: _task;;
+		=> nrel_then: .proc_of_changing_task_state_on_verification_operator1C2;;
+		=> nrel_else: .proc_of_changing_task_state_on_verification_operator1D1;;
+	*);;
+	-> .proc_of_changing_task_state_on_verification_operator1C2
+	(*
+		<- eraseEl;;
+		-> rrel_1: rrel_fixed: rrel_scp_var: rrel_erase: _arc1;;
+		=> nrel_goto: .proc_of_changing_task_state_on_verification_operator1D1;;
+	*);;
+	->  .proc_of_changing_task_state_on_verification_operator1D1 
+	(*
+		<- searchElStr3;;
+		-> rrel_1: rrel_fixed: rrel_scp_const: project_task_error_fix;;
+		-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
+		-> rrel_3: rrel_fixed: rrel_scp_var: _task;;
+		=> nrel_then: .proc_of_changing_task_state_on_verification_operator1D2;;
+		=> nrel_else: .proc_of_changing_task_state_on_verification_operator1E1;;
+	*);;
+	-> .proc_of_changing_task_state_on_verification_operator1D2
+	(*
+		<- eraseEl;;
+		-> rrel_1: rrel_fixed: rrel_scp_var: rrel_erase: _arc1;;
+		=> nrel_goto: .proc_of_changing_task_state_on_verification_operator1E1;;
+	*);;
+	->  .proc_of_changing_task_state_on_verification_operator1E1 
+	(*
+		<- searchElStr3;;
+		-> rrel_1: rrel_fixed: rrel_scp_const: basic_project_task;;
+		-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
+		-> rrel_3: rrel_fixed: rrel_scp_var: _task;;
+		=> nrel_then: .proc_of_changing_task_state_on_verification_operator1E2;;
+		=> nrel_else: .proc_of_changing_task_state_on_verification_operator2A;;
+	*);;
+	-> .proc_of_changing_task_state_on_verification_operator1E2
+	(*
+		<- eraseEl;;
+		-> rrel_1: rrel_fixed: rrel_scp_var: rrel_erase: _arc1;;
+		=> nrel_goto: .proc_of_changing_task_state_on_verification_operator2A;;
+	*);;
+	
+	-> .proc_of_changing_task_state_on_verification_operator2A
+	(*
+		<- genElStr3;;
+		-> rrel_1: rrel_fixed: rrel_scp_const: project_verification_task;;
+		-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
+		-> rrel_3: rrel_fixed: rrel_scp_var: _task;;
+		=> nrel_goto: .proc_of_changing_task_state_on_verification_operator_return;;
+	*);;
+	-> .proc_of_changing_task_state_on_innovation_verification_return
+	(*
+		<- return;;
+	*);;
+    *);;
+*);;

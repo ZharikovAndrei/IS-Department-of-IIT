@@ -1,0 +1,29 @@
+sc_node_not_relation -> abstracts_papers_of_scientific_papers;;
+
+abstracts_papers_of_scientific_papers => nrel_main_idtf:
+[тезисы докладов научной конференции]
+	(*
+	<- lang_ru;;
+	*);
+	[abstracts of papers of scientific papers] 
+	(*
+	<- lang_en;;
+	*);;
+
+abstracts_papers_of_scientific_papers <- rrel_key_sc_element: 
+        ...
+	(*
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[тезисы докладов научной конференции – сборник, содержащий опубликованные до начала конференции материалы предварительного характера (аннотации, рефераты докладов и (или) сообщений)]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;
+
+collection -> abstracts_papers_of_scientific_papers;;
+
+unperiodical_collection -> abstracts_papers_of_scientific_papers;;
+

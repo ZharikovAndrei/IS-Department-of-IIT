@@ -1,0 +1,29 @@
+//Степанова М.Д., Самодумкин С.А., Гулякина Н.А., Крючков А.Н. Анализ геоинформационных данных: учеб. пособ.– Минск: БГУИР, 2005. –215 с. 
+
+publication_Stepanova_M_D_2005_AnalyoGD=> nrel_main_idtf:
+[Степанова М.Д. 2005 - АналиГД]
+	(*
+	<- lang_ru;;
+	*);
+	[Stepanova M.D. 2005 - AnalyoGID] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Stepanova_M_D_2005_AnalyoGD => nrel_name_publication:[Анализ геоинформационных данных.](*
+	<- lang_ru;;
+	*);;
+
+publication_Stepanova_M_D_2005_AnalyoGD <= nrel_author:
+Stepanova_M_D; Samodumkin_S_A; Gulyakina_N_A; Kruchkov_A_N;;
+
+publication_Stepanova_M_D_2005_AnalyoGD <- book;;
+
+publication_Stepanova_M_D_2005_AnalyoGD => nrel_reference_standard: [Степанова М.Д., Самодумкин С.А., Гулякина Н.А., Крючков А.Н. Анализ геоинформационных данных: учеб. пособ.– Минск: БГУИР, 2005. –215 с. ];;
+
+publication_Stepanova_M_D_2005_AnalyoGD => nrel_year_publication: 2005;;
+
+publication_Stepanova_M_D_2005_AnalyoGD => nrel_information_publication: Analysis_of_geoinformation_data;;
+
+publication_Stepanova_M_D_2005_AnalyoGD => nrel_count_page: 215;;
+

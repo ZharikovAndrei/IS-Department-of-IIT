@@ -1,0 +1,25 @@
+youth_center_bsuir=>nrel_main_idtf:
+[ОСП "Молодежный центр" БГУИРа](*<-lang_ru;;*);
+[OSB "Youth center" bsuir](*<-lang_en;;*);; 
+youth_center_bsuir=>nrel_pers_comp:personal_composition_of_youth_center_bsuir;;
+personal_composition_of_youth_center_bsuir->rrel_director:Dick_Sergej_Konstantinovich;;
+personal_composition_of_youth_center_bsuir->rrel_vice_director:Davydov_Maxim_Viktorovich;;
+youth_center_bsuir=>nrel_inclusion:accounts_department_of_youth_center_bsuir;;
+youth_center_bsuir -> nrel_address:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [ул. П. Бровки,4, 2-й учебный корпус, каб.421];;*)
+   ;;*)
+   ;; 
+youth_center_bsuir<- rrel_key_sc_element:
+	... 
+	(*<-sc_statement;;
+     =>nrel_main_idtf:[Утв.(молодёжный центр, учреждение образования, университет)](*<-lang_ru;;*);;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Центр является обособленным структурным подразделением Учреждения образования "Белорусский государственный университет информатики и радиоэлектроники". 
+               Правовое положение Центра определяется Уставом Университета и Положением о Молодежном центе БГУИР.](* <- lang_ru;; *);;
+		*);;
+	*);;

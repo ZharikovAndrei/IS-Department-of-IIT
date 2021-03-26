@@ -1,0 +1,9 @@
+secrecy_department_bsuir=>nrel_main_idtf:
+[режимно-секретный отдел БГУИР](*<-lang_ru;;*);
+[secrecy department bsuir](*<-lang_en;;*);;
+
+secrecy_department_bsuir<-concept_secrecy_department;;
+
+
+secrecy_department_bsuir=>nrel_pers_comp:pers_comp_secrecy_department_bsuir;;
+

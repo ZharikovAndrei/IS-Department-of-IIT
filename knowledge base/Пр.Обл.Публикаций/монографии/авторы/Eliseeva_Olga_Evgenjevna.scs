@@ -1,0 +1,16 @@
+Eliseeva_Olga_Evgenjevna
+=>nrel_main_idtf:
+[Елиеева Ольга Евгеньевна](*<-lang_ru;;*);
+[Eliseeva Olga Evgenjevna](*<-lang_en;;*);;
+Eliseeva_Olga_Evgenjevna <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://Елисеева_О.Е.jpg";;
+               *);;
+        *);;
+ Eliseeva_Olga_Evgenjevna<-person;;

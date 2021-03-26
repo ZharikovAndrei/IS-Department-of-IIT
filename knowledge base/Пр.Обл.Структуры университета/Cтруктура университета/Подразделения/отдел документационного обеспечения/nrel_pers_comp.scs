@@ -1,0 +1,8 @@
+sc_node_norole_relation->nrel_pers_comp;;
+nrel_pers_comp=>nrel_main_idtf:
+[персональный состав*](*<-lang_ru;;*);
+[personal composition*](*<-lang_en;;*);;
+
+pers_comp_of_department_of_documentary_maintenance_bsuir->rrel_chief:Murashko_Nadezda_Nikolaevna;;
+pers_comp_of_department_of_documentary_maintenance_bsuir->rrel_head_of_archives:Petrovich_Yliya_Tadeushevna;;
+

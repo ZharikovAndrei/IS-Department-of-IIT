@@ -1,0 +1,26 @@
+sc_node_not_relation -> booklet;;
+
+booklet => nrel_main_idtf:
+[буклет]
+	(*
+	<- lang_ru;;
+	*);
+	[booklet] 
+	(*
+	<- lang_en;;
+	*);;
+
+booklet <- rrel_key_sc_element: 
+        ...
+	(*
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[буклет — печатное издание (программа, проспект, путеводитель и т. п.) на одном листе в виде ширмочки или тетрадки]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;
+
+//sheet_edition -> booklet;;

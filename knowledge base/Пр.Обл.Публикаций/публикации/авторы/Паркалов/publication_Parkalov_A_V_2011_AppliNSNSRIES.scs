@@ -1,0 +1,31 @@
+publication_Parkalov_A_V_2011_AppliNSNSRIES => nrel_main_idtf:
+[Паркалов А.В.2011 - ПримеНиССдСРИЗП]
+	(*
+	<- lang_ru;;
+	*);
+	[Parkalov_A_V_2011_AppliNSNSRIES] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Parkalov_A_V_2011_AppliNSNSRIES => nrel_name_publication:[Применение нейронных и семантических сетей для сегментации растровых изображений земной поверхности](*
+	<- lang_ru;;
+	*);;
+
+publication_Parkalov_A_V_2011_AppliNSNSRIES <= nrel_author:
+Parkalov_A_V;;
+
+publication_Parkalov_A_V_2011_AppliNSNSRIES <- article;;
+
+publication_Parkalov_A_V_2011_AppliNSNSRIES => nrel_reference_standard: [Применение нейронных и семантических сетей для сегментации растровых изображений земной поверхности / Открытые семантические технологии проектирования интеллектуальных систем (OSTIS-2011): материалы Междунар. научн.-техн. конф. Минск, 16-18 февраля 2012 г. - Минск: БГУИР, 2012. с. 527-530.];;
+
+publication_Parkalov_A_V_2011_AppliNSNSRIES => nrel_year_publication: 2012;;
+
+publication_Parkalov_A_V_2011_AppliNSNSRIES => nrel_information_publication: OSTIS2011;;
+
+publication_Parkalov_A_V_2011_AppliNSNSRIES => nrel_number_page: ..2011_AppliNSNSRIES(*
+-> rrel_from : 527;;
+-> rrel_by : 530;;
+*);;
+
+publication_Parkalov_A_V_2011_AppliNSNSRIES <- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://содержимое публикаций/Паркалов_А.В.2012ст-ПримеНиССдСРИЗП.pdf";; *);; *);;

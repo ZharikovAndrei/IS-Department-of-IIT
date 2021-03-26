@@ -1,0 +1,12 @@
+is_of_natural_language_interrface_of_is_of_geometry_team
+=>nrel_main_idtf:
+[Команда разработчиков проекта "Естественно-языковой интерфейс ИСС по геометрии"](*<-lang_ru;;*);
+[The development team of project  "Intelligent system of natural_language_interrface_of_is_of_geometry"](*<-lang_en;;*);
+
+=> nrel_decomposition_of_tasks:is_of_natural_language_interrface_of_is_of_geometry_team_tasks;
+-> rrel_scientific_consultant:Rusetsky_Kirill_Valeryevich;
+
+
+->Bakanovskaya_Anastasia_Alexandrovna;
+->Klementseva_Yulia_Nikolaevna;
+->Yakovets_Roman_Aleksandrovich;;

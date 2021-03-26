@@ -1,0 +1,29 @@
+publication_Parkalov_A_V_2012_SegmeRIES => nrel_main_idtf:
+[Паркалов А.В.2012 - СегмеРИЗП]
+	(*
+	<- lang_ru;;
+	*);
+	[Parkalov_A_V_2012_ SegmeRIES] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Parkalov_A_V_2012_SegmeRIES => nrel_name_publication:[Сегментация растровых изображений земной поверхности](*
+	<- lang_ru;;
+	*);;
+
+publication_Parkalov_A_V_2012_SegmeRIES <= nrel_author:
+Parkalov_A_V;;
+
+publication_Parkalov_A_V_2012_SegmeRIES <- article;;
+
+publication_Parkalov_A_V_2012_SegmeRIES => nrel_reference_standard: [Сегментация растровых изображений земной поверхности / Информационные технологии и управление: материалы 48-й научной конференции аспирантов, магистрантов и студентов. Минск, 7-11 мая 2012 года. с.70];;
+
+publication_Parkalov_A_V_2012_SegmeRIES => nrel_year_publication: 2012;;
+
+publication_Parkalov_A_V_2012_SegmeRIES => nrel_information_publication: Materials_48_scientific_conference_of_post_graduate_students_undergraduates_and_students;;
+
+publication_Parkalov_A_V_2012_SegmeRIES => nrel_number_page: ..2012_SegmeRIES(*
+-> rrel_from : 70;;
+-> rrel_by : 70;;
+*);;

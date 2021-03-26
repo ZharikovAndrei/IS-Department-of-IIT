@@ -1,0 +1,34 @@
+section_ots_selection
+=> nrel_main_idtf:
+	[Раздел. ОТС. Выбор]
+	(* <- lang_ru;; *);
+	[Section. GTS. Selection]
+	(* <- lang_en;; *);
+
+=> nrel_idtf:
+	[Раздел базы знаний общей теории систем, описывающий задачи выбора]
+	(* <- lang_ru;; *);
+<- not_enough_formed_structure;;
+
+section_ots_selection = [*^"file://section_ots_selection.scsi"*];;
+
+section_ots_selection
+-> rrel_key_sc_element:
+	subjdomain_of_selection;
+	alternative;
+	nrel_alternative_type;
+	alternative_type;
+	selection_task;
+	selection_task_type;
+	nrel_selection_task_type;
+    information_retrieval;
+    alternative_search;
+    search_for_an_alternative_with_the_specified_parameters;
+    criterial_selection;
+    random_selection;
+    welled_selection;
+    determinative_alternative;
+    feasible_alternative;
+    stochastic_alternative;;
+
+    section_ots_selection => nrel_section_base_order:section_ots_methods_to_set_a_choice;;

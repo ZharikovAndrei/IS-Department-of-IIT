@@ -1,0 +1,19 @@
+Proceedings_of_the_7th_international_scientific_conference_Distance_Learning_Educational_Environment_of_the_IX_century_2015 => nrel_main_idtf:
+[Дистанционное обучение - образовательная среда XXI века: Материалы IX Междунар. науч.-метод. конференции 2015]
+	(*
+	<- lang_ru;;
+	*);
+	[Proceedings of the 7th international scientific conference Distance Learning Educational Environment of the IX century 2015]
+	(*
+	<- lang_en;;
+	*);;
+Proceedings_of_the_7th_international_scientific_conference_Distance_Learning_Educational_Environment_of_the_IX_century_2015 => nrel_publishing:
+bsuir;;
+
+Proceedings_of_the_7th_international_scientific_conference_Distance_Learning_Educational_Environment_of_the_IX_century_2015 => nrel_place_publication:
+minsk;;
+
+Proceedings_of_the_7th_international_scientific_conference_Distance_Learning_Educational_Environment_of_the_IX_century_2015  <- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://материалы/СборникДО2015.pdf";; *);; *);;
+
+
+

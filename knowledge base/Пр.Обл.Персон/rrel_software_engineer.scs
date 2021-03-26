@@ -1,0 +1,3 @@
+sc_node_role_relation->rrel_software_engineer;;
+rrel_software_engineer=>nrel_main_idtf:
+	[инженер-программист'] (* <-lang_ru;; *);;

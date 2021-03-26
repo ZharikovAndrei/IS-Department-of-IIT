@@ -1,0 +1,20 @@
+sc_node_not_relation->concept_human_resources_department;;
+
+concept_human_resources_department=>nrel_main_idtf:
+[отдел кадров](*<-lang_ru;;*);
+[human resources department](*<-lang_en;;*);; 
+
+
+concept_human_resources_department<-rrel_key_sc_element:
+...
+(*
+=>nrel_idtf:[Опр.(отдел кадров)](*<-lang_ru;;*);;
+<-sc_definition;;
+<=nrel_sc_text_translation:
+...
+(*
+->rrel_example:
+[Отдел кадров - совокупность специализированных подразделений в структуре предприятия, призванных управлять персоналом предприятия в рамках избранной кадровой политики.](*<-lang_ru;;*);;
+*);;
+*);;
+

@@ -1,0 +1,10 @@
+occupational_safety_and_health
+=>nrel_main_idtf: [Охрана труда] (*<-lang_ru;;*);
+=>nrel_main_idtf: [Occupational safety and health] (*<-lang_en;;*);
+<=nrel_trains: the_department_of_engineering_psychology_and_ergonomics;
+<=nrel_class_number: 4(* <-positive_number;;*);
+<=nrel_semester_number: 8(* <-positive_number;;*);
+<=nrel_lecture_hours: 32(*<-positive_number;;*);
+<=nrel_labs_hours: 22(*<-positive_number;;*);
+<=nrel_component: concept_mandatory_component;
+<=nrel_cycle: concept_tsikl_obshcheprofessionalnykh_i_spetsialnykh_distsiplin;;

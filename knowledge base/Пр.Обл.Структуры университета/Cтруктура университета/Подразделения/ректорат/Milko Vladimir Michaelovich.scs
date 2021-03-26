@@ -1,0 +1,35 @@
+Milko_Vladimir_Michaelovich=>nrel_main_idtf:
+[Милько Владимир Михайлович](*<-lang_ru;;*);
+[Milko Vladimir Michaelovich](*<-lang_en;;*);;
+
+Milko_Vladimir_Michaelovich -> rrel_email:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [no_one](*<-lang_en;;*)
+   ;;*)
+   ;;*)
+   ;; 
+
+Milko_Vladimir_Michaelovich -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [+375 17 293-22-30];;*)
+   ;;*)
+   ;; 
+
+Milko_Vladimir_Michaelovich -> rrel_work_place: aud_411_2;;
+
+Milko_Vladimir_Michaelovich <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://Milko.jpg";;
+               *);;
+        *);;
+
+
+

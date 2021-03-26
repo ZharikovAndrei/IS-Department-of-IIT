@@ -1,0 +1,5 @@
+sc_node_not_relation->concept_department_of_repair_of_buildings;;
+concept_department_of_repair_of_buildings=>nrel_main_idtf:
+[отдел по ремонту зданий](*<-lang_ru;;*);
+[department of repair of buildings](*<-lang_en;;*);; 
+concept_department_of_repair_of_buildings->department_of_repair_of_buildings_bsuir;;

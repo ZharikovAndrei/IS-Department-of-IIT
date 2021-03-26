@@ -1,0 +1,37 @@
+suz
+=>nrel_main_idtf:
+	[Системы управления знаниями] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[Knowledge management system] (* <-lang_en;; *);
+=>nrel_abbreviation:[СУЗ];
+<-multiplicity_of_subjects_taught_in_the_2_term_magistracy_specialty_artificial_intelligence;
+
+<-special_subject;
+
+<=nrel_realisation_of_learning_activity:
+laboratory_work_on_suz
+(*=>nrel_main_idtf:
+[Системы управления знаниями.лабораторный практикум] (* <-lang_ru;; *);;=>nrel_planned_hours:34;;
+	=>nrel_realisation_of_intermediate_control:
+		protection_of_laboratory_work;;
+	<-laboratory_work;;
+	*);
+
+	lectures_on_suz
+	(*=>nrel_main_idtf:
+[Системы управления знаниями.лекции] (* <-lang_ru;; *);;=>nrel_planned_hours:34;;
+	=>nrel_realisation_of_intermediate_control:
+		control_work;;
+		<-lecture;;
+	*);
+=>nrel_realisation_of_final_certification: test;
+<-rrel_subject:
+	...
+	(*
+	->rrel_realisation_of_learning_activity: laboratory_work; lecture;;
+	<-nrel_taught_subject;;
+	->rrel_teacher: Golenkov_V_V;;
+	*);
+=>nrel_term: 2;;
+Golenkov_V_V=>nrel_can_teach_subject:suz;suz_z;;
+Golenkov_V_V<=nrel_educational_work:laboratory_work_on_suz_z;laboratory_work_on_suz;lectures_on_suz;lectures_on_suz_z;;

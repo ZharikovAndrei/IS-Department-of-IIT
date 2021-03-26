@@ -1,0 +1,6 @@
+sc_node_not_relation->concept_accounts_department_of_youth_center;;
+
+concept_accounts_department_of_youth_center=>nrel_main_idtf:
+[бухгалтерия ОСП "Молодежный центр"](*<-lang_ru;;*);
+[accounts department of OSB "Youth center"](*<-lang_en;;*);; 
+concept_accounts_department_of_youth_center->accounts_department_of_youth_center_bsuir;;

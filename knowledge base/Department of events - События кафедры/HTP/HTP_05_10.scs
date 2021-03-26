@@ -1,0 +1,43 @@
+HTP_05_10=> nrel_main_idtf:
+[Цикл лекций "Секреты предпринимательства" 5 октября 2015] (* <-lang_ru;; *);
+[Lecture series "Secrets of Entrepreneurship " 5.10.2015] (* <-lang_en;; *);;
+HTP_05_10
+=>nrel_address:[г.Минск, улица Купревича, д.1 к.5](*<-lang_ru;;*);
+<-temporary_entity;;
+HTP_05_10<-
+...
+(*<-exact_value;;
+ <-begin;;
+  =>nrel_translation_in_the_Gregorian_calendar:...
+  (*
+    ->number_of_year:2015;;
+    ->number_of_month_in_year:10;;
+    ->number_of_day_in_month:5;;
+    ->number_of_hour_in_day:11;;
+    ->number_of_minute_in_hour:0;;
+   *);;
+  *);;
+HTP_05_10<-
+...
+(*<-exact_value;;
+ <-completion;;
+  =>nrel_translation_in_the_Gregorian_calendar:...
+  (*
+    ->number_of_year:2015;;
+    ->number_of_month_in_year:10;;
+    ->number_of_day_in_month:5;;
+    ->number_of_hour_in_day:20;;
+    ->number_of_minute_in_hour:0;;
+   *);;
+  *);;
+
+HTP_05_10=>nrel_listener:
+Verenich_Maxim_Sergeevich;
+Malashkevich_Stanislav_Igorevich;
+Khilko_Anastasia_Alexandrovna;
+Kozlovich_Paul_Gennadievich;
+Pakutnik_Dmitry_Viktorovich;
+Bobr_Ilya_Aleksandrovich;
+Ladutenko_Anton_Dmitrievich;
+Dubina_Elena_Alexandrova;;
+

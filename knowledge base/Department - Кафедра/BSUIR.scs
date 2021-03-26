@@ -1,0 +1,78 @@
+concept_the_belorussian_state_university_of_informatics_and_radioelectronics=> nrel_site:
+	[<a href="http://www.bsuir.by/">http://www.bsuir.by/</a>] 
+	(*
+	=> nrel_format:
+		format_html;;
+	*);
+<- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://bsuir_5.jpg";;
+               *);;
+        *);
+
+
+=> nrel_wiki_link:
+	[<a href="http://ru.wikipedia.org/wiki/%D0%91%D0%B5%D0%BB%D0%BE%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9_%D0%B3%D0%BE%D1%81%D1%83%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D1%83%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82_%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B8_%D0%B8_%D1%80%D0%B0%D0%B4%D0%B8%D0%BE%D1%8D%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D0%BD%D0%B8%D0%BA%D0%B8">Белорусский государственный университет информатики и радиоэлектроники</a>"] 
+	(*
+	<- lang_ru;;
+	=> nrel_format:
+		format_html;;
+	*);;
+/*=>nrel_staff_employee:
+		Golenkov_V_V;
+		Gulyakina_Natalia_Anatolxevna;
+		Kachkov_V_P;
+		Kolb_D_G;
+		Stepanova_M_D;
+		Samodumkin_S_A;
+		Grakova_N_V;
+		Davydenko_I_T;
+		Ivashenko_V_P;
+		Shunkevich_D_V;
+		Koronchik_D_N;
+		Uvarov_K_A;
+
+
+=>nrel_hourly_work_employee:
+	...
+	(*
+		->Rusetsky_K_V;;
+	*);
+
+=>nrel_pooh_bah:
+	...
+	(*
+		->rreal_external_pooh_bah:
+		...
+		(*
+			->Zakharov_V_V;;
+			->Romanov_V_I;;
+			->Zhukov_I_I;;
+			->Parkalov_A_V;;
+			->Lapkovskaya_Nadezhda_Pavlovna;;
+			->Shalev_Eugene_Gennadevich;;
+		*);;
+		->rreal_internal_pooh_bah:
+		...
+		(*
+			->Lucina_Tatyana_Leonidovna;;
+			->Samodumkin_S_A;;
+			->Golenkov_V_V;;
+			->Gulyakina_Natalia_Anatolxevna;;
+		*);;
+*);;
+sc_node_norole_relation->nrel_hourly_work_employee;nrel_pooh_bah;nrel_staff_employee;;
+sc_node_role_relation->rreal_external_pooh_bah;rreal_internal_pooh_bah;;
+rreal_external_pooh_bah
+=>nrel_main_idtf:
+	[внешний совместитель'] (* <-lang_ru;; *);;
+
+rreal_internal_pooh_bah
+=>nrel_main_idtf:
+	[внутренний совместитель'] (* <-lang_ru;; *);;*/

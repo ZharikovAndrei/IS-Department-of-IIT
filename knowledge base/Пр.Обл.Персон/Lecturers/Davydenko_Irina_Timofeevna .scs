@@ -1,0 +1,46 @@
+Davydenko_I_T
+=>nrel_main_idtf:
+[Давыденко И.Т.](*<-lang_ru;;*);
+=>nrel_idtf:
+[Давыденко Ирина Тимофеевна](*<-lang_ru;;*);
+=>nrel_idtf:
+[Davydenko Irina](*<-lang_en;;*);
+
+<-person;
+<-ui_user;
+
+<- rrel_key_sc_element:
+        ...
+        (*
+        <-illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example:
+                       "file://photos/Davydenko.jpeg";;
+               *);;
+        *);;
+
+Davydenko_I_T -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+ [+375 17 293-89-33];;*)
+   ;;*)
+   ;;
+Davydenko_I_T -> rrel_work_place: aud_609_5;;
+Davydenko_I_T -> rrel_email:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+ [davydenko@bsuir.by](*<-lang_en;;*)
+   ;;*)
+   ;;*)
+   ;;
+
+Davydenko_I_T=>nrel_fields_of_scientific_research:[Модели, методы и средства проектирования баз знаний];;
+Davydenko_I_T <- teacher;;
+Davydenko_I_T => nrel_can_teach_subject: mois;pbz;tiit;;
+Davydenko_I_T=>nrel_rate:1;;
+
+Davydenko_I_T<=nrel_educational_work:lectures_on_pbz_4_year_2;;
+Davydenko_I_T=>nrel_load:0;;
+0<=nrel_sum_of_numbers:...;;

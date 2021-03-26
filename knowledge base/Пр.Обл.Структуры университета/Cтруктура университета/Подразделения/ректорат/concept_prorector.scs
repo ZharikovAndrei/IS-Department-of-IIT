@@ -1,0 +1,28 @@
+sc_node_not_relation -> concept_prorector;;
+concept_prorector => nrel_main_idtf:[проректор] (* <-lang_ru;; *);;
+concept_prorector => nrel_main_idtf:[rector assistant] (* <-lang_en;; *);;
+concept_prorector<- rrel_key_sc_element:
+	... 
+	(*<-sc_definition;;
+     =>nrel_idtf:[Опр.(Проректор)](*<-lang_ru;;*);;
+     <=nrel_using_constants:...(*->nrel_university;;*);;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[ Заместитель ректора высшего учебного заведения по какому-либо направлению работы вуза.](* <- lang_ru;; *);;
+		*);;
+	*);;
+concept_prorector <- rrel_key_sc_element:
+	... 
+	(*<-sc_statement;;
+     =>nrel_idtf:[Утв.(квалификация,профессиональное образование, стаж работы,образовательное учреждение,научно-педагогическая работа)](*<-lang_ru;;*);;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+[Требования к квалификации проректора:
+       Высшее профессиональное образование и стаж научно-педагогической работы или работы в организациях по направлению профессиональной деятельности, соответствующей деятельности образовательного учреждения, не менее 5 лет, при наличии ученой степени стаж работы не менее 3 лет.](* <- lang_ru;; *);;
+		*);;
+	*);;
+

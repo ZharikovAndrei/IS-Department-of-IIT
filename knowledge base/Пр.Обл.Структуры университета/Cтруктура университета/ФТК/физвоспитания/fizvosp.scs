@@ -1,0 +1,80 @@
+the_department_of_physical_education=>nrel_main_idtf:
+[Кафедра физвоспитания](*<-lang_ru;;*);
+[the department of physical education](*<-lang_en;;*);; 
+
+the_department_of_physical_education=>nrel_idtf:[ФИЗВОСП](*<-lang_ru;;*);;
+the_department_of_physical_education=>nrel_idtf:[PHYSEDUC](*<-lang_en;;*);;
+
+
+
+pers_comp_of_fizv -> rrel_head_of_department: header_of_fizv;;
+
+the_department_of_physical_education => nrel_info: fizv_info;;
+
+the_department_of_physical_education => nrel_pers_comp: pers_comp_of_fizv;;
+
+
+
+
+header_of_fizv=>nrel_main_idtf:
+[Петров Николай Яковлевич](*<-lang_ru;;*);
+[Petrov Nikolai Yakovlevich](*<-lang_en;;*);;
+
+
+
+fizv_info=>nrel_main_idtf:
+[информация о кафедре ФИЗВОСП](*<-lang_ru;;*);
+[the information about the department of PHYSEDUC](*<-lang_en;;*);; 
+
+
+pers_comp_of_fizv=>nrel_main_idtf:
+[персональный состав кафедры ФИЗВОСП](*<-lang_ru;;*);
+[the personal composition of the department of PHYSEDUC](*<-lang_en;;*);; 
+
+
+
+
+header_of_fizv <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://../../../image/fizvosp2.jpg";;
+               *);;
+        *);;
+
+
+
+pers_comp_of_fizv <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://../../../image/fizvosp1.jpg";;
+               *);;
+        *);;
+
+
+
+
+fizv_info <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [О кафедре] (* <- lang_ru;; *);;
+	<- sc_task;;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Кафедра физического воспитания образована в 1964 году. Основная цель физического воспитания в университете: укрепление здоровья студентов, содействие их духовному, нравственному и физическому развитию на базе овладения глубокими общенаучными и специальными знаниями, полной реализации творческих способностей в условиях здорового образа жизни.
+Крепко вошли в жизнь студентов и сотрудников физическая культура и спорт. В настоящее время на кафедре работает 48 преподавателей. Среди них 2 профессора, 8 кандидатов наук, доцентов, 3 заслуженных тренера Республики Беларусь.
+Коллектив университета постоянно находится среди лидеров студенческого спорта по учебной, спортивно - массовой и физкультурно-оздоровительной работе. В его стенах повышали своё мастерство выдающиеся спортсмены - олимпийский чемпион баскетболист И. Едешко, А. Медведь - трёхкратный олимпийский чемпион, семикратный чемпион мира, девятикратный чемпион СССР по вольной борьбе, почётный гражданин г. Минска. ](* <- lang_ru;; *);;
+		*);;
+	*);;
+

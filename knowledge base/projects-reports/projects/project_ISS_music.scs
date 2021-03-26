@@ -1,0 +1,15 @@
+project_ISS_music
+      => nrel_main_idtf:[Интеллектуальная справочная система по музыкальной грамоте] (* <-lang_ru;; *);
+      => nrel_main_idtf:[Intelligent help system for music literacy] (* <-lang_en;; *);
+      => nrel_synonymy:[35e/музыка];;
+
+project_ISS_music <- student_project;;
+project_ISS_music => nrel_reports: report_ISS; report_IS_individual_learning;;
+
+// project_ISS_music => nrel_project_leader: Ivashenko_V_P ;;
+// project_ISS_music=> nrel_performers: ;;
+// project_ISS_music ->rrel_responsible_executor: ;;
+//  project_ISS_music => nrel_main_students: ;;
+//  project_ISS_music=> nrel_sections_KB_IMS: ;;
+//  project_ISS_music=> nrel_reports_OSTIS2017: ;;
+//  project_ISS_music=> nrel_related_projects: ;;

@@ -1,0 +1,13 @@
+Lushchyk_Sergey_Vladimirovich=>nrel_main_idtf:
+[Лущик Сергей Владимирович](*<-lang_ru;;*);
+[Lushchyk Sergey Vladimirovich](*<-lang_en;;*);;
+
+Kopitov_Nicholay_Grigorievich -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [+375 17 293-89-00];;*)
+   ;;*)
+   ;; 
+
+Kopitov_Nicholay_Grigorievich -> rrel_work_place: aud_415_2;;
+Lushchyk_Sergey_Vladimirovich <- person;;

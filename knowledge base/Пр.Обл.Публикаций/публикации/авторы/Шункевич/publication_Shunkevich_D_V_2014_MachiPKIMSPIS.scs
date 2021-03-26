@@ -1,0 +1,30 @@
+publication_Shunkevich_D_V_2014_MachiPKIMSPIS => nrel_main_idtf:
+[Шункевич Д.В. 2014 - МашинОЗИМППИС]
+	(*
+	<- lang_ru;;
+	*);
+	[Shunkevich_D_V_2014_MachiPKIMSPIS] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Shunkevich_D_V_2014_MachiPKIMSPIS => nrel_name_publication:[Машина обработки знаний интеллектуальной метасистемы поддержки проектирования интеллектуальных систем.](*
+	<- lang_ru;;
+	*);;
+
+publication_Shunkevich_D_V_2014_MachiPKIMSPIS <= nrel_author:
+Shunkevich_D_V;;
+
+publication_Shunkevich_D_V_2014_MachiPKIMSPIS <- article;;
+
+publication_Shunkevich_D_V_2014_MachiPKIMSPIS => nrel_reference_standard: [Шункевич Д.В. Машина обработки знаний интеллектуальной метасистемы поддержки проектирования интеллектуальных систем. Открытые семантические технологии интеллектуальных систем (Ostis-2014): Материалы IV международной науч.-тех. конф (Минск, 20-22 февраля 2014г.) Минск: БГУИР,2014. – с.93-96];;
+
+publication_Shunkevich_D_V_2014_MachiPKIMSPIS => nrel_year_publication: 2014;;
+
+publication_Shunkevich_D_V_2014_MachiPKIMSPIS => nrel_information_publication:OSTIS2014;;
+
+publication_Shunkevich_D_V_2014_MachiPKIMSPIS => nrel_number_page: ..2014_MachiPKIMSPIS(*
+-> rrel_from : 93;;
+-> rrel_by : 96;;
+*);;
+publication_Shunkevich_D_V_2014_MachiPKIMSPIS <- rrel_key_sc_element: ... (* <- sc_explanation;; <= nrel_sc_text_translation: ... (* -> rrel_example: "file://содержимое публикаций/07._Шункевич_Д.В._-_МашинОЗИМППИС.pdf";; *);; *);;

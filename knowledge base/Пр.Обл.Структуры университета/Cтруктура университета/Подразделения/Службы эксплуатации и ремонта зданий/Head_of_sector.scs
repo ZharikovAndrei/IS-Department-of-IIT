@@ -1,0 +1,12 @@
+Head_of_sector=>nrel_main_idtf:
+[Голубева Марианна Евгеньевна](*<-lang_ru;;*);
+[Golubeva Marianna Yevgen'yevna](*<-lang_en;;*);;
+
+Head_of_sector -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [+375 17 293-23-47];;*)
+   ;;*)
+   ;; 
+
+Head_of_sector -> rrel_work_place: aud_415_2;;

@@ -1,0 +1,29 @@
+sc_node_not_relation -> textbook_self_instruction;;
+textbook_self_instruction => nrel_main_idtf:
+[самоучитель]
+	(*
+	<- lang_ru;;
+	*);
+	[textbook for self-instruction] 
+	(*
+	<- lang_en;;
+	*);;
+
+
+textbook_self_instruction <- rrel_key_sc_element: 
+        ...
+	(*
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[самоучитель – это учебное издание для самостоятельного изучения чего-либо без помощи руководителя]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;
+
+
+textbook_self_instruction <- educational_edition;;
+
+textbook_self_instruction <- edition;;

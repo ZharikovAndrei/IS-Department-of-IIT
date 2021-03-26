@@ -1,0 +1,158 @@
+knowledge_base_of_intellectual_system_of_support_for_the_activities_of_the_department_of_IIT <= nrel_section_decomposition:
+	{
+	section_of_the_department_of_iit;
+	context_of_the_department_of_IIT_within_Global_knowledge_base;
+	documentation_of_intellectual_system_of_support_for_the_activities_of_the_department_of_IIT;
+	history_and_current_processes_operating_of_intellectual_system_of_support_for_the_activities_of_the_department_of_IIT;
+	section_of_the_project_intellectual_system_of_support_for_the_activities_of_the_department_of_IIT
+	};;
+
+//knowledge_base_of_intellectual_system_of_support_for_the_activities_of_the_department_of_IIT <- ui_start_sc_element;;
+	
+
+
+knowledge_base_of_intellectual_system_of_support_for_the_activities_of_the_department_of_IIT => nrel_main_idtf: [База знаний Интеллектуальной системы поддержки деятельности кафедры ИИТ] (*<- lang_ru;; *);;
+section_of_the_department_of_iit => nrel_main_idtf: [Раздел. Кафедра ИИТ] (*<- lang_ru;; *);;
+context_of_the_department_of_IIT_within_Global_knowledge_base => nrel_main_idtf: [Контекст Кафедры ИИТ в рамках Глобальной базы знаний] (*<- lang_ru;; *);;
+documentation_of_intellectual_system_of_support_for_the_activities_of_the_department_of_IIT => nrel_main_idtf: [Документация. Интеллектальная система поддержки деятельности кафедры ИИТ] (* <- lang_ru;; *);;
+history_and_current_processes_operating_of_intellectual_system_of_support_for_the_activities_of_the_department_of_IIT => nrel_main_idtf:[История и текущие процессы эксплуатации Интеллектуальной справочной системы поддержки деятельности кафедры ИИТ] (*<- lang_ru;; *);;
+section_of_the_project_intellectual_system_of_support_for_the_activities_of_the_department_of_IIT => nrel_main_idtf: [Раздел. Проект Интеллектуальная система поддержки деятельности кафедры ИИТ. История текущих запросов и план развития Интеллектуальной справочной системы поддержки деятельности кафедры ИИТ] (* <- lang_ru;; *);;
+
+documentation_of_intellectual_system_of_support_for_the_activities_of_the_department_of_IIT <= nrel_section_decomposition:
+	{
+	rationale_for_developing_intellectual_system_of_support_for_the_activities_of_the_department_of_IIT;
+	rationale_for_choice_intellectual_system_of_support_for_the_activities_of_the_department_of_IIT;
+	structure_knowledge_base_of_intellectual_system_of_support_for_the_activities_of_the_department_of_IIT;
+	structure_knowledge_processing_machine_of_intellectual_system_of_support_for_the_activities_of_the_department_of_IIT;
+	structure_knowledge_user_interface_of_intellectual_system_of_support_for_the_activities_of_the_department_of_IIT;	section_subsystem_of_intellectual_system_of_support_for_the_activities_of_the_department_of_IIT_for_consultation_maintenance_and_use_training;
+	section_subsystem_of_intellectual_system_of_support_for_the_activities_of_the_department_of_IIT_for_automation;
+	section_subsystem_of_intellectual_system_of_support_for_the_activities_of_the_department_of_IIT_for_management_design;
+	section_subsystem_of_intellectual_system_of_support_for_the_activities_of_the_department_of_IIT_for_management_information_security
+	};;
+	
+//section_of_the_department_of_iit = [*^"file://subject_domain_of_IS.scsi"*];;
+
+rationale_for_developing_intellectual_system_of_support_for_the_activities_of_the_department_of_IIT => nrel_main_idtf: [Раздел. Обоснование разработки Интеллектуальная системы поддержки деятельности кафедры ИИТ] (* <- lang_ru;; *);;
+rationale_for_choice_intellectual_system_of_support_for_the_activities_of_the_department_of_IIT => nrel_main_idtf: [Раздел. Обоснование выбора платформы реализации Интеллектуальной системы поддержки деятельности кафедры ИИТ] (* <- lang_ru;; *);;
+structure_knowledge_base_of_intellectual_system_of_support_for_the_activities_of_the_department_of_IIT => nrel_main_idtf: [Структура. База знаний ИСС поддержки деятельности кафедры ИИТ ] (* <- lang_ru;; *);;
+structure_knowledge_processing_machine_of_intellectual_system_of_support_for_the_activities_of_the_department_of_IIT => nrel_main_idtf: [Документация. Машина обработки знаний ИСС поддержки деятельности кафедры ИИТ] (* <- lang_ru;; *);;
+structure_knowledge_user_interface_of_intellectual_system_of_support_for_the_activities_of_the_department_of_IIT => nrel_main_idtf: [Документация. Пользовательский интерфейс ИСС поддержки деятельности кафедры ИИТ] (* <- lang_ru;; *);;
+section_subsystem_of_intellectual_system_of_support_for_the_activities_of_the_department_of_IIT_for_consultation_maintenance_and_use_training => nrel_main_idtf: [Документация. Подсистема консультационного обслуживания и обучения конечных пользователей Интеллектуальной системы поддержки деятельности кафедры ИИТ] (* <- lang_ru;; *);;
+section_subsystem_of_intellectual_system_of_support_for_the_activities_of_the_department_of_IIT_for_automation => nrel_main_idtf: [Документация. Подсистема автоматизации проектирования  Интеллектуальной системы поддержки деятельности кафедры ИИТ] (* <- lang_ru;; *);;
+section_subsystem_of_intellectual_system_of_support_for_the_activities_of_the_department_of_IIT_for_management_design => nrel_main_idtf: [Документация. Подсистема управления проектированием  Интеллектуальной системы поддержки деятельности кафедры ИИТ] (* <- lang_ru;; *);;
+section_subsystem_of_intellectual_system_of_support_for_the_activities_of_the_department_of_IIT_for_management_information_security => nrel_main_idtf: [Документация. Подсистема управления информационной безопасностью Интеллектуальной системы поддержки деятельности кафедры ИИТ] (* <- lang_ru;; *);;
+
+
+
+
+rationale_for_developing_intellectual_system_of_support_for_the_activities_of_the_department_of_IIT <= nrel_section_decomposition:
+	{
+	section_type_function_and_composition_of_intellectual_system_of_support_for_the_activities_of_the_department_of_IIT;
+        section_relevance_IS_department_IIT;
+	section_analogues_of_intellectual_system_of_support_for_the_activities_of_the_department_of_IIT;
+	section_attempts_to_address_defects_of_intellectual_system_of_support_for_the_activities_of_the_department_of_IIT;
+	section_what_stops_corrective_action_analogues_of_intellectual_system_of_support_for_the_activities_of_the_department_of_IIT;
+	section_principles_of_intellectual_system_of_support_for_the_activities_of_the_department_of_IIT;
+	section_background_of_intellectual_system_of_support_for_the_activities_of_the_department_of_IIT;
+	section_features_used_for_comparative_analysis_of_intellectual_system_of_support_for_the_activities_of_the_department_of_IIT;
+	section_competitive_advantages_of_intellectual_system_of_support_for_the_activities_of_the_department_of_IIT;
+	section_novelty_of_solutions_of_intellectual_system_of_support_for_the_activities_of_the_department_of_IIT;
+	section_project_of_intellectual_system_of_support_for_the_activities_of_the_department_of_IIT_dialog
+	};;
+
+section_type_function_and_composition_of_intellectual_system_of_support_for_the_activities_of_the_department_of_IIT => nrel_main_idtf: [Раздел. Тип, назначение и состав ИСС поддержки деятельности кафедры ИИТ] (* <- lang_ru;; *);;
+
+section_analogues_of_intellectual_system_of_support_for_the_activities_of_the_department_of_IIT => nrel_main_idtf: [Раздел. Аналоги ИСС поддержки деятельности кафедры ИИТ и их недостатки] (* <- lang_ru;; *);;
+
+section_attempts_to_address_defects_of_intellectual_system_of_support_for_the_activities_of_the_department_of_IIT => nrel_main_idtf: [Раздел. Попытки устранения недостатков аналогов ИСС поддержки деятельности кафедры ИИТ] (* <- lang_ru;; *);;
+
+section_what_stops_corrective_action_analogues_of_intellectual_system_of_support_for_the_activities_of_the_department_of_IIT => nrel_main_idtf: [Раздел. Что препятствует устранению недостатков аналогов
+ИСС поддержки деятельности кафедры ИИТ] (* <- lang_ru;; *);;
+
+section_principles_of_intellectual_system_of_support_for_the_activities_of_the_department_of_IIT => nrel_main_idtf: [Раздел. Принципы, лежащие в основе ИСС поддержки деятельности кафедры ИИТ] (* <- lang_ru;; *);;
+
+section_background_of_intellectual_system_of_support_for_the_activities_of_the_department_of_IIT => nrel_main_idtf: [Раздел. Предпосылки создания ИСС поддержки деятельности кафедры ИИТ] (* <- lang_ru;; *);;
+
+section_features_used_for_comparative_analysis_of_intellectual_system_of_support_for_the_activities_of_the_department_of_IIT => nrel_main_idtf: [Раздел. Характеристики, используемые для сравнительного анализа ИСС поддержки деятельности кафедры ИИТ, и набор тестовых задач] (* <- lang_ru;; *);;
+
+section_competitive_advantages_of_intellectual_system_of_support_for_the_activities_of_the_department_of_IIT => nrel_main_idtf: [Раздел. Конкурентные преимущества и ИСС поддержки деятельности кафедры ИИТ] (* <- lang_ru;; *);;
+
+section_novelty_of_solutions_of_intellectual_system_of_support_for_the_activities_of_the_department_of_IIT => nrel_main_idtf: [Раздел. Новизна решений, реализуемых в ИСС поддержки деятельности кафедры ИИТ] (* <- lang_ru;; *);;
+
+section_project_of_intellectual_system_of_support_for_the_activities_of_the_department_of_IIT_dialog => nrel_main_idtf: [Раздел. Пример диалога пользователя с ИСС поддержки деятельности кафедры ИИТ, демонстрирующий ее возможности и достоинства] (* <- lang_ru;; *);;
+
+
+
+
+section_of_the_project_intellectual_system_of_support_for_the_activities_of_the_department_of_IIT <= nrel_section_decomposition:
+{
+the_history_of_development_of_intellectual_system_of_support_for_the_activities_of_the_department_of_IIT;
+current_processes_of_development_of_intellectual_system_of_support_for_the_activities_of_the_department_of_IIT;
+development_plan_of_intellectual_system_of_support_for_the_activities_of_the_department_of_IIT
+};;
+
+
+
+the_history_of_development_of_intellectual_system_of_support_for_the_activities_of_the_department_of_IIT => nrel_main_idtf: [История развития Интеллектуальной системы поддержки деятельности кафедры ИИТ] (* <- lang_ru;; *);;
+
+current_processes_of_development_of_intellectual_system_of_support_for_the_activities_of_the_department_of_IIT => nrel_main_idtf: [Текущие процессы развития Интеллектуальной системы поддержки деятельности кафедры ИИТ] (* <- lang_ru;; *);;
+
+development_plan_of_intellectual_system_of_support_for_the_activities_of_the_department_of_IIT => nrel_main_idtf: [План развития Интеллектуальной системы поддержки деятельности кафедры ИИТ] (* <- lang_ru;; *);;
+
+
+
+section_project_of_intellectual_system_of_support_for_the_activities_of_the_department_of_IIT_dialog <- rrel_key_sc_element:
+...
+(*
+<- sc_explanation;;
+<= nrel_sc_text_translation:
+...
+(*
+-> rrel_example:
+"file://Демонстрационный диалог v.1.0.pdf";;
+*);;
+*);;
+
+section_analogues_of_intellectual_system_of_support_for_the_activities_of_the_department_of_IIT <- rrel_key_sc_element:
+...
+(*
+<- sc_explanation;;
+<= nrel_sc_text_translation:
+...
+(*
+-> rrel_example:
+"file://section_analogues.pdf";;
+*);;
+*);;
+
+
+section_type_function_and_composition_of_intellectual_system_of_support_for_the_activities_of_the_department_of_IIT <- rrel_key_sc_element:
+...
+(*
+<- sc_explanation;;
+<= nrel_sc_text_translation:
+...
+(*
+-> rrel_example:
+"file://section_type_function_structure.pdf";;
+*);;
+*);;
+
+section_competitive_advantages_of_intellectual_system_of_support_for_the_activities_of_the_department_of_IIT <- rrel_key_sc_element:
+...
+(*
+<- sc_explanation;;
+<= nrel_sc_text_translation:
+...
+(*
+-> rrel_example:
+"file://section_advantages_and_benefits.pdf";;
+*);;
+*);;
+
+
+context_of_the_department_of_IIT_within_Global_knowledge_base <= nrel_section_decomposition:
+{
+Section_Specialization_of_document
+};;
+

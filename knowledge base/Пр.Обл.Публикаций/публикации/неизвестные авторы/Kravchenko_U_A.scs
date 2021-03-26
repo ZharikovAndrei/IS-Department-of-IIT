@@ -1,0 +1,11 @@
+//sc_node_not_relation -> Kravchenko_U_A;;
+
+Kravchenko_U_A => nrel_main_idtf:
+[Кравченко Ю.А.]
+	(*
+	<- lang_ru;;
+	*);
+	[Kravchenko U.A.]
+	(*
+	<- lang_en;;
+	*);;

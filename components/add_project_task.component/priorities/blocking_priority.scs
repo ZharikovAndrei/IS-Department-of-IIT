@@ -1,0 +1,19 @@
+blocking_priority
+
+=>nrel_main_idtf:
+[блокирующий приоритет](*<-lang_ru;;*);
+[blocking priority](*<-lang_en;;*);
+
+<-rrel_key_sc_element_of_subject_domain:
+section_subject_domain_of_desingning_management;
+
+<-rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [блокирующий приоритет – это приоритет проектной задачи, предполагающий ее немедленное выполнение, так как в ином случае дальнейшая реализация проекта будет приостановлена](* <-lang_ru;; *);; 
+		*);;
+	*);;

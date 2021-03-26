@@ -1,0 +1,12 @@
+time_point
+=>nrel_main_idtf:[временная точка](* <-lang_ru;; *);
+->rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> [временная точка - найменьший элемент периода времени.] (* <-lang_ru;; *);; 
+		*);;
+	*);;

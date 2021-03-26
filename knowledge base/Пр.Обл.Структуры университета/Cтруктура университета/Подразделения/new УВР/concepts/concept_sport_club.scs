@@ -1,0 +1,18 @@
+sc_node_not_relation->concept_sport_club;;
+
+concept_sport_club=>nrel_main_idtf:
+[спортивный клуб](*<-lang_ru;;*);
+[sport club](*<-lang_en;;*);; 
+
+concept_sport_club<-rrel_key_sc_element:
+...
+(*
+=>nrel_main_idtf:[Опр.(спортивный клуб)](*<-lang_ru;;*);;
+<-sc_definition;;
+<=nrel_sc_text_translation:
+...	
+(*
+->rrel_example:
+[Спортивный клуб - общественная или частная организация, объединяющая спортсменов и любителей спорта.](*<-lang_ru;;*);;
+*);;
+*);;

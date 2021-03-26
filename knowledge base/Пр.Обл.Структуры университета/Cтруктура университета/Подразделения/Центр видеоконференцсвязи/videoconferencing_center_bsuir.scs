@@ -1,0 +1,9 @@
+videoconferencing_center_bsuir=> nrel_main_idtf:
+	[центр видеоконференцсвязи БГУИРа] (* <-lang_ru;; *);
+	[videoconferencing center of BSUIR] (* <-lang_en;; *);;
+
+videoconferencing_center_bsuir<-concept_videoconferencing_center;;
+
+videoconferencing_center_bsuir => nrel_inclusion: department_of_telecommunications; videoconferencing_sector;;
+
+videoconferencing_center_bsuir=>nrel_pers_comp: personal_composition_of_videoconferencing_center_bsuir;;

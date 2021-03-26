@@ -1,0 +1,12 @@
+sc_node_not_relation -> art_reproduction;;
+
+art_reproduction => nrel_main_idtf:
+[художественная репродукция]
+	(*
+	<- lang_ru;;
+	*);
+	[art reproduction] 
+	(*
+	<- lang_en;;
+	*);;
+

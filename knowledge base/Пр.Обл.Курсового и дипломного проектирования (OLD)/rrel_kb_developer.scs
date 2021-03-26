@@ -1,0 +1,9 @@
+rrel_kb_developer
+	<- sc_node_role_relation;
+	=> nrel_main_idtf:[разработчик БЗ'](*<-lang_ru;;*);
+	=> nrel_main_idtf:[kb developer'](*<-lang_en;;*);
+	<- rrel_key_sc_element: ...
+                                  (* <- concept_sc_defenition;;
+ 							   <= nrel_sc_text_translation: ... (*-> [Разработчик машины обработки знаний - персона, ведущая разработку машишны обработки знаний.] (*<- lang_ru;;*);; *);;
+                                      => nrel_main_idtf: [Опр. (разработчик БЗ)] (*<- lang_ru;;*);;
+                                  *);;

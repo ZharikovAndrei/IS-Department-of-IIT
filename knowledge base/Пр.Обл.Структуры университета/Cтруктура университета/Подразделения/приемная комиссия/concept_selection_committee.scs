@@ -1,0 +1,26 @@
+sc_node_not_relation -> concept_selection_committee;; 
+concept_selection_committee=> nrel_main_idtf:[Приемная комиссия] (* <-lang_ru;; *);;
+concept_selection_committee=> nrel_main_idtf:[Selection committee] (* <-lang_en;; *);;
+concept_selection_committee<- rrel_key_sc_element:
+	... 
+	(*<-sc_definition;;
+     =>nrel_main_idtf:[Опр.(Приемная комиссия)](*<-lang_ru;;*);;
+     <=nrel_using_constants:...(*->nrel_university;; *);;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[ Приемная комиссия - группа людей, занимающаяся приемом документов абитуриентов, поступающих в университет.](* <- lang_ru;; *);;
+		*);;
+*);;
+concept_selection_committee <- rrel_key_sc_element:
+	... 
+	(*<-sc_statement;;
+     =>nrel_main_idtf:[Утв.(университет, состав*,ректор)](*<-lang_ru;;*);;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Одная из функций приемной комиссии - организация работы по оформлению документов лиц, поступающих в БГУИР, ведения регистрационных журналов и другой документации.](* <- lang_ru;; *);;
+		*);;
+	*);;

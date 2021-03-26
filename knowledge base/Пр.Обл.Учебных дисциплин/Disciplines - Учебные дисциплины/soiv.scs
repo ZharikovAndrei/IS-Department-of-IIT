@@ -1,0 +1,82 @@
+soiv
+=>nrel_main_idtf:
+	[Статистические основы индуктивного вывода] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[Statistical foundations of inductive output] (* <-lang_en;; *);
+=>nrel_abbreviation:[СОИВ];
+
+<-special_subject;
+
+<=nrel_subdividing:
+		soiv_4_year_education
+			(*
+				<-multiplicity_of_subjects_taught_in_the_6_term_specialty_artificial_intelligence_4_year_education;;
+				<=nrel_realisation_of_learning_activity:
+
+					lectures_on_soiv_4_year_education
+					(*=>nrel_main_idtf:
+[Статистические основы индуктивного вывода по 4-летней программе.лекции] (* <-lang_ru;; *);;
+=>nrel_planned_hours:34;;
+						<-lecture;;
+					*);
+					laboratory_work_on_soiv_4_year_education
+						(*=>nrel_main_idtf:
+[Статистические основы индуктивного вывода по 4-летней программе.лабораторный практикум] (* <-lang_ru;; *);;
+=>nrel_planned_hours:16;;
+						=>nrel_realisation_of_intermediate_control:
+						protection_of_laboratory_work;;
+						<-laboratory_work	;;
+					*);;
+				=>nrel_realisation_of_final_certification: exam;;
+				<-rrel_subject:
+					...
+					(*
+					->rrel_realisation_of_learning_activity: lecture; laboratory_work;;
+					<-nrel_taught_subject;;
+					->rrel_teacher: Stepanova_M_D;;
+					*);;
+				=>nrel_term: 6;;
+		*);
+		soiv_5_year_education
+		(*
+			<-multiplicity_of_subjects_taught_in_the_6_term_specialty_artificial_intelligence_5_year_education;;
+			<=nrel_realisation_of_learning_activity:
+
+				lectures_on_soiv_5_year_education
+				(*=>nrel_main_idtf:
+		[Статистические основы индуктивного вывода по 5-летней программе.лекции] (* <-lang_ru;; *);;
+		=>nrel_planned_hours:34;;
+					<-lecture;;
+				*);
+				laboratory_work_on_soiv_5_year_education
+					(*=>nrel_main_idtf:
+		[Статистические основы индуктивного вывода по 5-летней программе.лабораторный практикум] (* <-lang_ru;; *);;
+		=>nrel_planned_hours:16;;
+					=>nrel_realisation_of_intermediate_control:
+					protection_of_laboratory_work;;
+					<-laboratory_work	;;
+				*);;
+			=>nrel_realisation_of_final_certification: test;;
+			<-rrel_subject:
+				...
+				(*
+				->rrel_realisation_of_learning_activity: lecture; laboratory_work;;
+				<-nrel_taught_subject;;
+				->rrel_teacher: Stepanova_M_D;;
+				*);;
+			=>nrel_term: 6;;
+		*);
+
+<=nrel_trains: the_department_of_intelligent_informational_technologies;
+<=nrel_class_number: 3(* <-positive_number;;*);
+<=nrel_semester_number: 6(* <-positive_number;;*);
+<=nrel_component: concept_university_component;
+<=nrel_cycle: concept_tsikl_obshcheprofessionalnykh_i_spetsialnykh_distsiplin;;
+
+
+	soiv_4_year_education
+	=>nrel_main_idtf:
+		[Статистические основы индуктивного вывода по 4-летней программе] (* <-lang_ru;; *);;
+	soiv_5_year_education
+	=>nrel_main_idtf:
+		[Статистические основы индуктивного вывода по 5-летней программе] (* <-lang_ru;; *);;

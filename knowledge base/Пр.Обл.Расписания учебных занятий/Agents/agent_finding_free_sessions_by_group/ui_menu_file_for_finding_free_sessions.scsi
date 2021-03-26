@@ -1,0 +1,29 @@
+ui_menu_file_for_finding_free_sessions <- ui_user_command_class_atom; ui_user_command_class_view_kb;;
+
+ui_menu_file_for_finding_free_sessions => nrel_main_idtf: 
+	[Запрос поиска свободных пар по группе]
+	(* <- lang_ru;; *);;
+
+ui_menu_file_for_finding_free_sessions => nrel_main_idtf: 
+	[Request of finding free sessions]
+	(* <- lang_en;; *);;
+
+ui_menu_file_for_finding_free_sessions => ui_nrel_command_template:
+	[*
+		question_finding_free_sessions _-> ._question_finding_free_sessions_instance
+			(*
+			_-> rrel_n1::ui_arg_1;;
+			_-> rrel_n2::ui_arg_2;;
+			_-> rrel_n3::ui_arg_3;;
+			*);;
+		._question_finding_free_sessions_instance _<- question;;
+	*];;
+
+ui_menu_file_for_finding_free_sessions => ui_nrel_command_lang_template: 
+	[Запрос поиска свободных пар: $ui_arg_1;$ui_arg_2;$ui_arg_3] 
+	(* <- lang_ru;; *);;
+
+ui_menu_file_for_finding_free_sessions => ui_nrel_command_lang_template: 
+	[Request of finding free sessions: $ui_arg_1;$ui_arg_2;$ui_arg_3] 
+	(* <- lang_en;; *);;
+

@@ -1,0 +1,32 @@
+Kusnetsov_Alexander_Petrovich=>nrel_main_idtf:
+[Кузнецов Александр Петрович](*<-lang_ru;;*);
+[Kuznetsov Alexander Petrovich](*<-lang_en;;*);;
+
+Kusnetsov_Alexander_Petrovich -> rrel_email:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+ [kuznap@bsuir.by](*<-lang_en;;*)
+   ;;*)
+   ;;*)
+   ;;
+
+Kusnetsov_Alexander_Petrovich -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+ [+375 17 292-22-62];
+ [+375 17 293-84-24];;*)
+   ;;*)
+   ;;
+
+Kusnetsov_Alexander_Petrovich -> rrel_work_place: aud_239_1;;
+Kusnetsov_Alexander_Petrovich <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example:
+                       "file://Kusnetsov.jpg";;
+               *);;
+        *);;

@@ -1,0 +1,25 @@
+Mozheyko_Vladimir_Petrovich=>nrel_main_idtf:
+[Можейко Владимир Петрович](*<-lang_ru;;*);
+[Mozheyko Vladimir Petrovich](*<-lang_en;;*);;
+
+Mozheyko_Vladimir_Petrovich -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [+375 17 293-88-10];;*)
+   ;;*)
+   ;; 
+
+Mozheyko_Vladimir_Petrovich -> rrel_work_place: aud_407_2;;
+
+Mozheyko_Vladimir_Petrovich <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://Mozheyko.jpg";;
+               *);;
+        *);;
+Mozheyko_Vladimir_Petrovich <- person;;

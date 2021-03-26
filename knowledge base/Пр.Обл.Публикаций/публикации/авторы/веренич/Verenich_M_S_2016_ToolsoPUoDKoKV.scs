@@ -1,0 +1,31 @@
+publication_Verenich_M_S_2016_ToolsoPUoDKoKV=> nrel_main_idtf:
+[Веренич М.С. 2016 - СредсУПВРВЗ]
+	(*
+	<- lang_ru;;
+	*);
+	[Verenich_M_S_2016_ToolsoPUoDKoKV] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Verenich_M_S_2016_ToolsoPUoDKoKV => nrel_name_publication:[Средства унификации процесса верификации различных видов знаний](*
+	<- lang_ru;;
+	*);;
+
+publication_Verenich_M_S_2016_ToolsoPUoDKoKV <= nrel_author:
+Verenich_Maxim_Sergeevich;Zubel_Ruslan_Mikhailovich;Titova_Pauline_Leonidovna;;
+
+publication_Verenich_M_S_2016_ToolsoPUoDKoKV <- article;;
+
+publication_Verenich_M_S_2016_ToolsoPUoDKoKV => nrel_reference_standard: [М. С. Веренич, Р. М. Зубель, П. Л. Титова "Средства унификации процесса верификации различных видов знаний", ITS 2016];;
+
+publication_Verenich_M_S_2016_ToolsoPUoDKoKV => nrel_year_publication: 2016;;
+
+publication_Verenich_M_S_2016_ToolsoPUoDKoKV => nrel_information_publication: Proceedings_of_the_international_scientific_conference_ITS_16;;
+publication_Verenich_M_S_2016_ToolsoPUoDKoKV => nrel_number_page: ..2016_ToolsoPUoDKoKV (*
+-> rrel_from :182;;
+-> rrel_by :183;;
+*);;
+
+
+

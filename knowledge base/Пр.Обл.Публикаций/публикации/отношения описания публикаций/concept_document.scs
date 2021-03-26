@@ -1,0 +1,16 @@
+sc_node_not_relation->concept_document;;
+concept_document=>nrel_main_idtf:
+[документ](*<-lang_ru;;*);
+[document](*<-lang_en;;*);;
+
+concept_document<- rrel_key_sc_element:
+	... 
+	(*<-sc_definition;;
+     =>nrel_main_idtf:[Опр.(документ)](*<-lang_ru;;*);;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Документ - деловая бумага, подтверждающая какой-н. факт или право на что-нибудь.](* <- lang_ru;; *);;
+		*);;
+	*);;

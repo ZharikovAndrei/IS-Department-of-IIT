@@ -1,0 +1,28 @@
+sc_node_not_relation -> written_document;;
+
+written_document => nrel_main_idtf:
+[письменный документ]
+	(*
+	<- lang_ru;;
+	*);
+	[written document] 
+	(*
+	<- lang_en;;
+	*);;
+
+written_document <- rrel_key_sc_element: 
+        ...
+	(*
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[письменный документ – текстовый документ, информация которого зафиксирована любым типом письма]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;
+
+document -> written_document;;
+textual_document -> written_document;;
+

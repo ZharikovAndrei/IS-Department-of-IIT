@@ -1,0 +1,88 @@
+ section_ots_system_classification
+
+=> nrel_main_idtf:
+	[Раздел. ОТС. Классификация систем]
+	(* <- lang_ru;; *);
+
+=> nrel_idtf:
+	[Раздел базы знаний общей теории систем, описывающий классификацию систем.]
+	(* <- lang_ru;; *);
+<- not_enough_formed_structure;;
+
+section_ots_system_classification = [*^"file://section_31.scsi"*];;
+
+rrel_key_sc_element -> (section_ots_system_classification -> subject_domain_of_system_classification)
+(*
+	=> nrel_key_sc_element_order: (section_ots_system_classification -> system)
+
+(*
+	<- rrel_key_sc_element;;
+	=> nrel_key_sc_element_order: (section_ots_system_classification-> dedication_system)
+
+(*
+	<- rrel_key_sc_element;;
+	=> nrel_key_sc_element_order: (section_ots_system_classification-> artificial_system)
+
+(*
+	<- rrel_key_sc_element;;
+	=> nrel_key_sc_element_order: (section_ots_system_classification-> bad_organized_system)
+(*
+	<- rrel_key_sc_element;;
+	=> nrel_key_sc_element_order: (section_ots_system_classification-> big_system)	
+
+(*
+	<- rrel_key_sc_element;;
+	=> nrel_key_sc_element_order: (section_ots_system_classification-> central_system)
+(*
+	<- rrel_key_sc_element;;
+	=> nrel_key_sc_element_order: (section_ots_system_classification-> close_system)	
+(*
+	<- rrel_key_sc_element;;
+	=> nrel_key_sc_element_order: (section_ots_system_classification-> deterministic_system)
+(*
+	<- rrel_key_sc_element;;
+	=> nrel_key_sc_element_order: (section_ots_system_classification-> dynamic_system)	
+(*
+	<- rrel_key_sc_element;;
+	=> nrel_key_sc_element_order: (section_ots_system_classification-> hard_system)
+(*
+	<- rrel_key_sc_element;;
+	=> nrel_key_sc_element_order: (section_ots_system_classification-> isolated_system)				
+(*
+	<- rrel_key_sc_element;;
+	=> nrel_key_sc_element_order: (section_ots_system_classification-> natural_system)
+(*
+	<- rrel_key_sc_element;;
+	=> nrel_key_sc_element_order: (section_ots_system_classification-> open_system)				
+(*
+	<- rrel_key_sc_element;;
+	=> nrel_key_sc_element_order: (section_ots_system_classification-> probabilistic_system)
+
+(*
+	<- rrel_key_sc_element;;
+	=> nrel_key_sc_element_order: (section_ots_system_classification-> purposefull_system)				
+(*
+	<- rrel_key_sc_element;;
+	=> nrel_key_sc_element_order: (section_ots_system_classification-> quntitative)
+(*
+	<- rrel_key_sc_element;;
+	=> nrel_key_sc_element_order: (section_ots_system_classification-> simple_system)				
+(*
+	<- rrel_key_sc_element;;
+	=> nrel_key_sc_element_order: (section_ots_system_classification-> static_system)
+(*
+	<- rrel_key_sc_element;;
+	=> nrel_key_sc_element_order: (section_ots_system_classification-> system_with_qualitative_variables)	
+(*
+	<- rrel_key_sc_element;;
+	=> nrel_key_sc_element_order: (section_ots_system_classification-> uncentral_system)	
+(*
+	<- rrel_key_sc_element;;
+	=> nrel_key_sc_element_order: (section_ots_system_classification-> virtual_system)
+(*
+	<- rrel_key_sc_element;;
+	=> nrel_key_sc_element_order: (section_ots_system_classification-> well_organized_system)	
+
+	
+	(* <- rrel_key_sc_element;; *);;
+*);;*);;*);;*);;*);;*);;*);;*);;*);;*);;*);;*);;*);;*);;*);;*);;*);;*);;*);;*);;*);;*);;

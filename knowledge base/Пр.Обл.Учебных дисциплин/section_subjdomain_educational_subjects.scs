@@ -1,0 +1,63 @@
+section_subjdomain_educational_subjects
+=> nrel_main_idtf:
+	[Раздел. Предметная область учебных дисциплин]
+	(* <- lang_ru;; *);
+=> nrel_main_idtf:
+	[Section. Subject domain of educational subjects]
+	(* <- lang_en;; *);
+<- not_enough_formed_structure;
+<- atomic_section;;
+
+section_subjdomain_educational_subjects = [*^"file://section_subjdomain_educational_subjects.scsi"*];;
+
+section_subjdomain_educational_subjects -> rrel_key_sc_element:
+    subject_domain_of_educational_subjects;
+    educational_subject;
+    natural_science_subject;
+    special_subject;
+    subject_of_specialization;
+    social_and_humanitarian_subject;
+    general_professional_subject;
+    learning_process;
+    natural_science_subject;
+    additional_literature;
+    application_software;
+    curriculum;
+    electronic_educational_complex_of_subject;
+    lecture_material;
+    methodical_instructions;
+    program;
+    subject_provision;
+    teaching_aid;
+    teaching_methodological_support;
+    teaching_program;
+    technical_support;
+    textbook;
+    tutorial;
+    visual_aid;
+    colloquium;
+    control_work;
+    exam;
+    final_certification;
+    intermediate_control;
+    performance_control;
+    protection_of_course_project;
+    protection_of_design_work;
+    protection_of_laboratory_work;
+    protection_of_practical_work;
+    report_of_practice;
+    state_exam;
+    test;
+    current_survey;
+    rrel_subject;
+		nrel_source;
+    nrel_realisation_of_intermediate_control;
+    nrel_realisation_of_final_certification;
+    nrel_realisation_of_learning_activity;
+    rrel_realisation_of_learning_activity;
+    nrel_taught_subject;
+    nrel_decomposition;
+    nrel_abbreviation;
+    nrel_term;
+    nrel_partition;
+    rrel_teacher;;

@@ -1,0 +1,21 @@
+resources_department
+=>nrel_main_idtf:
+	[ресурсы кафедры] (* <-lang_ru;; *);
+	
+->rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> [ресурсы кафедры— источник чего-либо, используемый при необходимости или средство для осуществления чего-либо] (* <-lang_ru;; *);; 
+		*);;
+	*);
+	
+
+=>nrel_inclusion:
+material_and_technical_base
+(*->technical_base;premises_department;;*);
+person
+(*-> foreign_person;inner_person;;*);;

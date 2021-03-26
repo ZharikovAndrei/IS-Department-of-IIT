@@ -1,0 +1,12 @@
+sc_node_not_relation -> cheap_popular_edition;;
+
+
+cheap_popular_edition => nrel_main_idtf:
+[лубочное издание]
+	(*
+	<- lang_ru;;
+	*);
+	[cheap popular edition] 
+	(*
+	<- lang_en;;
+	*);;

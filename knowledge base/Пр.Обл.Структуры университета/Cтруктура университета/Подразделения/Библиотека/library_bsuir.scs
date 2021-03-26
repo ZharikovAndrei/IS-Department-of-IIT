@@ -1,0 +1,10 @@
+library_bsuir=>nrel_main_idtf:
+[библиотека БГУИРа](*<-lang_ru;;*);
+[BSUIR library](*<-lang_en;;*);;
+
+library_bsuir => nrel_pers_comp: personal_composition_of_library_bsuir;; 
+
+library_bsuir<-concept_library;;
+
+
+

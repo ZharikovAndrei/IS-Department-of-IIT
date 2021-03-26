@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="static/components/css/toastr.min.css">
+  <link rel="stylesheet" href="static/components/css/teachers_style.css">
+  <script src="static/components/js/toastr.min.js"></script>
+</head>
+
+<body>
+  <div class="row">
+    <div class="col-md-5">
+
+      <div class="dropdown">
+        <button class="btn btn-default dropdown-toggle" type="button" id="teachers" data-toggle="dropdown">
+    Выберите преподавателя
+    <span class="caret"></span>
+  </button>
+        <ul class="dropdown-menu">
+        </ul>
+      </div>
+
+      <div class="dropdown hidden">
+        <button class="btn btn-default dropdown-toggle" type="button" id="subject" data-toggle="dropdown">
+    <span class="caret"></span>
+  </button>
+        <ul class="dropdown-menu">
+        </ul>
+      </div>
+      <div class="dropdown hidden">
+        <button class="btn btn-default dropdown-toggle" type="button" id="subjectType" data-toggle="dropdown">
+    <span class="caret"></span>
+  </button>
+        <ul class="dropdown-menu">
+        </ul>
+      </div>
+      <div class="workWithHours hidden">
+        <div class="form-group">
+          <label for="hoursAmount">Количество часов преподавателя</label>
+          <input type="text" class="form-control" id="hoursAmount" placeholder="Введите кол-во часов">
+          <button class="btn btn-success" id="save">Сохранить</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-5">
+      <table class="table">
+        <thead>
+          <tr>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+</body>
+
+</html>

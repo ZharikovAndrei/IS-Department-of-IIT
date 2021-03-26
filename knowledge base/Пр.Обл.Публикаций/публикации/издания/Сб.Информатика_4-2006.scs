@@ -1,0 +1,22 @@
+//
+//sc_node_not_relation -> collection_of_computer_science_4_2006;;
+
+
+
+
+
+collection_of_computer_science_4_2006 => nrel_main_idtf:
+[Сб. "Информатика" №4 2006]
+	(*
+	<- lang_ru;;
+	*);
+	[Collection of computer science 2006]
+	(*
+	<- lang_en;;
+	*);;
+
+collection_of_computer_science_4_2006 => nrel_place_publication: minsk;;
+
+ collection_of_computer_science_4_2006 => nrel_publishing: UIIP_NASB_Belarus;;
+
+

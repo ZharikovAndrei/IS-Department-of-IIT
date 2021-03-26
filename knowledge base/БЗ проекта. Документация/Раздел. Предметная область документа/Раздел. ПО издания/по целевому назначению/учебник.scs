@@ -1,0 +1,31 @@
+sc_node_not_relation -> textbook;;
+textbook => nrel_main_idtf:
+[учебник]
+	(*
+	<- lang_ru;;
+	*);
+	[educational textbook] 
+	(*
+	<- lang_en;;
+	*);;
+
+
+textbook <- rrel_key_sc_element: 
+        ...
+	(*
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[учебник – это учебное издание, содержащее систематическое изложение учебной дисциплины или ее раздела, части, соответствующее государственному образовательному стандарту и учебной программе курса и официально утвержденное в качестве данного вида издания, имеющее гриф министерства образования]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;
+
+textbook <- educational_edition;;
+
+textbook <- edition;;
+
+
+

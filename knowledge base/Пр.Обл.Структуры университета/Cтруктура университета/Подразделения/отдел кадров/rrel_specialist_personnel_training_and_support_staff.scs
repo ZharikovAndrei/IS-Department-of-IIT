@@ -1,0 +1,10 @@
+sc_node_role_relation ->rrel_specialist_personnel_training_and_support_staff;; 
+rrel_specialist_personnel_training_and_support_staff=>nrel_main_idtf:
+[cпециалист по кадрам учебно-вспомогательного состава '](*<-lang_ru;;*);
+[specialist personnel training and support staff'](*<-lang_en;;*);;
+
+rrel_specialist_personnel_training_and_support_staff=>nrel_first_domain:concept_division;;
+rrel_specialist_personnel_training_and_support_staff=>nrel_second_domain:person;;
+rrel_specialist_personnel_training_and_support_staff=>nrel_definitional_domain:...(*<=nrel_combination:...(*->person;;->concept_division;;*);;
+*);;
+

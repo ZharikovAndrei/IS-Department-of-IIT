@@ -1,0 +1,32 @@
+//Шункевич Д.В. Базовые понятия технологии компонентного проектирования машин обработки знаний систем дистанционного обучения. Дистанционное обучение – образовательная среда XXI века: материалы VIII междунар. науч.-метод. конф.(Минск, 5-6 декабря 2013 года). – Минск: БГУИР, 2013. –с. 186-187 
+publication_Shunkevich_D_V_2013_BasicCoaToKPMDoDLS=> nrel_main_idtf:
+[Шункевич Д.В. 2013 - БазовПТКПМОЗСДО]
+	(*
+	<- lang_ru;;
+	*);
+	[Shunkevich_D_V_2013_BasicCoaToKPMDoDLS] //Basic Concepts of a Technology of Knowledge Processing Machines of Distance Learning Systems
+
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Shunkevich_D_V_2013_BasicCoaToKPMDoDLS => nrel_name_publication:[Базовые понятия технологии компонентного проектирования машин обработки знаний систем дистанционного обучения.](*
+	<- lang_ru;;
+	*);;
+
+publication_Shunkevich_D_V_2013_BasicCoaToKPMDoDLS <= nrel_author:
+Shunkevich_D_V;;
+
+publication_Shunkevich_D_V_2013_BasicCoaToKPMDoDLS <- article;;
+
+publication_Shunkevich_D_V_2013_BasicCoaToKPMDoDLS => nrel_reference_standard: [Шункевич Д.В. Базовые понятия технологии компонентного проектирования машин обработки знаний систем дистанционного обучения. Дистанционное обучение – образовательная среда XXI века: материалы VIII междунар. науч.-метод. конф.(Минск, 5-6 декабря 2013 года). – Минск: БГУИР, 2013. –с. 186-187 ];;
+
+publication_Shunkevich_D_V_2013_BasicCoaToKPMDoDLS => nrel_year_publication: 2013;;
+
+publication_Shunkevich_D_V_2013_BasicCoaToKPMDoDLS => nrel_information_publication:Materials_of_Distance_learning_and_educational_environment_of_the_21st_century_2013;;
+
+publication_Shunkevich_D_V_2013_BasicCoaToKPMDoDLS => nrel_number_page: ..2013_BasicCoaToKPMDoDLS  (*
+-> rrel_from : 186;;
+-> rrel_by : 187;;
+*);;
+publication_Shunkevich_D_V_2013_BasicCoaToKPMDoDLS <- rrel_key_sc_element: ... (* <- sc_explanation;; <= nrel_sc_text_translation: ... (* -> rrel_example: "file://содержимое публикаций/Базовые понятия.pdf";; *);; *);;

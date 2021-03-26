@@ -1,0 +1,9 @@
+project_ISS_historical_persons
+=> nrel_main_idtf:[Интеллектуальная справочная система по историческим персонам] (* <-lang_ru;; *);
+=> nrel_main_idtf:[Intelligent information system by historical persons] (* <-lang_en;; *);
+=> nrel_synonymy:[45e/персоны];;
+
+project_ISS_historical_persons <- student_project;;
+project_ISS_historical_persons => nrel_project_leader:  Hubarevich_A_V;;
+project_ISS_historical_persons => nrel_reports: report_ontology_IS_history; report_ontology_persons;;
+

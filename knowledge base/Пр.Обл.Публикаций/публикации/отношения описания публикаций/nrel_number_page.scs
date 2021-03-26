@@ -1,0 +1,27 @@
+sc_node_norole_relation -> nrel_number_page;;
+
+nrel_number_page => nrel_main_idtf:
+	[номера страниц*]
+	(*
+	<- lang_ru;;
+	*);
+	[number page*]
+	(*
+	<- lang_en;;
+	*);;
+
+nrel_number_page => nrel_first_domain: concept_publication;;
+nrel_number_page => nrel_second_domain: number_page;;
+nrel_number_page => nrel_definitional_domain:...(*<=nrel_combination:...(*->concept_publication;;->number_page;;*);;*);;
+nrel_number_page <- rrel_key_sc_element:
+	...
+	(*
+	=>nrel_main_idtf:[Опр.(номера страниц*)](*<-lang_ru;;*);;
+	<-sc_definition;;
+	<=nrel_sc_text_translation:
+	...
+	(*
+		-> rrel_example:
+			[Номера страниц, на которых написана статья.](* <- lang_ru;; *);;
+		*);;
+	*);;

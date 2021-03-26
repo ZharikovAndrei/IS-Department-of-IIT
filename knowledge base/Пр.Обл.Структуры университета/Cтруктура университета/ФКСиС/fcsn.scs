@@ -1,0 +1,137 @@
+the_faculty_of_computer_systems_and_networks=>nrel_main_idtf:
+[Факультет компьютерных систем и сетей](*<-lang_ru;;*);
+[the faculty of computer systems and networks](*<-lang_en;;*);; 
+
+the_faculty_of_computer_systems_and_networks=>nrel_idtf:[ФКСИС](*<-lang_ru;;*);;
+the_faculty_of_computer_systems_and_networks=>nrel_idtf:[FCSN](*<-lang_en;;*);;
+
+dean_fcsn=>nrel_main_idtf:
+[Прытков Валерий Александрович](*<-lang_ru;;*);
+[Prytkov Valeriy Alexandrovich](*<-lang_en;;*);;
+
+
+logotipe_fcsn=>nrel_main_idtf:
+[логотип ФКСИС](*<-lang_ru;;*);
+[the logotipe of FCSN](*<-lang_en;;*);; 
+
+fcsn_info=>nrel_main_idtf:
+[информация о ФКСИС](*<-lang_ru;;*);
+[the information about FCSN](*<-lang_en;;*);; 
+
+specializations_fcsn=>nrel_main_idtf:
+[специальности ФКСИСа](*<-lang_ru;;*);
+[the spezializations of FCSN](*<-lang_en;;*);;
+
+pers_comp_fcsn=>nrel_main_idtf:
+[Персональный состав ФКСИСа](*<-lang_ru;;*);
+[personal composition of the FCSN](*<-lang_en;;*);; 
+
+
+
+
+pers_comp_fcsn -> rrel_dean: dean_fcsn;;
+
+the_faculty_of_computer_systems_and_networks => nrel_logotipe: logotipe_fcsn;;
+
+the_faculty_of_computer_systems_and_networks => nrel_info: fcsn_info;;
+
+the_faculty_of_computer_systems_and_networks => nrel_pers_comp: pers_comp_fcsn;;
+
+the_faculty_of_computer_systems_and_networks => nrel_spezialization: specializations_fcsn;;
+
+
+the_faculty_of_computer_systems_and_networks <= nrel_decomposition:
+{
+the_department_of_higher_mathematics;
+the_department_of_informatics;
+the_department_of_software_information_technology;
+the_department_of_physics;
+the_department_of_philosophy;
+the_department_of_electronic_computers;
+the_department_of_electronic_computing_means
+};;
+
+ 
+
+specializations_fcsn <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [Специальности] (* <- lang_ru;; *);;
+	<- sc_task;;
+	<= nrel_sc_text_translation: 
+         ...
+		(*
+		-> rrel_example: 
+			[«Вычислительные машины, системы и сети» ](* <- lang_ru;; *);;
+		*);
+		         ...
+		(*
+		-> rrel_example: 
+			[«Информатика и технологии программирования» ](* <- lang_ru;; *);;
+		*);
+		         ...
+		(*
+		-> rrel_example: 
+			[«Программное обеспечение информационных технологий» ](* <- lang_ru;; *);;
+		*);
+		         ...
+		(*
+		-> rrel_example: 
+			[«Электронные вычислительные средства» ](* <- lang_ru;; *);;
+		*);;
+	*);;
+
+fcsn_info <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [О факультете] (* <- lang_ru;; *);;
+	<- sc_task;;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[На факультете работают более 180 преподавателей, из них 16 докторов, профессоров, около 90 кандидатов наук, доцентов.
+
+Факультет тесно сотрудничает с ведущими в отрасли ИТ-компаниями - IBM, Microsoft, SAP, National Instruments, CISCO.
+
+На факультете функционируют 10 совместных учебно-научно-исследовательских лабораторий, созданные совместно с компаниями IBA, Epam, Itransition, EffectiveSoft, Tieto, Системные технологии.
+
+Выпускники факультета успешно работают программистами, бизнес-аналитиками, системными архитекторами, руководителями проектов, специалистами по тестированию ПО как в белорусских компаниях-резидентах Парка высоких технологий, государственных организациях, так и в хорошо известных зарубежных компаниях (Microsoft, Google).
+
+По результатам проведенного опроса компаний-резидентов ПВТ ФКСиС занимает первое место в TOP-10 факультетов вузов Беларуси, выпускники которых востребованы в Парке высоких технологий.  ](* <- lang_ru;; *);;
+		*);;
+	*);;
+
+
+
+dean_fcsn <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://../../image/fcsn1.jpg";;
+               *);;
+        *);;
+
+
+
+logotipe_fcsn <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://../../image/fcsn2.gif";;
+               *);;
+        *);;
+
+
+
+
+
+ 

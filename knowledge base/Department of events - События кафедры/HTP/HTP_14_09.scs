@@ -1,0 +1,45 @@
+HTP_14_09=> nrel_main_idtf:
+[Цикл лекций "Секреты предпринимательства" 14 сентября 2015] (* <-lang_ru;; *);
+[Lecture series "Secrets of Entrepreneurship " 14.09.2015] (* <-lang_en;; *);
+<-temporary_entity;;
+HTP_14_09<-
+...
+(*<-exact_value;;
+ <-begin;;
+  =>nrel_translation_in_the_Gregorian_calendar:...
+  (*
+    ->number_of_year:2015;;
+    ->number_of_month_in_year:9;;
+    ->number_of_day_in_month:14;;
+    ->number_of_hour_in_day:11;;
+    ->number_of_minute_in_hour:0;;
+   *);;
+  *);;
+HTP_14_09<-
+...
+(*<-exact_value;;
+ <-completion;;
+  =>nrel_translation_in_the_Gregorian_calendar:...
+  (*
+    ->number_of_year:2015;;
+    ->number_of_month_in_year:9;;
+    ->number_of_day_in_month:14;;
+    ->number_of_hour_in_day:20;;
+    ->number_of_minute_in_hour:0;;
+   *);;
+  *);;
+HTP_14_09=>nrel_address:[г.Минск, улица Купревича, д.1 к.5](*<-lang_ru;;*);;
+
+HTP_14_09 <- rrel_key_sc_element: 
+program_of_lectures_14_09 
+(* <= nrel_sc_text_translation:
+ ... 
+(*-> rrel_example: "file://14_09.pdf";; *);; *);;
+program_of_lectures_14_09=>nrel_main_idtf:[Программа лекций на 14.09](*<-lang_ru;;*);;
+
+HTP_14_09=>nrel_listener:
+Verenich_Maxim_Sergeevich;
+Ermachenok_Igor_Sergeevich;
+Mihlyuk_Konstantin_Yurevich;
+Yakybenko_Daniil_Andreevich;;
+

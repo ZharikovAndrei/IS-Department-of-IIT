@@ -1,0 +1,17 @@
+aud_606c_5
+=> nrel_main_idtf:
+	[аудитория 606в-5] (* <-lang_ru;; *);
+=> nrel_main_idtf:
+	[audience 606c-5] (* <-lang_en;; *);
+=> nrel_idtf:
+	[Рабочий кабинет заведующего кафедрой] (* <-lang_ru;; *);
+	->rrel_key_sc_element:
+	...
+	(*
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> [аудитория 606в-5 - рабочий кабинет заведующего кафедрой.] (* <-lang_ru;; *);;
+		*);;
+	*);;

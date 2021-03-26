@@ -1,0 +1,14 @@
+service_maintenance_and_repair_of_buildings_bsuir=> nrel_main_idtf:
+[службы эксплуатации и ремонта зданий БГУИРа] (* <-lang_ru;; *);
+[service maintenance and repair of buildings bsuir] (* <-lang_en;; *);;
+service_maintenance_and_repair_of_buildings_bsuir=>nrel_pers_comp:personal_composition_of_service_maintenance_and_repair_of_buildings_bsuir;;
+personal_composition_of_service_maintenance_and_repair_of_buildings_bsuir->rrel_vice_prorector_of_administrative_work:Mozheyko_Vladimir_Petrovich;;
+service_maintenance_and_repair_of_buildings_bsuir=>nrel_inclusion:
+performance_technical_management_bsuir;
+department_of_chief_mechanic_bsuir;
+department_of_chief_power_engineer_bsuir;
+sector_for_rationing_accounting_and_analysis_of_fuel_consumption_bsuir;
+department_of_repair_of_buildings_bsuir;
+department_of_economy_bsuir;
+department_of_maintenance_bsuir;
+fleet_bsuir;;

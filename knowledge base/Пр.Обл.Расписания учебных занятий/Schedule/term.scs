@@ -1,0 +1,7 @@
+term
+=>nrel_main_idtf:
+	[семестр] (* <-lang_ru;; *);
+
+=>nrel_subdividing:
+	spring_term;
+	autumn_term;;

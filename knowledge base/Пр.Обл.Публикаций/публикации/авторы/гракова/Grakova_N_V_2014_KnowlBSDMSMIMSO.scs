@@ -1,0 +1,30 @@
+publication_Grakova_N_V_2014_KnowlBSDMSMIMSO=> nrel_main_idtf:
+[Гракова Н.В. 2014 - БазаЗППУПМIMSO]
+	(*
+	<- lang_ru;;
+	*);
+	[Grakova_N_V_2014_KnowlBSDMSMIMSO] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Grakova_N_V_2014_KnowlBSDMSMIMSO => nrel_name_publication:[База знаний подсистемы поддержки управления проектированием Метасистемы IMS.OSTIS ](*
+	<- lang_ru;;
+	*);;
+
+publication_Grakova_N_V_2014_KnowlBSDMSMIMSO <= nrel_author:
+Grakova_N_V;;
+
+publication_Grakova_N_V_2014_KnowlBSDMSMIMSO <- article;;
+
+publication_Grakova_N_V_2014_KnowlBSDMSMIMSO => nrel_reference_standard: [Гракова, Н.В. База знаний подсистемы поддержки управления проектированием Метасистемы IMS.OSTIS / Н.В. Гракова // Информационные технологии и управление. Материалы 50–ой научной конференции аспирантов, магистрантов и студентов. (Минск, 24 – 28 марта 2014 г.) / редкол.: Л.Ю. Шилин и др. – Минск : БГУИР, 2014. – с.8   ];;
+
+publication_Grakova_N_V_2014_KnowlBSDMSMIMSO => nrel_year_publication: 2014;;
+
+publication_Grakova_N_V_2014_KnowlBSDMSMIMSO => nrel_information_publication: Materials_50_scientific_conference_of_post_graduate_students_undergraduates_and_students;;
+
+publication_Grakova_N_V_2014_KnowlBSDMSMIMSO => nrel_number_page: ..2014_KnowlBSDMSMIMSO(*
+-> rrel_from : 8;;
+-> rrel_by : 8;;
+*);;
+publication_Grakova_N_V_2014_KnowlBSDMSMIMSO <- rrel_key_sc_element: ... (* <- sc_explanation;; <= nrel_sc_text_translation: ... (* -> rrel_example: "file://содержимое публикаций/Гракова_Н.В._БазаЗППУПМIMSO.pdf";; *);; *);;

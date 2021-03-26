@@ -1,0 +1,16 @@
+sc_node_not_relation->concept_service_maintenance_and_repair_of_buildings;;
+concept_service_maintenance_and_repair_of_buildings=>nrel_main_idtf:
+[службы эксплуатации и ремонта зданий](*<-lang_ru;;*);
+[service maintenance and repair of buildings](*<-lang_en;;*);; 
+concept_service_maintenance_and_repair_of_buildings->service_maintenance_and_repair_of_buildings_bsuir;;
+concept_service_maintenance_and_repair_of_buildings<- rrel_key_sc_element:
+	... 
+	(*<-sc_definition;;
+     =>nrel_main_idtf:[Опр.(службы эксплуатации и ремонта зданий)](*<-lang_ru;;*);;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Cлужбы эксплуатации и ремонта зданий - службы для проведения комплекса работ по содержанию, обслуживанию и ремонту здания (сооружения).](* <- lang_ru;; *);;
+		*);;
+	*);;

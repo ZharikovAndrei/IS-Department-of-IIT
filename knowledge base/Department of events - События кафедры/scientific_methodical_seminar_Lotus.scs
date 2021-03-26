@@ -1,0 +1,40 @@
+scientific_methodical_seminar_Lotus=> nrel_main_idtf:
+[Научно-методический семинар “Lotus-технологии в образовании”] (* <-lang_ru;; *);
+[Scientific-methodical seminar "The Lotus-technologies in education"] (* <-lang_en;; *);
+=>nrel_idtf:[2-й Республиканский семинар "Lotus-технологии в образовании"](* <-lang_ru;; *);
+<-temporary_entity;;
+scientific_methodical_seminar_Lotus<-
+...
+(*<-exact_value;;
+ <-begin;;
+  =>nrel_translation_in_the_Gregorian_calendar:...
+  (*
+    ->number_of_year:2001;;
+    ->number_of_month_in_year:1;;
+    ->number_of_day_in_month:16;;
+   *);;
+  *);;
+scientific_methodical_seminar_Lotus<-
+...
+(*<-exact_value;;
+ <-completion;;
+  =>nrel_translation_in_the_Gregorian_calendar:...
+  (*
+    ->number_of_year:2001;;
+    ->number_of_month_in_year:1;;
+    ->number_of_day_in_month:16;;
+   *);;
+  *);;
+
+scientific_methodical_seminar_Lotus=>nrel_address:[г.Минск, БГУИР, улица Платонова 39 (5-ой корпус), кафедра ИИТ.](*<-lang_ru;;*);;
+
+scientific_methodical_seminar_Lotus<-rrel_key_sc_element:
+...
+(*
+<= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       [Обсуждались такие темы как "Электронное управление документами", "Концепции и технологии управления знаниями", "Программа "Learning Space" как платформа для дистанционного обучения", "Проект "Виртуальная кафедра" и др.](* <-lang_ru;; *);;
+               *);;
+*);;

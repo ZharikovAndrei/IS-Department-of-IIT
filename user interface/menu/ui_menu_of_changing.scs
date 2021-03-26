@@ -1,0 +1,23 @@
+ui_menu_of_changing
+<- ui_user_command_class_noatom;
+=> nrel_main_idtf:
+	[Смена состояния задачи] (* <- lang_ru;; *);
+	[Changing the status of a task] (* <- lang_en;; *);
+
+<= nrel_ui_commands_decomposition:
+	{
+		ui_menu_changing_task_on_completed; 
+                ui_menu_changing_task_on_approve;
+                ui_menu_changing_task_on_basic;
+                ui_menu_changing_task_on_blocking;
+                ui_menu_changing_task_on_critical;
+                ui_menu_changing_task_on_error_fix;
+                ui_menu_changing_task_on_executable;
+                ui_menu_changing_task_on_important;
+                ui_menu_changing_task_on_innovation;
+                ui_menu_changing_task_on_optimization;
+                ui_menu_changing_task_on_proposed;
+                ui_menu_changing_task_on_unimportant;
+                ui_menu_changing_task_on_verifiable;
+                ui_menu_changing_task_on_verification
+	};;

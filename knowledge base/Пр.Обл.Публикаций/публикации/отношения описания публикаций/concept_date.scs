@@ -1,0 +1,3 @@
+concept_date => nrel_main_idtf:
+[дата] (* <-lang_ru;; *);
+[date] (* <-lang_en;; *);;

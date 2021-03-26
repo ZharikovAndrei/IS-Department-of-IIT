@@ -1,0 +1,18 @@
+news_friendly_match_iit_bsuir_iit_bstu=> nrel_main_idtf:
+[Новость Товарищеский матч по футболу между футбольными командами кафедр «Интеллектуальных информационных технологий» БГУИР и БрГТУ  - 2015.02.18] (* <-lang_ru;; *);
+[News Friendly football match between football team IIT BSUIR and football team IIT BSTU - 2015.02.18] (* <-lang_en;; *);
+<-concept_news;;
+
+the_department_of_intelligent_informational_technologies=>nrel_department_news:
+news_friendly_match_iit_bsuir_iit_bstu;;
+
+news_friendly_match_iit_bsuir_iit_bstu<- rrel_key_sc_element:
+	... 
+	(*<-sc_explanation;;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			"file://friendly_match_iit_bsuir_iit_bstu_news.html";;
+		*);;
+	*);;

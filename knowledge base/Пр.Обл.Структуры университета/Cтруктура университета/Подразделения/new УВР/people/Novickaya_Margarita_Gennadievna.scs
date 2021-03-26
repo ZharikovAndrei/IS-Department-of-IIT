@@ -1,0 +1,33 @@
+Novickaya_Margarita_Gennadievna=>nrel_main_idtf:
+[Новицкая Маргарита Геннадьевна](*<-lang_ru;;*);
+[Novickaya Margarita Gennadievna](*<-lang_en;;*);;
+
+Novickaya_Margarita_Gennadievna -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [+375 17 293-21-14];;*)
+   ;;*)
+   ;; 
+
+Novickaya_Margarita_Gennadievna -> rrel_work_place: aud_421_2;;
+
+Novickaya_Margarita_Gennadievna -> rrel_email:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [priuvrm@bsuir.by](*<-lang_ru;;*)
+   ;;*)
+   ;;*)
+   ;; 
+
+
+Novickaya_Margarita_Gennadievna <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://Novickaya.jpg";;
+               *);;
+        *);;

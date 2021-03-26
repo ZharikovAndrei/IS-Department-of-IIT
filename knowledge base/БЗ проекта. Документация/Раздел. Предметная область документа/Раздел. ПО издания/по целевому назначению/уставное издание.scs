@@ -1,0 +1,27 @@
+sc_node_not_relation -> statutory_edition;;
+
+statutory_edition => nrel_main_idtf:
+[уставное издание]
+	(*
+	<- lang_ru;;
+	*);
+	[statutory edition] 
+	(*
+	<- lang_en;;
+	*);;
+
+statutory_edition <- rrel_key_sc_element: 
+        ...
+	(*
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[уставное издание – официальное издание, содержащее комплекс норм, правил, требований к объекту стандартизации, которые устанавливают на основе достижений науки, техники и передового опыта и утверждают в соответствии с действующим законодательством]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;
+
+edition -> statutory_edition;;
+official_edition <- statutory_edition;;

@@ -1,0 +1,34 @@
+Kuznecov_Dmitry_Fedorovich=>nrel_main_idtf:
+[Кузнецов Дмитрий Федорович](*<-lang_ru;;*);
+[Kuznecov Dmitry Fedorovich](*<-lang_en;;*);;
+
+Kuznecov_Dmitry_Fedorovich -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [+375 17 293-21-14];
+ [+375 17 293-23-41];;*)
+   ;;*)
+   ;; 
+
+Kuznecov_Dmitry_Fedorovich -> rrel_work_place: aud_421_2;;
+
+Kuznecov_Dmitry_Fedorovich -> rrel_email:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [uvrm@bsuir.by](*<-lang_ru;;*)
+   ;;*)
+   ;;*)
+   ;; 
+
+
+Kuznecov_Dmitry_Fedorovich <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://Kuznecov.jpg";;
+               *);;
+        *);;

@@ -1,0 +1,13 @@
+watch_of_the_1_corp=>nrel_main_idtf:
+[вахта 1-го корпуса](*<-lang_ru;;*);
+[watch of the 1 corp](*<-lang_en;;*);;
+
+watch_of_the_1_corp -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ 
+ [+375 17 293-88-56];;*)
+   ;;*)
+   ;; 
+
+

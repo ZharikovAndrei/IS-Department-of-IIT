@@ -1,0 +1,19 @@
+sc_node_not_relation->concept_educational_programs_department;;
+
+concept_educational_programs_department=>nrel_main_idtf:
+[отдел образовательных программ](*<-lang_ru;;*);
+[educational programs department](*<-lang_en;;*);; 
+
+concept_educational_programs_department<-rrel_key_sc_element:
+...
+(*
+=>nrel_main_idtf:[Опр.(отдел образовательных программ)](*<-lang_ru;;*);;
+<-sc_definition;;
+<=nrel_sc_text_translation:
+...	
+(*
+->rrel_example:
+[Отдел образовательных программ занимается вопросами обучения и регистрации иностранных граждан,
+ международный маркетинг, приглашение иностранных студентов на обучение.](*<-lang_ru;;*);;
+*);;
+*);;

@@ -1,0 +1,9 @@
+human_resources_department_bsuir=>nrel_main_idtf:
+[отдел кадров БГУИР](*<-lang_ru;;*);
+[human resources department bsuir](*<-lang_en;;*);;
+
+human_resources_department_bsuir<-concept_human_resources_department;;
+
+
+human_resources_department_bsuir=>nrel_pers_comp:pers_comp_human_resources_department_bsuir;;
+

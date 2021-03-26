@@ -1,0 +1,11 @@
+//sc_node_not_relation -> Zhitko_V_A;;
+
+Zhitko_V_A => nrel_main_idtf:
+[Житко В.А.]
+	(*
+	<- lang_ru;;
+	*);
+	[Zhitko V.A.]
+	(*
+	<- lang_en;;
+	*);;

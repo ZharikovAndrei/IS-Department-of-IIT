@@ -1,0 +1,12 @@
+Matskevich_Galina_Alexeevna=>nrel_main_idtf:
+[Мацкевич Галина Алексеевна](*<-lang_ru;;*);
+[Matskevich Galina Alexeevna](*<-lang_en;;*);;
+
+Matskevich_Galina_Alexeevna-> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+[+375 17 293-80-30];;*)
+   ;;*)
+   ;;
+
+Matskevich_Galina_Alexeevna-> rrel_work_place: aud_301_2;;

@@ -1,0 +1,33 @@
+//sc_node_not_relation -> publication_Golenkov_V_V_2011_LogicFoIS;;
+
+
+publication_Golenkov_V_V_2011_LogicFoIS => nrel_main_idtf:
+[Голенков В.В.2011 - ЛогичОИС]
+	(*
+	<- lang_ru;;
+	*);
+	[Golenkov_V_V_2011_LogicFoIS]
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Golenkov_V_V_2011_LogicFoIS => nrel_name_publication:[Логические основы интеллектуальных систем](*
+	<- lang_ru;;
+	*);;
+
+publication_Golenkov_V_V_2011_LogicFoIS <= nrel_author:
+Golenkov_V_V; Kolb_D_G; Ivashenko_V_P;Uvarov_K_A;;
+
+publication_Golenkov_V_V_2011_LogicFoIS <- article;;
+
+publication_Golenkov_V_V_2011_LogicFoIS => nrel_reference_standard: [ Голенков В.В., Колб Д.Г. Ивашенко В.П., Уваров К.А. Логические основы интеллектуальных систем. Практикум.учебно-методическое пособие для студентов специальности « Искусственный интеллект» с грифом УМО вузов РБ в области информатики и радиоэлектроники, Минск:БГУИР, 2011 с.111 .];;
+
+publication_Golenkov_V_V_2011_LogicFoIS => nrel_year_publication: 2011;;
+
+publication_Golenkov_V_V_2011_LogicFoIS => nrel_information_publication: Praktikum_uchebno_handbook_for_students_majoring_in_Artificial_Intelligence;;
+
+publication_Golenkov_V_V_2011_LogicFoIS => nrel_number_page: ..2011_LogicFoIS(*
+-> rrel_from : 111;;
+-> rrel_by : 111;;
+*);;
+

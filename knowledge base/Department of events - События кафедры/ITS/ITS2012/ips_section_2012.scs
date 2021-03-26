@@ -1,0 +1,19 @@
+ips_section_2012=> nrel_main_idtf:
+[Секция «Системы обработки информации» международной научной конференции "Информационные технологии и системы" 2012] (* <-lang_ru;; *);
+[Section "Information processing systems" of international scientific conference "Information Technologies and Systems" 2012] (* <-lang_en;; *);
+=>nrel_idtf:
+[Секция «Системы обработки информации» международной научной конференции ITS 2012] (* <-lang_ru;; *);
+[Section "Information processing systems"  of international scientific conference ITS 2012] (* <-lang_en;; *);;
+ips_section_2012<- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://ips_section.html";;
+               *);;
+        *);;
+
+

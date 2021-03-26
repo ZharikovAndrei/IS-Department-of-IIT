@@ -1,0 +1,24 @@
+Murashko_Nadezda_Nikolaevna=>nrel_main_idtf:
+[Мурашко Надежда Николаевна](*<-lang_ru;;*);
+[Murashko Nadezda Nikolaevna](*<-lang_en;;*);;
+
+Murashko_Nadezda_Nikolaevna -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+[+375 17 293-88-07];;*)
+   ;;*)
+   ;;
+
+Murashko_Nadezda_Nikolaevna-> rrel_work_place: aud_224_1;;
+
+Murashko_Nadezda_Nikolaevna<- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example:
+                       "file://photos/Murashko_Nadezda_Nikolaevna.jpg";;
+               *);;
+        *);;

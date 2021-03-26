@@ -1,0 +1,46 @@
+//sc_node_not_relation -> publication_Davidenko_I_T_2012_IntelHSfG;;
+
+
+publication_Davidenko_I_T_2012_IntelHSfG => nrel_main_idtf:
+[Давыденко И.Т.2011-ИнтелИСпГ]
+	(*
+	<- lang_ru;;
+	*);
+	[Davidenko_I_T_2012_IntelHSfG]
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Davidenko_I_T_2012_IntelHSfG => nrel_name_publication:[Интеллектуальная справочная система по геометрии](*
+	<- lang_ru;;
+	*);;
+
+publication_Davidenko_I_T_2012_IntelHSfG <= nrel_author:
+Davydenko_I_T;Koronchik_D_N; Shunkevich_D_V;Moshenko_D_G;Zhitko_V_A;Savelieva_O_U;Zalivako_S_S; Starcev_S_S;;
+
+publication_Davidenko_I_T_2012_IntelHSfG <- article;;
+
+publication_Davidenko_I_T_2012_IntelHSfG => nrel_information_publication: OSTIS2011;;
+
+publication_Davidenko_I_T_2012_IntelHSfG => nrel_reference_standard: [Мошенко Д.Г., Давыденко И.Т., Заливако С.С.,Корончик Д.Н.,Житко В.А., Савельева О.Ю., Старцев С.С., Шункевич Д.В. Интеллектуальная справочная система по геометрии. Открытые семантические технологии проектирования интеллектуальных систем (OSTIS-2011): материалы Междунар.научн.-техн.конф. Минск, 10-12 февраля 2011 г.) – Минск: БГУИР, 2011.- с.463-482];;
+
+publication_Davidenko_I_T_2012_IntelHSfG => nrel_number_page: ..2012_IntelHSfG(*
+-> rrel_from : 463;;
+-> rrel_by : 482;;
+*);;
+
+publication_Davidenko_I_T_2012_IntelHSfG => nrel_year_publication: 2011;;
+
+publication_Davidenko_I_T_2012_IntelHSfG <- rrel_key_sc_element:
+...
+(*
+<- sc_explanation;;
+<= nrel_sc_text_translation:
+...
+(*
+-> rrel_example:
+"file://содержимое публикаций/Давыденко_И.Т..2011ст-ИнтелССпГ.pdf";;
+*);;
+*);;
+
+

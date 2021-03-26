@@ -1,0 +1,27 @@
+sc_node_not_relation -> literature_fiction_edition;;
+
+literature_fiction_edition => nrel_main_idtf:
+[литературно-художественное издание]
+	(*
+	<- lang_ru;;
+	*);
+	[literature fiction edition] 
+	(*
+	<- lang_en;;
+	*);;
+
+literature_fiction_edition <- rrel_key_sc_element: 
+        ...
+	(*
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[литературно-художественное издание – издание, содержащее произведение (произведения) художественной литературы]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;
+
+edition -> literature_fiction_edition;;
+non_periodical_edition -> literature_fiction_edition;;

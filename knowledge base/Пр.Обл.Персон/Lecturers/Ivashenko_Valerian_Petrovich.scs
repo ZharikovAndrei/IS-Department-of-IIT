@@ -1,0 +1,43 @@
+Ivashenko_V_P
+=>nrel_main_idtf:
+[Ивашенко В.П.](*<-lang_ru;;*);
+=>nrel_idtf:
+[Ивашенко Валерьян Петрович ](*<-lang_ru;;*);
+ <-person;
+=>nrel_idtf:
+[Ivashenko Valerian](*<-lang_en;;*);
+
+<- rrel_key_sc_element:
+        ...
+        (*
+        <-illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example:
+                       "file://photos/Ivashenko_Valerian_Petrovich.jpg";;
+               *);;
+        *);;
+Ivashenko_V_P -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+ [+375 17 293-89-23];;*)
+   ;;*)
+   ;;
+Ivashenko_V_P -> rrel_work_place: aud_610_5;;
+Ivashenko_V_P -> rrel_email:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+ [ivashenko@bsuir.by ](*<-lang_en;;*)
+   ;;*)
+   ;;*)
+   ;;
+
+Ivashenko_V_P=>nrel_fields_of_scientific_research:
+	[Методы и алгоритмы интеграции баз знаний и моделей решения задач];;
+
+Ivashenko_V_P => nrel_can_teach_subject:mrzvis;lois;;
+Ivashenko_V_P <- teacher;;
+Ivashenko_V_P=>nrel_rate:1;;
+Ivashenko_V_P=>nrel_load:0;;
+0<=nrel_sum_of_numbers:...;;

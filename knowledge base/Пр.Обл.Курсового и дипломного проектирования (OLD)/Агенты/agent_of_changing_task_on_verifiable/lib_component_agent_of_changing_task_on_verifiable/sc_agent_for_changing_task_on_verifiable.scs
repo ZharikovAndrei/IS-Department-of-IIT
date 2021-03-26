@@ -1,0 +1,65 @@
+sc_agent_for_changing_task_on_verifiable
+=> nrel_main_idtf:
+	[изменение задачи на статус "проверяемая"] (* <- lang_ru;; *);
+	[changing task on verifiable] (* <- lang_en;; *);
+
+<- abstract_sc_agent;
+
+=> nrel_primary_initiation_condition: 
+	(sc_event_add_output_arc => question_initiated);
+
+=> nrel_initiation_condition_and_result: 
+	(..sc_agent_for_changing_task_on_verifiable_condition => ..sc_agent_for_changing_task_on_verifiable_result);
+
+<= nrel_sc_agent_key_sc_elements: 
+	{
+	question_initiated;
+	question;
+	question_changing_task_on_verifiable
+	};
+<- rrel_key_sc_element: 
+        ...
+	(*
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Данный sc-агент предназначен для изменения состояния задачи в рамках некоторого проекта на проверяемую]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);
+
+=> nrel_inclusion: 
+	.platform_independent_realization_of_sc_agent_of_changing_task_on_verifiable
+	(*
+	<- platform_independent_abstract_sc_agent;;
+	<= nrel_sc_agent_program: 
+		{
+		agent_of_changing_task_on_verifiable	
+		};;
+	-> sc_agent_for_changing_task_on_verifiable_scp   
+		(* <- active_sc_agent;; *);;
+	*);;
+
+..sc_agent_for_changing_task_on_verifiable_condition
+= [*
+	question_changing_task_on_verifiable _-> .._question;;
+	question_initiated _-> .._question;;
+	question _-> .._question;;
+//Place info about your parameters here
+//	.._question _-> rrel_1:: .._parameter;;
+         .._question _-> rrel_1:: .._task;; 
+
+*];;
+
+..sc_agent_for_changing_task_on_verifiable_result
+= [*
+	question_changing_task_on_verifiable _-> .._question;;
+	question_finished _-> .._question;;
+	question _-> .._question;;
+	.._question _=> nrel_answer:: .._answer;;
+//	.._question _-> rrel_1:: .._parameter;;
+         .._question _-> rrel_1:: .._task;; 
+
+*];;

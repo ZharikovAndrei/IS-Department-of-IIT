@@ -1,0 +1,10 @@
+
+magazine_Electronics_INFO_3 => nrel_main_idtf:
+[Журнал «Электроника-ИНФО» №3]
+	(*
+	<- lang_ru;;
+	*);
+	[magazine_Electronics_INFO_3]
+	(*
+	<- lang_en;;
+	*);;

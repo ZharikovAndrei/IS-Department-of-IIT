@@ -1,0 +1,9 @@
+task_17
+	=> nrel_main_idtf:[Анализ строковой записи библиографического источника](*<-lang_ru;;*);
+	<- project_task;
+	<- basic_project_task;
+	<- important_project_task;
+	<- executable_project_task;
+	=> nrel_executor: Iluschenya_Dmitry_Igorevich;;
+
+	

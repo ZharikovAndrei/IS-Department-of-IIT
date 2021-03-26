@@ -1,0 +1,8 @@
+center_of_information_and_innovations=>nrel_main_idtf:
+[центр информатизации и инновационных разработок БГУИР](*<-lang_ru;;*);
+[center of information and innovations BSUIR](*<-lang_en;;*);; 
+center_of_information_and_innovations=>nrel_idtf:
+[ЦИИР БГУИР](*<-lang_ru;;*);
+[BSUIR CII](*<-lang_en;;*);;
+center_of_information_and_innovations => nrel_pers_comp: personal_composition_of_center_of_information_and_innovations;; 
+center_of_information_and_innovations<-concept_center_of_information_and_innovations;;

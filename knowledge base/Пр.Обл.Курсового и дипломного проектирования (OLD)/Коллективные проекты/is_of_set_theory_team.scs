@@ -1,0 +1,14 @@
+is_of_set_theory_team
+<-team;
+=>nrel_main_idtf:
+[Команда разработчиков проекта "Интеллектуальная справочная система по теории множеств"](*<-lang_ru;;*);
+[The development team of project  "Intelligent system of set theory"](*<-lang_en;;*);
+
+=> nrel_decomposition_of_tasks:is_of_set_theory_team_tasks;
+-> rrel_scientific_consultant:Gulyakina_N_A;
+
+
+->Karpacz_Vladimir_Nikolaevich;
+->Chernykh_Olga_Pavlovna;
+->Zhamoydik_Eugene_Anatolevich;
+->Vinokur_Andrey_Evgenievich;;

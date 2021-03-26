@@ -1,0 +1,33 @@
+Denisova_Elena_Sergeevna=>nrel_main_idtf:
+[Денисова Елена Сергеевна](*<-lang_ru;;*);
+[Denisova Elena Sergeevna](*<-lang_en;;*);;
+
+Denisova_Elena_Sergeevna -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [+375 17 293-89-17];;*)
+   ;;*)
+   ;; 
+
+Denisova_Elena_Sergeevna -> rrel_work_place: aud_116_1;;
+
+Denisova_Elena_Sergeevna -> rrel_email:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [international@bsuir.by](*<-lang_ru;;*)
+   ;;*)
+   ;;*)
+   ;; 
+
+
+Denisova_Elena_Sergeevna <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://Denisova.jpg";;
+               *);;
+        *);;

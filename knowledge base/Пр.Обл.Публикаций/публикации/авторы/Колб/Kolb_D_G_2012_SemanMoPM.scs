@@ -1,0 +1,33 @@
+//sc_node_not_relation -> publication_Kolb_D_G_2012_SemanMoPM;;
+
+
+publication_Kolb_D_G_2012_SemanMoPM => nrel_main_idtf:
+[Колб Д.Г.2012 - СеманМУП]
+	(*
+	<- lang_ru;;
+	*);
+	[Kolb_D_G_2012_SemanMoPM]
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Kolb_D_G_2012_SemanMoPM => nrel_name_publication:[Семантическая модель управления проектами] (*
+	<- lang_ru;;
+	*);;
+
+publication_Kolb_D_G_2012_SemanMoPM <= nrel_author:
+Grakova_N_V; Kolb_D_G; Zhukov_I_I;;
+
+publication_Kolb_D_G_2012_SemanMoPM <- article;;
+
+publication_Kolb_D_G_2012_SemanMoPM => nrel_reference_standard: [Жуков И.И., Гракова Н.В., Колб Д.Г., Семантическая модель управления проектами. Информационные технологии и управление.  Материалы 48-научной конференции аспирантов, магистрантов и студентов (Минск., 7-11 мая 2012г.) редкол.: Л.Ю. Шилин и др. -Минск: БГУИР,2012 -С64.];;
+
+publication_Kolb_D_G_2012_SemanMoPM => nrel_year_publication: 2012;;
+
+publication_Kolb_D_G_2012_SemanMoPM => nrel_information_publication:  Materials_48_scientific_conference_of_post_graduate_students_undergraduates_and_students;;
+
+publication_Kolb_D_G_2012_SemanMoPM => nrel_number_page: ..2012_SemanMoPM(*
+-> rrel_from : 64;;
+-> rrel_by : 64;;
+*);;
+

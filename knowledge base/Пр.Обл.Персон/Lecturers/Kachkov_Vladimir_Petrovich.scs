@@ -1,0 +1,42 @@
+Kachkov_V_P
+=>nrel_main_idtf:
+[Качков В.П.](*<-lang_ru;;*);
+ <-person;
+=>nrel_idtf:
+[Kachkov Vladimir Petrovich](*<-lang_en;;*);
+=>nrel_idtf:
+[Качков Владимир Петрович](*<-lang_ru;;*);
+<- rrel_key_sc_element:
+        ...
+        (*
+        <-illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example:
+                       "file://photos/Kachkov_Vladimir_Petrovich.jpg";;
+               *);;
+        *);;
+
+Kachkov_V_P -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+ [+375 17 293-89-23];;*)
+   ;;*)
+   ;;
+Kachkov_V_P -> rrel_work_place: aud_610_5;;
+Kachkov_V_P -> rrel_email:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+ [kafiit@bsuir.by](*<-lang_en;;*)
+   ;;*)
+   ;;*)
+   ;;
+
+Kachkov_V_P => nrel_can_teach_subject:aois;;
+Kachkov_V_P <- teacher;;
+Kachkov_V_P=>nrel_rate:1;;
+
+Kachkov_V_P<=nrel_educational_work:laboratory_work_on_aois;
+                        lectures_on_aois;;Kachkov_V_P=>nrel_load:0;;
+0<=nrel_sum_of_numbers:...;;

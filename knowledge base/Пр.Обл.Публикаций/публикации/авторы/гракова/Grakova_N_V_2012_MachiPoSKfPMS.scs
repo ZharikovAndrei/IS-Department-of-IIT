@@ -1,0 +1,30 @@
+publication_Grakova_N_V_2012_MachiPoSKfPMS=> nrel_main_idtf:
+[Гракова Н.В. 2012 - МашинОЗдССУП]
+	(*
+	<- lang_ru;;
+	*);
+	[Grakova_N_V_2012_MachiPoSKfPMS] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Grakova_N_V_2012_MachiPoSKfPMS => nrel_name_publication:[Машина обработки знаний для семантической системы управления проектами](*
+	<- lang_ru;;
+	*);;
+
+publication_Grakova_N_V_2012_MachiPoSKfPMS <= nrel_author:
+Grakova_N_V;Zhukov_I_I;;
+
+publication_Grakova_N_V_2012_MachiPoSKfPMS <- article;;
+
+publication_Grakova_N_V_2012_MachiPoSKfPMS => nrel_reference_standard: [Гракова, Н.В. Машина обработки знаний для семантической системы управления проектами / И.И. Жуков, Н.В. Гракова // Информационные технологии и системы 2012 (ИТС 2012): материалы международной научной конференции, БГУИР, Минск, Беларусь, 24 октября 2012 г. = Information Technologies and Systems 2012 (ITS 2012) : Proceeding of The International Conference, BSUIR, Minsk, 24th October 2012 / редкол. : Л. Ю. Шилин и др. – Минск : БГУИР, 2012. – С. 168-169 (тезисы)   ];;
+
+publication_Grakova_N_V_2012_MachiPoSKfPMS => nrel_year_publication: 2012;;
+
+publication_Grakova_N_V_2012_MachiPoSKfPMS => nrel_information_publication: Proceedings_of_the_international_scientific_conference_ITS_12;;
+
+publication_Grakova_N_V_2012_MachiPoSKfPMS => nrel_number_page: ..2012_MachiPoSKfPMS(*
+-> rrel_from : 168;;
+-> rrel_by : 169;;
+*);;
+publication_Grakova_N_V_2012_MachiPoSKfPMS <- rrel_key_sc_element: ... (* <- sc_explanation;; <= nrel_sc_text_translation: ... (* -> rrel_example: "file://содержимое публикаций/Гракова_Н.В._МашинОЗдССУП.pdf";; *);; *);;

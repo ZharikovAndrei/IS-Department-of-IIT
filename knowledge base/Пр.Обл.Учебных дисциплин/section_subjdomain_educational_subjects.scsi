@@ -1,0 +1,714 @@
+subject_domain_of_educational_subjects
+=> nrel_main_idtf:
+	[Предметная область учебных дисциплин]
+	(* <- lang_ru;; *);
+	[Subject domain of educational subjects]
+	(* <- lang_en;; *);
+
+<- subject_domain;
+
+-> rrel_maximum_studied_object_class:
+	educational_subject;
+-> rrel_not_maximum_studied_object_class:
+    natural_science_subject;
+    special_subject;
+    subject_of_specialization;
+    social_and_humanitarian_subject;
+    general_professional_subject;
+    learning_process;
+    natural_science_subject;
+    additional_literature;
+    application_software;
+    curriculum;
+    electronic_educational_complex_of_subject;
+    lecture_material;
+    methodical_instructions;
+    program;
+    subject_provision;
+    teaching_aid;
+    teaching_methodological_support;
+    teaching_program;
+    technical_support;
+    textbook;
+    tutorial;
+    visual_aid;
+    colloquium;
+    control_work;
+    exam;
+    final_certification;
+    intermediate_control;
+    performance_control;
+    protection_of_course_project;
+    protection_of_design_work;
+    protection_of_laboratory_work;
+    protection_of_practical_work;
+    report_of_practice;
+    state_exam;
+    test;
+	current_survey;
+
+-> rrel_explored_relation:
+    rrel_subject;
+		nrel_source;
+    nrel_realisation_of_intermediate_control;
+    nrel_realisation_of_final_certification;
+    nrel_realisation_of_learning_activity;
+    rrel_realisation_of_learning_activity;
+    nrel_taught_subject;
+    nrel_decomposition;
+    nrel_abbreviation;
+    nrel_term;
+    nrel_partition;
+    rrel_teacher;;
+
+nrel_source <-sc_node_norole_relation;
+ => nrel_main_idtf:[источник*] (* <-lang_ru;; *);
+ => nrel_main_idtf:[source*] (* <-lang_en;; *);;
+
+//current_survey.scs
+current_survey
+=>nrel_main_idtf:
+	[текущий опрос] (* <-lang_ru;; *);
+
+->rrel_key_sc_element:
+	...
+	(*
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> [Текущий опрос — промежуточный метод проверки знаний учащегося в устной форме, целью которого является проверка качества усвоения материала.] (* <-lang_ru;; *);;
+		*);;
+	*);;
+
+
+
+//отношения.scs
+sc_node_norole_relation->nrel_realisation_of_intermediate_control;
+                        nrel_realisation_of_final_certification;
+                        nrel_realisation_of_learning_activity;
+                        nrel_taught_subject;
+                        nrel_decomposition;
+                        nrel_abbreviation;;
+
+sc_node_role_relation->rrel_realisation_of_learning_activity;
+                        rrel_subject;
+                        rrel_teacher;;
+
+
+nrel_decomposition
+=>nrel_main_idtf:
+	[декомпозиция*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[decomposition*] (* <-lang_en;; *);;
+
+nrel_realisation_of_learning_activity
+=>nrel_main_idtf:
+	[реализация учебной деятельности*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[realisation of learning activity*] (* <-lang_en;; *);;
+
+nrel_realisation_of_intermediate_control
+=>nrel_main_idtf:
+	[реализация промежуточного контроля*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[realisation of intermediate control*] (* <-lang_en;; *);;
+
+nrel_realisation_of_final_certification
+=>nrel_main_idtf:
+	[реализация итоговой аттестации*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[realisation of final certification*] (* <-lang_en;; *);;
+
+rrel_subject
+=>nrel_main_idtf:
+	[дисциплина'] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[subject'] (* <-lang_en;; *);;
+
+rrel_realisation_of_learning_activity
+=>nrel_main_idtf:
+	[реализация учебной деятельности'] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[realisation of learning activity'] (* <-lang_en;; *);;
+
+nrel_taught_subject
+=>nrel_main_idtf:
+	[преподаваемая дисциплина*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[taught subject*] (* <-lang_en;; *);;
+
+rrel_teacher
+=>nrel_main_idtf:
+	[преподаватель'] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[teacher'] (* <-lang_en;; *);;
+
+nrel_abbreviation=>nrel_main_idtf:
+	[абревиатура*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[abbreviation*] (* <-lang_en;; *);;
+
+
+
+
+
+// nrel_term.scs
+nrel_term
+<-sc_node_norole_relation;
+=>nrel_main_idtf:
+	[учебный семестр*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[term*] (* <-lang_en;; *);
+
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> [обозначачение полугодия в высших и средних специальных учебных заведениях.] (* <-lang_ru;; *);;
+		*);
+=>nrel_second_domain:time_situation;
+
+=>nrel_first_domain:uchrezhdenie;
+=>nrel_definitional_domain:...(* <=nrel_combination:...(*->time_situation ;; ->uchrezhdenie;;*) ;;
+				*);;
+
+
+//educational_subject.scs
+educational_subject
+=>nrel_main_idtf:
+	[учебная дисциплина] (* <-lang_ru;; *);
+->rrel_key_sc_element:
+	...
+	(*
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> [Учебная дисциплина — отрасль научного знания, обычно содержательно включающая базовые сведения по какой-либо науке, ресурсами которой являются субъект учебной деятельности и обеспечение дисциплины.] (* <-lang_ru;; *);;
+		*);;
+	*);
+
+<=nrel_subdividing:
+	natural_science_subject;
+	special_subject (*=>nrel_inclusion: subject_of_specialization;;*);
+	social_and_humanitarian_subject;
+	general_professional_subject;
+
+
+<=nrel_inclusion:
+	learning_process
+	(*
+	<=nrel_activity:
+		department;;
+	*);;
+
+
+sc_node_norole_relation->nrel_partition;;
+nrel_partition
+=>nrel_main_idtf:
+	[разделы*] (* <-lang_ru;; *);;
+
+natural_science_subject
+    =>nrel_main_idtf:
+    	[естественно-научная дисциплина] (* <-lang_ru;; *);;
+special_subject
+    =>nrel_main_idtf:
+    	[специальная дисциплина] (* <-lang_ru;; *);
+      	[special subject] (* <-lang_en;; *);;
+subject_of_specialization
+    =>nrel_main_idtf:
+    	[дисциплина по специализации] (* <-lang_ru;; *);;
+social_and_humanitarian_subject
+    =>nrel_main_idtf:
+    	[социально-гуманитарная дисциплина] (* <-lang_ru;; *);;
+general_professional_subject
+    =>nrel_main_idtf:
+    	[обще-специальная дисциплина] (* <-lang_ru;; *);;
+learning_process
+    =>nrel_main_idtf:
+        [учебный процесс] (* <-lang_ru;; *);
+        [learning process] (* <-lang_en;; *);;
+
+
+
+
+colloquium
+=>nrel_main_idtf:
+	[коллоквиум] (* <-lang_ru;; *);
+
+->rrel_key_sc_element:
+	...
+	(*
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> [Коллоквиум — промежуточный метод проверки знаний учащегося, устный мини-экзамен в середине семестра, целью которого является обучение высказывать точку зрения по определенному вопросу, защищать свое мнение, применяя знания, полученные на занятиях по предмету.] (* <-lang_ru;; *);;
+		*);;
+	*);;
+
+control_work
+=>nrel_main_idtf:
+	[контрольная работа] (* <-lang_ru;; *);
+
+->rrel_key_sc_element:
+	...
+	(*
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> [Контрольная работа — промежуточный метод проверки знаний учащегося, позволяет определить способности к логическому мышлению и изложению определенной точки зрения по конкретным проблемам дисциплины, показывают степень владения умением использовать приобретенные знания.] (* <-lang_ru;; *);;
+		*);;
+	*);;
+
+
+exam
+=>nrel_main_idtf:
+	[экзамен] (* <-lang_ru;; *);
+
+->rrel_key_sc_element:
+	...
+	(*
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> [Экзамен - эта форма итоговой аттестации обучающихся, позволяет определить степень усвоения пройденой дисциплины.] (* <-lang_ru;; *);;
+		*);;
+	*);;
+
+
+final_certification
+=>nrel_main_idtf:
+	[итоговая аттестация] (* <-lang_ru;; *);
+
+->rrel_key_sc_element:
+	...
+	(*
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> [Итоговая аттестация -  определение соответствия результатов учебной деятельности обучающихся требованиям образовательных стандартов, учебно-программной документации соответствующих образовательных программ и (или) индивидуальных планов работы аспирантов, адъюнктов, докторантов, соискателей в ходе и (или) при завершении получения образования.] (* <-lang_ru;; *);;
+		*);;
+	*);
+
+=>nrel_include:
+	test;
+	exam;
+	state_exam;
+	report_of_practice;;
+
+intermediate_control
+=>nrel_main_idtf:
+	[промежуточный контроль] (* <-lang_ru;; *);
+
+->rrel_key_sc_element:
+	...
+	(*
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> [Промежуточный контроль -  определение соответствия результатов учебной деятельности обучающихся требованиям образовательных стандартов и (или) учебно-программной документации соответствующих образовательных программ с учетом результатов текущей аттестации.] (* <-lang_ru;; *);;
+		*);;
+	*);
+
+=>nrel_include:
+	control_work;
+	colloquium;
+	current_survey;
+	protection_of_laboratory_work;
+	protection_of_practical_work;
+	protection_of_design_work;
+	protection_of_course_project;;
+
+performance_control
+=>nrel_main_idtf:
+	[контроль результатов деятельности] (* <-lang_ru;; *);
+
+->rrel_key_sc_element:
+	...
+	(*
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> [Kонтроль результатов деятельности -  процесс выявления и сравнения на том или ином этапе обучения результатов учебной деятельности с требованиями, задаваемыми учебными программами.] (* <-lang_ru;; *);;
+		*);;
+	*);
+
+=>nrel_include:
+	intermediate_control;
+	final_certification;;
+
+protection_of_course_project
+=>nrel_main_idtf:
+	[защита курсового проектирования] (* <-lang_ru;; *);
+
+->rrel_key_sc_element:
+	...
+	(*
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> [Защита курсового проектирования — завершает работу над курсовым проектом, показывает умение учащегося аргументировано обосновывать предлагаемые решения, чётко и ясно излагать свои мысли и грамотно отвечать на поставленные вопросы.] (* <-lang_ru;; *);;
+		*);;
+	*);;
+
+protection_of_design_work
+=>nrel_main_idtf:
+	[защита расчетной работы] (* <-lang_ru;; *);
+
+->rrel_key_sc_element:
+	...
+	(*
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> [Защита расчетной работы — завершающий этап расчётной работы, показывающий умение учащегося ориентироваться в теоритическом материале, решать поставленные задачи и аргументированно описывать метод решения поставленной задачию.] (* <-lang_ru;; *);;
+		*);;
+	*);;
+
+protection_of_laboratory_work
+=>nrel_main_idtf:
+	[защита лабораторной работы] (* <-lang_ru;; *);
+
+->rrel_key_sc_element:
+	...
+	(*
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> [Защита лабораторной работы — завершающий этап лабораторной работы, показывающий умение учащегося ориентироваться в теоритическом материале, решать поставленные задачи и аргументированно описывать метод решения поставленной задачи.] (* <-lang_ru;; *);;
+		*);;
+	*);;
+
+
+protection_of_practical_work
+=>nrel_main_idtf:
+	[защита практической работы] (* <-lang_ru;; *);
+
+->rrel_key_sc_element:
+	...
+	(*
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> [Защита практической работы — завершающий этап практической работы, показывающий умение учащегося ориентироваться в теоритическом материале, решать поставленные задачи и аргументированно описывать метод решения поставленной задачи.] (* <-lang_ru;; *);;
+		*);;
+	*);;
+
+
+report_of_practice
+=>nrel_main_idtf:
+	[отчет по практике] (* <-lang_ru;; *);
+
+->rrel_key_sc_element:
+	...
+	(*
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> [Oтчет по практике - это аналитическая (практическая) работа, которая выполняется студентами и является совокупностью полученных результатов самостоятельного исследования теоретических и практических навыков в период прохождения учебно-ознакомительной, производственной или преддипломной практики на предприятии.] (* <-lang_ru;; *);;
+		*);;
+	*);;
+
+
+state_exam
+=>nrel_main_idtf:
+	[государственный экзамен] (* <-lang_ru;; *);
+
+->rrel_key_sc_element:
+	...
+	(*
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> [Государственный экзамен - эта форма итоговой аттестации обучающихся, которая проводится с целью определения теоретической и практической готовности выпускника к выполнению социально-профессиональных задач.] (* <-lang_ru;; *);;
+		*);;
+	*);;
+
+
+test
+=>nrel_main_idtf:
+	[зачёт] (* <-lang_ru;; *);
+
+->rrel_key_sc_element:
+	...
+	(*
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> [Зачёт - эта форма итоговой аттестации обучающихся, проверочное испытание без балльной оценки.] (* <-lang_ru;; *);;
+		*);;
+	*);;
+
+
+
+
+
+additional_literature
+=>nrel_main_idtf:
+	[дополнительная литература] (* <-lang_ru;; *);
+
+->rrel_key_sc_element:
+	...
+	(*
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> [Дополнительная литература - представлена изданиями, содержащими дополнительный материал к основным разделам программы, литературой для углубленного изучения дисциплины и постановки научных исследований.] (* <-lang_ru;; *);;
+		*);;
+	*);;
+
+application_software
+=>nrel_main_idtf:
+	[прикладное программное обеспечение] (* <-lang_ru;; *);
+
+->rrel_key_sc_element:
+	...
+	(*
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> [Прикладное программное обеспечение - это комплекс программных средств и документации к ним, предназначенных для решения сравнительно узких классов задач в конкретных предметных областях.] (* <-lang_ru;; *);;
+		*);;
+	*);;
+
+
+curriculum
+=>nrel_main_idtf:
+	[учебный план] (* <-lang_ru;; *);
+
+->rrel_key_sc_element:
+	...
+	(*
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> [Учебный план - учебно-программный документ, который устанавливает перечень, объем, последовательность изучения учебных дисциплин, образовательных областей, тем, график освоения содержания образовательной программы, формы, виды и сроки проведения учебных занятий, аттестации обучающихся, а также прохождения практики.] (* <-lang_ru;; *);;
+		*);;
+	*);;
+
+
+electronic_educational_complex_of_subject
+=>nrel_main_idtf:
+	[электронный учебно-методический комплекс дисциплины] (* <-lang_ru;; *);
+
+->rrel_key_sc_element:
+	...
+	(*
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> [Электронный учебно-методический комплекс дисциплины - совокупность учебно-методических материалов и программно-технических средств, способствующих эффективному освоению студентами учебного материала, входящего в учебную программу дисциплины плана подготовки студентов по одной из специальностей.] (* <-lang_ru;; *);;
+		*);;
+	*);;
+
+
+lecture_material
+=>nrel_main_idtf:
+	[материал лекции] (* <-lang_ru;; *);
+
+->rrel_key_sc_element:
+	...
+	(*
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> [Mатериал лекции - подготовленный преподователем материал для изложении нового, довольно объемного материала по какой-либо проблеме, методу, теме вопроса.] (* <-lang_ru;; *);;
+		*);;
+	*);;
+
+
+methodical_instructions
+=>nrel_main_idtf:
+	[методические указания] (* <-lang_ru;; *);
+
+->rrel_key_sc_element:
+	...
+	(*
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> [Mетодические указания - это свод практических рекомендаций, выработанный на основе проведенных исследований и полученных знаний.] (* <-lang_ru;; *);;
+		*);;
+	*);;
+
+
+program
+=>nrel_main_idtf:
+	[учебная программа*] (* <-lang_ru;; *);
+<-sc_node_norole_relation;
+->rrel_key_sc_element:
+	...
+	(*
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> [Учебная программа - издание с представлением конкретных методик для студентов, для осуществления той или иной деятельности.] (* <-lang_ru;; *);;
+		*);;
+	*);;
+
+
+subject_provision
+=>nrel_main_idtf:
+	[обеспечение дисциплины] (* <-lang_ru;; *);
+
+->rrel_key_sc_element:
+	...
+	(*
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> [Oбеспечение дисциплины — материальные ресурсы деятельности, подразделяется на техническое обеспечение и учебно-методическое.] (* <-lang_ru;; *);;
+		*);;
+	*);
+
+=>nrel_include:
+		teaching_methodological_support;
+		technical_support;;
+
+
+teaching_aid
+=>nrel_main_idtf:
+	[учебно-методическое пособие] (* <-lang_ru;; *);
+
+->rrel_key_sc_element:
+	...
+	(*
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> [Учебно-методическое пособие - учебное издание с представлением конкретных методик для студентов, для осуществления той или иной деятельности.] (* <-lang_ru;; *);;
+		*);;
+	*);;
+
+
+teaching_methodological_support
+=>nrel_main_idtf:
+	[учебно-методическое обеспечение] (* <-lang_ru;; *);
+
+->rrel_key_sc_element:
+	...
+	(*
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> [Учебно-методическое обеспечение — обеспечение средствами обучения, проектируемых в соответствии с учебной программой и выбранным дидактическим процессом, достаточных для реализации целей и содержания образовательного стандарта.] (* <-lang_ru;; *);;
+		*);;
+	*);
+
+=>nrel_include:
+		curriculum;
+		program;
+		textbook;
+		lecture_material;
+		tutorial;
+		teaching_aid;
+		visual_aid;
+		methodical_instructions;
+		additional_literature;;
+
+
+teaching_program
+=>nrel_main_idtf:
+	[обучающая программа] (* <-lang_ru;; *);
+
+->rrel_key_sc_element:
+	...
+	(*
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> [Ообучающая программа - полное описание процесса обучения, содержащее учебный материал, задания, необходимые для его усвоения, и указания по их выполнению и контролю.] (* <-lang_ru;; *);;
+		*);;
+	*);;
+
+technical_support
+=>nrel_main_idtf:
+	[техническое обеспечение] (* <-lang_ru;; *);
+
+->rrel_key_sc_element:
+	...
+	(*
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> [Tехническое обеспечение —  организация и осуществление технически правильного использования, обслуживания, ремонта необходимого для обучения оборудования.] (* <-lang_ru;; *);;
+		*);;
+	*);
+
+=>nrel_include:
+		application_software;
+		electronic_educational_complex_of_subject;
+		teaching_program;;
+
+
+textbook
+=>nrel_main_idtf:
+	[учебник] (* <-lang_ru;; *);
+
+->rrel_key_sc_element:
+	...
+	(*
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> [Учебник - учебно-научное сочинение, излагающее основы той или иной науки и предназначенное для дидактических целей.] (* <-lang_ru;; *);;
+		*);;
+	*);;
+
+
+tutorial
+=>nrel_main_idtf:
+	[учебное пособие] (* <-lang_ru;; *);
+
+->rrel_key_sc_element:
+	...
+	(*
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> [Учебное пособие - учебная книга, предназначенная для расширения, углубления, лучшего усвоения знаний, предусмотренных учебной программой и изложенных в учебниках; дополняет или заменяет (частично или полностью) учебник.] (* <-lang_ru;; *);;
+		*);;
+	*);;
+
+
+visual_aid
+=>nrel_main_idtf:
+	[наглядное пособие] (* <-lang_ru;; *);
+
+->rrel_key_sc_element:
+	...
+	(*
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> [Hаглядное пособие - все материальные средства обучения, используемые в учебно-воспитательном процессе и предназначенные для расширения, углубления и лучшего усвоения знаний, предусмотренных учебной программой и изложенных в учебниках.] (* <-lang_ru;; *);;
+		*);;
+	*);;

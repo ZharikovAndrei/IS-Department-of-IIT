@@ -1,0 +1,17 @@
+sc_node_not_relation->concept_company;;
+concept_company=>nrel_main_idtf:
+[предприятие](*<-lang_ru;;*);
+[company](*<-lang_en;;*);;
+
+concept_company <- rrel_key_sc_element:
+	...
+	(*<-sc_definition;;
+     =>nrel_main_idtf:[Опр.(Предприятие)](*<-lang_ru;;*);;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Предприятие — самостоятельный, организационно-обособленный хозяйствующий субъект с правами юридического лица,
+       который производит и сбывает товары, выполняет работы, оказывает услуги.](* <- lang_ru;; *);;
+		*);;
+	*);;

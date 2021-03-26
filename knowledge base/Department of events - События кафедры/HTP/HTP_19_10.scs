@@ -1,0 +1,58 @@
+HTP_19_10=> nrel_main_idtf:
+[Цикл лекций "Секреты предпринимательства" 19 октября 2015] (* <-lang_ru;; *);
+[Lecture series "Secrets of Entrepreneurship " 19.10.2015] (* <-lang_en;; *);
+<-temporary_entity;;
+HTP_19_10<-
+...
+(*<-exact_value;;
+ <-begin;;
+  =>nrel_translation_in_the_Gregorian_calendar:...
+  (*
+    ->number_of_year:2015;;
+    ->number_of_month_in_year:10;;
+    ->number_of_day_in_month:19;;
+    ->number_of_hour_in_day:12;;
+    ->number_of_minute_in_hour:0;;
+   *);;
+  *);;
+HTP_19_10<-
+...
+(*<-exact_value;;
+ <-completion;;
+  =>nrel_translation_in_the_Gregorian_calendar:...
+  (*
+    ->number_of_year:2015;;
+    ->number_of_month_in_year:10;;
+    ->number_of_day_in_month:19;;
+    ->number_of_hour_in_day:20;;
+    ->number_of_minute_in_hour:0;;
+   *);;
+  *);;
+HTP_19_10=>nrel_address:[г.Минск, улица Купревича, д.1 к.5](*<-lang_ru;;*);;
+
+HTP_19_10<=nrel_subdividing:
+HTP_business_startup;
+HTP_Dmitriy_Dubograev_lecture;;
+
+HTP_19_10=>nrel_listener:
+Aderiho_Ilya_Anatolevich;
+Derzhanovich_Raisa_Petrovna;
+Vlasov_Egor_Vyacheslavovich;
+Lasitsa_Vladislav_Mikhailovich;
+Bobr_Ilya_Aleksandrovich;
+Brantsevich_Ekaterina_Michailovna;
+Vinokur_Andrey_Evgenievich;
+Boriskin_Alexander_Sergeevich;
+Zhamoydik_Eugene_Anatolevich;
+Chernykh_Olga_Pavlovna;
+Grinjuk_Oleg_Sergeevich;
+Verenich_Maxim_Sergeevich;
+Dubina_Elena_Alexandrova;
+Bobkov_Andrey_Valerevich;
+Chernikov_Ivan_Andreevich;
+Malashkevich_Stanislav_Igorevich;
+Rodionov_Sergey_Edyardovich;
+Karpach_Vladimir_Nikolaevich;
+Dubrovsky_Artem_Olegovich;
+Bordushko_Artemiy_Valerxevich;
+Veshtort_Alesx_Vitalievich;;

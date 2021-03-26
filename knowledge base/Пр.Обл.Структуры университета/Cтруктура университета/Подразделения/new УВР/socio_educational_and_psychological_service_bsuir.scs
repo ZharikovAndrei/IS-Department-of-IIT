@@ -1,0 +1,9 @@
+socio_educational_and_psychological_service_bsuir=>nrel_main_idtf:
+[социально-педагогическая и психологическая служба БГУИРа](*<-lang_ru;;*);
+[BSUIR socio-educational and psychological service](*<-lang_en;;*);;
+socio_educational_and_psychological_service_bsuir=>nrel_idtf:
+[СППС БГУИРа](*<-lang_ru;;*);
+[BSUIR SEPS](*<-lang_en;;*);;
+
+socio_educational_and_psychological_service_bsuir => nrel_pers_comp: personal_composition_of_socio_educational_and_psychological_service;; 
+socio_educational_and_psychological_service_bsuir<-concept_socio_educational_and_psychological_service;;

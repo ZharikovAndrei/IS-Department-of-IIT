@@ -1,0 +1,30 @@
+publication_Koronchik_D_N_2014_UserIIMSPIS=> nrel_main_idtf:
+[Корончик Д.Н.2014 - ПользИИМППИС]
+	(*
+	<- lang_ru;;
+	*);
+	[Koronchik_D_N_2014_UserIIMSPIS] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Koronchik_D_N_2014_UserIIMSPIS => nrel_name_publication:[Пользовательский интерфейс интеллектуальной метасистемы поддержки проектирования интеллектуальных систем.](*
+	<- lang_ru;;
+	*);;
+
+publication_Koronchik_D_N_2014_UserIIMSPIS <= nrel_author:
+Koronchik_D_N;;
+
+publication_Koronchik_D_N_2014_UserIIMSPIS <- article;;
+
+publication_Koronchik_D_N_2014_UserIIMSPIS => nrel_reference_standard: [Корончик Д.Н. Пользовательский интерфейс интеллектуальной метасистемы поддержки проектирования интеллектуальных систем. Открытые семантические технологии интеллектуальных систем (Ostis-2014): Материалы IV международной науч.-тех. конф (Минск, 20-22 февраля 2014г.) Минск: БГУИР,2014. – с.79-82];;
+
+publication_Koronchik_D_N_2014_UserIIMSPIS => nrel_year_publication: 2014;;
+
+publication_Koronchik_D_N_2014_UserIIMSPIS => nrel_information_publication: Materials_of_the_International_Scientific_and_Technical_Conference_OSTIS_2014;;;;
+
+publication_Koronchik_D_N_2014_UserIIMSPIS => nrel_number_page: ..2014_UserIIMSPIS (*
+-> rrel_from : 79;;
+-> rrel_by : 82;;
+*);;
+publication_Koronchik_D_N_2014_UserIIMSPIS <- rrel_key_sc_element: ... (* <- sc_explanation;; <= nrel_sc_text_translation: ... (* -> rrel_example: "file://содержимое публикаций/05._Корончик_Д.Н._-_ПользИИМППИС.pdf";; *);; *);;

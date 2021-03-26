@@ -1,0 +1,26 @@
+nrel_description
+<-sc_node_norole_relation;
+
+=>nrel_main_idtf:
+[описание*](*<-lang_ru;;*);
+
+=>nrel_main_idtf:
+[description*](*<-lang_en;;*);
+
+<-rrel_key_sc_element_of_subject_domain:
+section_subject_domain_of_desingning_management;
+
+=>nrel_first_domain:projects;
+=>nrel_second_domain:description;
+=>nrel_definitional_domain:...(* <=nrel_combination:...(*->project;; ->description;;*) ;; *);
+
+<-rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [описание* -множество связок,связывающее проект с его описанием.](* <-lang_ru;; *);; 
+		*);;
+	*);;

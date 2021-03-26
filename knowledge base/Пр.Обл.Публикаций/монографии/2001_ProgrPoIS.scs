@@ -1,0 +1,20 @@
+monograph_2001_SubmiaPoIiGAM=> nrel_main_idtf:
+[2001 - ПредсиОИвГАМ]
+	(*
+	<- lang_ru;;
+	*);
+	[2001_ProgrPoIS] 
+	(*
+	<- lang_en;;
+	*);;
+
+monograph_2001_SubmiaPoIiGAM => nrel_name_publication:[Представление и обработка информации в графодинамических ассоциативных машинах](*<- lang_ru;;*);;
+
+monograph_2001_SubmiaPoIiGAM <= nrel_author:
+Golenkov_V_V;Ivashenko_V_P;Eliseeva_Olga_Evgenjevna;;
+
+monograph_2001_SubmiaPoIiGAM <- monograph;;
+
+monograph_2001_SubmiaPoIiGAM => nrel_reference_standard: [Представление и обработка информации в графодинамических ассоциативных машинах, Минск, БГУИР, 2001, 410 с.];;
+monograph_2001_SubmiaPoIiGAM=>nrel_count_page:410;;
+monograph_2001_SubmiaPoIiGAM => nrel_year_publication: 2001;;

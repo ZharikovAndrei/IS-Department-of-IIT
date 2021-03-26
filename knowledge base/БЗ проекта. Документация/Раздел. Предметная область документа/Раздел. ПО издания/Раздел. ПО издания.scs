@@ -1,0 +1,14 @@
+sc_node_not_relation -> Section_Specialization_of_edition;;
+
+
+Section_Specialization_of_edition => nrel_main_idtf:
+[Раздел. Предметная область издания]
+	(*
+	<- lang_ru;;
+	*);
+	[Section. Specialization of edition] 
+	(*
+	<- lang_en;;
+	*);;
+
+Section_Specialization_of_edition -> rrel_key_sc_element_of_subject_domain: specialization_of_edition;;

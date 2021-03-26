@@ -1,0 +1,15 @@
+sc_node_not_relation -> specialization_of_document;;
+
+
+specialization_of_document => nrel_main_idtf:
+[Предметная область документа]
+	(*
+	<- lang_ru;;
+	*);
+	[Specialization of document] 
+	(*
+	<- lang_en;;
+	*);;
+
+
+subject_domain -> specialization_of_document;;

@@ -1,0 +1,27 @@
+sc_node_not_relation -> instructional_methodical_edition;;
+
+instructional_methodical_edition => nrel_main_idtf:
+[инструктивно-методическое издание]
+	(*
+	<- lang_ru;;
+	*);
+	[instructional and methodical edition] 
+	(*
+	<- lang_en;;
+	*);;
+
+instructional_methodical_edition <- rrel_key_sc_element: 
+        ...
+	(*
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[инструктивно-методическое издание – производственно-практическое издание, содержащее документы определённого типа и методические рекомендации по их использованию, адресованные специалистам в помощь их практической деятельности в рамках данного ведомства]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;
+
+edition -> instructional_methodical_edition;;
+trade_edition -> instructional_methodical_edition;;

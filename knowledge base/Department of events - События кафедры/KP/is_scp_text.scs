@@ -1,0 +1,3 @@
+is_scp_text=> nrel_main_idtf:
+[Интеллектуальная среда текстового общения интеллектуальных систем с пользователями (sc.n-редактор, транслятор из SCn в SC, транслятор из SC в SCn)] (* <-lang_ru;; *);
+[The intellectual milieu of text communication with users of intelligent systems (sc.n- editor, compiler of the SC to SCn , the translator of the SC to SCn )] (* <-lang_en;; *);;

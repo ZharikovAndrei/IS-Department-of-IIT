@@ -1,0 +1,76 @@
+the_department_of_informatics=>nrel_main_idtf:
+[Кафедра информатики](*<-lang_ru;;*);
+[the department of informatics](*<-lang_en;;*);; 
+
+
+
+the_department_of_informatics=>nrel_idtf:[ИНФ](*<-lang_ru;;*);;
+the_department_of_informatics=>nrel_idtf:[INF](*<-lang_en;;*);;
+
+
+
+pers_comp_inf -> rrel_head_of_department: header_of_inf;;
+
+the_department_of_informatics => nrel_info: inf_info;;
+
+the_department_of_informatics => nrel_pers_comp: pers_comp_inf;;
+
+
+
+
+header_of_inf=>nrel_main_idtf:
+[Волорова Наталья Алексеевна](*<-lang_ru;;*);
+[Volorova Natal'ya Alexeevna](*<-lang_en;;*);;
+
+
+
+inf_info=>nrel_main_idtf:
+[информация о кафедре ИНФ](*<-lang_ru;;*);
+[the information about the department of INF](*<-lang_en;;*);; 
+
+
+pers_comp_inf=>nrel_main_idtf:
+[Персональный состав кафедры ИНФ](*<-lang_ru;;*);
+[personal composition of the INF](*<-lang_en;;*);; 
+
+
+
+
+
+header_of_inf <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://../../../image/inf1.JPG";;
+               *);;
+        *);;
+
+
+
+
+
+
+
+
+
+
+inf_info <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [О кафедре] (* <- lang_ru;; *);;
+	<- sc_task;;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Кафедра информатики создана в 1996 году для подготовки специалистов по государственному образовательному стандарту «Информатика». Первый набор студентов в 1996 году - 25 чел. В последние годы - 120 человек.
+Кафедра осуществляет обучение студентов по специальности "Информатика и технологии программирования" дневной и дистанционной формы обучения. Преподавание учебных курсов проводится в соответствии с рабочими учебными программами для студентов дневной, и дистанционной форм обучения, а также для студентов второй ступени высшего образования (магистрантов), аспирантов и соискателей университета.  ](* <- lang_ru;; *);;
+		*);;
+	*);;
+
+
+

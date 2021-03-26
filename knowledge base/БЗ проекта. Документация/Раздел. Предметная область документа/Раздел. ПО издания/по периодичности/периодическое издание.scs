@@ -1,0 +1,36 @@
+sc_node_not_relation -> periodical_edition;;
+
+periodical_edition => nrel_main_idtf:
+[периодическое издание]
+	(*
+	<- lang_ru;;
+	*);
+	[periodical edition] 
+	(*
+	<- lang_en;;
+	*);;
+
+periodical_edition <- rrel_key_sc_element: 
+        ...
+	(*
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[периодическое издание – сериальное издание, выходящее через определенные промежутки времени, как правило, с постоянным для каждого года числом номеров (выпусков), не повторяющимися по содержанию, однотипно оформленными нумерованными и (или) датированными выпусками, имеющими одинаковое заглавие]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;
+
+serial_edition -> periodical_edition;;
+
+
+periodical_edition <= nrel_subdividing:
+			{
+				annual_edition; 
+				monthly_edition;
+				quartertly_edition;
+				daily_edition;
+				weekly_edition
+			};;

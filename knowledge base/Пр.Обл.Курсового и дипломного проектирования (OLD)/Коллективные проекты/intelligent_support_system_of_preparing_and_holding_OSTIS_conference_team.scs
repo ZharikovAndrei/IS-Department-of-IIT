@@ -1,0 +1,25 @@
+intelligent_support_system_of_preparing_and_holding_OSTIS_conference_team
+=>nrel_main_idtf:
+[Команда разработчиков проекта "Интеллектуальная система поддержки подготовки и проведения конференции OSTIS"](*<-lang_ru;;*);
+[The development team of project "Intelligent support system of preparing and holding OSTIS conference"](*<-lang_en;;*);
+<-team;
+
+->rrel_project_head:
+Zhukov_I_I;
+Kolb_D_G;
+
+->rrel_kb_developer:
+Bedunkevich_Stanislav_Viktorovich;
+Zhartun_Vladislav_Andreevich;
+Kvetko_Nikolay_Nikolaevich;
+Kosmich_Dmitriy_Ivanovich;
+Mihalovskiy_Vadim_Viktorovich;
+Veremeychik_Maria_Ivanovna;
+Sadovskiy_Evgeniy_Valerxevich;
+
+->rrel_kpm_developer:
+Veremeychik_Maria_Ivanovna;
+Sadovskiy_Evgeniy_Valerxevich;
+->rrel_ui_developer:
+Veremeychik_Maria_Ivanovna;
+Sadovskiy_Evgeniy_Valerxevich;;

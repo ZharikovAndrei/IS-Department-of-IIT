@@ -1,0 +1,6 @@
+aois_topic_3_logicheskie_osnovy_postroeniya_evm_elementy_algebry_logiki
+<- concept_topic; 
+<= nrel_index_number: 3; 
+<= nrel_content: [Логические переменные и функции. Базовые функционально- полные системы логических элементов. Законы и правила алгебры логики. Преобразование логических функций.] (* <- lang_ru;; *);
+=> nrel_main_idtf: [Раздел 3: Логические основы построения ЭВМ: элементы алгебры логики.] (* <- lang_ru;; *);;
+

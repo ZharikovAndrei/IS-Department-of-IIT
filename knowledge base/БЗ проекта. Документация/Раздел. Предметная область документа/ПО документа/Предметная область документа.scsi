@@ -1,0 +1,72 @@
+specialization_of_document => nrel_main_idtf:
+[Предметная область документа]
+	(*
+	<- lang_ru;;
+	*);
+	[Specialization of document] 
+	(*
+	<- lang_en;;
+	*);;
+
+nrel_author => nrel_main_idtf:
+[автор*]
+	(*
+	<- lang_ru;;
+	*);
+	[author*] 
+	(*
+	<- lang_en;;
+	*);;
+
+nrel_author_document => nrel_main_idtf:
+[автор документа*]
+	(*
+	<- lang_ru;;
+	*);
+	[author document*] 
+	(*
+	<- lang_en;;
+	*);;
+
+nrel_information_publication => nrel_main_idtf:
+[библиографическое описание*]
+	(*
+	<- lang_ru;;
+	*);
+	[bibliographic description] 
+	(*
+	<- lang_en;;
+	*);;
+
+stamp_approval => nrel_main_idtf:
+[гриф утверждения*]
+	(*
+	<- lang_ru;;
+	*);
+	[stamp approval*] 
+	(*
+	<- lang_en;;
+	*);;
+
+document => nrel_main_idtf:
+[документ]
+	(*
+	<- lang_ru;;
+	*);
+	[document] 
+	(*
+	<- lang_en;;
+	*);;
+
+text_of_document => nrel_main_idtf:
+[текст документа]
+	(*
+	<- lang_ru;;
+	*);
+	[text of document] 
+	(*
+	<- lang_en;;
+	*);;
+
+specialization_of_document -> rrel_key_sc_element_of_subject_domain: text_of_document; document; stamp_approval; nrel_information_publication;
+nrel_author_document; nrel_author;;

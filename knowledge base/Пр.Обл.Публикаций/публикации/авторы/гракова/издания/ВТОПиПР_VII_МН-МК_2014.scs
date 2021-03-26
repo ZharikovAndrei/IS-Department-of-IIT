@@ -1,0 +1,12 @@
+Materials_VII_international_scientific_and_methodological_conf  => nrel_main_idtf:
+[Высшее техническое образование: проблемы и пути развития: материалы VII Международной научно-методологической Конференции]
+	(*
+	<- lang_ru;;
+	*);
+	[Higher technical education: problems and ways of development: materials VII International scientific and methodological Conference]
+	(*
+	<- lang_en;;
+	*);;
+Materials_VII_international_scientific_and_methodological_conf => nrel_place_publication: minsk;;
+Materials_VII_international_scientific_and_methodological_conf => nrel_publishing: bsuir;;
+

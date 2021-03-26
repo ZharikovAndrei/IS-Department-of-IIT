@@ -1,0 +1,15 @@
+project_cartographic_UI
+      => nrel_main_idtf:[Картографический интерфейс интеллектуальных систем] (* <-lang_ru;; *);
+      => nrel_main_idtf:[Cartographic interface of intelligent systems] (* <-lang_en;; *);
+      => nrel_synonymy:[25e/карт];;
+	  
+project_cartographic_UI <- student_project;;
+project_cartographic_UI => nrel_project_leader:Hubarevich_A_V ;;
+project_cartographic_UI => nrel_performers: Belchikov_A_S; Semenyako_A_F;;
+project_cartographic_UI => nrel_consult_project:Boriskin_A_S;;
+project_cartographic_UI -> rrel_responsible_executor:Belchikov_A_S;;
+project_cartographic_UI => nrel_reports: report_model_translator;;
+
+//project_cartographic_UI => nrel_main_students: ;;
+//project_cartographic_UI => nrel_sections_KB_IMS: ;;
+//project_cartographic_UI => nrel_related_projects: ;;

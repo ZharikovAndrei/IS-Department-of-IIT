@@ -1,0 +1,5 @@
+aud_407_2
+  => nrel_main_idtf:
+    [аудитория 407-2] (* <-lang_ru;; *);
+  => nrel_main_idtf:
+    [audience 407-2] (* <-lang_en;; *);;

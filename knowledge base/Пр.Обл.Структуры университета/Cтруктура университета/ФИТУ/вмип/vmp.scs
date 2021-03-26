@@ -1,0 +1,100 @@
+the_department_of_numerical_methods_and_programming=>nrel_main_idtf:
+[Кафедра вычислительных методов и программирования](*<-lang_ru;;*);
+[the department of numerical methods and programming](*<-lang_en;;*);; 
+
+the_department_of_numerical_methods_and_programming=>nrel_idtf:[ВМП](*<-lang_ru;;*);;
+the_department_of_numerical_methods_and_programming=>nrel_idtf:[NMP](*<-lang_en;;*);;
+
+
+
+
+pers_comp_nmp -> rrel_head_of_department: header_of_nmp;;
+
+the_department_of_numerical_methods_and_programming => nrel_logotipe: logotipe_nmp;;
+
+the_department_of_numerical_methods_and_programming => nrel_pers_comp: pers_comp_nmp;;
+
+
+
+header_of_nmp=>nrel_main_idtf:
+[Кукин Дмитрий Петрович](*<-lang_ru;;*);
+[Kukin Dmitriy Petrovich](*<-lang_en;;*);;
+
+
+logotipe_nmp=>nrel_main_idtf:
+[логотип ВМП](*<-lang_ru;;*);
+[the logotipe of NMP](*<-lang_en;;*);; 
+
+
+pers_comp_nmp=>nrel_main_idtf:
+[Персональный состав кафедры ВМП](*<-lang_ru;;*);
+[Personal composition of the NMP](*<-lang_en;;*);; 
+
+
+
+header_of_nmp <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://../../../image/vmp2.jpg" (*<-image;;*);;
+               *);;
+        *);;
+
+
+
+pers_comp_nmp <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://../../../image/vmp1.jpg" (*<-image;;*);;
+               *);;
+        *);;
+
+
+
+
+logotipe_nmp <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://../../../image/vmp3.gif" (*<-image;;*);;
+               *);;
+        *);;
+
+
+
+
+the_department_of_numerical_methods_and_programming <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [Информация о кафедре ВМП] (* <- lang_ru;; *);;
+	<- sc_task;;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Кафедра ВМиП создана в 1976 году. Она осуществляет начальную подготовку студентов всех специальностей по программированию и вычислительным методам, теории вероятностей и математической статистике. На кафедре работают 4 профессора, 7 доцентов, 4 старших преподавателя и 6 ассистентов.  ](* <- lang_ru;; *);;
+		*);;
+	*);;
+
+
+
+
+
+
+
+
+
+

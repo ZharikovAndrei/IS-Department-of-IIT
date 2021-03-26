@@ -1,0 +1,31 @@
+publication_Rusetsky_K_V_2016_ModelCCoUIoIS=> nrel_main_idtf:
+[Русецкий К.В. 2016 - МоделВКПИИС]
+	(*
+	<- lang_ru;;
+	*);
+	[Rusetsky_K_V_2016_ModelCCoUIoIS] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Rusetsky_K_V_2016_ModelCCoUIoIS => nrel_name_publication:[Модель взаимодействия компонентов пользовательского интерфейса интеллектуальных систем](*
+	<- lang_ru;;
+	*);;
+
+publication_Rusetsky_K_V_2016_ModelCCoUIoIS <= nrel_author:
+Rusetsky_K_V;Husainov_A_E;;
+
+publication_Rusetsky_K_V_2016_ModelCCoUIoIS <- article;;
+
+publication_Rusetsky_K_V_2016_ModelCCoUIoIS => nrel_reference_standard: [К. В. Русецкий, А. Ф. Хусаинов "Модель взаимодействия компонентов пользовательского интерфейса интеллектуальных систем", ITS 2016];;
+
+publication_Rusetsky_K_V_2016_ModelCCoUIoIS => nrel_year_publication: 2016;;
+
+publication_Rusetsky_K_V_2016_ModelCCoUIoIS => nrel_information_publication: Proceedings_of_the_international_scientific_conference_ITS_16;;
+publication_Rusetsky_K_V_2016_ModelCCoUIoIS => nrel_number_page: ..2016_ModelCCoUIoIS (*
+-> rrel_from :166;;
+-> rrel_by :167;;
+*);;
+
+
+

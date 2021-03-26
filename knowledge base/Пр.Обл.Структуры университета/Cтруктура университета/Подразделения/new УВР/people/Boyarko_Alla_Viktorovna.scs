@@ -1,0 +1,33 @@
+Boyarko_Alla_Viktorovna=>nrel_main_idtf:
+[Боярко Алла Викторовна](*<-lang_ru;;*);
+[Boyarko Alla Viktorovna](*<-lang_en;;*);;
+
+Boyarko_Alla_Viktorovna -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [+375 17 293-23-67];;*)
+   ;;*)
+   ;; 
+
+Boyarko_Alla_Viktorovna -> rrel_work_place: aud_421_2;;
+
+Boyarko_Alla_Viktorovna -> rrel_email:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [bojarko@bsuir.by](*<-lang_ru;;*)
+   ;;*)
+   ;;*)
+   ;; 
+
+
+Boyarko_Alla_Viktorovna <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://Boyarko.jpg";;
+               *);;
+        *);;

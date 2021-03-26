@@ -1,0 +1,17 @@
+//Дистанционное обучение-образовательная среда 21 века 
+
+//sc_node_not_relation -> Materials_of_Distance_learning_and_educational_environment_of_the_21st_century_2013;;
+
+
+ Materials_of_Distance_learning_and_educational_environment_of_the_21st_century_2013 => nrel_main_idtf:
+[Сборник материалов "Дистанционное обучение-образовательная среда 21 века" 2013]
+	(*
+	<- lang_ru;;
+	*);
+	[ Materials_of_Distance_learning_and_educational_environment_of_the_21st_century_2013]
+	(*
+	<- lang_en;;
+	*);;
+ Materials_of_Distance_learning_and_educational_environment_of_the_21st_century_2013 => nrel_place_publication: minsk;;
+Materials_of_Distance_learning_and_educational_environment_of_the_21st_century_2013 => nrel_publishing: bsuir;;
+

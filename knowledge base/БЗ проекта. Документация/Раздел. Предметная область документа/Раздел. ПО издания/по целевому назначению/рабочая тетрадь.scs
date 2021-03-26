@@ -1,0 +1,28 @@
+sc_node_not_relation -> workbook;;
+workbook => nrel_main_idtf:
+[рабочая тетрадь]
+	(*
+	<- lang_ru;;
+	*);
+	[workbook] 
+	(*
+	<- lang_en;;
+	*);;
+
+workbook <- rrel_key_sc_element: 
+        ...
+	(*
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[рабочая тетрадь – это учебное пособие, имеющее особый дидактический аппарат, способствующий самостоятельной работе учащегося над освоением учебного предмета]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;
+
+workbook <- educational_edition;;
+
+workbook <- edition;;
+

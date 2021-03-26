@@ -1,0 +1,26 @@
+sc_node_not_relation -> abstract_of_the_thesis;;
+abstract_of_the_thesis => nrel_main_idtf:
+[автореферат диссертации]
+	(*
+	<- lang_ru;;
+	*);
+	[abstract of the thesis] 
+	(*
+	<- lang_en;;
+	*);;
+
+abstract_of_the_thesis <- rrel_key_sc_element: 
+        ...
+	(*
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[автореферат диссертации – научное издание в виде брошюры, содержащее составленный автором реферат проведенного им исследования, представляемого на соискание ученой степени]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;
+
+edition -> abstract_of_the_thesis;;
+scientific_edition -> abstract_of_the_thesis;;

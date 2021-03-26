@@ -1,0 +1,26 @@
+sc_node_not_relation -> monograph;;
+monograph => nrel_main_idtf:
+[монография]
+	(*
+	<- lang_ru;;
+	*);
+	[monograph] 
+	(*
+	<- lang_en;;
+	*);;
+
+monograph <- rrel_key_sc_element: 
+        ...
+	(*
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[монография – издание, содержащее полное и всестороннее исследование одной проблемы или темы и принадлежащее одному или нескольким авторам]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;
+
+edition -> monograph;;
+scientific_edition -> monograph;;

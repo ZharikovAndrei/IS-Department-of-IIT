@@ -1,0 +1,26 @@
+sc_node_not_relation -> printing;;
+
+printing => nrel_main_idtf:
+[печатное издание]
+	(*
+	<- lang_ru;;
+	*);
+	[printing] 
+	(*
+	<- lang_en;;
+	*);;
+
+printing <- rrel_key_sc_element: 
+        ...
+	(*
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[печатное издание – издание, полученное печатанием или тиснением, полиграфически самостоятельно оформленное]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;
+
+edition -> printing;;

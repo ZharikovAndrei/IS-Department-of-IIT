@@ -1,0 +1,13 @@
+nrel_educational_work
+
+<-sc_node_norole_relation;
+
+=>nrel_main_idtf:
+[ учебная работа* ](*<-lang_ru;;*);
+=> nrel_main_idtf:[educational work*] (* <-lang_en;; *);
+
+<=nrel_first_domain:learning_activity;
+
+<=nrel_second_domain:teacher;
+
+=>nrel_definitional_domain:...(* <=nrel_combination:...(*->learning_activity;; ->teacher;;*);; *);;

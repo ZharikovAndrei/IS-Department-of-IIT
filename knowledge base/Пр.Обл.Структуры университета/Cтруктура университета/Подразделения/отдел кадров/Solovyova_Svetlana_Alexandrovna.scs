@@ -1,0 +1,12 @@
+Solovyova_Svetlana_Alexandrovna=>nrel_main_idtf:
+[Соловьева Светлана Александровна](*<-lang_ru;;*);
+[Solovyova Svetlana Alexandrovna](*<-lang_en;;*);;
+
+Solovyova_Svetlana_Alexandrovna-> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+[+375 17 293-89-06];;*)
+   ;;*)
+   ;;
+
+Solovyova_Svetlana_Alexandrovna-> rrel_work_place: aud_305_2;;

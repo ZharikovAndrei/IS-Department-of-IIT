@@ -1,0 +1,34 @@
+Titovich_Anna_Francevna=>nrel_main_idtf:
+[Титович Анна Францевна](*<-lang_ru;;*);
+[Titovich Anna Francevna](*<-lang_en;;*);;
+
+Titovich_Anna_Francevna -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [+375 17 293-85-72];
+[+375 17 293-23-33];;*)
+   ;;*)
+   ;; 
+
+Titovich_Anna_Francevna -> rrel_work_place: aud_116_1;;
+
+Titovich_Anna_Francevna -> rrel_email:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [titovich@bsuir.by](*<-lang_ru;;*)
+   ;;*)
+   ;;*)
+   ;; 
+
+
+Titovich_Anna_Francevna <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://Titovich.jpg";;
+               *);;
+        *);;

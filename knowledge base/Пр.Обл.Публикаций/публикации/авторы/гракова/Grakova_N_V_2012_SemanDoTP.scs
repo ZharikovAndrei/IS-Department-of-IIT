@@ -1,0 +1,30 @@
+publication_Grakova_N_V_2012_SemanDoTP=> nrel_main_idtf:
+[Гракова Н.В. 2012 - СеманТОП]
+	(*
+	<- lang_ru;;
+	*);
+	[Grakova_N_V_2012_SemanDoTP] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Grakova_N_V_2012_SemanDoTP => nrel_name_publication:[Семантическая технология описания проектов ](*
+	<- lang_ru;;
+	*);;
+
+publication_Grakova_N_V_2012_SemanDoTP <= nrel_author:
+Grakova_N_V;;
+
+publication_Grakova_N_V_2012_SemanDoTP <- article;;
+
+publication_Grakova_N_V_2012_SemanDoTP => nrel_reference_standard: [Гракова, Н.В. Семантическая технология описания проектов / Н.В. Гракова // Информационные технологии и управление. Материалы 48–ой научной конференции аспирантов, магистрантов и студентов. (Минск, 7 – 11 мая 2012 г.) / редкол.: Л.Ю. Шилин и др. – Минск : БГУИР, 2012. – С. 73 ];;
+
+publication_Grakova_N_V_2012_SemanDoTP => nrel_year_publication: 2012;;
+
+publication_Grakova_N_V_2012_SemanDoTP => nrel_information_publication: Materials_48_scientific_conference_of_post_graduate_students_undergraduates_and_students;;
+
+publication_Grakova_N_V_2012_SemanDoTP => nrel_number_page: ..2012_SemanDoTP (*
+-> rrel_from : 73;;
+-> rrel_by : 73;;
+*);;
+publication_Grakova_N_V_2012_SemanDoTP <- rrel_key_sc_element: ... (* <- sc_explanation;; <= nrel_sc_text_translation: ... (* -> rrel_example: "file://содержимое публикаций/Гракова_Н.В._СеманТОП.pdf";; *);; *);;

@@ -1,0 +1,14 @@
+
+sc_node_not_relation -> decree;;
+decree => nrel_main_idtf:
+[указ] 
+	(*
+	<- lang_ru;;
+	*);
+	[decree] 
+	(*
+	<- lang_en;;
+	*);;
+
+
+decree <- official_edition;;

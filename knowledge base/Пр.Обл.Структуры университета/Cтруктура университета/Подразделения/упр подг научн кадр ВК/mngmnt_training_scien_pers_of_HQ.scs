@@ -1,0 +1,26 @@
+sc_node_not_relation -> concept_management_training_of_scientific_personnel_of_higher_qualification;; 
+concept_management_training_of_scientific_personnel_of_higher_qualification=> nrel_main_idtf:[Управление подготовки научных кадров высшей квалификации] (* <-lang_ru;; *);;
+concept_management_training_of_scientific_personnel_of_higher_qualification=> nrel_main_idtf:[Management training of scientific personnel of higher qualification] (* <-lang_en;; *);;
+concept_management_training_of_scientific_personnel_of_higher_qualification<- rrel_key_sc_element:
+	... 
+	(*<-sc_definition;;
+     =>nrel_main_idtf:[Опр.(Управление подготовки научных кадров высшей квалификации)](*<-lang_ru;;*);;
+     <=nrel_using_constants:...(*->nrel_university;; *);;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[ Помощник ректора - должностное лицо, обеспечивающее помощь ректору в исполнении его обязанностей, во взаимодействии с другими физическими и юридическими лицами.](* <- lang_ru;; *);;
+		*);;
+	*);;
+concept_management_training_of_scientific_personnel_of_higher_qualification <- rrel_key_sc_element:
+	... 
+	(*<-sc_statement;;
+     =>nrel_main_idtf:[Утв.(университет, состав*)](*<-lang_ru;;*);;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Управление подготовки научных кадров высшей квалификации создано с целью организации и обеспечения целостной, эффективной и гибкой системы подготовки научных кадров высшей квалификации, а также координации и развития научно-исследовательской деятельности студентов, магистрантов, аспирантов и докторантов университета. ](* <- lang_ru;; *);;
+		*);;
+	*);;

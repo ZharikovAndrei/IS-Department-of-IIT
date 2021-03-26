@@ -1,0 +1,21 @@
+is_of_enterprise_management_team
+=>nrel_main_idtf:
+[Команда разработчиков проекта "Интеллектуальная система управления предприятием"](*<-lang_ru;;*);
+[The development team of project  "Intelligent system of enterprise managment"](*<-lang_en;;*);
+<-team;
+
+->rrel_project_head:
+Grakova_N_V;
+
+->rrel_kb_developer:
+Pikoliuk_Igor_Yurievich;
+Brutskiy_Dmitriy_Sergeevich;
+Kuharchik_Dmitriy_Sergeevich;
+
+->rrel_kpm_developer:
+Bordushko_Artemiy_Valerxevich;
+Veshtort_Alesx_Vitalievich;
+Klybik_Alexandr_Vladimirovich;
+
+->rrel_ui_developer:
+Klybik_Alexandr_Vladimirovich;;

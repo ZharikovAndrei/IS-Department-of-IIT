@@ -1,0 +1,84 @@
+the_department_of_micro_and_nanoelectronics=>nrel_main_idtf:
+[кафедра микро- и наноэлектроники](*<-lang_ru;;*);
+[the department of micro- and nanoelectronics](*<-lang_en;;*);;
+
+
+
+the_department_of_micro_and_nanoelectronics=>nrel_idtf:[МНЭ](*<-lang_ru;;*);;
+the_department_of_micro_and_nanoelectronics=>nrel_idtf:[MNE](*<-lang_en;;*);;
+
+
+
+pers_comp_of_mne -> rrel_head_of_department: header_of_mne;;
+
+the_department_of_micro_and_nanoelectronics => nrel_info: mne_info;;
+
+the_department_of_micro_and_nanoelectronics => nrel_pers_comp: pers_comp_of_mne;;
+
+
+pers_comp_of_mne=>nrel_main_idtf:
+[персональный состав кафедры МНЭ](*<-lang_ru;;*);
+[the personal composition of the department of MNE](*<-lang_en;;*);; 
+
+
+
+header_of_mne=>nrel_main_idtf:
+[Борисенко Виктор Евгеньевич](*<-lang_ru;;*);
+[Borisenko Victor Evgen'evich](*<-lang_en;;*);;
+
+
+
+mne_info=>nrel_main_idtf:
+[информация о кафедре МНЭ](*<-lang_ru;;*);
+[the information about the department of MNE](*<-lang_en;;*);; 
+
+
+
+header_of_mne <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://../../../image/mne2.jpg";;
+               *);;
+        *);;
+
+
+
+structure_of_mne <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://../../../image/mne1.jpg";;
+               *);;
+        *);;
+
+
+
+
+
+mne_info <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [О кафедре] (* <- lang_ru;; *);;
+	<- sc_task;;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Кафедра микро- и наноэлектроники Белорусского государственного университета информатики и радиоэлектроники организована в 1964 году.
+Миссия кафедры микро- и наноэлектроники - осуществлять образовательную и научно-исследовательскую деятельность, направленную на подготовку специалистов с высшим образованием и научных кадров в области микроэлектроники, наноэлектроники, нанотехнологий и наноматериалов в интересах инновационного развития Беларуси.
+Под руководством заведующего кафедрой микро- и наноэлектроники профессора Борисенко Виктора Евгеньевича, с 2004 года на кафедре сформировался научный и педагогический коллектив, обладающий опытом и профессионализмом в области разработки передовых микро- и нанотехнологий, исследования свойств, получения и применения перспективных микро- и наноструктурированных материалов в различных сферах электроники и народного хозяйства, а также использования современных методов компьютерного моделирования и проектирования интегральных микросхем.
+
+Преподавание на кафедре осуществляется по 43 современным дисциплинам и обеспечивается 24 преподавателями. В их числе 8 профессоров, 15 доцентов, 2 старших преподавателя и 2 ассистент.
+
+  ](* <- lang_ru;; *);;
+		*);;
+	*);;

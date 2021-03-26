@@ -1,0 +1,5 @@
+aud_224_1
+  => nrel_main_idtf:
+    [аудитория 224-1] (* <-lang_ru;; *);
+  => nrel_main_idtf:
+    [audience 224-1] (* <-lang_en;; *);;

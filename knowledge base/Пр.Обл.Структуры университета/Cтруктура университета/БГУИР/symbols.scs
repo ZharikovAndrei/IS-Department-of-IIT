@@ -1,0 +1,222 @@
+bsuir_symbols=>nrel_main_idtf:
+[Cимволика Белорусского государственного университета информатики и радиоэлектроники](*<-lang_ru;;*);
+[Symbols of the Belarusian State University of Informatics and Radioelectronics](*<-lang_en;;*);; 
+
+
+bsuir_symbols=>nrel_idtf:[Символика БГУИРа](*<-lang_ru;;*);;
+bsuir_symbols=>nrel_idtf:[BSUIR symbols](*<-lang_en;;*);;
+
+bsuir_symbols => nrel_emblem: bsuir_emblem;;
+bsuir_symbols => nrel_flag: bsuir_flag;;
+bsuir_symbols => nrel_breastplate: bsuir_breastplate;;
+bsuir_symbols => nrel_badge_of_distinction: bsuir_badge_of_distinction;;
+bsuir_symbols => nrel_the_standard_rector: bsuir_the_standard_rector;;
+bsuir_symbols => nrel_banner: bsuir_banner;;
+
+
+bsuir_emblem=>nrel_main_idtf:
+[эмблема БГУИРа](*<-lang_ru;;*);
+[BSUIR emblem](*<-lang_en;;*);; 
+
+
+bsuir_flag=>nrel_main_idtf:
+[флаг БГУИРа](*<-lang_ru;;*);
+[BSUIR flag](*<-lang_en;;*);; 
+
+
+bsuir_breastplate=>nrel_main_idtf:
+[нагрудный знак БГУИРа](*<-lang_ru;;*);
+[BSUIR breastplate](*<-lang_en;;*);; 
+
+
+bsuir_badge_of_distinction=>nrel_main_idtf:
+[нагрудный знак отличия «За заслугі перад БДУІР»](*<-lang_ru;;*);
+[lapel badge "For Services to BSUIR"](*<-lang_en;;*);; 
+
+
+bsuir_the_standard_rector=>nrel_main_idtf:
+[штандарт ректора БГУИРа](*<-lang_ru;;*);
+[the standard rector of BSUIR](*<-lang_en;;*);; 
+
+
+bsuir_banner=>nrel_main_idtf:
+[знамя БГУИРа](*<-lang_ru;;*);
+[BSUIR banner](*<-lang_en;;*);; 
+
+
+
+
+
+
+
+bsuir_emblem <- rrel_key_sc_element:
+        ...
+        (*
+        <-illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://../../image/embl_bsuir.jpg" (*<-image;;*);;
+               *);;
+        *);;
+
+
+bsuir_flag <- rrel_key_sc_element:
+        ...
+        (*
+        <-illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://../../image/flag_bsuir.jpg" (*<-image;;*);;
+               *);;
+        *);;
+
+
+bsuir_breastplate <- rrel_key_sc_element:
+        ...
+        (*
+        <-illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://../../image/nagr_znak.jpg" (*<-image;;*);;
+               *);;
+        *);;
+
+
+bsuir_badge_of_distinction <- rrel_key_sc_element:
+        ...
+        (*
+        <-illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://../../image/za_zaslugi.jpg" (*<-image;;*);;
+               *);;
+        *);;
+
+
+bsuir_the_standard_rector <- rrel_key_sc_element:
+        ...
+        (*
+        <-illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://../../image/shtand_rekt.jpg" (*<-image;;*);;
+               *);;
+        *);;
+
+
+bsuir_banner <- rrel_key_sc_element:
+        ...
+        (*
+        <-illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://../../image/znamya1.jpg" (*<-image;;*);;
+               *);;
+        *);;
+
+bsuir_banner <- rrel_key_sc_element:
+        ...
+        (*
+        <-illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://../../image/znamya2.jpg" (*<-image;;*);;
+               *);;
+        *);;
+
+bsuir_emblem <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [Информация о эмблеме БГУИРа] (* <- lang_ru;; *);;
+	<- sc_task;;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Эмблема сохранила известный всем товарный знак БГУИР. Цветовая гамма эмблемы выбрана преимущественно синего цвета. Это подчеркивает образовательную деятельность организации. Синий символизирует духовность. Он настраивает на размышления, стремление к познанию, научному творчеству. На эмблеме содержатся такие элементы, как:
+- синусоида и радиосигналы подчеркивают то, что БГУИР активно занимается учебной и научной деятельностью при подготовке специалистов в области радиоэлектроники;
+- земной шар обозначает информационную деятельность университета, которая охватывает практически весь мир;
+- раскрытая книга обозначает принадлежность вуза к системе образования; это символ высокой культуры, кладезь накопленной мудрости;
+- василек - цветок, который уже на протяжении многих веков является отличительной особенностью нашего народа, республики, земли.  ](* <-lang_ru;; *);;
+		*);;
+	*);;
+
+bsuir_flag<- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [Информация о флаге БГУИРа] (* <- lang_ru;; *);;
+	<- sc_task;;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Флаг БГУИР спроектирован на основе геральдического знака - эмблемы - с использованием ее основных элементов и цветов. В центре флага на сине-голубом фоне располагается эмблема. Внизу находится надпись: «Беларускі дзяржаўны ўніверсітэт інфарматыкі і радыёэлектронікі» ](* <- lang_ru;; *);;
+		*);;
+	*);;
+
+bsuir_breastplate <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [Информация о нагрудном знаке БГУИРа] (* <- lang_ru;; *);;
+	<- sc_task;;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Нагрудный знак отличия об окончании учреждения образования «Белорусский государственный университет информатики и радиоэлектроники» создан в форме ромба. В верхней части знака располагается Герб Республики Беларусь. В центре на синем фоне размещаются синусоида и радиосигналы. ](* <- lang_ru;; *);;
+		*);;
+	*);;
+
+
+bsuir_badge_of_distinction <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [Информация о нагрудном знаке отличия БГУИРа] (* <- lang_ru;; *);;
+	<- sc_task;;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Нагрудный знак отличия «За заслугі перад БДУІР» представляет собой форму земного шара, на котором находятся синусоида и радиосигналы, а также василек - национальный символ Беларуси. Под синусоидой располагается надпись: «50 год БДУІР». ](* <- lang_ru;; *);;
+		*);;
+	*);;
+
+bsuir_the_standard_rector <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [Информация о штандарте ректора БГУИРа] (* <- lang_ru;; *);;
+	<- sc_task;;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Штандарт ректора имеет квадратную форму, цвет фона - синий. Эмблема располагается в центре. Присутствует надпись: «Беларускі дзяржаўны ўніверсітэт iнфарматыкі і радыёэлектронікі». По краям штандарта нанесен национальный орнамент. В углах размещены васильки. ](* <- lang_ru;; *);;
+		*);;
+	*);;
+
+bsuir_banner <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [Информация о знамени БГУИРа] (* <- lang_ru;; *);;
+	<- sc_task;;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Знамя схоже по оформлению со штандартом. Отличительными особенностями являются более крупный размер и прямоугольная форма исполнения. ](* <- lang_ru;; *);;
+		*);;
+	*);;

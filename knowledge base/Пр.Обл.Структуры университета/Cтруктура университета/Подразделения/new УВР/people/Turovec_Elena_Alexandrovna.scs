@@ -1,0 +1,33 @@
+Turovec_Elena_Alexandrovna=>nrel_main_idtf:
+[Туровец Елена Александровна](*<-lang_ru;;*);
+[Turovec Elena Alexandrovna](*<-lang_en;;*);;
+
+Turovec_Elena_Alexandrovna -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [+375 17 293-85-76];;*)
+   ;;*)
+   ;; 
+
+Turovec_Elena_Alexandrovna -> rrel_work_place: aud_324a_4;;
+
+Turovec_Elena_Alexandrovna -> rrel_email:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [turovets@bsuir.by](*<-lang_ru;;*)
+   ;;*)
+   ;;*)
+   ;; 
+
+
+Turovec_Elena_Alexandrovna <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://Turovec.jpg";;
+               *);;
+        *);;

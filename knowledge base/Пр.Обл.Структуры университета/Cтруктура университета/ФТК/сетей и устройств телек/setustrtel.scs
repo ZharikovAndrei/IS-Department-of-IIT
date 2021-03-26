@@ -1,0 +1,100 @@
+the_department_of_telecommunications_networks_and_devices=>nrel_main_idtf:
+[Кафедра сетей и устройств телекоммуникаций](*<-lang_ru;;*);
+[the department of telecommunications networks and devices](*<-lang_en;;*);; 
+
+the_department_of_telecommunications_networks_and_devices=>nrel_idtf:[СУТ](*<-lang_ru;;*);;
+the_department_of_telecommunications_networks_and_devices=>nrel_idtf:[TNS](*<-lang_en;;*);;
+
+
+
+pers_comp_of_tns -> rrel_head_of_department: header_of_tns;;
+
+the_department_of_telecommunications_networks_and_devices => nrel_info: tns_info;;
+
+the_department_of_telecommunications_networks_and_devices => nrel_pers_comp: pers_comp_of_tns;;
+
+the_department_of_telecommunications_networks_and_devices => nrel_logotipe: logotipe_tns;;
+
+
+
+header_of_tns=>nrel_main_idtf:
+[Конопелько Валерий Константинович](*<-lang_ru;;*);
+[Konopel'ko Valeriy Konstantinovich](*<-lang_en;;*);;
+
+
+
+pers_comp_of_tns=>nrel_main_idtf:
+[персональный состав кафедры СУТ](*<-lang_ru;;*);
+[the personal composition of the department of TNS](*<-lang_en;;*);; 
+
+
+
+tns_info=>nrel_main_idtf:
+[информация о кафедре СУТ](*<-lang_ru;;*);
+[the information about the department of TNS](*<-lang_en;;*);; 
+
+
+
+logotipe_tns=>nrel_main_idtf:
+[логотип СУТ](*<-lang_ru;;*);
+[the logotipe of TNS](*<-lang_en;;*);; 
+
+
+
+header_of_tns <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://../../../image/setustrtel2.jpg";;
+               *);;
+        *);;
+
+
+
+pers_comp_of_tns <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://../../../image/setustrtel1.jpg";;
+               *);;
+        *);;
+
+
+
+
+logotipe_tns <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://../../../image/setustrtel3.jpg";;
+               *);;
+        *);;
+
+
+
+
+tns_info <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [О кафедре] (* <- lang_ru;; *);;
+	<- sc_task;;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Кафедра является выпускающей кафедрой по специальностям «Сети инфокоммуникаций», «Системы распределения мультимедийной информации» В рамках специальных дисциплин на кафедре даются широкие знания в области передачи, обработки и распределения информации.
+Изучаются дисциплины: основы теории телетрафика, сетей и систем телекоммуникаций, сети и системы подвижной радиосвязи, цифровые системы коммутации и передачи сообщений, компьютерные сети, цифровая обработка и защита мультимедийной информации, программная обработка информации, защита программного обеспечения и баз данных, системы автоматизированного проектирования на основе микропроцессоров и программируемых логических матриц и другие. ](* <- lang_ru;; *);;
+		*);;
+	*);;

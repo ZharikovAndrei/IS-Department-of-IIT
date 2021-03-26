@@ -1,0 +1,19 @@
+mmcg_section_2011=> nrel_main_idtf:
+[Секция «Математическое моделирование и компьютерная графика» международной научной конференции "Информационные технологии и системы" 2011] (* <-lang_ru;; *);
+[Section "Mathematical modeling and computer graphics" of international scientific conference "Information Technologies and Systems" 2011] (* <-lang_en;; *);
+=>nrel_idtf:
+[Секция «Математическое моделирование и компьютерная графика» международной научной конференции ITS 2011 ] (* <-lang_ru;; *);
+[Section "Mathematical modeling and computer graphics"  of international scientific conference ITS 2011] (* <-lang_en;; *);;
+mmcg_section_2011<- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://mmcg_section.html";;
+               *);;
+        *);;
+
+

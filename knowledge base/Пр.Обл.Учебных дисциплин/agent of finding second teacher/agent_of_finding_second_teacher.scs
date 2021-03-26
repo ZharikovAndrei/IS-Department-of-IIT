@@ -1,0 +1,275 @@
+agent_of_teachers
+// Множество идентификаторов
+	=> nrel_main_idtf:
+	[агентная scp-программа поиска преподавателей] (* <- lang_ru;; *);
+	[agent scp-program of searching the teachers] (* <- lang_en;; *);
+<- agent_scp_program;;
+// Указываем, что операция поиска агента является scp-программой
+scp_program -> agent_of_teachers
+(*
+// Множество параметров агентной операции
+-> rrel_params: .agent_of_teachers
+	(*
+  	-> rrel_1: rrel_in: _event;;
+  	-> rrel_2: rrel_in: _input_arc;;
+	*);;
+// Множество операторов агентной операции
+-> rrel_operators: .agent_of_teachers_operator_set
+(*
+// Первый исполняемый оператор операции
+	-> rrel_init: .agent_of_teachers_operator1A
+	(*
+	<- searchElStr3;;
+	-> rrel_1: rrel_assign: rrel_scp_var: _temp;;
+	-> rrel_2: rrel_fixed: rrel_scp_var: _input_arc;;
+	-> rrel_3: rrel_assign: rrel_scp_var: _quest;;
+	=> nrel_goto: .agent_of_teachers_operator1B;;
+	*);;
+// В rrel_1 устанавливаем имя придуманного нами вопроса
+// Агент будет просыпаться, когда обнаружит наш вопрос.
+-> .agent_of_teachers_operator1B
+	(*
+	<- searchElStr3;;
+	-> rrel_1: rrel_fixed: rrel_scp_const: question_of_teachers;;
+	-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc;;
+	-> rrel_3: rrel_fixed: rrel_scp_var: _quest;;
+	=> nrel_then: .agent_of_teachers_operator1C;;
+	=> nrel_else: .agent_of_teachers_operator_return;;
+	*);;
+// Найдём параметры операции – их подал на вход сам пользователь
+-> .agent_of_teachers_operator1C
+	(*
+    <- searchElStr5;;
+    -> rrel_1: rrel_fixed: rrel_scp_var: _quest;;
+    -> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc;;
+    -> rrel_3: rrel_assign: rrel_scp_var: _parameter1;;
+    -> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
+    -> rrel_5: rrel_fixed: rrel_scp_const: rrel_n111;;
+
+	=> nrel_then: .agent_of_finding_events_by_dates2_1_1;;
+	=> nrel_else: .agent_of_teachers_operator_return;;
+	*);;
+
+  -> .agent_of_finding_events_by_dates2_1_1 (*
+  <- printNl;;
+  -> rrel_1: rrel_fixed: rrel_scp_const: [нашел 1 параметр];;
+  => nrel_goto: .vivod3;;
+  *);;
+
+      -> .vivod3 (*
+      <- printNl;;
+      -> rrel_1: rrel_fixed: rrel_scp_const: [+++++++++++++++++++++++++++++++++++++++++++++++];;
+      => nrel_goto: .vivod_param1;;
+      *);;
+      -> .vivod_param1 (*
+        <- printEl;;
+        -> rrel_1: rrel_fixed: rrel_scp_var: _parameter1;;
+        => nrel_goto: .vivod4;;
+        *);;
+      -> .vivod4 (*
+      <- printNl;;
+      -> rrel_1: rrel_fixed: rrel_scp_const: [+++++++++++++++++++++++++++++++++++++++++++++++];;
+      => nrel_goto: .agent_of_teachers_operator1D;;
+      *);;
+
+// Сгенерировать узел, в который мы поместим конструкцию ответа var fixer : [значение]
+-> .agent_of_teachers_operator1D
+	(*
+		<- genEl;;
+		-> rrel_1: rrel_assign: rrel_node: rrel_scp_var: _answer;;
+		=> nrel_goto: .agent_of_finding_events_by_dates2_1_2;;
+		*);;
+
+    -> .agent_of_finding_events_by_dates2_1_2 (*
+    <- printNl;;
+    -> rrel_1: rrel_fixed: rrel_scp_const: [NODE FOR ANSWER CREATED];;
+    => nrel_goto: .agent_of_teachers_operator1E;;
+    *);;
+
+-> .agent_of_teachers_operator1E
+  (*
+		<- searchSetStr3;;
+		-> rrel_1: rrel_fixed: rrel_scp_const: teacher;;
+		-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc_teacher_1;;
+		-> rrel_3: rrel_assign: rrel_scp_var: _teacher;;
+		-> rrel_set_3: rrel_assign: rrel_scp_var: _set_of_teachers;;
+		=> nrel_then: .agent_of_teachers_operator1FF;;
+		=> nrel_else: .agent_of_teachers_operator_gen_answer;;
+	*);;
+
+-> .agent_of_teachers_operator1FF
+	(*
+		<- printNl;;
+		-> rrel_1: rrel_fixed: rrel_scp_const: [CREATED SET OF TEACHERS];;
+	//	=> nrel_goto: .agent_of_teachers_operator1F;;
+  	=> nrel_goto: .proc_search_all_input_operator4;;
+		*);;
+
+//////////////////////////////////////////////////////
+  // Elements processing cycle
+  -> .proc_search_all_input_operator4 (*
+      <- searchElStr3;;
+      -> rrel_1: rrel_fixed: rrel_scp_var: _set_of_teachers;;
+      -> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var:
+      _arc1;;
+      -> rrel_3: rrel_assign: rrel_scp_var: _curr_elem;;
+      => nrel_then: .print_teacher;;
+      => nrel_else: .proc_search_all_input_operator_print_result;;
+  *);;
+-> .print_teacher
+  (*
+    <- printEl;;
+    -> rrel_1: rrel_fixed: rrel_scp_var: _curr_elem;;
+  //	=> nrel_goto: .agent_of_teachers_operator1F;;
+    => nrel_goto: .print_teacher_nl;;
+    *);;
+    -> .print_teacher_nl
+      (*
+        <- printNl;;
+        -> rrel_1: rrel_fixed: rrel_scp_const: [WENT TO IF DELETE];;
+      //	=> nrel_goto: .agent_of_teachers_operator1F;;
+        => nrel_goto: .scp_operator_if_delete_param;;
+        *);;
+
+    -> .scp_operator_if_delete_param (*
+      <- ifCoin;;
+      -> rrel_1: rrel_fixed: rrel_scp_var: _curr_elem;;
+      -> rrel_2: rrel_fixed: rrel_scp_var: _parameter1;;
+      => nrel_then: .if_delete_nl;;//erase
+      => nrel_else: .proc_search_all_input_operator5;;
+    *);;
+
+    -> .if_delete_nl
+      (*
+        <- printNl;;
+        -> rrel_1: rrel_fixed: rrel_scp_const: [LOOKS LIKE CURRENT ELEM = PARAM];;
+        => nrel_goto: .if_delete_nl1;;
+        *);;
+
+    -> .if_delete_nl1
+      (*
+        <- printEl;;
+        -> rrel_1: rrel_fixed: rrel_scp_var: _curr_elem;;
+        => nrel_goto: .if_delete_nl2;;
+        *);;
+
+    -> .if_delete_nl2
+      (*
+        <- printNl;;
+        -> rrel_1: rrel_fixed: rrel_scp_const: [/////////////////////////////////////\\\\\\\\\\\\\\\\\\];;
+        => nrel_goto: .if_delete_nl3;;
+        *);;
+    -> .if_delete_nl3
+      (*
+        <- printEl;;
+        -> rrel_1: rrel_fixed: rrel_scp_var: _curr_elem;;
+        => nrel_goto: .if_delete_nl4;;
+        *);;
+    -> .if_delete_nl4
+      (*
+        <- printNl;;
+        -> rrel_1: rrel_fixed: rrel_scp_const: [/////////////////////////////////////\\\\\\\\\\\\\\\\\\];;
+        => nrel_goto: .delete_parameter;;
+        *);;
+    -> .delete_parameter (*
+      <- eraseEl;;
+      -> rrel_1: rrel_fixed: rrel_scp_var: rrel_pos_const_perm: rrel_erase:  _arc1;;
+      => nrel_goto: .proc_search_all_input_operator4;;
+      *);;
+
+
+  -> .proc_search_all_input_operator5 (*
+      <- eraseEl;;
+      -> rrel_1: rrel_fixed: rrel_erase: rrel_scp_var: _arc1;;
+      => nrel_goto: .agent_of_teachers_operator1FFFF;;
+      *);;
+
+      -> .agent_of_teachers_operator1FFFF
+      	(*
+      		<- printNl;;
+      		-> rrel_1: rrel_fixed: rrel_scp_const: [ERASED _arc1 FROM THE _curr_elem OPERATOR 1ffff];;
+      	//	=> nrel_goto: .agent_of_teachers_operator1F;;
+        	=> nrel_goto: .proc_search_all_input_operator6;;
+      		*);;
+  -> .proc_search_all_input_operator6 (*
+    <- searchElStr5;;
+    -> rrel_1: rrel_fixed: rrel_scp_var: _curr_elem;;
+    -> rrel_2: rrel_assign: rrel_common: rrel_scp_var: _arc1;;
+    -> rrel_3: rrel_fixed: rrel_scp_var: _parameter2;;
+    -> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+    -> rrel_5: rrel_fixed: rrel_scp_const: nrel_can_teach_subject;;
+    => nrel_then: .agent_of_teachers_operator1FFSAD;;
+    => nrel_else: .proc_search_all_input_operator4;;
+    *);;
+
+      -> .agent_of_teachers_operator1FFSAD
+      	(*
+      		<- printNl;;
+      		-> rrel_1: rrel_fixed: rrel_scp_const: [WENT FROM OPERATOR 6 TO 6_1];;
+      	//	=> nrel_goto: .agent_of_teachers_operator1F;;
+        	=> nrel_goto: .proc_search_all_input_operator6_1;;
+    		*);;
+  -> .proc_search_all_input_operator6_1 (*
+    <- searchElStr3;;
+    -> rrel_1: rrel_fixed: rrel_scp_var: _answer;;
+    -> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var:
+    _arc1;;
+    -> rrel_3: rrel_fixed: rrel_scp_var: _curr_elem;;
+    => nrel_then: .proc_search_all_input_operator4;;
+    => nrel_else: .proc_search_all_input_operator7;;
+    *);;
+  -> .proc_search_all_input_operator7 (*
+    <- genElStr3;;
+    -> rrel_1: rrel_fixed: rrel_scp_var: _answer;;
+    -> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var:
+    _arc1;;
+    -> rrel_3: rrel_fixed: rrel_scp_var: _curr_elem;;
+    => nrel_goto: .vivod;;
+    *);;
+        -> .vivod (*
+        <- printNl;;
+        -> rrel_1: rrel_fixed: rrel_scp_const: [+++++++++++++++++++++++++++++++++++++++++++++++];;
+        => nrel_goto: .vivod_current_answer;;
+        *);;
+        -> .vivod_current_answer (*
+          <- printEl;;
+          -> rrel_1: rrel_fixed: rrel_scp_var: _answer;;
+          => nrel_goto: .vivod2;;
+          *);;
+        -> .vivod2 (*
+        <- printNl;;
+        -> rrel_1: rrel_fixed: rrel_scp_const: [+++++++++++++++++++++++++++++++++++++++++++++++];;
+        => nrel_goto: .proc_search_all_input_operator4;;
+        *);;
+
+
+  -> .proc_search_all_input_operator_print_result (*
+    <- printEl;;
+    -> rrel_1: rrel_fixed: rrel_scp_var: _answer;;
+    => nrel_goto: .proc_search_all_input_operator8;;
+    *);;
+    // Garbage cleaning
+  -> .proc_search_all_input_operator8 (*
+    <- eraseEl;;
+    -> rrel_1: rrel_fixed: rrel_erase: rrel_scp_var: _set_of_teachers;;
+    => nrel_goto: .agent_of_teachers_operator_gen_answer;;
+    *);;
+  // Добавляем узел с конструкцией ответа
+  -> .agent_of_teachers_operator_gen_answer
+  	(*
+  		<- genElStr5;;
+  		-> rrel_1: rrel_fixed: rrel_scp_var: _quest;;
+  		-> rrel_2: rrel_assign: rrel_const: rrel_common: rrel_scp_var: _arc;;
+  		-> rrel_3: rrel_fixed: rrel_scp_var: _answer;;
+  		-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+  		-> rrel_5: rrel_fixed: rrel_scp_const: nrel_answer;;
+  		=> nrel_goto: .agent_of_teachers_return;;
+  	*);;
+  // Оператор завершения агентной операции
+  -> .agent_of_teachers_return
+  	(*
+  		<- return;;
+  	*);;
+  *);;
+///////////////////////
+*);;

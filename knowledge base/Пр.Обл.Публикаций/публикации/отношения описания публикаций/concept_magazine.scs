@@ -1,0 +1,16 @@
+sc_node_not_relation->concept_magazine;;
+concept_magazine=>nrel_main_idtf:
+[журнал](*<-lang_ru;;*);
+[magazine](*<-lang_en;;*);;
+
+concept_magazine<- rrel_key_sc_element:
+	... 
+	(*<-sc_definition;;
+     =>nrel_main_idtf:[Опр.(журнал)](*<-lang_ru;;*);;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Журнал - периодическое издание в виде книги, содержащей статьи, произведения разных авторов.](* <- lang_ru;; *);;
+		*);;
+	*);;

@@ -1,0 +1,36 @@
+section_ots_methods_to_set_a_choice
+=> nrel_main_idtf:
+	[Раздел. ОТС. Способы задания выбора]
+	(* <- lang_ru;; *);
+	[Section. GTS. Methods to set a choice]
+	(* <- lang_en;; *);
+
+=> nrel_idtf:
+	[Раздел базы знаний общей теории систем, описывающий способы задания выбора]
+	(* <- lang_ru;; *);
+<- not_enough_formed_structure;;
+
+section_ots_methods_to_set_a_choice = [*^"file://section_ots_methods_to_set_a_choice.scsi"*];;
+
+section_ots_methods_to_set_a_choice
+-> rrel_key_sc_element:
+    subjdomain_of_selection;
+	criterial_language_of_choice;
+	pareto_set;
+	pareto_optimality;
+	method_description_of_choice_in_the_language_of_binary_relations;
+	nrel_method_description_of_choice_in_the_language_of_binary_relations;
+	pareto_approximation_method;
+	nrel_pareto_approximation_method;
+	pareto_approximation_task;
+	nrel_pareto_approximation_task;
+	grid_method;
+	naive_method;
+	method_of_switching_target_functions;
+	method_of_aggregation_of_target_functions;
+	function_language_selection;
+	assigment_of_sictions_method;
+	enumeration_method;
+	matrix_method;
+	graph_method;;
+

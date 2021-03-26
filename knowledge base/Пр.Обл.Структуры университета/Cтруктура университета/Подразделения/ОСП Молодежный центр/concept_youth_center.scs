@@ -1,0 +1,17 @@
+sc_node_not_relation->concept_youth_center;;
+
+concept_youth_center=>nrel_main_idtf:
+[ОСП "Молодежный центр"](*<-lang_ru;;*);
+[OSB "Youth center"](*<-lang_en;;*);; 
+concept_youth_center->youth_center_bsuir;;
+concept_youth_center<- rrel_key_sc_element:
+	... 
+	(*<-sc_definition;;
+     =>nrel_main_idtf:[Опр.(ОСП «Молодёжный центр»)](*<-lang_ru;;*);;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Опр.(ОСП «Молодёжный центр» - это обособленное структурное подразделение учреждения образования, осуществляющее работу с молодёжью.](* <- lang_ru;; *);;
+		*);;
+	*);;

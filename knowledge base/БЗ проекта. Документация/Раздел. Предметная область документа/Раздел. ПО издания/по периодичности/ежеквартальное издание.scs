@@ -1,0 +1,11 @@
+sc_node_not_relation -> quartertly_edition;;
+
+quartertly_edition => nrel_main_idtf:
+[ежеквартальное издание]
+	(*
+	<- lang_ru;;
+	*);
+	[quartertly edition] 
+	(*
+	<- lang_en;;
+	*);;

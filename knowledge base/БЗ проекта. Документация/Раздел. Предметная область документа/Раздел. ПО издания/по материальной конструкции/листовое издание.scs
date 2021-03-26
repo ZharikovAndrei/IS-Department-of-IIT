@@ -1,0 +1,36 @@
+sc_node_not_relation -> sheet_edition;;
+
+sheet_edition => nrel_main_idtf:
+[листовое издание]
+	(*
+	<- lang_ru;;
+	*);
+	[sheet edition] 
+	(*
+	<- lang_en;;
+	*);;
+
+sheet_edition <- rrel_key_sc_element: 
+        ...
+	(*
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[листовое издание — издание, выпускаемое на одном или нескольких нескрепленных листах бумаги]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;
+
+sheet_edition <- edition;;
+
+sheet_edition <= nrel_subdividing: 
+		{
+			booklet;
+			newspaper_edition;
+			card_edition;
+			book_tab;
+			poster
+
+		};;

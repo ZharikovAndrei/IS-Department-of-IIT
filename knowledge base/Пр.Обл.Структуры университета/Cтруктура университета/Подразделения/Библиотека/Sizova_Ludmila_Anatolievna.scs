@@ -1,0 +1,33 @@
+Sizova_Ludmila_Anatolievna=>nrel_main_idtf:
+[Сизова Людмила Анатольевна](*<-lang_ru;;*);
+[Sizova Ludmila Anatolievna](*<-lang_en;;*);;
+Sizova_Ludmila_Anatolievna -> rrel_email:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [sizova@bsuir.by](*<-lang_ru;;*)
+   ;;*)
+   ;;*)
+   ;; 
+Sizova_Ludmila_Anatolievna -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [+375 17 293-89-52];
+ [+375 17 293-89-52];;*)
+   ;;*)
+   ;; 
+
+Sizova_Ludmila_Anatolievna-> rrel_work_place: aud_107_2;;
+
+Sizova_Ludmila_Anatolievna<- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://Sizova_Ludmila_Anatolievna.JPG";;
+               *);;
+        *);;
+
+

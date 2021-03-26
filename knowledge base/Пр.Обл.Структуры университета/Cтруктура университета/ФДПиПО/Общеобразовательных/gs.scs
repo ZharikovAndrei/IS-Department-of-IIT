@@ -1,0 +1,90 @@
+the_department_of_general_studies=>nrel_main_idtf:
+[Кафедра общеобразовательных дисциплин](*<-lang_ru;;*);
+[the department of general studies](*<-lang_en;;*);;
+
+
+
+the_department_of_general_studies=>nrel_idtf:[ОД](*<-lang_ru;;*);;
+the_department_of_general_studies=>nrel_idtf:[GS](*<-lang_en;;*);;
+
+
+
+pers_comp_of_gs -> rrel_head_of_department: header_of_gs;;
+
+the_department_of_general_studies => nrel_info: gs_info;;
+
+the_department_of_general_studies => nrel_pers_comp: pers_comp_of_gs;;
+
+
+
+
+
+header_of_gs=>nrel_main_idtf:
+[Шигида Екатерина Александровна](*<-lang_ru;;*);
+[Shigida Ekaterina Alexandrovna](*<-lang_en;;*);;
+
+
+
+gs_info=>nrel_main_idtf:
+[информация о кафедре ОД](*<-lang_ru;;*);
+[the information about the department of GS](*<-lang_en;;*);; 
+
+
+pers_comp_of_gs=>nrel_main_idtf:
+[персональный состав кафедры ОД](*<-lang_ru;;*);
+[the personal composition of the department of GS](*<-lang_en;;*);; 
+
+
+header_of_gs <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://../../../image/gs2.jpg";;
+               *);;
+        *);;
+
+
+
+pers_comp_of_gs <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://../../../image/gs1.jpg";;
+               *);;
+        *);;
+
+
+
+
+
+gs_info <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [О кафедре] (* <- lang_ru;; *);;
+	<- sc_task;;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Кафедра общеобразовательных дисциплин обеспечивает преподавание дисциплин: "Беларуская мова (прафесійная лексіка)" (дневная, заочная и дистанционная формы обучения), "Русский как иностранный" на русском и английском языке, математические дисциплины на английском языке, информатика на английском языке для подготовительного отделения.
+
+Кафедра предоставляет образовательные услуги по дисциплине "Русский язык" на основе договоров, которые заключили иностранные граждане с Центром международного сотрудничества БГУИР:
+- курсы русского языка (мультимедийный лингвистический кабинет);
+- обучение на подготовительном отделении (русский язык, физика, математика, информатика);
+- обучение в магистратуре и аспирантуре;
+-обучение русскому языку студентов и магистрантов, обучающихся на английском языке.
+
+Главными задачами кафедры являются:
+• Организация и проведение учебной и научно-методической работы по преподаваемым учебным дисциплинам.
+• Проведение воспитательной работы среди белорусских и иностранных студентов.
+• Подготовка научно-педагогических и педагогических кадров, повышение их квалификации. Учебный процесс обеспечивает свыше десяти преподавателей.   ](* <- lang_ru;; *);;
+		*);;
+	*);;

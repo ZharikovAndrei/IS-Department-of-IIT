@@ -1,0 +1,84 @@
+the_department_of_telecommunications_systems=>nrel_main_idtf:
+[Кафедра систем телекоммуникаций](*<-lang_ru;;*);
+[the department of telecommunications systems](*<-lang_en;;*);; 
+
+the_department_of_telecommunications_systems=>nrel_idtf:[СТК](*<-lang_ru;;*);;
+the_department_of_telecommunications_systems=>nrel_idtf:[TS](*<-lang_en;;*);;
+
+
+
+pers_comp_of_ts -> rrel_head_of_department: header_of_ts;;
+
+the_department_of_telecommunications_systems => nrel_info: ts_info;;
+
+the_department_of_telecommunications_systems => nrel_pers_comp: pers_comp_of_ts;;
+
+
+
+
+header_of_ts=>nrel_main_idtf:
+[Тарченко Надежда Владимировна](*<-lang_ru;;*);
+[Tarchenko Nadejda Vladimirovna](*<-lang_en;;*);;
+
+
+
+ts_info=>nrel_main_idtf:
+[информация о кафедре СТК](*<-lang_ru;;*);
+[the information about the department of TS](*<-lang_en;;*);; 
+
+
+pers_comp_of_ts=>nrel_main_idtf:
+[персональный состав СТК](*<-lang_ru;;*);
+[the personal composition of the department of TS](*<-lang_en;;*);; 
+
+
+
+
+
+header_of_ts <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://../../../image/sistel2.jpg";;
+               *);;
+        *);;
+
+
+
+pers_comp_of_ts <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://../../../image/sistel1.jpg";;
+               *);;
+        *);;
+
+
+
+
+
+
+
+
+ts_info <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [О кафедре] (* <- lang_ru;; *);;
+	<- sc_task;;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[В 1974 г. была создана кафедра автоматической и многоканальной электросвязи, на основе которой в 1979 г. образованы две кафедры, в том числе и «Многоканальной электросвязи» - в настоящее время кафедра Систем телекоммуникаций (СТК).
+Кафедра является выпускающей и отвечает за подготовку инженеров и магистрантов по двум специальностям: «Инфокоммуникационные технологии (системы телекоммуникаций)» и «Инфокоммуникационные технологии (цифровое теле- и радиовещание)». Выпускники университета по этим специальностям получают диплом с квалификацией «Инженер по телекоммуникациям», а курсанты Военного факультета по специальности МСТК со специализацией «Специальные системы телекоммуникаций» - «Инженер по телекоммуникациям. Специалист по управлению». ](* <- lang_ru;; *);;
+		*);;
+	*);;
+

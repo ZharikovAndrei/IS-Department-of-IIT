@@ -1,0 +1,28 @@
+publication_Grakova_N_V_2015_IntelTSBoOSToIS=> nrel_main_idtf:
+[Гракова Н.В. 2015 - ИнтелОБРнООСТПИС]
+	(*
+	<- lang_ru;;
+	*);
+	[Grakova_N_V_2015_IntelTSBoOSToIS] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Grakova_N_V_2015_IntelTSBoOSToIS => nrel_name_publication:[Интеллектуальные обучающие системы, разработанные на основе открытой семантической технологии проектирования интеллектуальных систем](*<- lang_ru;;*);;
+
+publication_Grakova_N_V_2015_IntelTSBoOSToIS <= nrel_author:
+Grakova_N_V;Golenkov_V_V;Davydenko_I_T;Gulyakina_N_A;;
+
+publication_Grakova_N_V_2015_IntelTSBoOSToIS <- article;;
+
+publication_Grakova_N_V_2015_IntelTSBoOSToIS => nrel_reference_standard: [Гракова, Н.В. Интеллектуальные обучающие системы, разработанные на основе открытой семантической технологии проектирования интеллектуальных систем / В.В. Голенков, Н.А. Гулякина, Н.В. Гракова, И.Т. Давыденко // Электронные ресурсы в непрерывном образовании («ЭРНО-2015»): Труды IV Международного научно-методического симпозиума. – Ростов-на-Дону : Издательство Южного федерального университета, 2015. – с.26-30 ];;
+
+publication_Grakova_N_V_2015_IntelTSBoOSToIS => nrel_year_publication: 2015;;
+
+publication_Grakova_N_V_2015_IntelTSBoOSToIS => nrel_information_publication: Proceedings_of_the_IV_International_scientific_methodical_workshop_ERNO_2015;;
+
+publication_Grakova_N_V_2015_IntelTSBoOSToIS => nrel_number_page: ..2015_IntelTSBoOSToIS(*
+-> rrel_from : 26;;
+-> rrel_by : 30;;
+*);;
+publication_Grakova_N_V_2015_IntelTSBoOSToIS <- rrel_key_sc_element: ... (* <- sc_explanation;; <= nrel_sc_text_translation: ... (* -> rrel_example: "file://содержимое публикаций/Гракова_Н.В._ИнтелОБРнООСТПИС.pdf";; *);; *);;

@@ -1,0 +1,27 @@
+sc_node_not_relation -> instruction;;
+
+instruction => nrel_main_idtf:
+[инструкция]
+	(*
+	<- lang_ru;;
+	*);
+	[instruction] 
+	(*
+	<- lang_en;;
+	*);;
+
+instruction <- rrel_key_sc_element: 
+        ...
+	(*
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[инструкция – официальное издание, содержащее правила по регулированию производственной и общественной деятельности или пользованию изделиями и (или) услугами]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;
+
+edition -> instruction;;
+instruction <- official_edition;;

@@ -1,0 +1,29 @@
+publication_Koronchik_D_N_2013_SemanMUI=> nrel_main_idtf:
+[Корончик Д.Н.2013 - СеманМПИ]
+	(*
+	<- lang_ru;;
+	*);
+	[Koronchik_D_N_2013_SemanMUI] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Koronchik_D_N_2013_SemanMUI => nrel_name_publication:[Семантические модели пользовательского интерфейса.](*
+	<- lang_ru;;
+	*);;
+
+publication_Koronchik_D_N_2013_SemanMUI <= nrel_author:
+Koronchik_D_N;;
+
+publication_Koronchik_D_N_2013_SemanMUI <- article;;
+
+publication_Koronchik_D_N_2013_SemanMUI => nrel_reference_standard: [Д.Н. Корончик.Семантические модели пользовательского интерфейса. Журнал «Электроника Инфо», 2013 №4 – c. 25-29  ];;
+
+publication_Koronchik_D_N_2013_SemanMUI => nrel_year_publication: 2013;;
+
+publication_Koronchik_D_N_2013_SemanMUI => nrel_information_publication: magazine_Electronics_INFO_4;;
+
+publication_Koronchik_D_N_2013_SemanMUI => nrel_number_page: ..2013_SemanMUI (*
+-> rrel_from : 25;;
+-> rrel_by : 29;;
+*);;

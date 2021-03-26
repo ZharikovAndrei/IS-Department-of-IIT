@@ -1,0 +1,5 @@
+sc_node_not_relation->concept_performance_technical_management;;
+concept_performance_technical_management=>nrel_main_idtf:
+[эксплутационно-техническое управление](*<-lang_ru;;*);
+[performance technical management](*<-lang_en;;*);; 
+concept_performance_technical_management->performance_technical_management_bsuir;;

@@ -1,0 +1,6 @@
+sport_club_bsuir=>nrel_main_idtf:
+[спортивный клуб БГУИРа](*<-lang_ru;;*);
+[BSUIR sport club](*<-lang_en;;*);;
+
+sport_club_bsuir => nrel_pers_comp: personal_composition_of_sport_club;; 
+sport_club_bsuir<-concept_sport_club;;

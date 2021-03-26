@@ -1,0 +1,5 @@
+personal_composition_of_sport_club=>nrel_main_idtf:
+	[персональный состав спортивного клуба](*<-lang_ru;;*);
+	[personal composition of sport club](*<-lang_en;;*);; 
+
+personal_composition_of_sport_club->rrel_director: Tumanov_Sergey_Grigorievich;;

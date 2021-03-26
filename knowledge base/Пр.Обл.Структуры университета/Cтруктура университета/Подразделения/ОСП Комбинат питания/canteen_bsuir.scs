@@ -1,0 +1,5 @@
+canteen_bsuir=>nrel_main_idtf:
+[ОСП "Комбинат питания" БГУИРа](*<-lang_ru;;*);
+[OSB "Canteen" bsuir](*<-lang_en;;*);; 
+canteen_bsuir=>nrel_pers_comp:personal_composition_of_canteen_bsuir;;
+personal_composition_of_canteen_bsuir->rrel_director:Mchedlidze_Tamazi_Ilich;;

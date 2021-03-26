@@ -1,0 +1,11 @@
+{
+     "sources": [
+        
+        "src/add_project_task-common.js",
+        "src/add_project_task-paintPanel.js"
+    ],
+
+    "component": "src/add_project_task-component.js",
+
+    "target": "static/components/js/add_project_task/add_project_task.js"
+}

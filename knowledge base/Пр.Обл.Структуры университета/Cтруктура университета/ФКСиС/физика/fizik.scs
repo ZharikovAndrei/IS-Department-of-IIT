@@ -1,0 +1,99 @@
+the_department_of_physics=>nrel_main_idtf:
+[Кафедра физики](*<-lang_ru;;*);
+[the department of physics](*<-lang_en;;*);; 
+
+
+the_department_of_physics=>nrel_idtf:[ФИЗ](*<-lang_ru;;*);;
+the_department_of_physics=>nrel_idtf:[PHY](*<-lang_en;;*);;
+
+
+
+pers_comp_fiz -> rrel_head_of_department: header_of_fiz;;
+
+the_department_of_physics => nrel_info: fiz_info;;
+
+the_department_of_physics => nrel_pers_comp: pers_comp_fiz;;
+
+
+
+
+
+
+header_of_fiz=>nrel_main_idtf:
+[Смирнова Галина Фёдоровна](*<-lang_ru;;*);
+[Smirnova Galina Fedorovna](*<-lang_en;;*);;
+
+
+
+fiz_info=>nrel_main_idtf:
+[информация о кафедре ФИЗ](*<-lang_ru;;*);
+[the information about the department of PHY](*<-lang_en;;*);; 
+
+
+
+pers_comp_fiz=>nrel_main_idtf:
+[Персональный состав кафедры ФИЗ](*<-lang_ru;;*);
+[personal composition of the PHY](*<-lang_en;;*);; 
+
+
+
+header_of_fiz <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://../../../image/fizik2.jpg";;
+               *);;
+        *);;
+
+
+
+pers_comp_fiz <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://../../../image/fizik1.jpg";;
+               *);;
+        *);;
+
+
+
+
+
+
+
+
+fiz_info <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [О кафедре] (* <- lang_ru;; *);;
+	<- sc_task;;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Кафедра физики создана согласно приказу Министерства высшего и среднего специального образования БССР от 27 мая 1964 года. Первым заведующим кафедрой был назначен кандидат физико-математических наук, доцент А.С. Кузнецов. В 1968 году заведующим кафедрой становится В.М. Варикаш, С 1984 года по 1994 год кафедру физики возглавлял доктор физико-математических наук, лауреат Государственной премии СССР В.Г. Верещагин.
+В 1994 заведующим кафедрой стал доктор физико-математических наук, профессор Н.Т. Квасов.
+На 1 января 2011 года на кафедре физики работают 28 преподавателей, из которых 2 доктора физико-математических наук и 18 кандидатов физико-математических наук.
+На кафедре имеется семь учебных лабораторий и демонстрационная аудитория, оснащённых соответствующим оборудованием для изучения следующих разделов физики:
+1)"Механика. Молекулярная физика и термодинамика"
+2)"Электричество, магнетизм, электродинамика"
+3)"Волновая оптика, атомная, квантовая и ядерная физика".
+Имеющийся на кафедре компьютерный класс используется студентами и преподавателями, как в учебном процессе, так и для обработки научных результатов.  ](* <- lang_ru;; *);;
+		*);;
+	*);;
+
+
+
+
+
+
+
+

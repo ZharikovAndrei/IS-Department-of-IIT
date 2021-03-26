@@ -1,0 +1,29 @@
+publication_Parkalov_A_V_2012_SegmeRIESODVM => nrel_main_idtf:
+[Паркалов А.В.2012 - СегмеРИЗПвЗДВК]
+	(*
+	<- lang_ru;;
+	*);
+	[Parkalov_A_V_2012_ SegmeRIESODVM] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Parkalov_A_V_2012_SegmeRIESODVM => nrel_name_publication:[Сегментация растровых изображений земной поверхности в задаче детализации векторных карт](*
+	<- lang_ru;;
+	*);;
+
+publication_Parkalov_A_V_2012_SegmeRIESODVM <= nrel_author:
+Parkalov_A_V;;
+
+publication_Parkalov_A_V_2012_SegmeRIESODVM <- article;;
+
+publication_Parkalov_A_V_2012_SegmeRIESODVM => nrel_reference_standard: [Сегментация растровых изображений земной поверхности в задаче детализации векторных карт / Информационные технологии и системы: материалы международной конференции ИТС БГУИР 2012. Минск, 24 октября 2012 года. с. 164-165. ];;
+
+publication_Parkalov_A_V_2012_SegmeRIESODVM => nrel_year_publication: 2012;;
+
+publication_Parkalov_A_V_2012_SegmeRIESODVM => nrel_information_publication: Proceedings_of_the_international_scientific_conference_ITS_12;;
+
+publication_Parkalov_A_V_2012_SegmeRIESODVM => nrel_number_page: ..2012_SegmeRIESODVM(*
+-> rrel_from : 164;;
+-> rrel_by : 165;;
+*);;

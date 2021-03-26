@@ -1,0 +1,14 @@
+project_IMS
+      => nrel_main_idtf:[Интеллектуальная метасистема IMS] (* <-lang_ru;; *);
+      => nrel_main_idtf:[Intellectual metasystem IMS] (* <-lang_en;; *);
+      => nrel_synonymy:[2e/IMS];;
+
+project_IMS => nrel_project_leader:Golenkov_V_V;;
+project_IMS => nrel_performers: Davydenko_I_T; Shunkevich_D_V;;
+project_IMS => nrel_main_students: Rodionova_O_S; Bakanovskaa_A_A; Dzibuk_E_V; Pranovich_I_O; Kovalchuk_V_V;;
+project_IMS -> rrel_responsible_executor: Rodionova_O_S;;
+project_IMS => nrel_reports: report_IMS;;
+
+//project_IMS=> nrel_sections_KB_IMS: ;;
+//project_IMS=> nrel_reports_OSTIS2017: ;;
+//project_IMS=> nrel_related_projects: ;;

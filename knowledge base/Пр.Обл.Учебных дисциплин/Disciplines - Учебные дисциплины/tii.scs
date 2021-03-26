@@ -1,0 +1,36 @@
+artificial_intelligence_technology
+=>nrel_main_idtf:
+	[Технологии искусственного интеллекта] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[Artificial intelligence technology] (* <-lang_en;; *);
+=>nrel_abbreviation:[ТИИ];
+
+<-multiplicity_of_subjects_taught_in_the_2_term_magistracy_specialty_teoretical_foundations_of_computer_science;
+<-special_subject;
+
+<=nrel_realisation_of_learning_activity:
+
+	practical_lesson_on_artificial_intelligence_technology
+		(*=>nrel_main_idtf:
+		[Технологии искусственного интеллекта.практические занятия] (* <-lang_ru;; *);;=>nrel_planned_hours:34;;
+		=>nrel_realisation_of_intermediate_control:
+			protection_of_practical_work;;
+		<-practical_lesson;;
+		*);
+	practical_lesson_on_artificial_intelligence_technology
+		(*=>nrel_main_idtf:
+	[Технологии искусственного интеллекта.лекции] (* <-lang_ru;; *);;=>nrel_planned_hours:34;;
+		=>nrel_realisation_of_intermediate_control:
+			control_work;;
+			<-lecture;;
+		*);
+			
+=>nrel_realisation_of_final_certification: exam;
+<-rrel_subject:
+	...
+	(*
+	->rrel_realisation_of_learning_activity: lecture; practical_lesson;;
+	<-nrel_taught_subject;;
+	->rrel_teacher: Gulyakina_N_A;;
+	*);
+=>nrel_term: 2;;

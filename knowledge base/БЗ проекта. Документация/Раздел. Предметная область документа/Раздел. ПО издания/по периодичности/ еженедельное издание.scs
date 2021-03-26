@@ -1,0 +1,11 @@
+sc_node_not_relation -> weekly_edition;;
+
+weekly_edition => nrel_main_idtf:
+[еженедельное издание]
+	(*
+	<- lang_ru;;
+	*);
+	[weekly edition] 
+	(*
+	<- lang_en;;
+	*);;

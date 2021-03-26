@@ -1,0 +1,31 @@
+sc_node_norole_relation ->  nrel_publishing;;
+
+nrel_publishing => nrel_main_idtf:
+	[издательство*]
+	(*
+	<- lang_ru;;
+	*);
+	[place publishing*]
+	(*
+	<- lang_en;;
+	*);;
+
+
+  nrel_publishing => nrel_first_domain:  concept_writing;;
+  nrel_publishing => nrel_second_domain: concept_company;;
+  nrel_publishing => nrel_definitional_domain:...(*<=nrel_combination:...(*-> concept_writing;;-> concept_company;;*);;
+  *);;
+
+  nrel_publishing <- rrel_key_sc_element:
+  	...
+  	(*
+  	=>nrel_main_idtf:[Опр.(издательство*)](*<-lang_ru;;*);;
+  	<-sc_definition;;
+  	<=nrel_sc_text_translation:
+  	...
+  	(*
+  		-> rrel_example:
+  			[Издательство — предприятие (государственное, общественное, кооперативное или частное) — медиа-компания,
+				 которая работает в области литературы, искусства, музыки или науки, и продукция которой может воспроизводиться и распространяться.](* <- lang_ru;; *);;
+  		*);;
+  	*);;

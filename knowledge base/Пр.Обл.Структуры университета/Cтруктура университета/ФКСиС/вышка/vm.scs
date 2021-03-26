@@ -1,0 +1,105 @@
+the_department_of_higher_mathematics=>nrel_main_idtf:
+[Кафедра высшей математики](*<-lang_ru;;*);
+[the department of higher mathematics](*<-lang_en;;*);; 
+
+
+the_department_of_higher_mathematics=>nrel_idtf:[ВМ](*<-lang_ru;;*);;
+the_department_of_higher_mathematics=>nrel_idtf:[HM](*<-lang_en;;*);;
+
+
+
+pers_comp_vm -> rrel_head_of_department: header_of_vm;;
+
+the_department_of_higher_mathematics => nrel_info: vm_info;;
+
+the_department_of_higher_mathematics => nrel_pers_comp: pers_comp_vm;;
+
+the_department_of_higher_mathematics => nrel_logotipe: logotipe_vm;;
+
+
+
+
+header_of_vm=>nrel_main_idtf:
+[Цегельник Владимир Владимирович](*<-lang_ru;;*);
+[Cegel'nik Vladimir Vladimirovich](*<-lang_en;;*);;
+
+
+vm_info=>nrel_main_idtf:
+[информация о кафедре ВМ](*<-lang_ru;;*);
+[the information about the department of VM](*<-lang_en;;*);; 
+
+
+logotipe_vm=>nrel_main_idtf:
+[логотип ВМ](*<-lang_ru;;*);
+[the logotipe of VM](*<-lang_en;;*);; 
+
+
+pers_comp_vm=>nrel_main_idtf:
+[Персональный состав кафедры ВМ](*<-lang_ru;;*);
+[personal composition of the VM](*<-lang_en;;*);; 
+
+
+
+header_of_vm <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://../../../image/vm2.jpg";;
+               *);;
+        *);;
+
+
+
+pers_comp_vm <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://../../../image/vm1.jpg";;
+               *);;
+        *);;
+
+
+
+
+logotipe_vm <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://../../../image/vm3.jpg";;
+               *);;
+        *);;
+
+
+vm_info <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [О кафедре] (* <- lang_ru;; *);;
+	<- sc_task;;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Кафедра высшей математики создана в 1964 году вместе с основанием МРТИ (Минский радиотехнический институт - в 1993 года переименован в Белорусский государственный университет информатики и электроники (БГУИР). В настоящее время на кафедре работают 35 преподавателей. Из них: докторов наук -2, кандидатов наук - 20, профессоров - 2, доцентов - 20, ассистентов - 13. За период с 2000 по 2014 гг. на кафедре защищено 3 докторских и 17 кандидатских диссертации. Всего с момента образования кафедры ее сотрудниками защищено 7 докторских и 47 кандидатских диссертации. За последние 3 года преподавателями кафедры опубликовано 4 монографии и издано на ротапринте БГУИР 47 учебных и учебно-методических пособий. Кафедра обеспечивает подготовку студентов БГУИР всех специальностей (кроме специальности "Информатика и технологии программирования") и всех форм обучения по фундаментальным дисциплинам "Высшая математика", "Математика", а также осуществляет преподавание спецкурсов "Вычислительная математика", "Прикладная математика", "Теория норм синдромов" на некоторых факультетах.   ](* <- lang_ru;; *);;
+		*);;
+	*);;
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,33 @@
+Gricik_Kristina_Vasilievna=>nrel_main_idtf:
+[Грицик Кристина Васильевна](*<-lang_ru;;*);
+[Gricik Kristina Vasilievna](*<-lang_en;;*);;
+
+Gricik_Kristina_Vasilievna -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [+375 17 293-89-17];;*)
+   ;;*)
+   ;; 
+
+Gricik_Kristina_Vasilievna -> rrel_work_place: aud_116_1;;
+
+Gricik_Kristina_Vasilievna -> rrel_email:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [international2@bsuir.by](*<-lang_ru;;*)
+   ;;*)
+   ;;*)
+   ;; 
+
+
+Gricik_Kristina_Vasilievna <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://Gricik.jpg";;
+               *);;
+        *);;

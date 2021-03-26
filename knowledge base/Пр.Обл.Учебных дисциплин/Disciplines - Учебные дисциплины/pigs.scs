@@ -1,0 +1,42 @@
+pigs
+=>nrel_main_idtf:
+	[Проектирование интеллектуальных геоинформационных систем] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[Designing intelligent geoinformation systems] (* <-lang_en;; *);
+=>nrel_abbreviation:[ПИГС];
+
+<-subject_of_specialization;
+<-special_subject;
+
+<-multiplicity_of_subjects_taught_in_the_7_term_specialty_artificial_intelligence_specialization_geoinformation_systems;
+
+<=nrel_realisation_of_learning_activity:
+
+		lectures_on_pigs
+			(*=>nrel_main_idtf:
+	[Проектирование интеллектуальных геоинформационных систем.лекции] (* <-lang_ru;; *);;
+	=>nrel_planned_hours:34;;
+			=>nrel_realisation_of_intermediate_control:
+				control_work;;
+				<-lecture;;
+			*);
+		laboratory_work_on_pigs
+			(*=>nrel_main_idtf:
+	[Проектирование интеллектуальных геоинформационных систем.лабораторный практикум] (* <-lang_ru;; *);;
+	=>nrel_planned_hours:34;;
+			=>nrel_realisation_of_intermediate_control:
+				protection_of_laboratory_work;;
+			<-laboratory_work	;;
+			*);
+=>nrel_realisation_of_final_certification: exam;
+<-rrel_subject:
+	...
+	(*
+		->rrel_realisation_of_learning_activity: lecture; laboratory_work;;
+		<-nrel_taught_subject;;
+		->rrel_teacher: Samodumkin_S_A;;
+	*);
+=>nrel_term: 7;;
+
+Samodumkin_S_A=>nrel_can_teach_subject:pigs;;
+Samodumkin_S_A<=nrel_educational_work:lectures_on_pigs;laboratory_work_on_pigs;;

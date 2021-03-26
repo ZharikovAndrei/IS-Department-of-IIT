@@ -1,0 +1,21 @@
+sc_node_not_relation->concept_service_economy_capital_construction_and_logistics;;
+
+concept_service_economy_capital_construction_and_logistics=>nrel_main_idtf:
+[службы экономики, капитального строительства и материально-технического снабжения](*<-lang_ru;;*);
+[service economy, capital construction and logistics](*<-lang_en;;*);; 
+
+
+concept_service_economy_capital_construction_and_logistics<-rrel_key_sc_element:
+...
+(*
+=>nrel_idtf:[Опр.(службы экономики, капитального строительства и материально-технического снабжения)](*<-lang_ru;;*);;
+<-sc_definition;;
+<=nrel_sc_text_translation:
+...
+(*
+->rrel_example:
+[Службы экономики, капитального строительства и материально-технического снабжения - отдел организациях, осуществляющий контроль за секретным делопроизводством, обеспечением режима секретности, сохранностью секретных документов.](*<-lang_ru;;*);;
+*);;
+*);;
+
+

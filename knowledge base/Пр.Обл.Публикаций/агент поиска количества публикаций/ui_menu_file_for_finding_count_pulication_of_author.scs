@@ -1,0 +1,29 @@
+//поиск публикаций по автору
+ui_menu_file_for_finding_count_pulication_of_author <- ui_user_command_class_atom;ui_user_command_class_view_kb;;
+
+// Указываем русский идентификатор нашей операции в меню
+
+ui_menu_file_for_finding_count_pulication_of_author => nrel_main_idtf:
+	[Подсчет количества публикаций автора]
+		(* <- lang_ru;; *);;
+// Указываем английский идентификатор нашей операции в меню
+ui_menu_file_for_finding_count_pulication_of_author => nrel_main_idtf:
+	[Counting the number of publications of the author]
+		(* <- lang_en;; *);;
+// Указываем шаблон нашей команды
+ui_menu_file_for_finding_count_pulication_of_author => ui_nrel_command_template:
+	[*
+		question_of_finding_count_pulication _-> ._question_of_finding_count_pulication_instance
+			(*
+			_-> ui_arg_1;;
+			*);;
+		._question_of_finding_count_pulication_instance _<- question;;
+	*];;
+// Указываем текстовый шаблон команды на русском языке
+ui_menu_file_for_finding_count_pulication_of_author => ui_nrel_command_lang_template:
+	[Подсчет количества публикаций автора: $ui_arg_1]
+	(* <- lang_ru;; *);;
+// Указываем текстовый шаблон команды на английском языке
+	ui_menu_file_for_finding_count_pulication_of_author => ui_nrel_command_lang_template:
+		[Counting the number of publications of the author: $ui_arg_1]
+		(* <- lang_en;; *);;

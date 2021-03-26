@@ -1,0 +1,23 @@
+sc_node_norole_relation -> nrel_editorial_team;; 
+
+nrel_editorial_team => nrel_main_idtf:[редакционная коллегия журнала*] (* <-lang_ru;; *);;
+
+nrel_editorial_team => nrel_main_idtf:[editorial team*] (* <-lang_en;; *);;
+
+nrel_editorial_team=>nrel_first_domain:concept_magazine;;
+
+nrel_editorial_team=>nrel_second_domain:personal_composition_of_magazine;;
+
+nrel_editorial_team=>nrel_definitional_domain:...(* <=nrel_combination:...(*->concept_magazine;; ->personal_composition_of_magazine;;*) ;; *);;
+
+nrel_editorial_team<- rrel_key_sc_element:
+	... 
+	(*<-sc_definition;;
+     =>nrel_main_idtf:[Опр.(редакционная коллегия журнала*)](*<-lang_ru;;*);;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Редакционная коллегия журнала - постоянно действующий огран управления журналом, определяющий текущую редакционную политику журнала, рассматривающий и утверждающий содержание номеров.](* <- lang_ru;; *);;
+		*);;
+	*);;

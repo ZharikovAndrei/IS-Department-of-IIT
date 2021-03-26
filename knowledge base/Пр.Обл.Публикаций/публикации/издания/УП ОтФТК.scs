@@ -1,0 +1,16 @@
+//
+//sc_node_not_relation -> textbook_organization_and_functioning_of_traditional_computers;;
+
+textbook_organization_and_functioning_of_traditional_computers => nrel_main_idtf:
+[Учебное пособие "Организация и функционирование традиционных компьютеров"]
+	(*
+	<- lang_ru;;
+	*);
+	[Textbook "Organization and functioning of traditional computers"]
+	(*
+	<- lang_en;;
+	*);;
+
+textbook_organization_and_functioning_of_traditional_computers => nrel_place_publication: minsk;;
+
+textbook_organization_and_functioning_of_traditional_computers => nrel_publishing: bsuir;;

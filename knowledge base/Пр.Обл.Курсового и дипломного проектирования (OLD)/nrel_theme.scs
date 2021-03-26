@@ -1,0 +1,19 @@
+nrel_theme
+<-sc_node_norole_relation;
+=>nrel_main_idtf:
+[тема*](*<-lang_ru;;*);
+[theme*](*<-lang_en;;*);
+=>nrel_first_domain:course_project;
+=>nrel_second_domain:student_project;
+=>nrel_definitional_domain:...(* <=nrel_combination:...(*->course_project;; ->student_project;;*) ;; *);
+->rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> [Тема — предмет(суть) изложения или работы.] (* <-lang_ru;; *);; 
+		*);;
+	*);;
+

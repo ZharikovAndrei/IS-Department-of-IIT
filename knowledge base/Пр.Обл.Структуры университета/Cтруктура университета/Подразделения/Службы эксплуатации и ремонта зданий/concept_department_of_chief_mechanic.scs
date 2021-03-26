@@ -1,0 +1,5 @@
+sc_node_not_relation->concept_department_of_chief_mechanic;;
+concept_department_of_chief_mechanic=>nrel_main_idtf:
+[отдел главного механика](*<-lang_ru;;*);
+[department of chief mechanic](*<-lang_en;;*);;
+concept_department_of_chief_mechanic->department_of_chief_mechanic_bsuir;;

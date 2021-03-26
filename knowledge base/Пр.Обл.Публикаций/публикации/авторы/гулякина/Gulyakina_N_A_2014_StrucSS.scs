@@ -1,0 +1,35 @@
+//sc_node_not_relation -> publication_Gulyakina_N_A_2014_StrucSS;;
+
+
+publication_Gulyakina_N_A_2014_StrucSS => nrel_main_idtf:
+[Гулякина Н.А.2014 - СтрукСП] 
+	(*
+	<- lang_ru;;
+	*);
+	[Gulyakina_N_A_2014_StrucSS]
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Gulyakina_N_A_2014_StrucSS => nrel_name_publication:[Структуризация смыслового пространства] (*
+	<- lang_ru;;
+	*);;
+
+publication_Gulyakina_N_A_2014_StrucSS <= nrel_author:
+Gulyakina_N_A; Golenkov_V_V;;
+
+publication_Gulyakina_N_A_2014_StrucSS <- article;;
+
+publication_Gulyakina_N_A_2014_StrucSS => nrel_reference_standard: [Голенков В.В., Гулякина Н.А. Структуризация смыслового пространства. Открытые семантические технологии интеллектуальных систем (Ostis-2014): Материалы IV международной науч.-тех. конф (Минск, 20-22 февраля 2014г.) Минск: БГУИР,2014. – с.65-78];;
+
+publication_Gulyakina_N_A_2014_StrucSS => nrel_year_publication: 2014;;
+
+publication_Gulyakina_N_A_2014_StrucSS => nrel_information_publication:  Materials_of_the_International_Scientific_and_Technical_Conference_OSTIS_2014;;
+
+publication_Gulyakina_N_A_2014_StrucSS => nrel_number_page: ..2014_StrucSS(*
+-> rrel_from : 65;;
+-> rrel_by : 78;;
+
+*);;
+
+

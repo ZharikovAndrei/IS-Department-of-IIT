@@ -1,0 +1,35 @@
+Paller_Boris_Yakovlevich
+=>nrel_main_idtf:
+[Паллер Б.Я.](*<-lang_ru;;*);
+
+ =>nrel_idtf:
+[Paller Boris](*<-lang_en;;*);
+[Паллер Борис Яковлевич](*<-lang_ru;;*);
+<-person;
+<- rrel_key_sc_element:
+        ...
+        (*
+        <-illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example:
+                       "file://photos/Paller_Boris_Yakovlevich.jpg";;
+               *);;
+        *);;
+
+Paller_Boris_Yakovlevich -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+ [+375 17 293-80-92];;*)
+   ;;*)
+   ;;
+Paller_Boris_Yakovlevich -> rrel_work_place: aud_606_5;;
+Paller_Boris_Yakovlevich -> rrel_email:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+ [paller@bsuir.by](*<-lang_en;;*)
+   ;;*)
+   ;;*)
+   ;;
+Paller_Boris_Yakovlevich=>nrel_rate:1;;

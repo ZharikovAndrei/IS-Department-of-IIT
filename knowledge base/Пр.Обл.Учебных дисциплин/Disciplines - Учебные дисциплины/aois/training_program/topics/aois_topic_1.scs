@@ -1,0 +1,6 @@
+aois_topic_1_etapy_razvitiya__i_pokoleniya_evm_evolyutsiya_ikh_intellektualnykh_svoystv
+<- concept_topic; 
+<= nrel_index_number: 1; 
+<= nrel_content: [Этапы развития и поколения ЭВМ. Определяющие качества (свойства) ЭВМ поколений. Особенности традиционных и интеллектуальных ЭВМ. Эволюция интеллектуальных свойств ЭВМ.] (* <- lang_ru;; *);
+=> nrel_main_idtf: [Раздел 1: Этапы развития  и поколения ЭВМ. Эволюция их интеллектуальных свойств.] (* <- lang_ru;; *);;
+

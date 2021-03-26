@@ -1,0 +1,67 @@
+the_institute_of_information_technology=>nrel_main_idtf:
+[Институт Информационных технологий](*<-lang_ru;;*);
+[the institute of information technology](*<-lang_en;;*);; 
+
+
+the_institute_of_information_technology=>nrel_idtf:[ИИТ БГУИР](*<-lang_ru;;*);;
+the_institute_of_information_technology=>nrel_idtf:[IIT BSUIR](*<-lang_en;;*);;
+
+
+the_institute_of_information_technology => nrel_pers_comp: pers_comp_of_inst;;
+
+the_institute_of_information_technology => nrel_info: inst_info;;
+
+inst_info=>nrel_main_idtf:
+[информация о институте](*<-lang_ru;;*);
+[the information about institute](*<-lang_en;;*);;
+
+pers_comp_of_inst=>nrel_main_idtf:
+[персональный состав института ИИТ](*<-lang_ru;;*);
+[the personal composition of the IIT institute](*<-lang_en;;*);;  
+
+
+inst_info <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [Об институте] (* <- lang_ru;; *);;
+	<- sc_task;;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Институт повышения квалификации и переподготовки руководящих работников и специалистов по информационным технологиям и радиоэлектронике (сокращенное наименование – Институт информационных технологий БГУИР, ИИТ БГУИР). Институт создан 12 июня 2001 года на базе спецфакультета переподготовки кадров и повышения квалификации и является обособленным структурным подразделением Белорусского государственного университета информатики и радиоэлектроники. 
+Направления образовательной деятельности:
+-повышение квалификации и переподготовка специалистов;
+-профессиональная подготовка кадров по профессиям рабочих;
+-подготовка специалистов с высшим образованием с сокращенным сроком обучения (на базе среднего специального образования);
+-проведение образовательных курсов, подготовительных курсов для абитуриентов.](* <- lang_ru;; *);;
+		*);;
+	*);;
+
+
+
+the_institute_of_information_technology <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://../../image/inst1.jpg";;
+               *);;
+        *);;
+
+
+
+structure_of_inst <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://../../image/inst2.jpg";;
+               *);;
+        *);;

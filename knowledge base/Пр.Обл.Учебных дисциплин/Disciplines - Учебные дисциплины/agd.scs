@@ -1,0 +1,81 @@
+agd
+=>nrel_main_idtf:
+	[Анализ геоинформационных данных] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[Analysis of geoinformation data] (* <-lang_en;; *);
+=>nrel_abbreviation:[АГД];
+
+<-subject_of_specialization;
+<-special_subject;
+
+<=nrel_subdividing:
+		agd_part_1
+			(*
+			<-multiplicity_of_subjects_taught_in_the_7_term_specialty_artificial_intelligence_specialization_geoinformation_systems;;
+			<=nrel_realisation_of_learning_activity:
+
+				lectures_on_agd_part_1
+				(*=>nrel_main_idtf:
+[Анализ геоинформационных данных.часть 1.лекции] (* <-lang_ru;; *);;
+=>nrel_planned_hours:34;;
+					<-lecture;;
+				*);
+				practical_lesson_on_agd_part_1
+					(*=>nrel_main_idtf:
+	[Анализ геоинформационных данных.часть 1.практические занятия] (* <-lang_ru;; *);;
+	=>nrel_planned_hours:34;;
+					=>nrel_realisation_of_intermediate_control:
+						 protection_of_practical_work;;
+						 <-practical_lesson;;
+					*);;
+			=>nrel_realisation_of_final_certification:
+				test;;
+			<-rrel_subject:
+				...
+				(*
+				->rrel_realisation_of_learning_activity:
+					lecture;
+					practical_lesson;;
+				<-nrel_taught_subject;;
+				->rrel_teacher: Stepanova_M_D;;
+				*);;
+			=>nrel_term: 7;;
+			*);
+		agd_part_2
+		(*
+			<-multiplicity_of_subjects_taught_in_the_8_term_specialty_artificial_intelligence_specialization_geoinformation_systems;;
+			<=nrel_realisation_of_learning_activity:
+
+							lectures_on_agd_part_2
+							(*=>nrel_main_idtf:
+			[Анализ геоинформационных данных.часть 2.лекции] (* <-lang_ru;; *);;
+			=>nrel_planned_hours:34;;
+								<-lecture;;
+							*);
+				laboratory_work_on_agd_part_2
+					(*=>nrel_main_idtf:
+	[Анализ геоинформационных данных.часть 2.лабораторный практикум] (* <-lang_ru;; *);;
+	=>nrel_planned_hours:34;;
+					=>nrel_realisation_of_intermediate_control:
+						protection_of_laboratory_work;;
+						<-laboratory_work	;;
+					*);;
+			=>nrel_realisation_of_final_certification:
+				exam;;
+			<-rrel_subject:
+				...
+				(*
+				->rrel_realisation_of_learning_activity: lecture; laboratory_work;;
+				<-nrel_taught_subject;;
+				->rrel_teacher: Stepanova_M_D;;
+				*);;
+			=>nrel_term: 8;;
+			*);;
+
+
+agd_part_1
+=>nrel_main_idtf:
+	[Анализ геоинформационных данных.часть 1.] (* <-lang_ru;; *);;
+agd_part_2
+=>nrel_main_idtf:
+	[Анализ геоинформационных данных.часть 2.] (* <-lang_ru;; *);;

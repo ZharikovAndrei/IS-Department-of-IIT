@@ -1,0 +1,18 @@
+sc_node_norole_relation -> nrel_author;;
+
+specialization_of_document -> nrel_author;;
+
+
+nrel_author <- rrel_key_sc_element: 
+        ...
+	(*
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[автор – лицо, создавшее произведение или принимавшее участие в его создании, а также учреждение или организация, от имени которых публикуются материалы]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;
+

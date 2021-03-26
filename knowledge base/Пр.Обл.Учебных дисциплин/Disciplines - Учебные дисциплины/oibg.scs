@@ -1,0 +1,11 @@
+fundamentals_of_belarusian_state_ideology
+=>nrel_main_idtf: [Основы идеологии белорусского государства] (*<-lang_ru;;*);
+=>nrel_main_idtf: [Fundamentals of Belarusian state ideology] (*<-lang_en;;*);
+<=nrel_trains: the_department_of_humanities;
+<=nrel_class_number: 2(* <-positive_number;;*);
+<=nrel_semester_number: 3(* <-positive_number;;*);
+<=nrel_lecture_hours: 16(*<-positive_number;;*);
+<=nrel_practice_hours: 8(*<-positive_number;;*);
+<=nrel_component: concept_mandatory_component;
+<=nrel_cycle: concept_tsikl_sotsialno_gumanitarnykh_distsiplin;;
+

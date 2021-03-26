@@ -1,0 +1,31 @@
+sc_node_not_relation -> training_package;;
+training_package => nrel_main_idtf:
+[учебный комплект]
+	(*
+	<- lang_ru;;
+	*);
+	[training program] 
+	(*
+	<- lang_en;;
+	*);;
+
+training_package <- rrel_key_sc_element: 
+        ...
+	(*
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[учебный комплект – набор учебных изданий, предназначенный для определенной ступени обучения и включающий учебник, учебное пособие, рабочую тетрадь, справочное издание]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;
+
+
+training_package <- educational_edition;;
+
+training_package <- edition;;
+
+training_package => nrel_inclusion: textbook; tutorial; reference_edition; workbook;;
+

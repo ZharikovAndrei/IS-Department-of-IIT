@@ -1,0 +1,9 @@
+management_training_of_scientific_personnel_of_higher_qualification_of_the_bsuir => nrel_main_idtf:[Управление подготовки научных кадров высшей квалификации БГУИРа] (* <-lang_ru;; *);;
+management_training_of_scientific_personnel_of_higher_qualification_of_the_bsuir=> nrel_main_idtf:[Management training of scientific personnel of higher qualification of the BSUIR] (* <-lang_en;; *);;
+management_training_of_scientific_personnel_of_higher_qualification_of_the_bsuir=> nrel_pers_comp:personal_composition_of_management_training_of_scientific_personnel_of_higher_qualification;;
+personal_composition_of_management_training_of_scientific_personnel_of_higher_qualification->rrel_head_of_management_training_of_scientific_personnel_of_higher_qualification_of_the_bsuir:Kulazhenko_Yuri_Ivanovich;;
+management_training_of_scientific_personnel_of_higher_qualification_of_the_bsuir<-concept_management_training_of_scientific_personnel_of_higher_qualification;;
+
+personal_composition_of_management_training_of_scientific_personnel_of_higher_qualification=>nrel_main_idtf:
+[персональный состав управления подготовки научных кадров высшей квалификации БГУИРа](*<-lang_ru;;*);
+[personal composition of theManagement training of scientific personnel of higher qualification of the BSUIR](*<-lang_en;;*);; 

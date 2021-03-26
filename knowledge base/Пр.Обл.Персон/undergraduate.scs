@@ -1,0 +1,14 @@
+undergraduate
+=>nrel_main_idtf:
+	[магистрант] (* <-lang_ru;; *);
+<-person;
+->rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> [Магистрант-физическое лицо,получающее образование на второй ступени высшего образования.] (* <-lang_ru;; *);; 
+		*);;
+	*);;

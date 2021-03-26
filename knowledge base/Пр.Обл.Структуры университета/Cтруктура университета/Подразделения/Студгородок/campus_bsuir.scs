@@ -1,0 +1,12 @@
+campus_bsuir=>nrel_main_idtf:
+[студенческий городок БГУИР](*<-lang_ru;;*);
+[BSUIR campus](*<-lang_en;;*);;
+concept_the_campus=>nrel_idtf:
+[cтудгородок БГУИР](*<-lang_ru;;*);;
+
+campus_bsuir => nrel_pers_comp: personal_composition_of_campus_bsuir;; 
+
+campus_bsuir<-concept_the_campus;;
+
+
+

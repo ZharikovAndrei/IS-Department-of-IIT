@@ -1,0 +1,12 @@
+Kazubovskaya_Valentina_Antipovna=>nrel_main_idtf:
+[Казубовская Валентина Антиповна](*<-lang_ru;;*);
+[Kazubovskaya Valentina Antipovna](*<-lang_en;;*);;
+
+Kazubovskaya_Valentina_Antipovna-> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+[+375 17 293-80-07];;*)
+   ;;*)
+   ;;
+
+Kazubovskaya_Valentina_Antipovna-> rrel_work_place: aud_315_2;;

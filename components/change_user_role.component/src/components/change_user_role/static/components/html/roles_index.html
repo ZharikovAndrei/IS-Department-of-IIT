@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="static/components/css/toastr.min.css">
+  <link rel="stylesheet" href="static/components/css/roles_style.css">
+  <script src="static/components/js/toastr.min.js"></script>
+</head>
+
+<body>
+  <div class="row">
+    <div class="dropdown col-md-2">
+      <button class="btn btn-default dropdown-toggle" type="button" id="users" data-toggle="dropdown">
+        Выберите пользователя
+        <span class="caret"></span>
+      </button>
+      <ul class="dropdown-menu">
+      </ul>
+    </div>
+
+    <div class="dropdown col-md-2">
+      <button class="btn btn-default dropdown-toggle" type="button" id="roles" data-toggle="dropdown">
+        Выберите роль
+        <span class="caret"></span>
+      </button>
+      <ul class="dropdown-menu">
+          <li><a href="#">обычный пользователь</a></li>
+          <li><a href="#">специальный пользователь</a></li>
+      </ul>
+    </div>
+
+    <div class="col-md-3 role">
+      <span>Текущая роль: </span>
+      <span id="role"></span>
+    </div>
+    
+    <button class="btn btn-success" id="change_role">Сохранить</button>
+</body>
+
+</html>

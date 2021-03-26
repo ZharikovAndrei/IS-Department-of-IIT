@@ -1,0 +1,21 @@
+monograph_2001_ProgroAM=> nrel_main_idtf:
+[2001 - ПрогрвАМ]
+	(*
+	<- lang_ru;;
+	*);
+	[2001_ProgroAM] 
+	(*
+	<- lang_en;;
+	*);;
+
+monograph_2001_ProgroAM => nrel_name_publication:[Программирование в ассоциативных машинах](*<- lang_ru;;*);;
+
+monograph_2001_ProgroAM <= nrel_author:
+Golenkov_V_V;Gulyakina_N_A;Osipov_Genadiy_Semenovich;;
+
+monograph_2001_ProgroAM <- monograph;;
+
+monograph_2001_ProgroAM => nrel_reference_standard: [Программирование в ассоциативных машинах, Минск, БГУИР, 2001, 274 с. ];;
+monograph_2001_ProgroAM=>nrel_count_page:274;;
+
+monograph_2001_ProgroAM => nrel_year_publication: 2001;;

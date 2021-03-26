@@ -1,0 +1,5 @@
+sc_node_not_relation->concept_department_of_chief_power_engineer;;
+concept_department_of_chief_power_engineer=>nrel_main_idtf:
+[отдел главного энергетика](*<-lang_ru;;*);
+[department of chief power engineer](*<-lang_en;;*);; 
+concept_department_of_chief_power_engineer->department_of_chief_power_engineer_bsuir;;

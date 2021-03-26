@@ -1,0 +1,28 @@
+//
+//sc_node_not_relation -> collection_of_computer_science_4_2012; UIIP_NASB_Belarus;;
+
+UIIP_NASB_Belarus => nrel_main_idtf:
+[ОИПИ НАН Беларуси]
+	(*
+	<- lang_ru;;
+	*);
+	[UIIP NASB Belarus]
+	(*
+	<- lang_en;;
+	*);;
+
+
+
+collection_of_computer_science_4_2012 => nrel_main_idtf:
+[Сб. "Информатика" №4]
+	(*
+	<- lang_ru;;
+	*);
+	[Collection of computer science]
+	(*
+	<- lang_en;;
+	*);;
+
+collection_of_computer_science_4_2012 => nrel_place_publication: minsk;;
+
+ collection_of_computer_science_4_2012 => nrel_publishing: UIIP_NASB_Belarus;;

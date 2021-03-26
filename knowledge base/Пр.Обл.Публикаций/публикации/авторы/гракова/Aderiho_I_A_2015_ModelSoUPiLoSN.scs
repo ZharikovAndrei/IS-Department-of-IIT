@@ -1,0 +1,32 @@
+
+publication_Aderiho_I_A_2015_ModelSoUPiLoSN => nrel_main_idtf:
+[Адерихо И.А. 2015 - МоделСУПнЯСС]
+	(*
+	<- lang_ru;;
+	*);
+	[Aderiho_I_A_2015_ModelSoUPiLoSN] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Aderiho_I_A_2015_ModelSoUPiLoSN => nrel_name_publication:[Модель структуры университета, представленная на языке семантических сетей](*
+	<- lang_ru;;
+	*);;
+
+publication_Aderiho_I_A_2015_ModelSoUPiLoSN <= nrel_author:
+Grakova_N_V; Aderiho_Ilya_Anatolevich; Chernikov_Ivan_Andreevich;;
+
+publication_Aderiho_I_A_2015_ModelSoUPiLoSN <- article;;
+
+publication_Aderiho_I_A_2015_ModelSoUPiLoSN => nrel_reference_standard: [Адерихо И. А., Гракова Н. В., Черников И. А.
+"Модель структуры университета, представленная на языке семантических сетей", ITS 2015];;
+
+publication_Aderiho_I_A_2015_ModelSoUPiLoSN => nrel_year_publication: 2015;;
+
+publication_Aderiho_I_A_2015_ModelSoUPiLoSN => nrel_information_publication:  Proceedings_of_the_international_scientific_conference_ITS_15;;
+
+publication_Aderiho_I_A_2015_ModelSoUPiLoSN => nrel_number_page: ..2015_ModelSoUPiLoSN(*
+-> rrel_from : 96;;
+-> rrel_by : 98;;
+*);;
+

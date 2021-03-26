@@ -1,0 +1,30 @@
+publication_Romanov_V_I_2011_LogicDDDUPFMKR => nrel_main_idtf:
+[Романов В.И.2011 - ЛогичПДУсИПФМПЗ]
+	(*
+	<- lang_ru;;
+	*);
+	[Romanov_V_I_2011_LogicDDDUPFMKR] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Romanov_V_I_2011_LogicDDDUPFMKR => nrel_name_publication:[Логическое проектирование дискретных устройств с использованием продукционно-фреймовой модели представления знаний](*
+	<- lang_ru;;
+	*);;
+
+publication_Romanov_V_I_2011_LogicDDDUPFMKR <= nrel_author:
+Romanov_V_I;Bibilo_P_N;;
+
+publication_Romanov_V_I_2011_LogicDDDUPFMKR <- article;;
+
+publication_Romanov_V_I_2011_LogicDDDUPFMKR => nrel_reference_standard: [Бибило П.Н., Романов В.И. Логическое проектирование дискретных устройств с использованием продукционно-фреймовой модели представления знаний. – Минск: Беларус. навука, 2011. – 279 с.  ];;
+
+publication_Romanov_V_I_2011_LogicDDDUPFMKR => nrel_year_publication: 2011;;
+
+publication_Romanov_V_I_2011_LogicDDDUPFMKR => nrel_information_publication: collection_of_belarussian_science_2011;;
+
+publication_Romanov_V_I_2011_LogicDDDUPFMKR => nrel_number_page: ..2011_LogicDDDUPFMKR(*
+-> rrel_from : 279;;
+-> rrel_by : 279;;
+*);;
+

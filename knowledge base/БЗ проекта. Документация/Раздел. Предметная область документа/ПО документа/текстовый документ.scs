@@ -1,0 +1,26 @@
+sc_node_not_relation -> textual_document;;
+
+textual_document => nrel_main_idtf:
+[текстовый документ]
+	(*
+	<- lang_ru;;
+	*);
+	[textual document] 
+	(*
+	<- lang_en;;
+	*);;
+
+textual_document <- rrel_key_sc_element: 
+        ...
+	(*
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[текстовый документ – документ, содержащий речевую информацию, зафиксированную любым типом письма или любой системой звукозаписи]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;
+
+document -> textual_document;;

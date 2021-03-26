@@ -1,0 +1,27 @@
+sc_node_not_relation -> concept_rectorate;; 
+concept_rectorate=> nrel_main_idtf:[ректорат] (* <-lang_ru;; *);;
+concept_rectorate=> nrel_main_idtf:[rectorate] (* <-lang_en;; *);;
+concept_rectorate<- rrel_key_sc_element:
+	... 
+	(*<-sc_definition;;
+     =>nrel_main_idtf:[Опр.(ректорат)](*<-lang_ru;;*);;
+     <=nrel_using_constants:...(*->nrel_university;; *);;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[ Орган управления университета, возглавляемый ректором, который выполняет функции координации и административного обеспечения учебного процесса, ведения делопроизводства; координирует деятельность всех подразделений университета, осуществляет общее руководство научной работой университета. ](* <- lang_ru;; *);;
+		*);;
+	*);;
+concept_rectorate <- rrel_key_sc_element:
+	... 
+	(*<-sc_statement;;
+     =>nrel_main_idtf:[Утв.(ректорат, состав*,ректор, проректор)](*<-lang_ru;;*);;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[ В состав ректората входит ряд проректоров и ректор. ](* <- lang_ru;; *);;
+		*);;
+	*);;
+

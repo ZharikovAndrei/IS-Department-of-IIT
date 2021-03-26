@@ -1,0 +1,6 @@
+student_union_committee_bsuir=> nrel_main_idtf:[студенческий профсоюзный коммитет БГУИРа] (* <-lang_ru;; *);;
+student_union_committee_bsuir=> nrel_main_idtf:[BSUIR student union committee] (* <-lang_en;; *);;
+student_union_committee_bsuir=> nrel_idtf:[студенческий профком БГУИРа] (* <-lang_ru;; *);;
+student_union_committee_bsuir=>nrel_pers_comp:personal_composition_of_student_union_committee_bsuir;;
+personal_composition_of_student_union_committee_bsuir -> rrel_chairman: Frolova_Darya_Alexandrovna;;
+concept_student_union_committee -> student_union_committee_bsuir;;

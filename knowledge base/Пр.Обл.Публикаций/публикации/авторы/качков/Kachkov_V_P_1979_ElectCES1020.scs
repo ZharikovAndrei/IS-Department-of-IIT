@@ -1,0 +1,28 @@
+//sc_node_not_relation -> publication_Kachkov_V_P_1979_ElectCES1020;;
+
+
+publication_Kachkov_V_P_1979_ElectCES1020 => nrel_main_idtf:
+[Качков В.П.1979 - ЭлектВМЕС1020]
+	(*
+	<- lang_ru;;
+	*);
+	[Kachkov_V_P_1979_ElectCES1020] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Kachkov_V_P_1979_ElectCES1020 => nrel_name_publication:[электроннная вычислительная машина ЕС 1020] (*
+	<- lang_ru;;
+	*);;
+
+publication_Kachkov_V_P_1979_ElectCES1020 <= nrel_author:
+Kachkov_V_P; Kondratiev_A_P;;
+
+publication_Kachkov_V_P_1979_ElectCES1020 <- article;;
+
+publication_Kachkov_V_P_1979_ElectCES1020 => nrel_reference_standard: [Качков В.П.,Кондратьев А.П. и др. электроннная вычислительная машина ЕС 1020. М.:Статистика, 1979];;
+
+publication_Kachkov_V_P_1979_ElectCES1020 => nrel_year_publication: 1979;;
+
+publication_Kachkov_V_P_1979_ElectCES1020 => nrel_information_publication:  statistics;;
+

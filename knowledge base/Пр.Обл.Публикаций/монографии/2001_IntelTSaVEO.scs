@@ -1,0 +1,21 @@
+monograph_2001_IntelTSaVEO=> nrel_main_idtf:
+[2001 - ИнтелОСиВУО]
+	(*
+	<- lang_ru;;
+	*);
+	[2001_IntelTSaVEO] 
+	(*
+	<- lang_en;;
+	*);;
+
+monograph_2001_IntelTSaVEO => nrel_name_publication:[Интеллектуальные обучающие системы и виртуальные учебные организации](*<- lang_ru;;*);;
+
+monograph_2001_IntelTSaVEO <= nrel_author:
+Golenkov_V_V;Gulyakina_N_A;Eliseeva_Olga_Evgenjevna;Tarasov_Valerij_Borisovich;;
+
+monograph_2001_IntelTSaVEO <- monograph;;
+
+monograph_2001_IntelTSaVEO => nrel_reference_standard: [Интеллектуальные обучающие системы и виртуальные учебные организации, Минск, БГУИР, 2001, 486 с.];;
+monograph_2001_IntelTSaVEO=>nrel_count_page:486;;
+
+monograph_2001_IntelTSaVEO => nrel_year_publication: 2001;;

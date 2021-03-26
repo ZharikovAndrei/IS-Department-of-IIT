@@ -1,0 +1,4 @@
+sc_node_not_relation->concept_complex;;
+concept_complex=>nrel_main_idtf:
+[комплекс](*<-lang_ru;;*);
+[complex](*<-land_en;;*);;

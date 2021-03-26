@@ -1,0 +1,27 @@
+publication_Konoval_D_I_2015_IntelKBSSAoD => nrel_main_idtf:
+[Коновал В.И. 2015 - БазаЗИСПДК]
+	(*
+	<- lang_ru;;
+	*);
+	[Konoval_D_I_2015_IntelKBSSAoD]
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Konoval_D_I_2015_IntelKBSSAoD => nrel_name_publication:[База знаний интеллектуальной системы поддержки
+деятельности кафедры](*
+	<- lang_ru;;
+	*);;
+
+publication_Konoval_D_I_2015_IntelKBSSAoD <= nrel_author:
+Konoval_Darya_Igorevna; Semenov_Vladislav_Sergeevich;;
+
+publication_Konoval_D_I_2015_IntelKBSSAoD <- article;;
+
+publication_Konoval_D_I_2015_IntelKBSSAoD => nrel_reference_standard: [ Коновал Д. И., Семёнов В. С.
+"База знаний интеллектуальной системы поддержки
+деятельности кафедры" ITS 2015];;
+
+publication_Konoval_D_I_2015_IntelKBSSAoD => nrel_year_publication: 2015;;
+
+publication_Konoval_D_I_2015_IntelKBSSAoD => nrel_information_publication:  Proceedings_of_the_international_scientific_conference_ITS_15;;

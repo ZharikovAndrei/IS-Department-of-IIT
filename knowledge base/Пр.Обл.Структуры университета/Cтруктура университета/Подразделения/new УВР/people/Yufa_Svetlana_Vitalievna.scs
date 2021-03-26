@@ -1,0 +1,33 @@
+Yufa_Svetlana_Vitalievna=>nrel_main_idtf:
+[Юфа Светлана Витальевна](*<-lang_ru;;*);
+[Yufa Svetlana Vitalievna](*<-lang_en;;*);;
+
+Yufa_Svetlana_Vitalievna -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [+375 17 293-85-76];;*)
+   ;;*)
+   ;; 
+
+Yufa_Svetlana_Vitalievna -> rrel_work_place: aud_324a_4;;
+
+Yufa_Svetlana_Vitalievna -> rrel_email:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [yufa@bsuir.by](*<-lang_ru;;*)
+   ;;*)
+   ;;*)
+   ;; 
+
+
+Yufa_Svetlana_Vitalievna <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://Yufa.jpg";;
+               *);;
+        *);;

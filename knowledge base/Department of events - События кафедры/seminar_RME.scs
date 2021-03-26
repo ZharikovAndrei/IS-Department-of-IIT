@@ -1,0 +1,50 @@
+seminar_RME=> nrel_main_idtf:
+[Республиканский семинар “Реорганизация и управление предприятиями на основе интеллектуальных программных средств принятия решений и моделирования” ] (* <-lang_ru;; *);
+[Republican seminar " Reorganization and management of enterprises on the basis of intelligent software modeling and decision-making "] (* <-lang_en;; *);
+<-temporary_entity;;
+seminar_RME<-
+...
+(*<-exact_value;;
+ <-begin;;
+  =>nrel_translation_in_the_Gregorian_calendar:...
+  (*
+    ->number_of_year:2000;;
+    ->number_of_month_in_year:12;;
+    ->number_of_day_in_month:12;;
+   *);;
+  *);;
+seminar_RME<-
+...
+(*<-exact_value;;
+ <-completion;;
+  =>nrel_translation_in_the_Gregorian_calendar:...
+  (*
+    ->number_of_year:2000;;
+    ->number_of_month_in_year:12;;
+    ->number_of_day_in_month:12;;
+   *);;
+  *);;
+
+seminar_RME=>nrel_address:[г.Минск, БГУИР, улица Платонова 39 (5-ой корпус), кафедра ИИТ.](*<-lang_ru;;*);;
+
+seminar_RME<-rrel_key_sc_element:
+...
+(*
+<= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       [Основными докладчиками являются: Попов Э.В. (РосНИИ ИТ и АП), Кисель Е.Б. (компания Gensym), Тельнов Ю.Ф. (Московский государственный университет экономики, статистики и информатики - МЭСИ), Еремеев А.П. (Московский энергетический институт), Рыбина Г.В. (Московский инженерно-физический институт).](* <-lang_ru;; *);;
+               *);;
+*);;
+
+seminar_RME<-rrel_key_sc_element:
+...
+(*
+<= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       [В ходе семинара обсуждались ряд вопросов, связанных с реорганизацией предприятий на основе технологий реинжиниринга бизнес-процессов и управления знаниями, инструментальными средствами управления и моделирования деловых и технологических процессов предприятия от компании Gensym, а также опыт использования соответствующего программного обеспечения в практике работы российских предприятий и в работе вузов при обучении студентов-программистов.](* <-lang_ru;; *);;
+               *);;
+*);;

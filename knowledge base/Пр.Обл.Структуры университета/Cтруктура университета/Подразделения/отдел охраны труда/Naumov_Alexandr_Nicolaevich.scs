@@ -1,0 +1,26 @@
+Naumov_Alexandr_Nicolaevich=>nrel_main_idtf:
+[Наумов Александр Николаевич](*<-lang_ru;;*);
+[Naumov Alexandr Nicolaevich](*<-lang_en;;*);;
+
+Naumov_Alexandr_Nicolaevich -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+[+375 17 293-88-45];;*)
+   ;;*)
+   ;; 
+
+Naumov_Alexandr_Nicolaevich-> rrel_work_place: aud_402_2;;
+
+Naumov_Alexandr_Nicolaevich<- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://photos/Naumov_Alexandr_Nicolaevich.jpg";;
+               *);;
+        *);;
+
+

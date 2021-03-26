@@ -1,0 +1,27 @@
+sc_node_not_relation -> official_edition;;
+
+official_edition => nrel_main_idtf:
+[официальное издание]
+	(*
+	<- lang_ru;;
+	*);
+	[official edition] 
+	(*
+	<- lang_en;;
+	*);;
+
+official_edition <- rrel_key_sc_element: 
+        ...
+	(*
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[официальное издание – издание, публикуемое от имени государственных органов, учреждений, ведомств или общественных организаций, содержащее материалы нормативного или директивного характера]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;
+
+edition -> official_edition;;
+non_periodical_edition -> official_edition;;

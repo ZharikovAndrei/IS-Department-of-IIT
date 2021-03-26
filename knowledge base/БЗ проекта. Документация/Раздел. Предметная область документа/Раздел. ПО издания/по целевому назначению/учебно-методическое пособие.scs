@@ -1,0 +1,29 @@
+sc_node_not_relation -> guidance_manual;;
+guidance_manual => nrel_main_idtf:
+[учебно-методическое пособие]
+	(*
+	<- lang_ru;;
+	*);
+	[guidance manual] 
+	(*
+	<- lang_en;;
+	*);;
+
+guidance_manual <- rrel_key_sc_element: 
+        ...
+	(*
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[учебно-методическое пособие – это учебное издание, содержащее материалы по методике преподавания и (или) изучения учебной дисциплины (ее раздела, части), а также по методике воспитания]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;
+
+
+guidance_manual <- educational_edition;;
+
+guidance_manual <- edition;;
+

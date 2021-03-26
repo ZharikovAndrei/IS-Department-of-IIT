@@ -1,0 +1,18 @@
+news_KP_fall_2015=> nrel_main_idtf:
+[Новость Защита курсовых проектов  - 2015.12.08] (* <-lang_ru;; *);
+[News Course project protection - 2015.12.08] (* <-lang_en;; *);
+<-concept_news;;
+
+the_department_of_intelligent_informational_technologies=>nrel_department_news:
+news_KP_fall_2015;;
+
+news_KP_fall_2015<- rrel_key_sc_element:
+	... 
+	(*<-sc_explanation;;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			"file://KP_fall_2015_news.html";;
+		*);;
+	*);;

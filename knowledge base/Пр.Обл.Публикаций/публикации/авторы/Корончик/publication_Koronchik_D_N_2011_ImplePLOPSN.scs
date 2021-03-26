@@ -1,0 +1,29 @@
+publication_Koronchik_D_N_2011_ImplePLOPSN=> nrel_main_idtf:
+[Корончик Д.Н.2011 - РеалиЯПОнОСС]
+	(*
+	<- lang_ru;;
+	*);
+	[Koronchik_D_N_2011_ImplePLOPSN] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Koronchik_D_N_2011_ImplePLOPSN => nrel_name_publication:[Реализация языков программирования, ориентированных на обработку семантических сетей.](*
+	<- lang_ru;;
+	*);;
+
+publication_Koronchik_D_N_2011_ImplePLOPSN <= nrel_author:
+Koronchik_D_N;Lazurkin_D_A;;
+
+publication_Koronchik_D_N_2011_ImplePLOPSN <- article;;
+
+publication_Koronchik_D_N_2011_ImplePLOPSN => nrel_reference_standard: [Лазуркин Д.А., Корончик Д.Н. Реализация языков программирования, ориентированных на обработку семантических сетей. Дистанционное обучение – образовательная среда XXI века: Материалы VII Междунар. науч.-метод. конф. – Минск: БГУИР, 2011.-с.250-251 Тезисы докладов ];;
+
+publication_Koronchik_D_N_2011_ImplePLOPSN => nrel_year_publication: 2011;;
+
+publication_Koronchik_D_N_2011_ImplePLOPSN => nrel_information_publication: Proceedings_of_the_7th_international_scientific_conference_Distance_Learning_Educational_Environment_of_the_XXI_century;;
+
+publication_Koronchik_D_N_2011_ImplePLOPSN => nrel_number_page: ..2011_ImplePLOPSN(*
+-> rrel_from : 250;;
+-> rrel_by : 251;;
+*);;

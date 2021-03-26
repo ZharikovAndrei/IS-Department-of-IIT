@@ -1,0 +1,19 @@
+sc_node_not_relation -> concept_football_team;;
+concept_football_team=> nrel_main_idtf:
+[футбольная команда] (* <-lang_ru;; *);
+[football team] (* <-lang_en;; *);;
+
+concept_football_team<- rrel_key_sc_element:
+	... 
+	(*<-sc_explanation;;
+     =>nrel_main_idtf:[Поясн.(футбольная команда)](*<-lang_ru;;*);;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Футбольная команда - группа людей, принимающих участие в футбольном матче.](* <- lang_ru;; *);;
+		*);;
+	*);;
+concept_football_team->rrel_example:iit_bsuir_football_team;;
+concept_football_team->rrel_example:iit_bstu_football_team;;
+

@@ -1,0 +1,5 @@
+sc_node_role_relation -> rrel_decimal;;
+rrel_decimal=>nrel_main_idtf:
+[десятичное число'](*<-lang_ru;;*);
+[decimal'](*<-lang_en;;*);; 
+

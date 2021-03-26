@@ -1,0 +1,26 @@
+sc_node_not_relation -> records_on_the_personnel;;
+
+records_on_the_personnel => nrel_main_idtf:
+[документ по личному составу]
+	(*
+	<- lang_ru;;
+	*);
+	[records on the personnel] 
+	(*
+	<- lang_en;;
+	*);;
+
+records_on_the_personnel <- rrel_key_sc_element: 
+        ...
+	(*
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[документ по личному составу – документ, отражающий трудовые отношения работника с нанимателем]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;
+
+document -> records_on_the_personnel;;

@@ -1,0 +1,20 @@
+sc_node_norole_relation -> nrel_conference_organising_comittee;; 
+
+nrel_conference_organising_comittee => nrel_main_idtf:[организационный комитет конференции*] (* <-lang_ru;; *);;
+
+nrel_conference_organising_comittee => nrel_main_idtf:[conference organising committee *] (* <-lang_en;; *);;
+
+
+nrel_conference_organising_comittee <- rrel_key_sc_element: 
+        ...
+	(*
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Организационный комитет конференции - комитет, создаваемый для подготовки и проведения какой-либо конференции.]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;
+

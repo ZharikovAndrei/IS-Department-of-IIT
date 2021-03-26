@@ -1,0 +1,52 @@
+iit_section_2012=> nrel_main_idtf:
+[Секция «Интеллектуальные информационные технологии» международной научной конференции "Информационные технологии и системы" 2012] (* <-lang_ru;; *);
+[Section "Intelligent Information Technologies" of international scientific conference "Information Technologies and Systems" 2012] (* <-lang_en;; *);
+=>nrel_idtf:
+[Секция «Интеллектуальные информационные технологии» международной научной конференции ITS 2012] (* <-lang_ru;; *);
+[Section "Intelligent Information Technologies" of international scientific conference ITS 2012] (* <-lang_en;; *);
+<-temporary_entity;;
+iit_section_2012<-
+...
+(*<-exact_value;;
+ <-begin;;
+  =>nrel_translation_in_the_Gregorian_calendar:...
+  (*
+    ->number_of_year:2012;;
+    ->number_of_month_in_year:10;;
+    ->number_of_day_in_month:24;;
+   *);;
+  *);;
+iit_section_2012<-
+...
+(*<-exact_value;;
+ <-completion;;
+  =>nrel_translation_in_the_Gregorian_calendar:...
+  (*
+    ->number_of_year:2012;;
+    ->number_of_month_in_year:10;;
+    ->number_of_day_in_month:24;;
+   *);;
+  *);;
+iit_section_2012=>nrel_address:[г.Минск, БГУИР, улица Платонова 39 (5-ой корпус)](*<-lang_ru;;*);;
+
+iit_section_2012=>nrel_materail_section:
+publication_Gulyakina_N_A_2012_LibraCNNFoPoKB;
+publication_Davidenko_I_T_2012_DevelKBISUSTOSTIS;
+publication_Grakova_N_V_2012_OntolA;
+publication_Parkalov_A_V_2012_SegmeRIESODVM;
+publication_Parkalov_A_V_2012_GraphUIIS;
+publication_Grakova_N_V_2012_MachiPoSKfPMS;;
+
+iit_section_2012<- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://iit_section.html";;
+               *);;
+        *);;
+
+

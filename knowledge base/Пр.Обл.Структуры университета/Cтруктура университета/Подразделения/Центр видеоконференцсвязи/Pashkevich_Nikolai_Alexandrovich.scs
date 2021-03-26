@@ -1,0 +1,22 @@
+Pashkevich_Nikolai_Alexandrovich=>nrel_main_idtf:
+[Пашкевич Николай Александрович](*<-lang_ru;;*);
+[Pashkevich Nikolai Alexandrovich](*<-land_en;;*);;
+
+Pashkevich_Nikolai_Alexandrovich -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [+375 17 293-84-18];;*)
+   ;;*);;
+
+Pashkevich_Nikolai_Alexandrovich -> rrel_work_place: aud_101_3;;
+Pashkevich_Nikolai_Alexandrovich <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://Pashkevich_Nikolai_Alexandrovich.jpg";;
+               *);;
+        *);;

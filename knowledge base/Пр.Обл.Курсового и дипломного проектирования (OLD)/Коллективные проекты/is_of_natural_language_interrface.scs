@@ -1,0 +1,5 @@
+is_of_natural_language_interrface_of_is_of_geometry
+	=> nrel_main_idtf:[Естественно-языковой интерфейс ИСС по геометрии](*<-lang_ru;;*);
+	<- student_project;
+	
+	=> nrel_executor: is_of_natural_language_interrface_of_is_of_geometry_team;;

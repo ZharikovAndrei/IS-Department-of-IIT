@@ -1,0 +1,35 @@
+sc_node_not_relation -> trade_edition;;
+
+trade_edition => nrel_main_idtf:
+[производственно-практическое издание]
+	(*
+	<- lang_ru;;
+	*);
+	[trade edition] 
+	(*
+	<- lang_en;;
+	*);;
+
+trade_edition <- rrel_key_sc_element: 
+        ...
+	(*
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[производственно-практическое издание – издание, содержащее сведения по технологии, технике и организации производства, а также других областей общественной практики, рассчитанное на специалистов различной квалификации]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;
+
+edition -> trade_edition;;
+non_periodical_edition -> trade_edition;;
+
+
+trade_edition <= nrel_subdividing: 
+		{
+			instructional_methodical_edition;
+			guide_edition;
+			jotting
+		};;

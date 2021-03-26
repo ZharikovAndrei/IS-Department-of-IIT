@@ -1,0 +1,15 @@
+project_IS_conference
+      => nrel_main_idtf:[Интеллектуальная система поддержки подготовки и проведения конференций] (* <-lang_ru;; *);
+      => nrel_main_idtf:[Intellectual support system of training and conferences] (* <-lang_en;; *);
+      => nrel_synonymy:[40e/конф];;
+
+project_IS_conference => nrel_project_leader: Grakova_N_V;;
+project_IS_conference => nrel_performers: Chernikov_I_A; Gorbachevskii_V_G; Korotkevich_T_A; Dubovskii_V_V; Malevich_D_A; Fedorovich_A_G;; 
+project_IS_conference -> rrel_responsible_executor: Chernikov_I_A;;
+project_IS_conference <- student_project;;
+project_IS_conference => nrel_related_projects: project_IS_department;;
+
+//project_IS_conference => nrel_main_students: ;;
+//project_IS_conference => nrel_sections_KB_IMS: ;;
+//project_IS_conference => nrel_reports_OSTIS2017: ;;
+

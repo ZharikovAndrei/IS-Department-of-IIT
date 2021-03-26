@@ -1,0 +1,63 @@
+sc_node_not_relation -> collection_of_scientific_papers;;
+
+collection_of_scientific_papers => nrel_main_idtf:
+[сборник научных трудов]
+	(*
+	<- lang_ru;;
+	*);
+	[collection of scientific papers] 
+	(*
+	<- lang_en;;
+	*);;
+
+collection_of_scientific_papers <- rrel_key_sc_element: 
+        ...
+	(*
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[сборник научных трудов – сборник, содержащий исследовательские материалы научных учреждений, учебных заведений или общества]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;
+
+sc_node_not_relation ->  collection_of_scientific_papers_kind_periodical; collection_of_scientific_authorship;; 
+
+collection_of_scientific_papers_kind_periodical => nrel_main_idtf:
+[по периодичности]
+	(*
+	<- lang_ru;;
+	*);
+	[kind periodical] 
+	(*
+	<- lang_en;;
+	*);;
+
+collection_of_scientific_authorship => nrel_main_idtf:
+[по авторству]
+	(*
+	<- lang_ru;;
+	*);
+	[authorship] 
+	(*
+	<- lang_en;;
+	*);;
+
+
+
+collection_of_scientific_papers <= nrel_subdividing:  collection_of_scientific_papers_kind_periodical
+		(*
+			-> collection_of_scientific_papers_author;;
+			-> collection_of_scientific_papers_collective;;	
+		*);;
+
+collection_of_scientific_papers <= nrel_subdividing: collection_of_scientific_authorship
+		(*
+			-> collection_of_scientific_papers_once_only;;
+			-> collection_of_scientific_papers_continued;;	
+		*);;
+
+
+collection_of_scientific_papers => nrel_inclusion: collection_of_scientific_papers_anniversary;;

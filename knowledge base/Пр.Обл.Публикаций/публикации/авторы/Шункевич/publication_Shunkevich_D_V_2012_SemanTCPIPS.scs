@@ -1,0 +1,30 @@
+publication_Shunkevich_D_V_2012_SemanTCPIPS => nrel_main_idtf:
+[Шункевич Д.В. 2012 - СеманТКПИРЗ]
+	(*
+	<- lang_ru;;
+	*);
+	[Shunkevich_D_V_2012_SemanTCPIPS] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Shunkevich_D_V_2012_SemanTCPIPS => nrel_name_publication:[Семантическая технология компонентного проектирования интеллектуальных решателей задач](*
+	<- lang_ru;;
+	*);;
+
+publication_Shunkevich_D_V_2012_SemanTCPIPS <= nrel_author:
+Shunkevich_D_V;Zalivako_S_S;;
+
+publication_Shunkevich_D_V_2012_SemanTCPIPS <- article;;
+
+publication_Shunkevich_D_V_2012_SemanTCPIPS => nrel_reference_standard: [Заливако C.C., Шункевич Д.В. «Семантическая технология компонентного проектирования интеллектуальных решателей задач». Материалы II Международной научно-технической конференции OSTIS-2012. Минск, БГУИР. c. 297-314.   ];;
+
+publication_Shunkevich_D_V_2012_SemanTCPIPS => nrel_year_publication: 2012;;
+
+publication_Shunkevich_D_V_2012_SemanTCPIPS => nrel_information_publication: OSTIS2012;;
+
+publication_Shunkevich_D_V_2012_SemanTCPIPS => nrel_number_page: ..2012_SemanTCPIPS (*
+-> rrel_from : 297;;
+-> rrel_by : 314;;
+*);;
+publication_Shunkevich_D_V_2012_SemanTCPIPS <- rrel_key_sc_element: ... (* <- sc_explanation;; <= nrel_sc_text_translation: ... (* -> rrel_example: "file://содержимое публикаций/Заливако_С.С..2012ст-СеманТКПИРЗ.pdf";; *);; *);;

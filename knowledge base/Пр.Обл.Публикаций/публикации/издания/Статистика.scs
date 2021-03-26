@@ -1,0 +1,13 @@
+//
+//sc_node_not_relation -> statistics;;
+
+
+statistics => nrel_main_idtf:
+[Статистика]
+	(*
+	<- lang_ru;;
+	*);
+	[statistics]
+	(*
+	<- lang_en;;
+	*);;

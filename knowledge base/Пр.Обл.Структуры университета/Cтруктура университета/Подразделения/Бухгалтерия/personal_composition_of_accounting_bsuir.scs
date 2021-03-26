@@ -1,0 +1,9 @@
+personal_composition_of_accounting_bsuir=>nrel_main_idtf:
+[персональный состав бухгалтерии БГУИРа](*<-lang_ru;;*);
+[personal composition of the BSUIR accounting](*<-lang_en;;*);; 
+
+personal_composition_of_accounting_bsuir->rrel_chief_accountant: Mahnach_Irina_Viktorovna;
+															rrel_deputy_chief_accountant_for_materials: Rayushkina_Valentina_Vladimirovna;
+															rrel_deputy_chief_accountant_for_automation: Kameneckaya_Svetlana_Sergeevna;
+															rrel_deputy_chief_accountant_for_budget_financings: Kuchuk_Tatiana_Gennadievna;;
+

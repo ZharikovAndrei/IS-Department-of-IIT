@@ -1,0 +1,27 @@
+sc_node_not_relation -> advertising_edition;;
+
+advertising_edition => nrel_main_idtf:
+[рекламное издание]
+	(*
+	<- lang_ru;;
+	*);
+	[advertising edition] 
+	(*
+	<- lang_en;;
+	*);;
+
+advertising_edition <- rrel_key_sc_element: 
+        ...
+	(*
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[рекламное издание – издание, содержащее изложенные в привлекающей форме сведения об изданиях, услугах, мероприятиях с целью создания спроса на них]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;
+
+edition -> advertising_edition;;
+non_periodical_edition -> advertising_edition;;

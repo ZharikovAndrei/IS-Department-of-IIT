@@ -1,0 +1,157 @@
+the_faculty_of_computeraided_design=>nrel_main_idtf:
+[Факультет компьютерного проектирования ](*<-lang_ru;;*);
+[the faculty of computer-aided design](*<-lang_en;;*);; 
+
+the_faculty_of_computeraided_design=>nrel_idtf:[ФКП](*<-lang_ru;;*);;
+the_faculty_of_computeraided_design=>nrel_idtf:[FCAD](*<-lang_en;;*);;
+
+dean_fcad=>nrel_main_idtf:
+[Лихачевский Дмитрий Викторович](*<-lang_ru;;*);
+[Lihachevskiy Dmitry Igorevich](*<-lang_en;;*);;
+
+
+logotipe_fcad=>nrel_main_idtf:
+[логотип ФКП](*<-lang_ru;;*);
+[the logotipe of FCAD](*<-lang_en;;*);; 
+
+fcad_info=>nrel_main_idtf:
+[информация о ФКП](*<-lang_ru;;*);
+[the information about FCAD](*<-lang_en;;*);;
+
+specializations_fcad=>nrel_main_idtf:
+[специальности ФКП](*<-lang_ru;;*);
+[the spezializations of FCAD](*<-lang_en;;*);;
+
+pers_comp_fcad=>nrel_main_idtf:
+[Персональный состав ФКП](*<-lang_ru;;*);
+[personal composition of the FCAD](*<-lang_en;;*);; 
+
+
+pers_comp_fcad -> rrel_dean: dean_fcad;;
+
+the_faculty_of_computeraided_design => nrel_logotipe: logotipe_fcad;;
+
+the_faculty_of_computeraided_design => nrel_info: fcad_info;;
+
+the_faculty_of_computeraided_design => nrel_spezialization: specializations_fcad;;  
+
+the_faculty_of_computeraided_design => nrel_pers_comp: pers_comp_fcad;; 
+
+
+
+
+the_faculty_of_computeraided_design <= nrel_decomposition:
+{
+the_department_of_engineering_graphics;
+the_department_of_chamistry;
+the_department_of_engineering_psychology_and_ergonomics;
+the_department_of_ecology;
+the_department_of_foreign_languages_number_one;
+the_department_of_electronic_engineering_and_technology;
+the_department_of_design_information_and_computer_systems
+};;
+ 
+
+
+
+
+
+specializations_fcad <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [Специальности] (* <- lang_ru;; *);;
+	<- sc_task;;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[«Проектирование и производство программно-управляемых электронных средств» (квалификация - инженер-электроник-программист). ](* <- lang_ru;; *);;
+		*);
+                ...
+		(*
+		-> rrel_example: 
+			[« Моделирование и компьютерное проектирование радиоэлектронных средств» (квалификация - инженер по радиоэлектронике). ](* <- lang_ru;; *);;
+		*);
+                ...
+		(*
+		-> rrel_example: 
+			[« Программируемые мобильные системы» (квалификация - инженер по электронным системам). ](* <- lang_ru;; *);;
+		*);
+                ...
+		(*
+		-> rrel_example: 
+			[«Программно-управляемые электронно-оптические системы» (квалификация - инженер-электроник-программист). ](* <- lang_ru;; *);;
+		*);
+		         ...
+		(*
+		-> rrel_example: 
+			[«Медицинская электроника» (квалификация - инженер-электроник-программист). ](* <- lang_ru;; *);;
+		*);
+		         ...
+		(*
+		-> rrel_example: 
+			[«Инженерно-психологическое обеспечение информационных технологий» (квалификация - инженер-системотехник). ](* <- lang_ru;; *);;
+		*);
+		         ...
+		(*
+		-> rrel_example: 
+			[«Электронные системы безопасности» (квалификация - инженер-проектировщик). ](* <- lang_ru;; *);;
+		*);
+		         ...
+		(*
+		-> rrel_example: 
+			[«Информационные системы и технологии (в обеспечении промышленной безопасности)» (квалификация - инженер-системотехник). ](* <- lang_ru;; *);;
+		*);
+		         ...
+		(*
+		-> rrel_example: 
+			[«Информационные системы и технологии (в бизнес-менеджменте)» (квалификация - программист. бизнес-аналитик). ](* <- lang_ru;; *);;
+		*);;
+	*);;
+
+fcad_info <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [О факультете] (* <- lang_ru;; *);;
+	<- sc_task;;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Факультет компьютерного проектирования (в прошлом - конструкторско-технологический) открыт в 1973 году.
+Обучение студентов производится с использованием самого современного оборудования и программного обеспечения на базе созданных на факультете Международных, учебных и научно-производственных центров и лабораторий, таких как: Международный учебно-научный центр «Android Software Center», организованный совместно с компанией FORTE Knowledge Иллинойской технологической ассоциации (ITA) с привлечением IT - специалистов из США; учебно-научно-исследовательский центр «INTES», созданный при поддержке зарубежных компаний Schneider Electric (Франция) и CISCO (США), инновационной компанией «INTES»; совместной учебно-научной лаборатории «Встраиваемые мобильные системы», организованной инновационной компанией AXONIM Devices, партнером компаний Analog Devices, Texas Instruments и ST Microelectronics. ](* <- lang_ru;; *);;
+		*);;
+	*);;
+
+
+
+dean_fcad <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://../../image/fcad1.jpg";;
+               *);;
+        *);;
+
+
+
+logotipe_fcad <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://../../image/fcad2.gif";;
+               *);;
+        *);;
+
+
+
+
+

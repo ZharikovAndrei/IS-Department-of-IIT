@@ -1,0 +1,26 @@
+sc_node_norole_relation-> nrel_code_of_specialization;;
+nrel_code_of_specialization=>nrel_main_idtf:
+[код специализация*](*<-lang_ru;;*);
+[code of specialization*](*<-lang_en;;*);; 
+
+
+nrel_code_of_specialization <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [Опр.(код специализации*)] (* <- lang_ru;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Отношение, связывающее специализацию и код этой специализации.](* <- lang_ru;; *);;
+		*);;
+	*);;
+
+
+nrel_code_of_specialization=>nrel_second_domain:code;;
+nrel_code_of_specialization=>nrel_first_domain:specialization;;
+nrel_code_of_specialization=>nrel_definitional_domain:...(* <=nrel_combination:...(*->code;; ->specialization;;*) ;;
+				*);;
+
+

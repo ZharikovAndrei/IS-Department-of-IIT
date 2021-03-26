@@ -1,0 +1,11 @@
+{
+     "sources": [
+        
+        "src/change-user-role-implementation.js",
+        "src/change-user-role-main.js"
+    ],
+
+    "component": "src/change-user-role-component-drawer.js",
+
+    "target": "static/components/js/change_user_role/build.js"
+}

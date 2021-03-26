@@ -1,0 +1,101 @@
+operating_systems
+=>nrel_main_idtf:
+	[Операционные системы] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[Operating systems] (* <-lang_en;; *);
+=>nrel_abbreviation:[ОС];
+
+<-special_subject;
+<=nrel_subdividing:
+	os_4_year
+		(*
+			<-multiplicity_of_subjects_taught_in_the_5_term_specialty_artificial_intelligence_4_year_education;;
+			<=nrel_realisation_of_learning_activity:
+
+				lectures_on_os_4_year
+				(*=>nrel_main_idtf:
+[Операционные системы.лекции] (* <-lang_ru;; *);;
+=>nrel_planned_hours:34;;
+				=>nrel_realisation_of_intermediate_control:
+					control_work;;
+					<-lecture;;
+				*);
+				laboratory_work_on_os_4_year
+				(*=>nrel_main_idtf:
+[Операционные системы.лабораторный практикум] (* <-lang_ru;; *);;
+=>nrel_planned_hours:16;;
+				=>nrel_realisation_of_intermediate_control:
+					protection_of_laboratory_work;;
+				<-laboratory_work	;;
+				*);;
+			=>nrel_realisation_of_final_certification:
+				exam;;
+			<-rrel_subject:
+				...
+				(*
+				->rrel_realisation_of_learning_activity: laboratory_work;;
+				<-nrel_taught_subject;;
+				->rrel_teacher: Zhukov_I_I;;
+				*);;
+			<-rrel_subject:
+				...
+				(*
+				->rrel_realisation_of_learning_activity: lecture;;
+				<-nrel_taught_subject;;
+				->rrel_teacher: Kolb_D_G;;
+				*);;
+			=>nrel_term: 5;;
+		*);
+	os_5_year
+		(*
+			<-multiplicity_of_subjects_taught_in_the_6_term_specialty_artificial_intelligence_5_year_education;;
+			<=nrel_realisation_of_learning_activity:
+				lectures_on_os_5_year
+					(*=>nrel_main_idtf:
+	[Операционные системы.лекции] (* <-lang_ru;; *);;
+	=>nrel_planned_hours:34;;
+					=>nrel_realisation_of_intermediate_control:
+						control_work;;
+						<-lecture;;
+					*);
+				laboratory_work_on_os_5_year
+					(*=>nrel_main_idtf:
+	[Операционные системы.лабораторный практикум] (* <-lang_ru;; *);;
+	=>nrel_planned_hours:16;;
+					=>nrel_realisation_of_intermediate_control:
+						protection_of_laboratory_work;;
+					<-laboratory_work	;;
+					*);;
+			=>nrel_realisation_of_final_certification:
+				exam;;
+			<-rrel_subject:
+				...
+				(*
+				->rrel_realisation_of_learning_activity: laboratory_work;;
+				<-nrel_taught_subject;;
+				->rrel_teacher: Zhukov_I_I;;
+				*);;
+			<-rrel_subject:
+				...
+				(*
+				->rrel_realisation_of_learning_activity: lecture;;
+				<-nrel_taught_subject;;
+				->rrel_teacher: Kolb_D_G;;
+				*);;
+			=>nrel_term: 6;;
+		*);
+
+<=nrel_trains: the_department_of_intelligent_informational_technologies;
+<=nrel_class_number: 3(* <-positive_number;;*);
+<=nrel_semester_number: 6(* <-positive_number;;*);
+<=nrel_component: concept_mandatory_component;
+<=nrel_cycle: concept_tsikl_obshcheprofessionalnykh_i_spetsialnykh_distsiplin;;
+
+
+
+os_4_year
+=>nrel_main_idtf:
+	[Операционные системы по 4-летней программе] (* <-lang_ru;; *);;
+os_5_year
+=>nrel_main_idtf:
+	[Операционные системы по 5-летней программе] (* <-lang_ru;; *);;

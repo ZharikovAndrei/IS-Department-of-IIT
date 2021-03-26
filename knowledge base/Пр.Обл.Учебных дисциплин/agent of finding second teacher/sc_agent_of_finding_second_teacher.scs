@@ -1,0 +1,54 @@
+// Объявляем sc-агент поисковой операции
+sc_agent_of_teachers
+// Указываем множество идентификаторов агента
+	=> nrel_main_idtf:
+// lang_ru – атрибут идентификатора на русском языке
+	[sc-агент поиска второго преподавателя] (* <- lang_ru;; *);
+// lang_en – атрибут идентификатора на английском языке
+	[sc-agent of searching the second teacher] (* <- lang_en;; *);
+// Указываем, что наш агент принадлежит классу абстрактных sc-агентов
+	<- abstract_sc_agent;
+// Указываем начальное условие для нашей операции
+	=> nrel_primary_initiation_condition:
+(sc_event_add_output_arc => question_initiated);
+// Указываем начальное условие и результат для нашей операции
+=> nrel_initiation_condition_and_result:
+(..sc_agent_of_teachers =>
+..sc_agent_of_teachers_result);
+// Описание деятельности sc-агента
+<= nrel_sc_agent_key_sc_elements:
+{
+	question_initiated;
+	question;
+	question_of_teachers
+};
+// описание первичного условия инициирования sc-агента
+=> nrel_inclusion:
+.platform_independent_realization_of_sc_agent_of_teachers
+(*
+<- platform_independent_abstract_sc_agent;;
+<= nrel_sc_agent_program:
+{
+agent_of_teachers
+//proc_of_teachers
+};;
+-> sc_agent_of_teachers_scp
+(* <- active_sc_agent;; *);;
+*);;
+// условия инициирования агента
+..sc_agent_of_teachers
+= [*
+question_of_teachers _-> .._question;;
+question_initiated _-> .._question;;
+question _-> .._question;;
+  .._question _-> .._parameter1;;
+*];;
+// описание результатов выполнения sc-агента
+..sc_agent_of_teachers_result
+= [*
+question_of_teachers _-> .._question;;
+question_finished _-> .._question;;
+question _-> .._question;;
+.._question _=> nrel_answer:: .._answer;;
+  .._question _-> .._parameter1;;
+*];;

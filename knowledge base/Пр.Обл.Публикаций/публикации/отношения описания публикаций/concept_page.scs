@@ -1,0 +1,16 @@
+sc_node_not_relation->concept_page;;
+concept_page=>nrel_main_idtf:
+[страница](*<-lang_ru;;*);
+[page](*<-lang_en;;*);;
+
+concept_page<- rrel_key_sc_element:
+	... 
+	(*<-sc_definition;;
+     =>nrel_main_idtf:[Опр.(страница)](*<-lang_ru;;*);;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Страница - одна сторона листа бумаги в книге, тетради.](* <- lang_ru;; *);;
+		*);;
+	*);;

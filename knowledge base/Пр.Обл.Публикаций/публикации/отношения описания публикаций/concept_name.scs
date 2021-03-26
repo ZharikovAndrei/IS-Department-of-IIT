@@ -1,0 +1,4 @@
+sc_node_not_relation->concept_name;;
+concept_name=>nrel_main_idtf:
+[название](*<-lang_ru;;*);
+[name](*<-lang_en;;*);;

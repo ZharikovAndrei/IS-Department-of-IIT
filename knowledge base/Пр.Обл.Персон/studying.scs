@@ -1,0 +1,22 @@
+studying
+=>nrel_main_idtf:
+	[обучающийся] (* <-lang_ru;; *);
+	<-person;	
+->rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> [Обучающийся - лицо, осваивающее содержание одного из видов образовательных программ, является  субъектом учебной деятельности.] (* <-lang_ru;; *);; 
+		*);;
+	*);
+
+=>nrel_inclusion:
+	student;
+	undergraduate;
+	postgraduate;
+	competitor;
+	doctoral_student;;
+	

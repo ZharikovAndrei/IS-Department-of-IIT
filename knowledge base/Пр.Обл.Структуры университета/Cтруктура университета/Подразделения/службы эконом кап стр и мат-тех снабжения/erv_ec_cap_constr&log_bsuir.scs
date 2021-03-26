@@ -1,0 +1,18 @@
+service_economy_capital_construction_and_logistics_bsuir=>nrel_main_idtf:
+[службы экономики, капитального строительства и материально-технического снабжения БГУИР](*<-lang_ru;;*);
+[service economy capital construction and logistics bsuir](*<-lang_en;;*);;
+
+service_economy_capital_construction_and_logistics_bsuir<-concept_service_economy_capital_construction_and_logistics;;
+
+
+service_economy_capital_construction_and_logistics_bsuir=>nrel_pers_comp:pers_comp_service_economy_capital_construction_and_logistics_bsuir;;
+//department_capital_construction=>nrel_pers_comp:pers_comp_department_capital_construction;;
+department_of_logistics=>nrel_pers_comp:pers_comp_department_of_logistics;;
+planing_and_finance_department=>nrel_pers_comp:pers_comp_planing_and_finance_department;;
+concept_department_of_shift_service=>nrel_pers_comp:pers_comp_concept_department_of_shift_service;;
+HIC_Braslav_lakes=>nrel_pers_comp:pers_comp_HIC_Braslav_lakes;;
+
+
+service_economy_capital_construction_and_logistics_bsuir=> nrel_inclusion:department_capital_construction; department_of_logistics; 
+
+planing_and_finance_department; concept_department_of_shift_service; HIC_Braslav_lakes;;

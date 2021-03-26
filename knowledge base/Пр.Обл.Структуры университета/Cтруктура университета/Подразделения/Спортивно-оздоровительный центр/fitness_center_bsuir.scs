@@ -1,0 +1,5 @@
+fitness_center_bsuir=> nrel_main_idtf:[спортивно-оздоровительный центр БГУИРа] (* <-lang_ru;; *);;
+fitness_center_bsuir=> nrel_main_idtf:[fitness center bsuir] (* <-lang_en;; *);;
+fitness_center_bsuir=>nrel_pers_comp:personal_composition_of_fitness_center_bsuir;;
+personal_composition_of_fitness_center_bsuir->rrel_director:Mylko_Alexandr_Vladimirovich;;
+concept_fitness_center -> fitness_center_bsuir;;

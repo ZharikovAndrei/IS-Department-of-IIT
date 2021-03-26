@@ -1,0 +1,28 @@
+sc_node_not_relation -> popular_scientific_edition;;
+
+popular_scientific_edition => nrel_main_idtf:
+[научно-популярное издание]
+	(*
+	<- lang_ru;;
+	*);
+	[popular scientific edition] 
+	(*
+	<- lang_en;;
+	*);;
+
+popular_scientific_edition <- rrel_key_sc_element: 
+        ...
+	(*
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[научно-популярное издание – издание, содержащее сведения о теоретических и (или) экспериментальных исследованиях в области науки, культуры и техники, изложенные в форме, доступной читателю-неспециалисту]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;
+
+edition -> popular_scientific_edition;;
+non_periodical_edition -> popular_scientific_edition;;
+popular_scientific_edition -> monograph;;

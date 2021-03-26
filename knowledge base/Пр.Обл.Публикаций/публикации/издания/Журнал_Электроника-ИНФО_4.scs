@@ -1,0 +1,14 @@
+//magazine_Voice_Technology
+
+//sc_node_not_relation -> magazine_Electronics_INFO_4;;
+
+
+magazine_Electronics_INFO_4 => nrel_main_idtf:
+[Журнал «Электроника-ИНФО» №4]
+	(*
+	<- lang_ru;;
+	*);
+	[magazine_Electronics_INFO_4]
+	(*
+	<- lang_en;;
+	*);;

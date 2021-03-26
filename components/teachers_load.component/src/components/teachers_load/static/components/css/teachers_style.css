@@ -1,0 +1,12 @@
+#hoursAmount {
+    display: inline-block;
+    width: 245px;
+}
+
+.dropdown {
+    margin-bottom: 5px;
+}
+
+label[for="hoursAmount"]{
+   display: block; 
+}

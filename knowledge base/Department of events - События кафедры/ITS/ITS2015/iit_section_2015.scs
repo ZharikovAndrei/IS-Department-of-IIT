@@ -1,0 +1,50 @@
+iit_section_2015=> nrel_main_idtf:
+[Секция «Интеллектуальные информационные технологии» международной научной конференции "Информационные технологии и системы" 2015] (* <-lang_ru;; *);
+[Section "Intelligent Information Technologies" of international scientific conference "Information Technologies and Systems" 2015] (* <-lang_en;; *);
+=>nrel_idtf:
+[Секция «Интеллектуальные информационные технологии» международной научной конференции ITS 2015] (* <-lang_ru;; *);
+[Section "Intelligent Information Technologies" of international scientific conference ITS 2015] (* <-lang_en;; *);
+<-temporary_entity;;
+iit_section_2015<-
+...
+(*<-exact_value;;
+ <-begin;;
+  =>nrel_translation_in_the_Gregorian_calendar:...
+  (*
+    ->number_of_year:2015;;
+    ->number_of_month_in_year:10;;
+    ->number_of_day_in_month:28;;
+   *);;
+  *);;
+iit_section_2015<-
+...
+(*<-exact_value;;
+ <-completion;;
+  =>nrel_translation_in_the_Gregorian_calendar:...
+  (*
+    ->number_of_year:2015;;
+    ->number_of_month_in_year:10;;
+    ->number_of_day_in_month:28;;
+   *);;
+  *);;
+
+iit_section_2015=>nrel_address:[г.Минск, БГУИР, улица Платонова 39 (5-ой корпус)](*<-lang_ru;;*);;
+
+iit_section_2015=>nrel_materail_section:
+publication_Grakova_N_V_2015_OntolAtCoILCMoTS;
+publication_Aderiho_I_A_2015_ModelSoUPiLoSN;
+publication_Konoval_D_I_2015_IntelKBSSAoD;;
+
+iit_section_2015<- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://iit_section.html";;
+               *);;
+        *);;
+
+

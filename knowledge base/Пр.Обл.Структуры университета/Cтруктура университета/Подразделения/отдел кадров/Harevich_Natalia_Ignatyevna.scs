@@ -1,0 +1,12 @@
+Harevich_Natalia_Ignatyevna=>nrel_main_idtf:
+[Харевич Наталья Игнатьевна](*<-lang_ru;;*);
+[Harevich Natalia Ignatyevna](*<-lang_en;;*);;
+
+Harevich_Natalia_Ignatyevna-> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+[+375 17  293-21-64];;*)
+   ;;*)
+   ;;
+
+Harevich_Natalia_Ignatyevna-> rrel_work_place: aud_305_2;;

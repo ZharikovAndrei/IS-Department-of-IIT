@@ -1,0 +1,15 @@
+project_drawing_UI
+      => nrel_main_idtf:[Чертежный интерфейс интеллектуальных систем] (* <-lang_ru;; *);
+      => nrel_main_idtf:[Drawing Interface Intelligent Systems ] (* <-lang_en;; *);
+      => nrel_synonymy:[24e/черт];;
+
+project_drawing_UI <- student_project;;
+project_drawing_UI => nrel_project_leader: Zhukov_I_I;;
+project_drawing_UI => nrel_performers: Sadovskii_M_E; Stelmachenok_M_O;;
+project_drawing_UI -> rrel_responsible_executor:Sadovskii_M_E;;
+project_drawing_UI => nrel_reports: report_model_translator;;
+
+//project_drawing_UI => nrel_main_students: ;;
+//project_drawing_UI => nrel_sections_KB_IMS: ;;
+//project_drawing_UI => nrel_reports_OSTIS2017: ;;
+//project_drawing_UI => nrel_related_projects: ;;

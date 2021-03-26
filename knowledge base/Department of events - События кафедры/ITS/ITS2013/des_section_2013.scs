@@ -1,0 +1,19 @@
+des_section_2013=> nrel_main_idtf:
+[Секция «Проектирование встраиваемых систем» международной научной конференции "Информационные технологии и системы" 2013] (* <-lang_ru;; *);
+[Section " Designing Embedded Systems " of international scientific conference "Information Technologies and Systems" 2013] (* <-lang_en;; *);
+=>nrel_idtf:
+[Секция  «Проектирование встраиваемых систем» международной научной конференции ITS 2013 ] (* <-lang_ru;; *);
+[Section  " Designing Embedded Systems " of international scientific conference ITS 2013] (* <-lang_en;; *);;
+des_section_2013<- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://des_section.html";;
+               *);;
+        *);;
+
+

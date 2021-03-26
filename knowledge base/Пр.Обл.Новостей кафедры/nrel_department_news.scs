@@ -1,0 +1,16 @@
+sc_node_norole_relation -> nrel_department_news;; 
+
+nrel_department_news => nrel_main_idtf:
+[новости кафедры*] (* <-lang_ru;; *);
+[department news*] (* <-lang_en;; *);;
+
+nrel_department_news=>nrel_first_domain:concept_department;;
+nrel_department_news=>nrel_second_domain:concept_news;;
+nrel_department_news=>nrel_definitional_domain:...(* <=nrel_combination:...(*->concept_department;; ->concept_news;;*) ;; *);;
+
+nrel_department_news <- relation;;
+nrel_department_news <- binary_relation;;
+
+nrel_department_news <- antireflexive_relation;;
+nrel_department_news <- antitransitive_relation;;
+nrel_department_news <- antisymmetric_relation;;

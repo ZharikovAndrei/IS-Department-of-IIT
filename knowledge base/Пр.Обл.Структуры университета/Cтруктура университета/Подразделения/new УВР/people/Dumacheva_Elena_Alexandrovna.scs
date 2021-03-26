@@ -1,0 +1,38 @@
+Dumacheva_Elena_Alexandrovna=>nrel_main_idtf:
+[Думачева Елена Александровна](*<-lang_ru;;*);
+[Dumacheva Elena Alexandrovna](*<-lang_en;;*);;
+
+Dumacheva_Elena_Alexandrovna -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [+375 17 293-21-44];;*)
+   ;;*)
+   ;; 
+
+Dumacheva_Elena_Alexandrovna -> rrel_work_place:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [Общежитие №1, к. 114];;*)
+   ;;*)
+   ;; 
+
+Dumacheva_Elena_Alexandrovna -> rrel_email:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [dumacheva@bsuir.by](*<-lang_ru;;*)
+   ;;*)
+   ;;*)
+   ;; 
+
+
+Dumacheva_Elena_Alexandrovna <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://Dumacheva.jpg";;
+               *);;
+        *);;

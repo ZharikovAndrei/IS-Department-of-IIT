@@ -1,0 +1,13 @@
+Bely_Ivan_Ivanovich=>nrel_main_idtf:
+[Белый Иван Иванович](*<-lang_ru;;*);
+[Bely Ivan Ivanovich](*<-lang_en;;*);;
+
+Bely_Ivan_Ivanovich -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [+375 17 293-84-55];;*)
+   ;;*)
+   ;; 
+
+Bely_Ivan_Ivanovich -> rrel_work_place: aud_403_2;;
+Bely_Ivan_Ivanovich <- person;;

@@ -1,0 +1,26 @@
+sc_node_not_relation -> continued_edition;;
+
+continued_edition => nrel_main_idtf:
+[продолжающееся издание]
+	(*
+	<- lang_ru;;
+	*);
+	[continued edition] 
+	(*
+	<- lang_en;;
+	*);;
+
+continued_edition <- rrel_key_sc_element: 
+        ...
+	(*
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[продолжающееся издание – сериальное издание, выходящее через неопределенные промежутки времени, по мере накопления материала, не повторяющимися по содержанию, однотипно оформленными, нумерованными и (или) датированными выпусками, имеющими общее заглавие]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;
+
+serial_edition -> continued_edition;;

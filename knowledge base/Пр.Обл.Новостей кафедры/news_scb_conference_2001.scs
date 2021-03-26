@@ -1,0 +1,18 @@
+news_scb_conference_2001=> nrel_main_idtf:
+[Новость 20-ая международная конференция “Школьная информатика и проблемы устойчивого развития”  - 2001.04] (* <-lang_ru;; *);
+[News The 20th international conference "School informatics and problems of sustainable development " - 2001.04] (* <-lang_en;; *);
+<-concept_news;;
+
+the_department_of_intelligent_informational_technologies=>nrel_department_news:
+news_scb_conference_2001;;
+
+news_scb_conference_2001<- rrel_key_sc_element:
+	... 
+	(*<-sc_explanation;;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			"file://scb_conference_2001_news.html";;
+		*);;
+	*);;

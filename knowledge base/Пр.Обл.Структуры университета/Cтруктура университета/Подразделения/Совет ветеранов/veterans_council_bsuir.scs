@@ -1,0 +1,16 @@
+veterans_council_bsuir=> nrel_main_idtf:[совет ветеранов БГУИРа] (* <-lang_ru;; *);;
+veterans_council_bsuir=> nrel_main_idtf:[veterans council bsuir] (* <-lang_en;; *);;
+veterans_council_bsuir=>nrel_pers_comp:personal_composition_of_veterans_council_bsuir;;
+personal_composition_of_veterans_council_bsuir->rrel_chairman:Prischepny_Grigory_Vasilevich;;
+veterans_council_bsuir -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [+375 17 293-23-99];;*)
+   ;;*)
+   ;; 
+veterans_council_bsuir -> nrel_address:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [ул. П. Бровки,6, 1-й учебный корпус, каб. 221];;*)
+   ;;*)
+   ;; 

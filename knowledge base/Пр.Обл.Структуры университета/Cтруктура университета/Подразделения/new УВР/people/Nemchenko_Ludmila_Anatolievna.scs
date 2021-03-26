@@ -1,0 +1,33 @@
+Nemchenko_Ludmila_Anatolievna=>nrel_main_idtf:
+[Немченко Людмила Анатольевна](*<-lang_ru;;*);
+[Nemchenko Ludmila Anatolievna](*<-lang_en;;*);;
+
+Nemchenko_Ludmila_Anatolievna -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [+375 17 293-23-68];;*)
+   ;;*)
+   ;; 
+
+Nemchenko_Ludmila_Anatolievna -> rrel_work_place: aud_421_2;;
+
+Nemchenko_Ludmila_Anatolievna -> rrel_email:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [nemchenko@bsuir.by](*<-lang_ru;;*)
+   ;;*)
+   ;;*)
+   ;; 
+
+
+Nemchenko_Ludmila_Anatolievna <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://Nemchenk.jpg";;
+               *);;
+        *);;

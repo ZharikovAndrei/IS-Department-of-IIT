@@ -1,0 +1,12 @@
+sc_node_not_relation -> atlas;;
+
+
+atlas => nrel_main_idtf:
+[атлас]
+	(*
+	<- lang_ru;;
+	*);
+	[atlas] 
+	(*
+	<- lang_en;;
+	*);;

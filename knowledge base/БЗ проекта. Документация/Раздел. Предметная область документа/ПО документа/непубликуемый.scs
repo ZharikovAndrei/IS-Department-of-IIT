@@ -1,0 +1,11 @@
+sc_node_not_relation -> unpublish_document;;
+
+unpublish_document => nrel_main_idtf:
+[неопубликуемый документ]
+	(*
+	<- lang_ru;;
+	*);
+	[unpublish document] 
+	(*
+	<- lang_en;;
+	*);;

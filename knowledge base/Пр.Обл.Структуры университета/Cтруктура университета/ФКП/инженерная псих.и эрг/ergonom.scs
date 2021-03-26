@@ -1,0 +1,80 @@
+the_department_of_engineering_psychology_and_ergonomics=>nrel_main_idtf:
+[Кафедра инженерной психологии и эргономики](*<-lang_ru;;*);
+[the department of engineering psychology and ergonomics](*<-lang_en;;*);; 
+
+
+the_department_of_engineering_psychology_and_ergonomics=>nrel_idtf:[ИПЭ](*<-lang_ru;;*);;
+the_department_of_engineering_psychology_and_ergonomics=>nrel_idtf:[EPE](*<-lang_en;;*);;
+
+
+
+pers_comp_epe -> rrel_head_of_department: header_of_epe;;
+
+the_department_of_engineering_psychology_and_ergonomics => nrel_info: epe_info;;
+
+the_department_of_engineering_psychology_and_ergonomics => nrel_pers_comp: pers_comp_epe;;
+
+
+header_of_epe=>nrel_main_idtf:
+[Яшин Константин Дмитриевич ](*<-lang_ru;;*);
+[Yashin Konstantin Dmitrievich](*<-lang_en;;*);;
+
+
+
+epe_info=>nrel_main_idtf:
+[информация о кафедре ИПЭ](*<-lang_ru;;*);
+[the information about the department of EPE](*<-lang_en;;*);; 
+
+
+pers_comp_epe=>nrel_main_idtf:
+[Персональный состав кафедры ИПЭ](*<-lang_ru;;*);
+[personal composition of the EPE](*<-lang_en;;*);; 
+
+
+
+header_of_epe <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://../../../image/ergonom1.jpg";;
+               *);;
+        *);;
+
+
+
+
+
+epe_info <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [О кафедре] (* <- lang_ru;; *);;
+	<- sc_task;;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Кафедра ИПиЭ осуществляет подготовку специалистов:
+- по первой ступени высшего образования по 2 специальностям:
+1-58 01 01 - Инженерно-психологическое обеспечение информационных технологий
+1-40 05 01-09 - Информационные системы и технологии (в обеспечении промышленной безопасности)
+
+- по второй ступени высшего образования по 3 специальностям:
+1-23 80 08 - Психология труда, инженерная психология, эргономика
+1-59 80 01 - Охрана труда
+1-59 81 01 - Управление безопасностью производственных процессов ](* <- lang_ru;; *);;
+		*);;
+	*);;
+
+
+
+
+
+
+
+
+   
+

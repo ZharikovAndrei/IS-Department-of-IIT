@@ -1,0 +1,15 @@
+//КрымМиКо”2011
+
+//sc_node_not_relation -> Materials_of_the_Sevastopol_conference_2011;;
+
+
+ Materials_of_the_Sevastopol_conference_2011 => nrel_main_idtf:
+[Сборник материалов "КрымМиКо 2011"]
+	(*
+	<- lang_ru;;
+	*);
+	[Materials of the Sevastopol conference 2011]
+	(*
+	<- lang_en;;
+	*);;
+ Materials_of_the_Sevastopol_conference_2011 => nrel_place_publication: sevastopol;;

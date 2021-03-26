@@ -1,0 +1,8 @@
+task_27
+	=> nrel_main_idtf:[Пр.Обл.Курсового и дипломного проектирования(9-14,26-31)](* <- lang_ru;;*);
+	<- project_task;
+	<- basic_project_task;
+	<- important_project_task;
+	<- executable_project_task;
+	=> nrel_executor: Parfenenko_Artyom_Sergeevich;;
+

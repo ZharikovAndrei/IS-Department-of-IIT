@@ -1,0 +1,8 @@
+personal_composition_of_press_office=>nrel_main_idtf:
+	[персональный состав пресс-службы] (*<-lang_ru;;*);
+	[personal composition of press office](*<-lang_en;;*);; 
+
+personal_composition_of_press_office->rrel_press_secretary: Sokolovskaya_Alena_Alexandrovna;
+													 rrel_TV_equipment_engineer: Maxak_Maxim_Yurievich;
+													 rrel_the_editor_of_newspaper_Impulse: Babich_Vitaly_Vladimirovich;;
+

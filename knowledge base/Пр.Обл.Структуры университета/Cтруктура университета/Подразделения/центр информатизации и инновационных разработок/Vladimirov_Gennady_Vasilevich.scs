@@ -1,0 +1,33 @@
+Vladimirov_Gennady_Vasilevich=>nrel_main_idtf:
+[Владимиров Геннадий Васильевич](*<-lang_ru;;*);
+[Vladimirov Gennady Vasilevich](*<-lang_en;;*);;
+
+Vladimirov_Gennady_Vasilevich -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [+375 17 293-84-95];;*)
+   ;;*)
+   ;; 
+
+Vladimirov_Gennady_Vasilevich -> rrel_work_place: aud_312_5;;
+
+Vladimirov_Gennady_Vasilevich -> rrel_email:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [vgv@bsuir.by](*<-lang_ru;;*)
+   ;;*)
+   ;;*)
+   ;; 
+
+
+Vladimirov_Gennady_Vasilevich <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://Vladimirov.jpg";;
+               *);;
+        *);;

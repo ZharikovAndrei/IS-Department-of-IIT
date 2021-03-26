@@ -1,0 +1,27 @@
+project_task_priority
+<-sc_node_not_relation;
+
+=>nrel_main_idtf:
+[приоритет проектной задачи](*<-lang_ru;;*);
+
+<-rrel_key_sc_element_of_subject_domain:
+section_subject_domain_of_desingning_management;
+
+=>nrel_subdividing:
+blocking_priority;
+critical_priority;
+important_priority;
+unimportant_priority;
+
+<-rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Приоритет проектной задачи определяет порядок их выполнения](* <-lang_ru;; *);; 
+		*);;
+	*);;
+
+

@@ -1,0 +1,12 @@
+sc_node_not_relation -> pictorial_card;;
+
+
+pictorial_card => nrel_main_idtf:
+[изобразительный плакат]
+	(*
+	<- lang_ru;;
+	*);
+	[pictorial card] 
+	(*
+	<- lang_en;;
+	*);;

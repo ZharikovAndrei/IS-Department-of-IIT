@@ -1,0 +1,25 @@
+Prischepny_Grigory_Vasilevich=>nrel_main_idtf:
+[Прищепный Григорий Васильевич](*<-lang_ru;;*);
+[Prischepny Grigory Vasilevich](*<-lang_en;;*);;
+
+Prischepny_Grigory_Vasilevich -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [+375 17 293-86-77];;*)
+   ;;*)
+   ;; 
+
+Prischepny_Grigory_Vasilevich -> rrel_work_place: aud_317a_4;;
+
+Prischepny_Grigory_Vasilevich <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://Prischepny.jpg";;
+               *);;
+        *);;
+Prischepny_Grigory_Vasilevich <- person;;

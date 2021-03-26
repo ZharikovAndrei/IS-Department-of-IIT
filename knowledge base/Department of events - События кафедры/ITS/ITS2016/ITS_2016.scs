@@ -1,0 +1,50 @@
+ITS_2016=> nrel_main_idtf:
+[Международная научная конференция "Информационные технологии и системы" 2016] (* <-lang_ru;; *);
+[International scientific conference "Information Technologies and Systems" 2016] (* <-lang_en;; *);
+=>nrel_idtf:
+[Международная научная конференция ITS 2016] (* <-lang_ru;; *);
+[International scientific conference ITS 2016] (* <-lang_en;; *);
+[ITS-2016](*<-lang_en;;*);
+<-concept_conference;
+<-temporary_entity;;
+ITS_2016<-
+...
+(*<-exact_value;;
+ <-begin;;
+  =>nrel_translation_in_the_Gregorian_calendar:...
+  (*
+    ->number_of_year:2016;;
+    ->number_of_month_in_year:10;;
+    ->number_of_day_in_month:26;;
+   *);;
+  *);;
+ITS_2016<-
+...
+(*<-exact_value;;
+ <-completion;;
+  =>nrel_translation_in_the_Gregorian_calendar:...
+  (*
+    ->number_of_year:2016;;
+    ->number_of_month_in_year:10;;
+    ->number_of_day_in_month:26;;
+   *);;
+  *);;
+ITS_2016=>nrel_address:
+[г.Минск, БГУИР, улица П.Бровки 6 (1-ой корпус)](*<-lang_ru;;*);
+[г.Минск, БГУИР, улица Платонова 39 (5-ой корпус)](*<-lang_ru;;*);;
+
+ITS_2016=>nrel_materail_conference:Proceedings_of_the_international_scientific_conference_ITS_16;;
+
+ITS_2016 -> rrel_email:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [its-conf@bsuir.by](*<-lang_en;;*)
+   ;;*)
+   ;;*);; 
+
+ITS_2016<=nrel_subdividing:
+cs_section_2016;
+iit_section_2016;
+ips_section_2016;
+des_section_2016;
+mmcg_section_2016;;

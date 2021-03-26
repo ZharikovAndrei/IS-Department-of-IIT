@@ -1,0 +1,16 @@
+Mudraya_Elena_Ivanovna=>nrel_main_idtf:
+[Мудрая Елена Ивановна](*<-lang_ru;;*);
+[Mudraya Elena Ivanovna](*<-lang_en;;*);;
+
+Mudraya_Elena_Ivanovna -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+
+ [+375 17 293-84-71];;*)
+   ;;*)
+   ;; 
+
+Mudraya_Elena_Ivanovna-> rrel_work_place: aud_231_1;;
+
+
+

@@ -1,0 +1,15 @@
+sc_node_not_relation->concept_review;;
+concept_review=>nrel_main_idtf:
+[рецензия](*<-lang_ru;;*);
+[review](*<-lang_en;;*);;
+concept_review<- rrel_key_sc_element:
+	... 
+	(*<-sc_definition;;
+     =>nrel_main_idtf:[Опр.(рецензия)](*<-lang_ru;;*);;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Рецензия - критический отзыв о каком-н. сочинении, спектакле и т. п.](* <- lang_ru;; *);;
+		*);;
+	*);;

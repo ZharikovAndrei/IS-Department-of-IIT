@@ -1,0 +1,11 @@
+economic_theory
+=>nrel_main_idtf: [Экономическая теория] (*<-lang_ru;;*);
+=>nrel_main_idtf: [Economic theory] (*<-lang_en;;*);
+<=nrel_trains: the_department_of_economics;
+<=nrel_class_number: 1(* <-positive_number;;*);
+<=nrel_semester_number: 1(* <-positive_number;;*);
+<=nrel_lecture_hours: 34(*<-positive_number;;*);
+<=nrel_practice_hours: 34(*<-positive_number;;*);
+<=nrel_component: concept_mandatory_component;
+<=nrel_cycle: concept_tsikl_sotsialno_gumanitarnykh_distsiplin;;
+

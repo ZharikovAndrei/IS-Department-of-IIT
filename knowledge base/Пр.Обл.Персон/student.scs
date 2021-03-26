@@ -1,0 +1,15 @@
+student
+=>nrel_main_idtf:
+	[студент] (* <-lang_ru;; *);
+	[student] (* <-lang_en;; *);
+
+->rrel_key_sc_element:
+	...
+	(*
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> [Студент-физическое лицо,обущающееся в высшем учебном заведении.] (* <-lang_ru;; *);;
+		*);;
+	*);;

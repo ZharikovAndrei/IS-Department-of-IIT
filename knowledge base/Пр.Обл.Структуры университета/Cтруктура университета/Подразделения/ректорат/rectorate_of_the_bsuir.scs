@@ -1,0 +1,17 @@
+rectorate_of_the_bsuir => nrel_main_idtf:[ректорат БГУИРа] (* <-lang_ru;; *);;
+rectorate_of_the_bsuir=> nrel_main_idtf:[rectorate of the BSUIR] (* <-lang_en;; *);;
+rectorate_of_the_bsuir=> nrel_pers_comp:personal_composition_of_rectorate_of_the_bsuir;;
+personal_composition_of_rectorate_of_the_bsuir->rrel_rector:Batura_Michael_Pavlovich;;
+personal_composition_of_rectorate_of_the_bsuir->rrel_first_prorector:Osipov_Anatoly_Nickolaevich;;
+personal_composition_of_rectorate_of_the_bsuir->rrel_prorector_of_science_work:Kusnetsov_Alexander_Petrovich;;
+personal_composition_of_rectorate_of_the_bsuir->rrel_prorector_of_study_working_and_quality_management:Jivitskaya_Elena_Nickolaevna;;
+personal_composition_of_rectorate_of_the_bsuir->rrel_prorector_of_study_working_and_informatization:Niculshin_Boris_Victorovich;;
+personal_composition_of_rectorate_of_the_bsuir->rrel_prorector_of_study_working_and_educational_work:Dick_Sergej_Konstantinovich;;
+personal_composition_of_rectorate_of_the_bsuir->rrel_prorector_of_economics_and_building:Milko_Vladimir_Michaelovich;;
+personal_composition_of_rectorate_of_the_bsuir->rrel_prorector_of_administrative_work:Vlasuk_Alexander_Vasilyevich;;
+rectorate_of_the_bsuir<-concept_rectorate;;
+personal_composition_of_rectorate_of_the_bsuir->rrel_assisant_rector_of_the_bsuir:Tkachev_Nikolay_Michaylovich;;
+
+personal_composition_of_rectorate_of_the_bsuir=>nrel_main_idtf:
+[персональный состав ректората БГУИРа](*<-lang_ru;;*);
+[personal composition of the rectorate of the BSUIR](*<-lang_en;;*);;

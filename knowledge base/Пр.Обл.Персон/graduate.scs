@@ -1,0 +1,14 @@
+graduate
+=>nrel_main_idtf:
+	[выпускник] (* <-lang_ru;; *);
+		
+->rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> [Выпускник-физическое лицо, окончившее данное учебное заведение.] (* <-lang_ru;; *);; 
+		*);;
+	*);;

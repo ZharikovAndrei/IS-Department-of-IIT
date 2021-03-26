@@ -1,0 +1,15 @@
+project_offenses
+      => nrel_main_idtf:[Система анализа и профилактики правонарушений] (* <-lang_ru;; *);
+      => nrel_main_idtf:[System Analysis and crime prevention] (* <-lang_en;; *);
+	=> nrel_synonymy:[54e/правонрш];;
+
+project_offenses => nrel_project_leader: Kaeshko_A_I;;
+project_offenses <- student_project;;
+project_offenses => nrel_reports: report_model_offenses;;
+
+
+//project_offenses=> nrel_performers: ;;
+//  project_offenses => nrel_main_students: ;;
+//  project_offenses=> nrel_sections_KB_IMS: ;;
+//  project_offenses=> nrel_reports_OSTIS2017: ;;
+//  project_offenses=> nrel_related_projects: ;;

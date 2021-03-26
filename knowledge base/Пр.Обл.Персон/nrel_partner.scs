@@ -1,0 +1,51 @@
+nrel_partner
+<- sc_node_norole_relation;
+
+=>nrel_main_idtf:
+	[партнер*] (* <-lang_ru;; *);	
+=>nrel_main_idtf:
+	[partner*] (* <-lang_en;; *);	
+=>nrel_idtf:
+	[компаньон*] (* <-lang_ru;; *);
+
+->rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> [Партнер — соучастник в какой-либо совместной деятельности. ] (* <-lang_ru;; *);; 
+		*);;
+	*);
+
+<=nrel_first_domain:goal;
+<=nrel_second_domain:resources;
+
+
+=>nrel_basic_statement:...(*->goal_help;joint_activity;;*);;
+
+
+goal_help
+<=nrel_sc_text_translation:
+	...(*
+	->rrel_statement_of_the_new_type: [Партнер — соучастник в какой-либо совместной деятельности. ](* <-lang_ru;; 
+	*);;
+*);;
+
+
+joint_activity
+<=nrel_sc_text_translation:
+	...(*
+	->rrel_statement: [обеспечивает всяческую помощь при достижении общей цели. ](* <-lang_ru;; 
+	*);;
+*);;
+sc_node_norole_relation->nrel_first_domain;nrel_second_domain;;
+//.....................................................руссификация понятий................................................
+
+nrel_base=>nrel_main_idtf:[основание*] (* <-lang_ru;; *);;
+joint_activity=>nrel_main_idtf:[утверждение(партнер,соучастник,совместная деятельность)] (* <-lang_ru;; *);;
+goal_help=>nrel_main_idtf:[утверждение(партнер,помощь,общая цель)] (* <-lang_ru;; *);;
+goal=>nrel_main_idtf:[цель] (* <-lang_ru;; *);;
+resources=>nrel_main_idtf:[ресурсы] (* <-lang_ru;; *);;
+

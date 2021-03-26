@@ -1,0 +1,11 @@
+//sc_node_not_relation -> Serdukov_R_E;;
+
+Serdukov_R_E => nrel_main_idtf:
+[Сердюков Р.Е.]
+	(*
+	<- lang_ru;;
+	*);
+	[Serdukov R.E.]
+	(*
+	<- lang_en;;
+	*);;

@@ -1,0 +1,543 @@
+subject_domain_of_main_concepts_of_system_theory
+=> nrel_main_idtf:
+	[Предметная область основных понятий, характеризующих строение систем]
+	(* <- lang_ru;; *);
+	
+<- subject_domain;
+-> rrel_maximum_studied_object_class: 
+        system;
+-> rrel_not_maximum_studied_object_class:
+	    subsystem;
+	    element;
+	    structure;
+	    connection;
+		knowledge_base;
+		intelligent_system;
+		model_of_system;
+		structure_of_system;
+		structure_of_research_in_the_field_of_artificial_intelligence;
+		situational_managment_system;;
+		
+	element
+
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[элемент]
+	(* <- lang_ru;; *);
+	[element]
+	(* <- lang_en;; *);
+
+<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf:
+				[Определение: элемент]
+				(* <- lang_ru;; *);;
+			<= nrel_sc_text_translation:
+				...
+				(*
+					->  
+						[элемент - составляющая часть чего либо.]
+						(* <- lang_ru;; *);;
+				*);;
+		*);
+
+<-rrel_key_sc_element:
+		...
+		(*
+			=> nrel_main_idtf:
+				[утв.(первичная единица, задача, модель, система)]
+				(* <- lang_ru;; *);;
+			<- statement;;
+			<= nrel_sc_text_translation:
+				...
+				(*
+					->[Выбор элемента как первичной единицы определяется характером и задачами модели системы.]
+					(* <- lang_ru;; *);;
+				*);;
+		*);;
+
+intelligent_system
+
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[интеллектуальная система]
+	(* <- lang_ru;; *);
+	[intelligent system]
+	(* <- lang_en;; *);
+
+<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf:
+				[Определение: интеллектуальная система]
+				(* <- lang_ru;; *);;
+			<= nrel_sc_text_translation:
+				...
+				(*
+					-> 
+						[Интеллектуа́льная систе́ма — это техническая или программная система, способная решать 
+                            задачи, традиционно считающиеся творческими, принадлежащие конкретной предметной 
+                                области, знания о которой хранятся в памяти такой системы.]
+						(* <- lang_ru;; *);;
+				*);;
+		*);
+
+<-rrel_key_sc_element:
+		...
+		(*
+			=> nrel_main_idtf:
+				[утв.(база знаний, механизм вывода решений, интеллектуальный интерфейс)]
+				(* <- lang_ru;; *);;
+			<- statement;;
+			<= nrel_sc_text_translation:
+				...
+				(*
+					->[Структура интеллектуальной системы включает три основных блока — базу знаний, механизм 
+                    вывода решений и интеллектуальный интерфейс.]
+					(* <- lang_ru;; *);;
+				*);;
+		*);;
+
+knowledge_base
+
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[база знаний]
+	(* <- lang_ru;; *);
+	[knowledge base]
+	(* <- lang_en;; *);
+
+<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf:
+				[Определение: база знанйи]
+				(* <- lang_ru;; *);;
+			<= nrel_sc_text_translation:
+				...
+				(*
+					-> 
+						[База знаний -  база данных, содержащая правила вывода и информацию о человеческом опыте 
+                            и знаниях в некоторой предметной области.]
+						(* <- lang_ru;; *);;
+				*);;
+		*);
+
+<-rrel_key_sc_element:
+		...
+		(*
+			=> nrel_main_idtf:
+				[утв.(база знаний, система, информация)]
+				(* <- lang_ru;; *);;
+			<- statement;;
+			<= nrel_sc_text_translation:
+				...
+				(*
+					->[Современные базы знаний работают совместно с системами поиска и извлечения информации.]
+					(* <- lang_ru;; *);;
+				*);;
+		*);;
+    
+model_of_system
+
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[модель системы]
+	(* <- lang_ru;; *);
+	[model of system]
+	(* <- lang_en;; *);
+
+<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf:
+				[Определение: модель системы]
+				(* <- lang_ru;; *);;
+			<= nrel_sc_text_translation:
+				...
+				(*
+					->  
+						[Модель системы - математический или физический аналог реальной системы, в котором 
+							характер протекания основных процессов подобен протеканию таких же процессов 
+								в реальной системе.]
+						(* <- lang_ru;; *);;
+				*);;
+		*);
+
+<-rrel_key_sc_element:
+		...
+		(*
+			=> nrel_main_idtf:
+				[утв.(функция, информация, структура, модель, система)]
+				(* <- lang_ru;; *);;
+			<- statement;;
+			<= nrel_sc_text_translation:
+				...
+				(*
+					->[Различают информационные, функциональные и структурные модели систем.]
+					(* <- lang_ru;; *);;
+				*);;
+		*);;
+
+situational_managment_system
+
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[система ситуационного управления]
+	(* <- lang_ru;; *);
+	[situational managment system]
+	(* <- lang_en;; *);
+
+<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf:
+				[Определение: система ситуационного управления]
+				(* <- lang_ru;; *);;
+			<= nrel_sc_text_translation:
+				...
+				(*
+					-> 
+						[Система ситуационного управления - система основанная на  методе решения сложных 
+							задач путём исследования операций, относящихся к классу задач упорядочения.]
+						(* <- lang_ru;; *);;
+				*);;
+		*);
+
+<-rrel_key_sc_element:
+		...
+		(*
+			=> nrel_main_idtf:
+				[утв.(Ситуационное управление, ситуация)]
+				(* <- lang_ru;; *);;
+			<- statement;;
+			<= nrel_sc_text_translation:
+				...
+				(*
+					->[Ситуационное управление основывается на определении ситуации.]
+					(* <- lang_ru;; *);;
+				*);;
+		*);;
+
+structure_of_intellectual_system
+
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[структура интеллектуальной системы]
+	(* <- lang_ru;; *);
+	[structure of intellectual system]
+	(* <- lang_en;; *);
+
+<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf:
+				[Определение: структура интеллектуальной системы]
+				(* <- lang_ru;; *);;
+			<= nrel_sc_text_translation:
+				...
+				(*
+					-> 
+						[Система ситуационного управления - система основанная на  методе решения сложных 
+							задач путём исследования операций, относящихся к классу задач упорядочения.]
+						(* <- lang_ru;; *);;
+				*);;
+		*);
+
+<-rrel_key_sc_element:
+		...
+		(*
+			=> nrel_main_idtf:
+				[утв.(Ситуационное управление, ситуация)]
+				(* <- lang_ru;; *);;
+			<- statement;;
+			<= nrel_sc_text_translation:
+				...
+				(*
+					->[Ситуационное управление основывается на определении ситуации.]
+					(* <- lang_ru;; *);;
+				*);;
+		*);;  
+
+structure_of_research_in_the_field_of_artificial_intelligence
+
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[структура исследований в области исскусственного интеллекта]
+	(* <- lang_ru;; *);
+	[structure of research in the field of artificial intelligence]
+	(* <- lang_en;; *);
+
+<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf:
+				[Определение: структура исследований в области исскусственного интеллекта]
+				(* <- lang_ru;; *);;
+			<= nrel_sc_text_translation:
+				...
+				(*
+					-> 
+						[Исследования в области ИИ направлены в первую очередь на решение важнейших проблем, 
+                            стоящих на пути к массовому внедрению вычислительных машин и роботов в различные 
+                                отрасли хозяйства, в системы управления различного ранга, в научные исследования, 
+                                    в процессы проектирования и конструирования новых технических систем.]
+						(* <- lang_ru;; *);;
+				*);;
+		*);
+
+<-rrel_key_sc_element:
+		...
+		(*
+			=> nrel_main_idtf:
+				[утв.(основные направления, интеллектуализация, создание, обработка информации, решение задач, создание)]
+				(* <- lang_ru;; *);;
+			<- statement;;
+			<= nrel_sc_text_translation:
+				...
+				(*
+					->[Основные направления исследований в ИИ:  интеллектуализации ЭВМ будущих поколений, создание новых принципов 
+                        обработки информации и решения задач, создание интеллектульных роботов.]
+					(* <- lang_ru;; *);;
+				*);;
+		*);;
+
+structure
+
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[структура]
+	(* <- lang_ru;; *);
+	[structure]
+	(* <- lang_en;; *);
+
+<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf:
+				[Определение: структура]
+				(* <- lang_ru;; *);;
+			<= nrel_sc_text_translation:
+				...
+				(*
+					-> 
+						[Структура - программная еденица, позволяющая хранить и обрабатывать множество однотипных данных.]
+						(* <- lang_ru;; *);;
+				*);;
+		*);
+
+<-rrel_key_sc_element:
+		...
+		(*
+			=> nrel_main_idtf:
+				[утв.(Формирование, решения, задача)]
+				(* <- lang_ru;; *);;
+			<- statement;;
+			<= nrel_sc_text_translation:
+				...
+				(*
+					->[Формирование структуры является частью решения общей задачи построения системы.]
+					(* <- lang_ru;; *);;
+				*);;
+		*);;
+
+structure_of_system
+
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[структура системы]
+	(* <- lang_ru;; *);
+	[structure of system]
+	(* <- lang_en;; *);
+
+<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf:
+				[Определение: структура системы]
+				(* <- lang_ru;; *);;
+			<= nrel_sc_text_translation:
+				...
+				(*
+					-> 
+						[Структура есть форма представления некоторого объекта в виде составных частей.]
+						(* <- lang_ru;; *);;
+				*);;
+		*);
+
+<-rrel_key_sc_element:
+		...
+		(*
+			=> nrel_main_idtf:
+				[утв.(свойства, система, среда)]
+				(* <- lang_ru;; *);;
+			<- statement;;
+			<= nrel_sc_text_translation:
+				...
+				(*
+					->[Тип структуры в очень большой степени определяет свойства (поведение) системы в той  
+						или иной среде.]
+					(* <- lang_ru;; *);;
+				*);;
+		*);;
+
+subsystem
+
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[подсистема]
+	(* <- lang_ru;; *);
+	[subsystem]
+	(* <- lang_en;; *);
+
+<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf:
+				[Определение: подсистема]
+				(* <- lang_ru;; *);;
+			<= nrel_sc_text_translation:
+				...
+				(*
+					-> 
+						[Подсистема — система, являющаяся частью более общей системы.]
+						(* <- lang_ru;; *);;
+				*);;
+		*);
+
+<-rrel_key_sc_element:
+		...
+		(*
+			=> nrel_main_idtf:
+				[утв.(объект, взаимосвязанный*)]
+				(* <- lang_ru;; *);;
+			<- statement;;
+			<= nrel_sc_text_translation:
+				...
+				(*
+					->[В состав подсистемы может входить один, или более взаимозависимых объектов.]
+					(* <- lang_ru;; *);;
+				*);;
+		*);;
+
+connection
+
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[связь]
+	(* <- lang_ru;; *);
+	[connection]
+	(* <- lang_en;; *);
+
+<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf:
+				[Определение: связь]
+				(* <- lang_ru;; *);;
+			<= nrel_sc_text_translation:
+				...
+				(*
+					-> 
+						[Связь - отношение взаимной зависимости.]
+						(* <- lang_ru;; *);;
+				*);;
+		*);
+
+<-rrel_key_sc_element:
+		...
+		(*
+			=> nrel_main_idtf:
+				[утв.(связь, прямая*, обратная*)]
+				(* <- lang_ru;; *);;
+			<- statement;;
+			<= nrel_sc_text_translation:
+				...
+				(*
+					->[Различают прямые и обратные связи.]
+					(* <- lang_ru;; *);;
+				*);;
+		*);;
+
+system 
+
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[система]
+	(* <- lang_ru;; *);
+	[system]
+	(* <- lang_en;; *);
+
+
+-> subsystem;
+
+<=nrel_subdividing:subdividing_by_class_of_system
+(*
+=>nrel_main_idtf:
+	[по классификации систем]
+	(*<-lang_ru;;*);;
+		->open_system;;
+		->close_system;;
+		->natural_system;;
+		->artificial_system;;
+		->virtual_system;;
+		->dedication_system;;
+		->purposefull_system;;
+		->system_with_qualitative_variables;;
+		->quntitative;;
+		->well_organized_system;;
+		->bad_organized_system;;
+		->probabilistic_system;;
+		->deterministic_system;;
+		->big_system;;
+		->hard_system;;
+		->simple_system;;
+*);;
+...
+
+
+<- rrel_key_sc_element:
+		...
+		(*
+			<- definition;;
+			=> nrel_main_idtf:
+				[Определение: система]
+				(* <- lang_ru;; *);;
+			<= nrel_sc_text_translation:
+				...
+				(*
+					-> 
+						[Система - совокупность элементов, находящихся в определённых отношениях друг с другом и со средой.]
+						(* <- lang_ru;; *);;
+				*);;
+		*);
+
+<-rrel_key_sc_element:
+		...
+		(*
+			=> nrel_main_idtf:
+				[утв.(вещество, энергия, информация)]
+				(* <- lang_ru;; *);;
+			<- statement;;
+			<= nrel_sc_text_translation:
+				...
+				(*
+					->[Система закрыта (замкнута), если в неё не поступают и из неё не выделяются вещество,
+						 энергия или информация.]
+					(* <- lang_ru;; *);;
+				*);;
+		*);;						
+
+	

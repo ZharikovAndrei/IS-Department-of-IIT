@@ -1,0 +1,11 @@
+//sc_node_not_relation -> Abrajevich_R_I;;
+
+Abrajevich_R_I => nrel_main_idtf:
+[Абражевич Р.И.]
+	(*
+	<- lang_ru;;
+	*);
+	[Abrajevich R.I.]
+	(*
+	<- lang_en;;
+	*);;

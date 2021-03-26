@@ -1,0 +1,31 @@
+publication_Grakova_N_V_2015_SuppoLCoMS=> nrel_main_idtf:
+[Гракова Н.В. 2015 - ПоддеУЖЦС]
+	(*
+	<- lang_ru;;
+	*);
+	[Grakova_N_V_2015_SuppoLCoMS] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Grakova_N_V_2015_SuppoLCoMS => nrel_name_publication:[Поддержка управления жизненным циклом сиcтемы](*
+	<- lang_ru;;
+	*);;
+
+publication_Grakova_N_V_2015_SuppoLCoMS <= nrel_author:
+Grakova_N_V;Davydenko_I_T;Fedotova_Alyona_Valerievna;;
+
+publication_Grakova_N_V_2015_SuppoLCoMS <- article;;
+
+publication_Grakova_N_V_2015_SuppoLCoMS => nrel_reference_standard: [Гракова, Н.В. Поддержка управления жизненным циклом сиcтемы /Н.В. Гракова, И.Т. Давыденко, А.В. Федотова// Интеллектуальные системы и технологии: современное состояние и перспективы. Сборник научных трудов III-ей Международной летней школы-семинара по искусственному интеллекту для студентов, аспирантов и молодых ученых (Тверь – Протасово, 1-5 июля 2015 г.) – Тверь: Изд-во Тверского государственного технического университета, 2015. - С. 73-80 ];;
+
+publication_Grakova_N_V_2015_SuppoLCoMS => nrel_year_publication: 2015;;
+
+publication_Grakova_N_V_2015_SuppoLCoMS => nrel_information_publication: Collection_of_scientific_works_of_the_international_summer_school_seminar_on_artificial_intelligence_for_students_graduate_students_and_young_scientists_Intelligent_Systems_and_Technology_Current_State_and_Prospects_ISyT2015;;
+publication_Grakova_N_V_2015_SuppoLCoMS => nrel_number_page: ..2015_SuppoLCoMS (*
+-> rrel_from :73;;
+-> rrel_by :80;;
+*);;
+
+
+

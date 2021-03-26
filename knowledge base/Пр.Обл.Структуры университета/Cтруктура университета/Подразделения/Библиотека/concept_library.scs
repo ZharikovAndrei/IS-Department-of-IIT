@@ -1,0 +1,18 @@
+sc_node_not_relation->concept_library;;
+
+concept_library=>nrel_main_idtf:
+[библиотека](*<-lang_ru;;*);
+[library](*<-lang_en;;*);; 
+
+concept_library<-rrel_key_sc_element:
+...
+(*
+=>nrel_main_idtf:[Опр.(библиотека)](*<-lang_ru;;*);;
+<-sc_definition;;
+<=nrel_sc_text_translation:
+...
+(*
+->rrel_example:
+[Библиотека - учреждение, собирающее и хранящее книги для общественного пользования .](*<-lang_ru;;*);;
+*);;
+*);;

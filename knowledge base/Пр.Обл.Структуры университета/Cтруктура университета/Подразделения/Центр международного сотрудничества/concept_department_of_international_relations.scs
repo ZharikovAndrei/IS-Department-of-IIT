@@ -1,0 +1,20 @@
+sc_node_not_relation->concept_department_of_international_relations;;
+
+concept_department_of_international_relations=>nrel_main_idtf:
+[отдел международных связей](*<-lang_ru;;*);
+[department of International Relations](*<-lang_en;;*);; 
+
+concept_department_of_international_relations<-rrel_key_sc_element:
+...
+(*
+=>nrel_main_idtf:[Опр.(отдел международных связей)](*<-lang_ru;;*);;
+<-sc_definition;;
+<=nrel_sc_text_translation:
+...	
+(*
+->rrel_example:
+[Отдел международных связей занимается оформлением командировок за рубеж, приемом иностранных делегаций, приглашением
+ иностранных ученых, преподавателей и стажеров, международными проектами, программами академической мобильности.
+.](*<-lang_ru;;*);;
+*);;
+*);;

@@ -1,0 +1,35 @@
+Kulazhenko_Yuri_Ivanovich=>nrel_main_idtf:
+[Кулаженко Юрий Иванович](*<-lang_ru;;*);
+[Kulazhenko Yuri Ivanovich](*<-lang_en;;*);;
+
+Kulazhenko_Yuri_Ivanovich -> rrel_email:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [no_one ](*<-lang_en;;*)
+   ;;*)
+   ;;*)
+   ;; 
+
+Kulazhenko_Yuri_Ivanovich -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [+375 17 293-88-83];;*)
+   ;;*)
+   ;; 
+
+Kulazhenko_Yuri_Ivanovich -> rrel_work_place: aud_422_2;;
+
+Kulazhenko_Yuri_Ivanovich <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://Kulazhenko.jpg";;
+               *);;
+        *);;
+
+
+

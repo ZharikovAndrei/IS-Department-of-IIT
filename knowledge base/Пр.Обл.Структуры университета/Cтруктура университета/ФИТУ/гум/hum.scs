@@ -1,0 +1,74 @@
+the_department_of_humanities=>nrel_main_idtf:
+[Кафедра гуманитарных дисциплин](*<-lang_ru;;*);
+[the department of humanities](*<-lang_en;;*);; 
+
+the_department_of_humanities=>nrel_idtf:[ГД](*<-lang_ru;;*);;
+the_department_of_humanities=>nrel_idtf:[Hum](*<-lang_en;;*);;
+
+
+
+
+pers_comp_hum -> rrel_head_of_department: header_of_hum;;
+
+the_department_of_humanities => nrel_pers_comp: pers_comp_hum;;
+
+
+header_of_hum=>nrel_main_idtf:
+[Николаева Людмила Викторовна](*<-lang_ru;;*);
+[Nikolaeva Ludmila Victorovna](*<-lang_en;;*);;
+
+
+
+pers_comp_hum=>nrel_main_idtf:
+[Персональный состав кафедры ГД](*<-lang_ru;;*);
+[Personal composition of the Hum](*<-lang_en;;*);; 
+
+
+
+header_of_hum <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://../../../image/hum2.jpg" (*<-image;;*);;
+               *);;
+        *);;
+
+
+
+pers_comp_hum <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://../../../image/hum1.jpg" (*<-image;;*);;
+               *);;
+        *);;
+
+
+
+
+
+the_department_of_humanities <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [Информация о кафедре ГД] (* <- lang_ru;; *);;
+	<- sc_task;;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[В 1964 г. в составе Минского радиотехнического института была создана кафедра истории КПСС, которая в 1990 г. преобразована в кафедру политической истории. На базе кафедры политической истории в 1991 г. была создана кафедра гуманитарных дисциплин. С 1990 г. кафедру возглавлял доктор исторических наук, профессор Новик Евгений Константинович, являющийся одним из авторов и научных редакторов учебника для студентов вузов «Гісторыя Беларусі», выдержавшего пять изданий. Под его руководством создан комплекс учебных пособий для учащихся 11-го и 12-го классов средней общеобразовательной школы. При участии профессора Новика Е.К. создана книга «Белорусский государственный университет информатики и радиоэлектроники: 40 лет (1964 - 2004 гг.). ](* <- lang_ru;; *);;
+		*);;
+	*);;
+
+
+
+
+

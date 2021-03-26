@@ -1,0 +1,5 @@
+department_of_chief_power_engineer_bsuir=>nrel_main_idtf:
+[отдел главного энергетика БГУИРа](*<-lang_ru;;*);
+[department of chief power engineer bsuir](*<-lang_en;;*);; 
+department_of_chief_power_engineer_bsuir=>nrel_pers_comp:personal_composition_of_department_of_chief_power_engineer_bsuir;;
+personal_composition_of_department_of_chief_power_engineer_bsuir->rrel_chief_power_engineer:Power_enginner;;

@@ -1,0 +1,26 @@
+sc_node_not_relation -> journal_edition;;
+
+journal_edition => nrel_main_idtf:
+[журнальное издание]
+	(*
+	<- lang_ru;;
+	*);
+	[journal edition] 
+	(*
+	<- lang_en;;
+	*);;
+
+journal_edition <- rrel_key_sc_element: 
+        ...
+	(*
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[журнальное издание — периодич. издание кодексного типа (со скрепленными в корешке листами), обычно в обложке, содержащее некоторое число произведений, рефератов, документов.]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;
+
+journal_edition <- edition;;

@@ -1,0 +1,9 @@
+law_department_bsuir=>nrel_main_idtf:
+[юридический отдел БГУИР](*<-lang_ru;;*);
+[law department of bsuir](*<-lang_en;;*);;
+
+law_department_bsuir<-concept_law_department;;
+
+
+law_department_bsuir=>nrel_pers_comp:pers_comp_of_law_department_bsuir;;
+

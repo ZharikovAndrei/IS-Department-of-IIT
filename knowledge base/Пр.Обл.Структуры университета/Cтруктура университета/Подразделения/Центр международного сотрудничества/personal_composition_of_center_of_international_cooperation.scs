@@ -1,0 +1,9 @@
+personal_composition_of_center_of_international_cooperation=>nrel_main_idtf:
+	[персональный состав центра международного сотрудничества] (*<-lang_ru;;*);
+	[personal composition of center of international cooperation](*<-lang_en;;*);; 
+
+personal_composition_of_center_of_international_cooperation=>nrel_idtf:
+	[персональный состав ЦМС] (*<-lang_ru;;*);
+	[personal composition of CIC](*<-lang_en;;*);; 
+personal_composition_of_center_of_international_cooperation->rrel_center_chief: Titovich_Anna_Francevna;
+																					rrel_deputy_chief: Letkovskaya_Irina_Vasilievna;;

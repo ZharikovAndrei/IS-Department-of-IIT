@@ -1,0 +1,26 @@
+sc_node_not_relation -> newspaper_edition;;
+
+newspaper_edition => nrel_main_idtf:
+[газетное издание]
+	(*
+	<- lang_ru;;
+	*);
+	[newspaper edition] 
+	(*
+	<- lang_en;;
+	*);;
+
+newspaper_edition <- rrel_key_sc_element: 
+        ...
+	(*
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[газетное издание —  листовое издание в виде одного или нескольких листов печатного материала установленного формата, издательски приспособленное к специфике данного периодического издания.]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;
+
+//sheet_edition -> newspaper_edition;;

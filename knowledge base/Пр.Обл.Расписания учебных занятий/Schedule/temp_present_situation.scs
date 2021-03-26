@@ -1,0 +1,13 @@
+temp_present_situation
+=>nrel_main_idtf:
+	[временно существующая ситуация] (* <-lang_ru;; *);
+->rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> [временно существующая ситуация - ситуация, которая существует определенный период времени. ] (* <-lang_ru;; *);; 
+		*);;
+	*);;

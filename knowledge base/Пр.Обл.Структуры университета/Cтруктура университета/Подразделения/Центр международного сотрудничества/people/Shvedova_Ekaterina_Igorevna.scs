@@ -1,0 +1,33 @@
+Shvedova_Ekaterina_Igorevna=>nrel_main_idtf:
+[Шведова Екатерина Игоревна](*<-lang_ru;;*);
+[Shvedova Ekaterina Igorevna](*<-lang_en;;*);;
+
+Shvedova_Ekaterina_Igorevna -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [+375 17 293-84-82];;*)
+   ;;*)
+   ;; 
+
+Shvedova_Ekaterina_Igorevna -> rrel_work_place: aud_118_1;;
+
+Shvedova_Ekaterina_Igorevna -> rrel_email:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [dep@bsuir.by](*<-lang_ru;;*)
+   ;;*)
+   ;;*)
+   ;; 
+
+
+Shvedova_Ekaterina_Igorevna <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://Shvedova.jpg";;
+               *);;
+        *);;

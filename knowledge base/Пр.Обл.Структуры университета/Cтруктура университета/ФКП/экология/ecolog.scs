@@ -1,0 +1,101 @@
+the_department_of_ecology=>nrel_main_idtf:
+[Кафедра экологии](*<-lang_ru;;*);
+[the department of ecology](*<-lang_en;;*);; 
+
+
+the_department_of_ecology=>nrel_idtf:[ЭКОЛ](*<-lang_ru;;*);;
+the_department_of_ecology=>nrel_idtf:[ECOL](*<-lang_en;;*);;
+
+
+
+pers_comp_ecol -> rrel_head_of_department: header_of_ecol;;
+
+the_department_of_ecology => nrel_info: ecol_info;;
+
+the_department_of_ecology => nrel_pers_comp: pers_comp_ecol;;
+
+
+
+header_of_ecol=>nrel_main_idtf:
+[Мельниченко Дмитрий Александрович ](*<-lang_ru;;*);
+[Melnichenko Dmotriy Alexandrovich](*<-lang_en;;*);;
+
+
+
+ecol_info=>nrel_main_idtf:
+[информация о кафедре ЭКОЛ](*<-lang_ru;;*);
+[the information about the department of ECOL](*<-lang_en;;*);; 
+
+
+
+pers_comp_ecol=>nrel_main_idtf:
+[Персональный состав кафедры ЭКОЛ](*<-lang_ru;;*);
+[personal composition of the ECOL](*<-lang_en;;*);; 
+
+
+header_of_ecol <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://../../../image/ecolog2.jpg";;
+               *);;
+        *);;
+
+
+
+structure_of_ecol <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://../../../image/ecolog1.jpg";;
+               *);;
+        *);;
+
+
+
+
+
+
+
+
+
+ecol_info <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [О кафедре] (* <- lang_ru;; *);;
+	<- sc_task;;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Кафедра экологии образована в соответствии с приказом ректора БГУИР N 209 от 19.07.2006 г. и начала функционировать с 1 сентября 2006 г. Она была выделена из кафедры инженерной психологии и эргономики.
+
+Основной задачей кафедры является обеспечение и проведение учебного и методического процесса по дисциплинам:
+1. Защита населения и объектов от чрезвычайных ситуаций. Радиационная безопасность (ЗН и О от ЧС. РБ);
+2. Основы права (ОП);
+3. Хозяйственное право (ХП);
+4. Основы экологии и энергосбережения (ОЭиЭ);
+5. Основы экологии, энергосбережения и экономика природопользования (ОЭЭиЭП);
+6. Охрана труда (ОТ).
+
+В соответствии с новым образовательным стандартом на кафедре введены две новые дисциплины:
+7. Земля, окружающая среда и ее глобальные изменения;
+8. Безопасность жизнедеятельности человека. ](* <- lang_ru;; *);;
+		*);;
+	*);;
+
+
+
+
+
+
+
+

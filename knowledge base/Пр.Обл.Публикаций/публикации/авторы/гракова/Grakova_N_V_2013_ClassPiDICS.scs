@@ -1,0 +1,34 @@
+//sc_node_not_relation -> publication_Grakova_N_V_2013_ClassPiDICS;;
+
+
+publication_Grakova_N_V_2013_ClassPiDICS => nrel_main_idtf:
+[Гракова Н.В. 2013 - КлассУСУПИС]
+	(*
+	<- lang_ru;;
+	*);
+	[Grakova_N_V_2013_ClassPiDICS] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Grakova_N_V_2013_ClassPiDICS => nrel_name_publication:[Классификация участников системы управления проектированием интеллектуальных систем](*
+	<- lang_ru;;
+	*);;
+
+publication_Grakova_N_V_2013_ClassPiDICS <= nrel_author:
+Grakova_N_V; Zhukov_I_I;;
+
+publication_Grakova_N_V_2013_ClassPiDICS <- article;;
+
+publication_Grakova_N_V_2013_ClassPiDICS => nrel_reference_standard: [Жуков И.И., Гракова Н.В., Классификация участников системы управления проектированием интеллектуальных систем. Дистанционное обучение-образовательная среда 21 века (Минск, 5-6 декабря 2013года).-с.203-204];;
+
+publication_Grakova_N_V_2013_ClassPiDICS => nrel_year_publication: 2013;;
+
+publication_Grakova_N_V_2013_ClassPiDICS => nrel_information_publication:  Materials_of_Distance_learning_and_educational_environment_of_the_21st_century_2013;;
+
+publication_Grakova_N_V_2013_ClassPiDICS => nrel_number_page: ..2013_ClassPiDICS(*
+-> rrel_from : 203;;
+-> rrel_by : 204;;
+*);;
+
+

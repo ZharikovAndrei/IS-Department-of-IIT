@@ -1,0 +1,29 @@
+//sc_node_not_relation -> publication_Kachkov_V_P_1975_InputOCES1020;;
+
+
+publication_Kachkov_V_P_1975_InputOCES1020 => nrel_main_idtf:
+[Качков В.П.1975 - КаналВВЭВМЕС1020]
+	(*
+	<- lang_ru;;
+	*);
+	[Kachkov_V_P_1975_InputOCES1020]
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Kachkov_V_P_1975_InputOCES1020 => nrel_name_publication:[Каналы ввода-вывода ЭВМ ЕС-1020] (*
+	<- lang_ru;;
+	*);;
+
+publication_Kachkov_V_P_1975_InputOCES1020 <= nrel_author:
+Kachkov_V_P; Abrajevich_R_I; Averyanova_R_M;;
+
+publication_Kachkov_V_P_1975_InputOCES1020 <- article;;
+
+publication_Kachkov_V_P_1975_InputOCES1020 => nrel_reference_standard: [Абражевич Р.И., Аверьянова Р.М., Качков В.П. и др. Каналы ввода-вывода ЭВМ ЕС-1020. М.:Статистика, 1975];;
+
+publication_Kachkov_V_P_1975_InputOCES1020 => nrel_year_publication: 1975;;
+
+publication_Kachkov_V_P_1975_InputOCES1020 => nrel_information_publication:  statistics;;
+
+

@@ -1,0 +1,16 @@
+personal_composition_of_socio_educational_and_psychological_service=>nrel_main_idtf:
+	[персональный состав социально-педагогической и психологической службы] (*<-lang_ru;;*);
+	[personal composition of socio-educational and psychological service](*<-lang_en;;*);; 
+
+personal_composition_of_socio_educational_and_psychological_service=>nrel_idtf:
+	[персональный состав СППС] (*<-lang_ru;;*);
+	[personal composition of SEPS](*<-lang_en;;*);; 
+
+
+
+personal_composition_of_socio_educational_and_psychological_service->rrel_chief_of_socio_educational_and_psychological_service: Kazak_Tamara_Vladimirovna;
+																								 rrel_educational_psychologist: Dumacheva_Elena_Alexandrovna; Yufa_Svetlana_Vitalievna; Turovec_Elena_Alexandrovna;
+																								 rrel_educational_psychologist_of_the_2nd_category: Kapustina_Natalia_Anatolievna;
+																								 rrel_social_educator: Shinkevich_Viktoria_Valerievna; Skvorcova_Elena_Alexandrovna;
+																								 rrel_educational_psychologist_master: Kuchinskaya_Natalia_Leonidovna;;
+

@@ -1,0 +1,33 @@
+//sc_node_not_relation -> publication_Golenkov_V_V_2010_HardwSNaBoIP;;
+
+
+publication_Golenkov_V_V_2010_HardwSNaBoIP => nrel_main_idtf:
+[Голенков В.В.2010 - АппарПОСиОЗИ]
+	(*
+	<- lang_ru;;
+	*);
+	[Golenkov_V_V_2010_HardwSNaBoIP]
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Golenkov_V_V_2010_HardwSNaBoIP => nrel_name_publication:[Аппаратное и программное обеспечение сетей и основы защиты информации](*
+	<- lang_ru;;
+	*);;
+
+publication_Golenkov_V_V_2010_HardwSNaBoIP <= nrel_author:
+Golenkov_V_V; Kolb_D_G; Ivashenko_V_P;;
+
+publication_Golenkov_V_V_2010_HardwSNaBoIP <- article;;
+
+publication_Golenkov_V_V_2010_HardwSNaBoIP => nrel_reference_standard: [Голенков В.В., Колб Д.Г., Ивашенко В.П. «Аппаратное и программное обеспечение сетей и основы защиты информации»: Учеб.-метод. пособие (с грифом УМО) Минск ,БГУИР,2010, 110с  ];;
+
+publication_Golenkov_V_V_2010_HardwSNaBoIP => nrel_year_publication: 2010;;
+
+publication_Golenkov_V_V_2010_HardwSNaBoIP => nrel_information_publication: uchebno_handbook_for_students_Hardware_and_software_networks_and_bases_of_information_protection;;
+
+publication_Golenkov_V_V_2010_HardwSNaBoIP => nrel_number_page: ..2010_HardwSNaBoIP(*
+-> rrel_from : 110;;
+-> rrel_by : 110;;
+*);;
+

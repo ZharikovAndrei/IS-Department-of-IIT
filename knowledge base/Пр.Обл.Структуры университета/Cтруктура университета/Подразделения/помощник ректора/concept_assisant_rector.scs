@@ -1,0 +1,26 @@
+sc_node_not_relation -> concept_assisant_rector;; 
+concept_assisant_rector=> nrel_main_idtf:[Помощник ректора] (* <-lang_ru;; *);;
+concept_assisant_rector=> nrel_main_idtf:[Assisant rector] (* <-lang_en;; *);;
+concept_assisant_rector<- rrel_key_sc_element:
+	... 
+	(*<-sc_definition;;
+     =>nrel_main_idtf:[Опр.(совет университета)](*<-lang_ru;;*);;
+     <=nrel_using_constants:...(*->nrel_university;; *);;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[ Помощник ректора - должностное лицо, обеспечивающее помощь ректору в исполнении его обязанностей, во взаимодействии с другими физическими и юридическими лицами.](* <- lang_ru;; *);;
+		*);;
+*);;
+concept_assisant_rector <- rrel_key_sc_element:
+	... 
+	(*<-sc_statement;;
+     =>nrel_main_idtf:[Утв.(университет, состав*,ректор)](*<-lang_ru;;*);;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Помощник ректора - должностное лицо, обеспечивающее помощь ректору в исполнении его обязанностей, во взаимодействии с другими физическими и юридическими лицами.](* <- lang_ru;; *);;
+		*);;
+	*);;

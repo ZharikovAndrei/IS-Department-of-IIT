@@ -1,0 +1,33 @@
+Pronkul_Svetlana_Yurievna=>nrel_main_idtf:
+[Пронкуль Светлана Юрьевна](*<-lang_ru;;*);
+[Pronkul Svetlana Yurievna](*<-lang_en;;*);;
+
+Pronkul_Svetlana_Yurievna -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [+375 17 293-85-73];;*)
+   ;;*)
+   ;; 
+
+Pronkul_Svetlana_Yurievna -> rrel_work_place: aud_118_1;;
+
+Pronkul_Svetlana_Yurievna -> rrel_email:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [edu@bsuir.by](*<-lang_ru;;*)
+   ;;*)
+   ;;*)
+   ;; 
+
+
+Pronkul_Svetlana_Yurievna <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://Pronkul.jpg";;
+               *);;
+        *);;

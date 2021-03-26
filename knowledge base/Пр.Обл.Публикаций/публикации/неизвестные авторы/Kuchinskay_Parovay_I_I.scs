@@ -1,0 +1,11 @@
+//sc_node_not_relation -> Kuchinskay_Parovay_I_I;;
+
+Kuchinskay_Parovay_I_I => nrel_main_idtf:
+[Кучинская-Паровая И.И.]
+	(*
+	<- lang_ru;;
+	*);
+	[Kuchinskay-Parovaya I.I.]
+	(*
+	<- lang_en;;
+	*);;

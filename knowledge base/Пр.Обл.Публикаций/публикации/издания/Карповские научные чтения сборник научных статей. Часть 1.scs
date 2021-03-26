@@ -1,0 +1,23 @@
+Karpovskiy_scientific_readings_a_collection_of_scientific_articles_part1=> nrel_main_idtf:
+[Карповские научные чтения: сборник научных статей. Часть 1]
+	(*
+	<- lang_ru;;
+	*);
+[Karpovskiy scientific readings: a collection of scientific articles. Part 1]
+	(*
+	<- lang_en;;
+	*);;
+Karpovskiy_scientific_readings_a_collection_of_scientific_articles_part1 => nrel_publishing:
+belarusian_printing_house;;
+
+Karpovskiy_scientific_readings_a_collection_of_scientific_articles_part1 => nrel_place_publication: minsk;;
+
+belarusian_printing_house => nrel_main_idtf:
+[Белорусский Дом печати]
+	(*
+	<- lang_ru;;
+	*);
+	[Belarusian Printing House]
+	(*
+	<- lang_en;;
+	*);;

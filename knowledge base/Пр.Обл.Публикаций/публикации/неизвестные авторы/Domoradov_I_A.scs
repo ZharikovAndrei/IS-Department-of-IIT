@@ -1,0 +1,11 @@
+//sc_node_not_relation -> Domoradov_I_A;;
+
+Domoradov_I_A => nrel_main_idtf:
+[Доморадов И.Я.]
+	(*
+	<- lang_ru;;
+	*);
+	[Domoradov I.A.]
+	(*
+	<- lang_en;;
+	*);;

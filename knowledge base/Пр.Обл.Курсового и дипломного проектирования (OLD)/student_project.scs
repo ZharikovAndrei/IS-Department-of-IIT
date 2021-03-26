@@ -1,0 +1,10 @@
+sc_node_not_relation -> student_project;;
+
+student_project => nrel_main_idtf: [студенческий проект] (*<- lang_ru;;*);;
+student_project => nrel_main_idtf: [student project] (*<- lang_en;;*);;
+
+student_project <- rrel_key_sc_element: ...
+                                  (* <- concept_sc_defenition;;
+ 							   <= nrel_sc_text_translation: ... (*-> [Студенческий проект - временное предприятие, основной рабочей силой которого являются студенты, предназначенное для создания уникального продукта или услуги.] (*<- lang_ru;;*);; *);;
+                                      => nrel_main_idtf: [Опр. (студенческий проект)] (*<- lang_ru;;*);;
+                                  *);;

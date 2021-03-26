@@ -1,0 +1,20 @@
+publication_Grakova_N_V_2015_ProgrPoIS=> nrel_main_idtf:
+[Гракова Н.В. 2015 - ПроекПвИС]
+	(*
+	<- lang_ru;;
+	*);
+	[Grakova_N_V_2015_ProgrPoIS] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Grakova_N_V_2015_ProgrPoIS => nrel_name_publication:[Проектирование программ в интеллектуальных системах (учебное пособие по выполнению курсовой работы)](*<- lang_ru;;*);;
+
+publication_Grakova_N_V_2015_ProgrPoIS <= nrel_author:
+Grakova_N_V;Golenkov_V_V;Davydenko_I_T;Gulyakina_N_A;Zhukov_I_I;;
+
+publication_Grakova_N_V_2015_ProgrPoIS <- tutorial;;
+
+publication_Grakova_N_V_2015_ProgrPoIS => nrel_reference_standard: [Голенков В.В., Гулякина Н.А., Гракова Н.В., Давыденко И.Т., Жуков И.И.  Проектирование программ в интеллектуальных системах (учебное пособие по выполнению курсовой работы) // УО «Белорусский государственный университет  информатики и радиоэлектроники», Минск, 2015. – Принято в печать  ];;
+
+publication_Grakova_N_V_2015_ProgrPoIS => nrel_year_publication: 2015;;

@@ -1,0 +1,30 @@
+publication_Koronchik_D_N_2009_SemanTDUIIS => nrel_main_idtf:
+[Корончик Д.Н.2009 - СеманТППИИС]
+	(*
+	<- lang_ru;;
+	*);
+	[Koronchik_D_N_2009_SemanTDUIIS] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Koronchik_D_N_2009_SemanTDUIIS => nrel_name_publication:[Семантическая технология проектирования пользовательских интерфейсов интеллектуальных систем](*
+	<- lang_ru;;
+	*);;
+
+publication_Koronchik_D_N_2009_SemanTDUIIS <= nrel_author:
+Koronchik_D_N;;
+
+publication_Koronchik_D_N_2009_SemanTDUIIS <- article;;
+
+publication_Koronchik_D_N_2009_SemanTDUIIS => nrel_reference_standard: [Д.Н. Корончик Семантическая технология проектирования пользовательских интерфейсов интеллектуальных систем. 
+//Информационные системы и технологии (IST’2009): материалы V Междунар. конф.-форума в 2-х ч. Ч.2 – Минск: А.Н.Вараксин, 2009.- с.155-158.  ];;
+
+publication_Koronchik_D_N_2009_SemanTDUIIS => nrel_year_publication: 2009;;
+
+publication_Koronchik_D_N_2009_SemanTDUIIS => nrel_information_publication: Proceedings_of_the_international_conference_forum_IST_2009;;
+
+publication_Koronchik_D_N_2009_SemanTDUIIS => nrel_number_page: ..2009_SemanTDUIIS(*
+-> rrel_from : 155;;
+-> rrel_by : 158;;
+*);;

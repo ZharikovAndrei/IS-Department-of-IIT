@@ -1,0 +1,11 @@
+personal_composition_of_center_of_information_and_innovations=>nrel_main_idtf:
+	[персональный состав центра информатизации и инновационных разработок БГУИР] (*<-lang_ru;;*);
+	[personal composition of BSUIR center of information and innovations](*<-lang_en;;*);; 
+personal_composition_of_center_of_information_and_innovations=>nrel_idtf:
+	[персональный состав ЦИИР БГУИР] (*<-lang_ru;;*);
+	[personal composition of BSUIR CII](*<-lang_en;;*);; 
+
+personal_composition_of_center_of_information_and_innovations->rrel_head_of_center_of_information_and_innovations: Migalevich_Sergei_Alexandrovich;
+rrel_deputy_head_for_the_operation_of_technical_means: Demidyuk_Eugene_Mikhaylovich;
+rrel_deputy_head_for_the_development_and_operation_of_the_software: Vladimirov_Gennady_Vasilevich;;
+

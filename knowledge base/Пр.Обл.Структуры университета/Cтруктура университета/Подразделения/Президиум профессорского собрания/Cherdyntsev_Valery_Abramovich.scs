@@ -1,0 +1,12 @@
+Cherdyntsev_Valery_Abramovich=>nrel_main_idtf:
+[Чердынцев Валерий Аркадьевич](*<-lang_ru;;*);
+[Cherdyntsev Valery Abramovich](*<-lang_en;;*);;
+
+Cherdyntsev_Valery_Abramovich -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [+375 17 293-88-96];;*)
+   ;;*);;
+
+Cherdyntsev_Valery_Abramovich -> rrel_work_place: aud_336_1;;
+Cherdyntsev_Valery_Abramovich <- person;;

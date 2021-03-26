@@ -1,0 +1,7 @@
+section_of_specialization_university_structure=>nrel_main_idtf:
+[Раздел. Предметная область структуры университета](*<-lang_ru;;*);
+[Section. Specialization university structure](*<-lang_en;;*);;
+
+section_of_specialization_university_structure = [*^"file://subject_domain_of_university_structure.scsi"*];;
+
+

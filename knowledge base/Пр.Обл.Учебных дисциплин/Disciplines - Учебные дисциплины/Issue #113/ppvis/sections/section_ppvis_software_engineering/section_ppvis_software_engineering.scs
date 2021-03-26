@@ -1,0 +1,11 @@
+section_ppvis_software_engineering
+=> nrel_main_idtf:
+	[Раздел. ППВиС. Программная инженерия]
+	(* <- lang_ru;; *);
+	[Section. PDiIS. Software Engineering]
+	(* <- lang_en;; *);
+
+=> nrel_idtf:
+	[Раздел базы знаний проектирования программ в интеллектуальных системах, описывающий программную инженерию]
+	(* <- lang_ru;; *);
+<- not_enough_formed_structure;;

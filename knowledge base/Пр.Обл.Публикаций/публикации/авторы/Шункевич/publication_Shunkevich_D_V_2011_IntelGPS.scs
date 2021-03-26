@@ -1,0 +1,29 @@
+publication_Shunkevich_D_V_2011_IntelGPS => nrel_main_idtf:
+[Шункевич Д.В. 2011 - ИнтелРГЗ]
+	(*
+	<- lang_ru;;
+	*);
+	[Shunkevich_D_V_2011_IntelGPS] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Shunkevich_D_V_2011_IntelGPS => nrel_name_publication:[Интеллектуальный решатель геометрических задач](*
+	<- lang_ru;;
+	*);;
+
+publication_Shunkevich_D_V_2011_IntelGPS <= nrel_author:
+Shunkevich_D_V;Zalivako_S_S;Savelieva_O_U;Starcev_S_S;;
+
+publication_Shunkevich_D_V_2011_IntelGPS <- article;;
+
+publication_Shunkevich_D_V_2011_IntelGPS => nrel_reference_standard: [Заливако C.C., Савельева О.Ю., Старцев С.С., Шункевич Д.В. «Интеллектуальный решатель геометрических задач». Сборник научных трудов международной летней школы-семинара по искусственному интеллекту для студентов, аспирантов, молодых ученых «Интеллектуальные системы и технологии: современное состояние и перспективы» ISyT’2011. Тверь-Протасово. с. 280-287.  ];;
+
+publication_Shunkevich_D_V_2011_IntelGPS => nrel_year_publication: 2011;;
+
+publication_Shunkevich_D_V_2011_IntelGPS => nrel_information_publication: Collection_of_scientific_works_of_the_international_summer_school_seminar_on_artificial_intelligence_for_students_graduate_students_and_young_scientists_Intelligent_Systems_and_Technology_Current_State_and_Prospects_ISyT2011;;
+
+publication_Shunkevich_D_V_2011_IntelGPS => nrel_number_page: ..2011_IntelGPS (*
+-> rrel_from : 280;;
+-> rrel_by : 287;;
+*);;

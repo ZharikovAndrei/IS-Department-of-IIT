@@ -1,0 +1,28 @@
+//sc_node_not_relation -> publication_Golenkov_V_V_2011_DataAiCSBoPN;;
+
+
+publication_Golenkov_V_V_2011_DataAiCSBoPN => nrel_main_idtf:
+[Голенков В.В.2011 - АналДвССнОСП]
+	(*
+	<- lang_ru;;
+	*);
+	[Golenkov_V_V_2011_DataAiCSBoPN]
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Golenkov_V_V_2011_DataAiCSBoPN => nrel_name_publication:[Анализ данных в сложных системах на основе сетей петри](*
+	<- lang_ru;;
+	*);;
+
+publication_Golenkov_V_V_2011_DataAiCSBoPN <= nrel_author:
+Golenkov_V_V; Kravchenko_U_A; Gulyakina_N_A; Markov_V_V;;
+
+publication_Golenkov_V_V_2011_DataAiCSBoPN <- article;;
+
+publication_Golenkov_V_V_2011_DataAiCSBoPN => nrel_reference_standard: [Кравченко Ю.А., Марков В.В., Голенков В.В., Гулякина Н.А. Анализ данных в сложных системах на основе сетей петри // Электронный журнал. Информатика, вычислительная техника и инженерное образование. Св. № ФС77-39729 от 29.04.2010г. – Таганрог: ТТИ ЮФУ, 2011.];;
+
+publication_Golenkov_V_V_2011_DataAiCSBoPN => nrel_year_publication: 2011;;
+
+publication_Golenkov_V_V_2011_DataAiCSBoPN => nrel_information_publication: Electronic_journal_Informatics_Computer_Science_and_Engineering_Education;;
+

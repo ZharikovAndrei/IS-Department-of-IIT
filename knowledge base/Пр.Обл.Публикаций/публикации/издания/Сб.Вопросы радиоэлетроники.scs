@@ -1,0 +1,13 @@
+//
+//sc_node_not_relation -> collection_of_questions_electronics_1990;;
+
+
+collection_of_questions_electronics_1990 => nrel_main_idtf:
+[Сб. "Вопросы радиоэлетроники"]
+	(*
+	<- lang_ru;;
+	*);
+	[Collection of questions electronics]
+	(*
+	<- lang_en;;
+	*);;

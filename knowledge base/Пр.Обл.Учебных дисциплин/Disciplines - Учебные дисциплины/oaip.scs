@@ -1,0 +1,12 @@
+basics_of_algorithms_and_programming
+=>nrel_main_idtf: [Основы алгоритмизации и программирования] (*<-lang_ru;;*);
+=>nrel_main_idtf: [Basics of algorithms and programming] (*<-lang_en;;*);
+<=nrel_trains: the_department_of_numerical_methods_and_programming;
+<=nrel_class_number: 1(* <-positive_number;;*);
+<=nrel_semester_number: 1(* <-positive_number;;*);
+<=nrel_semester_number: 2(* <-positive_number;;*);
+<=nrel_lecture_hours: 68(*<-positive_number;;*);
+<=nrel_labs_hours: 68(*<-positive_number;;*);
+<=nrel_component: concept_mandatory_component;
+<=nrel_cycle: concept_tsikl_obshcheprofessionalnykh_i_spetsialnykh_distsiplin;;
+

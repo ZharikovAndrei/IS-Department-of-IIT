@@ -1,0 +1,11 @@
+sc_node_norole_relation -> nrel_reference_standard;; 
+
+nrel_reference_standard => nrel_main_idtf:[ссылка по стандарту*] (* <-lang_ru;; *);;
+
+nrel_reference_standard => nrel_main_idtf:[reference standard*] (* <-lang_en;; *);;
+
+nrel_reference_standard=>nrel_first_domain:concept_publication;;
+
+nrel_reference_standard=>nrel_second_domain:concept_link;;
+
+nrel_reference_standard=>nrel_definitional_domain:...(* <=nrel_combination:...(*->concept_publication;; ->concept_link;;*) ;; *);;

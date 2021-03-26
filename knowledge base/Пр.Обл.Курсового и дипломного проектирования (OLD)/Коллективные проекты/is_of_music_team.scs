@@ -1,0 +1,5 @@
+is_of_music_team 
+ <- team;
+ => nrel_main_idtf: [Команда интеллектуальной справочной системы по музыке] (* <- lang_ru;; *);
+ -> rrel_scintific_consultant: Ivashenko_V_P;
+ -> Maiorov_Alexandr_Evgenievich; Sitkevich_Roman_Alexandrovich; Siluk_Alexandr_Konstantinovich; Milko_Daria_Alexandrovna; Pinchyk_Ekaterina_Aleksandrovna;;

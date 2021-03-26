@@ -1,0 +1,17 @@
+nrel_customer
+	<- sc_node_norole_relation;
+	=> nrel_main_idtf:[заказчик*](*<-lang_ru;;*);
+	=> nrel_main_idtf:[customer*](*<-lang_en;;*);
+	=>nrel_first_domain:project;
+	=>nrel_second_domain:person;
+	=>nrel_definitional_domain:...(* <=nrel_combination:...(*->course_project;person;;*) ;; *);
+->rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> [лицо, заинтересованное в выполнении исполнителем работ, оказании им услуг или приобретении у продавца какого-либо продукта .] (* <-lang_ru;; *);; 
+		*);;
+	*);;

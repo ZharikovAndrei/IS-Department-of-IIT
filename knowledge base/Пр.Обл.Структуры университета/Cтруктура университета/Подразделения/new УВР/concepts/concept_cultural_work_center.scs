@@ -1,0 +1,19 @@
+sc_node_not_relation->concept_cultural_work_center;;
+
+concept_cultural_work_center=>nrel_main_idtf:
+[центр культурно-массовой работы](*<-lang_ru;;*);
+[cultural work center](*<-lang_en;;*);; 
+
+concept_cultural_work_center<-rrel_key_sc_element:
+...
+(*
+=>nrel_main_idtf:[Опр.(центр культурно-массовой работы)](*<-lang_ru;;*);;
+<-sc_definition;;
+<=nrel_sc_text_translation:
+...	
+(*
+->rrel_example:
+[Центр культурно-массовой работы организует культурный досуг, способствует созданию благоприятных условий для развития самодеятельного творчества, художественных и интеллектуальных
+способностей молодежи, курирует работу творческих коллективов университета, а также занимается организацией культурно-массовых мероприятий.](*<-lang_ru;;*);;
+*);;
+*);;

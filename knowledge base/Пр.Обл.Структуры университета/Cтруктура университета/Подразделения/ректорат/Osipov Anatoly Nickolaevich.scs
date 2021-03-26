@@ -1,0 +1,36 @@
+Osipov_Anatoly_Nickolaevich=>nrel_main_idtf:
+[Осипов Анатолий Николаевич](*<-lang_ru;;*);
+[Ospipov Anatoly Nickolaevich](*<-lang_en;;*);;
+
+Osipov_Anatoly_Nickolaevich -> rrel_email:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [osipov@bsuir.by](*<-lang_en;;*)
+   ;;*)
+   ;;*)
+   ;; 
+
+Osipov_Anatoly_Nickolaevich -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [+375 17 292-42-51];
+ [+375 17 293-23-51];;*)
+   ;;*)
+   ;; 
+
+Osipov_Anatoly_Nickolaevich -> rrel_work_place: aud_220_1;;
+
+Osipov_Anatoly_Nickolaevich <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://osipov.jpg";;
+               *);;
+        *);;
+Osipov_Anatoly_Nickolaevich<-person;;
+
+

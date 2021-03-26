@@ -1,0 +1,18 @@
+Vostik_Viktor_Petrovich=>nrel_main_idtf:
+[Востик Виктор Петрович](*<-lang_ru;;*);
+[Vostik Viktor Petrovich](*<-lang_en;;*);;
+
+Vostik_Viktor_Petrovich -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [+375 17 293-80-86];;*)
+   ;;*)
+   ;; 
+
+Vostik_Viktor_Petrovich -> rrel_work_place:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [ул. Гикало, 9а];;*)
+   ;;*)
+   ;; 
+Vostik_Viktor_Petrovich <- person;;

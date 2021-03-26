@@ -1,0 +1,86 @@
+the_department_of_economics=>nrel_main_idtf:
+[Кафедра экономики](*<-lang_ru;;*);
+[the department of economics](*<-lang_en;;*);;
+
+the_department_of_economics=>nrel_idtf:[ЭКОН](*<-lang_ru;;*);;
+the_department_of_economics=>nrel_idtf:[ECON](*<-lang_en;;*);;
+
+
+
+pers_comp_of_ec -> rrel_head_of_department: header_of_ec;;
+
+the_department_of_economics => nrel_info: ec_info;;
+
+the_department_of_economics => nrel_pers_comp: pers_comp_of_ec;;
+
+
+
+
+
+
+header_of_ec=>nrel_main_idtf:
+[Пархименко Владимир Анатольевич](*<-lang_ru;;*);
+[Parhimenko Vladimir Anatol'evich](*<-lang_en;;*);;
+
+
+
+ec_info=>nrel_main_idtf:
+[информация о кафедре ЭКОН](*<-lang_ru;;*);
+[the information about the department of ECON](*<-lang_en;;*);; 
+
+
+pers_comp_of_ec=>nrel_main_idtf:
+[персональный состав кафедры ЭКОН](*<-lang_ru;;*);
+[the personal composition of the department of ECON](*<-lang_en;;*);; 
+
+
+
+
+
+header_of_ec <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://../../../image/ec2.JPG";;
+               *);;
+        *);;
+
+
+
+pers_comp_of_ec <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://../../../image/ec1.jpg";;
+               *);;
+        *);;
+
+
+
+
+
+
+
+
+
+ec_info <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [О кафедре] (* <- lang_ru;; *);;
+	<- sc_task;;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Кафедра осуществляет обучение студентов всех специальностей БГУИР по дисциплинам экономического профиля дневной, заочной и дистанционной форм обучения.
+Среди читаемых учебных дисциплин: бухгалтерский учёт, анализ и аудит, деньги, кредит, банки, интерактивный маркетинг и электронная коммерция, макроэкономика, маркетинговые исследования, маркетинговые коммуникации, международный маркетинг, микро-макроэкономика, микроэкономика, международная экономика, оптимизация маркетинговых решений, прогнозирование и планирование в экономике, статистика, стратегический маркетинг, финансы предприятия, ценообразование, экономика предприятия, экономическая теория, анализ хозяйственной деятельности. ](* <- lang_ru;; *);;
+		*);;
+	*);;

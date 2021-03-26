@@ -1,0 +1,27 @@
+Ilyin_Victor_Makarovich=>nrel_main_idtf:
+[Ильин Виктор Макарович](*<-lang_ru;;*);
+[Ilyin Victor Makarovich](*<-lang_en;;*);;
+
+honorary_rector_of_the_BSUIR -> Ilyin_Victor_Makarovich;;
+
+Ilyin_Victor_Makarovich -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+ [+375 17 293-84-08];
+ [+375 17 293-84-08];;*)
+   ;;*)
+   ;;
+
+Ilyin_Victor_Makarovich -> rrel_work_place: aud_226_1;;
+
+Ilyin_Victor_Makarovich <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example:
+                       "file://Ilyin.jpg";;
+               *);;
+        *);;

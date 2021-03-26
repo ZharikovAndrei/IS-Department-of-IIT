@@ -1,0 +1,26 @@
+sc_node_not_relation -> electronic_edition;;
+
+electronic_edition => nrel_main_idtf:
+[электронное издание]
+	(*
+	<- lang_ru;;
+	*);
+	[electronic edition] 
+	(*
+	<- lang_en;;
+	*);;
+
+electronic_edition <- rrel_key_sc_element: 
+        ...
+	(*
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[электронное издание – издание, для использования которого необходимы средства вычислительной техники]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;
+
+electronic_edition <- edition;;

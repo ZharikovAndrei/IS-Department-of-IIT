@@ -1,0 +1,9 @@
+military_accounting_sector_bsuir=>nrel_main_idtf:
+[военно-учетный сектор БГУИР](*<-lang_ru;;*);
+[military accounting sector bsuir](*<-lang_en;;*);;
+
+military_accounting_sector_bsuir<-concept_military_accounting_sector;;
+
+
+military_accounting_sector_bsuir=>nrel_pers_comp:pers_comp_military_accounting_sector_bsuir;;
+

@@ -1,0 +1,24 @@
+sc_node_not_relation->concept_center_of_information_and_innovations;;
+
+concept_center_of_information_and_innovations=>nrel_main_idtf:
+[центр информатизации и инновационных разработок](*<-lang_ru;;*);
+[center of information and innovations](*<-lang_en;;*);; 
+
+concept_center_of_information_and_innovations=>nrel_idtf:
+[ЦИИР](*<-lang_ru;;*);
+[CII](*<-lang_en;;*);; 
+
+
+concept_center_of_information_and_innovations<-rrel_key_sc_element:
+...
+(*
+=>nrel_main_idtf:[Опр.(центр информатизации и инновационных разработок)](*<-lang_ru;;*);;
+<-sc_definition;;
+<=nrel_sc_text_translation:
+...
+(*
+->rrel_example:
+[Центр информатизации и инновационных разработок создан для решения новых задач информатизации, а также в целях обеспечения
+ своевременного и полного выполнения перспективного плана разработки и внедрения информационных технологий в университете.](*<-lang_ru;;*);;
+*);;
+*);;

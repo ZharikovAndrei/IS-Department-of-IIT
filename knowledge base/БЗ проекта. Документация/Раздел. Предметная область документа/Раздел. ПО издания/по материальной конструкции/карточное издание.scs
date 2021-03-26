@@ -1,0 +1,26 @@
+sc_node_not_relation -> card_edition;;
+
+card_edition => nrel_main_idtf:
+[карточное издание]
+	(*
+	<- lang_ru;;
+	*);
+	[card edition] 
+	(*
+	<- lang_en;;
+	*);;
+
+card_edition <- rrel_key_sc_element: 
+        ...
+	(*
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[карточное издание —  листовое издание в виде в виде карточки установленного формата]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;
+
+//sheet_edition -> card_edition;;

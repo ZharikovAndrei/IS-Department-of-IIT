@@ -1,0 +1,34 @@
+accounts_department_of_youth_center_bsuir=>nrel_main_idtf:
+[бухгалтерия ОСП "Молодежный центр" БГУИРа](*<-lang_ru;;*);
+[accounts department of OSB "Youth center" bsuir](*<-lang_en;;*);; 
+accounts_department_of_youth_center_bsuir -> nrel_address:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [Минск, ул. П. Бровки, 4, каб. 421];;*)
+   ;;*)
+   ;; 
+accounts_department_of_youth_center_bsuir -> rrel_email:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [ 77777mc@gmail.com](*<-lang_en;;*)
+   ;;*)
+   ;;*)
+   ;; 
+
+accounts_department_of_youth_center_bsuir -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [+375 17 293-88-72];;*)
+   ;;*)
+   ;; 
+accounts_department_of_youth_center_bsuir <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://adbsuir.jpg";;
+               *);;
+        *);;

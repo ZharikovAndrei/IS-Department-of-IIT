@@ -1,0 +1,33 @@
+Kapustina_Natalia_Anatolievna=>nrel_main_idtf:
+[Капустина Наталья Анатольевна](*<-lang_ru;;*);
+[Kapustina Natalia Anatolievna](*<-lang_en;;*);;
+
+Kapustina_Natalia_Anatolievna -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+ [+375 17 293-85-76];;*)
+   ;;*)
+   ;;
+
+Kapustina_Natalia_Anatolievna -> rrel_work_place: aud_324a_4;;
+
+Kapustina_Natalia_Anatolievna -> rrel_email:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+ [kapustina@bsuir.by](*<-lang_ru;;*)
+   ;;*)
+   ;;*)
+   ;;
+
+
+Kapustina_Natalia_Anatolievna <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example:
+                       "file://Kapustina.jpg";;
+               *);;
+        *);;

@@ -1,0 +1,23 @@
+sc_node_not_relation->concept_secrecy_department;;
+
+concept_secrecy_department=>nrel_main_idtf:
+[режимно-секретный отдел](*<-lang_ru;;*);
+[secrecy department](*<-lang_en;;*);; 
+
+
+
+
+concept_secrecy_department<-rrel_key_sc_element:
+...
+(*
+=>nrel_idtf:[Опр.(режимно-секретный отдел)](*<-lang_ru;;*);;
+<-sc_definition;;
+<=nrel_sc_text_translation:
+...
+(*
+->rrel_example:
+[Режимно-секретный отдел - отдел организациях, осуществляющий контроль за секретным делопроизводством, обеспечением режима секретности, сохранностью секретных документов.](*<-lang_ru;;*);;
+*);;
+*);;
+concept_secrecy_department=> nrel_inclusion:concept_military_accounting_sector;; 
+

@@ -1,0 +1,21 @@
+audience
+=> nrel_main_idtf:
+	[аудитория] (* <-lang_ru;; *);
+-> rrel_key_sc_element:
+	...
+	(*
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> [аудитория - помещение для проведения занятий по учебным дисциплинам.] (* <-lang_ru;; *);;
+		*);;
+	*);
+-> aud_612a_5; aud_612_5; aud_610_5; aud_609_5; aud_608_5; aud_607_5; aud_606c_5; aud_606b_5; aud_606a_5; aud_606_5; aud_612b_5;
+aud_208_2; aud_308_4; aud_214_1; aud_241_1; aud_209_2; aud_107_2; aud_224_1; aud_411_2; aud_109_1; aud_407_2; aud_213_2;
+aud_116_1; aud_422_2; aud_207_2; aud_308_2; aud_118_1; aud_324a_4; aud_01_6; aud_421_2; aud_124_1; aud_217_1; aud_105_2;
+aud_221_1; aud_324b_4; aud_415_2; aud_402_2; aud_226_1; aud_303_2; aud_412_2; aud_324_4; aud_211_2; aud_201b_5; aud_403_2;
+aud_406_2; aud_312_2; aud_302c_5; aud_409_2; aud_111_1; aud_102_7; aud_239_1; aud_315_2; aud_416_2; aud_225_1; aud_223_1;
+aud_101_3; aud_310_2; aud_307_2; aud_204_2; aud_501_2; aud_43_1; aud_220_1; aud_305_2; aud_233_1; aud_336_1; aud_317a_4;
+aud_301_2; aud_312_5; aud_210_2; aud_413_2; aud_231_1;
+=> nrel_inclusion: labory_room;;

@@ -1,0 +1,32 @@
+//Шункевич Д.В. Семантические модели и средства компонентного проектирования машин обработки знаний. Журнал «Электроника Инфо» 2013 №11 – с.27-30
+publication_Shunkevich_D_V_2013_SemanMaToKPMCD => nrel_main_idtf:
+[Шункевич Д.В. 2013 - СеманМиСКПМОЗ]
+	(*
+	<- lang_ru;;
+	*);
+	[Shunkevich_D_V_2013_SemanMaToKPMCD ] //Semantic models and tools of knowledge processing machines Component design
+
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Shunkevich_D_V_2013_SemanMaToKPMCD => nrel_name_publication:[Семантические модели и средства компонентного проектирования машин обработки знаний.](*
+	<- lang_ru;;
+	*);;
+
+publication_Shunkevich_D_V_2013_SemanMaToKPMCD <= nrel_author:
+Shunkevich_D_V;;
+
+publication_Shunkevich_D_V_2013_SemanMaToKPMCD <- article;;
+
+publication_Shunkevich_D_V_2013_SemanMaToKPMCD => nrel_reference_standard: [Шункевич Д.В. Семантические модели и средства компонентного проектирования машин обработки знаний. Журнал «Электроника Инфо» 2013 №11 – с.27-30 ];;
+
+publication_Shunkevich_D_V_2013_SemanMaToKPMCD => nrel_year_publication: 2013;;
+
+publication_Shunkevich_D_V_2013_SemanMaToKPMCD => nrel_information_publication:magazine_Electronics_INFO_11;;
+
+publication_Shunkevich_D_V_2013_SemanMaToKPMCD => nrel_number_page: ..2013_SemanMaToKPMCD   (*
+-> rrel_from : 27;;
+-> rrel_by : 30;;
+*);;
+

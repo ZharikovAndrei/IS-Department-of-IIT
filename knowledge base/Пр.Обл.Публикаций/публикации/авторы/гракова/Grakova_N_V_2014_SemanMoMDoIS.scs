@@ -1,0 +1,30 @@
+publication_Grakova_N_V_2014_SemanMoMDoIS=> nrel_main_idtf:
+[Гракова Н.В. 2014 - СмыслМУПИС]
+	(*
+	<- lang_ru;;
+	*);
+	[Grakova_N_V_2014_SemanMoMDoIS] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Grakova_N_V_2014_SemanMoMDoIS => nrel_name_publication:[Смысловая модель управления проектированием интеллектуальных систем ](*
+	<- lang_ru;;
+	*);;
+
+publication_Grakova_N_V_2014_SemanMoMDoIS <= nrel_author:
+Grakova_N_V;;
+
+publication_Grakova_N_V_2014_SemanMoMDoIS <- article;;
+
+publication_Grakova_N_V_2014_SemanMoMDoIS => nrel_reference_standard: [Гракова Н.В. Смысловая модель управления проектированием интеллектуальных систем // Науч.-практ. журнал для спец. «Электроника ИНФО» - 2014. - №3. – с.55-58  ];;
+
+publication_Grakova_N_V_2014_SemanMoMDoIS => nrel_year_publication: 2014;;
+
+publication_Grakova_N_V_2014_SemanMoMDoIS => nrel_information_publication: magazine_Electronics_INFO_3;;
+
+publication_Grakova_N_V_2014_SemanMoMDoIS => nrel_number_page: ..2014_SemanMoMDoIS(*
+-> rrel_from : 55;;
+-> rrel_by : 58;;
+*);;
+publication_Grakova_N_V_2014_SemanMoMDoIS <- rrel_key_sc_element: ... (* <- sc_explanation;; <= nrel_sc_text_translation: ... (* -> rrel_example: "file://содержимое публикаций/Гракова_Н.В._СмыслМУПИС.pdf";; *);; *);;

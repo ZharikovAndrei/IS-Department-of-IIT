@@ -1,0 +1,16 @@
+//Материалы международной научной конференции ITS’14
+
+//sc_node_not_relation -> Proceedings_of_the_international_scientific_conference_ITS_14;;
+
+Proceedings_of_the_international_scientific_conference_ITS_14 => nrel_main_idtf:
+[Материалы международной научной конференции ITS’14]
+	(*
+	<- lang_ru;;
+	*);
+	[Proceedings_of_the_international_scientific_conference_ITS_14]
+	(*
+	<- lang_en;;
+	*);;
+Proceedings_of_the_international_scientific_conference_ITS_14 => nrel_place_publication: minsk;;
+Proceedings_of_the_international_scientific_conference_ITS_14 => nrel_publishing: bsuir;;
+Proceedings_of_the_international_scientific_conference_ITS_14 <- rrel_key_sc_element: ... (*<- sc_explanation;; <= nrel_sc_text_translation: ... (*-> rrel_example: "file://материалы/Sbornik2014.pdf";; *);; *);;

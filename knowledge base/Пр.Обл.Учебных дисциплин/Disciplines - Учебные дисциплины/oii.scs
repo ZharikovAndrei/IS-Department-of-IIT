@@ -1,0 +1,11 @@
+fundamentals_of_artificial_intelligence
+=>nrel_main_idtf: [Основы искусственного интеллекта] (*<-lang_ru;;*);
+=>nrel_main_idtf: [Fundamentals of artificial intelligence] (*<-lang_en;;*);
+<=nrel_trains: the_department_of_intelligent_informational_technologies;
+<=nrel_class_number: 1(* <-positive_number;;*);
+<=nrel_semester_number: 2(* <-positive_number;;*);
+<=nrel_lecture_hours: 34(*<-positive_number;;*);
+<=nrel_practice_hours: 16(*<-positive_number;;*);
+<=nrel_component: concept_university_component;
+<=nrel_cycle: concept_tsikl_estesstvenno_nauchnykh_distsiplin;;
+

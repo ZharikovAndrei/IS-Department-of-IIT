@@ -1,0 +1,32 @@
+//Голенков В.В., Колб Д.Г., Самодумкин С.А. Пользовательский интерфейс интеллектуальных систем. – Труды Конгресса по интеллектуальным системам и информационным технологиям «AIS-IT’09». Научное издание в 4-х томах. –М.: Физматлит, 2009, Т.1.- с.309 – 316.
+
+publication_Samodumkin_S_A_2009_UserIoIS => nrel_main_idtf:
+[Самодумкин С.А. 2009 - ПользИИС]
+	(*
+	<- lang_ru;;
+	*);
+	[Samodumkin S.A. 2009 UserIoIS] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Samodumkin_S_A_2009_UserIoIS => nrel_name_publication:[Пользовательский интерфейс интеллектуальных систем.](*
+	<- lang_ru;;
+	*);;
+
+publication_Samodumkin_S_A_2009_UserIoIS <= nrel_author:
+Samodumkin_S_A; Golenkov_V_V; Kolb_D_G;;
+
+publication_Samodumkin_S_A_2009_UserIoIS <- article;;
+
+publication_Samodumkin_S_A_2009_UserIoIS => nrel_reference_standard: [Голенков В.В., Колб Д.Г., Самодумкин С.А. Пользовательский интерфейс интеллектуальных систем. – Труды Конгресса по интеллектуальным системам и информационным технологиям «AIS-IT’09». Научное издание в 4-х томах. –М.: Физматлит, 2009, Т.1.- с.309 – 316. ];;
+
+publication_Samodumkin_S_A_2009_UserIoIS => nrel_year_publication: 2009;;
+
+publication_Samodumkin_S_A_2009_UserIoIS => nrel_information_publication: Proceedings_of_the_Congress_on_Intelligent_Systems_and_Information_Technology_AIS_IT09_Scientific_edition_in_4_volumes;;
+
+publication_Samodumkin_S_A_2009_UserIoIS => nrel_number_page: ..2009_UserIoIS(*
+-> rrel_from : 309;;
+-> rrel_by : 316;;
+*);;
+

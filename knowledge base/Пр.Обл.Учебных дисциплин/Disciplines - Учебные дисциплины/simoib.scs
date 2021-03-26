@@ -1,0 +1,112 @@
+simoib
+=>nrel_main_idtf:
+	[Средства и методы обеспечения информационной безопасности] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[Means and methods of information security] (* <-lang_en;; *);
+=>nrel_abbreviation:[СиМОИБ];
+
+<-subject_of_specialization;
+<-special_subject;
+
+<=nrel_decomposition:
+	simoib_part_1
+			(*
+<-multiplicity_of_subjects_taught_in_the_5_term_specialty_artificial_intelligence_specialization_intelligent_computer_technology_of_information_security;;
+			<=nrel_realisation_of_learning_activity:
+
+				lectures_on_simoib_part_1
+					(*=>nrel_main_idtf:
+	[Средства и методы обеспечения информационной безопасности.часть 1.лекции] (* <-lang_ru;; *);;
+	=>nrel_planned_hours:86;;
+					=>nrel_realisation_of_intermediate_control:
+						control_work;;
+						<-lecture;;
+					*);
+				laboratory_work_on_simoib_part_1
+					(*=>nrel_main_idtf:
+					[Средства и методы обеспечения информационной безопасности.часть 1.лабораторный практикум] (* <-lang_ru;; *);;
+					=>nrel_planned_hours:50;;
+					=>nrel_realisation_of_intermediate_control:
+						protection_of_laboratory_work;;
+					<-laboratory_work	;;
+					*);;
+			=>nrel_realisation_of_final_certification:
+				test;;
+			<-rrel_subject:
+				...
+				(*
+				->rrel_realisation_of_learning_activity: lecture;;
+				<-nrel_taught_subject;;
+				->rrel_teacher: Chalev_Evgeniy_Gennadyevich;;
+				*);;
+			<-rrel_subject:
+				...
+				(*
+				->rrel_realisation_of_learning_activity: laboratory_work;;
+				<-nrel_taught_subject;;
+				->rrel_teacher: Lobkovskaya_Nadejda_Pavlovna;;
+				*);;
+			=>nrel_term: 5;;
+			*);
+		simoib_part_2
+		(*
+			<-multiplicity_of_subjects_taught_in_the_6_term_specialty_artificial_intelligence_specialization_intelligent_computer_technology_of_information_security;;
+			<=nrel_realisation_of_learning_activity:
+
+				lectures_on_simoib_part_2
+					(*=>nrel_main_idtf:
+					[Средства и методы обеспечения информационной безопасности.часть 2.лекции] (* <-lang_ru;; *);;
+					=>nrel_planned_hours:86;;
+					=>nrel_realisation_of_intermediate_control:
+						control_work;;
+						<-lecture;;
+					*);
+				laboratory_work_on_simoib_part_2
+					(*=>nrel_main_idtf:
+					[Средства и методы обеспечения информационной безопасности.часть 2.лабораторный практикум] (* <-lang_ru;; *);;
+					=>nrel_planned_hours:34;;
+					=>nrel_realisation_of_intermediate_control:
+						protection_of_laboratory_work;;
+					<-laboratory_work	;;
+					*);
+				practical_lesson_on_simoib_part_2
+					(*=>nrel_main_idtf:
+					[Средства и методы обеспечения информационной безопасности.часть 2.практические занятия] (* <-lang_ru;; *);;
+					=>nrel_planned_hours:8;;
+					=>nrel_realisation_of_intermediate_control:
+						protection_of_practical_work;;
+					<-practical_lesson;;
+					*);;
+			=>nrel_realisation_of_final_certification:
+				exam;;
+			<-rrel_subject:
+				...
+				(*
+				->rrel_realisation_of_learning_activity: lecture;;
+				<-nrel_taught_subject;;
+				->rrel_teacher: Chalev_Evgeniy_Gennadyevich;;
+				*);;
+			<-rrel_subject:
+				...
+				(*
+				->rrel_realisation_of_learning_activity: laboratory_work; practical_lesson;;
+				<-nrel_taught_subject;;
+				->rrel_teacher: Lobkovskaya_Nadejda_Pavlovna;;
+				*);;
+			=>nrel_term: 6;;
+			*);
+
+<=nrel_trains: the_department_of_intelligent_informational_technologies;
+<=nrel_class_number: 3(* <-positive_number;;*);
+<=nrel_semester_number: 5(* <-positive_number;;*);
+<=nrel_semester_number: 6(* <-positive_number;;*);
+<=nrel_cycle: concept_tsikl_distsiplin_spetsializatsii;;
+
+simoib_part_1
+=>nrel_main_idtf:
+	[Средства и методы обеспечения информационной безопасности.часть 1.] (* <-lang_ru;; *);;
+simoib_part_2
+=>nrel_main_idtf:
+	[Средства и методы обеспечения информационной безопасности.часть 2.] (* <-lang_ru;; *);;
+
+Zakharov_V_V<=nrel_educational_work:lectures_on_simoib_part_1;lectures_on_simoib_part_2;laboratory_work_on_simoib_part_1;laboratory_work_on_simoib_part_2;practical_lesson_on_simoib_part_2;;

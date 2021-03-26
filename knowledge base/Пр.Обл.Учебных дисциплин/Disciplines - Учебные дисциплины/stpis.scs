@@ -1,0 +1,38 @@
+stpis
+=>nrel_main_idtf:
+	[Семантическая технология проектирования интеллектуальных систем] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[Semantic technology of designing intelligent systems] (* <-lang_en;; *);
+=>nrel_abbreviation:[СТПИС];
+
+<-multiplicity_of_subjects_taught_in_the_2_term_magistracy_specialty_artificial_intelligence;
+<-special_subject;
+
+<=nrel_realisation_of_learning_activity:
+
+	laboratory_work_on_stpis
+	(*=>nrel_main_idtf:
+	[Семантическая технология проектирования интеллектуальных систем.лабораторный практикум] (* <-lang_ru;; *);;=>nrel_planned_hours:34;;
+	=>nrel_realisation_of_intermediate_control:
+		protection_of_laboratory_work;;
+	<-laboratory_work	;;
+	*);
+	lectures_on_stpis
+	(*=>nrel_main_idtf:
+[Семантическая технология проектирования интеллектуальных систем.лекции] (* <-lang_ru;; *);;=>nrel_planned_hours:34;;
+	=>nrel_realisation_of_intermediate_control:
+		control_work;;
+		<-lecture;;
+	*);
+
+=>nrel_realisation_of_final_certification: exam;
+<-rrel_subject:
+	...
+	(*
+	->rrel_realisation_of_learning_activity: lecture; laboratory_work;;
+	<-nrel_taught_subject;;
+	->rrel_teacher: Golenkov_V_V;;
+	*);
+=>nrel_term: 2;;
+Golenkov_V_V=>nrel_can_teach_subject:stpis;stpis_extramural_education;;
+Golenkov_V_V<=nrel_educational_work:laboratory_work_on_stpis;laboratory_work_on_stpis_extramural_education;lectures_on_stpis_extramural_education;lectures_on_stpis;;

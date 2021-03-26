@@ -1,0 +1,29 @@
+publication_Grakova_N_V_2014_InforSSAoDDP=> nrel_main_idtf:
+[Гракова Н.В. 2014 - ИнфорСПДКПР]
+	(*
+	<- lang_ru;;
+	*);
+	[Grakova_N_V_2014_InforSSAoDDP] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Grakova_N_V_2014_InforSSAoDDP => nrel_name_publication:[Информационные системы поддержки деятельности кафедры: перспективы развития](*
+	<- lang_ru;;
+	*);;
+
+publication_Grakova_N_V_2014_InforSSAoDDP <= nrel_author:
+Grakova_N_V;Hubarevich_A_V;;
+
+publication_Grakova_N_V_2014_InforSSAoDDP <- article;;
+
+publication_Grakova_N_V_2014_InforSSAoDDP => nrel_reference_standard: [Гракова, Н.В. Информационные системы поддержки деятельности кафедры: перспективы развития /Н.В. Гракова, А.В. Губаревич // Высшее техническое образование: проблемы и пути развития: материалы VII Междунар. науч.-метод. Конф. (Минск, 20-21 ноября 2014 года). – Минск: БГУИР, 2014. – стр. 138-139   ];;
+
+publication_Grakova_N_V_2014_InforSSAoDDP => nrel_year_publication: 2014;;
+
+publication_Grakova_N_V_2014_InforSSAoDDP => nrel_information_publication: Materials_VII_international_scientific_and_methodological_conf;;
+
+publication_Grakova_N_V_2014_InforSSAoDDP => nrel_number_page: ..2014_InforSSAoDDP(*
+-> rrel_from : 138;;
+-> rrel_by : 139;;
+*);;

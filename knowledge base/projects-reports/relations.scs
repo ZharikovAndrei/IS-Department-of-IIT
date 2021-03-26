@@ -1,0 +1,33 @@
+sc_node_norole_relation -> nrel_project_leader; nrel_related_projects; nrel_performers; nrel_main_products; nrel_reports_OSTIS2017; nrel_sections_KB_IMS;nrel_consult_project;;
+
+sc_node_role_relation -> rrel_responsible_executor;;
+nrel_related_projects => nrel_main_idtf:[смежные проекты*] (* <-lang_ru;; *);
+				 => nrel_main_idtf:[related projects*] (* <-lang_en;; *);;
+
+
+
+nrel_project_leader => nrel_main_idtf:[руководители проекта*] (* <-lang_ru;; *);
+				 => nrel_main_idtf:[project leaders*] (* <-lang_en;; *);;
+
+
+nrel_performers => nrel_main_idtf:[исполнители*] (* <-lang_ru;; *);
+				 => nrel_main_idtf:[performers*] (* <-lang_en;; *);;
+
+
+
+nrel_main_students => nrel_main_idtf:[основные студенты*] (* <-lang_ru;; *);
+				 => nrel_main_idtf:[the main students*] (* <-lang_en;; *);;
+
+
+nrel_consult_project => nrel_main_idtf:[консультанты проекта*] (* <-lang_ru;; *);
+				 => nrel_main_idtf:[consults of project*] (* <-lang_en;; *);;
+
+
+nrel_reports_OSTIS2017 => nrel_main_idtf:[доклады на OSTIS-2017*] (* <-lang_ru;; *);
+				 => nrel_main_idtf:[reports on OSTIS-2017*] (* <-lang_en;; *);;
+
+nrel_sections_KB_IMS => nrel_main_idtf:[разделы базы знаний IMS*] (* <-lang_ru;; *);
+				 => nrel_main_idtf:[sections of IMS KB*] (* <-lang_en;; *);;
+
+rrel_responsible_executor => nrel_main_idtf:[ответственный исполнитель´] (* <-lang_ru;; *);
+				 => nrel_main_idtf:[responsible executor´] (* <-lang_en;; *);;

@@ -1,0 +1,4 @@
+sc_node_not_relation -> concept_structure;;
+concept_structure=> nrel_main_idtf:
+[структура] (* <-lang_ru;; *);
+[structure] (* <-lang_en;; *);;

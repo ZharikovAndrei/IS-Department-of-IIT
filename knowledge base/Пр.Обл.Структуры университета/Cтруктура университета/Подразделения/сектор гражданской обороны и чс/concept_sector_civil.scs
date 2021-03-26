@@ -1,0 +1,20 @@
+sc_node_not_relation->concept_sector_civil_defence_and_emergencies;;
+
+ 
+concept_sector_civil_defence_and_emergencies=>nrel_main_idtf:
+[сектор гражданской обороны и чс](*<-lang_ru;;*);
+[civil defence and emergencies sector](*<-lang_en;;*);;
+
+concept_sector_civil_defence_and_emergencies<-rrel_key_sc_element:
+...
+(*
+=>nrel_idtf:[Опр.(секто гражданской обороны и чс)](*<-lang_ru;;*);;
+<-sc_definition;;
+<=nrel_sc_text_translation:
+...
+(*
+->rrel_example:
+[Сектор гражданской обороны и чс-сектор, уполномоченный решать задачи гражданской обороны, по предупреждению и ликвидации чрезвычайных ситуаций и их последствий.](*<-lang_ru;;*);;
+*);;
+*);;
+

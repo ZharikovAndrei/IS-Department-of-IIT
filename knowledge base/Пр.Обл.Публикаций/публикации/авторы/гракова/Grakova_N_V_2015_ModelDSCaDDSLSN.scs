@@ -1,0 +1,25 @@
+
+publication_Grakova_N_V_2015_ModelDSCaDDSLSN => nrel_main_idtf:
+[Гракова Н.В. 2015 - МоделСОКиДППнЯСС]
+	(*
+	<- lang_ru;;
+	*);
+	[Grakova_N_V_2015_ModelDSCaDDSLSN]
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Grakova_N_V_2015_ModelDSCaDDSLSN => nrel_name_publication:[Модель струкртуры описания курсового и дипломного проектирования, представленная на языке семантических сетей](*
+	<- lang_ru;;
+	*);;
+
+publication_Grakova_N_V_2015_ModelDSCaDDSLSN <= nrel_author:
+Konoval_Darya_Igorevna; Semenov_Vladislav_Sergeevich; Grakova_N_V;;
+
+publication_Grakova_N_V_2015_ModelDSCaDDSLSN <- article;;
+
+publication_Grakova_N_V_2015_ModelDSCaDDSLSN => nrel_reference_standard: [Н.В. Гракова, Д.И. Коновал, В.С. Семёнов "Модель струкртуры описания курсового и дипломного проектирования, представленная на языке семантических сетей" Материалы IX Международной научно–методической конференции 03–04 декабря 2015 года];;
+
+publication_Grakova_N_V_2015_ModelDSCaDDSLSN => nrel_year_publication: 2015;;
+
+publication_Grakova_N_V_2015_ModelDSCaDDSLSN => nrel_information_publication: Proceedings_of_the_7th_international_scientific_conference_Distance_Learning_Educational_Environment_of_the_IX_century_2015;;

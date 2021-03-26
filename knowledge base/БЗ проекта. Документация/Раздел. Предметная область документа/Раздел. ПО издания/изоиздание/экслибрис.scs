@@ -1,0 +1,12 @@
+sc_node_not_relation -> bookplate;;
+
+
+bookplate => nrel_main_idtf:
+[эклибрис]
+	(*
+	<- lang_ru;;
+	*);
+	[bookplate] 
+	(*
+	<- lang_en;;
+	*);;

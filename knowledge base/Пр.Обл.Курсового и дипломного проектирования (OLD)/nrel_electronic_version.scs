@@ -1,0 +1,21 @@
+nrel_electronic_version
+<-sc_node_norole_relation;
+=>nrel_main_idtf:
+[электронная версия*](*<-lang_ru;;*);
+[electronic version*](*<-lang_en;;*);
+->rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> [Электронная версия — версия документа, хранящаяся в цифровом виде.] (* <-lang_ru;; *);; 
+		*);;
+	*);;
+
+
+
+
+
+

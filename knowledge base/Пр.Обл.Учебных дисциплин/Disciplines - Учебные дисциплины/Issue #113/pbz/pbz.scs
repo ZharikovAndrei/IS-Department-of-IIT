@@ -1,0 +1,215 @@
+pbz
+=>nrel_main_idtf:
+	[Проектирование баз знаний] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[ Knowledge bases design] (* <-lang_en;; *);
+=>nrel_abbreviation:[ПБЗ];
+
+<-special_subject;
+<=nrel_subdividing:
+	pbz_4_year
+		(*
+			<=nrel_subdividing:
+				pbz_4_year_1
+					(*
+					<-multiplicity_of_subjects_taught_in_the_5_term_specialty_artificial_intelligence_4_year_education;;
+					<=nrel_realisation_of_learning_activity:
+
+						lectures_on_pbz_4_year_1
+							(*=>nrel_main_idtf:
+					[Проектирование баз знаний.часть 1.лекции] (* <-lang_ru;; *);;
+					=>nrel_planned_hours:86;;
+							=>nrel_realisation_of_intermediate_control:
+								control_work;;
+								<-lecture;;
+							*);
+						laboratory_work_on_pbz_4_year_1
+							(*=>nrel_main_idtf:
+					[Проектирование баз знаний.часть 1.лабораторный практикум] (* <-lang_ru;; *);;
+					=>nrel_planned_hours:68;;
+							=>nrel_realisation_of_intermediate_control:
+								protection_of_laboratory_work;;
+							<-laboratory_work	;;
+							*);
+						practical_lesson_on_pbz_4_year_1
+							(*=>nrel_main_idtf:
+					[Проектирование баз знаний.часть 1.практические занятия] (* <-lang_ru;; *);;
+					=>nrel_planned_hours:16;;
+							=>nrel_realisation_of_intermediate_control:
+								protection_of_practical_work;;
+							<-practical_lesson;;
+							*);;
+					=>nrel_realisation_of_final_certification:
+						test;;
+					<-rrel_subject:
+						...
+						(*
+						->rrel_realisation_of_learning_activity:
+							practical_lesson;
+							laboratory_work;;
+						<-nrel_taught_subject;;
+						->rrel_teacher: Parkalov_A_V;;
+						*);;
+					<-rrel_subject:
+						...
+						(*
+						->rrel_realisation_of_learning_activity: lecture;;
+						<-nrel_taught_subject;;
+						->rrel_teacher: Uvarov_K_A;;
+						*);;
+					=>nrel_term: 5;;
+				*);
+			pbz_4_year_2
+			(*
+				<-multiplicity_of_subjects_taught_in_the_6_term_specialty_artificial_intelligence_4_year_education;;
+				<=nrel_realisation_of_learning_activity:
+
+					lectures_on_pbz_4_year_2
+						(*=>nrel_main_idtf:
+					[Проектирование баз знаний.часть 2.лекции] (* <-lang_ru;; *);;
+					=>nrel_planned_hours:86;;
+						=>nrel_realisation_of_intermediate_control:
+							control_work;;
+							<-lecture;;
+						*);
+					laboratory_work_on_pbz_4_year_2
+						(*=>nrel_main_idtf:
+					[Проектирование баз знаний.часть 2.лабораторный практикум] (* <-lang_ru;; *);;
+					=>nrel_planned_hours:68;;
+						=>nrel_realisation_of_intermediate_control:
+							protection_of_laboratory_work;;
+						<-laboratory_work	;;
+						*);;
+				=>nrel_realisation_of_final_certification:
+					exam;;
+				<-rrel_subject:
+					...
+					(*
+					->rrel_realisation_of_learning_activity: lecture;;
+					<-nrel_taught_subject;;
+					->rrel_teacher: Ivashenko_V_P;;
+					*);;
+				<-rrel_subject:
+					...
+					(*
+					->rrel_realisation_of_learning_activity: laboratory_work;;
+					<-nrel_taught_subject;;
+					->rrel_teacher: Grakova_N_V;;
+					*);;
+				=>nrel_term: 6;;
+				*);;
+			*);
+		pbz_5_year
+		(*
+			<=nrel_subdividing:
+				pbz_5_year_1
+					(*
+					<-multiplicity_of_subjects_taught_in_the_5_term_specialty_artificial_intelligence_5_year_education;;
+					<=nrel_realisation_of_learning_activity:
+
+						lectures_on_pbz_5_year_1
+							(*=>nrel_main_idtf:
+					[Проектирование баз знаний.часть 1.лекции] (* <-lang_ru;; *);;
+					=>nrel_planned_hours:86;;
+							=>nrel_realisation_of_intermediate_control:
+								control_work;;
+								<-lecture;;
+							*);
+						laboratory_work_on_pbz_5_year_1
+							(*=>nrel_main_idtf:
+					[Проектирование баз знаний.часть 1.лабораторный практикум] (* <-lang_ru;; *);;
+					=>nrel_planned_hours:68;;
+							=>nrel_realisation_of_intermediate_control:
+								protection_of_laboratory_work;;
+							<-laboratory_work	;;
+							*);;
+					=>nrel_realisation_of_final_certification:
+						test;;
+					<-rrel_subject:
+						...
+						(*
+						->rrel_realisation_of_learning_activity:
+							practical_lesson;;
+						<-nrel_taught_subject;;
+						->rrel_teacher: Parkalov_A_V;;
+						*);;
+					<-rrel_subject:
+						...
+						(*
+						->rrel_realisation_of_learning_activity: lecture;;
+						<-nrel_taught_subject;;
+						->rrel_teacher: Uvarov_K_A;;
+						*);;
+					=>nrel_term: 5;;
+					*);
+				pbz_5_year_2
+				(*
+					<-multiplicity_of_subjects_taught_in_the_6_term_specialty_artificial_intelligence_5_year_education;;
+					<=nrel_realisation_of_learning_activity:
+
+						lectures_on_pbz_5_year_2
+							(*=>nrel_main_idtf:
+			[Проектирование баз знаний.часть 2.лекции] (* <-lang_ru;; *);;
+			=>nrel_planned_hours:86;;
+							=>nrel_realisation_of_intermediate_control:
+								control_work;;
+								<-lecture;;
+							*);
+						laboratory_work_on_pbz_5_year_2
+							(*=>nrel_main_idtf:
+			[Проектирование баз знаний.часть 2.лабораторный практикум] (* <-lang_ru;; *);;
+			=>nrel_planned_hours:68;;
+							=>nrel_realisation_of_intermediate_control:
+								protection_of_laboratory_work;;
+							<-laboratory_work	;;
+							*);;
+					=>nrel_realisation_of_final_certification:
+						exam;;
+					<-rrel_subject:
+						...
+						(*
+						->rrel_realisation_of_learning_activity: lecture;;
+						<-nrel_taught_subject;;
+						->rrel_teacher: Ivashenko_V_P;;
+						*);;
+					<-rrel_subject:
+						...
+						(*
+						->rrel_realisation_of_learning_activity: laboratory_work;;
+						<-nrel_taught_subject;;
+						->rrel_teacher: Grakova_N_V;;
+						*);;
+					=>nrel_term: 6;;
+				*);;
+				=>nrel_realisation_of_intermediate_control: course_project_on_program_design_in_intelligent_systems;;
+			*);
+			
+<=nrel_trains: the_department_of_intelligent_informational_technologies;
+<=nrel_class_number: 3(* <-positive_number;;*);
+<=nrel_class_number: 4(* <-positive_number;;*);
+<=nrel_semester_number: 5(* <-positive_number;;*);
+<=nrel_semester_number: 6(* <-positive_number;;*);
+<=nrel_semester_number: 7(* <-positive_number;;*);
+<=nrel_component: concept_mandatory_component;
+<=nrel_cycle: concept_tsikl_obshcheprofessionalnykh_i_spetsialnykh_distsiplin;;
+
+
+pbz_4_year
+=>nrel_main_idtf:
+	[Проектирование баз знаний по 4-летней программе] (* <-lang_ru;; *);;
+pbz_5_year
+=>nrel_main_idtf:
+	[Проектирование баз знаний по 5-летней программе] (* <-lang_ru;; *);;
+
+pbz_4_year_1
+=>nrel_main_idtf:
+	[Проектирование баз знаний по 4-летней программе.часть 1.] (* <-lang_ru;; *);;
+pbz_4_year_2
+=>nrel_main_idtf:
+	[Проектирование баз знаний по 4-летней программе.часть 2.] (* <-lang_ru;; *);;
+pbz_5_year_1
+=>nrel_main_idtf:
+	[Проектирование баз знаний по 5-летней программе.часть 1.] (* <-lang_ru;; *);;
+pbz_5_year_2
+=>nrel_main_idtf:
+	[Проектирование баз знаний по 5-летней программе.часть 2.] (* <-lang_ru;; *);;

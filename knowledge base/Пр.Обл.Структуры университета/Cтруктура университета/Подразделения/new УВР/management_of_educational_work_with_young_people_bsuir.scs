@@ -1,0 +1,10 @@
+management_of_educational_work_with_young_people_bsuir=>nrel_main_idtf:
+[управление воспитательной работы с молодежью БГУИРа](*<-lang_ru;;*);
+[BSUIR management of educational work with young people](*<-lang_en;;*);;
+management_of_educational_work_with_young_people_bsuir=>nrel_idtf:
+[УВРМ БГУИРа](*<-lang_ru;;*);
+[MEWWYP of BSUIR](*<-lang_ru;;*);;
+
+management_of_educational_work_with_young_people_bsuir => nrel_pers_comp: personal_composition_of_management_of_educational_work_with_young_people_bsuir;; 
+management_of_educational_work_with_young_people_bsuir => nrel_inclusion: press_office; department_of_methodical_and_educational_work_with_youth; socio_educational_and_psychological_service_bsuir; sport_club_bsuir; cultural_work_center;;
+management_of_educational_work_with_young_people_bsuir<-concept_management_of_educational_work_with_young_people;;

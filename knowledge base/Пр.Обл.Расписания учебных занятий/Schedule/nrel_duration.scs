@@ -1,0 +1,12 @@
+nrel_duration<-sc_node_norole_relation;
+=> nrel_main_idtf:[продолжительность*](* <- lang_ru;;*);
+->rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> [продолжительность- период времени в течение которого происходит какое-либо событие. ] (* <-lang_ru;; *);; 
+		*);;
+	*);;

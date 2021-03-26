@@ -1,0 +1,12 @@
+Power_enginner=>nrel_main_idtf:
+[Поддубец Виталий Светославович](*<-lang_ru;;*);
+[Poddubets Vitaliy Svetoslavovich](*<-lang_en;;*);;
+
+Power_enginner -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [+375 17 293-84-97];;*)
+   ;;*)
+   ;; 
+
+Power_enginner -> rrel_work_place: aud_413_2;;

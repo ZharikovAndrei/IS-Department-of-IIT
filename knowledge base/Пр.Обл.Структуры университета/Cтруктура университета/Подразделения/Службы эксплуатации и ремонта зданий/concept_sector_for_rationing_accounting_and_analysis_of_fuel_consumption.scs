@@ -1,0 +1,5 @@
+sc_node_not_relation->concept_sector_for_rationing_accounting_and_analysis_of_fuel_consumption;;
+concept_sector_for_rationing_accounting_and_analysis_of_fuel_consumption=>nrel_main_idtf:
+[сектор по нормированию, учёту и анализу потребления ТЭР](*<-lang_ru;;*);
+[sector for rationing accounting and analysis of fuel consumption](*<-lang_en;;*);; 
+concept_sector_for_rationing_accounting_and_analysis_of_fuel_consumption->sector_for_rationing_accounting_and_analysis_of_fuel_consumption_bsuir;;

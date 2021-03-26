@@ -1,0 +1,26 @@
+sc_node_not_relation -> iconic_document;;
+
+iconic_document => nrel_main_idtf:
+[изобразительный документ]
+	(*
+	<- lang_ru;;
+	*);
+	[iconic document] 
+	(*
+	<- lang_en;;
+	*);;
+
+iconic_document <- rrel_key_sc_element: 
+        ...
+	(*
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[изобразительный документ – документ, содержащий, выраженную посредствам изображения какого-либо объекта]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;
+
+document -> iconic_document;;

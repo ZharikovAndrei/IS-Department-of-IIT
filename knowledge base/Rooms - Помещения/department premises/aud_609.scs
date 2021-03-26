@@ -1,0 +1,18 @@
+aud_609_5
+=> nrel_main_idtf:
+	[аудитория 609-5] (* <-lang_ru;; *);
+=> nrel_main_idtf:
+	[audience 609-5] (* <-lang_en;; *);
+=> nrel_idtf:
+	[Научно-учебная лаборатория аспирантов и магистрантов] (* <-lang_ru;; *);
+
+	->rrel_key_sc_element:
+	...
+	(*
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> [аудитория 609-5 - научно-учебная лаборатория аспирантов и магистрантов. ] (* <-lang_ru;; *);;
+		*);;
+	*);;

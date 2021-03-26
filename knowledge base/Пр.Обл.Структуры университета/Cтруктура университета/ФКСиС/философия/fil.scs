@@ -1,0 +1,91 @@
+the_department_of_philosophy=>nrel_main_idtf:
+[Кафедра философии](*<-lang_ru;;*);
+[the department of philosophy](*<-lang_en;;*);; 
+
+
+the_department_of_philosophy=>nrel_idtf:[ФИЛ](*<-lang_ru;;*);;
+the_department_of_philosophy=>nrel_idtf:[PHI](*<-lang_en;;*);;
+
+
+
+pers_comp_fil -> rrel_head_of_department: header_of_fil;;
+
+the_department_of_philosophy => nrel_info: fil_info;;
+
+the_department_of_philosophy => nrel_pers_comp: pers_comp_fil;;
+
+
+
+
+
+
+header_of_fil=>nrel_main_idtf:
+[Малыхина Галина Ивановна](*<-lang_ru;;*);
+[Malyhina Galina Ivanovna](*<-lang_en;;*);;
+
+
+
+fil_info=>nrel_main_idtf:
+[информация о кафедре ФИЛ](*<-lang_ru;;*);
+[the information about the department of PHI](*<-lang_en;;*);; 
+
+
+pers_comp_fil=>nrel_main_idtf:
+[Персональный состав кафедры ФИЛ](*<-lang_ru;;*);
+[personal composition of the PHI](*<-lang_en;;*);; 
+
+
+
+
+header_of_fil <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://../../../image/fil2.jpg";;
+               *);;
+        *);;
+
+
+
+pers_comp_fil <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://../../../image/fil1.jpg";;
+               *);;
+        *);;
+
+
+
+
+
+
+
+
+fil_info <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [О кафедре] (* <- lang_ru;; *);;
+	<- sc_task;;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[ Кафедра философии создана в 1970 году, выделившись из общей кафедры общественных наук.
+Проводит учебные занятия по курсам "Философия", "Философия и методология науки", "Логика". Названные курсы преподаются студентам всех специальностей и всех форм обучения. Кафедра готовит магистрантов и аспирантов (в том числе иностранных) к сдаче кандидатского экзамена по курсу "Философия и методология науки".
+Основные направления научных исследований - философия социальных действий, философско-методологические проблемы социальной и духовной синергии, логика и теория аргументации, теория диалектики, философская гуманистика, философско-методологические проблемы информационного общества в контексте мировой глобализации, философские проблемы техники, естествознания и информатики.
+Результаты научных исследований внедряются в учебный процесс. Они отражены в программах кафедральных курсов, включены в вопросы семинарских занятий, в тематику лекций и поточных студенческих и магистрантских конференций.  ](* <- lang_ru;; *);;
+		*);;
+	*);;
+
+
+
+

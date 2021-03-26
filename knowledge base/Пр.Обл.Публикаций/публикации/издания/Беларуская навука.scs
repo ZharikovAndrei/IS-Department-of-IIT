@@ -1,0 +1,14 @@
+collection_of_belarussian_science_2011 => nrel_main_idtf:
+[Беларуская навука]
+	(*
+	<- lang_ru;;
+	*);
+	[Belarussian_science]
+	(*
+	<- lang_en;;
+	*);;
+collection_of_belarussian_science_2011 => nrel_publishing:
+UIIP_NASB_Belarus ;;
+
+collection_of_belarussian_science_2011 => nrel_place_publication:
+minsk;;

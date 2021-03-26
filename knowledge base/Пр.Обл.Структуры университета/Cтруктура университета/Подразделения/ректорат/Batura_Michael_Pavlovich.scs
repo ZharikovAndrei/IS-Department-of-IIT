@@ -1,0 +1,35 @@
+Batura_Michael_Pavlovich=>nrel_main_idtf:
+[Батура Михаил Павлович](*<-lang_ru;;*);
+[Batura Michael Pavlovich](*<-lang_en;;*);;
+
+Batura_Michael_Pavlovich -> rrel_email:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+ [rector@bsuir.by](*<-lang_en;;*)
+   ;;*)
+   ;;*)
+   ;;
+
+Batura_Michael_Pavlovich -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+ [+375 17 292-32-35];
+ [+375 17 293-84-12];;*)
+   ;;*)
+   ;;
+
+Batura_Michael_Pavlovich -> rrel_work_place: aud_220_1;;
+
+Batura_Michael_Pavlovich <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example:
+                       "file://batura.jpg";;
+               *);;
+        *);;
+
+Batura_Michael_Pavlovich<-person;;

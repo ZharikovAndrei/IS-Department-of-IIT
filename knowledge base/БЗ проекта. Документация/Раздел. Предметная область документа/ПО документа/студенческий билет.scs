@@ -1,0 +1,13 @@
+sc_node_not_relation -> student_card;;
+
+student_card => nrel_main_idtf:
+[студенческий билет]
+	(*
+	<- lang_ru;;
+	*);
+	[student card] 
+	(*
+	<- lang_en;;
+	*);;
+
+personal_record -> student_card;;

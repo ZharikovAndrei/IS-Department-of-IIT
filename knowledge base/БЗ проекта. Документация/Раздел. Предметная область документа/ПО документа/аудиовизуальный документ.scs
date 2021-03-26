@@ -1,0 +1,26 @@
+sc_node_not_relation -> audio_visual_document;;
+
+audio_visual_document => nrel_main_idtf:
+[аудиовизуальный документ]
+	(*
+	<- lang_ru;;
+	*);
+	[audio-visual document] 
+	(*
+	<- lang_en;;
+	*);;
+
+audio_visual_document <- rrel_key_sc_element: 
+        ...
+	(*
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[аудиовизуальный документ – документ, содержащий изобразительную и (или) звуковую информацию]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;
+
+document -> audio_visual_document;;

@@ -1,0 +1,27 @@
+sc_node_not_relation -> leisure_edition;;
+
+leisure_edition => nrel_main_idtf:
+[издание для досуга]
+	(*
+	<- lang_ru;;
+	*);
+	[leisure edition] 
+	(*
+	<- lang_en;;
+	*);;
+
+leisure_edition <- rrel_key_sc_element: 
+        ...
+	(*
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[издание для досуга – издание, содержащее общедоступные сведения по организации быта, разнообразным формам самостоятельного творчества, различным видам увлечений]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;
+
+edition -> leisure_edition;;
+non_periodical_edition -> leisure_edition;;

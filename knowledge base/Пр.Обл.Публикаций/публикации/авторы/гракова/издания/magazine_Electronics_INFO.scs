@@ -1,0 +1,9 @@
+magazine_Electronics_INFO=> nrel_main_idtf:
+[Научно-практический журнал для специалистов «Электроника инфо»]
+	(*
+	<- lang_ru;;
+	*);
+	[Scientific journal for Professionals "Electronics Info"]
+	(*
+	<- lang_en;;
+	*);;

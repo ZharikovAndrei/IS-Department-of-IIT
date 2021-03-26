@@ -1,0 +1,33 @@
+Tumanov_Sergey_Grigorievich=>nrel_main_idtf:
+[Туманов Сергей Григорьевич](*<-lang_ru;;*);
+[Tumanov Sergey Grigorievich](*<-lang_en;;*);;
+
+Tumanov_Sergey_Grigorievich -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [+375 17 293-84-88];;*)
+   ;;*)
+   ;; 
+
+Tumanov_Sergey_Grigorievich -> rrel_work_place: aud_412_2;;
+
+Tumanov_Sergey_Grigorievich -> rrel_email:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [tumanov@bsuir.by](*<-lang_ru;;*)
+   ;;*)
+   ;;*)
+   ;; 
+
+
+Tumanov_Sergey_Grigorievich <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://Tumanov.jpg";;
+               *);;
+        *);;

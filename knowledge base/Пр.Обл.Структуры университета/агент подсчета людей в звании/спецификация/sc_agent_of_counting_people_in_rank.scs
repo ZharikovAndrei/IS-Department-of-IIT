@@ -1,0 +1,66 @@
+// Объявляем sc-агент поисковой операции
+sc_agent_of_counting_people_in_rank
+// Указываем множество идентификаторов агента
+	=> nrel_main_idtf:
+// lang_ru – атрибут идентификатора на русском языке
+	[sc-агент подсчета количества персон в звании] (* <- lang_ru;; *);
+// lang_en – атрибут идентификатора на английском языке
+	[sc-agent of counting people in rank] (* <- lang_en;; *);
+// Указываем, что наш агент принадлежит классу абстрактных sc-агентов
+	<- abstract_sc_agent;
+// Указываем начальное условие для нашей операции
+	=> nrel_primary_initiation_condition:
+(sc_event_add_output_arc => question_initiated);
+// Указываем начальное условие и результат для нашей операции
+=> nrel_initiation_condition_and_result:
+(..sc_agent_of_sc_agent_of_counting_people_in_rank_condition =>
+..sc_agent_of_counting_people_in_rank_result);
+// Описание деятельности sc-агента
+<= nrel_sc_agent_key_sc_elements:
+{
+question_initiated;
+question;
+question_of_counting_people_in_rank
+};
+<- rrel_key_sc_element: 
+        ...
+	(*
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Данный sc-агент предназначен для подсчета количества персон, находящихся в звании]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);
+// описание первичного условия инициирования sc-агента
+=> nrel_inclusion:
+.platform_independent_realization_of_sc_agent_of_counting_people_in_rank
+(*
+<- platform_independent_abstract_sc_agent;;
+<= nrel_sc_agent_program:
+{
+agent_of_counting_people_in_rank
+
+};;
+-> sc_agent_of_counting_people_in_rank_scp
+(* <- active_sc_agent;; *);;
+*);;
+// условия инициирования агента
+..sc_agent_of_counting_people_in_rank_condition
+= [*
+question_of_counting_people_in_rank _-> .._question;;
+question_initiated _-> .._question;;
+question _-> .._question;;
+.._question _-> .._parameter;;
+*];;
+// описание результатов выполнения sc-агента
+..sc_agent_of_counting_people_in_rank_result
+= [*
+question_of_counting_people_in_rank _-> .._question;;
+question_finished _-> .._question;;
+question _-> .._question;;
+.._question _=> nrel_answer:: .._answer;;
+.._question _-> .._parameter;;
+*];;

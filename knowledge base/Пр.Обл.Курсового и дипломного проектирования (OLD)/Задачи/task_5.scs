@@ -1,0 +1,7 @@
+task_5
+	=> nrel_main_idtf:[Менеджер публикаций](*<-lang_ru;;*);
+	<- project_task;
+	<- basic_project_task;
+	<- important_project_task;
+	<- executable_project_task;
+	=> nrel_executor: Chernikov_Ivan_Andreevich;;

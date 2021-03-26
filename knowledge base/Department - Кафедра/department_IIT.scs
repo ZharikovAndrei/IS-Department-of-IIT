@@ -1,0 +1,30 @@
+concept_the_department_of_intelligent_informational_technologies->rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> [Кафедра ИИТ  — это структурное подразделение Белорусского государственного университета информатики и радиоэлектроники, осуществляющее подготовку специалистов по специальности Искусственный интеллект, а так же магистрантов и аспирантов по различным специальностям,посвящённым интеллектуальным системам ] (* <-lang_ru;; *);; 
+		*);;
+	*);;
+
+
+
+
+//=>nrel_personnel:
+//	...
+//	(*
+//		->rrel_head_of_department:Golenkov_V_V;;
+//		->rrel_professor:Golenkov_V_V;;
+//		->rrel_associate_professor:Gulyakina_Natalia_Anatolxevna; Kachov_Vladimir_Petrovich; Kolb_D_G;
+// Stepanova_M_D;Zakharov_V_V; Romanov_V_I ;;
+//		->rrel_senior_lecturer: Samodumkin_S_A;;
+//		->rrel_assistant:Grakova_N_V; Davydenko_I_T; Ivashenko_V_P;   
+// Shunkevich_Daniil_Vyacheslavovich; Koronchik_D_N;  Uvarov_K_A; Lucina_Tatyana_Leonidovna; 
+//  Zhukov_I_I; Parkalov_A_V; Lapkovskaya_Nadezhda_Pavlovna; Shalev_Eugene_Gennadevich; Rusetsky_Kirill_Valeryevich ;;
+//		->rrel_engineer: Lucina_Tatyana_Leonidovna;;
+//		->rrel_head_of_the_learning_lab:Paller_Boris_Yakovlevich;;
+//		->rrel_tester:Hubarevich_A_V;;
+//		->rrel_software_engineer:Rusetsky_Kirill_Valeryevich;;
+//	*);;

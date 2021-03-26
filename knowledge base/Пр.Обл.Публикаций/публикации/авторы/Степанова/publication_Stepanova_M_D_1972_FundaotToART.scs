@@ -1,0 +1,29 @@
+//Пешес Л. Я., Степанова М. Д. Основы теории ускоренных испытаний на надежность. Мн.: Наука и техника, 1972 . – 180 с . 
+
+publication_Stepanova_M_D_1972_FundaotToART=> nrel_main_idtf:
+[Степанова М.Д. 1972 - ОсновТУИнН]
+	(*
+	<- lang_ru;;
+	*);
+	[Stepanova M.D. 1972 - FundaotToART] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Stepanova_M_D_1972_FundaotToART => nrel_name_publication:[Основы теории ускоренных испытаний на надежность.](*
+	<- lang_ru;;
+	*);;
+
+publication_Stepanova_M_D_1972_FundaotToART <= nrel_author:
+Stepanova_M_D; Peshes_L_Y;;
+
+publication_Stepanova_M_D_1972_FundaotToART <- book;;
+
+publication_Stepanova_M_D_1972_FundaotToART => nrel_reference_standard: [Пешес Л. Я., Степанова М. Д. Основы теории ускоренных испытаний на надежность. Мн.: Наука и техника, 1972 . – 180 с . ];;
+
+publication_Stepanova_M_D_1972_FundaotToART => nrel_year_publication: 1972;;
+
+publication_Stepanova_M_D_1972_FundaotToART => nrel_information_publication: Fundamentals_of_the_theory_of_accelerated_reliability_tests;;
+
+publication_Stepanova_M_D_1972_FundaotToART => nrel_count_page: 180;;
+

@@ -1,0 +1,48 @@
+multiplicity_of_subjects_taught_in_magistracy_specialty_artificial_intelligence
+=>nrel_main_idtf:
+	[дисциплины магистратуры ИИ] (* <-lang_ru;; *);
+=>nrel_subdividing:
+multiplicity_of_subjects_taught_in_the_1_term_magistracy_specialty_artificial_intelligence;
+multiplicity_of_subjects_taught_in_the_2_term_magistracy_specialty_artificial_intelligence;
+multiplicity_of_subjects_taught_in_the_3_term_magistracy_specialty_artificial_intelligence;
+multiplicity_of_subjects_taught_in_the_4_term_magistracy_specialty_artificial_intelligence;;
+
+
+multiplicity_of_subjects_taught_in_magistracy_extramural_education_specialty_artificial_intelligence
+=>nrel_main_idtf:
+	[дисциплины магистратуры ИИ (для заочной формы обучения)] (* <-lang_ru;; *);
+=>nrel_subdividing:
+multiplicity_of_subjects_taught_in_the_1_term_magistracy_extramural_education_specialty_artificial_intelligence;
+multiplicity_of_subjects_taught_in_the_2_term_magistracy_extramural_education_specialty_artificial_intelligence;
+multiplicity_of_subjects_taught_in_the_3_term_magistracy_extramural_education_specialty_artificial_intelligence;
+multiplicity_of_subjects_taught_in_the_4_term_magistracy_extramural_education_specialty_artificial_intelligence;;
+
+
+multiplicity_of_subjects_taught_in_the_1_term_magistracy_specialty_artificial_intelligence
+=>nrel_main_idtf:
+[дисциплины в 1 семестре магистратуры ИИ.] (* <-lang_ru;; *);;
+multiplicity_of_subjects_taught_in_the_2_term_magistracy_specialty_artificial_intelligence
+=>nrel_main_idtf:
+[дисциплины во 2 семестре магистратуры ИИ.] (* <-lang_ru;; *);;
+multiplicity_of_subjects_taught_in_the_3_term_magistracy_specialty_artificial_intelligence
+=>nrel_main_idtf:
+[дисциплины в 3 семестре магистратуры ИИ.] (* <-lang_ru;; *);;
+multiplicity_of_subjects_taught_in_the_4_term_magistracy_specialty_artificial_intelligence
+=>nrel_main_idtf:
+[дисциплины в 4 семестре магистратуры ИИ.] (* <-lang_ru;; *);;
+
+
+
+
+multiplicity_of_subjects_taught_in_the_1_term_magistracy_extramural_education_specialty_artificial_intelligence
+=>nrel_main_idtf:
+[дисциплины в 1 семестре магистратуры ИИ (для заочной формы обучения).] (* <-lang_ru;; *);;
+multiplicity_of_subjects_taught_in_the_2_term_magistracy_extramural_education_specialty_artificial_intelligence
+=>nrel_main_idtf:
+[дисциплины во 2 семестре магистратуры ИИ (для заочной формы обучения).] (* <-lang_ru;; *);;
+multiplicity_of_subjects_taught_in_the_3_term_magistracy_extramural_education_specialty_artificial_intelligence
+=>nrel_main_idtf:
+[дисциплины в 3 семестре магистратуры ИИ (для заочной формы обучения).] (* <-lang_ru;; *);;
+multiplicity_of_subjects_taught_in_the_4_term_magistracy_extramural_education_specialty_artificial_intelligence
+=>nrel_main_idtf:
+[дисциплины в 4 семестре магистратуры ИИ (для заочной формы обучения).] (* <-lang_ru;; *);;

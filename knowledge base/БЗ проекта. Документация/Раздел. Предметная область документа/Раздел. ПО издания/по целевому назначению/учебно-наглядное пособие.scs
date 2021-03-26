@@ -1,0 +1,32 @@
+sc_node_not_relation -> training_aid;;
+training_aid => nrel_main_idtf:
+[учебно-наглядное пособие]
+	(*
+	<- lang_ru;;
+	*);
+	[training aid] 
+	(*
+	<- lang_en;;
+	*);;
+
+
+training_aid <- rrel_key_sc_element: 
+        ...
+	(*
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[учебное наглядное пособие – это учебное изоиздание, содержащее материалы в помощь изучению, преподаванию или воспитанию]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;
+
+
+training_aid <- educational_edition;;
+
+training_aid <- edition;;
+
+
+

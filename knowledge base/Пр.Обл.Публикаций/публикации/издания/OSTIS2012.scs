@@ -1,0 +1,14 @@
+OSTIS2012
+=> nrel_main_idtf:
+[Сборник материалов "Международная научно-техническая конференция OSTIS-2012"]
+	(*
+	<- lang_ru;;
+	*);
+	[Materials of the International Scientific and Technical Conference OSTIS-2012]
+	(*
+	<- lang_en;;
+	*);;
+
+OSTIS2012 => nrel_place_publication: minsk;;
+
+OSTIS2012 => nrel_publishing: bsuir;;

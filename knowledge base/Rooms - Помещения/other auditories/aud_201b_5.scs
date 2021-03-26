@@ -1,0 +1,5 @@
+aud_201b_5
+  => nrel_main_idtf:
+    [аудитория 201б-5] (* <-lang_ru;; *);
+  => nrel_main_idtf:
+    [audience 201b-5] (* <-lang_en;; *);;

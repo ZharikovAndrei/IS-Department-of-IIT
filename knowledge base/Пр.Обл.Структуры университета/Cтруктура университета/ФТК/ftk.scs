@@ -1,0 +1,120 @@
+the_faculty_of_telecommunications=>nrel_main_idtf:
+[Факультет телекоммуникаций](*<-lang_ru;;*);
+[the faculty of telecommunications](*<-lang_en;;*);;
+
+the_faculty_of_telecommunications=>nrel_idtf:[ФТК](*<-lang_ru;;*);;
+the_faculty_of_telecommunications=>nrel_idtf:[FTC](*<-lang_en;;*);; 
+
+
+dean_ftc=>nrel_main_idtf:
+[Чернухо Олег Дмитриевич](*<-lang_ru;;*);
+[Chernyho Oleg Dmitrievich](*<-lang_en;;*);;
+
+
+logotipe_ftc=>nrel_main_idtf:
+[логотип ФТК](*<-lang_ru;;*);
+[the logotipe of FTC](*<-lang_en;;*);; 
+
+
+ftc_info=>nrel_main_idtf:
+[информация о ФТК](*<-lang_ru;;*);
+[the information about FTC](*<-lang_en;;*);;
+
+
+specializations_ftc=>nrel_main_idtf:
+[специальности ФТК](*<-lang_ru;;*);
+[the spezializations of FTC](*<-lang_en;;*);;
+
+pers_comp_of_ftc=>nrel_main_idtf:
+[персональный состав кафедры ФТК](*<-lang_ru;;*);
+[the personal composition of the department of FTC](*<-lang_en;;*);; 
+
+
+
+pers_comp_of_ftc -> rrel_dean: dean_ftc;;
+
+the_faculty_of_telecommunications => nrel_logotipe: logotipe_ftc;;
+
+the_faculty_of_telecommunications => nrel_info: ftc_info;;  
+
+the_faculty_of_telecommunications => nrel_spezialization: specializations_ftc;;
+
+the_faculty_of_telecommunications => nrel_pers_comp: pers_comp_of_ftc;;  
+
+
+
+the_faculty_of_telecommunications <= nrel_decomposition:
+{
+the_department_of_information_protection;
+the_department_of_metrology_and_standardization;
+the_department_of_telecommunications_systems;
+the_department_of_telecommunications_networks_and_devices;
+the_department_of_physical_education
+};;
+
+
+specializations_ftc <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [Специальности] (* <- lang_ru;; *);;
+	<- sc_task;;
+	<= nrel_sc_text_translation: 
+         ...
+		(*
+		-> rrel_example: 
+			[«Инфокоммуникационные технологии» ](* <- lang_ru;; *);;
+		*);
+		         ...
+		(*
+		-> rrel_example: 
+			[«Защита информации в телекоммуникациях» ](* <- lang_ru;; *);;
+		*);
+				 ...
+		(*
+		-> rrel_example: 
+			[«Инфокоммуникационные системы» ](* <- lang_ru;; *);;
+		*);;
+	*);;
+
+
+ftc_info <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [О факультете] (* <- lang_ru;; *);;
+	<- sc_task;;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Был открыт в 1980 г. Факультет телекоммуникаций обеспечивает достойное образование тем, кого влечет современная электроника и информатика, кто желает освоить современные электронные и информационные технологии в телекоммуникациях, кто стремится быть уверенным в себе в современных социальных и экономических условиях.
+Студенты факультета получают глубокие знания в области профессиональной деятельности, имеют навыки разработки и внедрения новых технологий в связи, что делает выпускников конкурентоспособными в рыночных условиях производства и позволяет быстрее адаптироваться к повышенным научно-техническим задачам развития отрасли связи. ](* <- lang_ru;; *);;
+		*);;
+	*);;
+
+
+
+dean_ftc <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://../../image/ftk1.JPG";;
+               *);;
+        *);;
+
+logotipe_ftc <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://../../image/ftk2.gif";;
+               *);;
+        *);;
+
+

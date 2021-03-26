@@ -1,0 +1,40 @@
+section_ots_classification_of_system_models
+=> nrel_main_idtf:
+	[Раздел. ОТС. Классификация моделей системы]
+	(* <- lang_ru;; *);
+	[Section. GTS. Classification of system models]
+	(* <- lang_en;; *);
+
+=> nrel_idtf:
+	[Раздел базы знаний общей теории систем, описывающий классификацию моделей системы]
+	(* <- lang_ru;; *);
+<- not_enough_formed_structure;;
+
+section_ots_classification_of_system_models=[*^"file://section_ots_classification_of_system_models.scsi"*];;
+
+rrel_key_sc_element -> (section_ots_classification_of_system_models -> subject_domain_of_section)
+(*	
+	=> nrel_key_sc_element_order: (section_ots_classification_of_system_models ->classification_of_system_models)
+
+(*
+	<- rrel_key_sc_element;;
+	=> nrel_key_sc_element_order: (section_ots_classification_of_system_models -> dynamic_models_of_systems)
+(*
+	<- rrel_key_sc_element;;
+	=> nrel_key_sc_element_order: (section_ots_classification_of_system_models -> life_cycle_of_the_simulated_system)
+(*
+	<- rrel_key_sc_element;;
+	=> nrel_key_sc_element_order: (section_ots_classification_of_system_models -> structural_diagram_of_the_system)
+(*
+	<- rrel_key_sc_element;;
+	=> nrel_key_sc_element_order: (section_ots_classification_of_system_models-> model_of_the_structure_of_the_system)
+(*
+	<- rrel_key_sc_element;;
+	=> nrel_key_sc_element_order: (section_ots_classification_of_system_models-> model_of_the_composition_of_the_system)
+(*
+	<- rrel_key_sc_element;;
+	=> nrel_key_sc_element_order: (section_ots_classification_of_system_models-> model_black_box)
+
+
+	(* <- rrel_key_sc_element;; *);;
+*);;*);;*);;*);;*);;*);;*);;

@@ -1,0 +1,33 @@
+Javnerchik_Ludmila_Viktorovna=>nrel_main_idtf:
+[Жавнерчик Людмила Викторовна](*<-lang_ru;;*);
+[Javnerchik Ludmila Viktorovna](*<-lang_en;;*);;
+
+Javnerchik_Ludmila_Viktorovna -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [+375 17 293-89-74];;*)
+   ;;*)
+   ;; 
+
+Javnerchik_Ludmila_Viktorovna -> rrel_work_place: aud_118_1;;
+
+Javnerchik_Ludmila_Viktorovna -> rrel_email:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [study@bsuir.by](*<-lang_ru;;*)
+   ;;*)
+   ;;*)
+   ;; 
+
+
+Javnerchik_Ludmila_Viktorovna <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://Javnerchick.jpg";;
+               *);;
+        *);;

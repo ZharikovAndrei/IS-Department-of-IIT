@@ -1,0 +1,15 @@
+project_integrator
+      => nrel_main_idtf:[Персональный интегратор информационных сервисов (Интеллектуальный персональный ассистент)] (* <-lang_ru;; *);
+      => nrel_main_idtf:[Personal Information Integrator services (intelligent personal assistant) ] (* <-lang_en;; *);
+	  => nrel_synonymy:[29e/интегр];;
+
+project_integrator => nrel_project_leader: Titenkov_P_V;;
+project_integrator <- student_project;;
+project_integrator => nrel_reports: report_model_integrator;;
+
+//project_integrator => nrel_performers: ;;
+//project_integrator -> rrel_responsible_executor:;;
+//project_integrator => nrel_main_students: ;;
+//project_integrator => nrel_sections_KB_IMS: ;;
+//project_integrator => nrel_reports_OSTIS2017: ;;
+//project_integrator => nrel_related_projects: ;;

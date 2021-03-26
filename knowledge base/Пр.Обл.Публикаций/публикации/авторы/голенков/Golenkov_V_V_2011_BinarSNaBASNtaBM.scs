@@ -1,0 +1,28 @@
+//sc_node_not_relation -> publication_Golenkov_V_V_2011_BinarSNaBASNtaBM;;
+
+
+publication_Golenkov_V_V_2011_BinarSNaBASNtaBM => nrel_main_idtf:
+[Голенков В.В.2011 - БинарССсППССкБВ]
+	(*
+	<- lang_ru;;
+	*);
+	[Golenkov_V_V_2011_BinarSNaBASNtaBM]
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Golenkov_V_V_2011_BinarSNaBASNtaBM => nrel_name_publication:[Бинарные семантические сети и приведение произвольной семантической сети к бинарному виду](*
+	<- lang_ru;;
+	*);;
+
+publication_Golenkov_V_V_2011_BinarSNaBASNtaBM <= nrel_author:
+Golenkov_V_V;Gulyakina_N_A;Gavrilova_T_A;;
+
+publication_Golenkov_V_V_2011_BinarSNaBASNtaBM <- article;;
+
+publication_Golenkov_V_V_2011_BinarSNaBASNtaBM => nrel_reference_standard: [Гаврилова Т.А., Голенков В.В., Гулякина Н.А. Бинарные семантические сети и приведение произвольной семантической сети к бинарному виду./ В сб.: ХI международная научная конференция имени Т.А.Таран «Интеллектуальный анализ информации ИАИ-2011», Киев, 17-20 мая 2011 г.: Сб.тр./ ред.кол.: гл.ред. С.В.Сирота. – К.: Просвiта, 2011.];;
+
+publication_Golenkov_V_V_2011_BinarSNaBASNtaBM => nrel_year_publication: 2011;;
+
+publication_Golenkov_V_V_2011_BinarSNaBASNtaBM => nrel_information_publication: International_Scientific_Conference_named_TA_Taran_Intelligent_analysis_of_information_2011;;
+

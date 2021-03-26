@@ -1,0 +1,29 @@
+//Самодумкин С.А., Степанова М.Д., Гулякина Н.А., Крючков А.Н. Интеллектуальные технологии в геоинформационных системах: учеб. пособ.– Минск: БГУИР, 2006. –203 с.  
+
+publication_Stepanova_M_D_2006_IntelTiGIS=> nrel_main_idtf:
+[Степанова М.Д. 2006 - ИнтелТвГС]
+	(*
+	<- lang_ru;;
+	*);
+	[Stepanova M.D. 2006 - IntelTiGIS] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Stepanova_M_D_2006_IntelTiGIS => nrel_name_publication:[Интеллектуальные технологии в геоинформационных системах.](*
+	<- lang_ru;;
+	*);;
+
+publication_Stepanova_M_D_2006_IntelTiGIS <= nrel_author:
+Stepanova_M_D; Samodumkin_S_A; Gulyakina_N_A; Kruchkov_A_N;;
+
+publication_Stepanova_M_D_2006_IntelTiGIS <- book;;
+
+publication_Stepanova_M_D_2006_IntelTiGIS => nrel_reference_standard: [Самодумкин С.А., Степанова М.Д., Гулякина Н.А., Крючков А.Н. Интеллектуальные технологии в геоинформационных системах: учеб. пособ.– Минск: БГУИР, 2006. –203 с.];;
+
+publication_Stepanova_M_D_2006_IntelTiGIS => nrel_year_publication: 2006;;
+
+publication_Stepanova_M_D_2006_IntelTiGIS => nrel_information_publication: Intelligent_technology_in_geographic_information_systems;;
+
+publication_Stepanova_M_D_2006_IntelTiGIS => nrel_count_page: 203;;
+

@@ -1,0 +1,36 @@
+//sc_node_not_relation -> publication_Davidenko_I_T_2013_StrucKBBoUSN;;
+
+
+publication_Davidenko_I_T_2013_StrucKBBoUSN => nrel_main_idtf:
+[Давыденко И.Т.2013-СтрукБЗнОУСС]
+	(*
+	<- lang_ru;;
+	*);
+	[Davidenko_I_T_2013_StrucKBBoUSN]
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Davidenko_I_T_2013_StrucKBBoUSN => nrel_name_publication:[Структуризация баз знаний на основе унифицированных семантических сетей](*
+	<- lang_ru;;
+	*);;
+
+publication_Davidenko_I_T_2013_StrucKBBoUSN <= nrel_author:
+Davydenko_I_T; Gulyakina_N_A;;
+
+publication_Davidenko_I_T_2013_StrucKBBoUSN <- article;;
+
+publication_Davidenko_I_T_2013_StrucKBBoUSN => nrel_reference_standard: [Гулякина Н.А., Давыденко И.Т. Структуризация баз знаний на основе унифицированных семантических сетей. Международная научная конференция имени Т.А. Таран «Интеллектуальный анализ информации» ИАИ-2013, Киев, 15-17 мая 2013г.: сб.тр.- К.: Просвіта,2013. – с. 142-146 ];;
+
+
+publication_Davidenko_I_T_2013_StrucKBBoUSN => nrel_number_page: ..StrucKBBoUSN (*
+-> rrel_from : 142;;
+-> rrel_by : 146;;
+*);;
+
+publication_Davidenko_I_T_2013_StrucKBBoUSN => nrel_information_publication: International_Scientific_Conference_named_TA_Taran_Intelligent_analysis_of_information_2013;;
+
+publication_Davidenko_I_T_2013_StrucKBBoUSN => nrel_year_publication: 2013;;
+
+
+

@@ -1,0 +1,11 @@
+sc_node_norole_relation -> nrel_name_publication;; 
+
+nrel_name_publication => nrel_main_idtf:[название публикации*] (* <-lang_ru;; *);;
+
+nrel_name_publication => nrel_main_idtf:[name of publication*] (* <-lang_en;; *);;
+
+nrel_name_publication=>nrel_first_domain:concept_publication;;
+
+nrel_name_publication=>nrel_second_domain:concept_name;;
+
+nrel_name_publication=>nrel_definitional_domain:...(* <=nrel_combination:...(*->concept_publication;; ->concept_document;;*) ;; *);;

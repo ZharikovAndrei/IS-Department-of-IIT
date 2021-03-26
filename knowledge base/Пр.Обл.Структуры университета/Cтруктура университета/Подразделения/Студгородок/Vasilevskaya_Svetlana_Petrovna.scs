@@ -1,0 +1,17 @@
+Vasilevskaya_Svetlana_Petrovna=>nrel_main_idtf:
+[Василевская Светлана Петровна](*<-lang_ru;;*);
+[Vasilevskaya Svetlana Petrovna](*<-lang_en;;*);;
+
+Vasilevskaya_Svetlana_Petrovna -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [+375 17 293-22-40];;*)
+   ;;*)
+   ;; 
+
+Vasilevskaya_Svetlana_Petrovna -> rrel_work_place:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [ул. Л. Беды, 4; общежитие N2, ком.100];;*)
+   ;;*)
+   ;; 

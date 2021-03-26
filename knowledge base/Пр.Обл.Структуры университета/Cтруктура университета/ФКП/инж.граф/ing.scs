@@ -1,0 +1,71 @@
+the_department_of_engineering_graphics=>nrel_main_idtf:
+[Кафедра инженерной графики](*<-lang_ru;;*);
+[the department of engineering graphics](*<-lang_en;;*);; 
+
+
+
+the_department_of_engineering_graphics=>nrel_idtf:[ИГ](*<-lang_ru;;*);;
+the_department_of_engineering_graphics=>nrel_idtf:[EG](*<-lang_en;;*);;
+
+
+
+pers_comp_eg -> rrel_head_of_department: header_of_eg;;
+
+the_department_of_engineering_graphics => nrel_info: eg_info;;
+
+the_department_of_engineering_graphics => nrel_pers_comp: pers_comp_eg;;
+
+
+header_of_eg=>nrel_main_idtf:
+[Столер Владимир Алексеевич](*<-lang_ru;;*);
+[Stoler Vladimir Alexeevich](*<-lang_en;;*);;
+
+
+
+eg_info=>nrel_main_idtf:
+[информация о кафедре ИГ](*<-lang_ru;;*);
+[the information about the department of EG](*<-lang_en;;*);; 
+
+
+pers_comp_eg=>nrel_main_idtf:
+[Персональный состав кафедры ИГ](*<-lang_ru;;*);
+[personal composition of the EG](*<-lang_en;;*);; 
+
+
+
+header_of_eg <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://../../../image/ing1.jpg";;
+               *);;
+        *);;
+
+
+
+
+
+eg_info <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [О кафедре] (* <- lang_ru;; *);;
+	<- sc_task;;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Кафедра инженерной графики создана в 1964 году одновременно с организацией МРТИ-БГУИР. Кафедра обеспечивает качественную подготовку будущих специалистов по инженерной графике, начертательной геометрии, компьютерной графике и механике. Студенты изучают системы автоматизированного проектирования и прикладные пакеты компьютерной графики. На кафедре ежегодно обучается более 2500 студентов дневной, вечерней, заочной и дистанционной форм обучения по всем специальностям университета.
+Цель преподавания - развитие способностей к восприятию пространственных форм предметов действительного мира при помощи их графических изображений и овладение навыками создания и использования конструкторской, программной и иной документации, в том числе с помощью компьютера и компьютерных технологий. ](* <- lang_ru;; *);;
+		*);;
+	*);;
+
+
+
+
+
+
+

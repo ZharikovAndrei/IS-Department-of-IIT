@@ -1,0 +1,31 @@
+publication_Davidenko_I_T_2016_OntolWtCKBwSN=> nrel_main_idtf:
+[Давыденко И.Т. 2016 - ОнтолПкПБЗнОСС]
+	(*
+	<- lang_ru;;
+	*);
+	[Davidenko_I_T_2016_OntolWtCKBwSN] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Davidenko_I_T_2016_OntolWtCKBwSN => nrel_name_publication:[Онтологический подход к построеию баз знаний на основе семантических сетей](*
+	<- lang_ru;;
+	*);;
+
+publication_Davidenko_I_T_2016_OntolWtCKBwSN <= nrel_author:
+Davydenko_I_T;Tarasov_Valerij_Borisovich;Fedotova_Alyona_Valerievna;;
+
+publication_Davidenko_I_T_2016_OntolWtCKBwSN <- article;;
+
+publication_Davidenko_I_T_2016_OntolWtCKBwSN => nrel_reference_standard: [И. Т. Давыденко, В. Б. Тарасов, А. В. Федотова"Онтологический подход к построеию баз знаний на основе семантических сетей", ITS 2016];;
+
+publication_Davidenko_I_T_2016_OntolWtCKBwSN => nrel_year_publication: 2016;;
+
+publication_Davidenko_I_T_2016_OntolWtCKBwSN => nrel_information_publication: Proceedings_of_the_international_scientific_conference_ITS_16;;
+publication_Davidenko_I_T_2016_OntolWtCKBwSN => nrel_number_page: ..2016_OntolWtCKBwSN (*
+-> rrel_from :150;;
+-> rrel_by :151;;
+*);;
+
+
+

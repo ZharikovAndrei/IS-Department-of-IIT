@@ -1,0 +1,13 @@
+sc_node_not_relation -> statutory_BSUIR;;
+
+statutory_BSUIR => nrel_main_idtf:
+[устав УО БГУИР]
+	(*
+	<- lang_ru;;
+	*);
+	[statutory BSUIR] 
+	(*
+	<- lang_en;;
+	*);;
+
+statutory_BSUIR  <- statutory_edition;;

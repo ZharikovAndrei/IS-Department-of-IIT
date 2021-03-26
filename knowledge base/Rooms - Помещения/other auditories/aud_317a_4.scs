@@ -1,0 +1,5 @@
+aud_317a_4
+  => nrel_main_idtf:
+    [аудитория 317а-4] (* <-lang_ru;; *);
+  => nrel_main_idtf:
+    [audience 317a-4] (* <-lang_en;; *);;

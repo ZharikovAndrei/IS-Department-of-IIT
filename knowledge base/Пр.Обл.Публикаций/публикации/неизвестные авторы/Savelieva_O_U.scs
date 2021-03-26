@@ -1,0 +1,11 @@
+//sc_node_not_relation -> Savelieva_O_U;;
+
+Savelieva_O_U => nrel_main_idtf:
+[Савельева О.Ю.]
+	(*
+	<- lang_ru;;
+	*);
+	[Savelieva O.U.]
+	(*
+	<- lang_en;;
+	*);;

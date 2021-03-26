@@ -1,0 +1,9 @@
+selection_committee_of_the_bsuir => nrel_main_idtf:[приемная комиссия БГУИРа] (* <-lang_ru;; *);;
+selection_committee_of_the_bsuir=> nrel_main_idtf:[selection committee of the BSUIR] (* <-lang_en;; *);;
+selection_committee_of_the_bsuir=> nrel_pers_comp:personal_composition_of_selection_committee_of_the_bsuir;;
+personal_composition_of_selection_committee_of_the_bsuir->rrel_executive_secretary:Rusin_Vitaly_Gennadyevach;;
+personal_composition_of_selection_committee_of_the_bsuir->rrel_chancellery:Petremko_Ludmila_Konstatinovna;;
+personal_composition_of_selection_committee_of_the_bsuir=>nrel_main_idtf:
+[персональный состав приемной комиссии БГУИРа](*<-lang_ru;;*);
+[personal composition of the selection committee of the BSUIR](*<-lang_en;;*);; 
+selection_committee_of_the_bsuir<-concept_selection_committee;;

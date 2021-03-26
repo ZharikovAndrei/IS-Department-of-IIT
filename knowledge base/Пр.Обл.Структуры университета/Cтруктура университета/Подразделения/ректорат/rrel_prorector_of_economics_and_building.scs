@@ -1,0 +1,17 @@
+sc_node_role_relation ->rrel_prorector_of_economics_and_building;; 
+rrel_prorector_of_economics_and_building=> nrel_main_idtf:[Проректор по экономике и строительству'] (* <-lang_ru;; *);;
+rrel_prorector_of_economics_and_building=> nrel_main_idtf:[Prorector of economics and building'] (* <-lang_en;; *);;
+rrel_prorector_of_economics_and_building=>nrel_first_domain:concept_university;;
+rrel_prorector_of_economics_and_building=>nrel_second_domain:person;;
+rrel_prorector_of_economics_and_building=>nrel_definitional_domain:...(* <=nrel_combination:...(*->concept_university;; ->concept_person;;*) ;; *);;
+rrel_prorector_of_economics_and_building<- rrel_key_sc_element:
+	... 
+	(*<-sc_definition;;
+     =>nrel_idtf:[Опр.(Prorector of economics and building)](*<-lang_ru;;*);;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Проректор по экономике и строительству— проректор, занимающийся экономическими и строительными процессами в университете.](* <- lang_ru;; *);;
+		*);;
+	*);;

@@ -1,0 +1,20 @@
+important_priority
+
+=>nrel_main_idtf:
+[важный приоритет](*<-lang_ru;;*);
+[important priority](*<-lang_en;;*);
+
+<-rrel_key_sc_element_of_subject_domain:
+section_subject_domain_of_desingning_management;
+
+<-rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [важный приоритет – это приоритет проектной задачи, означающий, что выполнение данной проектной задачи должно осуществляться совместно с проектными задачами, имеющими критичный приоритет, либо сразу после них](* <-lang_ru;; *);; 
+		*);;
+	*);;
+

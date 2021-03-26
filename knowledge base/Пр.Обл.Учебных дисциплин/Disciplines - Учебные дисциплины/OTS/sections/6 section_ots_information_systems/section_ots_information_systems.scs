@@ -1,0 +1,28 @@
+section_ots_information_systems
+=> nrel_main_idtf:
+		[Раздел. ОТС. Информационные системы](* <- lang_ru;; *);
+		[Section. GTS. Information Systems](* <-lang_en;; *);
+
+=>nrel_idtf:
+	[Раздел базы знаний общей теории систем, описывающий информационные системы](* <- lang_ru;; *);;
+
+section_ots_information_systems = [*^"file://section_ots_information_systems.scsi"*];;
+
+
+section_ots_information_systems
+->rrel_key_sc_element:
+	subject_domain_of_section;
+	information_system;
+	information_resources;
+	types_and_forms_of_information_support;
+	sorting_of_information_systems;
+	life_cycle_of_information_systems;
+	properties_of_information_systems;
+	processes_in_the_information_system;
+	stages_of_development_of_information_systems;
+	principles_of_building_information_systems;
+	life_cycle_stages_of_information_system;
+	life_cycle_model_of_the_information_system;
+	cascad_model;
+	iterative_model;
+	spiral_model;;

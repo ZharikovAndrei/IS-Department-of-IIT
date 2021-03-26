@@ -1,0 +1,18 @@
+sc_node_not_relation->concept_press_office;;
+
+concept_press_office=>nrel_main_idtf:
+[пресс-служба](*<-lang_ru;;*);
+[press office](*<-lang_en;;*);; 
+
+concept_press_office<-rrel_key_sc_element:
+...
+(*
+=>nrel_main_idtf:[Опр.(пресс-служба)](*<-lang_ru;;*);;
+<-sc_definition;;
+<=nrel_sc_text_translation:
+...	
+(*
+->rrel_example:
+[Пресс-служба - подразделение госучреждения, органа власти, суда, корпорации, крупной или средней фирмы, осуществляющее взаимодействие данной структуры с прессой и прочими СМИ.](*<-lang_ru;;*);;
+*);;
+*);;

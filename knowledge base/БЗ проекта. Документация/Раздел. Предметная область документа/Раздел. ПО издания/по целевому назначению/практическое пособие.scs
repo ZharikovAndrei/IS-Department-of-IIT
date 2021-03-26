@@ -1,0 +1,27 @@
+sc_node_not_relation -> guide_edition;;
+
+guide_edition => nrel_main_idtf:
+[практическое пособие]
+	(*
+	<- lang_ru;;
+	*);
+	[guide edition] 
+	(*
+	<- lang_en;;
+	*);;
+
+guide_edition <- rrel_key_sc_element: 
+        ...
+	(*
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[практическое пособие – производственно-практическое издание, предназначенное для овладения знаниями и навыками при выполнении какой-либо определенной работы]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;
+
+edition -> guide_edition;;
+guide_edition <- trade_edition;;

@@ -1,0 +1,28 @@
+//sc_node_not_relation -> publication_Kachkov_V_P_2006_EvaluCEoSSKIFM;;
+
+
+publication_Kachkov_V_P_2006_EvaluCEoSSKIFM => nrel_main_idtf:
+[Качков В.П.2006 - ОценкВЭСМСКИФ]
+	(*
+	<- lang_ru;;
+	*);
+	[Kachkov_V_P_2006_EvaluCEoSSKIFM]
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Kachkov_V_P_2006_EvaluCEoSSKIFM => nrel_name_publication:[Оценка вычислительной эффективности суперкомпьютерных моделей СКИФ] (*
+	<- lang_ru;;
+	*);;
+
+publication_Kachkov_V_P_2006_EvaluCEoSSKIFM <= nrel_author:
+Kachkov_V_P; Rimanchuk_A_G; Paramonov_N_N;;
+
+publication_Kachkov_V_P_2006_EvaluCEoSSKIFM <- article;;
+
+publication_Kachkov_V_P_2006_EvaluCEoSSKIFM => nrel_reference_standard: [Качков В.П., Парамонов Н.Н., Рымарчук А.Г. Оценка вычислительной эффективности суперкомпьютерных моделей СКИФ. Сб. "Информатика" №4, Мн.: ОИПИ НАН Беларуси, 2006];;
+
+publication_Kachkov_V_P_2006_EvaluCEoSSKIFM => nrel_year_publication: 2006;;
+
+publication_Kachkov_V_P_2006_EvaluCEoSSKIFM => nrel_information_publication:  collection_of_computer_science_4_2006;;
+

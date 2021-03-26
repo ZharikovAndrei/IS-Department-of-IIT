@@ -1,0 +1,28 @@
+sc_node_not_relation -> instructional_edition;;
+
+instructional_edition => nrel_main_idtf:
+[нормативное производственно-практическое издание]
+	(*
+	<- lang_ru;;
+	*);
+	[instructional edition] 
+	(*
+	<- lang_en;;
+	*);;
+
+instructional_edition <- rrel_key_sc_element: 
+        ...
+	(*
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[нормативное производственно-практическое издание – официальное издание, содержащее нормы, правила и требования и в разных сферах производственной деятельности]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;
+
+official_edition -> instructional_edition;;
+non_periodical_edition -> instructional_edition;;
+edition -> instructional_edition;;

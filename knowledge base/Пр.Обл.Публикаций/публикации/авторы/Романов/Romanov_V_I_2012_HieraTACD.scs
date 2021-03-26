@@ -1,0 +1,33 @@
+//sc_node_not_relation -> publication_Romanov_V_I_2012_HieraTACD;;
+
+
+publication_Romanov_V_I_2012_HieraTACD => nrel_main_idtf:
+[Романов В.И.2012 - ИерарПкТПМ]
+	(*
+	<- lang_ru;;
+	*);
+	[Romanov_V_I_2012_HieraTACD] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Romanov_V_I_2012_HieraTACD => nrel_name_publication:[Иерархический подход к топологическому проектированию микросхем](*
+	<- lang_ru;;
+	*);;
+
+publication_Romanov_V_I_2012_HieraTACD => nrel_author:
+Romanov_V_I;;
+
+publication_Romanov_V_I_2012_HieraTACD <- article;;
+
+publication_Romanov_V_I_2012_HieraTACD => nrel_reference_standard: [Романов, В.И. Иерархический подход к топологическому проектированию микросхем / В.И. Романов // Информатика, – 2012. – №.4 – С.100-107 ];;
+
+publication_Romanov_V_I_2012_HieraTACD => nrel_year_publication: 2012;;
+
+publication_Romanov_V_I_2012_HieraTACD => nrel_information_publication: collection_of_computer_science_4_2012;;
+
+publication_Romanov_V_I_2012_HieraTACD => nrel_number_page: ..2012_HieraTACD(*
+-> rrel_from : 100;;
+-> rrel_by : 107;;
+*);;
+

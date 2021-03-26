@@ -1,0 +1,10 @@
+sc_node_not_role -> team;;
+
+team => nrel_main_idtf: [команда] (*<- lang_ru;;*); 
+                                                            [team] (*<- lang_en;;*);;
+
+team <- rrel_key_sc_element: ...
+                                  (* <- concept_sc_defenition;;
+ 							   <= nrel_sc_text_translation: ... (*-> [Команда - группа лиц, имеющих схожие цели и интересы, ведущие совместную деятельность.] (*<- lang_ru;;*);; *);;
+                                      => nrel_main_idtf: [Опр. (команда)] (*<- lang_ru;;*);;
+                                  *);;

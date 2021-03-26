@@ -1,0 +1,5 @@
+aois_section_2_informatsionno_logicheskie_osnovy_postroeniya_evm
+<- concept_section; 
+<= nrel_index_number: 2; 
+=> nrel_main_idtf: [Раздел 2: Информационно-логические основы построения ЭВМ] (* <- lang_ru;; *);;
+

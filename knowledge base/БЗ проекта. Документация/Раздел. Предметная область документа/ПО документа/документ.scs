@@ -1,0 +1,79 @@
+//
+sc_node_not_relation -> document;;
+
+specialization_of_document -> document;;
+
+
+
+document <- rrel_key_sc_element: 
+        ...
+	(*
+//	=> nrel_main_idtf: [Опр.(ARPANET)]  (* <- lang_ru;; *);;
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[документ – материальный объект, содержащий информацию в за­фиксированном виде и специально предназначенный для ее передачи и использования во времени и пространстве]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;
+
+document <- rrel_key_sc_element: 
+        ...
+	(*
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[документ – средство закрепления различным способом на специальном материале информации о фактах, событиях, явлениях объективной действительности и мыслительной деятельности человека]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;
+
+
+document <- rrel_key_sc_element: 
+        ...
+	(*
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[документ – зафиксированная на материальном носителе информация с реквизитами, позволяющими ее идентифицировать]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;
+sc_node_not_relation -> document_kind_information;;
+document_kind_information => nrel_main_idtf:
+[по типу информации]
+	(*
+	<- lang_ru;;
+	*);
+	[of kind information] 
+	(*
+	<- lang_en;;
+	*);;
+
+document <= nrel_subdividing: document_kind_information
+		(*
+			-> iconic_document;
+			phonodocument;
+			textual_document;
+			records_on_the_personnel;
+			audio_visual_document;
+			official_document;
+			electronic_record;;
+		
+		*);;
+
+
+document <= nrel_subdividing: 
+		{
+			unpublished_document;
+			published_document;
+			unpublish_document
+			
+		};;
+

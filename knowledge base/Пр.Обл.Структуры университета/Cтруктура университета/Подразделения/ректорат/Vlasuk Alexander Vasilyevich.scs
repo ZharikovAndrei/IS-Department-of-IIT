@@ -1,0 +1,32 @@
+Vlasuk_Alexander_Vasilyevich=>nrel_main_idtf:
+[Власюк Александр Васильевич](*<-lang_ru;;*);
+[Vlasuk Alexander Vasilyevich](*<-lang_en;;*);;
+
+Vlasuk_Alexander_Vasilyevich -> rrel_email:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+ [no_one](*<-lang_en;;*)
+   ;;*)
+   ;;*)
+   ;;
+
+Vlasuk_Alexander_Vasilyevich -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+ [+375 17 293-80-61];
+ [+375 17 292-42-03];;*)
+   ;;*)
+   ;;
+
+Vlasuk_Alexander_Vasilyevich -> rrel_work_place: aud_211_2;;
+Vlasuk_Alexander_Vasilyevich <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example:
+                       "file://Vlasuk.jpg";;
+               *);;
+        *);;

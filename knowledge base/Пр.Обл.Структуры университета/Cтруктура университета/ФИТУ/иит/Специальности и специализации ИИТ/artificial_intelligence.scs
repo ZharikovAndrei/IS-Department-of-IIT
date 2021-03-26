@@ -1,0 +1,34 @@
+artificial_intelligence=>nrel_main_idtf:[Специальность 1-40 03 01 Искусственный интеллект] (* <-lang_ru;; *);;
+artificial_intelligence=>nrel_main_idtf:[Speciality 1-40 03 01 Artificial intelligence] (* <-lang_en;; *);;
+
+artificial_intelligence=>nrel_idtf:[Специальность ИИ] (* <-lang_ru;; *);;
+artificial_intelligence=>nrel_idtf:[Speciality AI] (* <-lang_en;; *);;
+
+artificial_intelligence <= nrel_specialization: ... (*->geographic_information_systems;;->information_protection;;*);;
+
+artificial_intelligence => nrel_qualification: qualification_system_engineer;;
+
+
+artificial_intelligence => nrel_primary_position: primary_position_engineer;;
+artificial_intelligence => nrel_primary_position: primary_position_software_engineer;;
+artificial_intelligence => nrel_primary_position: primary_position_research_engineer;;
+artificial_intelligence => nrel_primary_position: primary_position_engineer_at_the_introduction_of_new_techniques_and_technologies;;
+artificial_intelligence => nrel_primary_position: primary_position_engineer_on_adjustment_and_tests;;
+artificial_intelligence => nrel_primary_position: primary_position_engineer_technical_supervision;;
+artificial_intelligence => nrel_primary_position: primary_position_engineer_data_protection;;
+artificial_intelligence => nrel_primary_position: primary_position_system_engineer;;
+artificial_intelligence => nrel_primary_position: primary_position_programmer;;
+
+
+artificial_intelligence => nrel_code_of_speciality: code_of_the_speciality_artificial_intelligence;;
+
+
+
+
+
+
+
+
+
+
+

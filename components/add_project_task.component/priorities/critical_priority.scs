@@ -1,0 +1,30 @@
+critical_priority
+
+=>nrel_main_idtf:
+[критичный приоритет](*<-lang_ru;;*);
+[critical priority](*<-lang_en;;*);
+
+<-rrel_key_sc_element_of_subject_domain:
+section_subject_domain_of_desingning_management;
+
+<-rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [критичный приоритет – это приоритет проектной задачи, означающий, что выполнение данной проектной задачи должно осуществляться совместно с проектными задачами, имеющими блокирующий приоритет, либо сразу после них](* <-lang_ru;; *);; 
+		*);;
+	*);
+
+<-rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> rrel_example: [Проектная задача приобретает критичный приоритет, если наблюдаются серьёзные ошибки, связанные с потерей данных, неработоспособность системы/подсистемы в целом](* <-lang_ru;; *);; 
+		*);;
+	*);;

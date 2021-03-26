@@ -1,0 +1,748 @@
+subject_domain_of_decision_making_systems
+=> nrel_main_idtf:
+	[Предметная область систем принятия решений]
+	(* <- lang_ru;; *);
+	[Subject domain of decision-making systems]
+	(* <- lang_en;; *);
+=> nrel_idtf:
+	[Предметная область общей теории систем]
+	(* <- lang_ru;; *);
+	[Предметная область, объектами исследования которой являются системы принятия решений]
+	(* <- lang_ru;; *);
+<- subject_domain;
+-> rrel_maximum_studied_object_class: 
+        decision_making_system;
+-> rrel_not_maximum_studied_object_class:
+	   method_of_building_decision_making_system;
+	finding_satisfactory_solution;
+	the_optimization_problem;
+	the_criterion_of_system_effectiveness;
+	method_of_decision_making;
+	case_based_reasoning;
+	cognitive_modeling;
+	compiling_the_vocabulary_of_the_system;
+	data_mining;
+	description_of_the_subject_area;
+	evolution_algorithms;
+	introduction;
+	knowledge_base_and_database_development;
+	neural_network;
+	simulation_modeling;
+-> rrel_explored_relation:
+        nrel_method_of_decision_making;
+	    nrel_method_of_building_decision_making_system;
+        nrel_system_efficiency;;
+	
+
+
+
+decision_making_system
+=> nrel_main_idtf:
+	[система принятия решений]
+	(* <- lang_ru;; *);
+	[decision-making system]
+	(* <- lang_en;; *);
+=> nrel_idtf:
+	[система поддержки принятия решений]
+	(* <- lang_ru;; *);
+<= nrel_subdividing: 
+        finding_satisfactory_solution;
+        the_criterion_of_system_effectiveness;
+        method_of_building_decision_making_system;
+	    the_optimization_problem;
+        method_of_decision_making;
+
+<-rrel_key_sc_element:...
+(*
+=>nrel_idtf:[утв.(информационная система, система управления базами данных)](*<-lang_ru;;*);;
+<-statement;;
+<=nrel_sc_text_translation:
+...
+(*
+->[Cистемы принятия решений возникли в результате слияния управленческих информационных систем и систем управления базами данных.](*<-lang_ru;;*);;
+*);;
+*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				[Cистема принятия решений - это компьютерная автоматизированная система, целью которой является помощь людям, принимающим решение в сложных условиях для полного и объективного анализа предметной деятельности.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);;
+	*);;
+
+
+
+
+method_of_building_decision_making_system
+=> nrel_main_idtf:
+	[способ создания системы принятия решений]
+	(* <- lang_ru;; *);
+	[method of building decision-making system]
+	(* <- lang_en;; *);
+=> nrel_idtf:
+	[способ при выполнении которого создается система принятия решений.]
+	(* <- lang_ru;; *);
+<= nrel_subdividing:	
+description_of_the_subject_area;
+compiling_the_vocabulary_of_the_system;
+knowledge_base_and_database_development;
+introduction;
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				[Cпособ создания системы принятия решений - набор последовательно выполненных операций в результате которого образуется система принятия решений.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);;
+	*);;
+
+
+
+
+
+nrel_method_of_building_decision_making_system
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[способ создания системы принятия решений*]
+	(* <- lang_ru;; *);
+	[method of building decision-making system*]
+	(* <- lang_en;; *);
+=> nrel_idtf:
+	[быть способом создания системы принятия решений*]
+	(* <- lang_ru;; *);
+=> nrel_first_domain:
+		decision_making_system;
+=> nrel_second_domain:
+		method_of_building_decision_making_system;
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				[Cпособ создания системы принятия решений* - это бинарное отношение, связывающее систему принятия решений со способом ее создания.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);;
+	*);;
+
+
+
+
+method_of_decision_making
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[способ принятия решений]
+	(* <- lang_ru;; *);
+	[method of decision making]
+	(* <- lang_en;; *);
+=> nrel_idtf:
+	[способ, который позволяет системе принимать решения]
+	(* <- lang_ru;; *);
+=> nrel_inclusion: 
+        data_mining;
+        simulation_modeling;
+        evolution_algorithms;
+        neural_network;
+        cognitive_modeling;
+        case_based_reasoning;
+        
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				[Cпособ принятия решений - набор последовательно выполненных операций в результате которого система принятия решений выполняет свои функции.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);;
+	*);;
+
+
+
+
+nrel_method_of_decision_making
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[способ принятия решений*]
+	(* <- lang_ru;; *);
+	[method of decision making*]
+	(* <- lang_en;; *);
+=> nrel_idtf:
+	[быть способом принятия решений*]
+	(* <- lang_ru;; *);
+=> nrel_first_domain:
+		decision_making_system;
+=> nrel_second_domain:
+		method_of_decision_making;
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				[Cпособ принятия решений* - это бинарное отношение, связывающее систему принятия решений со способом принятия рениний.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);;
+	*);;
+	
+
+
+
+
+the_optimization_problem
+=> nrel_main_idtf:
+	[задача оптимизации]
+	(* <- lang_ru;; *);
+	[the optimization problem]
+	(* <- lang_en;; *);
+=> nrel_idtf:
+	[оптимизационная задача]
+	(* <- lang_ru;; *);
+<-rrel_key_sc_element:...
+(*
+=>nrel_idtf:[утв.(технология, конструкция, процесс, задача)](*<-lang_ru;;*);;
+<-statement;;
+<=nrel_sc_text_translation:
+...
+(*
+->[Методы оптимизации применяются к поиску расчета оптимальной технологии, оптимальной геометрической конструкции, лучшего времени для технологических процессов и подобных задач.](*<-lang_ru;;*);;
+*);;
+*);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				[Задача оптимизации - задача определения наилучших, в некотором смысле, структуры или значений параметров объектов.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);;
+	*);;
+
+
+
+
+
+finding_satisfactory_solution
+=> nrel_main_idtf:
+	[нахождение удовлетворительного решения]
+	(* <- lang_ru;; *);
+	[finding satisfactory solution]
+	(* <- lang_en;; *);
+=> nrel_idtf:
+	[принцип удовлетворенности]
+	(* <- lang_ru;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				[Нахождение удовлетворительного решения - задача нахождения системой неизвестного решения которое будет наиболее удовлетворять содержанию задачи.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);;
+	*);;
+
+
+
+
+
+
+the_criterion_of_system_effectiveness
+=> nrel_main_idtf:
+	[критерий эффективности системы]
+	(* <- lang_ru;; *);
+	[the criterion of system effectiveness]
+	(* <- lang_en;; *);
+=> nrel_idtf:
+	[критерий эффективности]
+	(* <- lang_ru;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				[Критерий эффективности системы - признак или комплекс признаков, по которым производиться оценка эффективности функционирования системы.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);;
+	*);;
+
+
+
+
+
+
+
+nrel_system_efficiency
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+	[эффективность системы*]
+	(* <- lang_ru;; *);
+	[system efficiency*]
+	(* <- lang_en;; *);
+=> nrel_idtf:
+	[эффективность*]
+	(* <- lang_ru;; *);
+=> nrel_first_domain:
+		decision_making_system;
+=> nrel_second_domain:
+		the_criterion_of_system_effectiveness;
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				[Эффективность системы - обобщенное определяющее функциональное свойство системы, реализующее операцию, которое раскрывается через категорию цели(желаемый результат) и объективно выражается степенью достижения цели с учетом затрат ресурсов и времени на реализацию операции.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);;
+	*);;
+	
+
+
+
+
+
+
+simulation_modeling
+=> nrel_main_idtf:
+	[имитационное моделирование]
+	(* <- lang_ru;; *);
+	[simulation modeling]
+	(* <- lang_en;; *);
+=> nrel_idtf:
+	[ситуационное моделирование]
+	(* <- lang_ru;; *);
+
+<-rrel_key_sc_element:...
+(*
+=>nrel_idtf:[утв.(решение, задача)](*<-lang_ru;;*);;
+<-statement;;
+<=nrel_sc_text_translation:
+...
+(*
+->[Имитационным моделированием иногда называют получение частных численных решений сформулированной задачи на основе аналитических решений или с помощью численных методов.](*<-lang_ru;;*);;
+*);;
+*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				[Имитационное моделирование - метод, позволяющий строить модели, описывающие процессы так, как они проходили бы в действительности.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);;
+	*);;
+
+
+
+
+
+
+	neural_network
+=> nrel_main_idtf:
+	[нейронная сеть]
+	(* <- lang_ru;; *);
+	[neural network]
+	(* <- lang_en;; *);
+=> nrel_idtf:
+	[искусственная нейронная сеть]
+	(* <- lang_ru;; *);
+
+<-rrel_key_sc_element:...
+(*
+=>nrel_idtf:[утв.(система, процессор)](*<-lang_ru;;*);;
+<-statement;;
+<=nrel_sc_text_translation:
+...
+(*
+->[Нейронная сеть представляют собой систему соединённых и взаимодействующих между собой простых процессоров.](*<-lang_ru;;*);;
+*);;
+*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				[Нейронная сеть - математическая модель, а также её программное или аппаратное воплощение, построенная по принципу организации и функционирования биологических нейронных сетей — сетей нервных клеток живого организма.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);;
+	*);;
+
+
+
+
+
+	knowledge_base_and_database_development
+=> nrel_main_idtf:
+	[разработка базы знаний и базы данных]
+	(* <- lang_ru;; *);
+	[knowledge base and database development]
+	(* <- lang_en;; *);
+=> nrel_idtf:
+	[разработка базы]
+	(* <- lang_ru;; *);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				[Разработка базы знаний и базы данных - процесс построения некоторой исходной предметной области и процесс наращивания указанной предметной области целым рядом надобластей, у каждой из которых есть свой класс исследуемых объектов.]
+                        (*
+			<- lang_ru;;
+			*);;
+		*);;
+	*);;
+
+
+
+
+
+
+
+
+
+	introduction
+=> nrel_main_idtf:
+	[внедрение]
+	(* <- lang_ru;; *);
+	[introduction]
+	(* <- lang_en;; *);
+=> nrel_idtf:
+	[проверка системы]
+	(* <- lang_ru;; *);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				[Внедрение - это проверка и оценка правильности работы системы.]
+                        (*
+			<- lang_ru;;
+			*);;
+		*);;
+	*);;
+
+
+
+
+
+
+
+	evolution_algorithms
+=> nrel_main_idtf:
+	[эволюционные алгоритмы]
+	(* <- lang_ru;; *);
+	[evolution algorithms]
+	(* <- lang_en;; *);
+=> nrel_idtf:
+	[генетические алгоритмы]
+	(* <- lang_ru;; *);
+
+<-rrel_key_sc_element:...
+(*
+=>nrel_idtf:[утв.(теория, процесс)](*<-lang_ru;;*);;
+<-statement;;
+<=nrel_sc_text_translation:
+...
+(*
+->[Эволюционные алгоритмы моделируют базовые положения в теории биологической эволюции — процессы отбора, мутации и воспроизводства.](*<-lang_ru;;*);;
+*);;
+*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				[Эволюционные алгоритмы - направление в искусственном интеллекте (раздел эволюционного моделирования), которое использует и моделирует процессы естественного отбора.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);;
+	*);;
+
+
+
+
+
+
+	description_of_the_subject_area
+=> nrel_main_idtf:
+	[описание предметной области]
+	(* <- lang_ru;; *);
+	[description of the subject area]
+	(* <- lang_en;; *);
+=> nrel_idtf:
+	[описание онтологии предметной области]
+	(* <- lang_ru;; *);
+
+<-rrel_key_sc_element:
+...
+(*
+=>nrel_idtf:[утв.(предметная область, специфика)](*<-lang_ru;;*);;
+<-statement;;
+<=nrel_sc_text_translation:
+...
+(*
+->[Описание должно отражать специфику предметной области.](*<-lang_ru;;*);;
+*);;
+*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				[Описание предметной области - это текстовое представление содержание процессов, объектов и связей между ними.]
+                        (*
+			<- lang_ru;;
+			*);;
+		*);;
+	*);;
+
+
+
+
+
+
+
+
+	data_mining
+=> nrel_main_idtf:
+	[анализ данных]
+	(* <- lang_ru;; *);
+	[data mining]
+	(* <- lang_en;; *);
+=> nrel_idtf:
+	[добыча данных]
+	(* <- lang_ru;; *);
+
+<-rrel_key_sc_element:...
+(*
+=>nrel_idtf:[утв.(анализ, нейронные сети, нечеткая логика, ассоциативная память)](*<-lang_ru;;*);;
+<-statement;;
+<=nrel_sc_text_translation:
+...
+(*
+->[Основу методов анализа донных составляют всевозможные методы классификации, моделирования и прогнозирования, основанные на применении деревьев решений, искусственных нейронных сетей, генетических алгоритмов, эволюционного программирования, ассоциативной памяти, нечёткой логики.](*<-lang_ru;;*);;
+*);;
+*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				[Анализ данных - собирательное название, используемое для обозначения совокупности методов обнаружения в данных ранее неизвестных, нетривиальных, практически полезных и доступных интерпретации знаний, необходимых для принятия решений.]
+                        (*
+			<- lang_ru;;
+			*);;
+		*);;
+	*);;
+
+
+
+
+
+
+
+	compiling_the_vocabulary_of_the_system
+=> nrel_main_idtf:
+	[создание словаря системы]
+	(* <- lang_ru;; *);
+	[compiling the vocabulary of the system]
+	(* <- lang_en;; *);
+=> nrel_idtf:
+	[создание словаря]
+	(* <- lang_ru;; *);
+
+<-rrel_key_sc_element:...
+(*
+=>nrel_idtf:[утв.(система, условие, эффективность*)](*<-lang_ru;;*);;
+<-statement;;
+<=nrel_sc_text_translation:
+...
+(*
+->[Составление словаря - важная работа, ибо четко сформулированные условия и ответы резко повышают эффективность эксплуатации системы.](*<-lang_ru;;*);;
+*);;
+*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				[Создание cловаря системы - это создание набора слов, фраз, кодов, наименований, используемых разработчиком для обозначения условий, целей, заключений и гипотез.]
+                        (*
+			<- lang_ru;;
+			*);;
+		*);;
+	*);;
+
+
+
+
+
+
+	cognitive_modeling
+=> nrel_main_idtf:
+	[когнитивное моделирование]
+	(* <- lang_ru;; *);
+	[cognitive modeling]
+	(* <- lang_en;; *);
+=> nrel_idtf:
+	[моделирование субъективных представлений экспертов]
+	(* <- lang_ru;; *);
+
+<-rrel_key_sc_element:...
+(*
+=>nrel_idtf:[утв.(анализ, решение, ситуация)](*<-lang_ru;;*);;
+<-statement;;
+<=nrel_sc_text_translation:
+...
+(*
+->[Методология когнитивного моделирования, предназначенная для анализа и принятия решений в плохо определенных ситуациях.](*<-lang_ru;;*);;
+*);;
+*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				[Когнитивное моделирование - определение, наиболее эффективных управленческих решений и/или сценариев развития событий на основе выделения понятий (концептов, факторов), количественно и качественно характеризующих складывающуюся ситуацию, а также оценки взаимовлияния факторов.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);;
+	*);;
+
+
+
+
+
+
+
+
+	case_based_reasoning
+=> nrel_main_idtf:
+	[рассуждения на основе прецедентов]
+	(* <- lang_ru;; *);
+	[case-based reasoning]
+	(* <- lang_en;; *);
+=> nrel_idtf:
+	[рассуждение по аналогии]
+	(* <- lang_ru;; *);
+
+<-rrel_key_sc_element:...
+(*
+=>nrel_idtf:[утв.(рассуждение, прием)](*<-lang_ru;;*);;
+<-statement;;
+<=nrel_sc_text_translation:
+...
+(*
+->[Рассуждения на основе прецедентов не просто хороший приём автоматизации рассуждений, но также широко распространенное поведение в повседневной человеческой жизни; или, что более радикально, что все рассуждения основаны на личном опыте.](*<-lang_ru;;*);;
+*);;
+*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				[Рассуждения на основе прецедентов - метод решения новых проблем на основе уже известных решений.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);;
+	*);;
+
+
+
+
+
+
+	
+

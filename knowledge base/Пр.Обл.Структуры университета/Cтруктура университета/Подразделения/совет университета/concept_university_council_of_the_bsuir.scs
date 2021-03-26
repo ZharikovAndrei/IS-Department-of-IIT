@@ -1,0 +1,9 @@
+university_council_of_the_bsuir => nrel_main_idtf:[Совет БГУИРа] (* <-lang_ru;; *);;
+university_council_of_the_bsuir=> nrel_main_idtf:[University cuonsil of the BSUIR] (* <-lang_en;; *);;
+university_council_of_the_bsuir=> nrel_pers_comp:personal_composition_of_counsil_of_the_bsuir;;
+personal_composition_of_counsil_of_the_bsuir->rrel_executive_secretary:Pristrom_Irina_Eduardovna;;
+university_council_of_the_bsuir<-concept_university_council;;
+
+personal_composition_of_counsil_of_the_bsuir=>nrel_main_idtf:
+[персональный состав совета БГУИРа](*<-lang_ru;;*);
+[personal composition of University counsil of the BSUIR](*<-lang_en;;*);; 

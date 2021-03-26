@@ -1,0 +1,6 @@
+sc_text_of_agent_of_changing_task_on_approve
+-> rrel_key_sc_element:
+	agent_of_changing_task_on_approve;
+<- scp_program_sc_text;;
+
+sc_text_of_agent_of_changing_task_on_approve = [*^"file://agent_of_changing_task_on_approve.scsi"*];;

@@ -1,0 +1,9 @@
+assistant_rector_of_the_bsuir => nrel_main_idtf:[Помощник ректора БГУИРа] (* <-lang_ru;; *);;
+assistant_rector_of_the_bsuir=> nrel_main_idtf:[assistant rector of the BSUIR] (* <-lang_en;; *);;
+assistant_rector_of_the_bsuir=> nrel_pers_comp:personal_composition_assisant_rector_of_the_bsuir;;
+personal_composition_assisant_rector_of_the_bsuir->rrel_assisant_rector_of_the_bsuir:Tkachev_Nikolay_Michaylovich;;
+assisant_rector_of_the_bsuir<-concept_assisant_rector;;
+
+assisant_rector_of_the_bsuir=>nrel_main_idtf:
+[помощник ректора БГУИРа](*<-lang_ru;;*);
+[assistant rector of the BSUIR](*<-lang_en;;*);; 

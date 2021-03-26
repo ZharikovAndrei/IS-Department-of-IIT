@@ -1,0 +1,15 @@
+sc_node_not_relation -> concept_presidium_meeting_professors;;
+concept_presidium_meeting_professors=> nrel_main_idtf:[президиум профессорского собрания] (* <-lang_ru;; *);;
+concept_presidium_meeting_professors=> nrel_main_idtf:[presidium meeting professors] (* <-lang_en;; *);;
+concept_presidium_meeting_professors->presidium_meeting_professors_bsuir;;
+concept_presidium_meeting_professors<- rrel_key_sc_element:
+	... 
+	(*<-sc_definition;;
+     =>nrel_main_idtf:[Опр.(президиум профессорского собрания)](*<-lang_ru;;*);;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Президиум профессорского собрания - это руководящий орган сообщества научно-педагогических работников.](* <- lang_ru;; *);;
+		*);;
+	*);;

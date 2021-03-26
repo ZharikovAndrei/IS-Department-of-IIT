@@ -1,0 +1,5 @@
+sc_node_not_relation->concept_department_of_maintenance;;
+concept_department_of_maintenance=>nrel_main_idtf:
+[отдел эксплуатационного обслуживания](*<-lang_ru;;*);
+[department of maintenance](*<-lang_en;;*);; 
+concept_department_of_maintenance->department_of_maintenance_bsuir;;

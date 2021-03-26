@@ -1,0 +1,83 @@
+sc_node_not_relation -> edition;;
+
+//specialization_of_edition -> edition;;
+
+edition <- rrel_key_sc_element: 
+        ...
+	(*
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[издание – документ, предназначенный для распространения содержащейся в нем информации, прошедший редакционно-издательскую обработку, самостоятельно оформленный, имеющий выходные сведения]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;
+
+document -> edition;;
+
+
+
+edition <= nrel_subdividing: ...
+		(*
+			 => nrel_main_idtf:
+			[по периодичности]
+			(*
+				<- lang_ru;;
+			*);;
+			-> non_periodical_edition;;
+			-> serial_edition;;	
+		*);;
+
+edition <= nrel_subdividing: ...
+		(*
+			
+			 => nrel_main_idtf:
+			[по целевому назначению]
+			(*
+				<- lang_ru;;
+			*);;
+
+			-> official_edition;;
+			-> scientific_edition;;	
+			-> popular_scientific_edition;;
+			-> literature_fiction_edition;;
+			-> trade_edition;;
+			-> instructional_edition;;
+			-> educational_edition;;
+			-> spiritual_educational_edition;;
+			-> popular_political_edition;;
+			-> reference_edition;;
+			-> information_edition;;
+			-> advertising_edition;;
+			-> leisure_edition;;
+		*);;
+
+edition <= nrel_subdividing: ...
+		(*
+			=> nrel_main_idtf:
+			[по составу основного текста]
+			(*
+				<- lang_ru;;
+			*);;
+			-> monoedition;;
+			-> collection;;	
+		*);;
+
+
+edition <= nrel_subdividing: ...
+		(*
+			=> nrel_main_idtf:
+			[по материальной конструкции]
+			(*
+				<- lang_ru;;
+			*);;
+			-> journal_edition;
+			book_edition;
+			sheet_edition;
+			complete_edition;
+			combined_edition;;	
+		*);;
+
+

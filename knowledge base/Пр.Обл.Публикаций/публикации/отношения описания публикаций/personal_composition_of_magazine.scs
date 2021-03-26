@@ -1,0 +1,4 @@
+sc_node_not_relation -> personal_composition_of_magazine;; 
+personal_composition_of_magazine=> nrel_main_idtf:
+[персональный состав журнала] (* <-lang_ru;; *);
+[personal composition of magazine] (* <-lang_en;; *);;

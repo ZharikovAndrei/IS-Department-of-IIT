@@ -1,0 +1,23 @@
+sc_node_norole_relation -> nrel_contents;; 
+
+nrel_contents => nrel_main_idtf:[содержимое*] (* <-lang_ru;; *);;
+
+nrel_contents => nrel_main_idtf:[contents*] (* <-lang_en;; *);;
+
+nrel_contents=>nrel_first_domain:concept_publication;;
+
+nrel_contents=>nrel_second_domain:concept_document;;
+
+nrel_contents=>nrel_definitional_domain:...(* <=nrel_combination:...(*->concept_writing;; ->concept_document;;*) ;; *);;
+
+nrel_contents<- rrel_key_sc_element:
+	... 
+	(*<-sc_definition;;
+     =>nrel_main_idtf:[Опр.(содержимое*)](*<-lang_ru;;*);;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Содержимое - то, что вмещается, заключается в чём-нибудь.](* <- lang_ru;; *);;
+		*);;
+	*);;

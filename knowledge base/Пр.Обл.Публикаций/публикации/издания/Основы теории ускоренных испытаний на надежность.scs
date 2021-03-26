@@ -1,0 +1,23 @@
+Fundamentals_of_the_theory_of_accelerated_reliability_tests=> nrel_main_idtf:
+[Основы теории ускоренных испытаний на надежность]
+	(*
+	<- lang_ru;;
+	*);
+[Fundamentals of the theory of accelerated reliability tests]
+	(*
+	<- lang_en;;
+	*);;
+Fundamentals_of_the_theory_of_accelerated_reliability_tests => nrel_publishing:
+science_and_technology;;
+
+Fundamentals_of_the_theory_of_accelerated_reliability_tests => nrel_place_publication: kiev;;
+
+science_and_technology => nrel_main_idtf:
+[Наука и техника]
+	(*
+	<- lang_ru;;
+	*);
+	[Science and Techonology]
+	(*
+	<- lang_en;;
+	*);;

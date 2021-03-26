@@ -1,0 +1,28 @@
+//sc_node_not_relation -> publication_Golenkov_V_V_2013_FundamBoaOPAaCTCADoIS;;
+
+
+publication_Golenkov_V_V_2013_FundamBoaOPAaCTCADoIS => nrel_main_idtf:
+[Голенков В.В.2013 - ПринцООПНнСТКПИС]
+	(* 
+	<- lang_ru;;
+	*);
+	[Golenkov_V_V_2013_FundamBoaOPAaCTCADoIS]
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Golenkov_V_V_2013_FundamBoaOPAaCTCADoIS => nrel_name_publication:[Принципиальные основы открытого проекта, направленного на создание технологии компьютерного проектирования интеллектуальных систем](*
+	<- lang_ru;;
+	*);;
+
+publication_Golenkov_V_V_2013_FundamBoaOPAaCTCADoIS <= nrel_author:
+Golenkov_V_V; Gulyakina_N_A;;
+
+publication_Golenkov_V_V_2013_FundamBoaOPAaCTCADoIS <- article;;
+
+publication_Golenkov_V_V_2013_FundamBoaOPAaCTCADoIS => nrel_reference_standard: [Голенков В.В., Гулякина Н.А.Принципиальные основы открытого проекта, направленного на создание технологии компьютерного проектирования интеллектуальных систем. Журнал «Электроника-ИНФО», 2013 №4];;
+
+publication_Golenkov_V_V_2013_FundamBoaOPAaCTCADoIS => nrel_year_publication: 2013;;
+
+publication_Golenkov_V_V_2013_FundamBoaOPAaCTCADoIS => nrel_information_publication: magazine_Electronics_INFO_4;;
+

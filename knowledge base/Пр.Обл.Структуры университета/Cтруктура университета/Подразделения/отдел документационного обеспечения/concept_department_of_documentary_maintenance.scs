@@ -1,0 +1,22 @@
+sc_node_not_relation->concept_department_of_documentary_maintenance;;
+
+concept_department_of_documentary_maintenance=>nrel_main_idtf:
+[отдел документационного замещения](*<-lang_ru;;*);
+[department of documentary maintenance](*<-lang_en;;*);; 
+
+
+
+concept_department_of_documentary_maintenance<-rrel_key_sc_element:
+...
+(*
+=>nrel_main_idtf:[Опр.(отдел документационного обеспечения)](*<-lang_ru;;*);;
+<-sc_definition;;
+<=nrel_sc_text_translation:
+...
+(*
+->rrel_example:
+[Отдел документационного обеспечения - это организационное обособленное структурное подразделение
+учреждения, выполняющее работу с документами.](*<-lang_ru;;*);;
+*);;
+*);;
+

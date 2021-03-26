@@ -1,0 +1,31 @@
+Rusin_Vitaly_Gennadyevach=>nrel_main_idtf:
+[Русин Виталий Геннадьевич](*<-lang_ru;;*);
+[Rusin Vitaly Gennadyevach](*<-lang_en;;*);;
+
+Rusin_Vitaly_Gennadyevach -> rrel_email:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+ [no_one ](*<-lang_en;;*)
+   ;;*)
+   ;;*)
+   ;;
+
+Rusin_Vitaly_Gennadyevach -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+ [+375 17 293-86-43];;*)
+   ;;*)
+   ;;
+
+Rusin_Vitaly_Gennadyevach -> rrel_work_place: aud_307_2;;
+Rusin_Vitaly_Gennadyevach <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example:
+                       "file://Rusin.jpg";;
+               *);;
+        *);;

@@ -1,0 +1,201 @@
+agent_of_finding_publications_by_author
+=> nrel_main_idtf:
+	[агентная scp-программа поиска публикаций по автору] 
+	(* <- lang_ru;; *);
+
+	[agent scp-program of finding publications by author] 
+	(* <- lang_en;; *);
+
+<- agent_scp_program;;
+
+scp_program -> agent_of_finding_publications_by_author (*
+
+	-> rrel_params: .agent_of_finding_publications_by_author_params (*
+		-> rrel_1: rrel_in: _event;;
+		-> rrel_2: rrel_in: _input_arc;;
+		*);;
+
+	-> rrel_operators: .agent_of_finding_publications_by_author_set (*
+		-> rrel_init: .agent_of_finding_publications_by_author1 (*
+			<- searchElStr3;;
+			-> rrel_1: rrel_assign: rrel_scp_var: _temp;;
+			-> rrel_2: rrel_fixed: rrel_scp_var: _input_arc;;
+			-> rrel_3: rrel_assign: rrel_scp_var: _quest;;
+			=>nrel_goto: .agent_of_finding_publications_by_author2;;
+		*);;
+
+		-> .agent_of_finding_publications_by_author2 (*
+			<- searchElStr3;;
+			-> rrel_1: rrel_fixed: rrel_scp_const: question_of_finding_publications_by_author;;
+			-> rrel_2: rrel_assign: rrel_scp_var: _arc;;
+			-> rrel_3: rrel_fixed: rrel_scp_var: _quest;;	
+			=>nrel_then: .agent_of_finding_publications_by_author2_1;;
+			=>nrel_else: .agent_of_finding_publications_by_author_return;;
+		*);;
+		-> .agent_of_finding_publications_by_author2_1
+			(*
+			<- searchElStr5;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _quest;;
+			-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc;;
+			-> rrel_3: rrel_assign: rrel_scp_var: _param1;;
+			-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
+			-> rrel_5: rrel_fixed: rrel_scp_const: rrel_1;;
+
+			=> nrel_then: .agent_of_finding_publications_by_author2_2;;
+			=> nrel_else: .agent_of_finding_publications_by_author_return;;
+			*);;
+   		-> .agent_of_finding_publications_by_author2_2
+			(*
+			<- searchElStr5;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _quest;;
+			-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc;;
+			-> rrel_3: rrel_assign: rrel_scp_var: _param2;;
+			-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
+			-> rrel_5: rrel_fixed: rrel_scp_const: rrel_2;;
+
+			=> nrel_then: .agent_of_finding_publications_by_author2_3;;
+			=> nrel_else: .agent_of_finding_publications_by_author_return;;
+			*);;
+   		-> .agent_of_finding_publications_by_author2_3
+			(*
+			<- searchElStr5;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _param2;;
+			-> rrel_2: rrel_assign: rrel_common: rrel_scp_var: _arc;;
+			-> rrel_3: rrel_assign: rrel_scp_var: value;;
+			-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
+			-> rrel_5: rrel_fixed: rrel_scp_const: nrel_system_identifier;;
+
+			=> nrel_then: .agent_of_finding_publications_by_author2_4;;
+			=> nrel_else: .agent_of_finding_publications_by_author_return;;
+			*);;
+		-> .agent_of_finding_publications_by_author2_4
+			(*
+			<- searchElStr5;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _quest;;
+			-> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc;;
+			-> rrel_3: rrel_assign: rrel_scp_var: _param3;;
+			-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
+			-> rrel_5: rrel_fixed: rrel_scp_const: rrel_3;;
+
+			=> nrel_then: .agent_of_finding_publications_by_author2_5;;
+			=> nrel_else: .agent_of_finding_publications_by_author_return;;
+			*);;
+   		-> .agent_of_finding_publications_by_author2_5
+			(*
+			<- searchElStr5;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _param3;;
+			-> rrel_2: rrel_assign: rrel_common: rrel_scp_var: _arc;;
+			-> rrel_3: rrel_assign: rrel_scp_var: value1;;
+			-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
+			-> rrel_5: rrel_fixed: rrel_scp_const: nrel_system_identifier;;
+
+			=> nrel_then: .agent_of_finding_publications_by_author2_6;;
+			=> nrel_else: .agent_of_finding_publications_by_author_return;;
+			*);;
+   		-> .agent_of_finding_publications_by_author2_6 (*
+			<- contSub;;
+			-> rrel_1: rrel_assign: rrel_scp_var: _result;;
+			-> rrel_2: rrel_fixed: rrel_scp_var: value;;
+			-> rrel_3: rrel_fixed: rrel_scp_var: value1;;
+			=> nrel_goto: .agent_of_finding_publications_by_author3;;
+		*);;
+		-> .agent_of_finding_publications_by_author3 (*
+			<- genEl;;
+			-> rrel_1: rrel_assign: rrel_node: rrel_scp_var: _answer;;
+			=> nrel_goto: .agent_of_finding_publications_by_author4;;
+		*);;
+		-> .agent_of_finding_publications_by_author4 (*
+			<- searchSetStr3;;
+		  -> rrel_1: rrel_fixed: rrel_scp_const: article;;
+		  -> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc;;
+		  -> rrel_3: rrel_assign: rrel_scp_var: _article;;
+		  		-> rrel_set_3: rrel_assign: rrel_node: rrel_scp_var: _articles;;
+
+		  => nrel_then: .agent_of_finding_publications_by_author5;;
+		  => nrel_else: .agent_of_finding_publications_by_author_return;;
+		*);;
+		-> .agent_of_finding_publications_by_author5 (*
+			<- searchElStr3;;
+		  -> rrel_1: rrel_fixed: rrel_scp_var: _articles;;
+		  -> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc;;
+		  -> rrel_3: rrel_assign: rrel_scp_var: _article;;
+
+		  => nrel_then: .agent_of_finding_publications_by_author6;;
+		  => nrel_else: .agent_of_finding_publications_by_author_memory_free;;
+		*);;
+		-> .agent_of_finding_publications_by_author6 (*
+			<- eraseEl;;
+		  -> rrel_1: rrel_fixed: rrel_erase: rrel_scp_var: _arc;;
+		  => nrel_goto: .agent_of_finding_publications_by_author7;;
+		*);;
+
+		-> .agent_of_finding_publications_by_author7 (*
+			<- searchElStr5;;
+		  -> rrel_1: rrel_fixed: rrel_scp_var: _param1;;
+		  -> rrel_2: rrel_assign: rrel_common: rrel_scp_var: _arc;;
+		  -> rrel_3: rrel_fixed: rrel_scp_var: _article;;
+		  -> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
+		  -> rrel_5: rrel_fixed: rrel_scp_const: nrel_author;;
+
+		  => nrel_then: .agent_of_finding_publications_by_author7_1;;
+		  => nrel_else: .agent_of_finding_publications_by_author5;;
+		*);;
+		-> .agent_of_finding_publications_by_author7_1 (*
+			<- searchElStr5;;
+		  -> rrel_1: rrel_fixed: rrel_scp_var: _article;;
+		  -> rrel_2: rrel_assign: rrel_common: rrel_scp_var: _arc;;
+		  -> rrel_3: rrel_assign: rrel_scp_var: _year;;
+		  -> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
+		  -> rrel_5: rrel_fixed: rrel_scp_const: nrel_year_publication;;
+
+		  => nrel_then: .agent_of_finding_publications_by_author7_2;;
+		  => nrel_else: .agent_of_finding_publications_by_author5;;
+		*);;
+		-> .agent_of_finding_publications_by_author7_2
+			(*
+			<- searchElStr5;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _year;;
+			-> rrel_2: rrel_assign: rrel_common: rrel_scp_var: _arc;;
+			-> rrel_3: rrel_assign: rrel_scp_var: _yearlink;;
+			-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc1;;
+			-> rrel_5: rrel_fixed: rrel_scp_const: nrel_system_identifier;;
+
+			=> nrel_then: .agent_of_finding_publications_by_author7_3;;
+			=> nrel_else: .agent_of_finding_publications_by_author5;;
+			*);;
+		-> .agent_of_finding_publications_by_author7_3 (*
+			<- ifGr;;
+			-> rrel_1: rrel_scp_var: _yearlink;;
+			-> rrel_2: rrel_scp_var: _result;;
+
+		  => nrel_then: .agent_of_finding_publications_by_author8;;
+		  => nrel_else: .agent_of_finding_publications_by_author5;;
+		*);;
+		-> .agent_of_finding_publications_by_author8 (*
+		  <- genElStr3;;
+		  -> rrel_1: rrel_fixed: rrel_scp_var: _answer;;
+		  -> rrel_2: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc;;
+		  -> rrel_3: rrel_fixed: rrel_scp_var: _article;;		
+
+		  => nrel_goto:  .agent_of_finding_publications_by_author5;;
+		*);;
+		-> .agent_of_finding_publications_by_author_memory_free (*
+			  <- eraseEl;;
+		  -> rrel_1: rrel_fixed: rrel_erase: rrel_scp_var: _articles;;
+		  => nrel_goto: .agent_of_finding_publications_by_author_gen_answer;;
+		*);;
+		-> .agent_of_finding_publications_by_author_gen_answer
+		(*
+			<- genElStr5;;
+			-> rrel_1: rrel_fixed: rrel_scp_var: _quest;;
+			-> rrel_2: rrel_assign: rrel_const: rrel_common: rrel_scp_var: _arc;;
+			-> rrel_3: rrel_fixed: rrel_scp_var: _answer;;
+			-> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+			-> rrel_5: rrel_fixed: rrel_scp_const: nrel_answer;;
+			=> nrel_goto: .agent_of_finding_publications_by_author_return;;
+		*);;
+		-> .agent_of_finding_publications_by_author_return (*
+			<- return;;
+		*);;
+	*);;
+*);;

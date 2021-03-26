@@ -1,0 +1,28 @@
+sc_node_norole_relation -> nrel_winner;; 
+
+nrel_winner => nrel_main_idtf:
+[победитель*] (* <-lang_ru;; *);
+[winner*] (* <-lang_en;; *);;
+
+nrel_winner=>nrel_first_domain:concept_football_match;;
+nrel_winner=>nrel_second_domain:concept_football_team;;
+nrel_winner=>nrel_definitional_domain:...(* <=nrel_combination:...(*->concept_football_match;; ->concept_football_team;;*) ;; *);;
+
+nrel_winner <- relation;;
+nrel_winner <- binary_relation;;
+
+nrel_winner <- antireflexive_relation;;
+nrel_winner <- antitransitive_relation;;
+nrel_winner <- antisymmetric_relation;;
+
+nrel_winner<- rrel_key_sc_element:
+	... 
+	(*<-sc_statement;;
+     =>nrel_main_idtf:[Утв.(победитель*, количество забитых голов*)](*<-lang_ru;;*);;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Победителем в матче становится команда, забившая большее количество голов сопернику.](* <- lang_ru;; *);;
+		*);;
+	*);;

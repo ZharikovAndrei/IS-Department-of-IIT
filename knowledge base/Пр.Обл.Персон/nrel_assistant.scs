@@ -1,0 +1,41 @@
+sc_node_norole_relation->nrel_assistant;;
+nrel_assistant=>nrel_main_idtf:
+	[ассистент*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[assistant*] (* <-lang_en;; *);
+->rrel_key_sc_element:
+	...
+	(*
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> [Преподавательская должность в высших учебных заведениях,на нее назначается физическое лицо, имеющее высшее образование,проводящее практические и лабораторные занятия,прием зачетов и экзаменов в помощь лектору.] (* <-lang_ru;; *);;
+		*);;
+	*);
+=>nrel_second_domain:person;
+
+=>nrel_first_domain:Department;
+=>nrel_definitional_domain:...(* <=nrel_combination:...(*->person ;; ->Department;;*) ;;*);
+->statement_assistent_payday;statement_first_work;;
+
+
+statement_assistent_payday
+<=nrel_sc_text_translation:
+	...(*
+	->rrel_statement_of_the_new_type: [При меньшей оплате ассистенты должны проводить больше часов занятий по сравнению с доцентами и профессорами. ](* <-lang_ru;;
+	*);;
+*);;
+
+
+statement_first_work
+<=nrel_sc_text_translation:
+	...(*
+	->rrel_statement_of_the_new_type: [Ассистент - ялвяется начальной преподавательской должностью в вузах. ](* <-lang_ru;;
+	*);;
+*);;
+
+
+
+statement_assistent_payday=>nrel_main_idtf:[утверждение(ассистент,зарплата,рабочие часы)] (* <-lang_ru;; *);;
+statement_first_work=>nrel_main_idtf:[утверждение(ассистент,должность)] (* <-lang_ru;; *);;

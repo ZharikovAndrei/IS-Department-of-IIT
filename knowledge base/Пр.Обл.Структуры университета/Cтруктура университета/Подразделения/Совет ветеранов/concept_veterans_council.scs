@@ -1,0 +1,15 @@
+sc_node_not_relation -> concept_veterans_council;;
+concept_veterans_council=> nrel_main_idtf:[совет ветеранов] (* <-lang_ru;; *);;
+concept_veterans_council=> nrel_main_idtf:[veterans council] (* <-lang_en;; *);;
+concept_veterans_council->veterans_council_bsuir;;
+concept_veterans_council<- rrel_key_sc_element:
+	... 
+	(*<-sc_definition;;
+     =>nrel_main_idtf:[Опр.(совет ветеранов)](*<-lang_ru;;*);;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Совет ветеранов – это региональная общественная организация ветеранов Великой Отечественной войны, ветеранов(пенсионеров).](* <- lang_ru;; *);;
+		*);;
+	*);;

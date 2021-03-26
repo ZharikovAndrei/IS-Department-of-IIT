@@ -1,0 +1,26 @@
+control_systems_and_machines_3_2011 => nrel_main_idtf:
+[Управляющие системы и машины №3]
+	(*
+	<- lang_ru;;
+	*);
+	[Control systems and machines №3]
+	(*
+	<- lang_en;;
+	*);;
+
+control_systems_and_machines_3_2011 => nrel_publishing:
+IK_NAN_Ukraine;;
+
+control_systems_and_machines_3_2011 => nrel_place_publication:
+kiev;;
+
+
+IK_NAN_Ukraine=> nrel_main_idtf:
+[ИК НАН Украины]
+	(*
+	<- lang_ru;;
+	*);
+	[IoC NASB Ukraine]
+	(*
+	<- lang_en;;
+	*);;

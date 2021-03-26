@@ -1,0 +1,6 @@
+is_of_movies_team 
+ <- team;
+ => nrel_main_idtf: [Команда интеллектуальной справочной системы по кинофильмам] (* <- lang_ru;; *);
+ -> rrel_scintific_consultant: Ivashenko_V_P;
+ -> rrel_technical_consultant: Koronchik_D_N;
+ -> Kosteev_Anton_Sergeevich; Berkov_Anton_Valerievich; Galatsevich_Nikita_Igorevich; Zamotaev_Pavel_Sergeevich; Karavai_Alexandr_Sergeevich; Klimenko_Dmitrii_Sergeevich; Lozovskaya_Elena_Valerievna; Netesov_Konstantin_Andreevich; Troyanova_Anastasia_Konstantinovna;;

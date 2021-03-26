@@ -1,0 +1,83 @@
+the_department_of_electronic_computing_means=>nrel_main_idtf:
+[Кафедра электронных вычислительных средств](*<-lang_ru;;*);
+[the department of electronic computing means](*<-lang_en;;*);; 
+
+
+
+the_department_of_electronic_computing_means=>nrel_idtf:[ЭВС](*<-lang_ru;;*);;
+the_department_of_electronic_computing_means=>nrel_idtf:[ECM](*<-lang_en;;*);;
+
+
+
+pers_comp_ecm -> rrel_head_of_department: header_of_ecm;;
+
+the_department_of_electronic_computing_means => nrel_info: ecm_info;;
+
+the_department_of_electronic_computing_means => nrel_pers_comp: pers_comp_ecm;;
+
+
+
+
+header_of_ecm=>nrel_main_idtf:
+[Петровский Александр Александрович](*<-lang_ru;;*);
+[Petrovskiy Alexandr Alexandrovich](*<-lang_en;;*);;
+
+
+
+ecm_info=>nrel_main_idtf:
+[информация о кафедре ЭВС](*<-lang_ru;;*);
+[the information about the department of ECM](*<-lang_en;;*);; 
+
+
+pers_comp_ecm=>nrel_main_idtf:
+[Персональный состав кафедры ЭВМ](*<-lang_ru;;*);
+[personal composition of the ECM](*<-lang_en;;*);; 
+
+
+
+
+header_of_ecm <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://../../../image/ecm1.jpg";;
+               *);;
+        *);;
+
+
+
+
+
+
+
+
+
+
+ecm_info <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [О кафедре] (* <- lang_ru;; *);;
+	<- sc_task;;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Кафедра ЭВС создана в 1974 году. Ранее кафедра носила название: "Кафедра конструирования и производства электронно-вычислительной аппаратуры". Она осуществляет подготовку студентов по специальности "Электронные вычислительные средства" (дневная и заочная формы обучения).
+      В рамках данной специальности открыта специализация: "Проектирование проблемно-ориентированных электронных вычислительных средств"
+      Целью специализации является подготовка инженеров, умеющих осуществлять проектирование специализированных ЭВС любого класса сложности и различного функционального назначения: цифровая обработка сигналов, медицинская аппаратура, цифровые системы управления и обработки данных, модули профилизации ПЭВМ и т.д. ](* <- lang_ru;; *);;
+		*);;
+	*);;
+
+
+
+
+
+
+
+
+  
+   

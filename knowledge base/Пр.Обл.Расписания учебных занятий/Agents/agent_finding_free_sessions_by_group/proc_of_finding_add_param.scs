@@ -1,0 +1,51 @@
+scp_program -> proc_of_finding_add_param (*
+	-> rrel_params: ...(*
+    	-> rrel_1: rrel_in: _quest;;
+    	-> rrel_2: rrel_out: rrel_assign: rrel_scp_var: _s1;;
+    	-> rrel_3: rrel_out: rrel_assign: rrel_scp_var: _s2;;
+    	-> rrel_4: rrel_out: rrel_assign: rrel_scp_var: _s3;;
+    	-> rrel_5: rrel_out: rrel_assign: rrel_scp_var: _answer;;
+  	*);;
+
+  //group _s1
+//week _s2
+//day _s3
+
+	-> rrel_operators: ...(*
+    	-> rrel_init:.proc_of_finding_add_param_operator_x (*
+
+			<- genEl;;
+		-> rrel_1: rrel_assign: rrel_node: rrel_scp_var: _set;;
+			
+		  => nrel_goto: .proc_of_finding_add_param_operator_0;;
+		*);;
+	
+	->.proc_of_finding_add_param_operator_0 (*
+		  <- searchElStr3;;
+		  -> rrel_1: rrel_fixed: rrel_scp_var: _quest;;
+		  -> rrel_2: rrel_assign:rrel_pos_const_perm: rrel_scp_var: _arcd2;;
+		  -> rrel_3: rrel_assign: rrel_scp_const: _el;;
+		  -> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+		  -> rrel_5: rrel_fixed: rrel_scp_const: rrel_n1;;
+
+		  => nrel_then: .proc_of_finding_add_param_operator_ok;;
+		  => nrel_else: .proc_of_finding_add_param_operator_end;;
+		*);;
+		
+		 ->.proc_of_finding_add_param_operator_ok (*
+			<- printNl;;
+			-> rrel_1: rrel_fixed: rrel_scp_const: [ok];;
+			=> nrel_goto: .proc_of_finding_add_param_operator_return;;
+   		*);;
+		->.proc_of_finding_add_param_operator_end (*
+			<- printNl;;
+			-> rrel_1: rrel_fixed: rrel_scp_const: [end];;
+			=> nrel_goto: .proc_of_finding_add_param_operator_return;;
+   		*);;
+	
+		
+	    -> .proc_of_finding_add_param_operator_return(*
+    	  <- return;;
+    *);;
+  *);;
+*);;

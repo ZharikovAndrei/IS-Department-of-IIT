@@ -1,0 +1,31 @@
+//Заливако C.C., Савельева О.Ю., Старцев С.С., Шункевич Д.В. «Интеллектуальный решатель задач». Сборник трудов научной сессии МИФИ-2011, т.3. Москва, МИФИ. с. 54. 
+
+publication_Shunkevich_D_V_2011_IntelPS => nrel_main_idtf:
+[Шункевич Д.В. 2011 - ИнтелРЗ]
+	(*
+	<- lang_ru;;
+	*);
+	[Shunkevich_D_V_2011_IntelPS] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Shunkevich_D_V_2011_IntelPS => nrel_name_publication:[Интеллектуальный решатель задач](*
+	<- lang_ru;;
+	*);;
+
+publication_Shunkevich_D_V_2011_IntelPS <= nrel_author:
+Shunkevich_D_V;Zalivako_S_S;Savelieva_O_U;Starcev_S_S;;
+
+publication_Shunkevich_D_V_2011_IntelPS <- article;;
+
+publication_Shunkevich_D_V_2011_IntelPS => nrel_reference_standard: [Заливако C.C., Савельева О.Ю., Старцев С.С., Шункевич Д.В. «Интеллектуальный решатель задач». Сборник трудов научной сессии МИФИ-2011, т.3. Москва, МИФИ. с. 54. ];;
+
+publication_Shunkevich_D_V_2011_IntelPS => nrel_year_publication: 2011;;
+
+publication_Shunkevich_D_V_2011_IntelPS => nrel_information_publication:Proceedings_of_the_scientific_session_of_the_MiFi_2011_vol3;;
+
+publication_Shunkevich_D_V_2011_IntelPS => nrel_number_page: ..2011_IntelGPS (*
+-> rrel_from : 54;;
+-> rrel_by : 54;;
+*);;

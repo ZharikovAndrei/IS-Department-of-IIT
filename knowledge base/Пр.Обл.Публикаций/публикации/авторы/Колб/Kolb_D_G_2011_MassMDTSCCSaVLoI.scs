@@ -1,0 +1,33 @@
+//sc_node_not_relation -> publication_Kolb_D_G_2011_MassMDTSCCSaVLoI;;
+
+
+publication_Kolb_D_G_2011_MassMDTSCCSaVLoI => nrel_main_idtf:
+[Колб Д.Г.2011 - МассоТМПССКСРУИ]
+	(*
+	<- lang_ru;;
+	*);
+	[Kolb_D_G_2011_MassMDTSCCSaVLoI] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Kolb_D_G_2011_MassMDTSCCSaVLoI => nrel_name_publication:[Массовая технология модульного проектирования семантически совместимых компьютерных систем различного уровня интеллектуальности](*
+	<- lang_ru;;
+	*);;
+
+publication_Kolb_D_G_2011_MassMDTSCCSaVLoI <= nrel_author:
+Golenkov_V_V; Kolb_D_G; Gulyakina_N_A;;
+
+publication_Kolb_D_G_2011_MassMDTSCCSaVLoI <- article;;
+
+publication_Kolb_D_G_2011_MassMDTSCCSaVLoI => nrel_reference_standard: [Голенков В.В., Гулякина Н.А., Колб Д.Г.Массовая технология модульного проектирования семантически совместимых компьютерных систем различного уровня интеллектуальности.(КрымМиКо”2011).Cевастополь, 12-16 сентября 2011:материалы конф.Севастополь, 2011.С.39-42 ];;
+
+publication_Kolb_D_G_2011_MassMDTSCCSaVLoI => nrel_year_publication: 2011;;
+
+publication_Kolb_D_G_2011_MassMDTSCCSaVLoI => nrel_information_publication: materials_konf_Sevastopol;;
+
+publication_Kolb_D_G_2011_MassMDTSCCSaVLoI => nrel_number_page: ..2011_MassMDTSCCSaVLoI(*
+-> rrel_from : 39;;
+-> rrel_by : 42;;
+*);;
+

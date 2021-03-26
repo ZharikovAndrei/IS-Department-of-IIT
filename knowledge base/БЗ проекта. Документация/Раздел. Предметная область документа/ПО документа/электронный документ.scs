@@ -1,0 +1,26 @@
+sc_node_not_relation -> electronic_record;;
+
+electronic_record => nrel_main_idtf:
+[электронный документ]
+	(*
+	<- lang_ru;;
+	*);
+	[electronic record] 
+	(*
+	<- lang_en;;
+	*);;
+
+electronic_record <- rrel_key_sc_element: 
+        ...
+	(*
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[электронный документ – документ в электронном виде с реквизитами, позволяющими установить его подлинность]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;
+
+document -> electronic_record;;

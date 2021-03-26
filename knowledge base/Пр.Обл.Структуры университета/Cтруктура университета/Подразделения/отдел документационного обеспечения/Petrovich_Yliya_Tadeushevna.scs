@@ -1,0 +1,16 @@
+Petrovich_Yliya_Tadeushevna=>nrel_main_idtf:
+[Петрович Юлия Тадеушевна](*<-lang_ru;;*);
+[Petrovich Yliya Tadeushevna](*<-lang_en;;*);;
+
+Petrovich_Yliya_Tadeushevna -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ 
+ [+375 17 294-33-04];;*)
+   ;;*)
+   ;; 
+
+Petrovich_Yliya_Tadeushevna-> rrel_work_place: aud_102_7;;
+
+
+

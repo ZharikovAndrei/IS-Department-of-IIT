@@ -1,0 +1,12 @@
+sc_node_not_relation -> primer;;
+primer => nrel_main_idtf:
+[букварь]
+	(*
+	<- lang_ru;;
+	*);
+	[primer] 
+	(*
+	<- lang_en;;
+	*);;
+
+textbook -> primer;;

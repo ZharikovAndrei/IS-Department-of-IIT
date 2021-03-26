@@ -1,0 +1,84 @@
+the_department_of_metrology_and_standardization=>nrel_main_idtf:
+[Кафедра метрологии и стандартизации](*<-lang_ru;;*);
+[the department of metrology and standardization](*<-lang_en;;*);; 
+
+the_department_of_metrology_and_standardization=>nrel_idtf:[МС](*<-lang_ru;;*);;
+the_department_of_metrology_and_standardization=>nrel_idtf:[MS](*<-lang_en;;*);;
+
+
+
+pers_comp_of_ms -> rrel_head_of_department: header_of_ms;;
+
+the_department_of_metrology_and_standardization => nrel_info: ms_info;;
+
+the_department_of_metrology_and_standardization => nrel_pers_comp: pers_comp_of_ms;;
+
+
+
+
+
+header_of_ms=>nrel_main_idtf:
+[Гурский Александр Леонидович](*<-lang_ru;;*);
+[Gursliy Alexandr leonidovich](*<-lang_en;;*);;
+
+
+
+ms_info=>nrel_main_idtf:
+[информация о кафедре МС](*<-lang_ru;;*);
+[the information about the department of MS](*<-lang_en;;*);; 
+
+
+pers_comp_of_ms=>nrel_main_idtf:
+[персональный состав кафедры МС](*<-lang_ru;;*);
+[the personal composition of the department of MS](*<-lang_en;;*);; 
+
+
+
+
+header_of_ms <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://../../../image/metr2.jpg";;
+               *);;
+        *);;
+
+
+
+pers_comp_of_ms <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://../../../image/metr1.jpg";;
+               *);;
+        *);;
+
+
+
+
+
+
+
+
+ms_info <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [О кафедре] (* <- lang_ru;; *);;
+	<- sc_task;;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[афедра метрологии и стандартизации была основана в 1975 году для обеспечения базовой подготовки студентов всех специальностей университета по теоретическим основам метрологии. С 1997г. по инициативе кафедры началась подготовка инженеров-метрологов для предприятий радиотехнической отрасли по специальности «Метрология, стандартизация и сертификация» в рамках индивидуального учебного плана, не имеющего аналогов в странах СНГ.
+В настоящее время кафедра метрологии и стандартизации обеспечивает учебный процесс по специальностям 1-45 01 02-01 Инфокоммуникационные системы (метрология, стандартизация и сертификация в инфокоммуникациях) и 1-45 01 01-06 Инфокоммуникационные технологии (лазерные информационно-измерительные системы).
+На кафедре МиС ведется подготовка магистрантов по специальности 1 38 80 01 «Приборостроение, метрология и информационно-измерительные приборы и системы». ](* <- lang_ru;; *);;
+		*);;
+	*);;

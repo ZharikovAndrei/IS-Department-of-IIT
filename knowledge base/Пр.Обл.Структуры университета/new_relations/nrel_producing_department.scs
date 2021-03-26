@@ -1,0 +1,26 @@
+sc_node_norole_relation -> nrel_producing_department;;
+nrel_producing_department=>nrel_main_idtf:
+[выпускающая кафедра*](*<-lang_ru;;*);
+[producing department*](*<-lang_en;;*);; 
+
+
+nrel_producing_department <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [Опр.(выпускающая кафедра*)] (* <- lang_ru;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Отношение, связывающее кафедру и конкретную специальность.](* <- lang_ru;; *);;
+		*);;
+	*);;
+
+
+nrel_producing_department=>nrel_second_domain:speciality;;
+nrel_producing_department=>nrel_first_domain:concept_department;;
+nrel_producing_department=>nrel_definitional_domain:...(* <=nrel_combination:...(*->speciality;; ->concept_department;;*) ;;
+				*);;
+
+

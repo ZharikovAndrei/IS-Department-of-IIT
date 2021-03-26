@@ -1,0 +1,11 @@
+{
+     "sources": [
+        
+        "src/course_projects_table-common.js",
+        "src/course_projects_table-paintPanel.js"
+    ],
+
+    "component": "src/course_projects_table-component.js",
+
+    "target": "static/components/js/course_projects_table/course_projects_table.js"
+}

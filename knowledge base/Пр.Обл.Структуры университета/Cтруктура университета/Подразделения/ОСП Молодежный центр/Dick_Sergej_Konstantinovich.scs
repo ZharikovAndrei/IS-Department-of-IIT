@@ -1,0 +1,47 @@
+Dick_Sergej_Konstantinovich=>nrel_main_idtf:
+[Дик Сергей Константинович](*<-lang_ru;;*);
+[Dick Sergej Konstantinovich](*<-lang_en;;*);;
+
+Dick_Sergej_Konstantinovich -> rrel_email:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [sdick@bsuir.by](*<-lang_en;;*)
+   ;;*)
+   ;;*)
+   ;; 
+
+Dick_Sergej_Konstantinovich -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+ [+375 17 293-85-05];
+ [+375 17 331-81-14];;*)
+   ;;*)
+   ;; 
+
+Dick_Sergej_Konstantinovich -> rrel_work_place: aud_225_1;;
+
+Dick_Sergej_Konstantinovich <- rrel_key_sc_element:
+        ...
+        (*
+        <-sc_illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://dicksk.jpg";;
+               *);;
+        *);;
+
+Dick_Sergej_Konstantinovich<- rrel_key_sc_element:
+	... 
+	(*<-sc_statement;;
+     =>nrel_main_idtf:[Утв.(проректор', доцент',академик')](*<-lang_ru;;*);;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Проректор по учебной и воспитательной работе, канд.физ.-мат.наук, доцент, академик Белорусской инженерной академии, доцент кафедры электронной техники и технологии.](* <- lang_ru;; *);;
+		*);;
+	*);;
+
+Dick_Sergej_Konstantinovich <- person;;

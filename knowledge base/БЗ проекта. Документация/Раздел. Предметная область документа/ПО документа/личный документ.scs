@@ -1,0 +1,28 @@
+sc_node_not_relation -> personal_record;;
+
+personal_record => nrel_main_idtf:
+[личный документ]
+	(*
+	<- lang_ru;;
+	*);
+	[personal record] 
+	(*
+	<- lang_en;;
+	*);;
+
+personal_record <- rrel_key_sc_element: 
+        ...
+	(*
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[личный документ –  официальный документ, удостоверяющий личность человека и (или) его права, обязанности, служебное или общественное положение, который может содержать другие сведения биографического характера]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;
+
+document -> personal_record;;
+
+personal_record <- official_document;;

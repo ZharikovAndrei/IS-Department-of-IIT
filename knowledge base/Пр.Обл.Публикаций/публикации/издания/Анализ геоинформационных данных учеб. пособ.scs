@@ -1,0 +1,12 @@
+Analysis_of_geoinformation_data=> nrel_main_idtf:
+[Анализ геоинформационных данных: учеб. пособ.]
+	(*
+	<- lang_ru;;
+	*);
+[Analysis of geoinformation data: tutorial]
+	(*
+	<- lang_en;;
+	*);;
+Analysis_of_geoinformation_data => nrel_publishing:bsuir;;
+
+Analysis_of_geoinformation_data => nrel_place_publication: minsk;;

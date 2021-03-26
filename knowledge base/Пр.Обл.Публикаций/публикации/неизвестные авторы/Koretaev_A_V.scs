@@ -1,0 +1,11 @@
+//sc_node_not_relation -> Koretaev_A_V;;
+
+Koretaev_A_V => nrel_main_idtf:
+[Коретаев А.В.]
+	(*
+	<- lang_ru;;
+	*);
+	[Koretaev A.V.]
+	(*
+	<- lang_en;;
+	*);;

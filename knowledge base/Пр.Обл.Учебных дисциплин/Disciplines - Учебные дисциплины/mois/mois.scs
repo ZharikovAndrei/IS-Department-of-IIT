@@ -1,0 +1,135 @@
+mois
+=>nrel_main_idtf:
+	[Математические основы интеллектуальных систем] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[Mathematical foundations of intelligent systems] (* <-lang_en;; *);
+=>nrel_abbreviation:[МОИС];
+
+<-special_subject;
+
+<=nrel_subdividing:
+		mois_part_1
+			(*
+			<-multiplicity_of_subjects_taught_in_the_3_term_specialty_artificial_intelligence_4_year_education;;
+			<=nrel_realisation_of_learning_activity:
+
+				lectures_on_mois_part_1
+					(*=>nrel_main_idtf:
+					[Математические основы интеллектуальных систем.часть 1.лекции] (* <-lang_ru;; *);;
+					=>nrel_planned_hours:68;;
+					=>nrel_realisation_of_intermediate_control:
+						control_work;
+						current_survey;;
+					<-lecture;;
+					*);
+				laboratory_work_on_mois_part_1
+					(*=>nrel_main_idtf:
+					[Математические основы интеллектуальных систем.часть 1.лабораторный практикум] (* <-lang_ru;; *);;
+					=>nrel_planned_hours:36;;
+					=>nrel_realisation_of_intermediate_control:
+						protection_of_laboratory_work;;
+					<-laboratory_work	;;
+					*);
+				practical_lesson_on_mois_part_1
+					(*=>nrel_main_idtf:
+					[Математические основы интеллектуальных систем.часть 1.практические занятия] (* <-lang_ru;; *);;
+					=>nrel_planned_hours:24;;
+					=>nrel_realisation_of_intermediate_control:
+						protection_of_practical_work;;
+					<-practical_lesson;;
+					*);;
+			=>nrel_realisation_of_final_certification:
+				test;;
+			<-rrel_subject:
+				...
+				(*
+				->rrel_realisation_of_learning_activity:
+					laboratory_work;
+					practical_lesson;;
+				<-nrel_taught_subject;;
+				->rrel_teacher: Davydenko_I_T;;
+				*);;
+			<-rrel_subject:
+				...
+				(*
+				->rrel_realisation_of_learning_activity:  lecture;;
+				<-nrel_taught_subject;;
+				->rrel_teacher: Golenkov_V_V;;
+				*);;
+			=>nrel_term: 3;;
+			*);
+		mois_part_2
+		(*
+			<-multiplicity_of_subjects_taught_in_the_4_term_specialty_artificial_intelligence_4_year_education;;
+			<=nrel_realisation_of_learning_activity:
+
+				lectures_on_mois_part_2
+					(*=>nrel_main_idtf:
+	[Математические основы интеллектуальных систем.часть 2.лекции] (* <-lang_ru;; *);;
+	=>nrel_planned_hours:68;;
+					=>nrel_realisation_of_intermediate_control:
+						control_work;
+						current_survey;;
+						<-lecture;;
+					*);
+				laboratory_work_on_mois_part_2
+					(*=>nrel_main_idtf:
+	[Математические основы интеллектуальных систем.часть 2.лабораторный практикум] (* <-lang_ru;; *);;
+	=>nrel_planned_hours:32;;
+					=>nrel_realisation_of_intermediate_control:
+						protection_of_laboratory_work;;
+					<-laboratory_work	;;
+					*);
+				practical_lesson_on_mois_part_2
+					(*=>nrel_main_idtf:
+					[Математические основы интеллектуальных систем.часть 2.практические занятия] (* <-lang_ru;; *);;
+					=>nrel_planned_hours:24;;
+					=>nrel_realisation_of_intermediate_control:
+						protection_of_practical_work;;
+					<-practical_lesson;;
+					*);;
+			=>nrel_realisation_of_final_certification:
+				exam;;
+			<-rrel_subject:
+				...
+				(*
+				->rrel_realisation_of_learning_activity:
+					laboratory_work;
+					practical_lesson;;
+				<-nrel_taught_subject;;
+				->rrel_teacher: Davydenko_I_T;;
+				*);;
+			<-rrel_subject:
+				...
+				(*
+				->rrel_realisation_of_learning_activity:  lecture;;
+				<-nrel_taught_subject;;
+				->rrel_teacher: Golenkov_V_V;;
+				*);;
+			=>nrel_term: 4;;
+			=>nrel_realisation_of_intermediate_control: course_project_on_mois;;
+		*);
+
+<=nrel_trains: the_department_of_intelligent_informational_technologies;
+<=nrel_class_number: 2(* <-positive_number;;*);
+<=nrel_semester_number: 3(* <-positive_number;;*);
+<=nrel_semester_number: 4(* <-positive_number;;*);
+<=nrel_course_work_hours: 16(*<-positive_number;;*);
+<=nrel_component: concept_mandatory_component;
+<=nrel_cycle: concept_tsikl_obshcheprofessionalnykh_i_spetsialnykh_distsiplin;;
+
+mois_part_1
+=>nrel_main_idtf:
+	[Математические основы интеллектуальных систем.часть 1.] (* <-lang_ru;; *);;
+mois_part_2
+=>nrel_main_idtf:
+	[Математические основы интеллектуальных систем.часть 2.] (* <-lang_ru;; *);;
+course_project_on_mois
+=>nrel_main_idtf:
+	[Курсовой проект по МОИС] (* <-lang_ru;; *);;
+
+Golenkov_V_V<=nrel_educational_work:lectures_on_mois_part_1;lectures_on_mois_part_2;;
+Davydenko_I_T<=nrel_educational_work:practical_lesson_on_mois_part_1;
+						  laboratory_work_on_mois_part_1;
+						  laboratory_work_on_mois_part_2;
+						  practical_lesson_on_mois_part_2;;

@@ -1,0 +1,20 @@
+sc_node_norole_relation -> nrel_conference_program_comittee;; 
+
+nrel_conference_program_comittee => nrel_main_idtf:[программный комитет конференции*] (* <-lang_ru;; *);;
+
+nrel_conference_program_comittee => nrel_main_idtf:[conference program committee*] (* <-lang_en;; *);;
+
+
+nrel_conference_program_comittee <- rrel_key_sc_element: 
+        ...
+	(*
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Программный комитет конференции - комитет, занимающийся разработкой программы конференции, ее реализацией и анализом успешности.]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;
+

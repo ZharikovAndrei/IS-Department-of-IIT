@@ -1,0 +1,10 @@
+smallspring2016G321ejaiis_saturdaythird_pair = [*^"file://smallspring2016G321ejaiis_saturdaythird_pair.scsi"*];; 
+smallspring2016G321ejaiis_saturdaythird_pair<-study_session;; 
+smallspring2016G321ejaiis_saturdaythird_pair => nrel_time_situation: ...
+ (*->...(*
+<-time_point;;
+->rrel_number_of_pair:third_pair ;;
+->rrel_day:saturday;;
+->rrel_week:1 ;;
+*);;
+*);;

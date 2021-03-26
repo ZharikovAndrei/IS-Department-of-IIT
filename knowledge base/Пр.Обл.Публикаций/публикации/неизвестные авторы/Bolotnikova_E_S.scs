@@ -1,0 +1,11 @@
+//sc_node_not_relation -> Bolotnikova_E_S;;
+
+Bolotnikova_E_S => nrel_main_idtf:
+[Болотникова Е.С.]
+	(*
+	<- lang_ru;;
+	*);
+	[Bolotnikova E.S.]
+	(*
+	<- lang_en;;
+	*);;

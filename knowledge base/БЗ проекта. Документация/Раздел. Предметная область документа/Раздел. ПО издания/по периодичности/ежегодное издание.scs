@@ -1,0 +1,11 @@
+sc_node_not_relation -> annual_edition;;
+
+annual_edition => nrel_main_idtf:
+[ежегодное издание]
+	(*
+	<- lang_ru;;
+	*);
+	[annual edition] 
+	(*
+	<- lang_en;;
+	*);;

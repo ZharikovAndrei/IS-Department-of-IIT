@@ -1,0 +1,26 @@
+sc_node_not_relation -> combined_edition;;
+
+combined_edition => nrel_main_idtf:
+[комбинированное издание]
+	(*
+	<- lang_ru;;
+	*);
+	[combined edition] 
+	(*
+	<- lang_en;;
+	*);;
+
+combined_edition <- rrel_key_sc_element: 
+        ...
+	(*
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[комбинированное издание — издание, включающее наряду с печатным текстом записи звуков (пластинки, магнитофонные ленты) и изображения на других материальных носителях (слайды, пленки).]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;
+
+combined_edition <- edition;;

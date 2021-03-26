@@ -1,0 +1,32 @@
+//Житко В.А., Уваров К.А. Технология проектирования интеллектуальных информационно-поисковых машин. Сборник трудов конференции VII Международной научно-методическая конференции "Дистанционное обучение - образовательная среда XXI века".Мн. БГУИР, 2011. С.244-246 
+
+publication_Uvarov_K_A_2011_TechnoIISE=> nrel_main_idtf:
+[Уваров К.А. 2011 - ТехноПИИПМ]
+	(*
+	<- lang_ru;;
+	*);
+	[Uvarov_K_A_2011_TechnoIISE]
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Uvarov_K_A_2011_TechnoIISE => nrel_name_publication:[Технология проектирования интеллектуальных информационно-поисковых машин.](*
+	<- lang_ru;;
+	*);;
+
+publication_Uvarov_K_A_2011_TechnoIISE <= nrel_author:
+Uvarov_K_A;Zhitko_V_A;;
+
+publication_Uvarov_K_A_2011_TechnoIISE <- article;;
+
+publication_Uvarov_K_A_2011_TechnoIISE => nrel_reference_standard: [Житко В.А., Уваров К.А. Технология проектирования интеллектуальных информационно-поисковых машин. Сборник трудов конференции VII Международной научно-методическая конференции "Дистанционное обучение - образовательная среда XXI века".Мн. БГУИР, 2011. С.244-246 ];;
+
+publication_Uvarov_K_A_2011_TechnoIISE => nrel_year_publication: 2011;;
+
+publication_Uvarov_K_A_2011_TechnoIISE => nrel_information_publication: Materials_of_Distance_learning_and_educational_environment_of_the_21st_century_2011;;
+
+publication_Uvarov_K_A_2011_TechnoIISE => nrel_number_page: ..2011_TechnoIISE(*
+-> rrel_from : 244;;
+-> rrel_by: 246;;
+*);;
+publication_Uvarov_K_A_2011_TechnoIISE <- rrel_key_sc_element: ... (* <- sc_explanation;; <= nrel_sc_text_translation: ... (* -> rrel_example: "file://содержимое публикаций/Технология проектирования интеллектуальных информационно-поисковых машин.pdf";; *);; *);;

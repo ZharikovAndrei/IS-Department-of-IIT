@@ -1,0 +1,11 @@
+smallspring2016G321ejaiis_saturdaysecond_pairpodgruppa321702_1 = [*^"file://smallspring2016G321ejaiis_saturdaysecond_pairpodgruppa321702_1.scsi"*];; 
+smallspring2016G321ejaiis_saturdaysecond_pairpodgruppa321702_1<-study_session;; 
+smallspring2016G321ejaiis_saturdaysecond_pairpodgruppa321702_1 = [*^"file://smallspring2016G321ejaiis_saturdaysecond_pairpodgruppa321702_1.scsi"*];; 
+smallspring2016G321ejaiis_saturdaysecond_pairpodgruppa321702_1 => nrel_time_situation: ...
+ (*->...(*
+<-time_point;;
+->rrel_number_of_pair:second_pair ;;
+->rrel_day:saturday;;
+->rrel_week:3 ;;
+*);;
+*);;

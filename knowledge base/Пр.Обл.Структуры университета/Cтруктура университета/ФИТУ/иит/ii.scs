@@ -1,0 +1,133 @@
+the_department_of_intelligent_informational_technologies<-ui_start_sc_element;;
+
+the_department_of_intelligent_informational_technologies=>nrel_main_idtf:
+[Кафедра интеллектуальных информационных технологий](*<-lang_ru;;*);
+[the department of intelligent informational technologies](*<-lang_en;;*);; 
+
+the_department_of_intelligent_informational_technologies=>nrel_idtf:[Кафедра ИИТ](*<-lang_ru;;*);;
+the_department_of_intelligent_informational_technologies=>nrel_idtf:[IIT department](*<-lang_en;;*);;
+
+pers_comp_iit => nrel_inclusion:professor_and_teaching_staff;teaching_and_support_staff;;
+
+
+
+
+
+//..b=(professor_and_teaching_staff -> Golenkov_V_V);;
+
+//..c=(rrel_professor -> ..b);;
+
+//..c => nrel_rate: ..a;;
+
+//..a <=nrel_identification: ...(*->rrel_decimal: [0,5];;*);;
+
+//..a <- number;;
+
+
+
+
+professor_and_teaching_staff -> rrel_professor: Golenkov_V_V;;
+
+professor_and_teaching_staff -> rrel_head_of_department: Golenkov_V_V;;
+
+//(rrel_professor -> (
+//)) => nrel_rate: ..a;;
+ 
+//..b => nrel_identification: a;;
+
+//..a <- number;;
+
+//..b ->rrel_decimal: [0,5];;
+
+
+//(rrel_head_of_department -> (professor_and_teaching_staff -> Golenkov_V_V)) => nrel_rate:[1];;
+
+
+
+
+//concept_the_department_of_intelligent_informational_technologies => nrel_alternate_head_of_department: Gulyakina_N_A;;
+
+//concept_the_department_of_intelligent_informational_technologies => rrel_educational: Grakova_N_V;;
+
+the_department_of_intelligent_informational_technologies => nrel_logotipe: logotipe_iit;;
+
+the_department_of_intelligent_informational_technologies => nrel_pers_comp: pers_comp_iit;;
+
+
+
+//concept_the_department_of_intelligent_informational_technologies<=>nrel_partner:Melsoft;OOO_SKEND;;
+
+
+logotipe_iit=>nrel_main_idtf:
+[логотип ИИТ](*<-lang_ru;;*);
+[the logotipe of IIT](*<-lang_en;;*);; 
+
+
+pers_comp_iit=>nrel_main_idtf:
+[Персональный состав кафедры ИИТ](*<-lang_ru;;*);
+[personal composition of the IIT](*<-lang_en;;*);; 
+
+
+pers_comp_iit <- rrel_key_sc_element:
+        ...
+        (*
+        <-illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://../../../image/ii1.jpg" (*<-image;;*);;
+               *);;
+        *);;
+
+
+
+logotipe_iit <- rrel_key_sc_element:
+        ...
+        (*
+        <-illustration;;
+        <= nrel_sc_text_translation:
+               ...
+               (*
+               -> rrel_example: 
+                       "file://../../../image/ii3.png" (*<-image;;*);;
+               *);;
+        *);;
+
+
+
+
+
+
+
+artificial_intelligence => nrel_producing_department: the_department_of_intelligent_informational_technologies;;
+
+artificial_intelligence_mag => nrel_producing_department: the_department_of_intelligent_informational_technologies;;
+
+foundations_of_information_science_mag => nrel_producing_department: the_department_of_intelligent_informational_technologies;;
+
+foundations_of_information_science_asp => nrel_producing_department: the_department_of_intelligent_informational_technologies;;
+
+
+
+
+the_department_of_intelligent_informational_technologies <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [Информация о кафедре ИИТ] (* <- lang_ru;; *);;
+	<- sc_explanation;;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Кафедра интеллектуальных информационных технологий основана 10 января 1995 года. Основной задачей кафедры является подготовка специалистов по специальности 1-40 03 01 "Искусственный интеллект" по дневной и дистанционной форме обучения. Также сотрудники кафедры читают спецкурсы, посвященные интеллектуальным системам, для студентов специальностей "Информационные системы и технологии в экономике", "Программное обеспечение информационных технологий", "Информатика" дневной формы обучения.
+Кафедра осуществляет подготовку магистрантов по специальности 1-31 80 10 "Теоретические основы информатики" и 1-40 81 03 "Искусственный интеллект", также возможно поступление в аспирантуру по специальности 05.13.17 "Теоретические основы информатики".
+Научно-исследовательские работы на кафедре ведутся в области разработки технологии и инструментальных средств создания интеллектуальных систем. К участию в научно-исследовательской работе привлекаются и студенты кафедры, действует студенческая научно-исследовательская лаборатория (СНИЛ). ](* <- lang_ru;; *);;
+		*);;
+	*);;
+
+
+
+
+
+

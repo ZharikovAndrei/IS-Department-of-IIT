@@ -1,0 +1,29 @@
+publication_Parkalov_A_V_2012_GraphUIIS => nrel_main_idtf:
+[Паркалов А.В.2012 - ГрафиПИИС]
+	(*
+	<- lang_ru;;
+	*);
+	[Parkalov_A_V_2012_GraphUIIS] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Parkalov_A_V_2012_GraphUIIS => nrel_name_publication:[Графический пользовательский интерфейс интеллектуальных систем](*
+	<- lang_ru;;
+	*);;
+
+publication_Parkalov_A_V_2012_GraphUIIS <= nrel_author:
+Parkalov_A_V;;
+
+publication_Parkalov_A_V_2012_GraphUIIS <- article;;
+
+publication_Parkalov_A_V_2012_GraphUIIS => nrel_reference_standard: [Графический пользовательский интерфейс интеллектуальных систем / Информационные технологии и системы: материалы международной конференции ИТС БГУИР 2012. Минск, 23 октября 2013 года. с. 120-121.];;
+
+publication_Parkalov_A_V_2012_GraphUIIS => nrel_year_publication: 2013;;
+
+publication_Parkalov_A_V_2012_GraphUIIS => nrel_information_publication: Proceedings_of_the_international_scientific_conference_ITS_12;;
+
+publication_Parkalov_A_V_2012_GraphUIIS => nrel_number_page: ..2012_GraphUIIS(*
+-> rrel_from : 120;;
+-> rrel_by : 121;;
+*);;

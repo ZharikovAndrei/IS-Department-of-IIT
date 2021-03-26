@@ -1,0 +1,14 @@
+Hazanovskiy_Oleg_Borisovich=>nrel_main_idtf:
+[Хазановский Олег Борисович](*<-lang_ru;;*);
+[Hazanovskiy Oleg Borisovich](*<-lang_en;;*);;
+
+Hazanovskiy_Oleg_Borisovich -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation: 
+ ...(* -> rrel_key_sc_element:
+[+375 17 293-86-11];;*)
+   ;;*)
+   ;; 
+
+Hazanovskiy_Oleg_Borisovich-> rrel_work_place: aud_214_1;;
+
+

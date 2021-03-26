@@ -1,0 +1,32 @@
+//Самодумкин. Интеллектуальные компоненты геоинформационных систем справочного назначения. Журнал «Электроника Инфо», 2013 №4 – c.34-38
+
+publication_Samodumkin_S_A_2013_IntelCoGISfRP => nrel_main_idtf:
+[Самодумкин С.А. 2013 - ИнтелКГССН]
+	(*
+	<- lang_ru;;
+	*);
+	[Samodumkin S.A. 2013 IntelCoGISfRP] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Samodumkin_S_A_2013_IntelCoGISfRP => nrel_name_publication:[Интеллектуальные компоненты геоинформационных систем справочного назначения.](*
+	<- lang_ru;;
+	*);;
+
+publication_Samodumkin_S_A_2013_IntelCoGISfRP <= nrel_author:
+Samodumkin_S_A;;
+
+publication_Samodumkin_S_A_2013_IntelCoGISfRP <- article;;
+
+publication_Samodumkin_S_A_2013_IntelCoGISfRP => nrel_reference_standard: [Самодумкин. Интеллектуальные компоненты геоинформационных систем справочного назначения. Журнал «Электроника Инфо», 2013 №4 – c.34-38.];;
+
+publication_Samodumkin_S_A_2013_IntelCoGISfRP => nrel_year_publication: 2013;;
+
+publication_Samodumkin_S_A_2013_IntelCoGISfRP => nrel_information_publication: magazine_Electronics_INFO_4;;
+
+publication_Samodumkin_S_A_2013_IntelCoGISfRP => nrel_number_page: ..2013_IntelCoGISfRP(*
+-> rrel_from : 34;;
+-> rrel_by : 38;;
+*);;
+

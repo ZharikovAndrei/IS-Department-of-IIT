@@ -1,0 +1,5 @@
+sc_node_not_relation->concept_fleet;;
+concept_fleet=>nrel_main_idtf:
+[автохозяйство](*<-lang_ru;;*);
+[fleet](*<-lang_en;;*);; 
+concept_fleet->fleet_bsuir;;

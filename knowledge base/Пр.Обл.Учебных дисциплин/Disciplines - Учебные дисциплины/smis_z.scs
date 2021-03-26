@@ -1,0 +1,41 @@
+smis_z
+=>nrel_main_idtf:
+	[Семантические модели интеллектуальных систем (для заочной формы обучения)] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[Semantic models of intelligent systems (extramural education)] (* <-lang_en;; *);
+=>nrel_abbreviation:[СМИС(з)];
+<-multiplicity_of_subjects_taught_in_the_1_term_magistracy_extramural_education_specialty_artificial_intelligence;
+
+<-special_subject;
+
+<=nrel_realisation_of_learning_activity:
+
+	laboratory_work_on_smis_z
+		(*=>nrel_main_idtf:
+[Семантические модели интеллектуальных систем (для заочной формы обучения).лабораторный практикум] (* <-lang_ru;; *);;
+=>nrel_planned_hours:34;;
+	=>nrel_realisation_of_intermediate_control:
+		protection_of_laboratory_work;;
+	<-laboratory_work;;
+	*);
+	lectures_on_smis_z
+(*=>nrel_main_idtf:
+[Семантические модели интеллектуальных систем (для заочной формы обучения).лекции] (* <-lang_ru;; *);;
+=>nrel_planned_hours:34;;
+	=>nrel_realisation_of_intermediate_control:
+		control_work;;
+		<-lecture;;
+	*);
+=>nrel_realisation_of_final_certification: test;
+=>nrel_realisation_of_intermediate_control: control_work;
+<-rrel_subject:
+	...
+	(*
+	->rrel_realisation_of_learning_activity: laboratory_work; lecture;;
+	<-nrel_taught_subject;;
+	->rrel_teacher: Golenkov_V_V;;
+	*);
+=>nrel_term: 1;;
+
+Golenkov_V_V=>nrel_can_teach_subject:smis;smis_z;;
+Golenkov_V_V<=nrel_educational_work:laboratory_work_on_smis_z;laboratory_work_on_smis;lectures_on_smis_z;lectures_on_smis;;

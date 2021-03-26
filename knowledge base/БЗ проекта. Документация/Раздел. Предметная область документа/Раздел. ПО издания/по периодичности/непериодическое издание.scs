@@ -1,0 +1,25 @@
+sc_node_not_relation -> non_periodical_edition;;
+
+non_periodical_edition => nrel_main_idtf:
+[непериодическое издание]
+	(*
+	<- lang_ru;;
+	*);
+	[non-periodical edition] 
+	(*
+	<- lang_en;;
+	*);;
+
+non_periodical_edition <- rrel_key_sc_element: 
+        ...
+	(*
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[непериодическое издание – издание, выходящее однократно, не имеющее продолжения]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;
+

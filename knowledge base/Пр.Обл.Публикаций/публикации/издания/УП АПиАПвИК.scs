@@ -1,0 +1,16 @@
+//
+//sc_node_not_relation -> textbook_associative_memory_and_associative_processors_in_smart_machines;;
+
+textbook_associative_memory_and_associative_processors_in_smart_machines => nrel_main_idtf:
+[Учебное пособие "Ассоциативная память и ассоциативные процессоры в интеллектуальных компьютерах"]
+	(*
+	<- lang_ru;;
+	*);
+	[Textbook "Associative memory and associative processors in smart machines"]
+	(*
+	<- lang_en;;
+	*);;
+
+textbook_associative_memory_and_associative_processors_in_smart_machines => nrel_place_publication: minsk;;
+
+textbook_associative_memory_and_associative_processors_in_smart_machines => nrel_publishing: bsuir;;

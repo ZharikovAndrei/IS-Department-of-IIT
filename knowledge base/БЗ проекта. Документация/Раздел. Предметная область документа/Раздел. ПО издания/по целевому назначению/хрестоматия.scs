@@ -1,0 +1,29 @@
+sc_node_not_relation -> reader;;
+reader => nrel_main_idtf:
+[хрестоматия]
+	(*
+	<- lang_ru;;
+	*);
+	[reader] 
+	(*
+	<- lang_en;;
+	*);;
+
+reader <- rrel_key_sc_element: 
+        ...
+	(*
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[хрестоматия – это учебное издание, содержащее литературно-художественные, исторические и иные произведения или отрывки из них, составляющие объект изучения учебной дисциплины]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;
+
+
+reader <- educational_edition;;
+
+reader <- edition;;
+

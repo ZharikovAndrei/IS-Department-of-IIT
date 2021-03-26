@@ -1,0 +1,35 @@
+//sc_node_not_relation -> publication_Davidenko_I_T_2013_KnowlBISESDSS;;
+
+
+publication_Davidenko_I_T_2013_KnowlBISESDSS => nrel_main_idtf:
+[Давыденко И.Т.2013-БазыЗИСЭССППР]
+	(*
+	<- lang_ru;;
+	*);
+	[Davidenko_I_T_2013_KnowlBISESDSS]
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Davidenko_I_T_2013_KnowlBISESDSS => nrel_name_publication:[Базы знаний, интеллектуальные системы, экспертные системы, системы поддержки принятия решений](*
+	<- lang_ru;;
+	*);;
+
+publication_Davidenko_I_T_2013_KnowlBISESDSS <= nrel_author:
+Davydenko_I_T; Gulyakina_N_A; Shunkevich_D_V;;
+
+publication_Davidenko_I_T_2013_KnowlBISESDSS <- article;;
+
+publication_Davidenko_I_T_2013_KnowlBISESDSS => nrel_information_publication: magazin_software_systems_and_computational_methods_1;;
+
+publication_Davidenko_I_T_2013_KnowlBISESDSS => nrel_reference_standard: [Гулякина Н.А., Давыденко И.Т., Шункевич Д.В. Базы знаний, интеллектуальные системы, экспертные системы, системы поддержки принятия решений. Международный журнал «Программные системы и вычислительные методы», 2013 №1 – с.56-68];;
+
+publication_Davidenko_I_T_2013_KnowlBISESDSS => nrel_number_page: ..KnowlBISESDSS (*
+-> rrel_from : 56;;
+-> rrel_by : 68;;
+*);;
+
+publication_Davidenko_I_T_2013_KnowlBISESDSS => nrel_year_publication: 2013;;
+
+
+

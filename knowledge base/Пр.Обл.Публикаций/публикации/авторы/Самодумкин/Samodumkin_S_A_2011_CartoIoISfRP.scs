@@ -1,0 +1,31 @@
+//Самодумкин С.А., Сорока С.И., Махина А.И., Глазунов А.С. Картографический интерфейс интеллектуальных систем справочного назначения. Карповские научные чтения: сборник научных статей - Минск : Белорусский Дом печати, 2011. Часть 1 С. 187-192
+
+publication_Samodumkin_S_A_2011_CartoIoISfRP => nrel_main_idtf:
+[Самодумкин С.А. 2011 - КартоИИССН]
+	(*
+	<- lang_ru;;
+	*);
+	[Samodumkin S.A. 2011 CartoIoISfRP] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Samodumkin_S_A_2011_CartoIoISfRP => nrel_name_publication:[Картографический интерфейс интеллектуальных систем справочного назначения](*
+	<- lang_ru;;
+	*);;
+
+publication_Samodumkin_S_A_2011_CartoIoISfRP <= nrel_author:
+Samodumkin_S_A; Soroka_S_I; Mahina_A_I; Glazunov_A_S;;
+
+publication_Samodumkin_S_A_2011_CartoIoISfRP <- article;;
+
+publication_Samodumkin_S_A_2011_CartoIoISfRP => nrel_reference_standard: [Самодумкин С.А., Сорока С.И., Махина А.И., Глазунов А.С. Картографический интерфейс интеллектуальных систем справочного назначения. Карповские научные чтения: сборник научных статей - Минск : Белорусский Дом печати, 2011. Часть 1 С. 187-192 ];;
+
+publication_Samodumkin_S_A_2011_CartoIoISfRP => nrel_year_publication: 2011;;
+
+publication_Samodumkin_S_A_2011_CartoIoISfRP => nrel_information_publication: Karpovskiy_scientific_readings_a_collection_of_scientific_articles_part1;;
+
+publication_Samodumkin_S_A_2011_CartoIoISfRP => nrel_number_page: ..2011_CartoIoISfRP(*
+-> rrel_from : 187;;
+-> rrel_by : 192;;
+*);;

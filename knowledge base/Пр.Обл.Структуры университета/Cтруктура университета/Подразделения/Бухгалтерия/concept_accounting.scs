@@ -1,0 +1,18 @@
+sc_node_not_relation->concept_accounting;;
+
+concept_accounting=>nrel_main_idtf:
+[бухгалтерия](*<-lang_ru;;*);
+[accounting](*<-lang_en;;*);; 
+
+concept_accounting<-rrel_key_sc_element:
+...
+(*
+=>nrel_main_idtf:[Опр.(бухгалтерия)](*<-lang_ru;;*);;
+<-sc_definition;;
+<=nrel_sc_text_translation:
+...
+(*
+->rrel_example:
+[Бухгалтерия — штатно-структурное подразделение хозяйствующего субъекта, предназначенное для аккумулирования данных о его имуществе и обязательствах.](*<-lang_ru;;*);;
+*);;
+*);;

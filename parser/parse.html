@@ -1,0 +1,22 @@
+<html>
+<head>
+<meta charset="UTF-8">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="FileSaver.js"></script>
+	<script type="text/javascript" src="translator.js"></script>
+	<script type="text/javascript" src="parser.js"></script>
+
+</head>
+<body>
+	<input id="txt" type="text"/>
+	<button>ok</button>
+	<div id="name"></div>
+	<div id="title"></div>
+</body>
+<script type="text/javascript">
+    $("button").click(function () {
+    	$("#name").text(bibLineParse($("#txt").val()));
+    })
+    console.log(convertString("привет8688privet-s"));
+</script>
+</html>

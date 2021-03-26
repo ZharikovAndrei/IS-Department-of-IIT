@@ -1,0 +1,53 @@
+KP_fall_2015=> nrel_main_idtf:
+[Защита курсовых проектов осень 2015] (* <-lang_ru;; *);
+[Course project protection in fall 2015] (* <-lang_en;; *);
+<-temporary_entity;;
+KP_fall_2015<-
+...
+(*<-exact_value;;
+ <-begin;;
+  =>nrel_translation_in_the_Gregorian_calendar:...
+  (*
+    ->number_of_year:2015;;
+    ->number_of_month_in_year:12;;
+    ->number_of_day_in_month:8;;
+   *);;
+  *);;
+KP_fall_2015<-
+...
+(*<-exact_value;;
+ <-completion;;
+  =>nrel_translation_in_the_Gregorian_calendar:...
+  (*
+    ->number_of_year:2001;;
+    ->number_of_month_in_year:12;;
+    ->number_of_day_in_month:16;;
+   *);;
+  *);;
+KP_fall_2015=>nrel_address:
+[г.Минск, БГУИР, улица Гикало 9 (4-ой корпус)](*<-lang_ru;;*);
+[г.Минск, БГУИР, улица Платонова 39 (5-ой корпус)](*<-lang_ru;;*);;
+
+KP_fall_2015<=nrel_subdividing:
+8_12_15;
+10_12_15;
+11_12_15;
+16_12_15;;
+
+KP_fall_2015=>nrel_participant_course_project:
+is_of_geography_of_rb;
+is_of_music;
+is_of_physics;
+is_of_natural_language_interrface_of_is_of_geometry;
+intelligent_support_system_of_preparing_and_holding_OSTIS_conference;
+intelligent_SCP_graphical_user_interface_builder;
+is_of_set_theory;
+is_of_graph_theory;
+is_of_history_of_city_Minsk;
+is_of_geometry;
+is_of_algebra;
+is_of_traffic_laws;
+is_of_enterprise_management;
+is_of_department_of_iit;
+is_administrative_assistant;
+is_scp_text;;

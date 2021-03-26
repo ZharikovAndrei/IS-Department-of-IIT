@@ -1,0 +1,14 @@
+sc_node_not_relation -> low;;
+
+low => nrel_main_idtf:
+[закон]
+	(*
+	<- lang_ru;;
+	*);
+	[low] 
+	(*
+	<- lang_en;;
+	*);;
+
+
+low <- official_edition;;

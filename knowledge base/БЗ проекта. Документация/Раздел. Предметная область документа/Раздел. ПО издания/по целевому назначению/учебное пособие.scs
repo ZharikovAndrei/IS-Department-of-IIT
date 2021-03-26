@@ -1,0 +1,41 @@
+sc_node_not_relation -> tutorial;;
+tutorial => nrel_main_idtf:
+[учебное пособие]
+	(*
+	<- lang_ru;;
+	*);
+	[tutorial] 
+	(*
+	<- lang_en;;
+	*);;
+
+tutorial <= nrel_subdividing: {
+
+workbook;
+guidance_manual;
+training_aid;
+textbook_self_instruction;
+reader;
+training_program;
+training_package
+		
+};;
+
+tutorial <- rrel_key_sc_element: 
+        ...
+	(*
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[учебное пособие – это учебное издание, частично или полностью заменяющее или дополняющее учебник и официально утвержденное в качестве данного вида издания, рекомендуемое для конкретного учреждения образования]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;
+
+
+tutorial <- educational_edition;;
+
+tutorial <- edition;;
+

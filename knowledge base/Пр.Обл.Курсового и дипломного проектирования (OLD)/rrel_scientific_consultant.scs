@@ -1,0 +1,9 @@
+rrel_scientific_consultant
+	<- sc_node_role_relation;
+	=> nrel_main_idtf:[научный консультант'](*<-lang_ru;;*);
+	=> nrel_main_idtf:[scientific consultant'](*<-lang_en;;*);
+	<- rrel_key_sc_element: ...
+                                  (* <- concept_sc_defenition;;
+ 							   <= nrel_sc_text_translation: ... (*-> [Разработчик машины обработки знаний - персона, ведущая разработку машишны обработки знаний.] (*<- lang_ru;;*);; *);;
+                                      => nrel_main_idtf: [Опр. (научный консультант)] (*<- lang_ru;;*);;
+                                  *);;

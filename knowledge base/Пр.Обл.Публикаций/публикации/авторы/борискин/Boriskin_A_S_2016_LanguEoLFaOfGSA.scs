@@ -1,0 +1,31 @@
+publication_Boriskin_A_S_2016_LanguEoLFaOfGSA=> nrel_main_idtf:
+[Борискин А.С. 2016 - РасшиЯЛФиОдПОГ]
+	(*
+	<- lang_ru;;
+	*);
+	[Boriskin_A_S_2016_LanguEoLFaOfGSA] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Boriskin_A_S_2016_LanguEoLFaOfGSA => nrel_name_publication:[Расширение языка логических формул и онтологий для предмтной области геометрии](*
+	<- lang_ru;;
+	*);;
+
+publication_Boriskin_A_S_2016_LanguEoLFaOfGSA <= nrel_author:
+Boriskin_Alexander_Sergeevich;Logvinovich_M_N;Voitihvitsky_P_D;;
+
+publication_Boriskin_A_S_2016_LanguEoLFaOfGSA <- article;;
+
+publication_Boriskin_A_S_2016_LanguEoLFaOfGSA => nrel_reference_standard: [А. С. Борискин, П. Д. Войтиховский, М. Н. Логвинович "Расширение языка логических формул и онтологий для предмтной области геометрии", ITS 2016];;
+
+publication_Boriskin_A_S_2016_LanguEoLFaOfGSA => nrel_year_publication: 2016;;
+
+publication_Boriskin_A_S_2016_LanguEoLFaOfGSA => nrel_information_publication: Proceedings_of_the_international_scientific_conference_ITS_16;;
+publication_Boriskin_A_S_2016_LanguEoLFaOfGSA => nrel_number_page: ..2016_LanguEoLFaOfGSA (*
+-> rrel_from :146;;
+-> rrel_by :147;;
+*);;
+
+
+

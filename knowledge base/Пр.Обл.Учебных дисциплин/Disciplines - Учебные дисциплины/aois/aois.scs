@@ -1,0 +1,157 @@
+aois
+=>nrel_main_idtf:
+	[Аппаратное обеспечение интеллектуальных систем] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[Hardware foundations of intelligent systems] (* <-lang_en;; *);
+=>nrel_abbreviation:[АОИС];
+
+<-special_subject;
+
+<-multiplicity_of_subjects_taught_in_the_3_term_specialty_artificial_intelligence_4_year_education;
+
+<=nrel_realisation_of_learning_activity:
+
+	lectures_on_aois
+		(*=>nrel_main_idtf:
+[Аппаратное обеспечение интеллектуальных систем.лекции] (* <-lang_ru;; *);;
+			<-lecture;;
+		*);
+	laboratory_work_on_aois
+		(*=>nrel_main_idtf:
+[Аппаратное обеспечение интеллектуальных систем.лабораторный практикум] (* <-lang_ru;; *);;
+		=>nrel_realisation_of_intermediate_control:
+		protection_of_laboratory_work;;
+		<-laboratory_work;;
+		*);
+=>nrel_realisation_of_final_certification:
+	exam;
+<-rrel_subject:
+	...
+	(*
+	->rrel_realisation_of_learning_activity: lecture; laboratory_work;;
+	<-nrel_taught_subject;;
+	->rrel_teacher: Kachkov_V_P;;
+	*);
+=>nrel_term: 3;
+
+<=nrel_trains: the_department_of_intelligent_informational_technologies;
+<=nrel_class_number: 2(* <-positive_number;;*);
+<=nrel_semester_number: 3(* <-positive_number;;*);
+<=nrel_semester_number: 4(* <-positive_number;;*);
+<=nrel_lecture_hours: 86(*<-positive_number;;*);
+<=nrel_labs_hours: 18(*<-positive_number;;*);
+<=nrel_practice_hours: 16(*<-positive_number;;*);
+<=nrel_component: concept_mandatory_component;
+<=nrel_cycle: concept_tsikl_obshcheprofessionalnykh_i_spetsialnykh_distsiplin;;
+
+aois
+<= nrel_discipline_goal: [Обеспечить  студентов  базовыми  знаниями  по  основным  вопросам  аппаратного  обеспечения интеллектуальных систем] (* <- lang_ru;; *);
+=> nrel_learning_program:
+...
+(*
+   <- sc_explanation;;
+   <= nrel_sc_text_translation:
+    ...
+    (*
+      -> rrel_example: "file://training_program/aois_learning_program.pdf";;
+    *);;
+*);
+
+<= nrel_discipline_task:
+...
+(*
+   -> [Приобретение знаний по вопросам организации и функционирования традицион-
+		ных и интеллектуальных компьютеров, программным и аппаратным способам организа-
+		ции ассоциативного поиска и обработки информации в современных компьютерах] (* <- lang_ru;; *);;
+   -> [Формирование навыков по преобразованию логических функций,  синтезу  раз-
+		личных логических схем, разработке и проверке программных моделей ассоциативных
+		памятей и ассоциативных процессоров] (* <- lang_ru;; *);;
+   -> [Изучение принципов функциональной и структурной организации вычислитель-
+		ных систем, построения и функционирования основных подсистем ЭВМ] (* <- lang_ru;; *);;
+   -> [Овладение методами минимизации логических функций, синтеза логических уст-
+		ройств, моделирования ассоциативных устройств] (* <- lang_ru;; *);;
+*);
+
+<= nrel_educational_subject_content:
+ ...
+(*
+   -> aois_section_1_evolyutsiya_evm
+      (*
+        <= nrel_subdividing: ...
+        (*
+
+         -> aois_topic_1_etapy_razvitiya__i_pokoleniya_evm_evolyutsiya_ikh_intellektualnykh_svoystv;;
+        *);;
+      *);;
+   -> aois_section_2_informatsionno_logicheskie_osnovy_postroeniya_evm
+      (*
+        <= nrel_subdividing: ...
+        (*
+
+         -> aois_topic_2_informatsionnye_osnovy_postroeniya_evm;;
+         -> aois_topic_3_logicheskie_osnovy_postroeniya_evm:_elementy_algebry_logiki;;
+         -> aois_topic_4_sintez_logicheskikh_skhem;;
+        *);;
+      *);;
+   -> aois_section_3_printsipy_postroeniya_i_funktsionirovaniya_evm
+      (*
+        <= nrel_subdividing: ...
+        (*
+
+         -> aois_topic_5_osnovnye_ponyatiya_o_printsipakh_organizatsii_sostave_poryadke_funktsionirovaniya_i_rezhimy_raboty_evm;;
+         -> aois_topic_6_printsipy_postroeniya_i_funktsionirovaniya_osnovnykh_podsistem_evm_obrabatyvayushchey_pamyati_i_vvoda_vyvoda;;
+        *);;
+      *);;
+   -> aois_section_4_razvitie_struktury_i_arkhitektury_evm
+      (*
+        <= nrel_subdividing: ...
+        (*
+
+         -> aois_topic_7_osnovnye_tendentsii_i_napravleniya_razvitiya_struktury_evm;;
+         -> aois_topic_8_razvitie_arkhitektury_i_spetsializirovannykh_yazykov_programmirovaniya;;
+        *);;
+      *);;
+   -> aois_section_5_parallelnye_kompyutery_dlya_intellektualnykh_sistem
+      (*
+        <= nrel_subdividing: ...
+        (*
+
+         -> aois_topic_9_trebovaniya_k_evm_primenyaemym_v_intellektualnykh_sistemakh_obrabotki_znaniy_klassifikatsiya_parallelnykh_vychislitelnykh_sistem;;
+        *);;
+      *);;
+   -> aois_section_6_assotsiativnaya_pamyat._osnovnye_ponyatiya_i_opredeleniya
+      (*
+        <= nrel_subdividing: ...
+        (*
+
+         -> aois_topic_10_assotsiativnaya_pamyat:_vidy_i_struktura_assotsiatsiy_postroenie_assotsiativnykh_struktur;;
+        *);;
+      *);;
+   -> aois_section_7_programmnyy_podkhod_k_adresatsii_po_soderzhaniyu.
+      (*
+        <= nrel_subdividing: ...
+        (*
+
+         -> aois_topic_11_osnovnye_printsipy_i_funktsii_kheshirovaniya_struktura_tablits_kheshirovaniya;;
+         -> aois_topic_12_assotsiativnaya_poisk;;
+        *);;
+      *);;
+   -> aois_section_8_logicheskie_printsipy_organizatsii_assotsiativnykh_zapominayushchikh_ustroystv.
+      (*
+        <= nrel_subdividing: ...
+        (*
+
+         -> aois_topic_13_logicheskie_osnovy_organizatsii_assotsiativnykh_zapominayushchikh_ustroystv_azu_struktura_i_osnovnye_funktsii_azu;;
+         -> aois_topic_14_azu_s_razlichnymi_vidami_poiska_i_sposobami_adresatsii;;
+        *);;
+      *);;
+   -> aois_section_9_mesto_assotsiativnoy_pamyati_v_sovremennykh_vychislitelnykh_sistemakh
+      (*
+        <= nrel_subdividing: ...
+        (*
+
+         -> aois_topic_15_napravleniya_primeneniya_i_tendentsii_razvitiya_azu_assotsiativnye_protsessory;;
+         -> aois_topic_16_primenenie_assotsiativnogo_poiska_i_obrabotki_informatsii_v_i_kompyuterakh;;
+        *);;
+      *);;
+*);;

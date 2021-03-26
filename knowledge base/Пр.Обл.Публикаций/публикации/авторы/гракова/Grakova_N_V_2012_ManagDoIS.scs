@@ -1,0 +1,30 @@
+//sc_node_not_relation -> publication_Grakova_N_V_2012_ManagDoIS;;
+
+
+publication_Grakova_N_V_2012_ManagDoIS => nrel_main_idtf:
+[Гракова Н.В. 2012 - УправПИС]
+	(*
+	<- lang_ru;;
+	*);
+	[Grakova_N_V_2012_ManagDoIS]
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Grakova_N_V_2012_ManagDoIS => nrel_name_publication:[Управление проектированием интеллектуальных систем](*
+	<- lang_ru;;
+	*);;
+
+publication_Grakova_N_V_2012_ManagDoIS <= nrel_author:
+Grakova_N_V; Zhukov_I_I;;
+
+publication_Grakova_N_V_2012_ManagDoIS <- article;;
+
+publication_Grakova_N_V_2012_ManagDoIS => nrel_reference_standard: [ Жуков И.И., Гракова Н.В., Управление проектированием интеллектуальных систем. 13 международная конференция Интеллектуальный анализ информации(14-16 мая 2012)];;
+
+publication_Grakova_N_V_2012_ManagDoIS => nrel_year_publication: 2012;;
+
+publication_Grakova_N_V_2012_ManagDoIS => nrel_information_publication:  Materials_of_13th_International_Conference_Intelligent_analysis_of_information;;
+
+
+

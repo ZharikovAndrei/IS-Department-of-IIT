@@ -1,0 +1,16 @@
+sc_node_not_relation -> concept_fitness_center;;
+concept_fitness_center=> nrel_main_idtf:[спортивно-оздоровительный центр] (* <-lang_ru;; *);;
+concept_fitness_center=> nrel_main_idtf:[fitness center] (* <-lang_en;; *);;
+concept_fitness_center<- rrel_key_sc_element:
+	... 
+	(*<-sc_definition;;
+     =>nrel_main_idtf:[Опр.(спортивно-оздоровительный центр)](*<-lang_ru;;*);;
+     <=nrel_using_constants:...
+ (*->concept_complex;;->concept_training;;*);;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Спортивно-оздоровительный центр - многофункциональный комплекс, предлагающий множество вариантов активного отдыха и эффективных тренировок.](* <- lang_ru;; *);;
+		*);;
+	*);;

@@ -1,0 +1,5 @@
+is_of_history_of_city_Minsk_team 
+ <- team;
+ => nrel_main_idtf: [Команда интеллектуальной справочной системы по истории города Минска] (* <- lang_ru;; *);
+ -> rrel_scientific_consultant: Gubarevich_Anastasia_Vkadimirovna;
+ -> Natashkin_Alexandr_Olegovich; Karpach_Vladimir_Nikolaevich; Kovalev_Evgenii_Viktorovich; Korolkov_Kirill_Petrovich; Pavlovskii_Vladislav_Edyardovich; Yakybenko_Daniil_Andreevich; Semenyaka_Anatolii_Fedorovich; Lyanchevskii_Aleksei_Vitalievich;;

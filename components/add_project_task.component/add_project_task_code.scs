@@ -1,0 +1,6 @@
+add_project_task_code <- ui_external_languages; 
+   => nrel_main_idtf:
+        [Добавление задачи в рамках проекта]
+        (* <- lang_ru;; *);
+        [Add project task]
+        (* <- lang_en;; *);;

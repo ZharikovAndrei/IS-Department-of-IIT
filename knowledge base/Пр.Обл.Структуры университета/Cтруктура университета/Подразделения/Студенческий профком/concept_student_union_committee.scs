@@ -1,0 +1,40 @@
+sc_node_not_relation -> concept_student_union_committee;; 
+
+concept_student_union_committee=> nrel_main_idtf:[студенческий профсоюзный коммитет] (* <-lang_ru;; *);;
+
+concept_student_union_committee=> nrel_main_idtf:[student union committee] (* <-lang_en;; *);;
+
+concept_student_union_committee=> nrel_idtf:[студенческий профком] (* <-lang_ru;; *);;
+
+
+
+
+concept_student_union_committee<- rrel_key_sc_element:
+	... 
+	(*<-sc_definition;;
+     =>nrel_main_idtf:[Опр.(студенческий профсоюзный коммитет)](*<-lang_ru;;*);;
+     <=nrel_using_constants:...(*->concept_union;;->nrel_university;;->concept_self_government;;*);;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Студенческий профсоюзный коммитет - это орган студенческого самоуправления, который занимается профсоюзной деятельностью во всем университете.](* <- lang_ru;; *);;
+		*);;
+	*);;
+
+
+
+
+
+concept_student_union_committee<- rrel_key_sc_element:
+	... 
+	(*<-sc_statement;;
+     =>nrel_main_idtf:[Утв.(профсоюзный коммитет, предcтавитель*,университет,факультет,учебный процесс,общежитие)](*<-lang_ru;;*);;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Уполномоченными представителями первичной профсоюзной организации университета являются председатели профбюро факультетов. 
+               В их компентенцию входят вопросы оказания консультативной помощи по учебному процессу, заселению в общежитие, распределение бланков материальной помощи на факультете и др.](* <- lang_ru;; *);;
+		*);;
+	*);;

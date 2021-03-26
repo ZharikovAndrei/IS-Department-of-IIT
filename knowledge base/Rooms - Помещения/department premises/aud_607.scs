@@ -1,0 +1,17 @@
+aud_607_5
+=> nrel_main_idtf:
+	[аудитория 607-5] (* <-lang_ru;; *);
+=> nrel_main_idtf:
+	[audience 607-5] (* <-lang_en;; *);
+=> nrel_idtf:
+	[комната учебно-вспомогательного персонала кафедры] (* <-lang_ru;; *);
+	->rrel_key_sc_element:
+	...
+	(*
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> [аудитория 607-5 - комната учебно-вспомогательного персонала кафедры. ] (* <-lang_ru;; *);;
+		*);;
+	*);;

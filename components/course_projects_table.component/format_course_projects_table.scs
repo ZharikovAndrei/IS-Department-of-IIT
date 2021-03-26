@@ -1,0 +1,13 @@
+format_course_projects_table
+<- sc_node_not_relation;
+<- format;
+=> nrel_main_idtf: 
+	[формат таблицы коллективных студенческих проектов] 
+	(* 
+	<- lang_ru;;
+	 *);
+=> nrel_main_idtf: 
+	[format of student projects] 
+	(* 
+	<- lang_en;;
+	*);;

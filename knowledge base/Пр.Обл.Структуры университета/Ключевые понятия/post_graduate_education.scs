@@ -1,0 +1,14 @@
+post_graduate_education
+=>nrel_main_idtf:
+	[послевузовское образование] (* <-lang_ru;; *);	
+->rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> [Послевузовское образование-уровень основного образования,направленный на развитие личности аспиранта,докторанта,соискателя и реализацию их интеллектуального и творческого потенциала,формирование профессиональных нывыков организации и проведения научных исследований. ] (* <-lang_ru;; *);; 
+		*);;
+	*);
+=>nrel_subdividing:first_stage_post_graduate_education;second_stage_post_graduate_education;;

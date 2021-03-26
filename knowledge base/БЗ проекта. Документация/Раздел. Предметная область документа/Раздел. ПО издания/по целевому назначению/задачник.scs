@@ -1,0 +1,26 @@
+sc_node_not_relation -> book_problems;;
+book_problems => nrel_main_idtf:
+[задачник]
+	(*
+	<- lang_ru;;
+	*);
+	[book of problems] 
+	(*
+	<- lang_en;;
+	*);;
+
+book_problems <- rrel_key_sc_element: 
+        ...
+	(*
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[задачник – практикум, содержащий учебные задачи]
+			(* <- lang_ru;; *);;
+		*);; 
+	*);;
+
+
+book_problems <- practical_work;;

@@ -1,0 +1,6 @@
+aois_topic_13_logicheskie_osnovy_organizatsii_assotsiativnykh_zapominayushchikh_ustroystv_azu_struktura_i_osnovnye_funktsii_azu
+<- concept_topic; 
+<= nrel_index_number: 13; 
+<= nrel_content: [Логические основы организации АЗУ. Структура и основные функции АЗУ (хранение, считывание, запись, обработка многокатных совпадений, формирование адреса).] (* <- lang_ru;; *);
+=> nrel_main_idtf: [Раздел 13: Логические основы организации ассоциативных запоминающих устройств (АЗУ). Структура и основные функции АЗУ.] (* <- lang_ru;; *);;
+

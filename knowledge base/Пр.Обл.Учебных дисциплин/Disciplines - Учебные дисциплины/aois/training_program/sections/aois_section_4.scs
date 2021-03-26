@@ -1,0 +1,5 @@
+aois_section_4_razvitie_struktury_i_arkhitektury_evm
+<- concept_section; 
+<= nrel_index_number: 4; 
+=> nrel_main_idtf: [Раздел 4: Развитие структуры и архитектуры ЭВМ] (* <- lang_ru;; *);;
+

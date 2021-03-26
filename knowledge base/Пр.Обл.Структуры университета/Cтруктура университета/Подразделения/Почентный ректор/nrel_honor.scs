@@ -1,0 +1,18 @@
+sc_node_norole_relation->nrel_honor;;
+nrel_honor=> nrel_main_idtf:[почёт*] (* <-lang_ru;; *);;
+nrel_honor=> nrel_main_idtf:[honor*] (* <-lang_en;; *);;
+nrel_honor =>nrel_first_domain:concept_society;;
+nrel_honor=>nrel_second_domain:concept_person;;
+nrel_honor=>nrel_definitional_domain:...(* <=nrel_combination:...(*->concept_society;; ->concept_person;;*) ;; *);;
+nrel_honor<- nrel_key_sc_element:
+	...
+	(*<-sc_definition;;
+     =>nrel_main_idtf:[Опр.(Почёт*)](*<-lang_ru;;*);;
+     <=nrel_using_constants:...(*->concept_society;;*);;
+<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Почет-это уважение, оказываемое обществом кому-либо или чему-либо известному и достойному ](* <- lang_ru;; *);;
+		*);;
+	*);;

@@ -1,0 +1,14 @@
+Mayorova_Galina_Victorovna=>nrel_main_idtf:
+[Майорова Галина Викторовна](*<-lang_ru;;*);
+[Mayorova Galina Victorovna](*<-lang_en;;*);;
+
+Mayorova_Galina_Victorovna -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+ [+375 17 293-86-90];
+ [+375 17 293-21-61];;*)
+   ;;*)
+   ;;
+
+  Mayorova_Galina_Victorovna -> rrel_work_place: aud_105_2;;
+  Mayorova_Galina_Victorovna <- person;;

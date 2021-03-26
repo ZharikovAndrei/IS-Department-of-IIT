@@ -1,0 +1,33 @@
+//Харин Ю. С., Степанова М. Д. Проблемы университетской подготовки специалистов по прикладной статистике / Обозрение прикладной и промышленной математики, сер. Вероятность и статистика, т. 1, вып. 2, 1994, с. 331 – 340.
+
+publication_Stepanova_M_D_1994_ProbloUToSiAS=> nrel_main_idtf:
+[Степанова М.Д. 1994 - ПроблУПСпПС]
+	(*
+	<- lang_ru;;
+	*);
+	[Stepanova M.D. 1994 - ProbloUToSiAS] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Stepanova_M_D_1994_ProbloUToSiAS => nrel_name_publication:[Проблемы университетской подготовки специалистов по прикладной статистике.](*
+	<- lang_ru;;
+	*);;
+
+publication_Stepanova_M_D_1994_ProbloUToSiAS <= nrel_author:
+Stepanova_M_D; Harin_Y_S;;
+
+publication_Stepanova_M_D_1994_ProbloUToSiAS <- article;;
+
+publication_Stepanova_M_D_1994_ProbloUToSiAS => nrel_reference_standard: [Харин Ю. С., Степанова М. Д. Проблемы университетской подготовки специалистов по прикладной статистике / Обозрение прикладной и промышленной математики, сер. Вероятность и статистика, т. 1, вып. 2, 1994, с. 331 – 340.];;
+
+publication_Stepanova_M_D_1994_ProbloUToSiAS => nrel_year_publication: 1994;;
+
+publication_Stepanova_M_D_1994_ProbloUToSiAS => nrel_information_publication: Review_of_Applied_and_Industrial_Mathematics_vol1_no2;;
+
+publication_Stepanova_M_D_1994_ProbloUToSiAS => nrel_number_page: ..1994_ProbloUToSiAS(*
+-> rrel_from : 331;;
+-> rrel_by : 340;;
+*);;
+
+

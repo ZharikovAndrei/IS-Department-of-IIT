@@ -1,0 +1,21 @@
+publication_Grakova_N_V_2015_LogicFoIS=> nrel_main_idtf:
+[Гракова Н.В. 2015 - ЛогичОИС]
+	(*
+	<- lang_ru;;
+	*);
+	[Grakova_N_V_2015_LogicFoIS] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Grakova_N_V_2015_LogicFoIS => nrel_name_publication:[Логические основы интеллектуальных систем : пособие](*<- lang_ru;;*);;
+
+publication_Grakova_N_V_2015_LogicFoIS <= nrel_author:
+Grakova_N_V;Golenkov_V_V;Davydenko_I_T;Gulyakina_N_A;Zhukov_I_I;Shunkevich_D_V;;
+
+publication_Grakova_N_V_2015_LogicFoIS <- tutorial;;
+
+publication_Grakova_N_V_2015_LogicFoIS => nrel_reference_standard: [Логические основы интеллектуальных систем : пособие / Н.В. Гракова и др. – Минск : БГУИР, 2015. – 63 с. ];;
+publication_Grakova_N_V_2015_LogicFoIS=>nrel_count_page:63;;
+publication_Grakova_N_V_2015_LogicFoIS => nrel_year_publication: 2015;;
+

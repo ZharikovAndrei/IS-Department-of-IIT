@@ -1,0 +1,32 @@
+project_ISS_geometry
+      => nrel_main_idtf:[Интеллектуальная справочная система по геометрии] (* <-lang_ru;; *);
+      => nrel_main_idtf:[Intelligent reference geometry system] (* <-lang_en;; *);
+      => nrel_synonymy:[14e/геом];;	  
+
+project_ISS_geometry => nrel_project_leader: Davydenko_I_T;;
+project_ISS_geometry => nrel_performers: 
+Boriskin_A_S;
+Sadovskii_M_E;       
+Dubina_E_A;
+Los_P_N;
+Trunc_V_V;      
+Voitixovskii_P_D; 
+Logvinovich_M_N; 
+Sinelnikov_P_M;
+Stelmachenok_M_O;  
+Mezhen_A_L;
+Safonenko_K_A; 
+Shulga_A_U;
+Volah_D_Y;
+Skorohod_A_A;
+Golubeva_E_V;
+Mikhalkov_A_V;
+Pashkevich_V_V;
+Grib_Y_V;;
+project_ISS_geometry -> rrel_responsible_executor: Dubina_E_A;;
+project_ISS_geometry => nrel_reports: report_ISS; report_IS_individual_learning;;
+
+//  project_ISS_geometry => nrel_main_students: ;;
+//  project_ISS_geometry=> nrel_sections_KB_IMS: ;;
+//  project_ISS_geometry=> nrel_reports_OSTIS2017: ;;
+//  project_ISS_geometry=> nrel_related_projects: ;;

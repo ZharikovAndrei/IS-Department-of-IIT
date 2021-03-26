@@ -1,0 +1,30 @@
+publication_Grakova_N_V_2015_IntegAtSDMKBoCL=> nrel_main_idtf:
+[Гракова Н.В. 2015 - КомплПкПСУЗнОБК]
+	(*
+	<- lang_ru;;
+	*);
+	[Grakova_N_V_2015_IntegAtSDMKBoCL] 
+	(*
+	<- lang_en;;
+	*);;
+
+publication_Grakova_N_V_2015_IntegAtSDMKBoCL => nrel_name_publication:[Комплексный подход к проектированию систем, управляемых знаниями, на основе библиотек компонентов](*
+	<- lang_ru;;
+	*);;
+
+publication_Grakova_N_V_2015_IntegAtSDMKBoCL <= nrel_author:
+Grakova_N_V;Hubarevich_A_V;Davydenko_I_T;Koronchik_D_N;Shunkevich_D_V;;
+
+publication_Grakova_N_V_2015_IntegAtSDMKBoCL <- article;;
+
+publication_Grakova_N_V_2015_IntegAtSDMKBoCL => nrel_reference_standard: [Гракова, Н.В. Комплексный подход к проектированию систем, управляемых знаниями, на основе библиотек компонентов / Н.В. Гракова, А.В. Губаревич, И.Т. Давыденко, Д.Н. Корончик, Д.В. Шункевич // Научно-практический журнал для специалистов «Электроника инфо». – Минск, 2015. – с. 37-42   ];;
+
+publication_Grakova_N_V_2015_IntegAtSDMKBoCL => nrel_year_publication: 2015;;
+
+publication_Grakova_N_V_2015_IntegAtSDMKBoCL => nrel_information_publication: magazine_Electronics_INFO;;
+
+publication_Grakova_N_V_2015_IntegAtSDMKBoCL => nrel_number_page: ..2015_IntegAtSDMKBoCL (*
+-> rrel_from : 37;;
+-> rrel_by : 42;;
+*);;
+
