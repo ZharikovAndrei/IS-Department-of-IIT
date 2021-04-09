@@ -6,3 +6,4 @@
 
 * Скопировать скрипты из папки components в папку ostis/scripts
 * Сделать ./restart_sctp.sh
+* Удалить всё и скачать OSTIS заново.
