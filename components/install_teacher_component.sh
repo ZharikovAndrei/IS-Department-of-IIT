@@ -58,4 +58,4 @@ append_js $sc_web_path/templates/components.html components/js/teachers_load/bui
 
 cd ../sc-web/scripts
 ./prepare_js.sh
-python build_components.py -i -a
+

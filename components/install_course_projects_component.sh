@@ -61,5 +61,4 @@ append_css $sc_web_path/templates/components.html components/css/course_projects
 cd ../sc-web/scripts
  ./install_deps_ubuntu.sh
 ./prepare_js.sh
-python build_components.py -i -a
 echo -e "\n\n\n ------Installed Student component----- \n\n\n" 

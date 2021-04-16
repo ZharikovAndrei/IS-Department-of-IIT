@@ -1,3 +1,4 @@
+export LD_LIBRARY_PATH=../sc-machine/bin
 echo -e "--------------------------\n\n\n"
 echo "started installing course projects component"
 echo -e "\n\n\n--------------------------"

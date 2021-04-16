@@ -41,7 +41,7 @@ function extend(child, parent) {
 				currentSubjectTypeHours,
 				arcAddrToErase = [];
 			$.ajax({
-				url: "static/components/html/index.html",
+				url: "static/components/html/teachers_index.html",
 				dataType: 'html',
 				success: function (response) {
 					container.append(response);

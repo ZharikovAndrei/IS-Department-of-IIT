@@ -58,4 +58,3 @@ append_js $sc_web_path/templates/components.html components/js/change_user_role/
 
 cd ../sc-web/scripts
 ./prepare_js.sh
-python build_components.py -i -a
