@@ -4,6 +4,7 @@
 
 # Интеграция компонентов в систему
 
-* Скопировать скрипты из папки components в папку ostis/scripts
-* Сделать ./restart_sctp.sh
-* Удалить всё и скачать OSTIS заново.
+* Скопировать только скрипты из папки components в папку ostis-web-platform/scripts
+* Скопировать папку is-department-of-iit в ostis-web-platform/kb
+* Скопировать папку ui_menu в ostis-example-app/kb
+* Сделать ./restart_sctp.sh.
