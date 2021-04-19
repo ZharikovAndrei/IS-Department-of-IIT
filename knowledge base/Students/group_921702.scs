@@ -1,0 +1,29 @@
+group_921702
+=>nrel_main_idtf:
+	[группа 921702] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[group 921702] (* <-lang_en;; *);
+->rrel_head_group:...;
+=>nrel_subdividing : ...(*->subgroup921702_1;;
+			->subgroup921702_2;;*);
+
+->Alekseev_Fedor_Andreevich;
+->Baranov_Aleksandr_Dmitrievich;
+->Belous_Pavel_Aleksandrovich;
+->Borovskaya_Kseniya_Sergeevna;
+->Vernikovskaya_Anastasiya_Viktorovna;
+->Vlasuk_Dmitriy_Vladimirovich;
+->Vorontsov_Aleksandr_Dmitrievich;
+->Gnuda_Ilya_Sergeevich;
+->Gordienko_Vyacheslav_Aleksandrovich;
+->Zavatski_Konstantin_Anatolevich;
+->Kozel_Anatoliy_Sergeevich;
+->Kuramshina_Margarita_Sergeevna;
+->Medvedeva_Mariya_Sergeevna;
+->Meleshko_Alexey_Sergeevich;
+->Nastochkin_Ilya_Sergeevich;
+->Ohlopkov_Daniil_Aleksandrovich;
+->Serdov_Andrey_Sergeevich;
+->Surinovich_Anton_Aleksandrovich;
+->Tochkar_Alisa_Aleksandrovna;
+->Shevchuk_Andrey_Vadimovich;;
