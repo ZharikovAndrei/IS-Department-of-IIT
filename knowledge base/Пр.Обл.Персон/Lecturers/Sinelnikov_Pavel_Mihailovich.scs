@@ -1,0 +1,32 @@
+Sinelnikov_P_M
+=>nrel_main_idtf:
+[Синельников П.М.](*<-lang_ru;;*);
+=>nrel_idtf:
+[Синельников Павел Михайлович](*<-lang_ru;;*);
+ <-person;
+=>nrel_idtf:
+[Sinelnikov Pavel](*<-lang_en;;*);;
+
+Sinelnikov_P_M -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+ [+375 17 293-85-33];;*)
+   ;;*)
+ ;;
+Sinelnikov_P_M -> rrel_work_place: aud_609_5;;
+Sinelnikov_P_M -> rrel_email:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+ [...](*<-lang_en;;*)
+   ;;*)
+   ;;*)
+   ;;
+
+Sinelnikov_P_M => nrel_fields_of_scientific_research:
+	[Средства обеспечения информационной безопасности и защиты баз знаний ostis – систем];;
+
+Sinelnikov_P_M => nrel_can_teach_subject:ppvis;;
+Sinelnikov_P_M <- teacher;;
+Sinelnikov_P_M=>nrel_rate:1;;
+Sinelnikov_P_M=>nrel_load:0;;
+0<=nrel_sum_of_numbers:...;;

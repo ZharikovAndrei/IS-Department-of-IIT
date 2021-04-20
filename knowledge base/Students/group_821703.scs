@@ -1,0 +1,38 @@
+group_821703
+=>nrel_main_idtf:
+	[группа 821703] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[group 821703] (* <-lang_en;; *);
+->rrel_head_group:...;
+=>nrel_subdividing : ...(*->subgroup821703_1;;
+			->subgroup821703_2;;*);
+
+->Andreev_Gleb_Sergeevich;
+->Bantsevich_Kseniya_Andreevna;
+->Bogurov_Nikita_Egorovich;
+->Ventskute_Viktoriya_Aleksandrovna;
+->Verenich_Kirill_Olegovich;
+->Vladimirskiy_Nikolay_Viktorovich;
+->Dmitruk_Alexey_Aleksandrovich;
+->Dudnitskiy_Vladislav_Olegovich;
+->Kinevich_Timofey_Olegovich;
+->Kovel_Elisaveta_Petrovna;
+->Koktyshev_Ivan_Denisovich;
+->Latysh_Maksim_Alekseevich;
+->Lesnichenko_Nikita_Aleksandrovich;
+->Lihach_Ruslan_Andreevich;
+->Malenchik_Kirill_Andreevich;
+->Mankevich_Oleg_Aleksandrovich;
+->Markovets_Viktor_Sergeevich;
+->Morozov_Aleksandr_Yuorevich;
+->Nikadon_Vadim_Aleksandrovich;
+->Novitskiy_Robert_Dmitrievich;
+->Oleshkevich_Aleksandra_Sergeevna;
+->Puzikov_Nikita_Aleksandrovich;
+->Sapezhinskiy_Evgeniy_Vyacheslavovich;
+->Stasko_Valeriya_Sergeevna;
+->Filippov_Nikita_Yuorevich;
+->Sheleg_Nikita_Vladimirovich;
+->Shkut_Roman_Vladimirovich;
+->Schur_Anton_Aleksandrovich;
+->Yasucheya_Diana_Sergeevna;;

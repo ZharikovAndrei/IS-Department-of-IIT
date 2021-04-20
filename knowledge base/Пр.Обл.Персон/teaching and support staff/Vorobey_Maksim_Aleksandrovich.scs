@@ -1,0 +1,24 @@
+Vorobey_Maksim_Aleksandrovich
+=>nrel_main_idtf:
+[Воробей М.А.](*<-lang_ru;;*);
+<-person;
+=>nrel_idtf:
+[Vorobey Maksim](*<-lang_en;;*);
+[Воробей Максим Александрович](*<-lang_ru;;*);;
+
+Vorobey_Maksim_Aleksandrovich -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+ [+375 17 293-80-92];;*)
+   ;;*)
+   ;;
+Vorobey_Maksim_Aleksandrovich -> rrel_work_place: aud_606_5;;
+Vorobey_Maksim_Aleksandrovich => nrel_rate:1;;
+
+//<-rrel_teacher:
+//	...
+//	(*
+//		->rrel_realisation_of_learning_activity:  consultation;;
+  // 		 <-taught_subject;;
+//		->nrel_taught_subject: manufacturing_practice;;
+//	*);;

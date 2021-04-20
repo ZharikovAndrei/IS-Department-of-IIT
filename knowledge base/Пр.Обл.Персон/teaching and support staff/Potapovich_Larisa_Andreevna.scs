@@ -1,0 +1,16 @@
+Potapovich_Larisa_Andreevna
+=>nrel_main_idtf:
+[Потапович Л.А.](*<-lang_ru;;*);
+<-person;
+=>nrel_idtf:
+[Potapovich Larisa](*<-lang_en;;*);
+[Потапович Лариса Андреевна](*<-lang_ru;;*);;
+
+Potapovich_Larisa_Andreevna -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+ [+375 17 293-80-92];;*)
+   ;;*)
+   ;;
+Potapovich_Larisa_Andreevna -> rrel_work_place: aud_606_5;;
+Potapovich_Larisa_Andreevna => nrel_rate:1;;

@@ -1,0 +1,32 @@
+Krachkovskiy_D_Y
+=>nrel_main_idtf:
+[Крачковский Д.Я.](*<-lang_ru;;*);
+=>nrel_idtf:
+[Крачковский Даниил Янович](*<-lang_ru;;*);
+ <-person;
+=>nrel_idtf:
+[Krachkovskiy Daniil](*<-lang_en;;*);;
+
+Krachkovskiy_D_Y -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+ [+375 17 293-85-33];;*)
+   ;;*)
+ ;;
+Krachkovskiy_D_Y -> rrel_work_place: aud_609_5;;
+Krachkovskiy_D_Y -> rrel_email:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+ [...](*<-lang_en;;*)
+   ;;*)
+   ;;*)
+   ;;
+
+Krachkovskiy_D_Y => nrel_fields_of_scientific_research:
+	[Средства обеспечения информационной безопасности и защиты баз знаний ostis – систем];;
+
+Krachkovskiy_D_Y => nrel_can_teach_subject:ppvis;;
+Krachkovskiy_D_Y <- teacher;;
+Krachkovskiy_D_Y=>nrel_rate:1;;
+Krachkovskiy_D_Y=>nrel_load:0;;
+0<=nrel_sum_of_numbers:...;;

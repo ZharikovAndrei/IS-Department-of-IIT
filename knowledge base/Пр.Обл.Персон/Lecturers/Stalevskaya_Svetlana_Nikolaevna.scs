@@ -1,0 +1,32 @@
+Stalevskaya_S_N
+=>nrel_main_idtf:
+[Сталевская С.Н.](*<-lang_ru;;*);
+=>nrel_idtf:
+[Сталевская Светлана Николаевна](*<-lang_ru;;*);
+ <-person;
+=>nrel_idtf:
+[Stalevskaya Svetlana](*<-lang_en;;*);;
+
+Stalevskaya_S_N -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+ [+375 17 293-89-23];;*)
+   ;;*)
+ ;;
+Stalevskaya_S_N -> rrel_work_place: aud_610_5;;
+Stalevskaya_S_N -> rrel_email:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+ [stalev@tut.by](*<-lang_en;;*)
+   ;;*)
+   ;;*)
+   ;;
+
+Stalevskaya_S_N => nrel_fields_of_scientific_research:
+	[Методы машинного обучения, интеллектуальный анализ данных, многомерный статистический анализ, робастная статистика, эконометрика, финтех];;
+
+Stalevskaya_S_N => nrel_can_teach_subject:agd;statoiv;;
+Stalevskaya_S_N <- teacher;;
+Stalevskaya_S_N=>nrel_rate:1;;
+Stalevskaya_S_N=>nrel_load:0;;
+0<=nrel_sum_of_numbers:...;;

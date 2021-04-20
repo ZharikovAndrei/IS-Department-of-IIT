@@ -1,0 +1,32 @@
+Nikiforov_S_A
+=>nrel_main_idtf:
+[Никифоров С.А.](*<-lang_ru;;*);
+=>nrel_idtf:
+[Никифоров Сергей Александрович](*<-lang_ru;;*);
+ <-person;
+=>nrel_idtf:
+[Nikiforov Sergei](*<-lang_en;;*);;
+
+Nikiforov_S_A -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+ [+375 17 293-85-33];;*)
+   ;;*)
+ ;;
+Nikiforov_S_A -> rrel_work_place: aud_609_5;;
+Nikiforov_S_A -> rrel_email:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+ [nikiforov.sergei.al@gmail.com](*<-lang_en;;*)
+   ;;*)
+   ;;*)
+   ;;
+
+Nikiforov_S_A => nrel_fields_of_scientific_research:
+	[Средства разработки речевых ассистентов];;
+
+Nikiforov_S_A => nrel_can_teach_subject:mois;;
+Nikiforov_S_A <- teacher;;
+Nikiforov_S_A=>nrel_rate:1;;
+Nikiforov_S_A=>nrel_load:0;;
+0<=nrel_sum_of_numbers:...;;

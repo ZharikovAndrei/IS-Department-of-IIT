@@ -23,10 +23,10 @@ Grakova_N_V
 Grakova_N_V -> rrel_work_phone:
  ...(* <= nrel_sc_text_translation:
  ...(* -> rrel_key_sc_element:
- [+375 17 293-85-33];;*)
+ [+375 17 293-85-23];;*)
    ;;*)
    ;;
-Grakova_N_V -> rrel_work_place: aud_609_5;;
+Grakova_N_V -> rrel_work_place: aud_610_5;;
 Grakova_N_V -> rrel_email:
  ...(* <= nrel_sc_text_translation:
  ...(* -> rrel_key_sc_element:
@@ -38,8 +38,8 @@ Grakova_N_V=>nrel_fields_of_scientific_research:
 	[Управление коллективным проектированием интеллектуальных систем];;
 
 nrel_can_teach_subject <- sc_node_norole_relation;
-=>nrel_main_idtf:
-[может преподавать*](*<-lang_ru;;*);;
+=>nrel_main_idtf: 
+ [может преподавать*] (*<-lang_ru;;*);;
 
 Grakova_N_V=>nrel_can_teach_subject:ots;;
 Grakova_N_V=>nrel_rate:1;;

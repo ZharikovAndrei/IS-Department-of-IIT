@@ -33,7 +33,7 @@ Golenkov_V_V -> rrel_work_phone:
  [+375 17 293-23-24];;*)
    ;;*)
    ;;
-Golenkov_V_V -> rrel_work_place: aud_606c_5;;
+Golenkov_V_V -> rrel_work_place: aud_606_5;;
 Golenkov_V_V -> rrel_email:
  ...(* <= nrel_sc_text_translation:
  ...(* -> rrel_key_sc_element:

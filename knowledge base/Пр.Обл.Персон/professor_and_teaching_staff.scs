@@ -15,18 +15,20 @@ professor_and_teaching_staff
 
 
 
+->rrel_professor: Golenkov_V_V;
 
+->rrel_associate_professor:Shunkevich_D_V; Gulyakina_N_A;
+           		 Zakharov_V_V; Ivashenko_V_P; Davydenko_I_T; Serdyukov_R_E; Krapivin_Y_B; Stalevskaya_S_N;
 
-->rrel_associate_professor:Gulyakina_N_A; Kachkov_V_P; Kolb_D_G;
-           		 Stepanova_M_D;Zakharov_V_V; Romanov_V_I ;
+->rrel_senior_lecturer: Samodumkin_S_A; Grakova_N_V;
 
-->rrel_senior_lecturer: Samodumkin_S_A;
+->rrel_assistant: Kaeshko_A_I; Kovalev_M_V; Sadovskiy_M_E; Yuorkov_A_A; Krachkovskiy_D_Y; Orlova_A_S; Sinelnikov_P_M; Nikiforov_S_A; Vityaz_V_S;;
 
-->rrel_assistant:Grakova_N_V; Davydenko_I_T; Ivashenko_V_P;
- 			Shunkevich_D_V; Koronchik_D_N;  Uvarov_K_A; Lucina_Tatyana_Leonidovna;
-  			Zhukov_I_I; Parkalov_A_V; Rusetsky_K_V ;;
+sc_node_role_relation->rrel_head_of_department;rrel_professor;rrel_associate_professor;rrel_senior_lecturer;rrel_assistant;;
 
-sc_node_role_relation->rrel_head_of_department;rrel_associate_professor;rrel_senior_lecturer;rrel_assistant;;
+rrel_professor
+=>nrel_main_idtf:
+	[Профессор'] (* <-lang_ru;; *);;
 
 rrel_associate_professor
 =>nrel_main_idtf:

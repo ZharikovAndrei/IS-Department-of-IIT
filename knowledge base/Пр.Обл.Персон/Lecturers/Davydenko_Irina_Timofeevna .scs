@@ -24,10 +24,10 @@ Davydenko_I_T
 Davydenko_I_T -> rrel_work_phone:
  ...(* <= nrel_sc_text_translation:
  ...(* -> rrel_key_sc_element:
- [+375 17 293-89-33];;*)
+ [+375 17 293-89-23];;*)
    ;;*)
    ;;
-Davydenko_I_T -> rrel_work_place: aud_609_5;;
+Davydenko_I_T -> rrel_work_place: aud_610_5;;
 Davydenko_I_T -> rrel_email:
  ...(* <= nrel_sc_text_translation:
  ...(* -> rrel_key_sc_element:

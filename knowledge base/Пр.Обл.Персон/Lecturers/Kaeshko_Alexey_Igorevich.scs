@@ -1,0 +1,32 @@
+Kaeshko_A_I
+=>nrel_main_idtf:
+[Каешко А.И.](*<-lang_ru;;*);
+=>nrel_idtf:
+[Каешко Алексей Игоревич](*<-lang_ru;;*);
+ <-person;
+=>nrel_idtf:
+[Kaeshko Alexey](*<-lang_en;;*);;
+
+Kaeshko_A_I -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+ [+375 17 293-85-33];;*)
+   ;;*)
+ ;;
+Kaeshko_A_I -> rrel_work_place: aud_609_5;;
+Kaeshko_A_I -> rrel_email:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+ [ondister@gmail.com](*<-lang_en;;*)
+   ;;*)
+   ;;*)
+   ;;
+
+Kaeshko_A_I => nrel_fields_of_scientific_research:
+	[Интеллектуальные информационные технологии в медицине];;
+
+Kaeshko_A_I => nrel_can_teach_subject:ppvis;;
+Kaeshko_A_I <- teacher;;
+Kaeshko_A_I=>nrel_rate:1;;
+Kaeshko_A_I=>nrel_load:0;;
+0<=nrel_sum_of_numbers:...;;

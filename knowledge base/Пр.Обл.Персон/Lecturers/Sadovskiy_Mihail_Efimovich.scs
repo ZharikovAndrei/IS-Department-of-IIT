@@ -1,0 +1,32 @@
+Sadovskiy_M_E
+=>nrel_main_idtf:
+[Садовский М.](*<-lang_ru;;*);
+=>nrel_idtf:
+[Садовский Михаил Ефимович](*<-lang_ru;;*);
+ <-person;
+=>nrel_idtf:
+[Sadovskiy Mihail](*<-lang_en;;*);;
+
+Sadovskiy_M_E -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+ [+375 17 293-85-33];;*)
+   ;;*)
+ ;;
+Sadovskiy_M_E -> rrel_work_place: aud_609_5;;
+Sadovskiy_M_E -> rrel_email:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+ [sadovski@bsuir.by](*<-lang_en;;*)
+   ;;*)
+   ;;*)
+   ;;
+
+Sadovskiy_M_E => nrel_fields_of_scientific_research:
+	[Мультимодальный пользовательский интерфейс];;
+
+Sadovskiy_M_E => nrel_can_teach_subject:ppvis;;
+Sadovskiy_M_E <- teacher;;
+Sadovskiy_M_E=>nrel_rate:1;;
+Sadovskiy_M_E=>nrel_load:0;;
+0<=nrel_sum_of_numbers:...;;

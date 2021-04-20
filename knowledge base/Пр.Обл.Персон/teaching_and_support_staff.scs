@@ -14,9 +14,9 @@ teaching_and_support_staff
 	*);
 
 
-->rrel_engineer:Lucina_Tatyana_Leonidovna;
+->rrel_specialist:Potapovich_Larisa_Andreevna;
+->rrel_specialist:Ladnyh_Elena_Aleksandrovna;
 ->rrel_head_of_the_learning_lab:Paller_Boris_Yakovlevich;
-->rrel_tester:Hubarevich_A_V;
-->rrel_software_engineer:Rusetsky_K_V;;
+->rrel_engineer:Vorobey_Maksim_Aleksandrovich;;
 
-sc_node_role_relation->rrel_engineer;rrel_head_of_the_learning_lab;rrel_tester;rrel_software_engineer;;
+sc_node_role_relation->rrel_engineer;rrel_head_of_the_learning_lab;rrel_specialist;;

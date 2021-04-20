@@ -25,14 +25,14 @@ Shunkevich_D_V
 Shunkevich_D_V -> rrel_work_phone:
  ...(* <= nrel_sc_text_translation:
  ...(* -> rrel_key_sc_element:
- [+375 17 293-85-33];;*)
+ [+375 17 293-85-33];[+375 17 293-23-24];;*)
    ;;*)
    ;;
 Shunkevich_D_V -> rrel_work_place: aud_609_5;;
 Shunkevich_D_V -> rrel_email:
  ...(* <= nrel_sc_text_translation:
  ...(* -> rrel_key_sc_element:
- [shunkevichdv@gmail.com](*<-lang_en;;*)
+ [shunkevichdv@bsuir.by](*<-lang_en;;*)
    ;;*)
    ;;*)
    ;;
@@ -40,7 +40,7 @@ Shunkevich_D_V -> rrel_email:
 Shunkevich_D_V=>nrel_fields_of_scientific_research:
 	[Машины обработки знаний интеллектуальных систем];
 	[Интеллектуальные решатели задач];;
-Shunkevich_D_V => nrel_can_teach_subject:ppvis;tiit;lois;;
+Shunkevich_D_V => nrel_can_teach_subject:ppvis;tiit;lois;mois;;
 Shunkevich_D_V <- teacher;;
 Shunkevich_D_V=>nrel_rate:1;;
 

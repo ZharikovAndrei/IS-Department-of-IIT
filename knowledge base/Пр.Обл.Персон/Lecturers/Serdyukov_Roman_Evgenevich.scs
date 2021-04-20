@@ -1,0 +1,32 @@
+Serdyukov_R_E
+=>nrel_main_idtf:
+[Сердюков Р.Е.](*<-lang_ru;;*);
+=>nrel_idtf:
+[Сердюков Роман Евгеньевич](*<-lang_ru;;*);
+ <-person;
+=>nrel_idtf:
+[Serdyukov Roman](*<-lang_en;;*);;
+
+Serdyukov_R_E -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+ [+375 17 293-89-23];;*)
+   ;;*)
+ ;;
+Serdyukov_R_E -> rrel_work_place: aud_610_5;;
+Serdyukov_R_E -> rrel_email:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+ [serdyukov@bsuir.by](*<-lang_en;;*)
+   ;;*)
+   ;;*)
+   ;;
+
+Serdyukov_R_E => nrel_fields_of_scientific_research:
+	[Архитектура программных систем, в частности компьютерных игр];[Представление и обработка программ];;
+
+Serdyukov_R_E => nrel_can_teach_subject:ppvis;;
+Serdyukov_R_E <- teacher;;
+Serdyukov_R_E=>nrel_rate:1;;
+Serdyukov_R_E=>nrel_load:0;;
+0<=nrel_sum_of_numbers:...;;

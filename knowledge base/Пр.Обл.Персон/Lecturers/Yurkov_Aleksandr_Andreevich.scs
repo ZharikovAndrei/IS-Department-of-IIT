@@ -1,0 +1,32 @@
+Yurkov_A_A
+=>nrel_main_idtf:
+[Юрков А.А.](*<-lang_ru;;*);
+=>nrel_idtf:
+[Юрков Александр Андреевич](*<-lang_ru;;*);
+ <-person;
+=>nrel_idtf:
+[Yurkov Aleksandr](*<-lang_en;;*);;
+
+Yurkov_A_A -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+ [+375 17 293-85-33];;*)
+   ;;*)
+ ;;
+Yurkov_A_A -> rrel_work_place: aud_609_5;;
+Yurkov_A_A -> rrel_email:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+ [zioba1404@gmail.com](*<-lang_en;;*)
+   ;;*)
+   ;;*)
+   ;;
+
+Yurkov_A_A => nrel_fields_of_scientific_research:
+	[Мониторинг и планирование устранения неполадок в рамках корпоративной сети предприятия];;
+
+Yurkov_A_A => nrel_can_teach_subject:tiit;;
+Yurkov_A_A <- teacher;;
+Yurkov_A_A=>nrel_rate:1;;
+Yurkov_A_A=>nrel_load:0;;
+0<=nrel_sum_of_numbers:...;;
