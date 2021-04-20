@@ -4,7 +4,7 @@ Zakharov_V_V
  <-person;
 =>nrel_idtf:
 [Zakharov Vladimir](*<-lang_en;;*);
-[Захаров Владимир Владимирович](*<-lang_en;;*);;
+[Захаров Владимир Владимирович](*<-lang_en;;*);
 <- rrel_key_sc_element:
         ...
         (*
