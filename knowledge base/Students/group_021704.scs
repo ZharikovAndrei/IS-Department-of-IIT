@@ -1,0 +1,36 @@
+group_021703
+=>nrel_main_idtf:
+	[группа 021703] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[group 021703] (* <-lang_en;; *);
+->rrel_head_group:...;
+=>nrel_subdividing : ...(*->subgroup021703_1;;
+			->subgroup021703_2;;*);
+			
+->Vasilenok_Anna_Aleksandrovna;
+->Vinokurov_Dmitriy_Aleksandrovich;
+->Golyanitskiy_Vladislav_Aleksandrovich;
+->Gushchik_Nikita_Yurievich;
+->Dubrovskaya_Irina_Dmitrievna;
+->Kavkov_Maksim_Andreevich;
+->Kasperovich_Vladislav_Gennadievich;
+->Korsak_Ivan_Andreevich;
+->Krachkovskiy_Andrey_Aleksandrovich;
+->Laptev_Kirill_Dmitrievich;
+->Latyshev_Arseniy_Timofeevich;
+->Manko_Aleksandr_Sergeevich;
+->Mikhaleva_Aleksandra_Artemovna;
+->Nasevich_Pavel_Evgenievich;
+->Nemtseva_Daria_Sergeevna;
+->Petrochuk_Ksenia_Dmitrievna;
+->Prigodich_Evgeniy_Igorevich;
+->Protas_Semen_Aleksandrovich;
+->Rudman_Ivan_Olegovich;
+->Safaryan_Kirill_Karenovich;
+->Seledtsov_Evgeniy_Dmitrievich;
+->Starostin_Pavel_Gennadievich;
+->Stepanov_Nikita_Yurievich;
+->Tonoyan_Mishel_Samvelovna;
+->Kharlan_Anton_Nikolaevich;
+->Khoroshavin_Vasiliy_Denisovich;
+->Shcherbakova_Daria_Yurievna;;

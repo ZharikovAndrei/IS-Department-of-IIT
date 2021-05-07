@@ -1,0 +1,38 @@
+group_021701
+=>nrel_main_idtf:
+	[группа 021701] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[group 021701] (* <-lang_en;; *);
+	->rrel_head_group:...;
+=>nrel_subdividing : ...(*->subgroup021701_1;;
+			->subgroup021701_2;;*);
+	
+->Volkov_Ivan_Igorevich;
+->Degtereva_Anastasia_Aleksandrovna;
+->Dudkov_Danila_Vasilievich;
+->Diatel_Valeria_Valerievna;
+->Diatel_Kirill_Dmitrievich;
+->Ilyuk_Evgeniy_Igorevich;
+->Karachun_Ivan_Vadimovich;
+->Karpenko_Lilia_Aleksandrovna;
+->Kovalevich_Anna_Dmitrievna;
+->Krasotskiy_Maksim_Denisovich;
+->Kulikovskiy_Evgeniy_Yuzefovich;
+->Kurdesov_Vadim_Aleksandrovich;
+->Linkevich_Aleksandr_Vasilievich;
+->Lisovskiy_Ivan_Olegovich;
+->Loktionov_Vadim_Arturovich;
+->Malaev_Andrey_Andreevich;
+->Osenenko_German_Dmitrievich;
+->Pishch_Daniil_Ivanovich;
+->Rasolko_Savva_Sergeevich;
+->Rassafonov_Sergey_Dmitrievich;
+->Savinskaya_Ekaterina_Sergeevna;
+->Sedenevskiy_Antoniy_Mechislavovich;
+->Soldatenkov_Egor_Dmitrievich;
+->Stepanova_Taisia_Olegovna;
+->Shaikovskiy_Evgeniy_Nikolaevich;
+->Shchetko_Andrey_Pavlovich;
+->Yurchik_Egor_Igorevich;
+->Yakubovich_Nikita_Igorevich;
+->Yatskova_Veronika_Valerievna;;
