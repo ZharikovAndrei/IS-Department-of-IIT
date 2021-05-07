@@ -1,0 +1,37 @@
+group_021702
+=>nrel_main_idtf:
+	[группа 021702] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[group 021702] (* <-lang_en;; *);
+->rrel_head_group:...;
+=>nrel_subdividing : ...(*->subgroup021702_1;;
+			->subgroup021702_2;;*);
+
+->Belik_Sergey_Aleksandrovich;
+->Vinogradova_Polina_Sergeevna;
+->Voyshnis_Maya_Aleksandrovna;
+->Dvoretskiy_Arseniy_Sergeevich;
+->Dyubailo_Matvey_Andreevich;
+->Karpov_Kuzma_Viktorovich;
+->Konovalov_Timofey_Gennadievich;
+->Kosar_Anastasia_Sergeevna;
+->Kuptsov_Daniil_Vladislavovich;
+->Leleko_Nikita_Andreevich;
+->Lemeshevskiy_Nikita_Aleksandrovich;
+->Leshko_Pavel_Sergeevich;
+->Litvinovich_Daniil_Sergeevich;
+->Loktev_Konstantin_Alekseevich;
+->Lomonos_Ivan_Nikolaevich;
+->Mazur_Grabovskiy_Evgeniy_Dmitrievich;
+->Makarevich_Karina_Sergeevna;
+->Matusevich_Rodion_Denisovich;
+->Makhnach_Ilya_Aleksandrovich;
+->Mokhammadi_Ariana;
+->Petrov_Andrey_Ivanovich;
+->Petsukevich_Andrey_Andreevich;
+->Platonov_Aleksandr_Vladimirovich;
+->Rebo_Aleksandra_Lvovna;
+->Romanovskiy_Nikolay_Dmitrievich;
+->Sviridova_Maria_Olegovna;
+->Skripko_Egor_Olegovich;
+->Filippov_Aleksandr_Alekseevich;;

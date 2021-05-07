@@ -1,0 +1,188 @@
+72170x
+=>nrel_main_idtf:
+	[поток 72170х] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[72170x] (* <-lang_en;; *);;
+
+Ageenko_Margarita_Valentinovna <- student; <-person; <-ui_user;;
+Ageenko_Margarita_Valentinovna => nrel_main_idtf:[Агеенко Маргарита Валентиновна] (* <-lang_ru;; *);;
+
+Vasilevskaya_Daria_Andreevna  <- student; <-person; <-ui_user;;
+Vasilevskaya_Daria_Andreevna => nrel_main_idtf:[Василевская Дарья Андреевна] (* <-lang_ru;; *);;
+
+Veremeychik_Nikita_Dmitrievich <- student; <-person; <-ui_user;;
+Veremeychik_Nikita_Dmitrievich => nrel_main_idtf:[Веремейчик Никита Дмитриевич] (* <-lang_ru;; *);;
+
+Dvornichenko_Aleksey_Aleksandrovich <- student; <-person; <-ui_user;;
+Dvornichenko_Aleksey_Aleksandrovich => nrel_main_idtf:[Дворниченко Алексей Александрович] (* <-lang_ru;; *);;
+
+Dobrovolskiy_Oleg_Dmitrievich <- student; <-person; <-ui_user;;
+Dobrovolskiy_Oleg_Dmitrievich => nrel_main_idtf:[Добровольский Олег Дмитриевич] (* <-lang_ru;; *);;
+
+Dubrovskaya_Alisa_Mikhailovna <- student; <-person; <-ui_user;;
+Dubrovskaya_Alisa_Mikhailovna => nrel_main_idtf:[Дубровская Алиса Михайловна] (* <-lang_ru;; *);;
+
+Zhak_Viktoria_Valerievna <- student; <-person; <-ui_user;;
+Zhak_Viktoria_Valerievna => nrel_main_idtf:[Жак Виктория Валерьевна] (* <-lang_ru;; *);;
+
+Katsubo_Vadim_Eduardovich <- student; <-person; <-ui_user;;
+Katsubo_Vadim_Eduardovich => nrel_main_idtf:[Кацубо Вадим Эдуардович] (* <-lang_ru;; *);;
+
+Kovalenko_Aleksey_Vasilievich <- student; <-person; <-ui_user;;
+Kovalenko_Aleksey_Vasilievich => nrel_main_idtf:[Коваленко Алексей Васильевич] (* <-lang_ru;; *);;
+
+Kozeletskiy_Vladislav_Gennadievich <- student; <-person; <-ui_user;;
+Kozeletskiy_Vladislav_Gennadievich => nrel_main_idtf:[Козелецкий Владислав Геннадьевич] (* <-lang_ru;; *);;
+
+Kostyanaya_Yulia_Khamidovna <- student; <-person; <-ui_user;;
+Kostyanaya_Yulia_Khamidovna => nrel_main_idtf:[Костяная Юлия Хамидовна] (* <-lang_ru;; *);;
+
+Kuzmich_Yulia_Sergeevna <- student; <-person; <-ui_user;;
+Kuzmich_Yulia_Sergeevna => nrel_main_idtf:[Кузьмич Юлия Сергеевна] (* <-lang_ru;; *);;
+
+Los_Pavel_Viktorovich <- student; <-person; <-ui_user;;
+Los_Pavel_Viktorovich => nrel_main_idtf:[Лось Павел Викторович] (* <-lang_ru;; *);;
+
+Luzgin_Artur_Petrovich <- student; <-person; <-ui_user;;
+Luzgin_Artur_Petrovich => nrel_main_idtf:[Лузгин Артур Петрович] (* <-lang_ru;; *);;
+
+Maskaleva_Maria_Alekseevna <- student; <-person; <-ui_user;;
+Maskaleva_Maria_Alekseevna => nrel_main_idtf:[Маскалева Мария Алексеевна] (* <-lang_ru;; *);;
+
+Medvedev_Aleksandr_Olegovich <- student; <-person; <-ui_user;;
+Medvedev_Aleksandr_Olegovich => nrel_main_idtf:[Медведев Александр Олегович] (* <-lang_ru;; *);;
+
+Moskovkin_Vladislav_Valerievich <- student; <-person; <-ui_user;;
+Moskovkin_Vladislav_Valerievich => nrel_main_idtf:[Московкин Владислав Валерьевич] (* <-lang_ru;; *);;
+
+Pogudo_Tatiana_Sergeevna <- student; <-person; <-ui_user;;
+Pogudo_Tatiana_Sergeevna => nrel_main_idtf:[Погудо Татьяна Сергеевна] (* <-lang_ru;; *);;
+
+Podvorniy_Anton_Igorevich <- student; <-person; <-ui_user;;
+Podvorniy_Anton_Igorevich => nrel_main_idtf:[Подворный Антон Игоревич] (* <-lang_ru;; *);;
+
+Politykin_Denis_Olegovich <- student; <-person; <-ui_user;;
+Politykin_Denis_Olegovich => nrel_main_idtf:[Политыкин Денис Олегович] (* <-lang_ru;; *);;
+
+Sazanchuk_Diana_Aleksandrovna <- student; <-person; <-ui_user;;
+Sazanchuk_Diana_Aleksandrovna => nrel_main_idtf:[Сазанчук Диана Александровна] (* <-lang_ru;; *);;
+
+Saley_Pavel_Mikhailovich <- student; <-person; <-ui_user;;
+Saley_Pavel_Mikhailovich => nrel_main_idtf:[Салей Павел Михайлович] (* <-lang_ru;; *);;
+
+Semenikhin_Nikita_Sergeevich <- student; <-person; <-ui_user;;
+Semenikhin_Nikita_Sergeevich => nrel_main_idtf:[Семенихин Никита Сергеевич] (* <-lang_ru;; *);;
+
+Stoma_Kirill_Aleksandrovich <- student; <-person; <-ui_user;;
+Stoma_Kirill_Aleksandrovich => nrel_main_idtf:[Стома Кирилл Александрович] (* <-lang_ru;; *);;
+
+Strizhich_Anzhelika_Olegovna <- student; <-person; <-ui_user;;
+Strizhich_Anzhelika_Olegovna => nrel_main_idtf:[Стрижич Анжелика Олеговна] (* <-lang_ru;; *);;
+
+Frolov_Aleksandr_Vasilievich <- student; <-person; <-ui_user;;
+Frolov_Aleksandr_Vasilievich => nrel_main_idtf:[Фролов Александр Васильевич] (* <-lang_ru;; *);;
+
+Shamruk_Evgeniy_Valerievich <- student; <-person; <-ui_user;;
+Shamruk_Evgeniy_Valerievich => nrel_main_idtf:[Шамрук Евгений Валерьевич] (* <-lang_ru;; *);;
+
+Yakovenko_Dmitriy_Vladimirovich <- student; <-person; <-ui_user;;
+Yakovenko_Dmitriy_Vladimirovich => nrel_main_idtf:[Яковенко Дмитрий Владимирович] (* <-lang_ru;; *);;
+
+Yanchuk_Igor_Yurievich <- student; <-person; <-ui_user;;
+Yanchuk_Igor_Yurievich => nrel_main_idtf:[Янчук Игорь Юрьевич] (* <-lang_ru;; *);;
+
+Yatsenko_Yaroslav_Sergeevich <- student; <-person; <-ui_user;;
+Yatsenko_Yaroslav_Sergeevich => nrel_main_idtf:[Яценко Ярослав Сергеевич] (* <-lang_ru;; *);;
+
+Akulich_Tatiana_Borisovna <- student; <-person; <-ui_user;;
+Akulich_Tatiana_Borisovna => nrel_main_idtf:[Акулич Татьяна Борисовна] (* <-lang_ru;; *);;
+
+Antsypovich_Pavel_Valentinovich <- student; <-person; <-ui_user;;
+Antsypovich_Pavel_Valentinovich => nrel_main_idtf:[Анципович Павел Валентинович] (* <-lang_ru;; *);;
+
+Altamirano_Altamirano_Stiven_Davidovich <- student; <-person; <-ui_user;;
+Altamirano_Altamirano_Stiven_Davidovich => nrel_main_idtf:[Альтамирано Альтамирано Стивен Давидович] (* <-lang_ru;; *);;
+
+Akhramenko_Maria_Georgievna <- student; <-person; <-ui_user;;
+Akhramenko_Maria_Georgievna => nrel_main_idtf:[Ахраменко Мария Георгиевна] (* <-lang_ru;; *);;
+
+Baglay_Maria_Vladimirovna <- student; <-person; <-ui_user;;
+Baglay_Maria_Vladimirovna => nrel_main_idtf:[Баглай Мария Владимировна] (* <-lang_ru;; *);;
+
+Baskakov_Maksim_Aleksandrovich <- student; <-person; <-ui_user;;
+Baskakov_Maksim_Aleksandrovich => nrel_main_idtf:[Баскаков Максим Александрович] (* <-lang_ru;; *);;
+
+Basnina_Anastasia_Pavlovna <- student; <-person; <-ui_user;;
+Basnina_Anastasia_Pavlovna => nrel_main_idtf:[Баснина Анастасия Павловна] (* <-lang_ru;; *);;
+
+Vasilevich_Ilya_Aleksandrovich <- student; <-person; <-ui_user;;
+Vasilevich_Ilya_Aleksandrovich => nrel_main_idtf:[Василевич Илья Александрович] (* <-lang_ru;; *);;
+
+Voytekhovskiy_Evgeniy_Sergeevich <- student; <-person; <-ui_user;;
+Voytekhovskiy_Evgeniy_Sergeevich => nrel_main_idtf:[Войтеховский Евгений Сергеевич] (* <-lang_ru;; *);;
+
+Galay_Aleksandra_Dmitrievna <- student; <-person; <-ui_user;;
+Galay_Aleksandra_Dmitrievna => nrel_main_idtf:[Галай Александра Дмитриевна] (* <-lang_ru;; *);;
+
+Goshko_Georgiy_Sergeevich <- student; <-person; <-ui_user;;
+Goshko_Georgiy_Sergeevich => nrel_main_idtf:[Гошко Георгий Сергеевич] (* <-lang_ru;; *);;
+
+Gudkevich_Anna_Viktorovna <- student; <-person; <-ui_user;;
+Gudkevich_Anna_Viktorovna => nrel_main_idtf:[Гудкевич Анна Викторовна] (* <-lang_ru;; *);;
+
+Gurbovich_Artem_Igorevich  <- student; <-person; <-ui_user;;
+Gurbovich_Artem_Igorevich => nrel_main_idtf:[Гурбович Артем Игоревич] (* <-lang_ru;; *);;
+
+Gurinovich_Aleksandr_Aleksandrovich <- student; <-person; <-ui_user;;
+Gurinovich_Aleksandr_Aleksandrovich => nrel_main_idtf:[Гуринович Александр Александрович] (* <-lang_ru;; *);;
+
+Evgrafova_Yulia_Evgenievna <- student; <-person; <-ui_user;;
+Evgrafova_Yulia_Evgenievna => nrel_main_idtf:[Евграфова Юлия Евгеньевна] (* <-lang_ru;; *);;
+
+Zagorskiy_Aleksandr_Grigorievich <- student; <-person; <-ui_user;;
+Zagorskiy_Aleksandr_Grigorievich => nrel_main_idtf:[Загорский Александр Григорьевич] (* <-lang_ru;; *);;
+
+Zalybova_Olga_Aleksandrovna <- student; <-person; <-ui_user;;
+Zalybova_Olga_Aleksandrovna => nrel_main_idtf:[Залюбова Ольга Александровна] (* <-lang_ru;; *);;
+
+Ikbaev_Egor_Andreevich <- student; <-person; <-ui_user;;
+Ikbaev_Egor_Andreevich => nrel_main_idtf:[Икбаев Егор Андреевич] (* <-lang_ru;; *);;
+
+Kalenik_Pavel_Romanovich <- student; <-person; <-ui_user;;
+Kalenik_Pavel_Romanovich => nrel_main_idtf:[Каленик Павел Романович] (* <-lang_ru;; *);;
+
+Komar_Aleksandr_Nazarovich <- student; <-person; <-ui_user;;
+Komar_Aleksandr_Nazarovich => nrel_main_idtf:[Комар Александр Назарович] (* <-lang_ru;; *);;
+
+Kudryavtsev_KIrill_Olegovich <- student; <-person; <-ui_user;;
+Kudryavtsev_KIrill_Olegovich => nrel_main_idtf:[Кудрявцев Кирилл Олегович] (* <-lang_ru;; *);;
+
+Lukashevich_Irina_Aleksandrovna <- student; <-person; <-ui_user;;
+Lukashevich_Irina_Aleksandrovna => nrel_main_idtf:[Лукашевич Ирина Александровна] (* <-lang_ru;; *);;
+
+Lyanchevskiy_Aleksey_Vitalievich <- student; <-person; <-ui_user;;
+Lyanchevskiy_Aleksey_Vitalievich => nrel_main_idtf:[Лянчевский Алексей Витальевич] (* <-lang_ru;; *);;
+
+Pytel_Maksim_Sergeevich <- student; <-person; <-ui_user;;
+Pytel_Maksim_Sergeevich => nrel_main_idtf:[Пытель Максим Сергеевич] (* <-lang_ru;; *);;
+
+Salimova_Yulia_Sergeevna <- student; <-person; <-ui_user;;
+Salimova_Yulia_Sergeevna => nrel_main_idtf:[Салимова Юлия Сергеевна] (* <-lang_ru;; *);;
+
+Smolenskiy_Pavel_Mikhailovich <- student; <-person; <-ui_user;;
+Smolenskiy_Pavel_Mikhailovich => nrel_main_idtf:[Смоленский Павел Михайлович] (* <-lang_ru;; *);;
+
+Suruntovich_Artem_Andreevich <- student; <-person; <-ui_user;;
+Suruntovich_Artem_Andreevich => nrel_main_idtf:[Сурунтович Артём Андреевич] (* <-lang_ru;; *);;
+
+Teslovskiy_Aleksandr_Pavlovich <- student; <-person; <-ui_user;;
+Teslovskiy_Aleksandr_Pavlovich => nrel_main_idtf:[Тесловский Александр Павлович] (* <-lang_ru;; *);;
+
+Fedenko_Ekaterina_Sergeevna <- student; <-person; <-ui_user;;
+Fedenko_Ekaterina_Sergeevna => nrel_main_idtf:[Феденко Екатерина Сергеевна] (* <-lang_ru;; *);;
+
+Khlyzov_Timofey_Vitalievich <- student; <-person; <-ui_user;;
+Khlyzov_Timofey_Vitalievich => nrel_main_idtf:[Хлызов Тимофей Витальевич] (* <-lang_ru;; *);;
+
+Shitko_Maksim_Gennadievich <- student; <-person; <-ui_user;;
+Shitko_Maksim_Gennadievich => nrel_main_idtf:[Шитько Максим Геннадьевич] (* <-lang_ru;; *);;
