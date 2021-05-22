@@ -1,0 +1,10 @@
+project_intellectual_website_of_the_IIT_Department
+      => nrel_main_idtf:[Интеллектуальный сайт кафедры ИИТ (Виртуальная кафедра)] (* <-lang_ru;; *);
+      => nrel_main_idtf:[Intellectual website of the IIT Department (Virtual Department) ] (* <-lang_en;; *);;
+
+project_intellectual_website_of_the_IIT_Department => nrel_project_leader: Klintsov_Anton_Olegovich;;
+project_intellectual_website_of_the_IIT_Department <- student_project;;
+project_intellectual_website_of_the_IIT_Department => nrel_performers: Klintsov_Anton_Olegovich; Ladeiko_Anton_Vladimirovich; Kirilushkin_Aleksandr_Gennadevich; Shevtsov_Daniil_Mihailovich; Tavluy_Ekaterina_Vladimirovna; Goncharov_Daniil_Ruslanovich; Zharikov_Andrey_Nikolaevich;;
+project_intellectual_website_of_the_IIT_Department -> rrel_responsible_executor: Klintsov_Anton_Olegovich;;
+project_intellectual_website_of_the_IIT_Department => nrel_main_students: Shevtsov_Daniil_Mihailovich; Kirilushkin_Aleksandr_Gennadevich; Goncharov_Daniil_Ruslanovich;;
+project_intellectual_website_of_the_IIT_Department => nrel_related_projects: project_intelligent_scheduler; project_conference_support_system;;
