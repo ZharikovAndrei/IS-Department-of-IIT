@@ -1,0 +1,11 @@
+project_system_for_evaluating_a_persons_emotions_based_on_image
+      => nrel_main_idtf:[Система оценки эмоций человека по изображению] (* <-lang_ru;; *);
+      => nrel_main_idtf:[A system for evaluating a person's emotions based on an image] (* <-lang_en;; *);;
+
+//project_system_for_evaluating_a_persons_emotions_based_on_image => nrel_project_leader: ;;
+project_system_for_evaluating_a_persons_emotions_based_on_image <- student_project;;
+project_system_for_evaluating_a_persons_emotions_based_on_image => nrel_performers: Verenich_Kirill_Olegovich; Latysh_Maksim_Alekseevich;;
+//project_system_for_evaluating_a_persons_emotions_based_on_image -> rrel_responsible_executor: ;;
+//project_system_for_evaluating_a_persons_emotions_based_on_image => nrel_main_students: ;;
+//project_system_for_evaluating_a_persons_emotions_based_on_image => nrel_reports_OSTIS: ;;
+project_system_for_evaluating_a_persons_emotions_based_on_image => nrel_related_projects: project_photo_based_animal_classification_system; project_anonymization_of_persons_by_photo; project_recognition_system_for_modified_photos; project_image_stabilization_system_based_on_given_image; project_background_removal_system_for_photos;;

@@ -1,0 +1,11 @@
+project_background_removal_system_for_photos
+      => nrel_main_idtf:[Система удаления фона с фотографий] (* <-lang_ru;; *);
+      => nrel_main_idtf:[Background removal system for photos] (* <-lang_en;; *);;
+
+project_background_removal_system_for_photos => nrel_project_leader: Malyavko_Evgeniy_Sergeevich;;
+project_background_removal_system_for_photos <- student_project;;
+project_background_removal_system_for_photos => nrel_performers: Shishko_Aleksandr_Sergeevich; Malyavko_Evgeniy_Sergeevich;;
+//project_background_removal_system_for_photos -> rrel_responsible_executor: ;;
+//project_background_removal_system_for_photos => nrel_main_students: ;;
+//project_background_removal_system_for_photos => nrel_reports_OSTIS: ;;
+project_background_removal_system_for_photos => nrel_related_projects: project_image_stabilization_system_based_on_given_image; project_recognition_system_for_modified_photos; project_system_for_evaluating_a_persons_emotions_based_on_image; project_anonymization_of_persons_by_photo; project_photo_based_animal_classification_system;;

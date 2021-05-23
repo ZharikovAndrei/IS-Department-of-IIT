@@ -1,0 +1,10 @@
+project_interface_of_dialog_IS
+      => nrel_main_idtf:[Интерфейс интеллектуальной диалоговой системы] (* <-lang_ru;; *);
+      => nrel_main_idtf:[Intelligent Dialog System interface] (* <-lang_en;; *);;
+
+//project_interface_of_dialog_IS => nrel_project_leader: ;;
+project_interface_of_dialog_IS <- student_project;;
+project_interface_of_dialog_IS => nrel_performers: Menkova_Elisaveta_Andreevna; Zhmyrko_Aleksandra_Vladimirovna;;
+//project_interface_of_dialog_IS -> rrel_responsible_executor: ;;
+//project_interface_of_dialog_IS => nrel_main_students: ;;
+project_interface_of_dialog_IS => nrel_related_projects: project_web_based_interpreter_of_sc_models_of_UI; project_natural_language_interface_of_IS;;

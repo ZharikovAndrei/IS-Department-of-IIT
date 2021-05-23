@@ -1,0 +1,11 @@
+project_ISS_chemistry
+      => nrel_main_idtf:[Интеллектуальная справочная система по химии] (* <-lang_ru;; *);
+      => nrel_main_idtf:[Intelligent chemistry reference system] (* <-lang_en;; *);;
+
+//project_ISS_chemistry => nrel_project_leader: ;;
+project_ISS_chemistry <- student_project;;
+project_ISS_chemistry => nrel_performers: Ratkevich_Ilya_Andreevich; Stankevich_Alexey_Olegovich; Kovel_Elisaveta_Petrovna; Morozov_Aleksandr_Yuorevich;;
+project_ISS_chemistry -> rrel_responsible_executor: Ratkevich_Ilya_Andreevich;;
+//project_ISS_chemistry => nrel_main_students: ;;
+//project_ISS_chemistry => nrel_reports_OSTIS: ;;
+//project_ISS_chemistry => nrel_related_projects: ;;
