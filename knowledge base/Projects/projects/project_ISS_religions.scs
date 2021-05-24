@@ -1,0 +1,11 @@
+project_ISS_religions
+      => nrel_main_idtf:[Интеллектуальная справочная система по религиям] (* <-lang_ru;; *);
+      => nrel_main_idtf:[Intelligent reference system for religions] (* <-lang_en;; *);;
+
+//project_ISS_religions => nrel_project_leader: ;;
+project_ISS_religions <- student_project;;
+project_ISS_religions => nrel_performers: Novitskiy_Robert_Dmitrievich;;
+//project_ISS_religions -> rrel_responsible_executor: ;;
+//project_ISS_religions => nrel_main_students: ;;
+//project_ISS_religions => nrel_reports_OSTIS: ;;
+project_ISS_religions => nrel_related_projects: project_ISS_music_theory; project_ISS_music; project_ISS_mythology; project_ISS_movies; project_ISS_art; project_ISS_bibliography;;

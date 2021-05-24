@@ -1,0 +1,11 @@
+project_ISS_healthy_lifestyle
+      => nrel_main_idtf:[Интеллектуальная справочная система по здоровому образу жизни] (* <-lang_ru;; *);
+      => nrel_main_idtf:[Intelligent reference system for healthy lifestyle] (* <-lang_en;; *);;
+
+//project_ISS_healthy_lifestyle => nrel_project_leader: ;;
+project_ISS_healthy_lifestyle <- student_project;;
+project_ISS_healthy_lifestyle => nrel_performers: Brunner_Anton_Yuorevich; Makarchuk_Egor_Valerevich; Zubritskaya_Valeriya_Gennadevna; Kazachenko_Evgeniy_Aleksandrovich; Kondeev_Pavel_Yuorevich; Evtuhov_Alexey_Azizullaevich; Prudnikov_Ilya_Vitalevich; Solovyov_Artem_Mihailovich; Teterskiy_Ivan_Yuorich; Shilo_Maksim_Yuorich; Kuramshina_Margarita_Sergeevna; Zanberova_Irina_Alekseevna;;
+//project_ISS_healthy_lifestyle -> rrel_responsible_executor: ;;
+//project_ISS_healthy_lifestyle=> nrel_main_students: ;;
+//project_ISS_healthy_lifestyle=> nrel_reports_OSTIS: ;;
+project_ISS_healthy_lifestyle=> nrel_related_projects: project_decision_support_system_for_radiologist_mammologist; project_ISS_agriculture; project_ISS_medicine; project_ISS_microbiology; project_ISS_prescription_manufacturing; project_ISS_red_book; project_system_for_issuing_personal_medical_recommendations;;

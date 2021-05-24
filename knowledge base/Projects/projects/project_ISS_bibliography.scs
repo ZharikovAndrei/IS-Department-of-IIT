@@ -1,0 +1,11 @@
+project_ISS_bibliography
+      => nrel_main_idtf:[Интеллектуальная справочная система по библиографии] (* <-lang_ru;; *);
+      => nrel_main_idtf:[Intelligent reference system for bibliography] (* <-lang_en;; *);;
+
+//project_ISS_bibliography => nrel_project_leader: ;;
+project_ISS_bibliography <- student_project;;
+project_ISS_bibliography => nrel_performers: Klevtsevich_Aleksandr_Vladimirovich; Timofeenko_Denis_Aleksandrovich; Krop_Alesya_Vyacheslavovna; Markov_Daniil_Olegovich; Churai_Evgeniy_Sergeevich; Alekseev_Fedor_Andreevich;;
+//project_ISS_bibliography -> rrel_responsible_executor: ;;
+//project_ISS_bibliography=> nrel_main_students: ;;
+//project_ISS_bibliography=> nrel_reports_OSTIS: ;;
+project_ISS_bibliography=> nrel_related_projects: project_ISS_movies; project_ISS_mythology; project_ISS_art; project_ISS_music_theory; project_ISS_music; project_ISS_religions;;

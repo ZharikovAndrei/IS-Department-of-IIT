@@ -1,0 +1,11 @@
+project_search_system_for_the_specified_license_plate
+      => nrel_main_idtf:[Система поиска заданного номерного знака автомобиля на фото] (* <-lang_ru;; *);
+      => nrel_main_idtf:[The search system for the specified license plate of the car in the photo] (* <-lang_en;; *);;
+
+//project_search_system_for_the_specified_license_plate => nrel_project_leader: ;;
+project_search_system_for_the_specified_license_plate <- student_project;;
+project_search_system_for_the_specified_license_plate => nrel_performers: Hmelinko_Pavel_Sergeevich; Schadrin_Evgeniy_Dmitrievich; Kuzin_Alexey_Vladimirovich;;
+//project_search_system_for_the_specified_license_plate -> rrel_responsible_executor: ;;
+//project_search_system_for_the_specified_license_plate => nrel_main_students: ;;
+//project_search_system_for_the_specified_license_plate => nrel_reports_OSTIS: ;;
+project_search_system_for_the_specified_license_plate => nrel_related_projects: project_ISS_cars; project_search_engine_for_car_purchase_offers_by_image;;
