@@ -1,0 +1,11 @@
+projest_ISS_programming_languages
+      => nrel_main_idtf:[Интеллектуальная справочная система по языкам программирования] (* <-lang_ru;; *);
+      => nrel_main_idtf:[Intelligent reference system for programming languages] (* <-lang_en;; *);;
+
+//projest_ISS_programming_languages => nrel_project_leader: ;;
+projest_ISS_programming_languages <- student_project;;
+projest_ISS_programming_languages => nrel_performers: Bogurov_Nikita_Egorovich; Vladimirskiy_Nikolay_Viktorovich; Nikadon_Vadim_Aleksandrovich; Sheleg_Nikita_Vladimirovich; Zavatski_Konstantin_Anatolevich; Makarenko_Diana_Nikolaevna; Moroschuk_Yulia_Dmitrievna; Prischepa_Daniil_Valentinovich; Taramin_Darya_Vladimirovna;;
+//projest_ISS_programming_languages -> rrel_responsible_executor: ;;
+//projest_ISS_programming_languages => nrel_main_students: ;;
+//projest_ISS_programming_languages => nrel_reports_OSTIS: ;;
+projest_ISS_programming_languages => nrel_related_projects: project_ISS_radio_electronics; project_ISS_computer_games;;

@@ -1,0 +1,11 @@
+project_ISS_agriculture
+      => nrel_main_idtf:[Интеллектуальная справочная система по сельскому хозяйству] (* <-lang_ru;; *);
+      => nrel_main_idtf:[Intelligent reference system for agriculture] (* <-lang_en;; *);;
+
+//project_ISS_agriculture => nrel_project_leader: ;;
+project_ISS_agriculture <- student_project;;
+project_ISS_agriculture => nrel_performers: Vasilevskiy_Vladislav_Sergeevich; Gritsel_Ivan_Aleksandrovich; Kozlovskiy_Pavel_Aleksandrovich; Makarchuk_Nikita_Dmitrievich; Tolkacheva_Tatyana_Aleksandrovna;;
+//project_ISS_agriculture -> rrel_responsible_executor: ;;
+//project_ISS_agriculture => nrel_main_students: ;;
+//project_ISS_agriculture => nrel_reports_OSTIS: ;;
+project_ISS_agriculture => nrel_related_projects: project_decision_support_system_for_radiologist_mammologist; project_ISS_healthy_lifestyle; project_ISS_medicine; project_ISS_microbiology; project_ISS_prescription_manufacturing; project_ISS_red_book; project_system_for_issuing_personal_medical_recommendations;;

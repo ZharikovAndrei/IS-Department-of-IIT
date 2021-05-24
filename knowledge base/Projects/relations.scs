@@ -1,4 +1,6 @@
-sc_node_norole_relation -> nrel_project_leader; nrel_related_projects; nrel_main_students; nrel_performers;  nrel_reports_OSTIS; nrel_responsible_executor;;
+sc_node_norole_relation -> nrel_project_leader; nrel_related_projects; nrel_main_students; nrel_performers;  nrel_reports_OSTIS;;
+
+sc_node_role_relation -> rrel_responsible_executor;;
 
 nrel_related_projects => nrel_main_idtf:[смежные проекты*] (* <-lang_ru;; *);
 				 => nrel_main_idtf:[related projects*] (* <-lang_en;; *);;
@@ -20,5 +22,5 @@ nrel_reports_OSTIS => nrel_main_idtf:[доклады на OSTIS*] (* <-lang_ru;;
 				 => nrel_main_idtf:[reports on OSTIS*] (* <-lang_en;; *);;
 
 
-nrel_responsible_executor => nrel_main_idtf:[ответственный исполнитель*] (* <-lang_ru;; *);
-				 => nrel_main_idtf:[responsible executor*] (* <-lang_en;; *);;
+rrel_responsible_executor => nrel_main_idtf:[ответственный исполнитель'] (* <-lang_ru;; *);
+				 => nrel_main_idtf:[responsible executor'] (* <-lang_en;; *);;

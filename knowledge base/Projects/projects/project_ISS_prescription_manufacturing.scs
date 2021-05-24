@@ -1,0 +1,11 @@
+project_ISS_prescription_manufacturing
+      => nrel_main_idtf:[Интеллектуальная справочная система по рецептурному производству] (* <-lang_ru;; *);
+      => nrel_main_idtf:[Intelligent reference system for prescription manufacturing] (* <-lang_en;; *);;
+
+//project_ISS_prescription_manufacturing => nrel_project_leader: ;;
+project_ISS_prescription_manufacturing <- student_project;;
+project_ISS_prescription_manufacturing => nrel_performers: Fabishevskaya_Viktoriya_Evgenevna; Orlov_Maksim_Konstantinovich; Shnip_Anton_Andreevich; Tischenko_Vitaliy_Nikolaevich; Andrievskiy_Anton_Eduardovich; Danilenko_Vyacheslav_Sergeevich; Zotov_Nikita_Vladimirovich;;
+//project_ISS_prescription_manufacturing -> rrel_responsible_executor: ;;
+//project_ISS_prescription_manufacturing => nrel_main_students: ;;
+//project_ISS_prescription_manufacturing => nrel_reports_OSTIS: ;;
+project_ISS_prescription_manufacturing => nrel_related_projects: project_decision_support_system_for_radiologist_mammologist; project_ISS_healthy_lifestyle; project_ISS_medicine; project_ISS_microbiology; project_ISS_agriculture; project_ISS_red_book; project_system_for_issuing_personal_medical_recommendations;;

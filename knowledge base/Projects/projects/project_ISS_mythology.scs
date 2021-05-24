@@ -1,0 +1,11 @@
+project_ISS_mythology
+      => nrel_main_idtf:[Интеллектуальная справочная система по мифологии] (* <-lang_ru;; *);
+      => nrel_main_idtf:[Intelligent Mythology Reference System] (* <-lang_en;; *);;
+
+//project_ISS_mythology => nrel_project_leader: ;;
+project_ISS_mythology <- student_project;;
+project_ISS_mythology => nrel_performers: Grib_Alexey_Aleksandrovich; Gubarevich_Anna_Mihailovna; Labutin_Andrei_Aleksandrovich; Chekatovskaya_Elisaveta_Alekseevna;;
+//project_ISS_mythology -> rrel_responsible_executor: ;;
+//project_ISS_mythology=> nrel_main_students: ;;
+//project_ISS_mythology=> nrel_reports_OSTIS: ;;
+project_ISS_mythology=> nrel_related_projects: project_ISS_bibliography; project_ISS_movies; project_ISS_art; project_ISS_music_theory; project_ISS_music; project_ISS_religions;;

@@ -1,0 +1,11 @@
+project_product_search_system
+      => nrel_main_idtf:[Система поиска товара по изображению] (* <-lang_ru;; *);
+      => nrel_main_idtf:[Product search system by image] (* <-lang_en;; *);;
+
+//project_product_search_system => nrel_project_leader: ;;
+project_product_search_system <- student_project;;
+project_product_search_system => nrel_performers: Ilyukevich_Vadim_Aleksandrovich;;
+//project_product_search_system -> rrel_responsible_executor: ;;
+//project_product_search_system => nrel_main_students: ;;
+//project_product_search_system => nrel_reports_OSTIS: ;;
+project_product_search_system => nrel_related_projects: project_system_for_human_posture_detection; project_anonymization_of_persons_by_photo; project_system_for_evaluating_a_persons_emotions_based_on_image; project_recognition_system_for_modified_photos; project_image_stabilization_system_based_on_given_image; project_background_removal_system_for_photos; project_photo_based_animal_classification_system;;

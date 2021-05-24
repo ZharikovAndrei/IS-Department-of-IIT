@@ -1,0 +1,10 @@
+project_currency_exchange_rate_forecasting_system
+      => nrel_main_idtf:[Система прогнозирования курса валют] (* <-lang_ru;; *);
+      => nrel_main_idtf:[Currency exchange rate forecasting system] (* <-lang_en;; *);;
+
+project_currency_exchange_rate_forecasting_system => nrel_project_leader: Chudopal_Aleksandr_Sergevich;;
+project_currency_exchange_rate_forecasting_system <- student_project;;
+project_currency_exchange_rate_forecasting_system => nrel_performers: Chudopal_Aleksandr_Sergevich; Snezhko_Vladmimir_Alekseevich;;
+project_currency_exchange_rate_forecasting_system -> rrel_responsible_executor: Snezhko_Vladmimir_Alekseevich;;
+//project_currency_exchange_rate_forecasting_system => nrel_main_students: ;;
+//project_currency_exchange_rate_forecasting_system => nrel_related_projects: ;;

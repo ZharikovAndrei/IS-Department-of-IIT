@@ -1,0 +1,11 @@
+project_ISS_movies
+      => nrel_main_idtf:[Интеллектуальная справочная система по кинофильмам] (* <-lang_ru;; *);
+      => nrel_main_idtf:[Intelligent movie reference System] (* <-lang_en;; *);;
+
+//project_ISS_movies => nrel_project_leader: ;;
+project_ISS_movies <- student_project;;
+project_ISS_movies => nrel_performers: Kandyba_Egor_Sergeevich; Zaitsev_Nikita_Aleksandrovich; Koval_Maksim_Sergeevich; Prohozhaya_Margarita_Sergeevna; Mankevich_Oleg_Aleksandrovich; Oleshkevich_Aleksandra_Sergeevna; Bokitko_Anton_Konstantinovich; Kasperovich_Aleksandr_Sergeevich; Rusak_Nikita_Vitalevich; Borovskaya_Kseniya_Sergeevna; Krivoshey_Evgeniy_Vladimirovich; Dragun_Vyacheslav_Sergeevich; Zhuravitskiy_Aleksandr_Olegovich; Nesterov_Evgeniy_Vladimirovich; Ostrovskaya_Olga_Vadimovna; Yakubovskiy_Timofey_Igorevich;;
+//project_ISS_movies -> rrel_responsible_executor: ;;
+//project_ISS_movies => nrel_main_students: ;;
+//project_ISS_movies => nrel_reports_OSTIS: ;;
+project_ISS_movies => nrel_related_projects: project_ISS_mythology; project_ISS_art; project_ISS_music_theory; project_ISS_music; project_ISS_religions; project_ISS_bibliography;;

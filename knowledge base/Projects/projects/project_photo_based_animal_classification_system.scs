@@ -1,0 +1,11 @@
+project_photo_based_animal_classification_system
+      => nrel_main_idtf:[Система классификации животных на основе фотографии] (* <-lang_ru;; *);
+      => nrel_main_idtf:[Photo-based animal classification system] (* <-lang_en;; *);;
+
+//project_photo_based_animal_classification_system => nrel_project_leader: ;;
+project_photo_based_animal_classification_system <- student_project;;
+project_photo_based_animal_classification_system => nrel_performers: Lihach_Ruslan_Andreevich; Schur_Anton_Aleksandrovich;;
+//project_photo_based_animal_classification_system -> rrel_responsible_executor: ;;
+//project_photo_based_animal_classification_system => nrel_main_students: ;;
+//project_photo_based_animal_classification_system => nrel_reports_OSTIS: ;;
+project_photo_based_animal_classification_system => nrel_related_projects: project_anonymization_of_persons_by_photo; project_system_for_evaluating_a_persons_emotions_based_on_image; project_recognition_system_for_modified_photos; project_image_stabilization_system_based_on_given_image; project_background_removal_system_for_photos; project_product_search_system; project_system_for_human_posture_detection;;
