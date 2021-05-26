@@ -1,5 +1,5 @@
 project_intelligent_scheduler
-      => nrel_main_idtf:[] (* <-lang_ru;; *);
+      => nrel_main_idtf:[Индивидуальный планировщик] (* <-lang_ru;; *);
       => nrel_main_idtf:[Intelligent scheduler] (* <-lang_en;; *);;
 
 //project_intelligent_scheduler => nrel_project_leader: ;;
