@@ -1,5 +1,0 @@
-is_of_department_of_iit
-	=> nrel_main_idtf:[Интеллектуальная система поддержки деятельности кафедры ИИТ](*<-lang_ru;;*);
-	<- student_project;
-	=> nrel_decomposition_of_tasks:is_of_department_of_iit_team_tasks;
-	=> nrel_executor: is_of_department_of_iit_team;;

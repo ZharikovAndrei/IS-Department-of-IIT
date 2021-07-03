@@ -1,8 +1,0 @@
-project_savushkin_product
-      => nrel_main_idtf:[Система управления знаниями и комплексной автоматизацией предприятия рецептурного производства] (* <-lang_ru;; *);
-      => nrel_main_idtf:[Knowledge management system and complex automation of the enterprise of prescription production ] (* <-lang_en;; *);
-      => nrel_synonymy:[47e/сав.пр-т];;
-
-project_savushkin_product => nrel_project_leader: Rusetsky_K_V;;
-project_savushkin_product => nrel_reports: report_savushkin_product;;
-

@@ -1,3 +1,0 @@
-rrel_number_of_pair
-<- sc_node_role_relation;
-	=> nrel_main_idtf:[номер пары'](* <- lang_ru;;*);;

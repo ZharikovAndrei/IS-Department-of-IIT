@@ -1,7 +1,0 @@
-task_1
-	=> nrel_main_idtf:[Классификация персон кафедры ИИТ](*<-lang_ru;;*);
-	<- project_task;
-	<- basic_project_task;
-	<- important_project_task;
-	<- executable_project_task;
-	=> nrel_executor: Tarasenko_Vladislav_Aleksandrovich;;

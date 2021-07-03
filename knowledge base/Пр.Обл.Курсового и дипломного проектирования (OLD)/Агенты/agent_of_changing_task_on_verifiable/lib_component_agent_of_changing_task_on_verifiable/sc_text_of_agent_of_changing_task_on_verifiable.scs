@@ -1,6 +1,0 @@
-sc_text_of_agent_of_changing_task_on_verifiable
--> rrel_key_sc_element:
-	agent_of_changing_task_on_verifiable;
-<- scp_program_sc_text;;
-
-sc_text_of_agent_of_changing_task_on_verifiable = [*^"file://agent_of_changing_task_on_verifiable.scsi"*];;

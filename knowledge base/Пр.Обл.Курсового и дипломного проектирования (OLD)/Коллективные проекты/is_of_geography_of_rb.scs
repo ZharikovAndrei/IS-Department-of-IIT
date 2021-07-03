@@ -1,5 +1,0 @@
-is_of_geography_of_rb
-	=> nrel_main_idtf:[Интеллектуальная справочная система по географии РБ](*<-lang_ru;;*);
-	<- student_project;
-
-	=> nrel_executor: is_of_geography_of_rb_team;;

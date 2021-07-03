@@ -1,4 +1,0 @@
-rrel_hours
-<-sc_node_role_relation;
-=>nrel_main_idtf:
-	[час'] (* <-lang_ru;; *);;

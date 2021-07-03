@@ -1,7 +1,0 @@
-project_IS_energetics
-      => nrel_main_idtf:[Интеллектуальная система в области энергетики] (* <-lang_ru;; *);
-      => nrel_main_idtf:[Intellectual system in the field of energy] (* <-lang_en;; *);
-      => nrel_synonymy:[57e/энерг];;
-
-project_IS_energetics => nrel_project_leader: Massel_A_G;;
-project_IS_energetics => nrel_reports: report_model_energetics;;

@@ -1,6 +1,0 @@
-sc_text_of_agent_of_finding_free_sessions_by_teacher
--> rrel_key_sc_element:
-	agent_of_finding_free_sessions_by_teacher;
-<- scp_program_sc_text;;
-
-sc_text_of_agent_of_finding_free_sessions_by_teacher = [*^"file://agent_of_finding_free_sessions_by_teacher.scsi"*];;

@@ -1,4 +1,0 @@
-rrel_number_day
-<-sc_node_role_relation;
-=>nrel_main_idtf:
-	[число'] (* <-lang_ru;; *);;

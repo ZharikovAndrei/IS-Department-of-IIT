@@ -1,7 +1,0 @@
-task_3
-	=> nrel_main_idtf:[Разработать шаблон для описания персон](*<-lang_ru;;*);
-	<- project_task;
-	<- basic_project_task;
-	<- important_project_task;
-	<- executable_project_task;
-	=> nrel_executor: Parfenenko_Artyom_Sergeevich;;

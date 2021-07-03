@@ -1,8 +1,0 @@
-task_18
-	=> nrel_main_idtf:[Агент, реализующий поиск свободного времени](* <- lang_ru;;*);
-	<- project_task;
-	<- basic_project_task;
-	<- important_project_task;
-	<- completed_project_task;
-	=> nrel_executor: Grinjuk_Oleg_Sergeevich;;
-

@@ -1,7 +1,0 @@
-task_10
-	=> nrel_main_idtf:[Разработка запросов по учебному расписанию](*<-lang_ru;;*);
-	<- project_task;
-	<- basic_project_task;
-	<- important_project_task;
-	<- executable_project_task;
-	=> nrel_executor: Grinjuk_Oleg_Sergeevich;;

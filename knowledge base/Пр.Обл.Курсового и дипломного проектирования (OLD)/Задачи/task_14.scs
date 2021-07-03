@@ -1,9 +1,0 @@
-task_14
-	=> nrel_main_idtf:[Разработка информационно-поисковых агентов для Пр.Обл. курсовое проектирование](*<-lang_ru;;*);
-	<- project_task;
-	<- basic_project_task;
-	<- important_project_task;
-	<- executable_project_task;
-	=> nrel_executor: Semenov_Vladislav_Sergeevich;;
-
-	

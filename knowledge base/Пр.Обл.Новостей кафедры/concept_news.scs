@@ -1,3 +1,0 @@
-concept_news=> nrel_main_idtf:
-[новость] (* <-lang_ru;; *);
-[news] (* <-lang_en;; *);;

@@ -1,7 +1,0 @@
-project_ISS_history
-      => nrel_main_idtf:[Интеллектуальная справочная система по истории (Республики Беларусь, Древнего мира т.д.)] (* <-lang_ru;; *);
-      => nrel_main_idtf:[Intelligent help system in history] (* <-lang_en;; *);
-      => nrel_synonymy:[17e/история];;
-
-project_ISS_history => nrel_project_leader: Hubarevich_A_V;;
-project_ISS_history => nrel_reports: report_ISS; report_IS_individual_learning; report_ontology_IS_history;;

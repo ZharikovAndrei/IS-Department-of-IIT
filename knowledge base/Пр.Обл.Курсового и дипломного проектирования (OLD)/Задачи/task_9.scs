@@ -1,7 +1,0 @@
-task_9
-	=> nrel_main_idtf:[Временные промежутки учебного процесса](*<-lang_ru;;*);
-	<- project_task;
-	<- basic_project_task;
-	<- important_project_task;
-	<- executable_project_task;
-	=> nrel_executor: Gorbachevsky_Vladislav_Sergeevich;;

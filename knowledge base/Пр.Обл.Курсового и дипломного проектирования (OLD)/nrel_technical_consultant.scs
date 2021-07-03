@@ -1,4 +1,0 @@
-nrel_technical_consultant
-	<- sc_node_norole_relation;
-	=> nrel_main_idtf:[технический консультант*](*<-lang_ru;;*);
-	=> nrel_main_idtf:[technical consultant*](*<-lang_en;;*);;

@@ -1,7 +1,0 @@
-project_environment_neural_network
-      => nrel_main_idtf:[Среда проектирования искусственных нейронных сетей] (* <-lang_ru;; *);
-      => nrel_main_idtf:[The environment for the design of artificial neural networks] (* <-lang_en;; *);
-	  => nrel_synonymy:[12e/нейро];;
-
-//project_environment_neural_network => nrel_project_leader: ;;
-project_environment_neural_network => nrel_reports: report_ontology_neural_network;;

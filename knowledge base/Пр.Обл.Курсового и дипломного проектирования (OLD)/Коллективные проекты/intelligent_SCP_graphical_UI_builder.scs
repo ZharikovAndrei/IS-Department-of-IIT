@@ -1,6 +1,0 @@
-intelligent_SCP_graphical_user_interface_builder
-=> nrel_main_idtf:[Интеллектуальная среда визуального программирования на языке SCP](*<-lang_ru;;*);
-       [Intelligent SCP graphical user interface builder](*<-lang_en;;*);
-<-student_project;
--> rrel_scientific_consultant:Shunkevich_D_V;
-=> nrel_executor: intelligent_SCP_graphical_user_interface_builder_team;;
