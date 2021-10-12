@@ -1,3 +1,3 @@
-sc_node_role_relation->rrel_specialist;;
-rrel_tester=>nrel_main_idtf:
+rrel_specialist<-sc_node_role_relation;;
+rrel_specialist=>nrel_main_idtf:
 	[специалист'] (* <-lang_ru;; *);;

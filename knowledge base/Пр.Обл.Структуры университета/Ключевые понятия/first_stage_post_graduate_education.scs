@@ -14,7 +14,7 @@ first_stage_post_graduate_education
 		*);;
 	*);
 
-nrel_inclusion:Full_time_forms_educ;
+=>nrel_inclusion:Full_time_forms_educ;
 	correspondence_forms_educ;
 
 
