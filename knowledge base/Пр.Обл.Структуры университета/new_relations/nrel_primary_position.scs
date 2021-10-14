@@ -1,4 +1,4 @@
-sc_node_norole_relation-> nrel_primary_position;;
+//sc_node_norole_relation-> nrel_primary_position;;
 nrel_primary_position=>nrel_main_idtf:
 [первичная должность*](*<-lang_ru;;*);
 [primary position*](*<-lang_en;;*);; 

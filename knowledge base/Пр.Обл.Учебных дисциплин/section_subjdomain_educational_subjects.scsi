@@ -1,3 +1,4 @@
+/*
 subject_domain_of_educational_subjects
 => nrel_main_idtf:
 	[Предметная область учебных дисциплин]
@@ -192,7 +193,7 @@ educational_subject
 	natural_science_subject;
 	special_subject (*=>nrel_inclusion: subject_of_specialization;;*);
 	social_and_humanitarian_subject;
-	general_professional_subject;
+	general_professional_subject;;
 
 
 <=nrel_inclusion:
@@ -712,3 +713,5 @@ visual_aid
 		-> [Hаглядное пособие - все материальные средства обучения, используемые в учебно-воспитательном процессе и предназначенные для расширения, углубления и лучшего усвоения знаний, предусмотренных учебной программой и изложенных в учебниках.] (* <-lang_ru;; *);;
 		*);;
 	*);;
+	
+	*/

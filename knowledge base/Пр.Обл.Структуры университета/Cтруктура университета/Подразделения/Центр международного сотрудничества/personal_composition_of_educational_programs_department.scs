@@ -9,7 +9,7 @@ personal_composition_of_educational_programs_department=>nrel_idtf:
 
 
 personal_composition_of_educational_programs_department->rrel_department_head: Ivanova_Natalia_Alexeevna;
-rrel_translator_of_the_2nd_category: Pronkul_Svetlana_Yurievna;
-rrel_methodologist_of_the_highest_category: Javnerchik_Ludmila_Viktorovna;
-rrel_specialist: Lukashova_Olga_Igorevna; Shvedova_Ekaterina_Igorevna;;
+->rrel_translator_of_the_2nd_category: Pronkul_Svetlana_Yurievna;
+->rrel_methodologist_of_the_highest_category: Javnerchik_Ludmila_Viktorovna;
+->rrel_specialist: Lukashova_Olga_Igorevna; Shvedova_Ekaterina_Igorevna;;
 

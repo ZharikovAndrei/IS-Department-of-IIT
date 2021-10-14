@@ -1,3 +1,3 @@
-sc_node_role_relation->rrel_tester;;
+rrel_tester<-sc_node_role_relation;;
 rrel_tester=>nrel_main_idtf:
-	[лаборант'] (* <-lang_ru;; *);;
+	[тестировщик'] (* <-lang_ru;; *);;

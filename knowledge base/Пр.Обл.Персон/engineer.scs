@@ -1,4 +1,4 @@
-sc_node_norole_relation->rrel_engineer;;
+//rrel_engineer<-sc_node_norole_relation;
 rrel_engineer=>nrel_main_idtf:
 	[инженер'] (* <-lang_ru;; *);
 

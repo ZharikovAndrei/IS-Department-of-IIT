@@ -8,7 +8,7 @@ section_subjdomain_educational_subjects
 <- not_enough_formed_structure;
 <- atomic_section;;
 
-section_subjdomain_educational_subjects = [*^"file://section_subjdomain_educational_subjects.scsi"*];;
+//section_subjdomain_educational_subjects = [*^"file://section_subjdomain_educational_subjects.scsi"*];;
 
 section_subjdomain_educational_subjects -> rrel_key_sc_element:
     subject_domain_of_educational_subjects;

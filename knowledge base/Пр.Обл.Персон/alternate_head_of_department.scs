@@ -1,5 +1,5 @@
-sc_node_role_relation -> rrel_alternate_head_of_department;;
-rrel_alternate_head_of_department=>nrel_main_idtf:
+rrel_alternate_head_of_department
+=>nrel_main_idtf:
 	[заместитель заведующего кафедрой'] (* <-lang_ru;; *);
 =>nrel_main_idtf:
 	[alternate head of department'] (* <-lang_en;; *);

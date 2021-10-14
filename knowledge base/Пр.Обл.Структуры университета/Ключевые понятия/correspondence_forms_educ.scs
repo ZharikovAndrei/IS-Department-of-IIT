@@ -1,7 +1,7 @@
 correspondence_forms_educ
 =>nrel_main_idtf:
 	[заочная форма получения образования] (* <-lang_ru;; *);
-nrel_inclusion:remote_correspondence_forms_educ;
+=> nrel_inclusion: remote_correspondence_forms_educ;
 ->rrel_key_sc_element:
 	...  
 	(* 

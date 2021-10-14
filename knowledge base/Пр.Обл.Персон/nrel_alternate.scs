@@ -1,3 +1,4 @@
-sc_node_norole_relation->nrel_alternate;;
-nrel_alternate=>nrel_main_idtf:
+nrel_alternate
+->sc_node_norole_relation;
+=>nrel_main_idtf:
 	[заместитель*] (* <-lang_ru;; *);;
