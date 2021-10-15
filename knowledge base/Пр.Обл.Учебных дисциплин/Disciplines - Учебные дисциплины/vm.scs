@@ -11,4 +11,29 @@ higher_mathematics
 <=nrel_practice_hours: 204(*<-positive_number;;*);
 <=nrel_component: concept_mandatory_component;
 <=nrel_cycle: concept_tsikl_estesstvenno_nauchnykh_distsiplin;;
-
+higher_mathematics
+<=nrel_realisation_of_learning_activity:
+	lectures_on_higher_mathematics
+	(*=>nrel_main_idtf:
+[Высшая математика.лекции] (* <-lang_ru;; *);;
+=>nrel_planned_hours:170;;
+	=>nrel_realisation_of_intermediate_control:
+		control_work;;
+		<-lecture;;
+	*);
+	pactical_on_higher_mathematics
+	(*=>nrel_main_idtf:
+[Высшая математика.практика] (* <-lang_ru;; *);;
+=>nrel_planned_hours:204;;
+	=>nrel_realisation_of_intermediate_control:
+		control_work;;
+		<-practical_lesson;;
+	*);
+=>nrel_realisation_of_final_certification: exam;
+<-rrel_subject:
+	...
+	(*
+	->rrel_realisation_of_learning_activity: lecture; practical_lesson;;
+	<-nrel_taught_subject;;
+	*);
+=>nrel_term: 3;;

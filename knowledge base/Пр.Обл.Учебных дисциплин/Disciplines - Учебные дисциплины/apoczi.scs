@@ -43,47 +43,8 @@ apoczi
 					*);;
 				=>nrel_term: 6;;
 			*);
-		apoczi_5_year_education
-			(*
-				<-multiplicity_of_subjects_taught_in_the_5_term_specialty_artificial_intelligence_5_year_education;;
-				<=nrel_realisation_of_learning_activity:
-
-					lectures_on_apoczi_5_year_education
-						(*=>nrel_main_idtf:
-				[Аппаратное и программное обеспечение сетей и защита информации по 5-летней программе.лекции] (* <-lang_ru;; *);;
-				=>nrel_planned_hours:34;;
-							<-lecture;;
-						*);
-					laboratory_work_on_apoczi_5_year_education
-						(*=>nrel_main_idtf:
-				[Аппаратное и программное обеспечение сетей и защита информации по 5-летней программе.лабораторный практикум] (* <-lang_ru;; *);;
-				=>nrel_planned_hours:34;;
-							=>nrel_realisation_of_intermediate_control:
-							protection_of_laboratory_work;;
-							<-laboratory_work	;;
-						*);;
-				=>nrel_realisation_of_final_certification: exam;;
-				<-rrel_subject:
-					...
-					(*
-						->rrel_realisation_of_learning_activity: lecture;;
-						<-nrel_taught_subject;;
-						->rrel_teacher: Kolb_D_G;;
-					*);;
-				<-rrel_subject:
-					...
-					(*
-						->rrel_realisation_of_learning_activity: laboratory_work;;
-						<-nrel_taught_subject;;
-						->rrel_teacher: Parkalov_A_V;;
-					*);;
-				=>nrel_term: 5;;
-			*);;
 
 
-apoczi_4_year_education
+apoczi_4_year_education;
 =>nrel_main_idtf:
 	[Аппаратное и программное обеспечение сетей и защита информации по 4-летней программе] (* <-lang_ru;; *);;
-apoczi_5_year_education
-=>nrel_main_idtf:
-	[Аппаратное и программное обеспечение сетей и защита информации по 5-летней программе] (* <-lang_ru;; *);;

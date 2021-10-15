@@ -30,8 +30,6 @@ lectures_on_stpb
 	(*
 	->rrel_realisation_of_learning_activity: practical_lesson; lecture;;
 	<-nrel_taught_subject;;
-	->rrel_teacher: Golenkov_V_V;;
 	*);
 =>nrel_term: 1;;
-Golenkov_V_V=>nrel_can_teach_subject:stpbz;stpbz_z;;
-Golenkov_V_V<=nrel_educational_work:practical_lesson_on_stpbz;practical_lesson_on_stpbz_z;lectures_on_stpb;lectures_on_stpb_z;;
+

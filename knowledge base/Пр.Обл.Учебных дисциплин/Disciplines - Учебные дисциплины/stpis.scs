@@ -31,8 +31,6 @@ stpis
 	(*
 	->rrel_realisation_of_learning_activity: lecture; laboratory_work;;
 	<-nrel_taught_subject;;
-	->rrel_teacher: Golenkov_V_V;;
 	*);
 =>nrel_term: 2;;
-Golenkov_V_V=>nrel_can_teach_subject:stpis;stpis_extramural_education;;
-Golenkov_V_V<=nrel_educational_work:laboratory_work_on_stpis;laboratory_work_on_stpis_extramural_education;lectures_on_stpis_extramural_education;lectures_on_stpis;;
+

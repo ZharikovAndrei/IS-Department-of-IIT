@@ -8,7 +8,6 @@ language_processors_of_intelligent_systems
 <-special_subject;
 
 <-multiplicity_of_subjects_taught_in_the_6_term_specialty_artificial_intelligence_4_year_education;
-<-multiplicity_of_subjects_taught_in_the_6_term_specialty_artificial_intelligence_5_year_education;
 
 <=nrel_realisation_of_learning_activity:
 	lectures_on_language_processors_of_intelligent_systems
@@ -33,7 +32,7 @@ language_processors_of_intelligent_systems
 	(*
 	->rrel_realisation_of_learning_activity: lecture; laboratory_work;;
 	<-nrel_taught_subject;;
-	->rrel_teacher: Shunkevich_D_V;;
+	->rrel_teacher: Serdykov_R_E;;
 	*);
 =>nrel_term: 6;
 

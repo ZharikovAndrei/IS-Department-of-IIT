@@ -32,6 +32,5 @@ iips
 	(*
 	->rrel_realisation_of_learning_activity: lecture; laboratory_work;;
 	<-nrel_taught_subject;;
-	->rrel_teacher: Kolb_D_G;;
 	*);
 =>nrel_term: 1;;

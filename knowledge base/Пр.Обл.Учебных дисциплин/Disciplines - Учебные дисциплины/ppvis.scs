@@ -103,9 +103,7 @@ ppvis
 ppvis_4_year_education
 =>nrel_main_idtf:
 	[Проектирование программ в интеллектуальных системах по 4-летней программе] (* <-lang_ru;; *);;
-ppvis_5_year_education
-=>nrel_main_idtf:
-	[Проектирование программ в интеллектуальных системах по 5-летней программе] (* <-lang_ru;; *);;
+
 
 ppvis_4_year_1
 =>nrel_main_idtf:
@@ -120,6 +118,4 @@ course_project_on_ppvis_4_year_education
 =>nrel_main_idtf:
 	[Курсовой проект по ППВиС] (* <-lang_ru;; *);;
 
-Romanov_V_I<=nrel_educational_work:lectures_on_ppvis_4_year_1;lectures_on_ppvis_4_year_2;;
-Shunkevich_D_V<=nrel_educational_work:laboratory_work_on_ppvis_4_year_1;practical_lesson_on_ppvis_4_year_1;;
-Zhukov_I_I<=nrel_educational_work:laboratory_work_on_ppvis_4_year_2;lectures_on_ppvis_4_year_3;laboratory_work_on_ppvis_4_year_3;;
+

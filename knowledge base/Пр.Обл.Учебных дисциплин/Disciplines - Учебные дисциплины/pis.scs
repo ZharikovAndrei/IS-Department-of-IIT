@@ -35,54 +35,17 @@ pis
 				(*
 				->rrel_realisation_of_learning_activity: lecture; laboratory_work;;
 				<-nrel_taught_subject;;
-				->rrel_teacher: Stepanova_M_D;;
 				*);;
 			=>nrel_term: 8;;
 			*);
-		pis_5_year
-			(*
-			<-multiplicity_of_subjects_taught_in_the_8_term_specialty_artificial_intelligence_5_year_education;;
-			<=nrel_realisation_of_learning_activity:
-				lectures_on_pis_5_year
-					(*=>nrel_main_idtf:
-				[Прикладные интеллектуальные системы по 5-летней программе.лекции] (* <-lang_ru;; *);;
-				=>nrel_planned_hours:48;;
-					=>nrel_realisation_of_intermediate_control:
-						control_work;;
-						<-lecture;;
-					*);
-					practical_lesson_on_pis_5
-					(*=>nrel_main_idtf:
-				[Прикладные интеллектуальные системы по 5-летней программе.практические занятия] (* <-lang_ru;; *);;
-				=>nrel_planned_hours:32;;
-					=>nrel_realisation_of_intermediate_control:
-						protection_of_practical_work;;
-					<-practical_lesson;;
-					*);;
-			=>nrel_realisation_of_final_certification:
-				exam;;
-			<-rrel_subject:
-				...
-				(*
-				->rrel_realisation_of_learning_activity: lecture; practical_lesson; laboratory_work;;
-				<-nrel_taught_subject;;
-				->rrel_teacher: Stepanova_M_D;;
-				*);;
-			=>nrel_term: 9;;
-		*);
 
 <=nrel_trains: the_department_of_intelligent_informational_technologies;
-<=nrel_class_number: 5(* <-positive_number;;*);
-<=nrel_semester_number: 9(* <-positive_number;;*);
+<=nrel_class_number: 4(* <-positive_number;;*);
+<=nrel_semester_number: 8(* <-positive_number;;*);
 <=nrel_component: concept_mandatory_component;
 <=nrel_cycle: concept_tsikl_obshcheprofessionalnykh_i_spetsialnykh_distsiplin;;
 
 pis_4_year
 =>nrel_main_idtf:
 	[Прикладные интеллектуальные системы по 4-летней программе] (* <-lang_ru;; *);;
-pis_5_year
-=>nrel_main_idtf:
-	[Прикладные интеллектуальные системы по 5-летней программе] (* <-lang_ru;; *);;
 
-Stepanova_M_D=>nrel_can_teach_subject:pis;;
-Stepanova_M_D<=nrel_educational_work:lectures_on_pis_4_year;laboratory_work_on_pis_4_year;;

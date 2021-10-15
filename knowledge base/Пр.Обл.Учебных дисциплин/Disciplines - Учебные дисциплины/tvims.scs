@@ -1,4 +1,4 @@
-tvims
+theory_of_probability_and_mathematical_statistics
 =>nrel_main_idtf: [Теория вероятностии и математическая статистика] (*<-lang_ru;;*);
 =>nrel_main_idtf: [Theory of probability and mathematical statistics] (*<-lang_en;;*);
 <=nrel_trains: the_department_of_numerical_methods_and_programming;
@@ -8,4 +8,29 @@ tvims
 <=nrel_practice_hours: 34(*<-positive_number;;*);
 <=nrel_component: concept_mandatory_component;
 <=nrel_cycle: concept_tsikl_estesstvenno_nauchnykh_distsiplin;;
-
+theory_of_probability_and_mathematical_statistics
+<=nrel_realisation_of_learning_activity:
+	lectures_on_tvims
+	(*=>nrel_main_idtf:
+[Теория вероятностии и математическая статистика.лекции] (* <-lang_ru;; *);;
+=>nrel_planned_hours:34;;
+	=>nrel_realisation_of_intermediate_control:
+		control_work;;
+		<-lecture;;
+	*);
+	pactical_on_tvims
+	(*=>nrel_main_idtf:
+[Теория вероятностии и математическая статистика.практика] (* <-lang_ru;; *);;
+=>nrel_planned_hours:26;;
+	=>nrel_realisation_of_intermediate_control:
+		control_work;;
+		<-practical_lesson;;
+	*);
+=>nrel_realisation_of_final_certification: exam;
+<-rrel_subject:
+	...
+	(*
+	->rrel_realisation_of_learning_activity: lecture; practical_lesson;;
+	<-nrel_taught_subject;;
+	*);
+=>nrel_term: 5;;

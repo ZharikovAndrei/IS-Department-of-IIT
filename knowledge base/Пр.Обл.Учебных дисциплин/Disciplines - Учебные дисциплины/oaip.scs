@@ -9,4 +9,30 @@ basics_of_algorithms_and_programming
 <=nrel_labs_hours: 68(*<-positive_number;;*);
 <=nrel_component: concept_mandatory_component;
 <=nrel_cycle: concept_tsikl_obshcheprofessionalnykh_i_spetsialnykh_distsiplin;;
-
+basics_of_algorithms_and_programming
+<=nrel_realisation_of_learning_activity:
+	lectures_on_basics_of_algorithms_and_programming
+	(*=>nrel_main_idtf:
+[Основы алгоритмизации и программирования.лекции] (* <-lang_ru;; *);;
+=>nrel_planned_hours:68;;
+	=>nrel_realisation_of_intermediate_control:
+		control_work;;
+		<-lecture;;
+	*);
+	
+	laboratory_work_physics
+		(*=>nrel_main_idtf:
+		[Основы алгоритмизации и программирования.лабораторный практикум] (* <-lang_ru;; *);;
+		=>nrel_planned_hours:68;;
+		=>nrel_realisation_of_intermediate_control:
+			protection_of_laboratory_work;;
+		<-laboratory_work	;;
+		*);
+=>nrel_realisation_of_final_certification: exam;
+<-rrel_subject:
+	...
+	(*
+	->rrel_realisation_of_learning_activity: lecture; laboratory_work;;
+	<-nrel_taught_subject;;
+	*);
+=>nrel_term: 2;;

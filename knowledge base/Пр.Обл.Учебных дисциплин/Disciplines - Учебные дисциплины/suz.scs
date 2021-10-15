@@ -30,8 +30,5 @@ laboratory_work_on_suz
 	(*
 	->rrel_realisation_of_learning_activity: laboratory_work; lecture;;
 	<-nrel_taught_subject;;
-	->rrel_teacher: Golenkov_V_V;;
 	*);
 =>nrel_term: 2;;
-Golenkov_V_V=>nrel_can_teach_subject:suz;suz_z;;
-Golenkov_V_V<=nrel_educational_work:laboratory_work_on_suz_z;laboratory_work_on_suz;lectures_on_suz;lectures_on_suz_z;;
