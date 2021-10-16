@@ -41,6 +41,7 @@ physics
 	(*
 	->rrel_realisation_of_learning_activity: lecture; practical_lesson; laboratory_work;;
 	<-nrel_taught_subject;;
+	->rrel_teacher: Berezin_A_V;;
 	*);
 =>nrel_term: 1;;
 

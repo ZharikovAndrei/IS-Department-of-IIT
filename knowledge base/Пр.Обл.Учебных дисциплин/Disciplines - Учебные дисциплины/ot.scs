@@ -32,5 +32,6 @@ occupational_safety_and_health
 	(*
 	->rrel_realisation_of_learning_activity: lecture; laboratory_work;;
 	<-nrel_taught_subject;;
+	->rrel_teacher: Kachalov_I_L;;
 	*);
 =>nrel_term: 1;;

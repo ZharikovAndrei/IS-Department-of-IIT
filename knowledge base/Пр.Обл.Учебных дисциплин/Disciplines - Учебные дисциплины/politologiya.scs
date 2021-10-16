@@ -35,6 +35,7 @@ political_science
 	(*
 	->rrel_realisation_of_learning_activity: lecture; practical_lesson;;
 	<-nrel_taught_subject;;
+	->rrel_teacher: Kurakevich_N_I;;
 	*);
 =>nrel_term: 1;;
 

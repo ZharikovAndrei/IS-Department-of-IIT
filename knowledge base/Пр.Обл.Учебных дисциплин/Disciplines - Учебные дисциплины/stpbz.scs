@@ -30,6 +30,7 @@ lectures_on_stpb
 	(*
 	->rrel_realisation_of_learning_activity: practical_lesson; lecture;;
 	<-nrel_taught_subject;;
+	->rrel_teacher: Shunkevich_D_V;;
 	*);
 =>nrel_term: 1;;
 

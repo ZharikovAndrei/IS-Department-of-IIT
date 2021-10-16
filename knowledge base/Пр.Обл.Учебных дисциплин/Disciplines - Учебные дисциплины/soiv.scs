@@ -33,6 +33,7 @@ soiv
 					(*
 					->rrel_realisation_of_learning_activity: lecture; laboratory_work;;
 					<-nrel_taught_subject;;
+					->rrel_teacher: Kovalev_M_V;;
 					*);;
 				=>nrel_term: 6;;
 		*);

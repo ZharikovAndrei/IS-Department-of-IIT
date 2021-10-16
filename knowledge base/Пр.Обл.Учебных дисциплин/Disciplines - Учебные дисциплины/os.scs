@@ -42,6 +42,7 @@ operating_systems
 				(*
 				->rrel_realisation_of_learning_activity: lecture;;
 				<-nrel_taught_subject;;
+				->rrel_teacher: Sobol_A_M;;
 				*);;
 			=>nrel_term: 5;;
 		*);

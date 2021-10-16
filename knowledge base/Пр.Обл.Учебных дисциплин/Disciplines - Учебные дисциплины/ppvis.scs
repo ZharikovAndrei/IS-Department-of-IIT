@@ -39,6 +39,7 @@ ppvis
 
 			=>nrel_realisation_of_final_certification:
 				exam;;
+				->rrel_teacher: Serdukov_R_E;;
 			=>nrel_term: 3;;
 			=>nrel_realisation_of_intermediate_control: course_project_on_ppvis_4_year_education;;
 			*);
@@ -64,6 +65,7 @@ ppvis
 
 			=>nrel_realisation_of_final_certification:
 				exam;;
+				->rrel_teacher: Serdukov_R_E;;
 			=>nrel_term: 4;;
 			*);
 		ppvis_4_year_3
@@ -87,6 +89,7 @@ ppvis
 					*);;
 				=>nrel_realisation_of_final_certification:
 					exam;;
+					->rrel_teacher: Serdukov_R_E;;
 				=>nrel_term: 5;;
 			*);
 

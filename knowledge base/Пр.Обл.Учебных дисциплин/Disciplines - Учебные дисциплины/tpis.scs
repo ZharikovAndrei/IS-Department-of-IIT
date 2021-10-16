@@ -43,6 +43,7 @@ tpis
 						(*
 							->rrel_realisation_of_learning_activity: lecture; laboratory_work; practical_lesson;;
 							<-nrel_taught_subject;;
+							->rrel_teacher: Golenkov_V_V;;
 						*);;
 			=>nrel_term: 7;;
 			=>nrel_realisation_of_intermediate_control: course_project_on_tpis;;

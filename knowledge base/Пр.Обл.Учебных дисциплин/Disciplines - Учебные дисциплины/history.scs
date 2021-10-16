@@ -35,6 +35,7 @@ history
 	(*
 	->rrel_realisation_of_learning_activity: lecture; practical_lesson;;
 	<-nrel_taught_subject;;
+	->rrel_teacher: Nikolaeva_L_V;;
 	*);
 =>nrel_term: 1;;
 

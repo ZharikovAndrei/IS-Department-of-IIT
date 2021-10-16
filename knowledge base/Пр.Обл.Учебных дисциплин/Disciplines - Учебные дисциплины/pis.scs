@@ -35,6 +35,7 @@ pis
 				(*
 				->rrel_realisation_of_learning_activity: lecture; laboratory_work;;
 				<-nrel_taught_subject;;
+				->rrel_teacher: Zakharov_V_V;;
 				*);;
 			=>nrel_term: 8;;
 			*);

@@ -2,10 +2,37 @@ opip
 =>nrel_main_idtf: [Основы психологии и педагогики] (*<-lang_ru;;*);
 =>nrel_main_idtf: [Basics of psychology and pedagogy] (*<-lang_en;;*);
 <=nrel_trains: the_department_of_engineer_phycology_and_ergonomics;
-<=nrel_class_number: 4(* <-positive_number;;*);
-<=nrel_semester_number: 7(* <-positive_number;;*);
+<=nrel_class_number: 2(* <-positive_number;;*);
+<=nrel_semester_number: 3(* <-positive_number;;*);
 <=nrel_lecture_hours: 34(*<-positive_number;;*);
 <=nrel_practice_hours: 34(*<-positive_number;;*);
 <=nrel_component: concept_mandatory_component;
 <=nrel_cycle: concept_tsikl_sotsialno_gumanitarnykh_distsiplin;;
+opip
+<=nrel_realisation_of_learning_activity:
+	lectures_on_opip
+	(*=>nrel_main_idtf:
+[Основы психологии и педагогики.лекции] (* <-lang_ru;; *);;
+=>nrel_planned_hours:34;;
+	=>nrel_realisation_of_intermediate_control:
+		control_work;;
+		<-lecture;;
+	*);
+	pactical_on_opip
+	(*=>nrel_main_idtf:
+[Основы психологии и педагогики.практика] (* <-lang_ru;; *);;
+=>nrel_planned_hours:34;;
+	=>nrel_realisation_of_intermediate_control:
+		control_work;;
+		<-practical_lesson;;
+	*);
+=>nrel_realisation_of_final_certification: test;
+<-rrel_subject:
+	...
+	(*
+	->rrel_realisation_of_learning_activity: lecture; practical_lesson;;
+	<-nrel_taught_subject;;
+	->rrel_teacher: Kurakevich_N_I;;
+	*);
+=>nrel_term: 3;;
 

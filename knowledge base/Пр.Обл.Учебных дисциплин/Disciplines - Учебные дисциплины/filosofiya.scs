@@ -33,6 +33,7 @@ philosophy
 	(*
 	->rrel_realisation_of_learning_activity: lecture; practical_lesson;;
 	<-nrel_taught_subject;;
+	->rrel_teacher: Malykhina_G_I;;
 	*);
 =>nrel_term: 1;;
 
