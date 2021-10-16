@@ -3,12 +3,45 @@ physics
 =>nrel_main_idtf: [Physics] (*<-lang_en;;*);
 <=nrel_trains: the_department_of_physics;
 <=nrel_class_number: 1(* <-positive_number;;*);
-<=nrel_class_number: 2(* <-positive_number;;*);
 <=nrel_semester_number: 2(* <-positive_number;;*);
-<=nrel_semester_number: 3(* <-positive_number;;*);
-<=nrel_semester_number: 4(* <-positive_number;;*);
-<=nrel_lecture_hours: 118(*<-positive_number;;*);
-<=nrel_labs_hours: 54(*<-positive_number;;*);
-<=nrel_practice_hours: 50(*<-positive_number;;*);
+<=nrel_lecture_hours: 50(*<-positive_number;;*);
+<=nrel_labs_hours: 16(*<-positive_number;;*);
+<=nrel_practice_hours: 18(*<-positive_number;;*);
 <=nrel_component: concept_mandatory_component;
 <=nrel_cycle: concept_tsikl_estesstvenno_nauchnykh_distsiplin;;
+physics
+<=nrel_realisation_of_learning_activity:
+	lectures_on_physics
+	(*=>nrel_main_idtf:
+[Физика.лекции] (* <-lang_ru;; *);;
+=>nrel_planned_hours:50;;
+	=>nrel_realisation_of_intermediate_control:
+		control_work;;
+		<-lecture;;
+	*);
+	pactical_on_physics
+	(*=>nrel_main_idtf:
+[Физика.практика] (* <-lang_ru;; *);;
+=>nrel_planned_hours:16;;
+	=>nrel_realisation_of_intermediate_control:
+		control_work;;
+		<-practical_lesson;;
+	*);
+	laboratory_work_physics
+		(*=>nrel_main_idtf:
+		[Физика.лабораторный практикум] (* <-lang_ru;; *);;
+		=>nrel_planned_hours:18;;
+		=>nrel_realisation_of_intermediate_control:
+			protection_of_laboratory_work;;
+		<-laboratory_work	;;
+		*);
+=>nrel_realisation_of_final_certification: exam;
+<-rrel_subject:
+	...
+	(*
+	->rrel_realisation_of_learning_activity: lecture; practical_lesson; laboratory_work;;
+	<-nrel_taught_subject;;
+	->rrel_teacher: Berezin_A_V;;
+	*);
+=>nrel_term: 1;;
+

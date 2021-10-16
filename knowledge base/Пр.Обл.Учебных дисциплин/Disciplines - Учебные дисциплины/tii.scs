@@ -31,6 +31,6 @@ artificial_intelligence_technology
 	(*
 	->rrel_realisation_of_learning_activity: lecture; practical_lesson;;
 	<-nrel_taught_subject;;
-	->rrel_teacher: Gulyakina_N_A;;
+	->rrel_teacher: Golenkov_V_V;;
 	*);
 =>nrel_term: 2;;

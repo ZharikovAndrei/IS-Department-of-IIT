@@ -39,7 +39,7 @@ kmzi
 			(*
 				->rrel_realisation_of_learning_activity: laboratory_work;;
 				<-nrel_taught_subject;;
-				->rrel_teacher: Lobkovskaya_Nadejda_Pavlovna;;
+				->rrel_teacher: Zakharov_V_V;;
 			*);
 =>nrel_term: 9;
 

@@ -82,83 +82,7 @@ eyaiis
 					=>nrel_term: 7;;
 				*);;
 			*);
-	eyaiis_5_year
-	(*
-	<=nrel_subdividing:
-
-		eyaiis_5_year_1
-		(*
-
-				<-multiplicity_of_subjects_taught_in_the_7_term_specialty_artificial_intelligence_5_year_education;;
-				<=nrel_realisation_of_learning_activity:
-
-					lectures_on_eyaiis_5_year_1
-						(*=>nrel_main_idtf:
-				[Естественно-языковой интерфейс интеллектуальных систем.часть 1.лекции] (* <-lang_ru;; *);;
-				=>nrel_planned_hours:80;;
-						=>nrel_realisation_of_intermediate_control:
-							control_work;;
-							<-lecture;;
-						*);
-					practical_lesson_on_eyaiis_5_year_1
-						(*=>nrel_main_idtf:
-				[Естественно-языковой интерфейс интеллектуальных систем.часть 1.практические занятия] (* <-lang_ru;; *);;
-				=>nrel_planned_hours:16;;
-						=>nrel_realisation_of_intermediate_control:
-							protection_of_practical_work;;
-						<-practical_lesson;;
-						*);
-					laboratory_work_on_eyaiis_5_year_1
-						(*=>nrel_main_idtf:
-				[Естественно-языковой интерфейс интеллектуальных систем.часть 1.лабораторный практикум] (* <-lang_ru;; *);;
-				=>nrel_planned_hours:48;;
-						=>nrel_realisation_of_intermediate_control:
-							protection_of_laboratory_work;;
-						<-laboratory_work	;;
-						*);;
-				=>nrel_realisation_of_final_certification: test;;
-				<-rrel_subject:
-				...
-				(*
-					->rrel_realisation_of_learning_activity: lecture; laboratory_work; practical_lesson;;
-					<-nrel_taught_subject;;
-					->rrel_teacher: Gicevich_Uriy_Stanislavovich;;
-				*);;
-				=>nrel_term: 7;;
-			*);
-
-		eyaiis_5_year_2
-		(*
-
-				<-multiplicity_of_subjects_taught_in_the_8_term_specialty_artificial_intelligence_5_year_education;;
-				<=nrel_realisation_of_learning_activity:
-				lectures_on_eyaiis_5_year_2
-					(*=>nrel_main_idtf:
-	[Естественно-языковой интерфейс интеллектуальных систем.часть 2.лекции] (* <-lang_ru;; *);;
-	=>nrel_planned_hours:80;;
-					=>nrel_realisation_of_intermediate_control:
-						control_work;;
-						<-lecture;;
-					*);
-				laboratory_work_on_eyaiis_5_year_2
-					(*=>nrel_main_idtf:
-	[Естественно-языковой интерфейс интеллектуальных систем.часть 2.лабораторный практикум] (* <-lang_ru;; *);;
-	=>nrel_planned_hours:48;;
-					=>nrel_realisation_of_intermediate_control:
-						protection_of_laboratory_work;;
-					<-laboratory_work	;;
-					*);;
-				=>nrel_realisation_of_final_certification: exam;;
-				<-rrel_subject:
-				...
-				(*
-					->rrel_realisation_of_learning_activity: lecture; laboratory_work;;
-					<-nrel_taught_subject;;
-					->rrel_teacher: Gicevich_Uriy_Stanislavovich;;
-				*);;
-				=>nrel_term: 8;;
-			*);;
-		*);
+	
 
  <=nrel_trains: the_department_of_intelligent_informational_technologies;
  <=nrel_class_number: 4(* <-positive_number;;*);
@@ -171,9 +95,6 @@ eyaiis
 eyaiis_4_year
 =>nrel_main_idtf:
 	[Естественно-языковой интерфейс интеллектуальных систем по 4-летней программе] (* <-lang_ru;; *);;
-eyaiis_5_year
-=>nrel_main_idtf:
-	[Естественно-языковой интерфейс интеллектуальных систем по 5-летней программе] (* <-lang_ru;; *);;
 
 eyaiis_4_year_1
 =>nrel_main_idtf:
@@ -181,9 +102,4 @@ eyaiis_4_year_1
 eyaiis_4_year_2
 =>nrel_main_idtf:
 	[Естественно-языковой интерфейс интеллектуальных систем по 4-летней программе.часть 2.] (* <-lang_ru;; *);;
-eyaiis_5_year_1
-=>nrel_main_idtf:
-	[Естественно-языковой интерфейс интеллектуальных систем по 5-летней программе.часть 1.] (* <-lang_ru;; *);;
-eyaiis_5_year_2
-=>nrel_main_idtf:
-	[Естественно-языковой интерфейс интеллектуальных систем по 5-летней программе.часть 2.] (* <-lang_ru;; *);;
+

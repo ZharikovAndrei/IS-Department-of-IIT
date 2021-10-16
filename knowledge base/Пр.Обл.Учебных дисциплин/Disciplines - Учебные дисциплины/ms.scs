@@ -37,130 +37,18 @@ multi_agent_systems
 			->rrel_teacher: Gulyakina_N_A;;
 			*);;
 		=>nrel_term: 2;;
-		*);
-	ms_ai_extramural_education
-		(*
-			<-multiplicity_of_subjects_taught_in_the_2_term_magistracy_extramural_education_specialty_artificial_intelligence;;
-			<=nrel_realisation_of_learning_activity:
-
-			laboratory_work_on_ms_ai_extramural_education
-				(*=>nrel_main_idtf:
-				[Многоагентные системы ИИ (для заочной формы обучения).лабораторный практикум] (* <-lang_ru;; *);;
-				=>nrel_planned_hours:34;;
-				=>nrel_realisation_of_intermediate_control:
-					protection_of_laboratory_work;;
-				<-laboratory_work	;;
-				*);
-			lectures_on_ms_ai_extramural_education
-				(*=>nrel_main_idtf:
-				[Многоагентные системы ИИ (для заочной формы обучения).лекции] (* <-lang_ru;; *);;
-				=>nrel_planned_hours:34;;
-				=>nrel_realisation_of_intermediate_control:
-					control_work;;
-					<-lecture;;
-				*);;
-		=>nrel_realisation_of_final_certification: exam;;
-		=>nrel_realisation_of_intermediate_control: control_work;;
-		<-rrel_subject:
-			...
-			(*
-			->rrel_realisation_of_learning_activity: lecture; laboratory_work;;
-			<-nrel_taught_subject;;
-			->rrel_teacher: Gulyakina_N_A;;
-			*);;
-		=>nrel_term: 2;;
-		*);
-	ms_tfocs
-		(*
-		<-multiplicity_of_subjects_taught_in_the_1_term_magistracy_specialty_teoretical_foundations_of_computer_science;;
-		<=nrel_realisation_of_learning_activity:
-
-		laboratory_work_on_ms_tfocs
-			(*=>nrel_main_idtf:
-			[Многоагентные системы ТОИ.лабораторный практикум] (* <-lang_ru;; *);;
-			=>nrel_planned_hours:34;;
-			=>nrel_realisation_of_intermediate_control:
-				protection_of_laboratory_work;;
-			<-laboratory_work	;;
-			*);
-		lectures_on_ms_tfocs
-			(*=>nrel_main_idtf:
-			[Многоагентные системы ТОИ.лекции] (* <-lang_ru;; *);;
-			=>nrel_planned_hours:34;;
-			=>nrel_realisation_of_intermediate_control:
-				control_work;;
-				<-lecture;;
-			*);;
-	=>nrel_realisation_of_final_certification: test;;
-	<-rrel_subject:
-		...
-		(*
-		->rrel_realisation_of_learning_activity: lecture; laboratory_work;;
-		<-nrel_taught_subject;;
-		->rrel_teacher: Gulyakina_N_A;;
 		*);;
-	=>nrel_term: 1;;
-	*);
- ms_tfocs_extramural_education
-	(*
-	<-multiplicity_of_subjects_taught_in_the_1_term_magistracy_extramural_education_specialty_teoretical_foundations_of_computer_science;;
-	<=nrel_realisation_of_learning_activity:
-
-			laboratory_work_on_ms_tfocs_extramural_education
-			(*=>nrel_main_idtf:
-			[Многоагентные системы ТОИ (для заочной формы обучения).лабораторный практикум] (* <-lang_ru;; *);;
-			=>nrel_planned_hours:34;;
-			=>nrel_realisation_of_intermediate_control:
-				protection_of_laboratory_work;;
-			<-laboratory_work	;;
-			*);
-		lectures_on_ms_tfocs_extramural_education
-			(*=>nrel_main_idtf:
-			[Многоагентные системы ТОИ (для заочной формы обучения).лекции] (* <-lang_ru;; *);;
-			=>nrel_planned_hours:34;;
-			=>nrel_realisation_of_intermediate_control:
-				control_work;;
-				<-lecture;;
-			*);;
-	=>nrel_realisation_of_final_certification: test;;
-	=>nrel_realisation_of_intermediate_control: control_work;;
-	<-rrel_subject:
-		...
-		(*
-		->rrel_realisation_of_learning_activity: lecture; laboratory_work;;
-		<-nrel_taught_subject;;
-		->rrel_teacher: Gulyakina_N_A;;
-		*);;
-	=>nrel_term: 1;;
-	*);;
+	
 
 
 ms_ai
-=>nrel_main_idtf:
-	[Многоагентные системы ИИ] (* <-lang_ru;; *);
-=>nrel_main_idtf:
-	[Multi agent systems AI] (* <-lang_en;; *);;
-ms_ai_extramural_education
-=>nrel_main_idtf:
-	[Многоагентные системы (для заочной формы обучения)] (* <-lang_ru;; *);
-=>nrel_main_idtf:
-	[Multi agent systems AI (extramural education)] (* <-lang_en;; *);;
-ms_tfocs
-=>nrel_main_idtf:
-	[Многоагентные системы ТОИ] (* <-lang_ru;; *);
-=>nrel_main_idtf:
-	[Multi agent systems TFoCS] (* <-lang_en;; *);;
-ms_tfocs_extramural_education
-=>nrel_main_idtf:
-	[Многоагентные системы ТОИ (для заочной формы обучения)] (* <-lang_ru;; *);
-=>nrel_main_idtf:
-	[Multi agent systems TFoCS (extramural education)] (* <-lang_en;; *);;
+=>nrel_main_idtf: [Многоагентные системы ИИ] (* <-lang_ru;; *);
+=>nrel_main_idtf: [Multi agent systems AI] (* <-lang_en;; *);;
+
+
 
 Gulyakina_N_A=>nrel_can_teach_subject:ms_ai;ms_ai_extramural_education;ms_tfocs;ms_tfocs_extramural_education;;
-Gulyakina_N_A<=nrel_educational_work:laboratory_work_on_ms_ai;lectures_on_ms_ai;
-						  laboratory_work_on_ms_ai_extramural_education;
-						  lectures_on_ms_ai_extramural_education;
-						  laboratory_work_on_ms_tfocs;
-						  lectures_on_ms_tfocs;
-						  laboratory_work_on_ms_tfocs_extramural_education;
-						  lectures_on_ms_tfocs_extramural_education;;
+Gulyakina_N_A<=nrel_educational_work:laboratory_work_on_ms_ai;lectures_on_ms_ai;;
+					
+					
+					

@@ -1,0 +1,28 @@
+belarussian_language
+=>nrel_main_idtf: [белорусский язык] (*<-lang_ru;;*);
+=>nrel_main_idtf: [belarussian_language] (*<-lang_en;;*);
+<=nrel_trains: the_department_of_humanities;
+<=nrel_class_number: 1(* <-positive_number;;*);
+<=nrel_semester_number: 1(* <-positive_number;;*);
+<=nrel_practice_hours: 40(*<-positive_number;;*);
+<=nrel_component: concept_mandatory_component;
+<=nrel_cycle: concept_tsikl_sotsialno_gumanitarnykh_distsiplin;;
+belarussian_language
+<=nrel_realisation_of_learning_activity:
+	pactical_on_belarussian_language
+	(*=>nrel_main_idtf: [Философия.практика] (* <-lang_ru;; *);;
+=>nrel_planned_hours:34;;
+	=>nrel_realisation_of_intermediate_control:
+		control_work;;
+		<-practical_lesson;;
+	*);
+=>nrel_realisation_of_final_certification: test;
+<-rrel_subject:
+	...
+	(*
+	->rrel_realisation_of_learning_activity: practical_lesson;;
+	<-nrel_taught_subject;;
+	->rrel_teacher: Nikolaeva_L_V;;
+	*);
+=>nrel_term: 1;;
+

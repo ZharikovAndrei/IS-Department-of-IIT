@@ -31,9 +31,7 @@ lectures_on_ispis
 	(*
 	->rrel_realisation_of_learning_activity: lecture; laboratory_work;;
 	<-nrel_taught_subject;;
-	->rrel_teacher: Kolb_D_G;;
+	->rrel_teacher: Zakharov_V_V;;
 	*);
 =>nrel_term: 2;;
 
-Kolb_D_G=>nrel_can_teach_subject:ispis;ispis_z;;
-Kolb_D_G<=nrel_educational_work:laboratory_work_on_ispis;lectures_on_ispis;lectures_on_ispis_z;laboratory_work_on_ispis_z;;

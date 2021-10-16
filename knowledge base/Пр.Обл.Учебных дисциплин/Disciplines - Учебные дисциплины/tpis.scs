@@ -43,48 +43,15 @@ tpis
 						(*
 							->rrel_realisation_of_learning_activity: lecture; laboratory_work; practical_lesson;;
 							<-nrel_taught_subject;;
-							->rrel_teacher: Grakova_N_V;;
+							->rrel_teacher: Golenkov_V_V;;
 						*);;
 			=>nrel_term: 7;;
 			=>nrel_realisation_of_intermediate_control: course_project_on_tpis;;
 		*);
-	tpis_5_year_education
-		(*
-			<-multiplicity_of_subjects_taught_in_the_7_term_specialty_artificial_intelligence_5_year_education;;
-			<=nrel_realisation_of_learning_activity:
-
-					lectures_on_tpis_5_year_education
-						(*=>nrel_main_idtf:
-		[Технология проектирования интеллектуальных систем по 5-летней программе.лекции] (* <-lang_ru;; *);;
-		=>nrel_planned_hours:32;;
-						=>nrel_realisation_of_intermediate_control:
-							control_work;;
-							<-lecture;;
-						*);
-					laboratory_work_on_tpis_5_year_education
-						(*=>nrel_main_idtf:
-		[Технология проектирования интеллектуальных систем по 5-летней программе.лабораторный практикум] (* <-lang_ru;; *);;
-		=>nrel_planned_hours:32;;
-						=>nrel_realisation_of_intermediate_control:
-							protection_of_laboratory_work;;
-						<-laboratory_work	;;
-						*);;
-			=>nrel_realisation_of_final_certification: exam;;
-			<-rrel_subject:
-						...
-						(*
-							->rrel_realisation_of_learning_activity: lecture; laboratory_work;;
-							<-nrel_taught_subject;;
-							->rrel_teacher: Grakova_N_V;;
-						*);;
-			=>nrel_term: 7;;
-			=>nrel_realisation_of_intermediate_control: course_project_on_tpis;;
-		*);
-
+	
 <=nrel_trains: the_department_of_intelligent_informational_technologies;
 <=nrel_class_number: 4(* <-positive_number;;*);
 <=nrel_semester_number: 7(* <-positive_number;;*);
-<=nrel_semester_number: 8(* <-positive_number;;*);
 <=nrel_course_work_hours: 16(*<-positive_number;;*);
 <=nrel_component: concept_mandatory_component;
 <=nrel_cycle: concept_tsikl_obshcheprofessionalnykh_i_spetsialnykh_distsiplin;;
@@ -92,8 +59,4 @@ tpis
 	tpis_4_year_education
 	=>nrel_main_idtf:
 		[Технология проектирования интеллектуальных систем по 4-летней программе] (* <-lang_ru;; *);;
-	tpis_5_year_education
-	=>nrel_main_idtf:
-		[Технология проектирования интеллектуальных систем по 5-летней программе] (* <-lang_ru;; *);;
-Grakova_N_V=>nrel_can_teach_subject:tpis;;
-Grakova_N_V<=nrel_educational_work:laboratory_work_on_tpis_4_year_education;practical_lesson_on_tpis_4_year_education;;
+	
