@@ -32,7 +32,7 @@ language_processors_of_intelligent_systems
 	(*
 	->rrel_realisation_of_learning_activity: lecture; laboratory_work;;
 	<-nrel_taught_subject;;
-	->rrel_teacher: Serdykov_R_E;;
+	->rrel_teacher: Serdyukov_R_E;;
 	*);
 =>nrel_term: 6;
 

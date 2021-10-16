@@ -89,7 +89,7 @@ ppvis
 					*);;
 				=>nrel_realisation_of_final_certification:
 					exam;;
-					->rrel_teacher: Serdukov_R_E;;
+					->rrel_teacher: Serdyukov_R_E;;
 				=>nrel_term: 5;;
 			*);
 
