@@ -10,8 +10,8 @@ Brunner_Anton_Yuorevich => nrel_main_idtf:[Бруннер Антон Юрьев�
 Butrin_Stanislav_Vladimirovich <- student; <-person; <-ui_user;;
 Butrin_Stanislav_Vladimirovich => nrel_main_idtf:[Бутрин Станислав Владимирович] (* <-lang_ru;; *);;
 
-Vasilevskiy_Vladislav_Sergeevich <- student; <-person; <-ui_user;;
-Vasilevskiy_Vladislav_Sergeevich => nrel_main_idtf:[Василевский Владислав Сергеевич] (* <-lang_ru;; *);;
+Vasilevskii_Vladislav_Sergeevich <- student; <-person; <-ui_user;;
+Vasilevskii_Vladislav_Sergeevich => nrel_main_idtf:[Василевский Владислав Сергеевич] (* <-lang_ru;; *);;
 
 Vitushko_Lidiya_Dmitrievna <- student; <-person; <-ui_user;;
 Vitushko_Lidiya_Dmitrievna => nrel_main_idtf:[Витушко Лидия Дмитриевна] (* <-lang_ru;; *);;
@@ -22,20 +22,20 @@ Gontarev_Ilya_Vladimirovich => nrel_main_idtf:[Гонтарев Илья Вла�
 Gritsel_Ivan_Aleksandrovich <- student; <-person; <-ui_user;;
 Gritsel_Ivan_Aleksandrovich => nrel_main_idtf:[Грицель Иван Александрович] (* <-lang_ru;; *);;
 
-Diskusar_Vladimir_Yuorevich <- student; <-person; <-ui_user;;
-Diskusar_Vladimir_Yuorevich => nrel_main_idtf:[Дикусар Владимир Юрьевич] (* <-lang_ru;; *);;
+Dikusar_Vladimir_Yuorevich <- student; <-person; <-ui_user;;
+Dikusar_Vladimir_Yuorevich => nrel_main_idtf:[Дикусар Владимир Юрьевич] (* <-lang_ru;; *);;
 
 Zhirko_Mariya_Sergeevna <- student; <-person; <-ui_user;;
 Zhirko_Mariya_Sergeevna => nrel_main_idtf:[Жирко Мария Сергеевна] (* <-lang_ru;; *);;
 
-Zalesskiy_Aleksandr_Andreevich <- student; <-person; <-ui_user;;
-Zalesskiy_Aleksandr_Andreevich => nrel_main_idtf:[Залесский Александр Андреевич] (* <-lang_ru;; *);;
+Zalesskii_Aleksandr_Andreevich <- student; <-person; <-ui_user;;
+Zalesskii_Aleksandr_Andreevich => nrel_main_idtf:[Залесский Александр Андреевич] (* <-lang_ru;; *);;
 
 Zubritskaya_Valeriya_Gennadevna <- student; <-person; <-ui_user;;
 Zubritskaya_Valeriya_Gennadevna => nrel_main_idtf:[Зубрицкая Валерия Геннадьевна] (* <-lang_ru;; *);;
 
-Kazachenko_Evgeniy_Aleksandrovich <- student; <-person; <-ui_user;;
-Kazachenko_Evgeniy_Aleksandrovich => nrel_main_idtf:[Казаченко Евгений Александрович] (* <-lang_ru;; *);;
+Kazachenko_Evgenii_Aleksandrovich <- student; <-person; <-ui_user;;
+Kazachenko_Evgenii_Aleksandrovich => nrel_main_idtf:[Казаченко Евгений Александрович] (* <-lang_ru;; *);;
 
 Kisilev_Nikita_Vladimirovich <- student; <-person; <-ui_user;;
 Kisilev_Nikita_Vladimirovich => nrel_main_idtf:[Киселёв Никита Владимирович] (* <-lang_ru;; *);;
@@ -46,14 +46,14 @@ Klevtsevich_Aleksandr_Vladimirovich => nrel_main_idtf:[Клевцевич Але
 Kozlov_Kirill_Aleksandrovich  <- student; <-person; <-ui_user;;
 Kozlov_Kirill_Aleksandrovich  => nrel_main_idtf:[Козлов Кирилл Александрович] (* <-lang_ru;; *);;
 
-Kozlovskiy_Pavel_Aleksandrovich <- student; <-person; <-ui_user;;
-Kozlovskiy_Pavel_Aleksandrovich => nrel_main_idtf:[Козловский Павел Александрович] (* <-lang_ru;; *);;
+Kozlovskii_Pavel_Aleksandrovich <- student; <-person; <-ui_user;;
+Kozlovskii_Pavel_Aleksandrovich => nrel_main_idtf:[Козловский Павел Александрович] (* <-lang_ru;; *);;
 
 Makarchuk_Egor_Valerevich <- student; <-person; <-ui_user;;
 Makarchuk_Egor_Valerevich => nrel_main_idtf:[Макарчук Егор Валерьевич] (* <-lang_ru;; *);;
 
-Nikipelov_Alexey_Dmitrtievich <- student; <-person; <-ui_user;;
-Nikipelov_Alexey_Dmitrtievich => nrel_main_idtf:[Никипелов Алексей Дмитриевич] (* <-lang_ru;; *);;
+Nikipelov_Aleksei_Dmitrtievich <- student; <-person; <-ui_user;;
+Nikipelov_Aleksei_Dmitrtievich => nrel_main_idtf:[Никипелов Алексей Дмитриевич] (* <-lang_ru;; *);;
 
 Pashkevich_Vladislav_Leonidovich <- student; <-person; <-ui_user;;
 Pashkevich_Vladislav_Leonidovich => nrel_main_idtf:[Пашкевич Владислав Леонидович] (* <-lang_ru;; *);;
@@ -85,14 +85,15 @@ Holupko_Aleksandr_Andreevich => nrel_main_idtf:[Холупко Александ�
 Chudopal_Aleksandr_Sergevich <- student; <-person; <-ui_user;;
 Chudopal_Aleksandr_Sergevich => nrel_main_idtf:[Чудопал Александр Сергеевич] (* <-lang_ru;; *);;
 
-Schadrin_Evgeniy_Dmitrievich <- student; <-person; <-ui_user;;
-Schadrin_Evgeniy_Dmitrievich => nrel_main_idtf:[Шадрин Евгений Дмитриевич] (* <-lang_ru;; *);;
+Schadrin_Evgenii_Dmitrievich <- student; <-person; <-ui_user;;
+Schadrin_Evgenii_Dmitrievich => nrel_main_idtf:[Шадрин Евгений Дмитриевич] (* <-lang_ru;; *);;
 
-Yasinskiy_Nikita_Maksimovich <- student; <-person; <-ui_user;;
-Yasinskiy_Nikita_Maksimovich => nrel_main_idtf:[Ясинский Никита Максимович] (* <-lang_ru;; *);;
+Yasinskii_Nikita_Maksimovich <- student; <-person; <-ui_user;;
+Yasinskii_Nikita_Maksimovich => nrel_main_idtf:[Ясинский Никита Максимович] (* <-lang_ru;; *);;
 
-Aniskovich_Alexey_Dmitrievich <- student; <-person; <-ui_user;;
-Aniskovich_Alexey_Dmitrievich => nrel_main_idtf:[Анискович Алексей Дмитриевич] (* <-lang_ru;; *);;
+
+
+
 
 Antonov_Anton_Nikolaevich <- student; <-person; <-ui_user;;
 Antonov_Anton_Nikolaevich => nrel_main_idtf:[Антонов Антон Николаевич] (* <-lang_ru;; *);;
@@ -103,8 +104,11 @@ Astapovich_Olga_Sergeevna => nrel_main_idtf:[Астапович Ольга Се�
 Bogomolov_Danil_Vladimirovich <- student; <-person; <-ui_user;;
 Bogomolov_Danil_Vladimirovich => nrel_main_idtf:[Богомолов Данил Владимирович] (* <-lang_ru;; *);;
 
-Buriy_Vladislav_Viktorovich <- student; <-person; <-ui_user;;
-Buriy_Vladislav_Viktorovich => nrel_main_idtf:[Бурый Владислав Викторович] (* <-lang_ru;; *);;
+Buryi_Vladislav_Viktorovich <- student; <-person; <-ui_user;;
+Buryi_Vladislav_Viktorovich => nrel_main_idtf:[Бурый Владислав Викторович] (* <-lang_ru;; *);;
+
+Glushchenko_Elizaveta_Vladimirovna <- student; <-person; <-ui_user;;
+Glushchenko_Elizaveta_Vladimirovna => nrel_main_idtf:[Бурый Владислав Викторович] (* <-lang_ru;; *);;
 
 Drapun_Artem_Aleksandrovich <- student; <-person; <-ui_user;;
 Drapun_Artem_Aleksandrovich => nrel_main_idtf:[Драпун Артём Александрович] (* <-lang_ru;; *);;
@@ -115,14 +119,14 @@ Dykova_Yuliya_Leonidovna => nrel_main_idtf:[Дыкова Юлия Леонидо
 Efimova_Aleksandra_Aleksandrovna <- student; <-person; <-ui_user;;
 Efimova_Aleksandra_Aleksandrovna => nrel_main_idtf:[Ефимова Александра Александровна] (* <-lang_ru;; *);;
 
-Zaitsev_Dmitriy_Evgenevich <- student; <-person; <-ui_user;;
-Zaitsev_Dmitriy_Evgenevich => nrel_main_idtf:[Зайцев Дмитрий Евгеньевич] (* <-lang_ru;; *);;
+Zaitsev_Dmitrii_Evgenevich <- student; <-person; <-ui_user;;
+Zaitsev_Dmitrii_Evgenevich => nrel_main_idtf:[Зайцев Дмитрий Евгеньевич] (* <-lang_ru;; *);;
 
 Zaitsev_Nikita_Aleksandrovich <- student; <-person; <-ui_user;;
 Zaitsev_Nikita_Aleksandrovich => nrel_main_idtf:[Зайцев Никита Александрович] (* <-lang_ru;; *);;
 
-Ivanovskiy_Vladislav_Aleksandrovich <- student; <-person; <-ui_user;;
-Ivanovskiy_Vladislav_Aleksandrovich => nrel_main_idtf:[Ивановский Владислав Александрович] (* <-lang_ru;; *);;
+Ivanovskii_Vladislav_Aleksandrovich <- student; <-person; <-ui_user;;
+Ivanovskii_Vladislav_Aleksandrovich => nrel_main_idtf:[Ивановский Владислав Александрович] (* <-lang_ru;; *);;
 
 Kazakevich_Nikita_Dmitrievich <- student; <-person; <-ui_user;;
 Kazakevich_Nikita_Dmitrievich => nrel_main_idtf:[Казакевич Никита Дмитриевич] (* <-lang_ru;; *);;
@@ -139,23 +143,23 @@ Kondeev_Pavel_Yuorevich => nrel_main_idtf:[Кондеев Павел Юрьев�
 Krop_Alesya_Vyacheslavovna <- student; <-person; <-ui_user;;
 Krop_Alesya_Vyacheslavovna => nrel_main_idtf:[Кроп Алеся Вячеславовна] (* <-lang_ru;; *);;
 
-Kuzin_Alexey_Vladimirovich <- student; <-person; <-ui_user;;
-Kuzin_Alexey_Vladimirovich => nrel_main_idtf:[Кузин Алексей Владимирович] (* <-lang_ru;; *);;
+Kuzin_Aleksei_Vladimirovich <- student; <-person; <-ui_user;;
+Kuzin_Aleksei_Vladimirovich => nrel_main_idtf:[Кузин Алексей Владимирович] (* <-lang_ru;; *);;
 
-Makarevich_Dmitriy_Aleksandrovich <- student; <-person; <-ui_user;;
-Makarevich_Dmitriy_Aleksandrovich => nrel_main_idtf:[Макаревич Дмитрий Александрович] (* <-lang_ru;; *);;
+Makarevich_Dmitrii_Aleksandrovich <- student; <-person; <-ui_user;;
+Makarevich_Dmitrii_Aleksandrovich => nrel_main_idtf:[Макаревич Дмитрий Александрович] (* <-lang_ru;; *);;
 
 Makarchuk_Nikita_Dmitrievich <- student; <-person; <-ui_user;;
 Makarchuk_Nikita_Dmitrievich => nrel_main_idtf:[Макарчук Никита Дмитриевич] (* <-lang_ru;; *);;
 
-Malyavko_Evgeniy_Sergeevich <- student; <-person; <-ui_user;;
-Malyavko_Evgeniy_Sergeevich => nrel_main_idtf:[Малявко Евгений Сергеевич] (* <-lang_ru;; *);;
+Malyavko_Evgenii_Sergeevich <- student; <-person; <-ui_user;;
+Malyavko_Evgenii_Sergeevich => nrel_main_idtf:[Малявко Евгений Сергеевич] (* <-lang_ru;; *);;
 
 Mitrofanov_Egor_Vitalevich <- student; <-person; <-ui_user;;
 Mitrofanov_Egor_Vitalevich => nrel_main_idtf:[Митрофанов Егор Витальевич] (* <-lang_ru;; *);;
 
-Panin_Alexey_Denisovich <- student; <-person; <-ui_user;;
-Panin_Alexey_Denisovich => nrel_main_idtf:[Панин Алексей Денисович] (* <-lang_ru;; *);;
+Panin_Aleksei_Denisovich <- student; <-person; <-ui_user;;
+Panin_Aleksei_Denisovich => nrel_main_idtf:[Панин Алексей Денисович] (* <-lang_ru;; *);;
 
 Prohozhaya_Margarita_Sergeevna <- student; <-person; <-ui_user;;
 Prohozhaya_Margarita_Sergeevna => nrel_main_idtf:[Прохожая Маргарита Сергеевна] (* <-lang_ru;; *);;
@@ -166,11 +170,15 @@ Sidor_Valeriya_Anatolevna => nrel_main_idtf:[Сидор Валерия Анат�
 Hvesenya_Darya_Andreevna <- student; <-person; <-ui_user;;
 Hvesenya_Darya_Andreevna => nrel_main_idtf:[Хвесеня Дарья Андреевна] (* <-lang_ru;; *);;
 
-Schepko_Matvey_Tarasovich <- student; <-person; <-ui_user;;
-Schepko_Matvey_Tarasovich => nrel_main_idtf:[Шепко Матвей Тарасович] (* <-lang_ru;; *);;
+Shepko_Matvei_Tarasovich <- student; <-person; <-ui_user;;
+Shepko_Matvei_Tarasovich => nrel_main_idtf:[Шепко Матвей Тарасович] (* <-lang_ru;; *);;
 
 Shishko_Aleksandr_Sergeevich <- student; <-person; <-ui_user;;
 Shishko_Aleksandr_Sergeevich => nrel_main_idtf:[Шишко Александр Сергеевич] (* <-lang_ru;; *);;
+
+
+
+
 
 Andreev_Gleb_Sergeevich <- student; <-person; <-ui_user;;
 Andreev_Gleb_Sergeevich => nrel_main_idtf:[Андреев Глеб Сергеевич] (* <-lang_ru;; *);;
@@ -187,17 +195,17 @@ Ventskute_Viktoriya_Aleksandrovna => nrel_main_idtf:[Венцкуте Викто
 Verenich_Kirill_Olegovich <- student; <-person; <-ui_user;;
 Verenich_Kirill_Olegovich => nrel_main_idtf:[Веренич Кирилл Олегович] (* <-lang_ru;; *);;
 
-Vladimirskiy_Nikolay_Viktorovich <- student; <-person; <-ui_user;;
-Vladimirskiy_Nikolay_Viktorovich => nrel_main_idtf:[Владимирский Николай Викторович] (* <-lang_ru;; *);;
+Vladimirskii_Nikolai_Viktorovich <- student; <-person; <-ui_user;;
+Vladimirskii_Nikolai_Viktorovich => nrel_main_idtf:[Владимирский Николай Викторович] (* <-lang_ru;; *);;
 
-Dmitruk_Alexey_Aleksandrovich <- student; <-person; <-ui_user;;
-Dmitruk_Alexey_Aleksandrovich => nrel_main_idtf:[Дмитрук Алексей Александрович] (* <-lang_ru;; *);;
+Dmitruk_Aleksei_Aleksandrovich <- student; <-person; <-ui_user;;
+Dmitruk_Aleksei_Aleksandrovich => nrel_main_idtf:[Дмитрук Алексей Александрович] (* <-lang_ru;; *);;
 
-Dudnitskiy_Vladislav_Olegovich <- student; <-person; <-ui_user;;
-Dudnitskiy_Vladislav_Olegovich => nrel_main_idtf:[Дудницкий Владислав Олегович] (* <-lang_ru;; *);;
+Dudnitskii_Vladislav_Olegovich <- student; <-person; <-ui_user;;
+Dudnitskii_Vladislav_Olegovich => nrel_main_idtf:[Дудницкий Владислав Олегович] (* <-lang_ru;; *);;
 
-Kinevich_Timofey_Olegovich <- student; <-person; <-ui_user;;
-Kinevich_Timofey_Olegovich => nrel_main_idtf:[Киневич Тимофей Олегович] (* <-lang_ru;; *);;
+Kinevich_Timofei_Olegovich <- student; <-person; <-ui_user;;
+Kinevich_Timofei_Olegovich => nrel_main_idtf:[Киневич Тимофей Олегович] (* <-lang_ru;; *);;
 
 Kovel_Elisaveta_Petrovna <- student; <-person; <-ui_user;;
 Kovel_Elisaveta_Petrovna => nrel_main_idtf:[Ковель Елизавета Петровна] (* <-lang_ru;; *);;
@@ -229,8 +237,8 @@ Morozov_Aleksandr_Yuorevich => nrel_main_idtf:[Морозов Александр
 Nikadon_Vadim_Aleksandrovich <- student; <-person; <-ui_user;;
 Nikadon_Vadim_Aleksandrovich => nrel_main_idtf:[Никадон Вадим Александрович] (* <-lang_ru;; *);;
 
-Novitskiy_Robert_Dmitrievich <- student; <-person; <-ui_user;;
-Novitskiy_Robert_Dmitrievich => nrel_main_idtf:[Новицкий Роберт Дмитриевич] (* <-lang_ru;; *);;
+Novitskii_Robert_Dmitrievich <- student; <-person; <-ui_user;;
+Novitskii_Robert_Dmitrievich => nrel_main_idtf:[Новицкий Роберт Дмитриевич] (* <-lang_ru;; *);;
 
 Oleshkevich_Aleksandra_Sergeevna <- student; <-person; <-ui_user;;
 Oleshkevich_Aleksandra_Sergeevna => nrel_main_idtf:[Олешкевич Александра Сергеевна] (* <-lang_ru;; *);;
@@ -238,14 +246,14 @@ Oleshkevich_Aleksandra_Sergeevna => nrel_main_idtf:[Олешкевич Алек�
 Puzikov_Nikita_Aleksandrovich <- student; <-person; <-ui_user;;
 Puzikov_Nikita_Aleksandrovich => nrel_main_idtf:[Пузиков Никита Александрович] (* <-lang_ru;; *);;
 
-Sapezhinskiy_Evgeniy_Vyacheslavovich <- student; <-person; <-ui_user;;
-Sapezhinskiy_Evgeniy_Vyacheslavovich => nrel_main_idtf:[Сапежинский Евгений Вячеславович] (* <-lang_ru;; *);;
+Sapezhinskii_Evgenii_Vyacheslavovich <- student; <-person; <-ui_user;;
+Sapezhinskii_Evgenii_Vyacheslavovich => nrel_main_idtf:[Сапежинский Евгений Вячеславович] (* <-lang_ru;; *);;
 
 Stasko_Valeriya_Sergeevna <- student; <-person; <-ui_user;;
 Stasko_Valeriya_Sergeevna => nrel_main_idtf:[Стасько Валерия Сергеевна] (* <-lang_ru;; *);;
 
-Filippov_Nikita_Yuorevich <- student; <-person; <-ui_user;;
-Filippov_Nikita_Yuorevich => nrel_main_idtf:[Филиппов Никита Юрьевич] (* <-lang_ru;; *);;
+Filippov_Nikita_Yurevich <- student; <-person; <-ui_user;;
+Filippov_Nikita_Yurevich => nrel_main_idtf:[Филиппов Никита Юрьевич] (* <-lang_ru;; *);;
 
 Sheleg_Nikita_Vladimirovich <- student; <-person; <-ui_user;;
 Sheleg_Nikita_Vladimirovich => nrel_main_idtf:[Шелег Никита Владимирович] (* <-lang_ru;; *);;
@@ -258,6 +266,10 @@ Schur_Anton_Aleksandrovich => nrel_main_idtf:[Щур Антон Александ
 
 Yasucheya_Diana_Sergeevna <- student; <-person; <-ui_user;;
 Yasucheya_Diana_Sergeevna => nrel_main_idtf:[Ясюченя Диана Сергеевна] (* <-lang_ru;; *);;
+
+
+
+
 
 Vasilevskaya_Anastasiya_Pavlovna <- student; <-person; <-ui_user;;
 Vasilevskaya_Anastasiya_Pavlovna => nrel_main_idtf:[Василевская Анастасия Павловна] (* <-lang_ru;; *);;
@@ -286,8 +298,8 @@ Menkova_Elisaveta_Andreevna => nrel_main_idtf:[Менькова Елизавет
 Nenasheva_Alina_Sergeevna <- student; <-person; <-ui_user;;
 Nenasheva_Alina_Sergeevna => nrel_main_idtf:[Ненашева Алина Сергеевна] (* <-lang_ru;; *);;
 
-Panteley_Anna_Sergeevna <- student; <-person; <-ui_user;;
-Panteley_Anna_Sergeevna => nrel_main_idtf:[Пантелей Анна Сергеевна] (* <-lang_ru;; *);;
+Pantelei_Anna_Sergeevna <- student; <-person; <-ui_user;;
+Pantelei_Anna_Sergeevna => nrel_main_idtf:[Пантелей Анна Сергеевна] (* <-lang_ru;; *);;
 
 Petrovets_Ilya_Igorevich <- student; <-person; <-ui_user;;
 Petrovets_Ilya_Igorevich => nrel_main_idtf:[Петровец Илья Игоревич] (* <-lang_ru;; *);;
