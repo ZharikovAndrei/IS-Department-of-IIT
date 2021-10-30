@@ -1,0 +1,36 @@
+group_821702
+=>nrel_main_idtf:
+	[группа 821702] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[group 821702] (* <-lang_en;; *);
+->rrel_head_group:...;
+=>nrel_subdividing : ...(*->subgroup_821702_1;;
+			->subgroup_821702_2;;*);
+
+->Antonov_Anton_Nikolaevich;
+->Astapovich_Olga_Sergeevna;
+->Bogomolov_Danil_Vladimirovich;
+->Buryi_Vladislav_Viktorovich;
+->Glushchenko_Elizaveta_Vladimirovna;
+->Drapun_Artem_Aleksandrovich;
+->Dykova_Yuliya_Leonidovna;
+->Efimova_Aleksandra_Aleksandrovna;
+->Zaitsev_Dmitrii_Evgenevich;
+->Zaitsev_Nikita_Aleksandrovich;
+->Ivanovskiy_Vladislav_Aleksandrovich;
+->Kazakevich_Nikita_Dmitrievich;
+->Kandyba_Egor_Sergeevich;
+->Koval_Maksim_Sergeevich;
+->Kondeev_Pavel_Yuorevich;
+->Krop_Alesya_Vyacheslavovna;
+->Kuzin_Aleksei_Vladimirovich;
+->Makarevich_Dmitrii_Aleksandrovich;
+->Makarchuk_Nikita_Dmitrievich;
+->Malyavko_Evgenii_Sergeevich;
+->Mitrofanov_Egor_Vitalevich;
+->Panin_Aleksei_Denisovich;
+->Prohozhaya_Margarita_Sergeevna;
+->Sidor_Valeriya_Anatolevna;
+->Hvesenya_Darya_Andreevna;
+->Shepko_Matvei_Tarasovich;
+->Shishko_Aleksandr_Sergeevich;;

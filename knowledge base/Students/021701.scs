@@ -1,0 +1,35 @@
+group_021701
+=>nrel_main_idtf:
+	[группа 021701] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[group 021701] (* <-lang_en;; *);
+	->rrel_head_group:...;
+=>nrel_subdividing : ...(*->subgroup_021701_1;;
+			->subgroup_021701_2;;*);
+	
+->Garist_Rostislav_Andreevich;
+->Dudkov_Danila_Vasilievich;
+->Diatel_Kirill_Dmitrievich;
+->Karachun_Ivan_Vadimovich;
+->Konovalov_Timofei_Gennadievich;
+->Krasotskii_Maksim_Denisovich;
+->Krachkovskii_Andrei_Aleksandrovich;
+->Larin_Kirill_Konstantinovich;
+->Leleko_Nikita_Andreevich;
+->Lemeshevskii_Nikita_Aleksandrovich;
+->Linkevich_Aleksandr_Vasilievich;
+->Mazur_Grabovskii_Evgenii_Dmitrievich;
+->Malaev_Andrei_Andreevich;
+->Narysh_Darya_Aleksandrovna;
+->Nasevich_Pavel_Evgenievich;
+->Osenenko_German_Dmitrievich;
+->Protas_Semen_Aleksandrovich;
+->Rassafonov_Sergey_Dmitrievich;
+->Samchuk_Evgenii_Aleksandrovich;
+->Sedenevskii_Antoniy_Mechislavovich;
+->Seledtsov_Evgenii_Dmitrievich;
+->Skripko_Egor_Olegovich;
+->Filippov_Aleksandr_Alekseevich;
+->Khoroshavin_Vasilii_Denisovich;
+->Shaikovskii_Evgenii_Nikolaevich;
+->Shchetko_Andrei_Pavlovich;;
