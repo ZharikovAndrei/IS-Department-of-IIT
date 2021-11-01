@@ -1,0 +1,23 @@
+group_921704
+=>nrel_main_idtf:
+	[группа 921704] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[group 921704] (* <-lang_en;; *);
+->rrel_head_group:Tochkar_Alisa_Aleksandrovna;
+=>nrel_subdividing : ...(*->subgroup_921704_1;;
+			->subgroup_921704_2;;*);
+
+->Belous_Pavel_Aleksandrovich;
+->Vernikovskaya_Anastasiya_Viktorovna;
+->Vorontsov_Aleksandr_Dmitrievich;
+->Gnuda_Ilya_Sergeevich;
+->Gordienko_Vyacheslav_Aleksandrovich;
+->Zavatskii_Konstantin_Anatolevich;
+->Kozel_Anatolii_Sergeevich;
+->Meleshko_Aleksei_Sergeevich;
+->Nastochkin_Ilya_Sergeevich;
+->Ohlopkov_Daniil_Aleksandrovich;
+->Seredov_Andrei_Sergeevich;
+->Surinovich_Anton_Aleksandrovich;
+->Tochkar_Alisa_Aleksandrovna;
+->Shevchuk_Andrei_Vadimovich;;

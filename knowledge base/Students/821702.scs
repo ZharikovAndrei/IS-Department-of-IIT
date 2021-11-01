@@ -4,18 +4,18 @@ group_821702
 =>nrel_main_idtf:
 	[group 821702] (* <-lang_en;; *);
 ->rrel_head_group:...;
-=>nrel_subdividing : ...(*->subgroup821702_1;;
-			->subgroup821702_2;;*);
+=>nrel_subdividing : ...(*->subgroup_821702_1;;
+			->subgroup_821702_2;;*);
 
-->Aniskovich_Alexey_Dmitrievich;
 ->Antonov_Anton_Nikolaevich;
 ->Astapovich_Olga_Sergeevna;
 ->Bogomolov_Danil_Vladimirovich;
-->Buriy_Vladislav_Viktorovich;
+->Buryi_Vladislav_Viktorovich;
+->Glushchenko_Elizaveta_Vladimirovna;
 ->Drapun_Artem_Aleksandrovich;
 ->Dykova_Yuliya_Leonidovna;
 ->Efimova_Aleksandra_Aleksandrovna;
-->Zaitsev_Dmitriy_Evgenevich;
+->Zaitsev_Dmitrii_Evgenevich;
 ->Zaitsev_Nikita_Aleksandrovich;
 ->Ivanovskiy_Vladislav_Aleksandrovich;
 ->Kazakevich_Nikita_Dmitrievich;
@@ -23,13 +23,14 @@ group_821702
 ->Koval_Maksim_Sergeevich;
 ->Kondeev_Pavel_Yuorevich;
 ->Krop_Alesya_Vyacheslavovna;
-->Kuzin_Alexey_Vladimirovich;
-->Makarevich_Dmitriy_Aleksandrovich;
+->Kuzin_Aleksei_Vladimirovich;
+->Makarevich_Dmitrii_Aleksandrovich;
 ->Makarchuk_Nikita_Dmitrievich;
-->Malyavko_Evgeniy_Sergeevich;
+->Malyavko_Evgenii_Sergeevich;
 ->Mitrofanov_Egor_Vitalevich;
-->Panin_Alexey_Denisovich;
+->Panin_Aleksei_Denisovich;
 ->Prohozhaya_Margarita_Sergeevna;
 ->Sidor_Valeriya_Anatolevna;
 ->Hvesenya_Darya_Andreevna;
+->Shepko_Matvei_Tarasovich;
 ->Shishko_Aleksandr_Sergeevich;;

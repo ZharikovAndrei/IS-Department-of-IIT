@@ -1,0 +1,41 @@
+group_121702
+=>nrel_main_idtf:
+	[группа 121702] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[group 121702] (* <-lang_en;; *);
+->rrel_head_group:...;
+=>nrel_subdividing : ...(*->subgroup_121702_1;;
+			->subgroup_121702_2;;*);
+
+->Bazaka_Bogdan_Vladimirovich;
+->Bulanovich_Vyacheslav_Igorevich;
+->Vasilenko_Danila_Valerevich;
+->Vitkovskaya_Sofiya_Igorevna;
+->Golushko_Daniil_Sergeevich;
+->Gotin_Ignat_Andreevich;
+->Dyakov_Ivan_Vladimirovich;
+->Zalomov_Roman_Andreevich;
+->Zamorenov_Nikolai_Evgeneevich;
+->Zaharov_Pavel_Yurevich;
+->Zayats_Dmitrii_Aleksandrovich;
+->Kimstach_Daniil_Borisovich;
+->Koltovich_Denis_Sergeevich;
+->Korotkii_Mihail_Vladimirovich;
+->Kostyukov_Vladislav_Sergeevich;
+->Krivetskii_Aleksei_Eduardovich;
+->Kuleshov_Ilya_Vitalevich;
+->Letko_Aleksandr_Yurevich;
+->Moisevich_Aleksandra_Vyacheslavovna;
+->Nagla_Nikita_Yurevich;
+->Panovitsyna_Anastasiya_Alekseevna;
+->Pilat_Maksim_Dmitrievich;
+->Promchuk_Daniil_Vadimovich;
+->Puninskii_Igor_Dmitrievich;
+->Smolnik_Vladislav_Andreevich;
+->Symanovich_Roman_Yurevich;
+->Syun_Yuike;
+->Tselikov_Fedor_Vyacheslavovich;
+->Shakin_Ivan_Valerevich;
+->Shalygin_Matvei_Ivanovich;
+->Yushkevich_Vladislav_Sergeevich;
+->Yahya_zade_Ailin;;

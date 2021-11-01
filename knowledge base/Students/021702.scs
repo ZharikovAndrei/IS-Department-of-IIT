@@ -1,0 +1,33 @@
+group_021702
+=>nrel_main_idtf:
+	[группа 021702] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[group 021702] (* <-lang_en;; *);
+->rrel_head_group:...;
+=>nrel_subdividing : ...(*->subgroup_021702_1;;
+			->subgroup_021702_2;;*);
+
+->Bachilo_Gleb_Olegovich;
+->Belik_Sergey_Aleksandrovich;
+->Voishnis_Maya_Aleksandrovna;
+->Gurinovich_Artur_Aleksandrovich;
+->Dvoretskii_Arseniy_Sergeevich;
+->Degtereva_Anastasia_Aleksandrovna;
+->Karpenko_Lilia_Aleksandrovna;
+->Karpov_Kuzma_Viktorovich;
+->Kosar_Anastasia_Sergeevna;
+->Kulikovskii_Evgenii_Yuzefovich;
+->Kurdesov_Vadim_Aleksandrovich;
+->Leshko_Pavel_Sergeevich;
+->Loktev_Konstantin_Alekseevich;
+->Loktionov_Vadim_Arturovich;
+->Makarevich_Karina_Sergeevna;
+->Makhnach_Ilya_Aleksandrovich;
+->Mokhammadi_Ariana;
+->Petrov_Andrei_Ivanovich;
+->Pishch_Daniil_Ivanovich;
+->Platonov_Aleksandr_Vladimirovich;
+->Rebo_Aleksandra_Lvovna;
+->Sviridova_Maria_Olegovna;
+->Semchenkov_Nikita_Andreevich;
+->Yatskova_Veronika_Valerievna;;

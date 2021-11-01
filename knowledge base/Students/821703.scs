@@ -4,18 +4,18 @@ group_821703
 =>nrel_main_idtf:
 	[group 821703] (* <-lang_en;; *);
 ->rrel_head_group:...;
-=>nrel_subdividing : ...(*->subgroup821703_1;;
-			->subgroup821703_2;;*);
+=>nrel_subdividing : ...(*->subgroup_821703_1;;
+			->subgroup_821703_2;;*);
 
 ->Andreev_Gleb_Sergeevich;
 ->Bantsevich_Kseniya_Andreevna;
 ->Bogurov_Nikita_Egorovich;
 ->Ventskute_Viktoriya_Aleksandrovna;
 ->Verenich_Kirill_Olegovich;
-->Vladimirskiy_Nikolay_Viktorovich;
-->Dmitruk_Alexey_Aleksandrovich;
-->Dudnitskiy_Vladislav_Olegovich;
-->Kinevich_Timofey_Olegovich;
+->Vladimirskii_Nikolai_Viktorovich;
+->Dmitruk_Aleksei_Aleksandrovich;
+->Dudnitskii_Vladislav_Olegovich;
+->Kinevich_Timofei_Olegovich;
 ->Kovel_Elisaveta_Petrovna;
 ->Koktyshev_Ivan_Denisovich;
 ->Latysh_Maksim_Alekseevich;
@@ -29,9 +29,9 @@ group_821703
 ->Novitskiy_Robert_Dmitrievich;
 ->Oleshkevich_Aleksandra_Sergeevna;
 ->Puzikov_Nikita_Aleksandrovich;
-->Sapezhinskiy_Evgeniy_Vyacheslavovich;
+->Sapezhinskii_Evgenii_Vyacheslavovich;
 ->Stasko_Valeriya_Sergeevna;
-->Filippov_Nikita_Yuorevich;
+->Filippov_Nikita_Yurevich;
 ->Sheleg_Nikita_Vladimirovich;
 ->Shkut_Roman_Vladimirovich;
 ->Schur_Anton_Aleksandrovich;
