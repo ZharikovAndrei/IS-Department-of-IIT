@@ -43,8 +43,8 @@ Mazur_Grabovskii_Evgenii_Dmitrievich => nrel_main_idtf:[Мазур-Грабов�
 Malaev_Andrei_Andreevich  <- student; <-person; <-ui_user;;
 Malaev_Andrei_Andreevich => nrel_main_idtf:[Малаев Андрей Андреевич] (* <-lang_ru;; *);;
 
-Narysh_Darya_Aleksandrovna  <- student; <-person; <-ui_user;;
-Narysh_Darya_Aleksandrovna => nrel_main_idtf:[Наруш Дарья Александровна] (* <-lang_ru;; *);;
+Narush_Darya_Aleksandrovna  <- student; <-person; <-ui_user;;
+Narush_Darya_Aleksandrovna => nrel_main_idtf:[Наруш Дарья Александровна] (* <-lang_ru;; *);;
 
 Nasevich_Pavel_Evgenievich <-student; <-person; <-ui_user;;
 Nasevich_Pavel_Evgenievich => nrel_main_idtf:[Насевич Павел Евгеньевич] (* <-lang_ru;; *);;
