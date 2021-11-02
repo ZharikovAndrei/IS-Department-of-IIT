@@ -94,8 +94,8 @@ Chvilev_Ilya_Aleksandrovich => nrel_main_idtf:[Чвилёв Илья Алекс�
 Shalygin_Andrei_Olegovich <- student; <-person; <-ui_user;;
 Shalygin_Andrei_Olegovich => nrel_main_idtf:[Шалыгин Андрей Олегович] (* <-lang_ru;; *);;
 
-Yakovinchik_Gleb_Ivanovich <- student; <-person; <-ui_user;;
-Yakovinchik_Gleb_Ivanovich => nrel_main_idtf:[Яковинич Глеб Иванович] (* <-lang_ru;; *);;
+Yakovinich_Gleb_Ivanovich <- student; <-person; <-ui_user;;
+Yakovinich_Gleb_Ivanovich => nrel_main_idtf:[Яковинич Глеб Иванович] (* <-lang_ru;; *);;
 
 
 
