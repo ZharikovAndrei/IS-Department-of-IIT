@@ -1,0 +1,16 @@
+sc_node_not_relation->concept_educational_establishment;;
+concept_educational_establishment
+=>nrel_main_idtf: [образовательное учреждение](*<-lang_ru;;*);
+=>nrel_main_idtf: [educational establishment](*<-lang_en;;*);;
+
+
+
+sc_node_not_relation->concept_division;;
+concept_division=>nrel_main_idtf:
+[отдел](*<-lang_ru;;*);
+[division](*<-lang_en;;*);;
+
+
+
+
+

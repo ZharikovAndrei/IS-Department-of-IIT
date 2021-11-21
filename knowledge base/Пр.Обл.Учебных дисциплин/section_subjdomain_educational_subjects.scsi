@@ -1,4 +1,4 @@
-/*
+
 subject_domain_of_educational_subjects
 => nrel_main_idtf:
 	[Предметная область учебных дисциплин]
@@ -62,9 +62,12 @@ subject_domain_of_educational_subjects
     nrel_partition;
     rrel_teacher;;
 
-nrel_source <-sc_node_norole_relation;
- => nrel_main_idtf:[источник*] (* <-lang_ru;; *);
- => nrel_main_idtf:[source*] (* <-lang_en;; *);;
+nrel_source 
+<-sc_node_norole_relation;
+=> nrel_main_idtf:
+ 		[источник*] (* <-lang_ru;; *);
+=> nrel_main_idtf:
+ 		[source*] (* <-lang_en;; *);;
 
 //current_survey.scs
 current_survey
@@ -83,9 +86,9 @@ current_survey
 	*);;
 
 
-
+/*
 //отношения.scs
-sc_node_norole_relation->nrel_realisation_of_intermediate_control;
+sc_node_role_relation->nrel_realisation_of_intermediate_control;
                         nrel_realisation_of_final_certification;
                         nrel_realisation_of_learning_activity;
                         nrel_taught_subject;
@@ -95,7 +98,8 @@ sc_node_norole_relation->nrel_realisation_of_intermediate_control;
 sc_node_role_relation->rrel_realisation_of_learning_activity;
                         rrel_subject;
                         rrel_teacher;;
-
+                        
+*/
 
 nrel_decomposition
 =>nrel_main_idtf:
@@ -145,12 +149,11 @@ rrel_teacher
 =>nrel_main_idtf:
 	[teacher'] (* <-lang_en;; *);;
 
-nrel_abbreviation=>nrel_main_idtf:
+nrel_abbreviation
+=>nrel_main_idtf:
 	[абревиатура*] (* <-lang_ru;; *);
 =>nrel_main_idtf:
 	[abbreviation*] (* <-lang_en;; *);;
-
-
 
 
 
@@ -188,24 +191,23 @@ educational_subject
 		-> [Учебная дисциплина — отрасль научного знания, обычно содержательно включающая базовые сведения по какой-либо науке, ресурсами которой являются субъект учебной деятельности и обеспечение дисциплины.] (* <-lang_ru;; *);;
 		*);;
 	*);
-
-<=nrel_subdividing:
+	
+=> nrel_subdividing:
 	natural_science_subject;
 	special_subject (*=>nrel_inclusion: subject_of_specialization;;*);
 	social_and_humanitarian_subject;
-	general_professional_subject;;
-
-
-<=nrel_inclusion:
+	general_professional_subject;
+	
+=> nrel_inclusion:
 	learning_process
 	(*
 	<=nrel_activity:
 		department;;
 	*);;
 
-
-sc_node_norole_relation->nrel_partition;;
 nrel_partition
+<- sc_node_norole_relation;
+
 =>nrel_main_idtf:
 	[разделы*] (* <-lang_ru;; *);;
 
@@ -215,6 +217,7 @@ natural_science_subject
 special_subject
     =>nrel_main_idtf:
     	[специальная дисциплина] (* <-lang_ru;; *);
+    =>nrel_main_idtf:
       	[special subject] (* <-lang_en;; *);;
 subject_of_specialization
     =>nrel_main_idtf:
@@ -228,9 +231,8 @@ general_professional_subject
 learning_process
     =>nrel_main_idtf:
         [учебный процесс] (* <-lang_ru;; *);
+    =>nrel_main_idtf:
         [learning process] (* <-lang_en;; *);;
-
-
 
 
 colloquium
@@ -453,10 +455,6 @@ test
 		*);;
 	*);;
 
-
-
-
-
 additional_literature
 =>nrel_main_idtf:
 	[дополнительная литература] (* <-lang_ru;; *);
@@ -489,10 +487,10 @@ application_software
 
 
 curriculum
-=>nrel_main_idtf:
+=> nrel_main_idtf:
 	[учебный план] (* <-lang_ru;; *);
 
-->rrel_key_sc_element:
+-> rrel_key_sc_element:
 	...
 	(*
 	<- sc_explanation;;
@@ -505,10 +503,10 @@ curriculum
 
 
 electronic_educational_complex_of_subject
-=>nrel_main_idtf:
+=> nrel_main_idtf:
 	[электронный учебно-методический комплекс дисциплины] (* <-lang_ru;; *);
 
-->rrel_key_sc_element:
+-> rrel_key_sc_element:
 	...
 	(*
 	<- sc_explanation;;
@@ -553,9 +551,9 @@ methodical_instructions
 
 
 program
+
 =>nrel_main_idtf:
 	[учебная программа*] (* <-lang_ru;; *);
-<-sc_node_norole_relation;
 ->rrel_key_sc_element:
 	...
 	(*
@@ -605,10 +603,10 @@ teaching_aid
 
 
 teaching_methodological_support
-=>nrel_main_idtf:
+=> nrel_main_idtf:
 	[учебно-методическое обеспечение] (* <-lang_ru;; *);
 
-->rrel_key_sc_element:
+-> rrel_key_sc_element:
 	...
 	(*
 	<- sc_explanation;;
@@ -619,7 +617,7 @@ teaching_methodological_support
 		*);;
 	*);
 
-=>nrel_include:
+=> nrel_include:
 		curriculum;
 		program;
 		textbook;
@@ -632,10 +630,10 @@ teaching_methodological_support
 
 
 teaching_program
-=>nrel_main_idtf:
+=> nrel_main_idtf:
 	[обучающая программа] (* <-lang_ru;; *);
 
-->rrel_key_sc_element:
+-> rrel_key_sc_element:
 	...
 	(*
 	<- sc_explanation;;
@@ -647,10 +645,10 @@ teaching_program
 	*);;
 
 technical_support
-=>nrel_main_idtf:
+=> nrel_main_idtf:
 	[техническое обеспечение] (* <-lang_ru;; *);
 
-->rrel_key_sc_element:
+-> rrel_key_sc_element:
 	...
 	(*
 	<- sc_explanation;;
@@ -661,17 +659,17 @@ technical_support
 		*);;
 	*);
 
-=>nrel_include:
+=> nrel_include:
 		application_software;
 		electronic_educational_complex_of_subject;
 		teaching_program;;
 
 
 textbook
-=>nrel_main_idtf:
+=> nrel_main_idtf:
 	[учебник] (* <-lang_ru;; *);
 
-->rrel_key_sc_element:
+-> rrel_key_sc_element:
 	...
 	(*
 	<- sc_explanation;;
@@ -684,7 +682,7 @@ textbook
 
 
 tutorial
-=>nrel_main_idtf:
+=> nrel_main_idtf:
 	[учебное пособие] (* <-lang_ru;; *);
 
 ->rrel_key_sc_element:
@@ -713,5 +711,4 @@ visual_aid
 		-> [Hаглядное пособие - все материальные средства обучения, используемые в учебно-воспитательном процессе и предназначенные для расширения, углубления и лучшего усвоения знаний, предусмотренных учебной программой и изложенных в учебниках.] (* <-lang_ru;; *);;
 		*);;
 	*);;
-	
-	*/
+
