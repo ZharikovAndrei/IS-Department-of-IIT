@@ -1,7 +1,0 @@
-forms_of_education
-=>nrel_main_idtf:
-	[формы получения образования] (* <-lang_ru;; *);
-=>nrel_subdividing:
-	soiskatelstvo_forms_educ;
-	Full_time_forms_educ;
-	correspondence_forms_educ;;
