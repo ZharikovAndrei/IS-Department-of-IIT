@@ -1,0 +1,27 @@
+sc_node_not_relation -> primary_position;;
+primary_position=>nrel_main_idtf:[первичная должность] (* <-lang_ru;; *);;
+primary_position=>nrel_main_idtf:[primary_position] (* <-lang_en;; *);;
+
+
+primary_position <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [Опр.(первичная должность)] (* <- lang_ru;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[ Первичная должность - правовое образование, первичная неделимая структурная единица в организации или вне её, замещаемая физическим лицом, отвечающим установленным квалификационным требованиям, несущим должностные обязанности и наделённым должностными полномочиями.](* <- lang_ru;; *);;
+		*);;
+	*);;
+
+primary_position -> primary_position_engineer;; 
+primary_position -> primary_position_software_engineer;;
+primary_position -> primary_position_programmer;; 
+primary_position -> primary_position_research_engineer;; 
+primary_position -> primary_position_engineer_at_the_introduction_of_new_techniques_and_technologies;;
+primary_position -> primary_position_engineer_on_adjustment_and_tests;; 
+primary_position -> primary_position_engineer_technical_supervision;;
+primary_position -> primary_position_engineer_data_protection;; 
+primary_position -> primary_position_system_engineer;;

@@ -1,0 +1,38 @@
+sc_node_not_relation->speciality;;
+speciality=>nrel_main_idtf:[специальность] (* <-lang_ru;; *);;
+speciality=>nrel_main_idtf:[speciality] (* <-lang_en;; *);;
+
+
+speciality <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [Опр.(специальность)] (* <- lang_ru;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Специальность – вид профессиональной деятельности, требующий определенных знаний, навыков и компетенций, приобретаемых путем обучения и практического опыта, – подсистема группы специальностей.](* <- lang_ru;; *);;
+		*);;
+	*);;
+
+speciality -> artificial_intelligence; speciality_mag; speciality_asp;;
+
+
+sc_node_not_relation->speciality_mag;;
+speciality_mag=>nrel_main_idtf:[специальность магистратуры] (* <-lang_ru;; *);;
+speciality_mag=>nrel_main_idtf:[speciality of magistracy] (* <-lang_en;; *);;
+
+
+speciality_mag -> foundations_of_information_science_mag; artificial_intelligence_mag;;
+
+
+sc_node_not_relation->speciality_asp;;
+speciality_asp=>nrel_main_idtf:[специальность аспирантуры] (* <-lang_ru;; *);;
+speciality_asp=>nrel_main_idtf:[speciality of graduate school] (* <-lang_en;; *);;
+
+
+speciality_asp -> foundations_of_information_science_asp;;
+
+
+

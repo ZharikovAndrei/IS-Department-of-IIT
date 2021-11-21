@@ -1,0 +1,33 @@
+sc_node_not_relation->concept_academic_title;;
+concept_academic_title=>nrel_main_idtf:
+[ученое звание](*<-lang_ru;;*);
+[academic title](*<-lang_en;;*);;
+
+
+sc_node_not_relation->concept_academic_degree;;
+concept_academic_degree=>nrel_main_idtf:
+[ученая степень](*<-lang_ru;;*);
+[academic degree](*<-lang_en;;*);;
+
+sc_node_not_relation->concept_doctor_of_technical_sciences;;
+concept_doctor_of_technical_sciences=>nrel_main_idtf:
+[доктор технических наук](*<-lang_ru;;*);
+[doctor of technical sciences](*<-lang_en;;*);; 
+
+sc_node_not_relation->concept_doctor_of_sciences;;
+concept_doctor_of_sciences=>nrel_main_idtf:
+[доктор наук](*<-lang_ru;;*);
+[doctor of sciences](*<-lang_en;;*);; 
+
+
+sc_node_not_relation->concept_professor;;
+concept_professor=>nrel_main_idtf:
+[профессор](*<-lang_ru;;*);
+[professor](*<-lang_en;;*);; 
+
+concept_academic_title->concept_professor;;
+
+concept_doctor_of_sciences=>nrel_inclusion:concept_doctor_of_technical_sciences;;
+
+
+

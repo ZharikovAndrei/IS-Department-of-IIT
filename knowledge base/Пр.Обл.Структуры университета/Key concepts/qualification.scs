@@ -1,0 +1,18 @@
+sc_node_not_relation->qualification;;
+qualification=>nrel_main_idtf:[квалификация] (* <-lang_ru;; *);;
+qualification=>nrel_main_idtf:[qualification] (* <-lang_en;; *);;
+
+
+qualification <- rrel_key_sc_element:
+	... 
+	(*
+	=> nrel_main_idtf: [Опр.(квалификация)] (* <- lang_ru;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Квалификация – подготовленность работника к профессиональной деятельности для выполнения работ определенной сложности в рамках специальности, направления специальности.](* <- lang_ru;; *);;
+		*);;
+	*);;
+

@@ -1,0 +1,11 @@
+project_ISS_cooking
+      => nrel_main_idtf:[Интеллектуальная справочная система по кулинарии] (* <-lang_ru;; *);
+      => nrel_main_idtf:[Intelligent cooking reference system] (* <-lang_en;; *);;
+
+//project_ISS_cooking => nrel_project_leader: ;;
+project_ISS_cooking <- student_project;;
+project_ISS_cooking => nrel_performers: Sidor_Valeriya_Anatolevna;;
+//project_ISS_cooking -> rrel_responsible_executor: ;;
+//project_ISS_cooking => nrel_main_students: ;;
+//project_ISS_cooking => nrel_reports_OSTIS: ;;
+project_ISS_cooking => nrel_related_projects: project_ISS_prescription_manufacturing; project_ISS_agriculture;;

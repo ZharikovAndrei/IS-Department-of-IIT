@@ -1,0 +1,11 @@
+project_ISS_music
+      => nrel_main_idtf:[Интеллектуальная справочная система по музыке] (* <-lang_ru;; *);
+      => nrel_main_idtf:[Intelligent music reference system] (* <-lang_en;; *);;
+
+//project_ISS_music => nrel_project_leader: ;;
+project_ISS_music <- student_project;;
+project_ISS_music => nrel_performers: Sapezhinskiy_Evgeniy_Vyacheslavovich;;
+//project_ISS_music -> rrel_responsible_executor: ;;
+//project_ISS_music => nrel_main_students: ;;
+//project_ISS_music => nrel_reports_OSTIS: ;;
+project_ISS_music => nrel_related_projects: project_ISS_music_theory; project_ISS_religions; project_ISS_mythology; project_ISS_movies; project_ISS_art; project_ISS_bibliography;;

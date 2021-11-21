@@ -1,0 +1,11 @@
+project_ISS_firearms
+      => nrel_main_idtf:[Интеллектуальная справочная система по огнестрельному оружию ] (* <-lang_ru;; *);
+      => nrel_main_idtf:[Intelligent Firearms Reference System] (* <-lang_en;; *);;
+
+//project_ISS_firearms => nrel_project_leader: ;;
+project_ISS_firearms <- student_project;;
+project_ISS_firearms => nrel_performers: Voropai_Gleb_Aleksandrovich;;
+//project_ISS_firearms -> rrel_responsible_executor: ;;
+//project_ISS_firearms => nrel_main_students: ;;
+//project_ISS_firearms => nrel_reports_OSTIS: ;;
+project_ISS_firearms => nrel_related_projects: project_ISS_cold_arms;;

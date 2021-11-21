@@ -1,0 +1,62 @@
+sc_node_norole_relation->nrel_function;;
+concept_department
+
+<-sc_node_not_relation;
+	
+=>nrel_main_idtf:
+	[кафедра] (* <-lang_ru;; *);	
+=>nrel_main_idtf:
+	[department] (* <-lang_en;; *);	
+=>nrel_idtf:
+	[abteilung] (* <-lang_de;; *);	
+	
+=>nrel_inclusion:speciality;teachers;subjekt;resources_department;
+
+=>nrel_function:educational_activities;
+->rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> [Кафедра — это структурное подразделение учреждения высшего образования, обеспечивающее осуществление учреждением высшего образования образовательной и научной деятельности, а также учебно-методической работы по одной или нескольким радственным специальностям либо учебным дисциплинам. ] (* <-lang_ru;; *);; 
+		*);;
+	*);
+->the_department_of_intelligent_informational_technologies;
+
+=>nrel_basic_statement:...(*->statement_preparation;statement_professor;statement_department_meetings;;*);;
+
+
+statement_preparation
+<=nrel_sc_text_translation:
+	...(*
+	->rrel_statement_of_the_new_type: [кафедра — это структурное подразделение высшего учебного заведения,осуществляющее подготовку слушателей,студентов и курсантов в рамках определенной специализации. ](* <-lang_ru;; 
+	*);;
+*);;
+
+
+statement_professor
+<=nrel_sc_text_translation:
+	...(*
+	->rrel_statement: [находится в распоряжении профессора. ](* <-lang_ru;; 
+	*);;
+*);;
+
+
+statement_department_meetings
+<=nrel_sc_text_translation:
+	...(*
+	->rrel_statement: [важнейшие вопросы решаются на заседании кафедры. ](* <-lang_ru;; 
+	*);;
+*);;
+
+//.....................................................руссификация понятий................................................
+
+teachers=>nrel_main_idtf:[преподаватель] (* <-lang_ru;; *);;
+subjekt=>nrel_main_idtf:[дисциплина] (* <-lang_ru;; *);;
+statement_preparation=>nrel_main_idtf:[утверждение(кафедра,подготовка)] (* <-lang_ru;; *);;
+statement_professor=>nrel_main_idtf:[утверждение(кафедра,профессор)] (* <-lang_ru;; *);;
+statement_department_meetings=>nrel_main_idtf:[утверждение(кафедра,заседание кафедры)] (* <-lang_ru;; *);;
+nrel_function=>nrel_main_idtf:[функция*] (* <-lang_ru;; *);;
+

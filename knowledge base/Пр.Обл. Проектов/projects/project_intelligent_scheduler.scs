@@ -1,0 +1,11 @@
+project_intelligent_scheduler
+      => nrel_main_idtf:[Индивидуальный планировщик] (* <-lang_ru;; *);
+      => nrel_main_idtf:[Intelligent scheduler] (* <-lang_en;; *);;
+
+//project_intelligent_scheduler => nrel_project_leader: ;;
+project_intelligent_scheduler <- student_project;;
+project_intelligent_scheduler => nrel_performers: Vasilevskiy_Artemiy_Dmitrievich; Golovachenko_Sergey_Andreevich; Zlomanets_Pavel_Yan_Miroslavovich; Kravtsov_Mihail_Sergeevich; Malinovskaya_Natalya_Vasilevna; Pavlov_Daniil_Ivanovich; Stefanenko_Ekaterina_Sergeevna; Torop_Nikita_Sergeevich;;
+project_intelligent_scheduler -> rrel_responsible_executor: Golovachenko_Sergey_Andreevich;;
+project_intelligent_scheduler => nrel_main_students: Golovachenko_Sergey_Andreevich; Stefanenko_Ekaterina_Sergeevna; Torop_Nikita_Sergeevich;;
+//project_intelligent_scheduler => nrel_reports_OSTIS: ;;
+project_intelligent_scheduler => nrel_related_projects: project_intellectual_website_of_the_IIT_Department; project_conference_support_system;;

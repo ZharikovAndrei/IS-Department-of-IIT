@@ -1,0 +1,10 @@
+project_natural_language_interface_of_IS
+      => nrel_main_idtf:[Естественно-языковой интерфейс интеллектуальных систем] (* <-lang_ru;; *);
+      => nrel_main_idtf:[Natural language interface of intelligent systems] (* <-lang_en;; *);;
+
+//project_natural_language_interface_of_IS => nrel_project_leader: ;;
+project_natural_language_interface_of_IS <- student_project;;
+project_natural_language_interface_of_IS => nrel_performers: Drapun_Artem_Aleksandrovich; Markovets_Viktor_Sergeevich; Vasilevskaya_Anastasiya_Pavlovna;;
+//project_natural_language_interface_of_IS -> rrel_responsible_executor: ;;
+//project_natural_language_interface_of_IS => nrel_main_students: ;;
+project_natural_language_interface_of_IS => nrel_related_projects: project_web_based_interpreter_of_sc_models_of_UI; project_interface_of_dialog_IS; project_intelligent_speech_assistant;;

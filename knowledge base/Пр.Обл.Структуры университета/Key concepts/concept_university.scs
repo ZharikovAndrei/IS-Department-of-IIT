@@ -1,0 +1,24 @@
+sc_node_not_relation->concept_university;;
+concept_university=>nrel_main_idtf:[университет] (* <-lang_ru;; *);;
+concept_university=>nrel_main_idtf:[university] (* <-lang_en;; *);;
+ 
+
+concept_university => nrel_inclusion: concept_faculty;;
+
+
+concept_university<-rrel_key_sc_element:
+...
+(*
+=>nrel_main_idtf:[Опр.(университет)](*<-lang_ru;;*);;
+<-sc_definition;;
+<=nrel_sc_text_translation:
+...
+(*
+->rrel_example:
+[Университет - высшее учебное заведение, где готовятся специалисты по фундаментальным и многим прикладным наукам. Как правило, осуществляет и научно-исследовательскую работу. Многие современные университеты действуют как учебно-научно-практические комплексы. Университеты объединяют в своём составе несколько факультетов, на которых представлена совокупность различных дисциплин, составляющих основы научного знания.](*<-lang_ru;;*);;
+*);;
+*);;
+
+//concept_university=>nrel_function:educational_function_of_faculty;;
+
+concept_university->the_belorussian_state_university_of_informatics_and_radioelectronics;;

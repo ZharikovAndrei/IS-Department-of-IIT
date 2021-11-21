@@ -1,0 +1,11 @@
+project_ISS_cars
+      => nrel_main_idtf:[Интеллектуальная справочная система по автомобилям] (* <-lang_ru;; *);
+      => nrel_main_idtf:[Intelligent vehicle reference System] (* <-lang_en;; *);;
+
+//project_ISS_cars => nrel_project_leader: ;;
+project_ISS_cars <- student_project;;
+project_ISS_cars => nrel_performers: Aniskovich_Alexey_Dmitrievich; Lesnichenko_Nikita_Aleksandrovich; Malenchik_Kirill_Andreevich; Dragun_Vladimir_Andreevich; Zholnerovich_Nikita_Ivanovich; Kadtsin_Klim_Olegovich; Hizhenok_Pavel_Aleksandrovich; Belous_Pavel_Aleksandrovich; Getmanskaya_Viktoria_Evgenevna;;
+//project_ISS_cars -> rrel_responsible_executor: ;;
+//project_ISS_cars=> nrel_main_students: ;;
+//project_ISS_cars=> nrel_reports_OSTIS: ;;
+project_ISS_cars=> nrel_related_projects: project_search_engine_for_car_purchase_offers_by_image; project_search_system_for_the_specified_license_plate;;

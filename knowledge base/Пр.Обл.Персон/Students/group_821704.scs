@@ -1,0 +1,23 @@
+group_821704
+=>nrel_main_idtf:
+	[группа 821704] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[group 821704] (* <-lang_en;; *);
+->rrel_head_group:...;
+=>nrel_subdividing : ...(*->subgroup_821704_1;;
+			->subgroup_821704_2;;*);
+
+->Vasilevskaya_Anastasiya_Pavlovna;
+->Volchok_Darya_Alekseevna;
+->Gavrilenko_Yana_Vasilevna;
+->Grigoreva_Irina_Vladimirovna;
+->Dragunov_Kirill_Dmitrievich;
+->Zhmyrko_Aleksandra_Vladimirovna;
+->Ilyukevich_Vadim_Aleksandrovich;
+->Menkova_Elisaveta_Andreevna;
+->Nenasheva_Alina_Sergeevna;
+->Pantelei_Anna_Sergeevna;
+->Petrovets_Ilya_Igorevich;
+->Tolkacheva_Tatyana_Aleksandrovna;
+->Fabishevskaya_Viktoriya_Evgenevna;
+->Yunah_Uliyan_Vyacheslavovich;;
