@@ -25,7 +25,7 @@ Serdyukov_R_E -> rrel_email:
 Serdyukov_R_E => nrel_fields_of_scientific_research:
 	[Архитектура программных систем, в частности компьютерных игр];[Представление и обработка программ];;
 
-Serdyukov_R_E => nrel_can_teach_subject:ppvis;;
+Serdyukov_R_E => nrel_can_teach_subject:ppvis;apis;;
 Serdyukov_R_E <- teacher;;
 Serdyukov_R_E=>nrel_rate:1;;
 Serdyukov_R_E=>nrel_load:0;;

@@ -1,0 +1,34 @@
+Maramygina_T_A
+=>nrel_main_idtf:
+[Марамыгина Т.](*<-lang_ru;;*);
+=>nrel_idtf:
+[Марамыгина Татьяна Александровна](*<-lang_ru;;*);
+ <-person;
+=>nrel_idtf:
+[Maramygina Tatiana](*<-lang_en;;*);;
+
+Maramygina_T_A -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+ [+375 17 293-89-73];;*)
+   ;;*)
+ ;;
+Maramygina_T_A -> rrel_work_place: aud_508_2;;
+Maramygina_T_A -> rrel_email:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+ [maramygina@bsuir.by](*<-lang_en;;*)
+   ;;*)
+   ;;*)
+   ;;
+
+Maramygina_T_A => nrel_fields_of_scientific_research:
+	[Проблемы оптимизации графической подготовки студентов высших учебных заведений];
+	[Образовательные и информационные технологии];
+	[Разработка обучающего видеоконтента];;
+
+Maramygina_T_A => nrel_can_teach_subject:ogig;;
+Maramygina_T_A <- teacher;;
+Maramygina_T_A=>nrel_rate:1;;
+Maramygina_T_A=>nrel_load:0;;
+0<=nrel_sum_of_numbers:...;;

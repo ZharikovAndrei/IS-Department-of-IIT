@@ -47,7 +47,7 @@ Golenkov_V_V=>nrel_fields_of_scientific_research:
 
 nrel_fields_of_scientific_research=>nrel_main_idtf:
 [область научных исследований](*<-lang_ru;;*);;
-Golenkov_V_V => nrel_can_teach_subject:mois;tiit;;
+Golenkov_V_V => nrel_can_teach_subject:mois;tiit;itpis;smis;suz;tii;tpis;;
 Golenkov_V_V <- teacher;;
 Golenkov_V_V=>nrel_rate:1;;
 Golenkov_V_V=>nrel_load:0;;

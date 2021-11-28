@@ -1,0 +1,32 @@
+Brutskii_D_S
+=>nrel_main_idtf:
+[Бруцкий Д.](*<-lang_ru;;*);
+=>nrel_idtf:
+[Бруцкий Дмитрий Сергеевич](*<-lang_ru;;*);
+ <-person;
+=>nrel_idtf:
+[Brutskii Dmitrii](*<-lang_en;;*);;
+
+Brutskii_D_S -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+ [];;*)
+   ;;*)
+ ;;
+Brutskii_D_S -> rrel_work_place: aud_609_5;;
+Brutskii_D_S -> rrel_email:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+ [](*<-lang_en;;*)
+   ;;*)
+   ;;*)
+   ;;
+
+Brutskii_D_S => nrel_fields_of_scientific_research:
+	[];;
+
+Brutskii_D_S => nrel_can_teach_subject:mrzvis;;
+Brutskii_D_S <- teacher;;
+Brutskii_D_S=>nrel_rate:1;;
+Brutskii_D_S=>nrel_load:0;;
+0<=nrel_sum_of_numbers:...;;

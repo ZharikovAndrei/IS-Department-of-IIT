@@ -1,0 +1,32 @@
+Barkova_E_A
+=>nrel_main_idtf:
+[Баркова Е.](*<-lang_ru;;*);
+=>nrel_idtf:
+[Баркова Елена Александровна](*<-lang_ru;;*);
+ <-person;
+=>nrel_idtf:
+[Barkova E.](*<-lang_en;;*);;
+
+Barkova_E_A -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+ [293-23-28];;*)
+   ;;*)
+ ;;
+Barkova_E_A -> rrel_work_place: aud_313a_4;;
+Barkova_E_A -> rrel_email:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+ [barkova@bsuir.by](*<-lang_en;;*)
+   ;;*)
+   ;;*)
+   ;;
+
+Barkova_E_A => nrel_fields_of_scientific_research:
+	[Дифференциальные уравнения];;
+
+Barkova_E_A => nrel_can_teach_subject:tvims;;
+Barkova_E_A <- teacher;;
+Barkova_E_A=>nrel_rate:1;;
+Barkova_E_A=>nrel_load:0;;
+0<=nrel_sum_of_numbers:...;;

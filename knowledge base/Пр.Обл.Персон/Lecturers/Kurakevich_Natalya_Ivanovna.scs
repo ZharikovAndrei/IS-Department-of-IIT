@@ -1,0 +1,32 @@
+Kurakevich_N_I
+=>nrel_main_idtf:
+[Куракевич Н.](*<-lang_ru;;*);
+=>nrel_idtf:
+[Куракевич Наталия Ивановна](*<-lang_ru;;*);
+ <-person;
+=>nrel_idtf:
+[Kurakevich N.](*<-lang_en;;*);;
+
+Kurakevich_N_I -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+ [+375172938014];;*)
+   ;;*)
+ ;;
+Kurakevich_N_I -> rrel_work_place: aud_205_4;;
+Kurakevich_N_I -> rrel_email:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+ [kurakevich@bsuir.by](*<-lang_en;;*)
+   ;;*)
+   ;;*)
+   ;;
+
+Kurakevich_N_I => nrel_fields_of_scientific_research:
+	[Система образования в 20-е годы ХХ столетия];;
+
+Kurakevich_N_I => nrel_can_teach_subject:opip;politologiya;;
+Kurakevich_N_I <- teacher;;
+Kurakevich_N_I=>nrel_rate:1;;
+Kurakevich_N_I=>nrel_load:0;;
+0<=nrel_sum_of_numbers:...;;

@@ -1,0 +1,32 @@
+Paramonova_A_E
+=>nrel_main_idtf:
+[Парамонова А.](*<-lang_ru;;*);
+=>nrel_idtf:
+[Парамонова Алиса Егоровна](*<-lang_ru;;*);
+ <-person;
+=>nrel_idtf:
+[Paramonova Alisa](*<-lang_en;;*);;
+
+Paramonova_A_E -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+ [...];;*)
+   ;;*)
+ ;;
+Paramonova_A_E -> rrel_work_place: aud_609_5;;
+Paramonova_A_E -> rrel_email:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+ [...](*<-lang_en;;*)
+   ;;*)
+   ;;*)
+   ;;
+
+Paramonova_A_E => nrel_fields_of_scientific_research:
+	[...];;
+
+Paramonova_A_E => nrel_can_teach_subject:pbz;;
+Paramonova_A_E <- teacher;;
+Paramonova_A_E=>nrel_rate:1;;
+Paramonova_A_E=>nrel_load:0;;
+0<=nrel_sum_of_numbers:...;;

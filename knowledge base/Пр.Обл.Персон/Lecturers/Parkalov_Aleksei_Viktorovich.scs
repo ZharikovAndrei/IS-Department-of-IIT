@@ -1,0 +1,33 @@
+Parkalov_A_V
+=>nrel_main_idtf:
+[Паркалов А.](*<-lang_ru;;*);
+=>nrel_idtf:
+[Паркалов Алексей Викторович](*<-lang_ru;;*);
+ <-person;
+=>nrel_idtf:
+[Parkalov Aleksei](*<-lang_en;;*);;
+
+Parkalov_A_V -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+ [+375 17 293-85-33];;*)
+   ;;*)
+ ;;
+Parkalov_A_V -> rrel_work_place: aud_609_5;;
+Parkalov_A_V -> rrel_email:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+ [a.parkalov@gmail.com](*<-lang_en;;*)
+   ;;*)
+   ;;*)
+   ;;
+
+Parkalov_A_V => nrel_fields_of_scientific_research:
+	[Анализ и синтез изображений];
+	[Визуализация знаний в интеллектуальных системах];;
+
+Parkalov_A_V => nrel_can_teach_subject:apoczi;pbz;;
+Parkalov_A_V <- teacher;;
+Parkalov_A_V=>nrel_rate:1;;
+Parkalov_A_V=>nrel_load:0;;
+0<=nrel_sum_of_numbers:...;;

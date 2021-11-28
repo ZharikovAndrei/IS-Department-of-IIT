@@ -1,0 +1,32 @@
+Olekhnovich_E_A
+=>nrel_main_idtf:
+[Садовский М.](*<-lang_ru;;*);
+=>nrel_idtf:
+[Олехнович Евгений Анатольевич](*<-lang_ru;;*);
+ <-person;
+=>nrel_idtf:
+[Olekhnovich Evgenii Anatolievich](*<-lang_en;;*);;
+
+Olekhnovich_E_A -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+ [...];;*)
+   ;;*)
+ ;;
+Olekhnovich_E_A -> rrel_work_place: aud_609_5;;
+Olekhnovich_E_A -> rrel_email:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+ [](*<-lang_en;;*)
+   ;;*)
+   ;;*)
+   ;;
+
+Olekhnovich_E_A => nrel_fields_of_scientific_research:
+	[История развития экономических систем];;
+
+Olekhnovich_E_A => nrel_can_teach_subject:ekonomika;;
+Olekhnovich_E_A <- teacher;;
+Olekhnovich_E_A=>nrel_rate:1;;
+Olekhnovich_E_A=>nrel_load:0;;
+0<=nrel_sum_of_numbers:...;;

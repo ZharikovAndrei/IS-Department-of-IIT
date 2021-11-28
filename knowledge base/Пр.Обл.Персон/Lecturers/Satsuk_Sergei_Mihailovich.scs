@@ -1,0 +1,32 @@
+Satsuk_S_M
+=>nrel_main_idtf:
+[Сацук С.](*<-lang_ru;;*);
+=>nrel_idtf:
+[Сацук Сергей Михайлович](*<-lang_ru;;*);
+ <-person;
+=>nrel_idtf:
+[Satsuk Sergei](*<-lang_en;;*);;
+
+Satsuk_S_M -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+ [293-85-45];;*)
+   ;;*)
+ ;;
+Satsuk_S_M -> rrel_work_place: aud_310_1;;
+Satsuk_S_M -> rrel_email:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+ [satsuk@bsuir.by](*<-lang_en;;*)
+   ;;*)
+   ;;*)
+   ;;
+
+Satsuk_S_M => nrel_fields_of_scientific_research:
+	[исследования в рамках научного направления кафедры «Исследование принципов построения и разработка научных основ создания систем управления и контроля параметров атомных электростанций»];;
+
+Satsuk_S_M => nrel_can_teach_subject:ep;;
+Satsuk_S_M <- teacher;;
+Satsuk_S_M=>nrel_rate:1;;
+Satsuk_S_M=>nrel_load:0;;
+0<=nrel_sum_of_numbers:...;;

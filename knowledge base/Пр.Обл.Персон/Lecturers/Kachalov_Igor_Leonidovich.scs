@@ -1,0 +1,34 @@
+Kachalov_I_L
+=>nrel_main_idtf:
+[Качалов И.](*<-lang_ru;;*);
+=>nrel_idtf:
+[Качалов Игорь Леонидович](*<-lang_ru;;*);
+ <-person;
+=>nrel_idtf:
+[Kachalov Igor](*<-lang_en;;*);;
+
+Kachalov_I_L -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+ [+375 17 293-80-14];;*)
+   ;;*)
+ ;;
+Kachalov_I_L -> rrel_work_place: aud_205_4;;
+Kachalov_I_L -> rrel_email:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+ [kachalov@bsuir.by](*<-lang_en;;*)
+   ;;*)
+   ;;*)
+   ;;
+
+Kachalov_I_L => nrel_fields_of_scientific_research:
+	[История России и Беларуси в ХIХ-начале ХХ вв.];
+	[Общественно-политическая мысль и общественное движение в России конца ХVIII-начала ХХ в.];
+	[Идеологическая социализация в условиях социальных трансформаций];;
+
+Kachalov_I_L => nrel_can_teach_subject:ot;;
+Kachalov_I_L <- teacher;;
+Kachalov_I_L=>nrel_rate:1;;
+Kachalov_I_L=>nrel_load:0;;
+0<=nrel_sum_of_numbers:...;;

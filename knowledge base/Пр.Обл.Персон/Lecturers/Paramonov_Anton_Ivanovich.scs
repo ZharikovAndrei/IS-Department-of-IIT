@@ -1,0 +1,32 @@
+Paramonov_A_I
+=>nrel_main_idtf:
+[Парамонов А.](*<-lang_ru;;*);
+=>nrel_idtf:
+[Парамонов Антон Иванович](*<-lang_ru;;*);
+ <-person;
+=>nrel_idtf:
+[Paramonov Anton](*<-lang_en;;*);;
+
+Paramonov_A_I -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+ [+375 17 373-74-69];;*)
+   ;;*)
+ ;;
+Paramonov_A_I -> rrel_work_place: aud_212_4;;
+Paramonov_A_I -> rrel_email:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+ [a.paramonov@bsuir.by](*<-lang_en;;*)
+   ;;*)
+   ;;*)
+   ;;
+
+Paramonov_A_I => nrel_fields_of_scientific_research:
+	[...];;
+
+Paramonov_A_I => nrel_can_teach_subject:msisviir;;
+Paramonov_A_I <- teacher;;
+Paramonov_A_I=>nrel_rate:1;;
+Paramonov_A_I=>nrel_load:0;;
+0<=nrel_sum_of_numbers:...;;

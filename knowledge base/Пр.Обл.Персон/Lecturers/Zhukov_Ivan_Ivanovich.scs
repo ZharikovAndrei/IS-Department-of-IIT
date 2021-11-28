@@ -1,0 +1,33 @@
+Zhukov_I_I
+=>nrel_main_idtf:
+[Жуков И.](*<-lang_ru;;*);
+=>nrel_idtf:
+[Жуков Иван Иванович](*<-lang_ru;;*);
+ <-person;
+=>nrel_idtf:
+[Zhukov Ivan](*<-lang_en;;*);;
+
+Zhukov_I_I -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+ [293-85-33];;*)
+   ;;*)
+ ;;
+Zhukov_I_I -> rrel_work_place: aud_609_5;;
+Zhukov_I_I -> rrel_email:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+ [ivan_zhukau@hotmail.com](*<-lang_en;;*)
+   ;;*)
+   ;;*)
+   ;;
+
+Zhukov_I_I => nrel_fields_of_scientific_research:
+	[Инструментарий для редактирования баз знаний];
+	[Системы поддержки проектирования. интеллектуальных систем];;
+
+Zhukov_I_I => nrel_can_teach_subject:os;;
+Zhukov_I_I <- teacher;;
+Zhukov_I_I=>nrel_rate:1;;
+Zhukov_I_I=>nrel_load:0;;
+0<=nrel_sum_of_numbers:...;;

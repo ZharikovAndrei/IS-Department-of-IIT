@@ -27,7 +27,7 @@ Gulyakina_N_A=>nrel_fields_of_scientific_research:
 	[Модели представления и переработки знаний, семантические сети, параллельные языки программирования, системы автоматизации делопроизводства и документооборота, прикладные интеллектуальные системы различного назначения];;
 
 Gulyakina_N_A <- teacher;
-=>nrel_can_teach_subject: ots;odm;;
+=>nrel_can_teach_subject: ots;odm;ms;oios;;
 Gulyakina_N_A=>nrel_rate:1;;
 
 

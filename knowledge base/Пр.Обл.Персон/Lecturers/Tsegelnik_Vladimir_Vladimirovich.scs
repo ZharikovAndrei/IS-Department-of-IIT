@@ -1,0 +1,33 @@
+Tsegelnik_V_V
+=>nrel_main_idtf:
+[Цегельник В.](*<-lang_ru;;*);
+=>nrel_idtf:
+[Цегельник Владимир Владимирович](*<-lang_ru;;*);
+ <-person;
+=>nrel_idtf:
+[Tsegelnik Vladimir](*<-lang_en;;*);;
+
+Tsegelnik_V_V -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+ [+375 17 93-23-28];;*)
+   ;;*)
+ ;;
+Tsegelnik_V_V -> rrel_work_place: aud_315_4;;
+Tsegelnik_V_V -> rrel_email:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+ [tsegvv@bsuir.by](*<-lang_en;;*)
+   ;;*)
+   ;;*)
+   ;;
+
+Tsegelnik_V_V => nrel_fields_of_scientific_research:
+	[Аналитическая теория нелинейных дифференциальных уравнений Пенлеве-типа и их приложения];
+	[Пенлеве-анализ и автомодельные решения нелинейных дифференциальных уравнений в частных производных];;
+
+Tsegelnik_V_V => nrel_can_teach_subject:vm;;
+Tsegelnik_V_V <- teacher;;
+Tsegelnik_V_V=>nrel_rate:1;;
+Tsegelnik_V_V=>nrel_load:0;;
+0<=nrel_sum_of_numbers:...;;

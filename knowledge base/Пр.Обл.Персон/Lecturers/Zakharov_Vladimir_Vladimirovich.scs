@@ -34,7 +34,7 @@ Zakharov_V_V -> rrel_email:
 Zakharov_V_V =>nrel_fields_of_scientific_research:
 	[Многоканальные криптографические алгоритмы]; [Защита информации];;
 
-Zakharov_V_V => nrel_can_teach_subject:simoib;information_security_management;aois;;
+Zakharov_V_V => nrel_can_teach_subject:simoib;information_security_management;aois;ispis;kmzi;pis;pzs;uzi;;
 Zakharov_V_V <- teacher;;
 Zakharov_V_V=>nrel_rate:1;;
 Zakharov_V_V=>nrel_load:0;;

@@ -1,0 +1,35 @@
+Malykhina_G_I
+=>nrel_main_idtf:
+[Малыхина Г.](*<-lang_ru;;*);
+=>nrel_idtf:
+[Малыхина Галина Ивановна](*<-lang_ru;;*);
+ <-person;
+=>nrel_idtf:
+[Malykhina Galina](*<-lang_en;;*);;
+
+Malykhina_G_I -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+ [293-86-94];;*)
+   ;;*)
+ ;;
+Malykhina_G_I -> rrel_work_place: aud_305a_4;;
+Malykhina_G_I -> rrel_email:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+ [malyhina@bsuir.by](*<-lang_en;;*)
+   ;;*)
+   ;;*)
+   ;;
+
+Malykhina_G_I => nrel_fields_of_scientific_research:
+	[Логика и теория аргументации];
+	[Логико-риторические аспекты диалога];
+	[Философско-методологические проблемы духовной синергии];
+	[Философия и методология науки];;
+
+Malykhina_G_I => nrel_can_teach_subject:filosofiya;;
+Malykhina_G_I <- teacher;;
+Malykhina_G_I=>nrel_rate:1;;
+Malykhina_G_I=>nrel_load:0;;
+0<=nrel_sum_of_numbers:...;;

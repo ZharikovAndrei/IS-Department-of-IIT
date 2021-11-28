@@ -1,0 +1,32 @@
+Sobol_A_M
+=>nrel_main_idtf:
+[Соболь А.](*<-lang_ru;;*);
+=>nrel_idtf:
+[Соболь Александр Михайлович](*<-lang_ru;;*);
+ <-person;
+=>nrel_idtf:
+[Sobol Aleksandr](*<-lang_en;;*);;
+
+Sobol_A_M -> rrel_work_phone:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+ [...];;*)
+   ;;*)
+ ;;
+Sobol_A_M -> rrel_work_place: ...;;
+Sobol_A_M -> rrel_email:
+ ...(* <= nrel_sc_text_translation:
+ ...(* -> rrel_key_sc_element:
+ [](*<-lang_en;;*)
+   ;;*)
+   ;;*)
+   ;;
+
+Sobol_A_M => nrel_fields_of_scientific_research:
+	[...];;
+
+Sobol_A_M => nrel_can_teach_subject:os;;
+Sobol_A_M <- teacher;;
+Sobol_A_M=>nrel_rate:1;;
+Sobol_A_M=>nrel_load:0;;
+0<=nrel_sum_of_numbers:...;;

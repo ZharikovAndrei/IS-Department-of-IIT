@@ -25,7 +25,7 @@ Kovalev_M_V -> rrel_email:
 Kovalev_M_V => nrel_fields_of_scientific_research:
 	[Модели, методы и средства проектирования искусственных нейронных сетей, семантически совместимых с базами данных];;
 
-Kovalev_M_V => nrel_can_teach_subject:mois;;
+Kovalev_M_V => nrel_can_teach_subject:mois;iips;soiv;;
 Kovalev_M_V <- teacher;;
 Kovalev_M_V=>nrel_rate:1;;
 Kovalev_M_V=>nrel_load:0;;
