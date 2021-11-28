@@ -1,4 +1,4 @@
-stpbz
+semantic_technology_knowledge_bases_design
 =>nrel_main_idtf:
 	[Семантическая технология проектирования баз знаний] (* <-lang_ru;; *);
 =>nrel_main_idtf:
@@ -9,7 +9,7 @@ stpbz
 <-special_subject;
 
 <=nrel_realisation_of_learning_activity:
-	practical_lesson_on_stpbz
+	practical_lesson_on_semantic_technology_knowledge_bases_design
 (*=>nrel_main_idtf:
 [Семантическая технология проектирования баз знаний.практические занятия] (* <-lang_ru;; *);;=>nrel_planned_hours:34;;
 	=>nrel_realisation_of_intermediate_control:
@@ -17,7 +17,7 @@ stpbz
 	<-practical_lesson;;
 	*);
 
-lectures_on_stpb
+lectures_on_semantic_technology_knowledge_bases_design
 	(*=>nrel_main_idtf:
 [Семантическая технология проектирования баз знаний.лекции] (* <-lang_ru;; *);;=>nrel_planned_hours:34;;
 	=>nrel_realisation_of_intermediate_control:

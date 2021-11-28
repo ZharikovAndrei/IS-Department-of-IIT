@@ -1,4 +1,4 @@
-eyaiis
+natural_language_interfaces_of_intelligent_systems
 =>nrel_main_idtf:
 	[Естественно-языковой интерфейс интеллектуальных систем] (* <-lang_ru;; *);
 =>nrel_main_idtf:
@@ -7,15 +7,15 @@ eyaiis
 
 <-special_subject;
 <=nrel_subdividing:
-	eyaiis_4_year
+	natural_language_interfaces_of_intelligent_systems_4_year
 		(*
 			<=nrel_subdividing:
-			eyaiis_4_year_1
+			natural_language_interfaces_of_intelligent_systems_4_year_1
 				(*
 				<-multiplicity_of_subjects_taught_in_the_6_term_specialty_artificial_intelligence_4_year_education;;
 				<=nrel_realisation_of_learning_activity:
 
-					lectures_on_eyaiis_4_year_1
+					lectures_on_natural_language_interfaces_of_intelligent_systems_4_year_1
 						(*=>nrel_main_idtf:
 		[Естественно-языковой интерфейс интеллектуальных систем.часть 1.лекции] (* <-lang_ru;; *);;
 		=>nrel_planned_hours:80;;
@@ -23,7 +23,7 @@ eyaiis
 							control_work;;
 							<-lecture;;
 						*);
-					practical_lesson_on_eyaiis_4_year_1
+					practical_lesson_on_natural_language_interfaces_of_intelligent_systems_4_year_1
 						(*=>nrel_main_idtf:
 		[Естественно-языковой интерфейс интеллектуальных систем.часть 1.практические занятия] (* <-lang_ru;; *);;
 		=>nrel_planned_hours:16;;
@@ -31,7 +31,7 @@ eyaiis
 							protection_of_practical_work;;
 						<-practical_lesson;;
 						*);
-					laboratory_work_on_eyaiis_4_year_1
+					laboratory_work_on_natural_language_interfaces_of_intelligent_systems_4_year_1
 						(*=>nrel_main_idtf:
 		[Естественно-языковой интерфейс интеллектуальных систем.часть 1.лабораторный практикум] (* <-lang_ru;; *);;
 		=>nrel_planned_hours:48;;
@@ -50,12 +50,12 @@ eyaiis
 				=>nrel_term: 6;;
 			*);
 
-			eyaiis_4_year_2
+			natural_language_interfaces_of_intelligent_systems_4_year_2
 				(*
 				<-multiplicity_of_subjects_taught_in_the_7_term_specialty_artificial_intelligence_4_year_education;;
 				<=nrel_realisation_of_learning_activity:
 
-				lectures_on_eyaiis_4_year_2
+				lectures_on_natural_language_interfaces_of_intelligent_systems_4_year_2
 					(*=>nrel_main_idtf:
 	[Естественно-языковой интерфейс интеллектуальных систем.часть 2.лекции] (* <-lang_ru;; *);;
 	=>nrel_planned_hours:80;;
@@ -63,7 +63,7 @@ eyaiis
 						control_work;;
 						<-lecture;;
 					*);
-				laboratory_work_on_eyaiis_4_year_2
+				laboratory_work_on_natural_language_interfaces_of_intelligent_systems_4_year_2
 					(*=>nrel_main_idtf:
 	[Естественно-языковой интерфейс интеллектуальных систем.часть 2.лабораторный практикум] (* <-lang_ru;; *);;
 	=>nrel_planned_hours:48;;
@@ -92,14 +92,14 @@ eyaiis
  <=nrel_cycle: concept_tsikl_obshcheprofessionalnykh_i_spetsialnykh_distsiplin;;
 
 
-eyaiis_4_year
+natural_language_interfaces_of_intelligent_systems_4_year
 =>nrel_main_idtf:
 	[Естественно-языковой интерфейс интеллектуальных систем по 4-летней программе] (* <-lang_ru;; *);;
 
-eyaiis_4_year_1
+natural_language_interfaces_of_intelligent_systems_4_year_1
 =>nrel_main_idtf:
 	[Естественно-языковой интерфейс интеллектуальных систем по 4-летней программе.часть 1.] (* <-lang_ru;; *);;
-eyaiis_4_year_2
+natural_language_interfaces_of_intelligent_systems_4_year_2
 =>nrel_main_idtf:
 	[Естественно-языковой интерфейс интеллектуальных систем по 4-летней программе.часть 2.] (* <-lang_ru;; *);;
 

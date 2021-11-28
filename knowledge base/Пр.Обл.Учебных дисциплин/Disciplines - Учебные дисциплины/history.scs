@@ -2,7 +2,7 @@ history
 =>nrel_main_idtf:
 	[История] (* <-lang_ru;; *);
 =>nrel_main_idtf:
-	[Political science] (* <-lang_en;; *);
+	[History] (* <-lang_en;; *);
 =>nrel_abbreviation:[История];
 <=nrel_trains: the_department_of_humanities;
 <=nrel_class_number: 1(* <-positive_number;;*);

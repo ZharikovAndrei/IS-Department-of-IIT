@@ -1,4 +1,4 @@
-suz
+knowledge_management_system
 =>nrel_main_idtf:
 	[Системы управления знаниями] (* <-lang_ru;; *);
 =>nrel_main_idtf:
@@ -9,7 +9,7 @@ suz
 <-special_subject;
 
 <=nrel_realisation_of_learning_activity:
-laboratory_work_on_suz
+laboratory_work_on_knowledge_management_system
 (*=>nrel_main_idtf:
 [Системы управления знаниями.лабораторный практикум] (* <-lang_ru;; *);;=>nrel_planned_hours:34;;
 	=>nrel_realisation_of_intermediate_control:
@@ -17,7 +17,7 @@ laboratory_work_on_suz
 	<-laboratory_work;;
 	*);
 
-	lectures_on_suz
+	lectures_on_knowledge_management_system
 	(*=>nrel_main_idtf:
 [Системы управления знаниями.лекции] (* <-lang_ru;; *);;=>nrel_planned_hours:34;;
 	=>nrel_realisation_of_intermediate_control:
