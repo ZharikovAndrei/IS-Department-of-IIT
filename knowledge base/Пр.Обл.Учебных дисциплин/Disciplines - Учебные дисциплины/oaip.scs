@@ -20,7 +20,7 @@ basics_of_algorithms_and_programming
 		<-lecture;;
 	*);
 	
-	laboratory_work_physics
+	laboratory_work_on_basics_of_algorithms_and_programming
 		(*=>nrel_main_idtf:
 		[Основы алгоритмизации и программирования.лабораторный практикум] (* <-lang_ru;; *);;
 		=>nrel_planned_hours:68;;

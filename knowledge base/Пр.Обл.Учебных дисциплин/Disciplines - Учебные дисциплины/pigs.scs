@@ -1,4 +1,4 @@
-pigs
+designing_intelligent_geoinformation_systems
 =>nrel_main_idtf:
 	[Проектирование интеллектуальных геоинформационных систем] (* <-lang_ru;; *);
 =>nrel_main_idtf:
@@ -12,7 +12,7 @@ pigs
 
 <=nrel_realisation_of_learning_activity:
 
-		lectures_on_pigs
+		lectures_on_designing_intelligent_geoinformation_systems
 			(*=>nrel_main_idtf:
 	[Проектирование интеллектуальных геоинформационных систем.лекции] (* <-lang_ru;; *);;
 	=>nrel_planned_hours:34;;
@@ -20,7 +20,7 @@ pigs
 				control_work;;
 				<-lecture;;
 			*);
-		laboratory_work_on_pigs
+		laboratory_work_on_designing_intelligent_geoinformation_systems
 			(*=>nrel_main_idtf:
 	[Проектирование интеллектуальных геоинформационных систем.лабораторный практикум] (* <-lang_ru;; *);;
 	=>nrel_planned_hours:34;;
@@ -38,5 +38,5 @@ pigs
 	*);
 =>nrel_term: 7;;
 
-Samodumkin_S_A=>nrel_can_teach_subject:pigs;;
-Samodumkin_S_A<=nrel_educational_work:lectures_on_pigs;laboratory_work_on_pigs;;
+Samodumkin_S_A=>nrel_can_teach_subject:designing_intelligent_geoinformation_systems;;
+Samodumkin_S_A<=nrel_educational_work:lectures_on_designing_intelligent_geoinformation_systems;laboratory_work_on_designing_intelligent_geoinformation_systems;;

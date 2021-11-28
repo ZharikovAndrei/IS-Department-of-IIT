@@ -6,7 +6,7 @@ belarussian_language
 <=nrel_semester_number: 1(* <-positive_number;;*);
 <=nrel_practice_hours: 40(*<-positive_number;;*);
 <=nrel_component: concept_mandatory_component;
-<=nrel_cycle: concept_tsikl_sotsialno_gumanitarnykh_distsiplin;;
+<=nrel_cycle: concept_tsikl_obshcheprofessionalnykh_i_spetsialnykh_distsiplin;;
 belarussian_language
 <=nrel_realisation_of_learning_activity:
 	pactical_on_belarussian_language

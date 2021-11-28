@@ -1,4 +1,4 @@
-pzs
+protected_systems_design
 =>nrel_main_idtf:
 	[Проектирование защищенных систем] (* <-lang_ru;; *);
 =>nrel_main_idtf:
@@ -9,12 +9,12 @@ pzs
 <-special_subject;
 
 <=nrel_subdividing:
-	pzs_part_1
+	protected_systems_design_part_1
 			(*
 			<-multiplicity_of_subjects_taught_in_the_8_term_specialty_artificial_intelligence_specialization_intelligent_computer_technology_of_information_security;;
 			<=nrel_realisation_of_learning_activity:
 
-				lectures_on_pzs_part_1
+				lectures_on_protected_systems_design_part_1
 					(*=>nrel_main_idtf:
 				[Проектирование защищенных систем.часть 1.лекции] (* <-lang_ru;; *);;
 				=>nrel_planned_hours:64;;
@@ -22,7 +22,7 @@ pzs
 						control_work;;
 						<-lecture;;
 					*);
-				practical_lesson_on_pzs_part_1
+				practical_lesson_on_protected_systems_design_part_1
 					(*=>nrel_main_idtf:
 				[Проектирование защищенных систем.часть 1.практические занятия] (* <-lang_ru;; *);;
 				=>nrel_planned_hours:34;;
@@ -46,11 +46,11 @@ pzs
 				*);;
 			=>nrel_term: 8;;
 			*);
-		pzs_part_2
+		protected_systems_design_part_2
 		(*
 			<-multiplicity_of_subjects_taught_in_the_9_term_specialty_artificial_intelligence_specialization_intelligent_computer_technology_of_information_security;;
 			<=nrel_realisation_of_learning_activity:
-				lectures_on_pzs_part_2
+				lectures_on_protected_systems_design_part_2
 					(*=>nrel_main_idtf:
 	[Проектирование защищенных систем.часть 2.лекции] (* <-lang_ru;; *);;
 	=>nrel_planned_hours:64;;
@@ -58,7 +58,7 @@ pzs
 						control_work;;
 						<-lecture;;
 					*);
-				laboratory_work_on_pzs_part_2
+				laboratory_work_on_protected_systems_design_part_2
 					(*=>nrel_main_idtf:
 	[Проектирование защищенных систем.часть 2.лабораторный практикум] (* <-lang_ru;; *);;
 	=>nrel_planned_hours:34;;
@@ -66,7 +66,7 @@ pzs
 						protection_of_laboratory_work;;
 					<-laboratory_work	;;
 					*);
-				practical_lesson_on_pzs_part_2
+				practical_lesson_on_protected_systems_design_part_2
 					(*=>nrel_main_idtf:
 					[Проектирование защищенных систем.часть 2.практические занятия] (* <-lang_ru;; *);;
 					=>nrel_planned_hours:34;;
@@ -97,9 +97,9 @@ pzs
 <=nrel_semester_number: 8(* <-positive_number;;*);
 <=nrel_cycle: concept_tsikl_distsiplin_spetsializatsii;;
 
-pzs_part_1
+protected_systems_design_part_1
 =>nrel_main_idtf:
 	[Проектирование защищенных систем.часть 1.] (* <-lang_ru;; *);;
-pzs_part_2
+protected_systems_design_part_2
 =>nrel_main_idtf:
 	[Проектирование защищенных систем.часть 2.] (* <-lang_ru;; *);;

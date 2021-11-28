@@ -1,4 +1,4 @@
-mrzvis
+models_of_solving_problems_in_intelligent_systems
 =>nrel_main_idtf:
 	[Модели решения задач в интеллектуальных системах] (* <-lang_ru;; *);
 =>nrel_main_idtf:
@@ -7,15 +7,15 @@ mrzvis
 
 <-special_subject;
 <=nrel_subdividing:
-	mrzvis_4_year
+	models_of_solving_problems_in_intelligent_systems_4_year
 		(*
 		<=nrel_subdividing:
-			mrzvis_4_year_1
+			models_of_solving_problems_in_intelligent_systems_4_year_1
 				(*
 				<-multiplicity_of_subjects_taught_in_the_4_term_specialty_artificial_intelligence_4_year_education;;
 				<=nrel_realisation_of_learning_activity:
 
-					lectures_on_mrzvis_4_year_1
+					lectures_on_models_of_solving_problems_in_intelligent_systems_4_year_1
 						(*=>nrel_main_idtf:
 			[Модели решения задач в интеллектуальных системах.часть 1.лекции] (* <-lang_ru;; *);;
 			=>nrel_planned_hours:80;;
@@ -24,7 +24,7 @@ mrzvis
 							current_survey;;
 							<-lecture;;
 						*);
-					laboratory_work_on_mrzvis_4_year_1
+					laboratory_work_on_models_of_solving_problems_in_intelligent_systems_4_year_1
 						(*=>nrel_main_idtf:
 		[Модели решения задач в интеллектуальных системах.часть 1.лабораторный практикум] (* <-lang_ru;; *);;
 		=>nrel_planned_hours:64;;
@@ -45,12 +45,12 @@ mrzvis
 					*);;
 				=>nrel_term: 4;;
 				*);
-			mrzvis_4_year_2
+			models_of_solving_problems_in_intelligent_systems_4_year_2
 			(*
 				<-multiplicity_of_subjects_taught_in_the_5_term_specialty_artificial_intelligence_4_year_education;;
 				<=nrel_realisation_of_learning_activity:
 
-					lectures_on_mrzvis_4_year_2
+					lectures_on_models_of_solving_problems_in_intelligent_systems_4_year_2
 					(*=>nrel_main_idtf:
 	[Модели решения задач в интеллектуальных системах.часть 2.лекции] (* <-lang_ru;; *);;
 	=>nrel_planned_hours:80;;
@@ -59,7 +59,7 @@ mrzvis
 							current_survey;;
 							<-lecture;;
 					*);
-					laboratory_work_on_mrzvis_4_year_2
+					laboratory_work_on_models_of_solving_problems_in_intelligent_systems_4_year_2
 						(*=>nrel_main_idtf:
 	[Модели решения задач в интеллектуальных системах.часть 2.лабораторный практикум] (* <-lang_ru;; *);;
 	=>nrel_planned_hours:64;;
@@ -67,7 +67,7 @@ mrzvis
 							protection_of_laboratory_work;;
 						<-laboratory_work	;;
 						*);
-					practical_lesson_on_mrzvis_4_year_2
+					practical_lesson_on_models_of_solving_problems_in_intelligent_systems_4_year_2
 					(*=>nrel_main_idtf:
 					[Модели решения задач в интеллектуальных системах.часть 2.практические занятия] (* <-lang_ru;; *);;
 					=>nrel_planned_hours:32;;
@@ -86,6 +86,7 @@ mrzvis
 						laboratory_work;;
 					<-nrel_taught_subject;;
 					->rrel_teacher:  Ivashenko_V_P;;
+					->rrel_teacher:  Brutsky_D_S;;
 					*);;
 				=>nrel_term: 5;;
 				=>nrel_realisation_of_intermediate_control: course_project_on_mrzvis;;
@@ -101,21 +102,21 @@ mrzvis
 <=nrel_component: concept_mandatory_component;
 <=nrel_cycle: concept_tsikl_obshcheprofessionalnykh_i_spetsialnykh_distsiplin;;
 
-mrzvis_4_year
+models_of_solving_problems_in_intelligent_systems_4_year
 =>nrel_main_idtf:
 	[Модели решения задач в интеллектуальных системах по 4-летней программе] (* <-lang_ru;; *);;
 
-mrzvis_4_year_1
+models_of_solving_problems_in_intelligent_systems_4_year_1
 =>nrel_main_idtf:
 	[Модели решения задач в интеллектуальных системах по 4-летней программе.часть 1.] (* <-lang_ru;; *);;
-mrzvis_4_year_2
+models_of_solving_problems_in_intelligent_systems_4_year_2
 =>nrel_main_idtf:
 	[Модели решения задач в интеллектуальных системах по 4-летней программе.часть 2.] (* <-lang_ru;; *);;
-course_project_on_mrzvis
+course_project_on_models_of_solving_problems_in_intelligent_systems
 =>nrel_main_idtf:
 	[Курсовой проект по МРЗВиС] (* <-lang_ru;; *);;
-Ivashenko_V_P<=nrel_educational_work:lectures_on_mrzvis_4_year_1;
-						  laboratory_work_on_mrzvis_4_year_1;
-						  practical_lesson_on_mrzvis_4_year_2;
-						  laboratory_work_on_mrzvis_4_year_2;;
+Ivashenko_V_P<=nrel_educational_work:lectures_on_models_of_solving_problems_in_intelligent_systems_4_year_1;
+						  laboratory_work_on_models_of_solving_problems_in_intelligent_systems_4_year_1;
+						  practical_lesson_on_models_of_solving_problems_in_intelligent_systems_4_year_2;
+						  laboratory_work_on_models_of_solving_problems_in_intelligent_systems_4_year_2;;
 						  

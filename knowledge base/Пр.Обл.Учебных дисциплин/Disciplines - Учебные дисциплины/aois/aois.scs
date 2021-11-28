@@ -1,4 +1,4 @@
-aois
+hardware_foundations_of_intelligent_systems
 =>nrel_main_idtf:
 	[Аппаратное обеспечение интеллектуальных систем] (* <-lang_ru;; *);
 =>nrel_main_idtf:
@@ -11,12 +11,12 @@ aois
 
 <=nrel_realisation_of_learning_activity:
 
-	lectures_on_aois
+	lectures_on_hardware_foundations_of_intelligent_systems
 		(*=>nrel_main_idtf:
 [Аппаратное обеспечение интеллектуальных систем.лекции] (* <-lang_ru;; *);;
 			<-lecture;;
 		*);
-	laboratory_work_on_aois
+	laboratory_work_on_hardware_foundations_of_intelligent_systems
 		(*=>nrel_main_idtf:
 [Аппаратное обеспечение интеллектуальных систем.лабораторный практикум] (* <-lang_ru;; *);;
 		=>nrel_realisation_of_intermediate_control:
@@ -44,7 +44,7 @@ aois
 <=nrel_component: concept_mandatory_component;
 <=nrel_cycle: concept_tsikl_obshcheprofessionalnykh_i_spetsialnykh_distsiplin;;
 
-aois
+hardware_foundations_of_intelligent_systems
 <= nrel_discipline_goal: [Обеспечить  студентов  базовыми  знаниями  по  основным  вопросам  аппаратного  обеспечения интеллектуальных систем] (* <- lang_ru;; *);
 => nrel_learning_program:
 ...

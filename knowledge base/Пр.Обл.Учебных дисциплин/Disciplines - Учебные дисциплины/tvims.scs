@@ -32,6 +32,7 @@ theory_of_probability_and_mathematical_statistics
 	(*
 	->rrel_realisation_of_learning_activity: lecture; practical_lesson;;
 	<-nrel_taught_subject;;
-	->rrel_teacher: Barkova_E_A;;
+	->rrel_teacher: Bazhenov_I_V;;
+	->rrel_teacher: Sharonova_E_I;;
 	*);
 =>nrel_term: 5;;

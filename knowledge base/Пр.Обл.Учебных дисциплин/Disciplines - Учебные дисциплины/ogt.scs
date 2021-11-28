@@ -1,4 +1,4 @@
-ogt
+fundamentals_of_geoinformation_technologies
 =>nrel_main_idtf:
 	[Основы геоинформационных технологий] (* <-lang_ru;; *);
 =>nrel_main_idtf:
@@ -9,18 +9,18 @@ ogt
 <-special_subject;
 
 <=nrel_subdividing:
-		ogt_part_1
+		fundamentals_of_geoinformation_technologies_part_1
 			(*
 			<-multiplicity_of_subjects_taught_in_the_4_term_specialty_artificial_intelligence_specialization_geoinformation_systems;;
 			<=nrel_realisation_of_learning_activity:
 
-				lectures_on_ogt_part_1
+				lectures_on_fundamentals_of_geoinformation_technologies_part_1
 				(*=>nrel_main_idtf:
 [Основы геоинформационных технологий.часть 1.лекции] (* <-lang_ru;; *);;
 =>nrel_planned_hours:34;;
 					<-lecture;;
 				*);
-				laboratory_work_on_ogt_part_1
+				laboratory_work_on_fundamentals_of_geoinformation_technologies_part_1
 					(*=>nrel_main_idtf:
 	[Основы геоинформационных технологий.часть 1.лабораторный практикум] (* <-lang_ru;; *);;
 	=>nrel_planned_hours:34;;
@@ -39,19 +39,19 @@ ogt
 				*);;
 			=>nrel_term: 4;;
 			*);
-		ogt_part_2
+		fundamentals_of_geoinformation_technologies_part_2
 		(*
 			<-multiplicity_of_subjects_taught_in_the_5_term_specialty_artificial_intelligence_specialization_geoinformation_systems;;
 			<=nrel_realisation_of_learning_activity:
 
 
-				lectures_on_ogt_part_2
+				lectures_on_fundamentals_of_geoinformation_technologies_part_2
 				(*=>nrel_main_idtf:
 [Основы геоинформационных технологий.часть 2.лекции] (* <-lang_ru;; *);;
 =>nrel_planned_hours:34;;
 					<-lecture;;
 				*);
-				laboratory_work_on_ogt_part_2
+				laboratory_work_on_fundamentals_of_geoinformation_technologies_part_2
 					(*=>nrel_main_idtf:
 	[Основы геоинформационных технологий.часть 2.лабораторный практикум] (* <-lang_ru;; *);;
 	=>nrel_planned_hours:34;;
@@ -72,10 +72,10 @@ ogt
 			*);;
 
 
-ogt_part_1
+fundamentals_of_geoinformation_technologies_part_1
 =>nrel_main_idtf:
 	[Основы геоинформационных технологий.часть 1.] (* <-lang_ru;; *);;
-ogt_part_2
+fundamentals_of_geoinformation_technologies_part_2
 =>nrel_main_idtf:
 	[Основы геоинформационных технологий.часть 2.] (* <-lang_ru;; *);;
 

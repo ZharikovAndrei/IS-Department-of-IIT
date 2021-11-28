@@ -41,7 +41,7 @@ human_life_safety
 	(*
 	->rrel_realisation_of_learning_activity: lecture; practical_lesson; laboratory_work;;
 	<-nrel_taught_subject;;
-	->rrel_teacher: Albut_A_A;;
+	->rrel_teacher: Kamlach_Pavel_Viktorovich;;
 	*);
 =>nrel_term: 1;;
 
