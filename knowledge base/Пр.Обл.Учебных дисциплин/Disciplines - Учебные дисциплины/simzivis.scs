@@ -1,0 +1,36 @@
+tools_and_methods_of_protection_information_in_intelligent_systems
+=> nrel_main_idtf:
+	[Средства и методы защиты информации в интеллектуальных системах] (* <-lang_ru;; *);
+=> nrel_main_idtf:
+	[Tools and method of protection information in intelligent systems] (* <-lang_en;; *);
+=> nrel_abbreviation:[СиМЗИвИС];
+
+<- special_subject;
+<- multiplicity_of_subjects_taught_in_the_5_term_specialty_artificial_intelligence_4_year_education;
+<= nrel_realisation_of_learning_activity:
+			laboratory_work_on_tools_and_methods_of_protection_information_in_intelligent_systems
+			(*=> nrel_main_idtf:
+		[Средства и методы защиты информации в интеллектуальных системах.лабораторный практикум] (* <-lang_ru;; *);;
+		=> nrel_planned_hours: 28;;
+			=> nrel_realisation_of_intermediate_control:
+				protection_of_laboratory_work;;
+				<- laboratory_work;;
+			*);
+			lectures_on_tools_and_methods_of_protection_information_in_intelligent_systems
+			(*=> nrel_main_idtf:
+		[Средства и методы защиты информации в интеллектуальных системах.лекции] (* <-lang_ru;; *);;
+		=> nrel_planned_hours: 30;;
+			=> nrel_realisation_of_intermediate_control:
+				control_work;;
+				<- lecture;;
+			*);
+			
+=> nrel_realisation_of_final_certification: test;
+<- rrel_subject:
+	...
+	(*
+	-> rrel_realisation_of_learning_activity: lecture; laboratory_work;;
+	<- nrel_taught_subject;;
+	-> rrel_teacher: Zakharov_V_V;;
+	*);
+=> nrel_term: 5;;
