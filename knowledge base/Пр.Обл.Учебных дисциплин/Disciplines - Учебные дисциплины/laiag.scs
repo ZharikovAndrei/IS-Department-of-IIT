@@ -2,6 +2,7 @@ linear_algebra_and_analytic_geometry
 => nrel_main_idtf: [Линейная алгебра и аналитическая геометрия] (*<-lang_ru;;*);
 => nrel_main_idtf: [Linear algebra and analytic geometry] (*<-lang_en;;*);
 => nrel_abbreviation: [ЛАиАГ];
+=>nrel_abbreviation:[laiag];
 
 <= nrel_trains: the_department_of_higher_mathematics;
 <= nrel_class_number: 1(* <-positive_number;;*);

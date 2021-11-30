@@ -4,6 +4,7 @@ technology_of_designing_intelligent_systems
 =>nrel_main_idtf:
 	[Technology of designing intelligent systems] (* <-lang_en;; *);
 =>nrel_abbreviation:[ТПИС];
+=>nrel_abbreviation:[tpis];
 
 <-special_subject;
 <=nrel_subdividing:

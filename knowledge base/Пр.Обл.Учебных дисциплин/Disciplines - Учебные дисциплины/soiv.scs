@@ -4,6 +4,7 @@ statistical_foundations_of_inductive_output
 =>nrel_main_idtf:
 	[Statistical foundations of inductive output] (* <-lang_en;; *);
 =>nrel_abbreviation:[СОИВ];
+=>nrel_abbreviation:[soiv];
 
 <-special_subject;
 

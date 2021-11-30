@@ -4,6 +4,7 @@ semantic_technology_of_designing_intelligent_systems
 =>nrel_main_idtf:
 	[Semantic technology of designing intelligent systems] (* <-lang_en;; *);
 =>nrel_abbreviation:[СТПИС];
+=>nrel_abbreviation:[stpis];
 
 <-multiplicity_of_subjects_taught_in_the_2_term_magistracy_specialty_artificial_intelligence;
 <-special_subject;

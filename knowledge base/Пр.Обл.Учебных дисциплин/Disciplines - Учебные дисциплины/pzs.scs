@@ -4,6 +4,7 @@ protected_systems_design
 =>nrel_main_idtf:
 	[Protected systems design] (* <-lang_en;; *);
 =>nrel_abbreviation:[ПЗС];
+=>nrel_abbreviation:[pzs];
 
 <-subject_of_specialization;
 <-special_subject;

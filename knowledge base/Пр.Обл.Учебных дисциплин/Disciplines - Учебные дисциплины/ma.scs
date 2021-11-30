@@ -3,6 +3,7 @@ mathematical_analysis
 => nrel_main_idtf: [Mathematical analysis] (*<-lang_en;;*);
 => nrel_idtf: [Матанализ] (*<-lang_ru;;*);
 => nrel_abbreviation: [МА];
+=>nrel_abbreviation:[ma];
 
 <= nrel_trains: the_department_of_higher_mathematics;
 <= nrel_class_number: 1(* <-positive_number;;*);

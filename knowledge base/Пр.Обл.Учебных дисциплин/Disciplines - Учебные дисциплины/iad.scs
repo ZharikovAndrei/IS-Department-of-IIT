@@ -1,0 +1,39 @@
+data_mining
+=>nrel_main_idtf: [Интеллектуальный анализ данных] (*<-lang_ru;;*);
+=>nrel_main_idtf: [Data mining] (*<-lang_en;;*);
+=>nrel_abbreviation:[iad];
+<=nrel_trains: the_department_of_intelligent_informational_technologies;
+<=nrel_class_number: 3(* <-positive_number;;*);
+<=nrel_semester_number: 6(* <-positive_number;;*);
+<=nrel_lecture_hours: 32(*<-positive_number;;*);
+<=nrel_laboratory_hours: 36(*<-positive_number;;*);
+<=nrel_component: concept_mandatory_component;
+<=nrel_cycle: concept_tsikl_obshcheprofessionalnykh_i_spetsialnykh_distsiplin;;
+data_mining
+<=nrel_realisation_of_learning_activity:
+	lectures_on_data_mining
+	(*=>nrel_main_idtf:
+[Интеллектуальный анализ данных.лекции] (* <-lang_ru;; *);;
+=>nrel_planned_hours:16;;
+	=>nrel_realisation_of_intermediate_control:
+		control_work;;
+		<-lecture;;
+	*);
+	laboratory_work_on_data_mining
+	(*=>nrel_main_idtf:
+[Интеллектуальный анализ данных.лабораторные] (* <-lang_ru;; *);;
+=>nrel_planned_hours:34;;
+	=>nrel_realisation_of_intermediate_control:
+		control_work;;
+		<-laboratory_work;;
+	*);
+=>nrel_realisation_of_final_certification: test;
+<-rrel_subject:
+	...
+	(*
+	->rrel_realisation_of_learning_activity: lecture; laboratory_work;;
+	<-nrel_taught_subject;;
+	->rrel_teacher: Shunkevich_D_V;;
+	*);
+=>nrel_term: 6;
+

@@ -1,6 +1,7 @@
 basics_of_psychology_and_pedagogy
 =>nrel_main_idtf: [Основы психологии и педагогики] (*<-lang_ru;;*);
 =>nrel_main_idtf: [Basics of psychology and pedagogy] (*<-lang_en;;*);
+=>nrel_abbreviation:[opip];
 <=nrel_trains: the_department_of_engineer_phycology_and_ergonomics;
 <=nrel_class_number: 2(* <-positive_number;;*);
 <=nrel_semester_number: 3(* <-positive_number;;*);

@@ -4,6 +4,7 @@ knowledge_management_system
 =>nrel_main_idtf:
 	[Knowledge management system] (* <-lang_en;; *);
 =>nrel_abbreviation:[СУЗ];
+=>nrel_abbreviation:[suz];
 <-multiplicity_of_subjects_taught_in_the_2_term_magistracy_specialty_artificial_intelligence;
 
 <-special_subject;

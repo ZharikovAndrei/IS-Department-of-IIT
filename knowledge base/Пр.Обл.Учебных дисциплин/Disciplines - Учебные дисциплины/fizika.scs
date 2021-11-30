@@ -1,6 +1,7 @@
 physics
 =>nrel_main_idtf: [Физика] (*<-lang_ru;;*);
 =>nrel_main_idtf: [Physics] (*<-lang_en;;*);
+=>nrel_abbreviation:[fizika];
 <=nrel_trains: the_department_of_physics;
 <=nrel_class_number: 1(* <-positive_number;;*);
 <=nrel_semester_number: 2(* <-positive_number;;*);

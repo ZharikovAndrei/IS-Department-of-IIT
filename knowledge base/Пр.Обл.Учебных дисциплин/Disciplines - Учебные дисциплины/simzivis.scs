@@ -4,6 +4,7 @@ tools_and_methods_of_protection_information_in_intelligent_systems
 => nrel_main_idtf:
 	[Tools and method of protection information in intelligent systems] (* <-lang_en;; *);
 => nrel_abbreviation:[СиМЗИвИС];
+=>nrel_abbreviation:[simzivis];
 
 <- special_subject;
 <- multiplicity_of_subjects_taught_in_the_5_term_specialty_artificial_intelligence_4_year_education;

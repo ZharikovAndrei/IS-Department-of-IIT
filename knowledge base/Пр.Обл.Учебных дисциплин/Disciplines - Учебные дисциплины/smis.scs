@@ -4,6 +4,7 @@ semantic_models_of_intelligent_systems
 =>nrel_main_idtf:
 	[Semantic models of intelligent systems] (* <-lang_en;; *);
 =>nrel_abbreviation:[СМИС];
+=>nrel_abbreviation:[smis];
 
 <-multiplicity_of_subjects_taught_in_the_1_term_magistracy_specialty_artificial_intelligence;
 
