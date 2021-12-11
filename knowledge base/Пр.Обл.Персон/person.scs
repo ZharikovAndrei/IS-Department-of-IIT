@@ -5,3 +5,14 @@ person
 	[person] (* <-lang_en;; *);
 
 <-sc_node_not_relation;;
+
+->rrel_key_sc_element:
+	...
+	(*
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> [роль человека.] (* <-lang_ru;; *);;
+		*);;
+	*);;

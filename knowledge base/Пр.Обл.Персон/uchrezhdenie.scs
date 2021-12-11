@@ -2,3 +2,14 @@
 uchrezhdenie
 =>nrel_main_idtf:
 	[учреждение] (* <-lang_ru;; *);;
+<-person;
+->rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> [учреждение - юридическое лицо, основной функцией которого является осуществление образовательной деятельности..] (* <-lang_ru;; *);; 
+		*);;
+	*);;

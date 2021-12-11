@@ -1,3 +1,15 @@
-sc_node_norole_relation->nrel_alternate;;
-nrel_alternate=>nrel_main_idtf:
+nrel_alternate
+->sc_node_norole_relation;
+=>nrel_main_idtf:
 	[заместитель*] (* <-lang_ru;; *);;
+
+->rrel_key_sc_element:
+	...
+	(*
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> [заместитель - человек, замещающий кого-то в исполнении обязанностей.] (* <-lang_ru;; *);;
+		*);;
+	*);;
