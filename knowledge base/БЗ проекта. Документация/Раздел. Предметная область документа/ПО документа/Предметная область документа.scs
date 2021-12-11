@@ -13,6 +13,6 @@ specialization_of_document => nrel_main_idtf:
 
 
 
-specialization_of_document = [*^"file://Предметная область документа.scsi"*];;
+specialization_of_document -> "file://Предметная область документа.scsi";;
 
 

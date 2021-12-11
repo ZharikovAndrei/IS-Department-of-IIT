@@ -1,10 +1,39 @@
 philosophy
 =>nrel_main_idtf: [Философия] (*<-lang_ru;;*);
 =>nrel_main_idtf: [Philosophy] (*<-lang_en;;*);
+=>nrel_abbreviation:[Философия];
 <=nrel_trains: the_department_of_philosophy;
 <=nrel_class_number: 2(* <-positive_number;;*);
-<=nrel_semester_number: 4(* <-positive_number;;*);
-<=nrel_lecture_hours: 34(*<-positive_number;;*);
+<=nrel_semester_number: 3(* <-positive_number;;*);
+<=nrel_lecture_hours: 42(*<-positive_number;;*);
 <=nrel_practice_hours: 34(*<-positive_number;;*);
 <=nrel_component: concept_mandatory_component;
 <=nrel_cycle: concept_tsikl_sotsialno_gumanitarnykh_distsiplin;;
+philosophy
+<=nrel_realisation_of_learning_activity:
+	lectures_on_philosophy
+	(*=>nrel_main_idtf:
+[Философия.лекции] (* <-lang_ru;; *);;
+=>nrel_planned_hours:42;;
+	=>nrel_realisation_of_intermediate_control:
+		control_work;;
+		<-lecture;;
+	*);
+	pactical_on_philosophy
+	(*=>nrel_main_idtf:
+[Философия.практика] (* <-lang_ru;; *);;
+=>nrel_planned_hours:34;;
+	=>nrel_realisation_of_intermediate_control:
+		control_work;;
+		<-practical_lesson;;
+	*);
+=>nrel_realisation_of_final_certification: exam;
+<-rrel_subject:
+	...
+	(*
+	->rrel_realisation_of_learning_activity: lecture; practical_lesson;;
+	<-nrel_taught_subject;;
+	->rrel_teacher: Malykhina_G_I;;
+	*);
+=>nrel_term: 1;;
+

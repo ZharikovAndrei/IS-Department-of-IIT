@@ -1,11 +1,47 @@
-fundamentals_of_ecology_and_energy_conservation
-=>nrel_main_idtf: [Основы экологии и энергосбережения] (*<-lang_ru;;*);
-=>nrel_main_idtf: [Fundamentals of Ecology and Energy Conservation] (*<-lang_en;;*);
+human_life_safety
+=>nrel_main_idtf: [Безопасность жизнедетельнсти человека] (*<-lang_ru;;*);
+=>nrel_main_idtf: [Human life safety] (*<-lang_en;;*);
 <=nrel_trains: the_department_of_ecology;
-<=nrel_class_number: 1(* <-positive_number;;*);
-<=nrel_semester_number: 1(* <-positive_number;;*);
-<=nrel_lecture_hours: 26(*<-positive_number;;*);
-<=nrel_practice_hours: 26(*<-positive_number;;*);
+<=nrel_class_number: 2(* <-positive_number;;*);
+<=nrel_semester_number: 3(* <-positive_number;;*);
+<=nrel_lecture_hours: 34(*<-positive_number;;*);
+<=nrel_practice_hours: 18(*<-positive_number;;*);
+<=nrel_labs_hours: 16(*<-positive_number;;*);
 <=nrel_component: concept_mandatory_component;
 <=nrel_cycle: concept_tsikl_obshcheprofessionalnykh_i_spetsialnykh_distsiplin;;
+human_life_safety
+<=nrel_realisation_of_learning_activity:
+	lectures_on_human_life_safety
+	(*=>nrel_main_idtf:
+[Безопасность жизнедетельнсти человека.лекции] (* <-lang_ru;; *);;
+=>nrel_planned_hours:34;;
+	=>nrel_realisation_of_intermediate_control:
+		control_work;;
+		<-lecture;;
+	*);
+	pactical_on_human_life_safety
+	(*=>nrel_main_idtf:
+[Безопасность жизнедетельнсти человека.практика] (* <-lang_ru;; *);;
+=>nrel_planned_hours:18;;
+	=>nrel_realisation_of_intermediate_control:
+		control_work;;
+		<-practical_lesson;;
+	*);
+	laboratory_work_on_human_life_safety
+		(*=>nrel_main_idtf:
+		[Безопасность жизнедетельнсти человека.лабораторный практикум] (* <-lang_ru;; *);;
+		=>nrel_planned_hours:16;;
+		=>nrel_realisation_of_intermediate_control:
+			protection_of_laboratory_work;;
+		<-laboratory_work	;;
+		*);
+=>nrel_realisation_of_final_certification: exam;
+<-rrel_subject:
+	...
+	(*
+	->rrel_realisation_of_learning_activity: lecture; practical_lesson; laboratory_work;;
+	<-nrel_taught_subject;;
+	->rrel_teacher: Novik_P_A;;
+	*);
+=>nrel_term: 1;;
 

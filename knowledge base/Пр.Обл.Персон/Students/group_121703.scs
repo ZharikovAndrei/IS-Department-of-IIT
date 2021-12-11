@@ -1,0 +1,40 @@
+group_121703
+=>nrel_main_idtf:
+	[группа 121703] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[group 121703] (* <-lang_en;; *);
+->rrel_head_group:...;
+=>nrel_subdividing : ...(*->subgroup_121703_1;;
+			->subgroup_121703_2;;*);
+
+->Akulich_Kirill_Mihailovich;
+->Vasilkov_Egor_Dmitrievich;
+->Verkeev_Artem_Sergeevich;
+->Vlasenko_Denis_Pavlovich;
+->Voitkus_Stanislav_Aleksandrovich;
+->Gavrik_Vladislav_Denisovich;
+->Gapanovich_Kirill_Vadimovich;
+->Gorshkova_Elizaveta_Alekseevna;
+->Dovidovich_Timofei_Mihailovich;
+->Zalevskii_Andrei_Sergeevich;
+->Kochurko_Vasilii_Vyacheslavovich;
+->Lapkovskii_Mihail_Andreevich;
+->Levkov_Gleb_Aleksandrovich;
+->Miroshnichenko_Konstantin_Dmitrievich;
+->Moshchuk_Vladimir_Yurevich;
+->Prokopovich_Ivan_Stanislavovich;
+->Rutkovskii_Aleksandr_Maksimovich;
+->Savitskii_Igor_Vadimovich;
+->Samohval_Evgenii_Sergeevich;
+->Svyatskii_Vyacheslav_Alekseevich;
+->Tarbaya_Danila_Igorevich;
+->Terleev_Aleksei_Sergeevich;
+->Titlov_Ivan_Dmitrievich;
+->Sharapov_Artur_Sergeevich;
+->Shahnovich_Nikita_Sergeevich;
+->Shelk_Polina_Sergeevna;
+->Shukan_Viktoriya_Vitalevna;
+->Shurmel_Konstantin_Aleksandrovich;
+->Yurchenko_Violetta_Feliksovna;
+->Yakimovich_Ilya_Viktorovich;
+->Yakubovskii_Kirill_Vasilevich;;

@@ -8,7 +8,7 @@ section_subjdomain_educational_subjects
 <- not_enough_formed_structure;
 <- atomic_section;;
 
-section_subjdomain_educational_subjects = [*^"file://section_subjdomain_educational_subjects.scsi"*];;
+@section_subjdomain_educational_subjects = "file://section_subjdomain_educational_subjects.scsi";;
 
 section_subjdomain_educational_subjects -> rrel_key_sc_element:
     subject_domain_of_educational_subjects;
@@ -50,7 +50,7 @@ section_subjdomain_educational_subjects -> rrel_key_sc_element:
     test;
     current_survey;
     rrel_subject;
-		nrel_source;
+    nrel_source;
     nrel_realisation_of_intermediate_control;
     nrel_realisation_of_final_certification;
     nrel_realisation_of_learning_activity;

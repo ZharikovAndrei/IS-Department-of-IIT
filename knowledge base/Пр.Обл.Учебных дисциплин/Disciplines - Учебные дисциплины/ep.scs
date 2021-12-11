@@ -9,4 +9,39 @@ electronic_devices
 <=nrel_practice_hours: 8(*<-positive_number;;*);
 <=nrel_component: concept_university_component;
 <=nrel_cycle: concept_tsikl_obshcheprofessionalnykh_i_spetsialnykh_distsiplin;;
+electronic_devices
+<=nrel_realisation_of_learning_activity:
+	lectures_on_electronic_devices
+	(*=>nrel_main_idtf:
+[Электронные приборы.лекции] (* <-lang_ru;; *);;
+=>nrel_planned_hours:34;;
+	=>nrel_realisation_of_intermediate_control:
+		control_work;;
+		<-lecture;;
+	*);
+	pactical_on_electronic_devices
+	(*=>nrel_main_idtf:
+[Электронные приборы.практика] (* <-lang_ru;; *);;
+=>nrel_planned_hours:34;;
+	=>nrel_realisation_of_intermediate_control:
+		control_work;;
+		<-practical_lesson;;
+	*);
+	laboratory_work_on_electronic_devices
+		(*=>nrel_main_idtf:
+		[Электронные приборы.лабораторный практикум] (* <-lang_ru;; *);;
+		=>nrel_planned_hours:34;;
+		=>nrel_realisation_of_intermediate_control:
+			protection_of_laboratory_work;;
+		<-laboratory_work	;;
+		*);
+=>nrel_realisation_of_final_certification: test;
+<-rrel_subject:
+	...
+	(*
+	->rrel_realisation_of_learning_activity: lecture; practical_lesson; laboratory_work;;
+	<-nrel_taught_subject;;
+	->rrel_teacher: Satsuk_S_M;;
+	*);
+=>nrel_term: 1;;
 

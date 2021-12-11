@@ -3,4 +3,4 @@ sc_text_of_agent_of_finding_publications_by_author
 	agent_of_finding_publications_by_author;
 <- scp_program_sc_text;;
 
-sc_text_of_agent_of_finding_events_by_dates = [*^"file://agent_of_finding_publications_by_author.scsi"*];;
+//sc_text_of_agent_of_finding_events_by_dates = [*^"file://agent_of_finding_publications_by_author.scsi"*];;

@@ -39,7 +39,7 @@ information_security_management
 =>nrel_term: 8;
 
 <=nrel_trains: the_department_of_intelligent_informational_technologies;
-<=nrel_class_number: 4(* <-positive_number;;*);
-<=nrel_semester_number: 8(* <-positive_number;;*);
+<=nrel_class_number: 2(* <-positive_number;;*);
+<=nrel_semester_number: 4(* <-positive_number;;*);
 <=nrel_cycle: concept_tsikl_distsiplin_spetsializatsii;;
 Zakharov_V_V<=nrel_educational_work:laboratory_work_on_information_security_management;lectures_on_information_security_management;;

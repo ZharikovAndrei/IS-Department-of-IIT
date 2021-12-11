@@ -1,0 +1,40 @@
+group_121701
+=>nrel_main_idtf:
+	[группа 121701] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[group 121701] (* <-lang_en;; *);
+->rrel_head_group:...;
+=>nrel_subdividing : ...(*->subgroup_021701_1;;
+			->subgroup_021701_2;;*);
+
+->Artyuhov_Kirill_Aleksandrovich;
+->Vorontsov_Roman_Grigorevich;
+->Galuga_Maksim_Vladimirovich;
+->Ganchar_Vladislav_Ivanovich;
+->Dyatlov_Evgenii_Aleksandrovich;
+->Zholnerchik_Ilya_Aleksandrovich;
+->Isaichikov_Aleksandr_Igorevich;
+->Klimovich_Mihail_Aleksandrovich;
+->Kondratevna_Ilona_Dmitrievna;
+->Korsakova_Svetlana_Konstatinovna;
+->Kuleshevskii_Gleb_Dmitrievich;
+->Lemantovich_Daniil_Kasimirovich;
+->Lipskii_Rostislav_Vladimirovich;
+->Maevskii_Vladislav_Gennadevich;
+->Makarenko_Anna_Ivanovna;
+->Martuchenko_Artem_Viktorovich;
+->Mylyarchik_Danila_Sergeevich;
+->Oleshkevich_Aleksei_Sergeevich;
+->Pahomov_Vladimir_Aleksandrovich;
+->Pashin_Nikita_Aleksandrovich;
+->Protas_Aleksandr_Andreevich;
+->Rybakova_Irina_Evgenievna;
+->Savich_Stanislav_Leonidovich;
+->Selitskii_Bogdan_Sergeevich;
+->Silibin_Svyatoslav;
+->Stavskii_Ilya_Denisovich;
+->Strongin_Andrei_Vadimovich;
+->Furs_Dominik_Sergeevich;
+->Chvilev_Ilya_Aleksandrovich;
+->Shalygin_Andrei_Olegovich;
+->Yakovinich_Gleb_Ivanovich;;

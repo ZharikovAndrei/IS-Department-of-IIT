@@ -23,7 +23,7 @@ professor_and_teaching_staff
 
 ->rrel_assistant: Kaeshko_A_I; Kovalev_M_V; Sadovskiy_M_E; Yurkov_A_A; Krachkovskiy_D_Y; Orlova_A_S; Sinelnikov_P_M; Nikiforov_S_A; Vityaz_V_S;;
 
-sc_node_role_relation->rrel_head_of_department;rrel_associate_professor;rrel_senior_lecturer;rrel_assistant;;
+sc_node_role_relation->rrel_associate_professor;rrel_senior_lecturer;rrel_assistant;;
 
 rrel_associate_professor
 =>nrel_main_idtf:

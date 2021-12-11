@@ -1,4 +1,4 @@
-sc_node_norole_relation-> nrel_code_of_specialization;;
+//sc_node_norole_relation-> nrel_code_of_specialization;;
 nrel_code_of_specialization=>nrel_main_idtf:
 [код специализация*](*<-lang_ru;;*);
 [code of specialization*](*<-lang_en;;*);; 

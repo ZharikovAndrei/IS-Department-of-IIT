@@ -1,11 +1,41 @@
 political_science
-=>nrel_main_idtf: [Политология] (*<-lang_ru;;*);
-=>nrel_main_idtf: [Political science] (*<-lang_en;;*);
+=>nrel_main_idtf:
+	[Политология] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[Political science] (* <-lang_en;; *);
+=>nrel_abbreviation:[Политология];
 <=nrel_trains: the_department_of_humanities;
-<=nrel_class_number: 2(* <-positive_number;;*);
-<=nrel_semester_number: 4(* <-positive_number;;*);
+<=nrel_class_number: 1(* <-positive_number;;*);
+<=nrel_semester_number: 1(* <-positive_number;;*);
 <=nrel_lecture_hours: 34(*<-positive_number;;*);
 <=nrel_practice_hours: 34(*<-positive_number;;*);
 <=nrel_component: concept_mandatory_component;
 <=nrel_cycle: concept_tsikl_sotsialno_gumanitarnykh_distsiplin;;
+political_science
+<=nrel_realisation_of_learning_activity:
+	lectures_on_political_science
+	(*=>nrel_main_idtf:
+[Политология.лекции] (* <-lang_ru;; *);;
+=>nrel_planned_hours:34;;
+	=>nrel_realisation_of_intermediate_control:
+		control_work;;
+		<-lecture;;
+	*);
+	pactical_on_political_science
+	(*=>nrel_main_idtf:
+[Политология.практика] (* <-lang_ru;; *);;
+=>nrel_planned_hours:34;;
+	=>nrel_realisation_of_intermediate_control:
+		control_work;;
+		<-practical_lesson;;
+	*);
+=>nrel_realisation_of_final_certification: test;
+<-rrel_subject:
+	...
+	(*
+	->rrel_realisation_of_learning_activity: lecture; practical_lesson;;
+	<-nrel_taught_subject;;
+	->rrel_teacher: Kurakevich_N_I;;
+	*);
+=>nrel_term: 1;;
 

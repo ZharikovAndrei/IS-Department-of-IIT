@@ -1,5 +1,5 @@
-sc_node_norole_relation->rrel_head_of_the_learning_lab;;
-rrel_head_of_the_learning_lab=>nrel_main_idtf:
+rrel_head_of_the_learning_lab
+=>nrel_main_idtf:
 	[заведующий учебной лабораторией'] (* <-lang_ru;; *);
 
 

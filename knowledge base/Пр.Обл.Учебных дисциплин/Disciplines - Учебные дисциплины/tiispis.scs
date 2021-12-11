@@ -1,0 +1,49 @@
+technologies_and_tools_of_intelligent_systems_design
+=> nrel_main_idtf:
+	[Технологии и инструментальные средства проектирования интеллектуальных систем] (* <-lang_ru;; *);
+=> nrel_main_idtf:
+	[Technologies and tools of intelligent systems design] (* <-lang_en;; *);
+=> nrel_abbreviation:[ТиИСПИС];
+
+<- special_subject;
+<- multiplicity_of_subjects_taught_in_the_7_term_specialty_artificial_intelligence_4_year_education;
+<= nrel_realisation_of_learning_activity:
+			laboratory_work_on_technologies_and_tools_of_intelligent_systems_design
+			(*=> nrel_main_idtf:
+		[Технологии и инструментальные средства проектирования интеллектуальных систем.лабораторный практикум] (* <-lang_ru;; *);;
+		=> nrel_planned_hours: 32;;
+			=> nrel_realisation_of_intermediate_control:
+				protection_of_laboratory_work;;
+				<- laboratory_work;;
+			*);
+			pactical_on_technologies_and_tools_of_intelligent_systems_design
+			(*=>nrel_main_idtf:
+		[Технологии и инструментальные средства проектирования интеллектуальных систем.практика] (* <-lang_ru;; *);;
+		=> nrel_planned_hours: 16;;
+			=> nrel_realisation_of_intermediate_control:
+				control_work;;
+				<- practical_lesson;;
+			*);
+			lectures_on_technologies_and_tools_of_intelligent_systems_design
+			(*=> nrel_main_idtf:
+		[Технологии и инструментальные средства проектирования интеллектуальных систем.лекции] (* <-lang_ru;; *);;
+		=> nrel_planned_hours: 32;;
+			=> nrel_realisation_of_intermediate_control:
+				control_work;;
+				<- lecture;;
+			*);
+			
+=> nrel_realisation_of_final_certification: exam;
+<- rrel_subject:
+	...
+	(*
+	-> rrel_realisation_of_learning_activity: lecture; laboratory_work; practical_lesson;;
+	<- nrel_taught_subject;;
+	-> rrel_teacher: Zakharov_V_V;;
+	*);
+=> nrel_term: 7;
+=> nrel_realisation_of_intermediate_control: course_project_on_technologies_and_tools_of_intelligent_systems_design;;
+		
+course_project_on_technologies_and_tools_of_intelligent_systems_design
+=> nrel_main_idtf:
+	[Курсовой проект по ТиИСПИС] (* <-lang_ru;; *);;

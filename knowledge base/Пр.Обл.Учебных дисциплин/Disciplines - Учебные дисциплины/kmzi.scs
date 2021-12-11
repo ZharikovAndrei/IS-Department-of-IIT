@@ -1,4 +1,4 @@
-kmzi
+cryptographic_methods_of_information_protection
 =>nrel_main_idtf:
 	[Криптографические методы защиты информации] (* <-lang_ru;; *);
 =>nrel_main_idtf:
@@ -10,7 +10,7 @@ kmzi
 <-multiplicity_of_subjects_taught_in_the_9_term_specialty_artificial_intelligence_specialization_intelligent_computer_technology_of_information_security;
 
 <=nrel_realisation_of_learning_activity:
-		lectures_on_kmzi
+		lectures_on_cryptographic_methods_of_information_protection
 			(*=>nrel_main_idtf:
 			[Криптографические методы защиты информации.лекции] (* <-lang_ru;; *);;
 			=>nrel_planned_hours:48;;
@@ -18,7 +18,7 @@ kmzi
 				control_work;;
 				<-lecture;;
 			*);
-		laboratory_work_on_kmzi
+		laboratory_work_on_cryptographic_methods_of_information_protection
 			(*=>nrel_main_idtf:
 			[Криптографические методы защиты информации.лабораторный практикум] (* <-lang_ru;; *);;
 			=>nrel_planned_hours:32;;
@@ -39,16 +39,16 @@ kmzi
 			(*
 				->rrel_realisation_of_learning_activity: laboratory_work;;
 				<-nrel_taught_subject;;
-				->rrel_teacher: Lobkovskaya_Nadejda_Pavlovna;;
+				->rrel_teacher: Zakharov_V_V;;
 			*);
-=>nrel_term: 9;
+=>nrel_term: 1;
 
 <=nrel_trains: the_department_of_intelligent_informational_technologies;
-<=nrel_class_number: 5(* <-positive_number;;*);
-<=nrel_semester_number: 9(* <-positive_number;;*);
+<=nrel_class_number: 4(* <-positive_number;;*);
+<=nrel_semester_number: 8(* <-positive_number;;*);
 <=nrel_lecture_hours: 48(*<-positive_number;;*);
 <=nrel_labs_hours: 32(*<-positive_number;;*);
 <=nrel_cycle: concept_tsikl_distsiplin_spetsializatsii;;
 
-Zakharov_V_V=>nrel_can_teach_subject:kmzi;;
-Zakharov_V_V<=nrel_educational_work:laboratory_work_on_kmzi;;
+Zakharov_V_V=>nrel_can_teach_subject:cryptographic_methods_of_information_protection;;
+Zakharov_V_V<=nrel_educational_work:laboratory_work_on_cryptographic_methods_of_information_protection;;

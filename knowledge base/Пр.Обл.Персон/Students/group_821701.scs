@@ -1,0 +1,38 @@
+group_821701
+=>nrel_main_idtf:
+	[группа 821701] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[group 821701] (* <-lang_en;; *);
+->rrel_head_group:...;
+=>nrel_subdividing : ...(*->subgroup_821701_1;;
+			->subgroup_821701_2;;*);
+
+->Brunner_Anton_Yuorevich;
+->Butrin_Stanislav_Vladimirovich;
+->Vasilevskiy_Vladislav_Sergeevich;
+->Vitushko_Lidiya_Dmitrievna;
+->Gontarev_Ilya_Vladimirovich;
+->Gritsel_Ivan_Aleksandrovich;
+->Dikusar_Vladimir_Yuorevich;
+->Zhirko_Mariya_Sergeevna;
+->Zalesskii_Aleksandr_Andreevich;
+->Zubritskaya_Valeriya_Gennadevna;
+->Kazachenko_Evgenii_Aleksandrovich;
+->Kisilev_Nikita_Vladimirovich;
+->Klevtsevich_Aleksandr_Vladimirovich;
+->Kozlov_Kirill_Aleksandrovich;
+->Kozlovskii_Pavel_Aleksandrovich;
+->Makarchuk_Egor_Valerevich;
+->Nikipelov_Aleksei_Dmitrtievich;
+->Pashkevich_Vladislav_Leonidovich;
+->Pozhivilko_Petr_Sergeevich;
+->Samoylov_Ilya_Andreevich;
+->Snezhko_Vladmimir_Alekseevich;
+->Timofeenko_Denis_Aleksandrovich;
+->Titko_Vadim_Sergeevich;
+->Triputko_Roman_Viktorovich;
+->Hmelinko_Pavel_Sergeevich;
+->Holupko_Aleksandr_Andreevich;
+->Chudopal_Aleksandr_Sergevich;
+->Schadrin_Evgenii_Dmitrievich;
+->Yasinskii_Nikita_Maksimovich;;
