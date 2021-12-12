@@ -1,3 +1,24 @@
 multiply_head_of_department
-=>nrel_main_idtf:
-[заведующий кафедрой](*<-lang_ru;;*);;
+=> nrel_main_idtf: [заведующий кафедрой](*<-lang_ru;;*);;
+
+=> nrel_main_idtf: [head of department](*<-lang_en;;*);;
+
+
+<- sc_node_role_relation;
+
+=> nrel_first_domain: concept_department;
+=> nrel_second_domain: person;
+
+=> nrel_definitional_domain: ...(* <=nrel_combination:...(*->person ;; -> concept_department;;*) ;;
+				*);
+
+-> rrel_key_sc_element:
+	...  
+	(* 
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> [Отношение, связывающее кафедру ВУЗ`а или НИУ`а с персоной, занимающей должность заведующего на этой кафедре.] (* <-lang_ru;; *);; 
+		*);;
+	*);;

@@ -1,3 +1,19 @@
 sc_node_role_relation->rrel_software_engineer;;
 rrel_software_engineer=>nrel_main_idtf:
 	[инженер-программист'] (* <-lang_ru;; *);;
+
+<- sc_node_role_relation;
+
+=> nrel_first_domain: concept_department;
+=> nrel_second_domain: person;
+
+-> rrel_key_sc_element:
+	...
+	(*
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> [Отношение, связывающее кафедру учреждения образования с персоной, осуществляющей Разработку и внедрение методов автоматизации программирования, типовых и стандартных программ в этом учреждении образования.] (* <-lang_ru;; *);;
+		*);;
+	*);;
