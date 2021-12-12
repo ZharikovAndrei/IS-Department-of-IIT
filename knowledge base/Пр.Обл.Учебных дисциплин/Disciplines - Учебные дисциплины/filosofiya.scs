@@ -2,6 +2,7 @@ philosophy
 =>nrel_main_idtf: [Философия] (*<-lang_ru;;*);
 =>nrel_main_idtf: [Philosophy] (*<-lang_en;;*);
 =>nrel_abbreviation:[Философия];
+=>nrel_abbreviation:[filosofiya];
 <=nrel_trains: the_department_of_philosophy;
 <=nrel_class_number: 2(* <-positive_number;;*);
 <=nrel_semester_number: 3(* <-positive_number;;*);

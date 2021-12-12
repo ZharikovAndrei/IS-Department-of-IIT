@@ -1,6 +1,7 @@
 theory_of_probability_and_mathematical_statistics
 =>nrel_main_idtf: [Теория вероятностии и математическая статистика] (*<-lang_ru;;*);
 =>nrel_main_idtf: [Theory of probability and mathematical statistics] (*<-lang_en;;*);
+=>nrel_abbreviation:[tvims];
 <=nrel_trains: the_department_of_numerical_methods_and_programming;
 <=nrel_class_number: 3(* <-positive_number;;*);
 <=nrel_semester_number: 5(* <-positive_number;;*);
@@ -10,7 +11,7 @@ theory_of_probability_and_mathematical_statistics
 <=nrel_cycle: concept_tsikl_estesstvenno_nauchnykh_distsiplin;;
 theory_of_probability_and_mathematical_statistics
 <=nrel_realisation_of_learning_activity:
-	lectures_on_tvims
+	lectures_on_theory_of_probability_and_mathematical_statistics
 	(*=>nrel_main_idtf:
 [Теория вероятностии и математическая статистика.лекции] (* <-lang_ru;; *);;
 =>nrel_planned_hours:34;;
@@ -18,7 +19,7 @@ theory_of_probability_and_mathematical_statistics
 		control_work;;
 		<-lecture;;
 	*);
-	pactical_on_tvims
+	pactical_on_theory_of_probability_and_mathematical_statistics
 	(*=>nrel_main_idtf:
 [Теория вероятностии и математическая статистика.практика] (* <-lang_ru;; *);;
 =>nrel_planned_hours:26;;
@@ -32,7 +33,7 @@ theory_of_probability_and_mathematical_statistics
 	(*
 	->rrel_realisation_of_learning_activity: lecture; practical_lesson;;
 	<-nrel_taught_subject;;
-	->rrel_teacher: Bazhenov_I_V;;
+	->rrel_teacher: Bazhenova_I_V;;
 	->rrel_teacher: Sharonova_E_I;;
 	*);
 =>nrel_term: 5;;

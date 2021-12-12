@@ -4,6 +4,7 @@ semantic_technology_knowledge_bases_design
 =>nrel_main_idtf:
 	[Semantic technology knowledge bases design] (* <-lang_en;; *);
 =>nrel_abbreviation:[СТПБЗ];
+=>nrel_abbreviation:[stpbz];
 <-multiplicity_of_subjects_taught_in_the_1_term_magistracy_specialty_teoretical_foundations_of_computer_science;
 
 <-special_subject;

@@ -3,6 +3,7 @@ history
 	[История] (* <-lang_ru;; *);
 =>nrel_main_idtf:
 	[History] (* <-lang_en;; *);
+=>nrel_abbreviation:[istoria];
 =>nrel_abbreviation:[История];
 <=nrel_trains: the_department_of_humanities;
 <=nrel_class_number: 1(* <-positive_number;;*);
@@ -21,7 +22,7 @@ history
 		control_work;;
 		<-lecture;;
 	*);
-	pactical_on_political_history
+	pactical_on_history
 	(*=>nrel_main_idtf:
 [История.практика] (* <-lang_ru;; *);;
 =>nrel_planned_hours:34;;

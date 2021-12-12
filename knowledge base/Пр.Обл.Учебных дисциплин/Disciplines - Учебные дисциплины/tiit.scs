@@ -4,6 +4,7 @@ traditional_and_intelligent_information_technology
 =>nrel_main_idtf:
 	[Traditional and intelligent information technology] (* <-lang_en;; *);
 =>nrel_abbreviation:[ТиИИТ];
+=>nrel_abbreviation:[tiit];
 
 <-special_subject;
 <=nrel_subdividing:

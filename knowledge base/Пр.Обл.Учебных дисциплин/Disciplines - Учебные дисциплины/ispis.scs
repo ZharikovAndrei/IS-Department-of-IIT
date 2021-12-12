@@ -4,6 +4,7 @@ tools_of_intelligent_systems_design
 =>nrel_main_idtf:
 	[Tools of intelligent systems design] (* <-lang_en;; *);
 =>nrel_abbreviation:[ИСПИС];
+=>nrel_abbreviation:[ispis];
 
 <-special_subject;
 <-multiplicity_of_subjects_taught_in_the_1_term_magistracy_specialty_artificial_intelligence;

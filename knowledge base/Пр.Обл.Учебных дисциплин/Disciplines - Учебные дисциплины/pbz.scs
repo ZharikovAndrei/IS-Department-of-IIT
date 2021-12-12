@@ -4,6 +4,7 @@ knowledge_bases_design
 =>nrel_main_idtf:
 	[Knowledge bases design] (* <-lang_en;; *);
 =>nrel_abbreviation:[ПБЗ];
+=>nrel_abbreviation:[pbz];
 
 <-special_subject;
 <=nrel_subdividing:

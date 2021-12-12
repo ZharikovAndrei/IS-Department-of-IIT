@@ -4,6 +4,7 @@ cryptographic_methods_of_information_protection
 => nrel_main_idtf: 
 		[Cryptographic methods of information protection of intelligent information systems] (*<-lang_en;;*);
 => nrel_abbreviation: [КМЗИИИС];
+=>nrel_abbreviation:[kmziiis];
 
 <= nrel_subdividing:
 			cryptographic_methods_of_information_protection_part_1

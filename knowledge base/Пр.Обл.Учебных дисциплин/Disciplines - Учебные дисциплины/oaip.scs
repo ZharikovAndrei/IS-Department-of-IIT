@@ -1,6 +1,7 @@
 basics_of_algorithms_and_programming
 =>nrel_main_idtf: [Основы алгоритмизации и программирования] (*<-lang_ru;;*);
 =>nrel_main_idtf: [Basics of algorithms and programming] (*<-lang_en;;*);
+=>nrel_abbreviation:[oaip];
 <=nrel_trains: the_department_of_numerical_methods_and_programming;
 <=nrel_class_number: 1(* <-positive_number;;*);
 <=nrel_semester_number: 1(* <-positive_number;;*);

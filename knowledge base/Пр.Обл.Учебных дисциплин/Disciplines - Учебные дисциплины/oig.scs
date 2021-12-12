@@ -1,6 +1,7 @@
 fundamentals_of_Engineering_Graphics
 =>nrel_main_idtf: [Основы инженерной графики] (*<-lang_ru;;*);
 =>nrel_main_idtf: [Fundamentals of Engineering Graphics] (*<-lang_en;;*);
+=>nrel_abbreviation:[oig];
 <=nrel_trains: the_department_of_engineering_graphics;
 <=nrel_class_number: 2(* <-positive_number;;*);
 <=nrel_semester_number: 4(* <-positive_number;;*);
@@ -34,5 +35,5 @@ fundamentals_of_Engineering_Graphics
 	<-nrel_taught_subject;;
 	->rrel_teacher: Maramygina_T_A;;
 	*);
-=>nrel_term: 1;;
+=>nrel_term: 4;;
 

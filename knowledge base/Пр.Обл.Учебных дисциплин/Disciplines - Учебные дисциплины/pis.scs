@@ -4,6 +4,7 @@ applied_intelligent_systems
 =>nrel_main_idtf:
 	[Applied intelligent systems] (* <-lang_en;; *);
 =>nrel_abbreviation:[ПИС];
+=>nrel_abbreviation:[pis];
 
 <-special_subject;
 <=nrel_subdividing:

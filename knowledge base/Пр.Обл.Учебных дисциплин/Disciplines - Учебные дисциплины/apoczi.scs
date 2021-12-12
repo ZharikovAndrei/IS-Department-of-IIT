@@ -4,6 +4,7 @@ hardware_and_software_of_networks_and_information_protection
 =>nrel_main_idtf:
 	[Hardware and software of networks and information protection] (* <-lang_en;; *);
 =>nrel_abbreviation:[АиПОСиЗИ];
+=>nrel_abbreviation:[apoczi];
 
 <-special_subject;
 <=nrel_subdividing:

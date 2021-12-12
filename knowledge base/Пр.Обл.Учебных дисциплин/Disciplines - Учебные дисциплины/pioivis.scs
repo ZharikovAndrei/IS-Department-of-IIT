@@ -1,0 +1,113 @@
+representation_and_processing_of_information_in_intelligent_systems
+=>nrel_main_idtf:
+	[Представление и обработка информации в интеллектуальных системах] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[Representation and processing of information in intelligent systems] (* <-lang_en;; *);
+=>nrel_abbreviation:[ПиОИвИС];
+=>nrel_abbreviation:[pioivis];
+
+<-special_subject;
+<=nrel_subdividing:
+		representation_and_processing_of_information_in_intelligent_systems_4_year_1
+			(*
+			<-multiplicity_of_subjects_taught_in_the_1_term_specialty_artificial_intelligence_4_year_education;;
+			<=nrel_realisation_of_learning_activity:
+
+				lectures_on_representation_and_processing_of_information_in_intelligent_systems_4_year_2
+					(*=>nrel_main_idtf:
+	[Представление и обработка информации в интеллектуальных системах.часть 1.лекции] (* <-lang_ru;; *);;
+	=>nrel_planned_hours:26;;
+					=>nrel_realisation_of_intermediate_control:
+						control_work;
+						current_survey;;
+					*);
+				laboratory_work_on_representation_and_processing_of_information_in_intelligent_systems_4_year_2
+				(*=>nrel_main_idtf:
+[Представление и обработка информации в интеллектуальных системах.часть 1.лабораторный практикум] (* <-lang_ru;; *);;
+=>nrel_planned_hours:16;;
+					=>nrel_realisation_of_intermediate_control:
+						protection_of_laboratory_work;;
+					*);;
+
+			=>nrel_realisation_of_final_certification:
+				test;;
+			<-rrel_subject:
+				...
+				(*
+				->rrel_realisation_of_learning_activity:
+					lecture;
+					laboratory_work;
+					consultation;;
+				<-nrel_taught_subject;;
+				->rrel_teacher: Davydenko_I_T;;
+				*);;
+			=>nrel_term: 1;;
+			*);
+		representation_and_processing_of_information_in_intelligent_systems_4_year_2
+		(*
+			<-multiplicity_of_subjects_taught_in_the_2_term_specialty_artificial_intelligence_4_year_education;;
+			<=nrel_realisation_of_learning_activity:
+
+				lectures_on_representation_and_processing_of_information_in_intelligent_systems_4_year_2
+					(*=>nrel_main_idtf:
+	[Представление и обработка информации в интеллектуальных системах.часть 2.лекции] (* <-lang_ru;; *);;
+	=>nrel_planned_hours:26;;
+					=>nrel_realisation_of_intermediate_control:
+					control_work;
+					current_survey;;
+					*);
+				laboratory_work_on_representation_and_processing_of_information_in_intelligent_systems_4_year_2
+					(*=>nrel_main_idtf:
+	[Представление и обработка информации в интеллектуальных системах.часть 2.лабораторный практикум] (* <-lang_ru;; *);;
+	=>nrel_planned_hours:16;;
+					=>nrel_realisation_of_intermediate_control:
+						protection_of_laboratory_work;;
+					*);
+				practical_lesson_on_representation_and_processing_of_information_in_intelligent_systems_4_year_2
+					(*=>nrel_main_idtf:
+	[Представление и обработка информации в интеллектуальных системах.часть 2.практические занятия] (* <-lang_ru;; *);;
+	=>nrel_planned_hours:8;;
+						=>nrel_realisation_of_intermediate_control:
+						control_work;
+						protection_of_design_work;;
+					*);;
+
+			=>nrel_realisation_of_final_certification:
+				exam;;
+			<-rrel_subject:
+				...
+				(*
+				->rrel_realisation_of_learning_activity: lecture;;
+				<-nrel_taught_subject;;
+				->rrel_teacher:  Golenkov_V_V;;
+				*);;
+			<-rrel_subject:
+				...
+				(*
+				->rrel_realisation_of_learning_activity:
+					practical_lesson;
+					laboratory_work;;
+				<-nrel_taught_subject;;
+				->rrel_teacher:  Shunkevich_D_V;;
+				*);;
+			=>nrel_term: 2;;
+			*);
+
+<=nrel_trains: the_department_of_intelligent_informational_technologies;
+<=nrel_class_number: 1(* <-positive_number;;*);
+<=nrel_semester_number: 1(* <-positive_number;;*);
+<=nrel_semester_number: 2(* <-positive_number;;*);
+<=nrel_component: concept_optionally_component;
+<=nrel_cycle: concept_tsikl_estesstvenno_nauchnykh_distsiplin;;
+
+
+representation_and_processing_of_information_in_intelligent_systems_4_year_1
+=>nrel_main_idtf:
+	[Представление и обработка информации в интеллектуальных системах.часть 1.] (* <-lang_ru;; *);;
+representation_and_processing_of_information_in_intelligent_systems_4_year_2
+=>nrel_main_idtf:
+	[Представление и обработка информации в интеллектуальных системах.часть 2.] (* <-lang_ru;; *);;
+
+
+Golenkov_V_V<=nrel_educational_work:lectures_on_representation_and_processing_of_information_in_intelligent_systems_4_year_2;;
+Shunkevich_D_V<=nrel_educational_work:laboratory_work_on_representation_and_processing_of_information_in_intelligent_systems_4_year_2;practical_lesson_on_representation_and_processing_of_information_in_intelligent_systems_4_year_2;;

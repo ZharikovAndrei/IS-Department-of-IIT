@@ -1,6 +1,7 @@
 intelligent_tutoring_systems
 =>nrel_main_idtf: [Интеллектуальные обучающие системы] (*<-lang_ru;;*);
 =>nrel_main_idtf: [Intelligent tutoring systems] (*<-lang_en;;*);
+=>nrel_abbreviation:[ios];
 <=nrel_trains: the_department_of_intelligent_informational_technologies;
 <=nrel_class_number: 4(* <-positive_number;;*);
 <=nrel_semester_number: 8(* <-positive_number;;*);

@@ -2,6 +2,7 @@ intelligent_geoinformation_systems_and_technologies
 => nrel_main_idtf: [Интеллектуальные геоинформационные системы и технологии] (*<-lang_ru;;*);
 => nrel_main_idtf: [Intelligent geoinformation systems and technologies] (*<-lang_en;;*);
 => nrel_abbreviation: [ИГСиТ];
+=>nrel_abbreviation:[igsit];
 
 <= nrel_subdividing:
 			intelligent_geoinformation_systems_and_technologies_part_1

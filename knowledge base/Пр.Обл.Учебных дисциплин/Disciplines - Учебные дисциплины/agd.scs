@@ -4,6 +4,7 @@ analysis_of_geoinformation_data
 =>nrel_main_idtf:
 	[Analysis of geoinformation data] (* <-lang_en;; *);
 =>nrel_abbreviation:[АГД];
+=>nrel_abbreviation:[agd];
 
 <-subject_of_specialization;
 <-special_subject;

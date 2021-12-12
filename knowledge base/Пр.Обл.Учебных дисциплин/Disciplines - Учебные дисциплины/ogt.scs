@@ -4,6 +4,7 @@ fundamentals_of_geoinformation_technologies
 =>nrel_main_idtf:
 	[Fundamentals of geoinformation technologies] (* <-lang_en;; *);
 =>nrel_abbreviation:[ОГТ];
+=>nrel_abbreviation:[ogt];
 
 <-subject_of_specialization;
 <-special_subject;

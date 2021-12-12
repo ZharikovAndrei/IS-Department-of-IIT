@@ -4,6 +4,7 @@ cryptographic_methods_of_information_protection
 =>nrel_main_idtf:
 	[Cryptographic methods of information protection] (* <-lang_en;; *);
 =>nrel_abbreviation:[КМЗИ];
+=>nrel_abbreviation:[kmzi];
 
 <-subject_of_specialization;
 <-special_subject;

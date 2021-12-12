@@ -4,6 +4,7 @@ technologies_and_tools_of_intelligent_systems_design
 => nrel_main_idtf:
 	[Technologies and tools of intelligent systems design] (* <-lang_en;; *);
 => nrel_abbreviation:[ТиИСПИС];
+=>nrel_abbreviation:[tiispis];
 
 <- special_subject;
 <- multiplicity_of_subjects_taught_in_the_7_term_specialty_artificial_intelligence_4_year_education;
