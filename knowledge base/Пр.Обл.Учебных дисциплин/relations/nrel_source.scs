@@ -1,0 +1,19 @@
+nrel_source 
+
+<-sc_node_norole_relation;
+
+ => nrel_main_idtf:[источник*] (* <-lang_ru;; *);
+ => nrel_main_idtf:[source*] (* <-lang_en;; *);
+	
+->rrel_key_sc_element:
+	...
+	(*
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> [Система, компоненты которой обеспечивают размещение, доступность и целостность информации в соответствии с ее назначением.] (* <-lang_ru;; *);;
+		*);;
+	*);
+	
+=>nrel_first_domain: information;;

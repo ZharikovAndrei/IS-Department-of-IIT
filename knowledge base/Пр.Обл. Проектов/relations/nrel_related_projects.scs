@@ -1,0 +1,19 @@
+nrel_related_projects 
+
+=> nrel_main_idtf:[смежные проекты*] (* <-lang_ru;; *);
+=> nrel_main_idtf:[related projects*] (* <-lang_en;; *);
+
+<-sc_node_norole_relation;
+	
+->rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> [Проекты, управление которыми координируется для достижения преимуществ и степени управляемости, недоступных при управлении ими по отдельности.] (* <-lang_ru;; *);; 
+		*);;
+	*);
+	
+=>nrel_first_domain: project;;
