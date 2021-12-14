@@ -1,0 +1,24 @@
+nrel_main_students 
+
+=> nrel_main_idtf:[основные студенты*] (* <-lang_ru;; *);
+=> nrel_main_idtf:[the main students*] (* <-lang_en;; *);
+
+<-sc_node_norole_relation;
+	
+->rrel_key_sc_element:
+	...  
+	(* 
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(* 
+		-> [Студенты, которые участвуют в проекте.] (* <-lang_ru;; *);; 
+		*);;
+	*);
+	
+=>nrel_definitional_domain: ...(* <=nrel_combination: ...(* -> person;;
+                                                            -> project;;*);;
+                                *);
+	
+=>nrel_first_domain: project;
+=>nrel_second_domain: person;;

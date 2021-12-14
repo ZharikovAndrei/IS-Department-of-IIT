@@ -1,15 +1,25 @@
 nrel_publication
+<- sc_node_norole_relation;
 
-<-sc_node_norole_relation;
+=> nrel_main_idtf: [публикация*](*<-lang_ru;;*);
+=> nrel_main_idtf: [publication*](*<-lang_en;;*);
 
-=>nrel_main_idtf:
-[ публикации* ](*<-lang_ru;;*);
+=> nrel_first_domain: concept_writing;
+=> nrel_second_domain: research_field;
 
-<=nrel_first_domain:person;
-
-<=nrel_second_domain:research_field;;
-
-
+-> rrel_key_sc_element:
+	...
+	(*
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> [Отношение, связывающее научную область и произведение, опубликованное в этой научной области.] (* <-lang_ru;; *);;
+		*);;
+	*);;
+	
+	
 research_field
-=>nrel_main_idtf:
-[ научная облать ](*<-lang_ru;;*);;
+=>nrel_main_idtf: [научная область] (*<-lang_ru;;*);
+=>nrel_main_idtf: [research field] (*<-lang_ru;;*);;
+

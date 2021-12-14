@@ -1,6 +1,7 @@
 human_life_safety
 =>nrel_main_idtf: [Безопасность жизнедетельнсти человека] (*<-lang_ru;;*);
 =>nrel_main_idtf: [Human life safety] (*<-lang_en;;*);
+=>nrel_abbreviation:[bzch];
 <=nrel_trains: the_department_of_ecology;
 <=nrel_class_number: 2(* <-positive_number;;*);
 <=nrel_semester_number: 3(* <-positive_number;;*);
@@ -41,7 +42,7 @@ human_life_safety
 	(*
 	->rrel_realisation_of_learning_activity: lecture; practical_lesson; laboratory_work;;
 	<-nrel_taught_subject;;
-	->rrel_teacher: Albut_A_A;;
+	->rrel_teacher: Kamlach_P_V;;
 	*);
 =>nrel_term: 1;;
 

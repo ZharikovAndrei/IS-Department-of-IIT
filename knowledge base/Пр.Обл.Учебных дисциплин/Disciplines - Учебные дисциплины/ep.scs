@@ -1,6 +1,7 @@
 electronic_devices
 =>nrel_main_idtf: [Электронные приборы] (*<-lang_ru;;*);
 =>nrel_main_idtf: [Electronic devices] (*<-lang_en;;*);
+=>nrel_abbreviation:[ep];
 <=nrel_trains: the_department_of_electronics;
 <=nrel_class_number: 3(* <-positive_number;;*);
 <=nrel_semester_number: 6(* <-positive_number;;*);

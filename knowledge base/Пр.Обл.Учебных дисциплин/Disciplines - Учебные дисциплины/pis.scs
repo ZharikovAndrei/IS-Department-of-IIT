@@ -1,18 +1,19 @@
-pis
+applied_intelligent_systems
 =>nrel_main_idtf:
 	[Прикладные интеллектуальные системы] (* <-lang_ru;; *);
 =>nrel_main_idtf:
 	[Applied intelligent systems] (* <-lang_en;; *);
 =>nrel_abbreviation:[ПИС];
+=>nrel_abbreviation:[pis];
 
 <-special_subject;
 <=nrel_subdividing:
-		pis_4_year
+		applied_intelligent_systems_4_year
 			(*
 			<-multiplicity_of_subjects_taught_in_the_8_term_specialty_artificial_intelligence_4_year_education;;
 			<=nrel_realisation_of_learning_activity:
 
-				lectures_on_pis_4_year
+				lectures_on_applied_intelligent_systems_4_year
 				(*=>nrel_main_idtf:
 	[Прикладные интеллектуальные системы по 4-летней программе.лекции] (* <-lang_ru;; *);;
 	=>nrel_planned_hours:48;;
@@ -20,7 +21,7 @@ pis
 					control_work;;
 					<-lecture;;
 				*);
-				laboratory_work_on_pis_4_year
+				laboratory_work_on_applied_intelligent_systems_4_year
 					(*=>nrel_main_idtf:
 	[Прикладные интеллектуальные системы по 4-летней программе.лабораторный практикум] (* <-lang_ru;; *);;
 	=>nrel_planned_hours:32;;
@@ -46,7 +47,7 @@ pis
 <=nrel_component: concept_mandatory_component;
 <=nrel_cycle: concept_tsikl_obshcheprofessionalnykh_i_spetsialnykh_distsiplin;;
 
-pis_4_year
+applied_intelligent_systems_4_year
 =>nrel_main_idtf:
 	[Прикладные интеллектуальные системы по 4-летней программе] (* <-lang_ru;; *);;
 

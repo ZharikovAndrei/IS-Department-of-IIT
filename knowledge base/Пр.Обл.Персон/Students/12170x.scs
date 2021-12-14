@@ -94,8 +94,8 @@ Chvilev_Ilya_Aleksandrovich => nrel_main_idtf:[Чвилёв Илья Алекс�
 Shalygin_Andrei_Olegovich <- student; <-person; <-ui_user;;
 Shalygin_Andrei_Olegovich => nrel_main_idtf:[Шалыгин Андрей Олегович] (* <-lang_ru;; *);;
 
-Yakovinchik_Gleb_Ivanovich <- student; <-person; <-ui_user;;
-Yakovinchik_Gleb_Ivanovich => nrel_main_idtf:[Яковинич Глеб Иванович] (* <-lang_ru;; *);;
+Yakovinich_Gleb_Ivanovich <- student; <-person; <-ui_user;;
+Yakovinich_Gleb_Ivanovich => nrel_main_idtf:[Яковинич Глеб Иванович] (* <-lang_ru;; *);;
 
 
 
@@ -114,7 +114,7 @@ Vitkovskaya_Sofiya_Igorevna <- student; <-person; <-ui_user;;
 Vitkovskaya_Sofiya_Igorevna => nrel_main_idtf:[Витковская София Игоревна] (* <-lang_ru;; *);;
 
 Golushko_Daniil_Sergeevich <- student; <-person; <-ui_user;;
-Golushko_Daniil_Sergeevich; => nrel_main_idtf:[Голушко Даниил Сергеевич] (* <-lang_ru;; *);;
+Golushko_Daniil_Sergeevich => nrel_main_idtf:[Голушко Даниил Сергеевич] (* <-lang_ru;; *);;
 
 Gotin_Ignat_Andreevich <- student; <-person; <-ui_user;;
 Gotin_Ignat_Andreevich => nrel_main_idtf:[Готин Игнат Андреевич] (* <-lang_ru;; *);;
@@ -125,7 +125,7 @@ Dyakov_Ivan_Vladimirovich => nrel_main_idtf:[Дьяков Иван Владим�
 Zalomov_Roman_Andreevich <- student; <-person; <-ui_user;;
 Zalomov_Roman_Andreevich => nrel_main_idtf:[Заломов Роман Андреевич] (* <-lang_ru;; *);;
 
-Zamorenov_Nikolai_Evgeneevich<- student; <-person; <-ui_user;;
+Zamorenov_Nikolai_Evgeneevich <- student; <-person; <-ui_user;;
 Zamorenov_Nikolai_Evgeneevich => nrel_main_idtf:[Заморёнов Николай Евгеньевич] (* <-lang_ru;; *);;
 
 Zaharov_Pavel_Yurevich <- student; <-person; <-ui_user;;
@@ -188,7 +188,7 @@ Tselikov_Fedor_Vyacheslavovich => nrel_main_idtf:[Целиков Фёдор Вя
 Shakin_Ivan_Valerevich <- student; <-person; <-ui_user;;
 Shakin_Ivan_Valerevich => nrel_main_idtf:[Шакин Иван Валерьевич] (* <-lang_ru;; *);;
 
-Shalygin_Matvei_Ivanovich<- student; <-person; <-ui_user;;
+Shalygin_Matvei_Ivanovich <- student; <-person; <-ui_user;;
 Shalygin_Matvei_Ivanovich => nrel_main_idtf:[Шалыгин Матвей Иванович] (* <-lang_ru;; *);;
 
 Yushkevich_Vladislav_Sergeevich <- student; <-person; <-ui_user;;
@@ -219,7 +219,7 @@ Voitkus_Stanislav_Aleksandrovich => nrel_main_idtf:[Войткус Станис�
 Gavrik_Vladislav_Denisovich <- student; <-person; <-ui_user;;
 Gavrik_Vladislav_Denisovich => nrel_main_idtf:[Гаврик Владислав Денисович] (* <-lang_ru;; *);;
 
-Gapanovich_Kirill_Vadimovich<- student; <-person; <-ui_user;;
+Gapanovich_Kirill_Vadimovich <- student; <-person; <-ui_user;;
 Gapanovich_Kirill_Vadimovich => nrel_main_idtf:[Гапанович Кирилл Вадимович] (* <-lang_ru;; *);;
 
 Gorshkova_Elizaveta_Alekseevna <- student; <-person; <-ui_user;;
@@ -241,7 +241,7 @@ Levkov_Gleb_Aleksandrovich <- student; <-person; <-ui_user;;
 Levkov_Gleb_Aleksandrovich => nrel_main_idtf:[Левков Глеб Александрович] (* <-lang_ru;; *);;
 
 Miroshnichenko_Konstantin_Dmitrievich <- student; <-person; <-ui_user;;
-vMiroshnichenko_Konstantin_Dmitrievich => nrel_main_idtf:[Мирошниченко Константин Дмитриевич] (* <-lang_ru;; *);;
+Miroshnichenko_Konstantin_Dmitrievich => nrel_main_idtf:[Мирошниченко Константин Дмитриевич] (* <-lang_ru;; *);;
 
 Moshchuk_Vladimir_Yurevich <- student; <-person; <-ui_user;;
 Moshchuk_Vladimir_Yurevich => nrel_main_idtf:[Мощук Владимир Юрьевич] (* <-lang_ru;; *);;

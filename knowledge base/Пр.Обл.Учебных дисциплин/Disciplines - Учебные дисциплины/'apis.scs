@@ -4,6 +4,7 @@ language_processors_of_intelligent_systems
 =>nrel_main_idtf:
 	[Language processors of intelligent systems] (* <-lang_en;; *);
 =>nrel_abbreviation:[ЯПИС];
+=>nrel_abbreviation:[apis];
 
 <-special_subject;
 

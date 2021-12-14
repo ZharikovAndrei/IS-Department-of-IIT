@@ -1,6 +1,7 @@
 higher_mathematics
 =>nrel_main_idtf: [Высшая математика] (*<-lang_ru;;*);
 =>nrel_main_idtf: [Higher mathematics] (*<-lang_en;;*);
+=>nrel_abbreviation:[vm];
 <=nrel_trains: the_department_of_higher_mathematics;
 <=nrel_class_number: 1(* <-positive_number;;*);
 <=nrel_class_number: 2(* <-positive_number;;*);

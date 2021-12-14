@@ -1,6 +1,7 @@
 occupational_safety_and_health
 =>nrel_main_idtf: [Охрана труда] (*<-lang_ru;;*);
 =>nrel_main_idtf: [Occupational safety and health] (*<-lang_en;;*);
+=>nrel_abbreviation:[ot];
 <=nrel_trains: the_department_of_engineering_psychology_and_ergonomics;
 <=nrel_class_number: 4(* <-positive_number;;*);
 <=nrel_semester_number: 8(* <-positive_number;;*);

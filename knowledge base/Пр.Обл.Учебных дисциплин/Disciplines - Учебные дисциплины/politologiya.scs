@@ -4,6 +4,7 @@ political_science
 =>nrel_main_idtf:
 	[Political science] (* <-lang_en;; *);
 =>nrel_abbreviation:[Политология];
+=>nrel_abbreviation:[politologiya];
 <=nrel_trains: the_department_of_humanities;
 <=nrel_class_number: 1(* <-positive_number;;*);
 <=nrel_semester_number: 1(* <-positive_number;;*);

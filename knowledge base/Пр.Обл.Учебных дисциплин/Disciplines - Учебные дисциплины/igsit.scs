@@ -1,0 +1,84 @@
+intelligent_geoinformation_systems_and_technologies
+=> nrel_main_idtf: [Интеллектуальные геоинформационные системы и технологии] (*<-lang_ru;;*);
+=> nrel_main_idtf: [Intelligent geoinformation systems and technologies] (*<-lang_en;;*);
+=> nrel_abbreviation: [ИГСиТ];
+=>nrel_abbreviation:[igsit];
+
+<= nrel_subdividing:
+			intelligent_geoinformation_systems_and_technologies_part_1
+				(*
+				<- multiplicity_of_subjects_taught_in_the_4_term_specialty_artificial_intelligence_4_year_education;;
+				<= nrel_realisation_of_learning_activity:
+					lectures_on_intelligent_geoinformation_systems_and_technologies_part_1
+						(*=> nrel_main_idtf:
+						[Интеллектуальные геоинформационные системы и технологии.часть 1.лекции] (* <-lang_ru;; *);;
+						=> nrel_planned_hours: 32;;
+						=> nrel_realisation_of_intermediate_control:
+							control_work;;
+							<- lecture;;
+						*);
+					laboratory_work_on_intelligent_geoinformation_systems_and_technologies_part_1
+					(*=> nrel_main_idtf:
+					[Интеллектуальные геоинформационные системы и технологии.часть 1.лабораторный практикум] (* <-lang_ru;; *);;
+					=> nrel_planned_hours: 16;;
+					=> nrel_realisation_of_intermediate_control:
+						protection_of_laboratory_work;
+						control_work;;
+					<- laboratory_work;;
+					*);;
+				=> nrel_realisation_of_final_certification:
+					test;;
+				<- rrel_subject:
+					...
+					(*
+					-> rrel_realisation_of_learning_activity:
+						lecture;
+						laboratory_work;;
+					<- nrel_taught_subject;;
+					-> rrel_teacher:  Samodumkin_S_A;;
+					*);;
+				=> nrel_term: 4;;
+				*);
+			intelligent_geoinformation_systems_and_technologies_part_2
+			(*
+				<- multiplicity_of_subjects_taught_in_the_5_term_specialty_artificial_intelligence_4_year_education;;
+				<= nrel_realisation_of_learning_activity:
+
+					lectures_on_intelligent_geoinformation_systems_and_technologies_part_2
+					(*=> nrel_main_idtf:
+					[Интеллектуальные геоинформационные системы и технологии.часть 2.лекции] (* <-lang_ru;; *);;
+					=> nrel_planned_hours: 28;;
+						=> nrel_realisation_of_intermediate_control:
+							control_work;;
+							<- lecture;;
+					*);
+					laboratory_work_on_intelligent_geoinformation_systems_and_technologies_part_2
+					(*=> nrel_main_idtf:
+					[Интеллектуальные геоинформационные системы и технологии.часть 2.лабораторный практикум] (* <- lang_ru;; *);;
+					=> nrel_planned_hours: 20;;
+					=> nrel_realisation_of_intermediate_control:
+						protection_of_laboratory_work;
+						control_work;;
+					<- laboratory_work;;
+					*);;
+				=> nrel_realisation_of_final_certification:
+					exam;;
+				<- rrel_subject:
+					...
+					(*
+					-> rrel_realisation_of_learning_activity:
+						lecture;
+						laboratory_work;;
+					<- nrel_taught_subject;;
+					-> rrel_teacher:  Samodumkin_S_A;;
+					*);;
+				=> nrel_term: 5;;
+				*);;
+				
+intelligent_geoinformation_systems_and_technologies_part_1
+=> nrel_main_idtf:
+	[Интеллектуальные геоинформационные системы и технологии.часть 1] (* <-lang_ru;; *);;
+	
+intelligent_geoinformation_systems_and_technologies_part_2
+=> nrel_main_idtf:
+	[Интеллектуальные геоинформационные системы и технологии.часть 2] (* <-lang_ru;; *);;

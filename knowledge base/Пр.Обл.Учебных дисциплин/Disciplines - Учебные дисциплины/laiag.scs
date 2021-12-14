@@ -1,0 +1,41 @@
+linear_algebra_and_analytic_geometry
+=> nrel_main_idtf: [Линейная алгебра и аналитическая геометрия] (*<-lang_ru;;*);
+=> nrel_main_idtf: [Linear algebra and analytic geometry] (*<-lang_en;;*);
+=> nrel_abbreviation: [ЛАиАГ];
+=>nrel_abbreviation:[laiag];
+
+<= nrel_trains: the_department_of_higher_mathematics;
+<= nrel_class_number: 1(* <-positive_number;;*);
+<= nrel_semester_number: 1(* <-positive_number;;*);
+<= nrel_cycle: concept_tsikl_estesstvenno_nauchnykh_distsiplin;;
+
+linear_algebra_and_analytic_geometry
+<= nrel_realisation_of_learning_activity:
+	lectures_on_linear_algebra_and_analytic_geometry
+	(*=> nrel_main_idtf:
+				[Линейная алгебра и аналитическая геометрия.лекции] (* <-lang_ru;; *);;
+	=> nrel_planned_hours: 34;;
+	=> nrel_realisation_of_intermediate_control:
+		control_work;;
+		<- lecture;;
+	*);
+	pactical_on_linear_algebra_and_analytic_geometry
+	(* => nrel_main_idtf:
+				[Линейная алгебра и аналитическая геометрия.практика] (* <-lang_ru;; *);;
+	=> nrel_planned_hours: 34;;
+	=> nrel_realisation_of_intermediate_control:
+		control_work;
+		current_survey;;
+		<- practical_lesson;;
+	*);
+=> nrel_realisation_of_final_certification: exam;
+<- rrel_subject:
+	...
+	(*
+	-> rrel_realisation_of_learning_activity: 
+			lecture; 
+			practical_lesson;;
+	<- nrel_taught_subject;;
+	-> rrel_teacher: Tsegelnik_V_V;;
+	*);
+=> nrel_term: 1;;

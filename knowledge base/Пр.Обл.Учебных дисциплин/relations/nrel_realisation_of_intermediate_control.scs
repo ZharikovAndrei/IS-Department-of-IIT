@@ -1,0 +1,26 @@
+nrel_realisation_of_intermediate_control
+
+=>nrel_main_idtf:
+	[реализация промежуточного контроля*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+	[realisation of intermediate control*] (* <-lang_en;; *);
+	
+<-sc_node_norole_relation;
+	
+->rrel_key_sc_element:
+	...
+	(*
+	<- sc_explanation;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> [Организация проведения промежуточного контроля.] (* <-lang_ru;; *);;
+		*);;
+	*);
+
+=>nrel_definitional_domain: ...(* <=nrel_combination: ...(* -> control;;
+                                                            -> concept_educational_establishment;;*);;
+                                *);
+	
+=>nrel_first_domain: control;
+=>nrel_second_domain: concept_educational_establishment;;

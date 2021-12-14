@@ -1,0 +1,91 @@
+mathematical_analysis
+=> nrel_main_idtf: [Математический анализ] (*<-lang_ru;;*);
+=> nrel_main_idtf: [Mathematical analysis] (*<-lang_en;;*);
+=> nrel_idtf: [Матанализ] (*<-lang_ru;;*);
+=> nrel_abbreviation: [МА];
+=>nrel_abbreviation:[ma];
+
+<= nrel_trains: the_department_of_higher_mathematics;
+<= nrel_class_number: 1(* <-positive_number;;*);
+<= nrel_semester_number: 1(* <-positive_number;;*);
+<= nrel_semester_number: 2(* <-positive_number;;*);
+<= nrel_cycle: concept_tsikl_estesstvenno_nauchnykh_distsiplin;
+
+<= nrel_subdividing:
+			mathematical_analysis_part_1
+				(*
+				<= nrel_realisation_of_learning_activity:
+					lectures_on_mathematical_analysis_part_1
+						(*=> nrel_main_idtf:
+						[Математический анализ.1 часть.лекции] (* <-lang_ru;; *);;
+						=> nrel_planned_hours: 34;;
+						=> nrel_realisation_of_intermediate_control:
+							control_work;
+							current_survey;;
+							<- lecture;;
+						*);
+					practical_lesson_on_mathematical_analysis_part_1
+					(*=> nrel_main_idtf:
+					[Математический анализ.часть 1.практические занятия] (* <-lang_ru;; *);;
+					=> nrel_planned_hours:34;;
+					=> nrel_realisation_of_intermediate_control:
+						protection_of_practical_work;
+						control_work;;
+					<- practical_lesson;;
+					*);;
+				=> nrel_realisation_of_final_certification:
+					test;;
+				<- rrel_subject:
+					...
+					(*
+					-> rrel_realisation_of_learning_activity:
+						lecture;
+						practical_lesson;;
+					<- nrel_taught_subject;;
+					-> rrel_teacher:  Tsegelnik_V_V;;
+					*);;
+				=> nrel_term: 1;;
+				*);
+			mathematical_analysis_part_2
+			(*
+				<= nrel_realisation_of_learning_activity:
+
+					lectures_on_mathematical_analysis_part_2
+					(*=> nrel_main_idtf:
+					[Математический анализ.часть 2.лекции] (* <-lang_ru;; *);;
+					=> nrel_planned_hours: 48;;
+						=> nrel_realisation_of_intermediate_control:
+							control_work;
+							current_survey;;
+							<- lecture;;
+					*);
+					practical_lesson_on_mathematical_analysis_part_2
+					(*=> nrel_main_idtf:
+					[Математический анализ.часть 2.практические занятия] (* <- lang_ru;; *);;
+					=> nrel_planned_hours: 60;;
+					=> nrel_realisation_of_intermediate_control:
+						protection_of_practical_work;
+						control_work;;
+					<- practical_lesson;;
+					*);;
+				=> nrel_realisation_of_final_certification:
+					exam;;
+				<- rrel_subject:
+					...
+					(*
+					-> rrel_realisation_of_learning_activity:
+						lecture;
+						practical_lesson;;
+					<- nrel_taught_subject;;
+					-> rrel_teacher:  Tsegelnik_V_V;;
+					*);;
+				=> nrel_term: 2;;
+				*);;
+
+mathematical_analysis_part_1
+=> nrel_main_idtf:
+	[Математический анализ.часть 1] (* <-lang_ru;; *);;
+	
+mathematical_analysis_part_2
+=> nrel_main_idtf:
+	[Математический анализ.часть 2] (* <-lang_ru;; *);;

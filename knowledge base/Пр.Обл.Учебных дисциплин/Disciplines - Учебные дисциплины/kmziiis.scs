@@ -1,0 +1,85 @@
+cryptographic_methods_of_information_protection
+=> nrel_main_idtf: 
+		[Криптографические методы защиты информации интеллектуальных информационных систем] (*<-lang_ru;;*);
+=> nrel_main_idtf: 
+		[Cryptographic methods of information protection of intelligent information systems] (*<-lang_en;;*);
+=> nrel_abbreviation: [КМЗИИИС];
+=>nrel_abbreviation:[kmziiis];
+
+<= nrel_subdividing:
+			cryptographic_methods_of_information_protection_part_1
+				(*
+				<- multiplicity_of_subjects_taught_in_the_6_term_specialty_artificial_intelligence_4_year_education;;
+				<= nrel_realisation_of_learning_activity:
+					lectures_on_cryptographic_methods_of_information_protection_part_1
+						(*=> nrel_main_idtf:
+						[Криптографические методы защиты информации интеллектуальных информационных систем.часть 1.лекции] (* <-lang_ru;; *);;
+						=> nrel_planned_hours: 34;;
+						=> nrel_realisation_of_intermediate_control:
+							control_work;;
+						<- lecture;;
+						*);
+					laboratory_work_on_cryptographic_methods_of_information_protection_part_1
+					(*=> nrel_main_idtf:
+					[Криптографические методы защиты информации интеллектуальных информационных систем.часть 1.лабораторный практикум] (* <-lang_ru;; *);;
+						=> nrel_planned_hours: 24;;
+						=> nrel_realisation_of_intermediate_control:
+							protection_of_laboratory_work;;
+						<- laboratory_work;;
+					*);;
+				=> nrel_realisation_of_final_certification:
+					test;;
+				<- rrel_subject:
+					...
+					(*
+					-> rrel_realisation_of_learning_activity:
+						lecture;
+						laboratory_work;;
+					<- nrel_taught_subject;;
+					-> rrel_teacher:  Shunkevich_D_V;;
+					*);;
+				=> nrel_term: 6;;
+				*);
+				
+			cryptographic_methods_of_information_protection_part_2
+			(*
+				<- multiplicity_of_subjects_taught_in_the_7_term_specialty_artificial_intelligence_4_year_education;;
+				<= nrel_realisation_of_learning_activity:
+
+					lectures_on_cryptographic_methods_of_information_protection_part_2
+					(*=> nrel_main_idtf:
+					[Криптографические методы защиты информации интеллектуальных информационных систем.часть 2.лекции] (* <-lang_ru;; *);;
+					=> nrel_planned_hours: 32;;
+						=> nrel_realisation_of_intermediate_control:
+							control_work;;
+						<- lecture;;
+					*);
+					laboratory_work_on_cryptographic_methods_of_information_protection_part_2
+					(*=> nrel_main_idtf:
+					[Криптографические методы защиты информации интеллектуальных информационных систем.часть 2.лабораторный практикум] (* <- lang_ru;; *);;
+					=> nrel_planned_hours: 48;;
+						=> nrel_realisation_of_intermediate_control:
+							protection_of_laboratory_work;;
+						<- laboratory_work;;
+					*);;
+				=> nrel_realisation_of_final_certification:
+					exam;;
+				<- rrel_subject:
+					...
+					(*
+					-> rrel_realisation_of_learning_activity:
+						lecture;
+						laboratory_work;;
+					<- nrel_taught_subject;;
+					-> rrel_teacher:  Shunkevich_D_V;;
+					*);;
+				=> nrel_term: 7;;
+				*);;
+				
+cryptographic_methods_of_information_protection_part_1
+=> nrel_main_idtf:
+	[Криптографические методы защиты информации интеллектуальных информационных систем.часть 1] (* <-lang_ru;; *);;
+	
+cryptographic_methods_of_information_protection_part_2
+=> nrel_main_idtf:
+	[Криптографические методы защиты информации интеллектуальных информационных систем.часть 2] (* <-lang_ru;; *);;

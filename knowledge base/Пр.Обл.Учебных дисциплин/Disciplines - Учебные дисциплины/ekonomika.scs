@@ -1,6 +1,7 @@
 economy
 =>nrel_main_idtf: [Экономика] (*<-lang_ru;;*);
 =>nrel_main_idtf: [Economy] (*<-lang_en;;*);
+=>nrel_abbreviation:[ekonomika];
 <=nrel_trains: the_department_of_economics; 
 <=nrel_class_number: 2(* <-positive_number;;*);
 <=nrel_semester_number: 4(* <-positive_number;;*);

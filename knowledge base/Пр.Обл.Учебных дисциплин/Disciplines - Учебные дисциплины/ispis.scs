@@ -1,15 +1,16 @@
-ispis
+tools_of_intelligent_systems_design
 =>nrel_main_idtf:
 	[Инструментальные средства проектирования интеллектуальных систем] (* <-lang_ru;; *);
 =>nrel_main_idtf:
 	[Tools of intelligent systems design] (* <-lang_en;; *);
 =>nrel_abbreviation:[ИСПИС];
+=>nrel_abbreviation:[ispis];
 
 <-special_subject;
 <-multiplicity_of_subjects_taught_in_the_1_term_magistracy_specialty_artificial_intelligence;
 
 <=nrel_realisation_of_learning_activity:
-laboratory_work_on_ispis
+laboratory_work_on_tools_of_intelligent_systems_design
 	(*=>nrel_main_idtf:
 [Инструментальные средства проектирования интеллектуальных систем.лабораторный практикум] (* <-lang_ru;; *);;
 =>nrel_planned_hours:32;;
@@ -17,7 +18,7 @@ laboratory_work_on_ispis
 		protection_of_laboratory_work;;
 	<-laboratory_work	;;
 	*);
-lectures_on_ispis
+lectures_on_tools_of_intelligent_systems_design
 	(*=>nrel_main_idtf:
 [Инструментальные средства проектирования интеллектуальных систем.лекции] (* <-lang_ru;; *);;
 =>nrel_planned_hours:48;;

@@ -1,15 +1,16 @@
-itpis
+innovative_design_technology_of_intelligent_systems
 =>nrel_main_idtf:
 	[Иновационные технологии проектирования интеллектуальных систем] (* <-lang_ru;; *);
 =>nrel_main_idtf:
 	[Innovative design technology of intelligent systems] (* <-lang_en;; *);
 =>nrel_abbreviation:[ИТПИС];
+=>nrel_abbreviation:[itpis];
 
 <-special_subject;
 <-multiplicity_of_subjects_taught_in_the_1_term_magistracy_specialty_artificial_intelligence;
 
 <=nrel_realisation_of_learning_activity:
-	laboratory_work_on_itpis
+	laboratory_work_on_innovative_design_technology_of_intelligent_systems
 	(*=>nrel_main_idtf:
 [Иновационные технологии проектирования интеллектуальных систем.лабораторный практикум] (* <-lang_ru;; *);;
 =>nrel_planned_hours:32;;
@@ -17,7 +18,7 @@ itpis
 		protection_of_laboratory_work;;
 	<-laboratory_work	;;
 	*);
-	lectures_on_itpis
+	lectures_on_innovative_design_technology_of_intelligent_systems
 	(*=>nrel_main_idtf:
 [Иновационные технологии проектирования интеллектуальных систем.лекции] (* <-lang_ru;; *);;
 =>nrel_planned_hours:48;;

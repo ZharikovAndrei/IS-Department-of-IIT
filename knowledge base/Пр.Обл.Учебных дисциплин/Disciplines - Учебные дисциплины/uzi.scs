@@ -4,6 +4,7 @@ information_security_management
 =>nrel_main_idtf:
 	[Information security management] (* <-lang_en;; *);
 =>nrel_abbreviation:[УЗИ];
+=>nrel_abbreviation:[uzi];
 
 <-subject_of_specialization;
 <-special_subject;
